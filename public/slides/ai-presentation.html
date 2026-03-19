@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大模型核心知识及应用</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0f0f1a;
+            --fg: #ffffff;
+            --muted: #a0a0b0;
+            --accent: #00d4ff;
+            --accent-light: rgba(0,212,255,0.12);
+            --card: rgba(255,255,255,0.05);
+            --border: rgba(255,255,255,0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(--fg); font-family: 'Outfit', 'Noto Sans SC', sans-serif; }
+
+        .slides-container { height: 100vh; height: 100dvh; overflow: hidden; position: relative; }
+        .slides-wrapper { transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+
+        .slide {
+            height: 100vh; height: 100dvh; overflow: hidden;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            padding: clamp(20px, 5vw, 60px); position: relative;
+            background: var(--bg);
+        }
+
+        .slide::before {
+            content: ''; position: absolute; inset: 0;
+            background:
+                radial-gradient(ellipse at 10% 90%, var(--accent-light) 0%, transparent 45%),
+                radial-gradient(ellipse at 90% 10%, rgba(0,212,255,0.06) 0%, transparent 35%),
+                linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 50px 50px, 50px 50px;
+            pointer-events: none; z-index: 0;
+        }
+
+        .content { position: relative; z-index: 1; width: 100%; max-width: 1100px; margin: 0 auto; }
+        .center { text-align: center; }
+
+        .tag { font-size: clamp(11px, 1.2vw, 14px); letter-spacing: 0.15em; text-transform: uppercase;
+               color: var(--muted); margin-bottom: clamp(20px, 4vh, 40px); opacity: 0; animation: fadeUp 0.8s ease forwards; }
+
+        h1 { font-family: 'Outfit', 'Noto Sans SC', sans-serif; font-size: clamp(34px, 6vw, 72px);
+             font-weight: 700; line-height: 1.12; margin-bottom: clamp(10px, 2vh, 20px);
+             opacity: 0; animation: fadeUp 0.8s ease 0.15s forwards; }
+        h1 .accent-text { color: var(--accent); }
+
+        h2 { font-family: 'Outfit', 'Noto Sans SC', sans-serif; font-size: clamp(28px, 4.5vw, 52px);
+             font-weight: 500; margin-bottom: clamp(15px, 3vh, 30px); opacity: 0; animation: fadeUp 0.8s ease forwards; }
+
+        h3 { font-size: clamp(18px, 2.3vw, 28px); font-weight: 500; margin-bottom: clamp(10px, 2vh, 20px);
+             color: var(--accent); opacity: 0; animation: fadeUp 0.8s ease 0.1s forwards; }
+
+        .subtitle { font-size: clamp(16px, 2vw, 24px); color: var(--muted); font-weight: 400;
+                    margin-bottom: clamp(20px, 4vh, 40px); opacity: 0; animation: fadeUp 0.8s ease 0.3s forwards; }
+
+        .divider { display: flex; align-items: center; justify-content: center; gap: clamp(10px, 2vw, 18px);
+                   margin: clamp(20px, 3vh, 35px) auto; opacity: 0; animation: fadeUp 0.7s ease 0.4s forwards; }
+        .divider-line { width: clamp(25px, 4vw, 50px); height: 1px; background: linear-gradient(90deg, transparent, var(--accent), transparent); }
+        .divider-dot { width: 5px; height: 5px; background: var(--accent); border-radius: 50%; }
+
+        .meta { font-size: clamp(12px, 1.2vw, 15px); color: var(--muted); letter-spacing: 0.08em;
+                opacity: 0; animation: fadeUp 0.8s ease 0.5s forwards; }
+
+        .two-columns { display: flex; gap: clamp(30px, 5vw, 55px); align-items: flex-start; }
+        .two-columns > div { flex: 1; }
+        .three-columns { display: flex; gap: clamp(20px, 3vw, 35px); }
+        .three-columns > div { flex: 1; }
+
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: clamp(8px, 1vw, 10px);
+                padding: clamp(18px, 2.8vw, 28px); margin-bottom: clamp(10px, 2vh, 18px);
+                opacity: 0; animation: fadeUp 0.8s ease forwards; }
+        .card h4 { font-family: 'Outfit', 'Noto Sans SC', sans-serif; font-size: clamp(16px, 1.7vw, 21px);
+                   font-weight: 500; margin-bottom: clamp(8px, 1vh, 12px); }
+        .card p { font-size: clamp(14px, 1.3vw, 17px); color: var(--muted); line-height: 1.65; }
+        .card .accent { color: var(--accent); font-weight: 600; }
+
+        .list { list-style: none; text-align: left; }
+        .list li { font-size: clamp(15px, 1.5vw, 19px); padding: clamp(8px, 1.4vh, 14px) 0;
+                   border-bottom: 1px solid var(--border); opacity: 0; animation: fadeUp 0.7s ease forwards; }
+        .list li:last-child { border-bottom: none; }
+        .list li span { color: var(--accent); margin-right: 12px; }
+
+        .timeline { display: flex; justify-content: space-between; align-items: flex-start;
+                    gap: clamp(15px, 2vw, 28px); margin-top: clamp(20px, 4vh, 40px); }
+        .timeline-item { flex: 1; text-align: center; opacity: 0; animation: fadeUp 0.8s ease forwards; }
+        .timeline-dot { width: clamp(10px, 1.3vw, 14px); height: clamp(10px, 1.3vw, 14px);
+                        background: var(--accent); border-radius: 50%; margin: 0 auto clamp(10px, 2vh, 18px); }
+        .timeline-item h4 { font-size: clamp(14px, 1.5vw, 19px); font-weight: 500; margin-bottom: 6px; }
+        .timeline-item p { font-size: clamp(12px, 1.1vw, 15px); color: var(--muted); }
+
+        /* Image Lightbox */
+        .lightbox-overlay { position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:10000;display:none;align-items:center;justify-content:center;cursor:zoom-out;backdrop-filter:blur(8px); }
+        .lightbox-overlay.active { display:flex; }
+        .lightbox-overlay img { max-width:90vw;max-height:90vh;border-radius:8px;box-shadow:0 0 40px rgba(0,0,0,0.5);animation:fadeUp 0.3s ease both; }
+        .zoomable { cursor:zoom-in;transition:transform 0.2s,box-shadow 0.2s; }
+        .zoomable:hover { transform:scale(1.03);box-shadow:0 0 20px rgba(0,212,255,0.15); }
+
+        .flow { display: flex; align-items: center; justify-content: center; gap: clamp(10px, 1.8vw, 18px); flex-wrap: wrap; }
+        .flow-box { background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+                    padding: clamp(12px, 1.8vw, 18px); font-size: clamp(13px, 1.3vw, 17px);
+                    opacity: 0; animation: fadeUp 0.7s ease forwards; }
+        .flow-arrow { color: var(--accent); font-size: clamp(18px, 1.8vw, 24px);
+                      opacity: 0; animation: fadeIn 0.5s ease forwards; }
+
+        .tags { display: flex; flex-wrap: wrap; gap: clamp(8px, 1vw, 14px); justify-content: center;
+                margin-top: clamp(15px, 3vh, 28px); }
+        .tag-item { background: var(--accent-light); border: 1px solid rgba(0,212,255,0.3);
+                    border-radius: 20px; padding: clamp(6px, 0.9vw, 10px) clamp(12px, 1.8vw, 18px);
+                    font-size: clamp(12px, 1.2vw, 15px); opacity: 0; animation: scaleIn 0.5s ease forwards; }
+
+        .chapter-number { font-family: 'Outfit', 'Noto Sans SC', sans-serif;
+                          font-size: clamp(50px, 10vw, 110px); font-weight: 700; color: var(--accent);
+                          opacity: 0.12; position: absolute; top: clamp(20px, 5vh, 45px); left: clamp(20px, 5vw, 55px); }
+
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes scaleIn { from { opacity: 0; transform: scale(0.85); } to { opacity: 1; transform: scale(1); } }
+
+        .vendor-badge { display: inline-flex; align-items: center; gap: clamp(6px, 0.6vw, 10px); background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: clamp(6px, 0.8vw, 10px) clamp(14px, 1.6vw, 22px); font-size: clamp(12px, 1.2vw, 15px); color: var(--fg); opacity: 0; animation: fadeUp 0.5s ease forwards; white-space: nowrap; }
+        .vendor-dot { width: clamp(8px, 0.8vw, 10px); height: clamp(8px, 0.8vw, 10px); border-radius: 50%; flex-shrink: 0; }
+
+        /* Ecosystem Cards */
+        .eco-card { background: var(--card); border: 1px solid var(--border); border-radius: clamp(8px, 0.8vw, 10px); padding: clamp(14px, 1.8vw, 22px); opacity: 0; animation: fadeUp 0.6s ease forwards; }
+        .eco-icon-wrap { width: clamp(32px, 3vw, 40px); height: clamp(32px, 3vw, 40px); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: clamp(16px, 1.6vw, 20px); flex-shrink: 0; }
+        .eco-card-mini { background: var(--card); border: 1px solid var(--border); border-radius: clamp(6px, 0.6vw, 8px); padding: clamp(10px, 1vw, 14px); opacity: 0; animation: fadeUp 0.5s ease forwards; }
+        .eco-icon-sm { display: inline-flex; width: clamp(24px, 2.2vw, 30px); height: clamp(24px, 2.2vw, 30px); border-radius: 6px; align-items: center; justify-content: center; font-size: clamp(14px, 1.4vw, 18px); }
+        .eco-tags { display: flex; flex-wrap: wrap; gap: clamp(4px, 0.5vw, 8px); margin-bottom: clamp(8px, 1vh, 14px); }
+        .eco-tags span { background: rgba(255,255,255,0.04); border: 1px solid var(--border); border-radius: 14px; padding: clamp(3px, 0.4vw, 6px) clamp(8px, 1vw, 14px); font-size: clamp(11px, 1vw, 13px); color: var(--muted); white-space: nowrap; }
+        .eco-desc { font-size: clamp(12px, 1.1vw, 14px); color: var(--muted); line-height: 1.5; }
+        .eco-flow { display: flex; align-items: center; justify-content: center; gap: clamp(6px, 1vw, 12px); margin-bottom: clamp(8px, 1vh, 14px); flex-wrap: wrap; }
+        .eco-step { background: rgba(192,132,252,0.08); border: 1px solid rgba(192,132,252,0.25); border-radius: 16px; padding: clamp(5px, 0.6vw, 8px) clamp(10px, 1.2vw, 16px); display: flex; align-items: center; gap: 6px; font-size: clamp(12px, 1.1vw, 14px); white-space: nowrap; }
+        .eco-more { color: var(--accent); font-weight: 700; font-size: clamp(16px, 1.4vw, 20px); padding: clamp(3px, 0.4vw, 6px) clamp(8px, 1vw, 12px) !important; background: none !important; border: none !important; letter-spacing: 2px; }
+
+        /* Demo Slide */
+        .demo-search-box { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: clamp(8px, 1vw, 12px) clamp(12px, 1.4vw, 18px); display: flex; align-items: center; }
+        .demo-terminal { background: #0d0d18; border: 1px solid var(--border); border-radius: clamp(8px, 0.8vw, 10px); overflow: hidden; display: flex; flex-direction: column; }
+        .demo-terminal-header { display: flex; align-items: center; gap: 6px; padding: clamp(6px, 0.8vw, 10px) clamp(10px, 1.2vw, 16px); background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); }
+        .demo-terminal-body { padding: clamp(8px, 1vw, 14px); overflow-y: auto; flex: 1; font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: clamp(10px, 0.9vw, 13px); line-height: 1.55; color: var(--muted); }
+        .demo-terminal-body::-webkit-scrollbar { width: 4px; }
+        .demo-terminal-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+        .demo-section-title { color: var(--accent); font-weight: 600; margin-top: clamp(6px, 0.8vh, 10px); margin-bottom: 3px; }
+        .demo-tag { color: #86efac; }
+        .demo-key { color: #7dd3fc; }
+        .demo-val { color: #fbbf24; }
+        .demo-cursor { display: inline-block; width: 7px; height: 14px; background: var(--accent); animation: blink 0.8s step-end infinite; vertical-align: middle; margin-left: 2px; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        .demo-replay-btn { display: none; background: var(--card); border: 1px solid var(--accent); color: var(--accent); border-radius: 6px; padding: clamp(6px, 0.8vw, 10px) clamp(14px, 1.6vw, 22px); font-size: clamp(11px, 1vw, 13px); cursor: pointer; margin-top: clamp(8px, 1vh, 14px); align-self: center; font-family: 'Outfit', 'Noto Sans SC', sans-serif; transition: all 0.2s ease; }
+        .demo-replay-btn:hover { background: rgba(0,212,255,0.1); }
+
+        /* Code Block */
+        .code-block { background: #161625; border: 1px solid var(--border); border-radius: clamp(8px, 0.8vw, 10px); overflow: hidden; display: flex; flex-direction: column; height: 100%; min-height: 0; }
+        .code-header { display: flex; align-items: center; gap: 6px; padding: clamp(6px, 0.8vw, 10px) clamp(10px, 1.2vw, 16px); background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); }
+        .code-dot { width: 8px; height: 8px; border-radius: 50%; }
+        .code-filename { font-size: clamp(10px, 0.9vw, 13px); color: var(--muted); margin-left: 8px; font-family: 'Outfit', monospace; }
+        .code-pre { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: clamp(11px, 1vw, 14px); line-height: 1.6; padding: clamp(10px, 1.2vw, 16px); margin: 0; overflow: hidden; white-space: pre; color: var(--fg); }
+        .json-key { color: #7dd3fc; }
+        .json-str { color: #86efac; }
+        .json-num { color: #fbbf24; }
+        .json-bool { color: #c084fc; }
+        .json-punct { color: #64748b; }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation-duration: 0.01ms !important; }
+            .tag, h1, h2, h3, .subtitle, .divider, .meta, .card, .list li, .timeline-item, .flow-box, .flow-arrow, .tag-item { opacity: 1 !important; }
+        }
+
+        .nav-dots { position: fixed; right: clamp(15px, 2vw, 28px); top: 50%; transform: translateY(-50%);
+                    display: flex; flex-direction: column; gap: 10px; z-index: 100; }
+        .nav-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--border);
+                   cursor: pointer; transition: all 0.35s ease; }
+        .nav-dot.active { background: var(--accent); transform: scale(1.25); }
+        .nav-dot:hover { background: var(--accent); }
+
+        .slide-counter { position: fixed; bottom: clamp(15px, 2vh, 22px); right: clamp(15px, 2vw, 28px);
+                         font-size: clamp(11px, 1vw, 13px); color: var(--muted); letter-spacing: 0.05em; z-index: 100; }
+
+        .edit-hint { position: fixed; top: 15px; left: 15px; font-size: 11px; color: var(--muted);
+                     opacity: 0.5; z-index: 100; cursor: pointer; }
+
+        .slide-logo { position: fixed; top: clamp(12px, 2vh, 20px); right: clamp(12px, 2vw, 24px);
+                      height: clamp(22px, 3vh, 32px); width: auto; z-index: 100; opacity: 0.7;
+                      mix-blend-mode: screen; border-radius: 4px; }
+        .edit-hint:hover { opacity: 1; }
+        [contenteditable="true"] { outline: 2px solid var(--accent) !important; outline-offset: 4px; background: var(--accent-light); }
+
+        @media (max-width: 768px) {
+            .two-columns, .three-columns { flex-direction: column; }
+            .timeline { flex-direction: column; align-items: center; }
+            .timeline-item { width: 100%; }
+            .nav-dots { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="lightbox-overlay" id="lightbox" onclick="this.classList.remove('active')"><img id="lightboxImg" src=""></div>
+    <div class="slides-container">
+        <div class="slides-wrapper" id="slidesWrapper">
+            <!-- SLIDE 1: COVER -->
+            <div class="slide" data-slide="1">
+                <div class="content center">
+                    <p class="tag">内部分享</p>
+                    <h1>大模型<br><span class="accent-text">核心知识</span>及应用</h1>
+                    <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    <p class="subtitle">技术路线与成果分享</p>
+                    <p class="meta">2026年3月</p>
+                </div>
+            </div>
+
+            <!-- SLIDE 2: TOC -->
+            <div class="slide" data-slide="2">
+                <div class="content" style="display:flex;flex-direction:column;justify-content:center;height:100%">
+                    <div style="text-align:center;margin-bottom:clamp(20px,3vh,36px)">
+                        <h2 style="margin-bottom:6px;opacity:0;animation:fadeUp 0.5s ease 0.05s both">目录</h2>
+                        <div class="divider" style="justify-content:center"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    </div>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,4vw,60px);max-width:900px;margin:0 auto;width:100%">
+                        <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:clamp(20px,2.5vw,32px);opacity:0;animation:fadeUp 0.6s ease 0.15s both;border-top:2px solid var(--accent)">
+                            <div style="display:flex;align-items:center;gap:10px;margin-bottom:clamp(14px,1.8vh,20px)">
+                                <span style="display:inline-flex;align-items:center;justify-content:center;width:clamp(28px,2.5vw,36px);height:clamp(28px,2.5vw,36px);border-radius:50%;background:rgba(0,212,255,0.12);color:var(--accent);font-weight:700;font-size:clamp(14px,1.2vw,16px)">01</span>
+                                <span style="font-size:clamp(15px,1.4vw,18px);color:var(--fg);font-weight:700">大模型基础知识</span>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:clamp(8px,1vh,12px)">
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(0,212,255,0.04);border-radius:8px;border-left:3px solid var(--accent)">
+                                    <span style="color:var(--accent);font-size:clamp(12px,1vw,14px)">01</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">什么是大模型</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(0,212,255,0.04);border-radius:8px;border-left:3px solid var(--accent)">
+                                    <span style="color:var(--accent);font-size:clamp(12px,1vw,14px)">02</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">大模型是如何进行回复的呢</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(0,212,255,0.04);border-radius:8px;border-left:3px solid var(--accent)">
+                                    <span style="color:var(--accent);font-size:clamp(12px,1vw,14px)">03</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">大模型是怎么得到的？</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(0,212,255,0.04);border-radius:8px;border-left:3px solid var(--accent)">
+                                    <span style="color:var(--accent);font-size:clamp(12px,1vw,14px)">04</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">从 Chatbot 到 Agent</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:clamp(20px,2.5vw,32px);opacity:0;animation:fadeUp 0.6s ease 0.3s both;border-top:2px solid #6e44ff">
+                            <div style="display:flex;align-items:center;gap:10px;margin-bottom:clamp(14px,1.8vh,20px)">
+                                <span style="display:inline-flex;align-items:center;justify-content:center;width:clamp(28px,2.5vw,36px);height:clamp(28px,2.5vw,36px);border-radius:50%;background:rgba(110,68,255,0.12);color:#6e44ff;font-weight:700;font-size:clamp(14px,1.2vw,16px)">02</span>
+                                <span style="font-size:clamp(15px,1.4vw,18px);color:var(--fg);font-weight:700">传播大模型应用路线与成果分享</span>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:clamp(8px,1vh,12px)">
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">01</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">创作大脑</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">02</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">文思智能体平台</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">03</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">传播大脑 AI算法开放平台</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">04</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">媒资管理</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">05</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">生态建设</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">06</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">模型服务化管理</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:clamp(8px,1vw,14px);padding:clamp(8px,1vw,12px) clamp(12px,1.5vw,18px);background:rgba(110,68,255,0.04);border-radius:8px;border-left:3px solid #6e44ff">
+                                    <span style="color:#6e44ff;font-size:clamp(12px,1vw,14px)">07</span>
+                                    <span style="font-size:clamp(12px,1vw,14px);color:var(--fg)">AI 能力支撑</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHAPTER: 大模型核心知识 -->
+            <div class="slide" data-slide="3">
+                <span class="chapter-number">01</span>
+                <div class="content center">
+                    <h2>大模型<span class="accent-text">核心知识</span></h2>
+                    <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    <p class="subtitle">从基础原理到实战应用</p>
+                </div>
+            </div>
+            <!-- SLIDE: WHAT IS LLM -->
+            <div class="slide" data-slide="28" style="justify-content:flex-start;padding-top:clamp(16px,3vh,30px)">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;padding:10px clamp(24px,3.5vw,48px) 6px;color:var(--fg)">
+                    <div style="text-align:center;margin-bottom:clamp(4px,0.6vh,8px)">
+                        <p class="tag" style="animation-delay:0s">基础认知</p>
+                        <h2>什么是<span class="accent-text">大模型</span></h2>
+                        <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    </div>
+                    <p style="text-align:center;font-size:clamp(12px,1.1vw,15px);color:var(--muted);line-height:1.8;max-width:800px;margin:0 auto clamp(16px,2.5vh,28px)">
+                        大模型全称「<span class="accent">大语言模型</span>」（Large Language Model，简称 <span style="color:var(--accent);font-weight:600;">LLM</span>），基于 Transformer 框架沿 GPT 路线训练，通过海量文本数据学习语言规律。
+                    </p>
+
+                    <div style="display:flex;gap:clamp(12px,1.5vw,20px);margin-bottom:clamp(16px,2vh,24px)">
+                        <div class="card" style="flex:1;opacity:0;animation:fadeUp 0.6s ease 0.15s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="chatagent.png" style="width:100%;height:clamp(120px,14vh,180px);object-fit:cover;border-radius:6px;margin-bottom:8px" alt="Chat Agent">
+                            <h4 style="margin-bottom:4px">💬 Chat 对话</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">日常问答、写作、翻译、知识问答</p>
+                        </div>
+                        <div class="card" style="flex:1;opacity:0;animation:fadeUp 0.6s ease 0.25s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="aicoding.png" style="width:100%;height:clamp(120px,14vh,180px);object-fit:cover;border-radius:6px;margin-bottom:8px" alt="AI Coding">
+                            <h4 style="margin-bottom:4px">💻 AI Coding</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">代码生成、Debug、代码解释、重构</p>
+                        </div>
+                        <div class="card" style="flex:1;opacity:0;animation:fadeUp 0.6s ease 0.35s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="openclaw.png" style="width:100%;height:clamp(120px,14vh,180px);object-fit:cover;border-radius:6px;margin-bottom:8px" alt="OpenClaw">
+                            <h4 style="margin-bottom:4px">🦞 AI Agent</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">个人AI助理、自动化任务、多智能体协作</p>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;align-items:center;justify-content:center;gap:clamp(16px,3vw,40px);flex:1">
+                        <!-- 大模型 -->
+                        <div style="text-align:center;opacity:0;animation:fadeUp 0.7s ease 0.2s both">
+                            <div style="font-size:clamp(36px,4vw,56px);margin-bottom:8px">🤖</div>
+                            <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:clamp(12px,1.5vw,20px);min-width:clamp(100px,10vw,160px)">
+                                <div style="color:var(--accent);font-weight:700;font-size:clamp(14px,1.3vw,18px)">大模型</div>
+                                <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px);margin-top:4px">LLM</div>
+                            </div>
+                        </div>
+
+                        <!-- 箭头1 + 架构 -->
+                        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;opacity:0;animation:fadeIn 0.6s ease 0.6s both">
+                            <div style="color:var(--accent);font-size:clamp(10px,0.85vw,13px);font-weight:600;background:rgba(0,212,255,0.1);padding:3px 10px;border-radius:12px;border:1px solid rgba(0,212,255,0.2)">架构</div>
+                            <div style="font-size:clamp(20px,2.5vw,32px);color:var(--accent)">→</div>
+                        </div>
+
+                        <!-- Transformer -->
+                        <div style="text-align:center;opacity:0;animation:fadeUp 0.7s ease 0.8s both">
+                            <img src="transformer.png" style="width:clamp(80px,8vw,130px);height:clamp(80px,8vw,130px);object-fit:contain;border-radius:8px;margin-bottom:8px" alt="Transformer">
+                            <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:clamp(12px,1.5vw,20px);min-width:clamp(100px,10vw,160px)">
+                                <div style="color:var(--accent);font-weight:700;font-size:clamp(14px,1.3vw,18px)">Transformer</div>
+                                <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px);margin-top:4px">GPT 路线</div>
+                            </div>
+                        </div>
+
+                        <!-- 箭头2 + 来源 -->
+                        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;opacity:0;animation:fadeIn 0.6s ease 1.2s both">
+                            <div style="color:var(--accent);font-size:clamp(10px,0.85vw,13px);font-weight:600;background:rgba(0,212,255,0.1);padding:3px 10px;border-radius:12px;border:1px solid rgba(0,212,255,0.2)">来源</div>
+                            <div style="font-size:clamp(20px,2.5vw,32px);color:var(--accent)">→</div>
+                        </div>
+
+                        <!-- Attention Paper -->
+                        <div style="text-align:center;opacity:0;animation:fadeUp 0.7s ease 1.4s both">
+                            <img src="attention-paper.png" style="width:clamp(80px,8vw,130px);height:clamp(80px,8vw,130px);object-fit:contain;border-radius:8px;margin-bottom:8px" alt="Attention is All You Need">
+                            <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:clamp(12px,1.5vw,20px);min-width:clamp(100px,10vw,160px)">
+                                <div style="color:var(--accent);font-weight:700;font-size:clamp(14px,1.3vw,18px)">Attention Is All You Need</div>
+                                <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px);margin-top:4px">Google · 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE: TOKEN PREDICTION -->
+            <div class="slide" data-slide="25">
+                <div class="content">
+                    <div class="chapter-number">📝</div>
+                    <div class="tag">How LLM Works</div>
+                    <h2>大模型是如何进行<span class="accent-text">回复</span>的呢</h2>
+                    <p class="subtitle" style="margin-top:12px;font-size:0.85em;">大模型只会做一件事——就是做<span style="color:var(--accent);font-weight:600;">文字接龙</span>（预测下一个 Token）</p>
+                    <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+
+                    <div class="flow" style="margin-bottom:clamp(18px,3vh,32px)">
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.2s both">
+                            <div style="color:var(--accent);font-weight:600;margin-bottom:4px">📥 输入文本</div>
+                            <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px)">"今天天气真"</div>
+                        </div>
+                        <div class="flow-arrow" style="animation:fadeIn 0.5s ease 0.5s both">→</div>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.4s both">
+                            <div style="color:var(--accent);font-weight:600;margin-bottom:4px">✂️ 分词 Tokenize</div>
+                            <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px)">[今, 天, 天气, 真]</div>
+                        </div>
+                        <div class="flow-arrow" style="animation:fadeIn 0.5s ease 0.7s both">→</div>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.6s both">
+                            <div style="color:var(--accent);font-weight:600;margin-bottom:4px">🧠 模型推理</div>
+                            <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px)">Transformer 计算</div>
+                        </div>
+                        <div class="flow-arrow" style="animation:fadeIn 0.5s ease 0.9s both">→</div>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 1.0s both">
+                            <div style="color:var(--accent);font-weight:600;margin-bottom:4px">🔢 计算分数</div>
+                            <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px)">每个候选 token 打分</div>
+                        </div>
+                        <div class="flow-arrow" style="animation:fadeIn 0.5s ease 1.2s both">→</div>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 1.4s both;border-color:rgba(0,212,255,0.4)">
+                            <div style="color:var(--accent);font-weight:600;margin-bottom:4px">📊 概率分布</div>
+                            <div style="color:var(--muted);font-size:clamp(11px,0.9vw,13px)">Softmax 输出</div>
+                        </div>
+                    </div>
+
+                    <div style="background:var(--card);border:1px solid var(--border);border-radius:clamp(8px,0.8vw,10px);padding:clamp(14px,2vw,24px);opacity:0;animation:fadeUp 0.8s ease 1s both">
+                        <div style="font-size:clamp(13px,1.2vw,16px);margin-bottom:clamp(10px,1.5vh,16px);color:var(--muted)">每个候选词的概率预测：</div>
+                        <div id="tokenBars"></div>
+                    </div>
+
+                    <div style="text-align:center;margin-top:clamp(12px,2vh,20px);opacity:0;animation:fadeUp 0.7s ease 1.2s both">
+                        <span style="color:var(--muted);font-size:clamp(12px,1vw,14px)">按概率"摇骰子"随机选 → </span>
+                        <span style="color:var(--accent);font-weight:600;font-size:clamp(14px,1.2vw,17px)">概率越高的词越容易被选中</span>
+                        <span style="color:var(--muted);font-size:clamp(12px,1vw,14px)"> → 选到"好"后，拼入原文继续预测下一个…</span>
+                    </div>
+
+                    <div style="display:flex;gap:clamp(12px,2vw,24px);margin-top:clamp(14px,2.5vh,24px)">
+                        <div class="card" style="flex:1;animation:fadeUp 0.6s ease 1.3s both">
+                            <h4>🔑 核心原理</h4>
+                            <p>给定上下文，模型通过 <span class="accent">Self-Attention</span> 理解每个词之间的关系，最终输出一个<span class="accent">概率分布</span>，选择最可能的下一个 token</p>
+                        </div>
+                        <div class="card" style="flex:1;animation:fadeUp 0.6s ease 1.5s both">
+                            <h4>📖 Token 词表</h4>
+                            <p>Token（词元）是能够表达语言中完整语义的最小单元。每个模型都有自己的词表，就像人类的<span class="accent">"词典"</span>一样。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE: HOW LLM IS BUILT -->
+            <div class="slide" data-slide="28" style="justify-content:flex-start;padding-top:clamp(16px,3vh,30px)">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;padding:10px clamp(24px,3.5vw,48px) 6px;color:var(--fg)">
+                    <div style="text-align:center;margin-bottom:clamp(4px,0.6vh,8px)">
+                        <p class="tag" style="animation-delay:0s">训练原理</p>
+                        <h2 style="font-size:clamp(20px,2.6vw,32px);margin:clamp(2px,0.3vh,4px) 0;animation-delay:0.05s">大模型是<span class="accent-text">怎么得到的</span>？</h2>
+                        <p class="subtitle" style="font-size:clamp(10px,0.9vw,12px);color:var(--muted);animation-delay:0.1s">从海量数据到智能对话 · 语言模型的训练三步曲</p>
+                    </div>
+
+                    <!-- ① 学习来源 -->
+                    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(6px,1vw,12px);margin-bottom:clamp(6px,1vh,10px)">
+                        <div class="card" style="animation-delay:0.15s;text-align:center;border-top:2px solid rgba(0,212,255,0.5)">
+                            <div style="font-size:clamp(24px,2.5vw,32px);margin-bottom:clamp(4px,0.5vh,8px)">🌐</div>
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(13px,1.1vw,15px);color:var(--accent)">互联网数据</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">爬取海量网页，每个句子都是教材</p>
+                            <div style="margin-top:clamp(4px,0.5vh,8px);background:var(--bg);border-radius:6px;padding:clamp(4px,0.4vh,6px) clamp(6px,0.6vw,10px);font-size:clamp(9px,0.75vw,11px);font-family:monospace;color:var(--accent);text-align:left;overflow:hidden;white-space:nowrap">
+                                <span style="color:var(--fg)">杭州</span><span style="background:rgba(0,212,255,0.15);border-radius:2px;padding:0 2px;color:var(--accent)">西湖</span>是个好地方
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.2s;text-align:center;border-top:2px solid rgba(110,68,255,0.5)">
+                            <div style="font-size:clamp(24px,2.5vw,32px);margin-bottom:clamp(4px,0.5vh,8px)">🏷️</div>
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(13px,1.1vw,15px);color:var(--accent)">人工标注</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">开发者提供标准问答对</p>
+                            <div style="margin-top:clamp(4px,0.5vh,8px);background:var(--bg);border-radius:6px;padding:clamp(4px,0.4vh,6px) clamp(6px,0.6vw,10px);font-size:clamp(9px,0.75vw,11px);font-family:monospace;text-align:left;overflow:hidden;white-space:nowrap">
+                                <span style="color:var(--muted)">Q: 杭州西湖位于？</span><br>
+                                <span style="color:var(--fg)">A: </span><span style="background:rgba(110,68,255,0.15);border-radius:2px;padding:0 2px;color:#a78bfa">浙江省杭州市</span>
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.25s;text-align:center;border-top:2px solid rgba(16,185,129,0.5)">
+                            <div style="font-size:clamp(24px,2.5vw,32px);margin-bottom:clamp(4px,0.5vh,8px)">👍</div>
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(13px,1.1vw,15px);color:var(--accent)">人类反馈</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">Reward机制调整回答概率</p>
+                            <div style="margin-top:clamp(4px,0.5vh,8px);display:flex;justify-content:center;gap:clamp(8px,1vw,14px);font-size:clamp(9px,0.75vw,11px)">
+                                <span style="color:#10b981">👍 好答案 概率↑</span>
+                                <span style="color:#ef4444">👎 坏答案 概率↓</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ② 训练流程 -->
+                    <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:clamp(8px,1.2vw,14px);min-height:0">
+                        <div class="card" style="animation-delay:0.3s;display:flex;flex-direction:column;border-left:3px solid rgba(0,212,255,0.6)">
+                            <div style="display:flex;align-items:center;gap:clamp(6px,0.8vw,10px);margin-bottom:clamp(6px,0.8vh,10px)">
+                                <span style="background:linear-gradient(135deg,rgba(0,212,255,0.2),rgba(0,212,255,0.05));padding:clamp(3px,0.3vw,5px) clamp(8px,0.8vw,12px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:700;color:#00d4ff">Step 1</span>
+                                <h4 style="margin:0;font-size:clamp(14px,1.2vw,17px);color:var(--fg)">Pretraining <span style="color:var(--accent)">预训练</span></h4>
+                            </div>
+                            <div style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.65;flex:1">
+                                <p style="margin:0 0 clamp(3px,0.4vh,6px)">大规模<b style="color:var(--fg)">无标注语料</b>，与下游任务无关</p>
+                                <p style="margin:0 0 clamp(3px,0.4vh,6px)">理解语言<b style="color:var(--fg)">语义语法</b>规则，学会<b style="color:var(--fg)">文本补全</b></p>
+                                <p style="margin:0 0 clamp(3px,0.4vh,6px)">编码丰富世界知识</p>
+                            </div>
+                            <div style="margin-top:clamp(4px,0.5vh,8px);background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.15);border-radius:6px;padding:clamp(4px,0.5vh,7px) clamp(8px,1vw,12px);font-size:clamp(9px,0.8vw,11px);color:var(--muted);line-height:1.5">
+                                💡 像<b style="color:#00d4ff">毕业前的通识课</b>，知识面广但不懂具体岗位
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.35s;display:flex;flex-direction:column;border-left:3px solid rgba(110,68,255,0.6)">
+                            <div style="display:flex;align-items:center;gap:clamp(6px,0.8vw,10px);margin-bottom:clamp(6px,0.8vh,10px)">
+                                <span style="background:linear-gradient(135deg,rgba(110,68,255,0.2),rgba(110,68,255,0.05));padding:clamp(3px,0.3vw,5px) clamp(8px,0.8vw,12px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:700;color:#a78bfa">Step 2</span>
+                                <h4 style="margin:0;font-size:clamp(14px,1.2vw,17px);color:var(--fg)">Posttraining <span style="color:var(--accent)">后训练</span></h4>
+                            </div>
+                            <div style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.65;flex:1">
+                                <p style="margin:0 0 clamp(3px,0.4vh,6px)"><b style="color:#a78bfa">SFT 有监督微调</b>：输入-输出配对，模仿学习（师傅带徒弟）</p>
+                                <p style="margin:0"><b style="color:#a78bfa">RLHF 人类反馈</b>：偏好排序 → 奖励模型 → 对齐人类价值观</p>
+                            </div>
+                            <div style="margin-top:clamp(4px,0.5vh,8px);background:rgba(110,68,255,0.05);border:1px solid rgba(110,68,255,0.15);border-radius:6px;padding:clamp(4px,0.5vh,7px) clamp(8px,1vw,12px);font-size:clamp(9px,0.8vw,11px);color:var(--muted);line-height:1.5">
+                                💡 像<b style="color:#a78bfa">入职后的岗位培训</b>，针对性强化专业能力
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ③ 流程总结 -->
+                    <div class="flow" style="margin-top:clamp(6px,1vh,10px)">
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.1s both;border-color:rgba(0,212,255,0.4);font-size:clamp(11px,0.95vw,13px)">📥 预训练</div>
+                        <span class="flow-arrow" style="animation:fadeUp 0.5s ease 0.25s both;font-size:clamp(22px,2vw,28px)">→</span>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.4s both;border-color:rgba(110,68,255,0.4);font-size:clamp(11px,0.95vw,13px)">🎯 SFT微调</div>
+                        <span class="flow-arrow" style="animation:fadeUp 0.5s ease 0.55s both;font-size:clamp(22px,2vw,28px)">→</span>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 0.7s both;border-color:rgba(16,185,129,0.4);font-size:clamp(11px,0.95vw,13px)">👍 RLHF对齐</div>
+                        <span class="flow-arrow" style="animation:fadeUp 0.5s ease 0.85s both;font-size:clamp(22px,2vw,28px)">→</span>
+                        <div class="flow-box" style="animation:fadeUp 0.6s ease 1s both;border-color:rgba(0,212,255,0.5);font-size:clamp(11px,0.95vw,13px)">🤖 可用的大语言模型</div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE: CONTEXT ENGINEERING -->
+            <div class="slide" data-slide="29" style="justify-content:flex-start;padding-top:clamp(16px,3vh,30px)">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;padding:10px clamp(24px,3.5vw,48px) 6px;color:var(--fg)">
+                    <div style="text-align:center;margin-bottom:clamp(4px,0.6vh,8px)">
+                        <p class="tag" style="animation-delay:0s">进阶认知</p>
+                        <h2>从 <span class="accent-text">Chatbot</span> 到 <span class="accent-text">Agent</span></h2>
+                        <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    </div>
+                    <p style="text-align:center;font-size:clamp(12px,1.1vw,15px);color:var(--muted);line-height:1.8;max-width:800px;margin:0 auto clamp(12px,2vh,20px)">
+                        大模型能力很强，但仍有边界
+                    </p>
+
+                    <!-- 两个痛点 -->
+                    <div style="display:flex;gap:clamp(12px,1.5vw,20px);margin-bottom:clamp(12px,1.8vh,20px)">
+                        <div style="flex:1;background:rgba(255,82,82,0.06);border:1px solid rgba(255,82,82,0.2);border-radius:10px;padding:clamp(10px,1.2vw,16px);text-align:center;opacity:0;animation:fadeUp 0.5s ease 0.15s both">
+                            <div style="font-size:clamp(13px,1.1vw,15px);color:rgba(255,120,120,1);font-weight:600;margin-bottom:4px">📏 上下文窗口有限</div>
+                            <div style="font-size:clamp(10px,0.85vw,12px);color:var(--muted)">无法一次性塞入所有信息，长对话会"遗忘"前面的内容</div>
+                        </div>
+                        <div style="flex:1;background:rgba(255,82,82,0.06);border:1px solid rgba(255,82,82,0.2);border-radius:10px;padding:clamp(10px,1.2vw,16px);text-align:center;opacity:0;animation:fadeUp 0.5s ease 0.25s both">
+                            <div style="font-size:clamp(13px,1.1vw,15px);color:rgba(255,120,120,1);font-weight:600;margin-bottom:4px">🌍 知识有边界</div>
+                            <div style="font-size:clamp(10px,0.85vw,12px);color:var(--muted)">训练数据是静态的，无法掌握所有最新信息</div>
+                        </div>
+                    </div>
+
+                    <!-- 过渡 -->
+                    <div style="text-align:center;margin-bottom:clamp(10px,1.5vh,16px);opacity:0;animation:fadeUp 0.5s ease 0.35s both">
+                        <span style="font-size:clamp(13px,1.1vw,15px);color:var(--fg)">如何突破限制？→</span>
+                        <span style="font-size:clamp(14px,1.2vw,17px);color:var(--accent);font-weight:700;margin-left:6px">Context Engineering（上下文工程）</span>
+                    </div>
+
+                    <!-- 三种方式 -->
+                    <div style="display:flex;gap:clamp(12px,1.5vw,20px);flex:1;min-height:0">
+                        <div class="card" style="flex:1;display:flex;flex-direction:column;opacity:0;animation:fadeUp 0.6s ease 0.45s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="prompt-eng.png" class="zoomable" onclick="document.getElementById('lightboxImg').src=this.src;document.getElementById('lightbox').classList.add('active')" style="width:100%;height:clamp(160px,22vh,260px);object-fit:contain;border-radius:6px;margin-bottom:8px;background:rgba(255,255,255,0.03);padding:4px" alt="Prompt Engineering">
+                            <h4 style="margin-bottom:4px">🗣️ Prompt Engineering</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">用精准的指令引导模型输出</p>
+                        </div>
+                        <div class="card" style="flex:1;display:flex;flex-direction:column;opacity:0;animation:fadeUp 0.6s ease 0.55s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="rag.png" class="zoomable" onclick="document.getElementById('lightboxImg').src=this.src;document.getElementById('lightbox').classList.add('active')" style="width:100%;height:clamp(160px,22vh,260px);object-fit:contain;border-radius:6px;margin-bottom:8px;background:rgba(255,255,255,0.03);padding:4px" alt="RAG">
+                            <h4 style="margin-bottom:4px">🔍 RAG</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">检索增强生成，从外部知识库注入上下文</p>
+                        </div>
+                        <div class="card" style="flex:1;display:flex;flex-direction:column;opacity:0;animation:fadeUp 0.6s ease 0.65s both;padding:clamp(10px,1.2vw,16px)">
+                            <img src="function-call.png" class="zoomable" onclick="document.getElementById('lightboxImg').src=this.src;document.getElementById('lightbox').classList.add('active')" style="width:100%;height:clamp(160px,22vh,260px);object-fit:contain;border-radius:6px;margin-bottom:8px;background:rgba(255,255,255,0.03);padding:4px" alt="Function Calling">
+                            <h4 style="margin-bottom:4px">🔧 Function Calling</h4>
+                            <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);margin:0">让模型调用外部工具/API，获取实时数据并执行操作</p>
+                        </div>
+                    </div>
+
+                    <!-- 底部总结 -->
+                    <div style="text-align:center;margin-top:clamp(10px,1.5vh,16px);opacity:0;animation:fadeUp 0.5s ease 0.8s both">
+                        <span style="font-size:clamp(12px,1vw,14px);color:var(--muted)">从"对话机器人"到"智能体"——</span>
+                        <span style="font-size:clamp(13px,1.1vw,15px);color:var(--accent);font-weight:600">赋予大模型记忆、知识和行动力</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHAPTER: 传播大模型应用路线与成果分享 -->
+            <div class="slide" data-slide="9">
+                <span class="chapter-number">02</span>
+                <div class="content center">
+                    <h2>传播大模型<span class="accent-text">应用路线与成果分享</span></h2>
+                    <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    <p class="subtitle">创作大脑 · 智能体平台 · 算法开放平台 · 生态建设</p>
+                </div>
+            </div>
+            <!-- SLIDE: CREATION PLATFORM -->
+            <div class="slide" data-slide="26">
+                <div class="content center" style="color:var(--fg)">
+                    <p class="tag" style="animation-delay:0s">创作大脑</p>
+                    <h2 style="font-size:clamp(24px,3.2vw,38px);margin:clamp(4px,0.6vh,8px) 0 clamp(2px,0.3vh,4px);animation-delay:0.05s">AI <span class="accent-text">创作平台</span></h2>
+                    <p class="subtitle" style="font-size:clamp(12px,1.1vw,14px);color:var(--accent);animation-delay:0.1s">一站式智能内容生产平台 · 覆盖图文/海报/视频/音频全链路</p>
+                    <div class="three-columns" style="margin-top:clamp(12px,2vh,22px);gap:clamp(12px,1.8vw,20px)">
+                        <div class="card" style="animation-delay:0.15s">
+                            <h4 style="margin:0 0 clamp(6px,0.8vh,10px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">🎨 AI 创作工坊</h4>
+                            <div style="font-size:clamp(11px,1vw,13px);line-height:1.7;color:var(--muted)">
+                                <p style="margin:0">📝 新闻报道 · 内容审核 · AI搜索</p>
+                                <p style="margin:clamp(4px,0.4vh,6px) 0">🎨 AI海报 · AI生图 · AI图像助手</p>
+                                <p style="margin:clamp(4px,0.4vh,6px) 0">🎬 AI成片 · AI视频（文生/图生）</p>
+                                <p style="margin:0">🎙️ 会议报道</p>
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.2s">
+                            <h4 style="margin:0 0 clamp(6px,0.8vh,10px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">✍️ AI 辅助写作</h4>
+                            <div style="font-size:clamp(11px,1vw,13px);line-height:1.7;color:var(--muted)">
+                                <p style="margin:0">📎 智能编辑器 · 上传图片/Word/PDF</p>
+                                <p style="margin:clamp(4px,0.4vh,6px) 0">🔍 找资料 · 找热点 · 查热搜</p>
+                                <p style="margin:clamp(4px,0.4vh,6px) 0">📋 写作提纲 · AI想标题 · 深度思考</p>
+                                <p style="margin:0">🎬 一键转视频</p>
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.25s">
+                            <h4 style="margin:0 0 clamp(6px,0.8vh,10px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">🤖 辅助产品</h4>
+                            <div style="font-size:clamp(11px,1vw,13px);line-height:1.7;color:var(--muted)">
+                                <p style="margin:0">📄 公文大脑 — 公文写作辅助</p>
+                                <p style="margin:clamp(4px,0.4vh,6px) 0">💬 AI对话 — 通用对话助手</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(10px,1.5vw,18px);margin-top:clamp(10px,1.5vh,16px)">
+                        <div class="card" style="grid-column:1/4;animation-delay:0.3s">
+                            <h4 style="margin:0 0 clamp(4px,0.6vh,8px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">💡 灵感广场</h4>
+                            <p style="margin:0;font-size:clamp(11px,1vw,13px);color:var(--muted);line-height:1.6">社区作品展示 · 灵感分享 · 视频/图片/海报分类浏览</p>
+                        </div>
+                        <div class="card" style="grid-column:4/7;animation-delay:0.35s">
+                            <h4 style="margin:0 0 clamp(4px,0.6vh,8px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">📁 资产中心</h4>
+                            <p style="margin:0;font-size:clamp(11px,1vw,13px);color:var(--muted);line-height:1.6">个人素材与作品管理 · 自定义首页应用</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE 20: ECOSYSTEM -->
+            <div class="slide" data-slide="22">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;padding-top:clamp(10px,1.8vh,20px);padding-bottom:clamp(10px,1.5vh,18px);color:var(--fg)">
+                    <!-- Header -->
+                    <div style="display:flex;align-items:baseline;gap:clamp(8px,1.2vw,16px);margin-bottom:clamp(10px,1.5vh,18px)">
+                        <p class="tag" style="margin:0;animation-delay:0s">产品实践</p>
+                        <h2 style="font-size:clamp(22px,2.8vw,36px);margin:0;animation-delay:0.05s">文思智能体平台 - 媒体行业 <span class="accent-text">AI Agent</span> 搭建平台</h2>
+                    </div>
+
+                    <!-- Main Grid: 3 pillars + right info -->
+                    <div style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:clamp(10px,1.2vw,18px);flex:1;min-height:0">
+                        <!-- Left: pillars + flow + tools + scenarios -->
+                        <div style="display:flex;flex-direction:column;gap:clamp(5px,0.7vh,8px)">
+                            <!-- 3 pillars -->
+                            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:clamp(8px,1vw,14px)">
+                                <div class="card" style="animation-delay:0.1s;padding:clamp(12px,1.4vw,18px)">
+                                    <h4 style="margin-bottom:clamp(4px,0.5vh,8px);font-size:clamp(14px,1.2vw,17px)">🧠 低门槛搭建</h4>
+                                    <p style="font-size:clamp(11px,0.95vw,13px);color:var(--muted);line-height:1.5">可视化配置，无需编程<br>Prompt编写/优化<br>迭代思考 + 自主思考</p>
+                                </div>
+                                <div class="card" style="animation-delay:0.15s;padding:clamp(12px,1.4vw,18px)">
+                                    <h4 style="margin-bottom:clamp(4px,0.5vh,8px);font-size:clamp(14px,1.2vw,17px)">🔧 双引擎插件</h4>
+                                    <p style="font-size:clamp(11px,0.95vw,13px);color:var(--muted);line-height:1.5">API类（OpenAI协议）<br>MCP类（即插即用）<br>工具广场一键添加</p>
+                                </div>
+                                <div class="card" style="animation-delay:0.2s;padding:clamp(12px,1.4vw,18px)">
+                                    <h4 style="margin-bottom:clamp(4px,0.5vh,8px);font-size:clamp(14px,1.2vw,17px)">🤖 多厂商模型</h4>
+                                    <p style="font-size:clamp(11px,0.95vw,13px);color:var(--muted);line-height:1.5">OpenAI兼容协议接入<br>规划模型+总结模型<br>Function Call 工具调用</p>
+                                </div>
+                            </div>
+
+                            <!-- Agent Flow (row 2) -->
+                            <div style="background:var(--card);border:1px solid var(--border);border-radius:clamp(6px,0.6vw,8px);padding:clamp(6px,0.8vw,10px);display:flex;align-items:center;justify-content:center;gap:clamp(8px,1.2vw,16px)">
+                                <span style="font-size:clamp(12px,1vw,14px);font-weight:600">Agent 执行流程</span>
+                                <span style="color:var(--border)">|</span>
+                                <span style="background:rgba(0,212,255,0.12);color:#00d4ff;padding:clamp(4px,0.5vw,7px) clamp(10px,1.2vw,16px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:500">Thought 思考</span>
+                                <span style="color:var(--accent)">→</span>
+                                <span style="background:rgba(110,68,255,0.12);color:#6e44ff;padding:clamp(4px,0.5vw,7px) clamp(10px,1.2vw,16px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:500">Action 行动</span>
+                                <span style="color:var(--accent)">→</span>
+                                <span style="background:rgba(255,106,61,0.12);color:#ff6a3d;padding:clamp(4px,0.5vw,7px) clamp(10px,1.2vw,16px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:500">Observation 观察</span>
+                                <span style="color:var(--accent)">→</span>
+                                <span style="background:rgba(192,132,252,0.12);color:#c084fc;padding:clamp(4px,0.5vw,7px) clamp(10px,1.2vw,16px);border-radius:6px;font-size:clamp(11px,0.95vw,13px);font-weight:500">循环迭代</span>
+                                <span style="color:var(--muted);font-size:clamp(10px,0.85vw,12px)">迭代思考+自主思考·最大10轮</span>
+                            </div>
+
+                            <!-- Tool Market (row 3) -->
+                            <div style="background:linear-gradient(135deg,rgba(110,68,255,0.06),rgba(0,212,255,0.06));border:1px solid rgba(110,68,255,0.15);border-radius:clamp(6px,0.6vw,8px);padding:clamp(5px,0.6vw,8px);display:flex;align-items:center;gap:clamp(6px,0.8vw,12px)">
+                                <span style="font-size:clamp(11px,0.95vw,13px);font-weight:600;color:#6e44ff;white-space:nowrap">🧩 工具市场</span>
+                                <span style="color:rgba(110,68,255,0.3)">|</span>
+                                <div style="display:flex;flex-wrap:wrap;gap:3px">
+                                    <span style="background:rgba(0,212,255,0.1);color:#00d4ff;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(0,212,255,0.2)">多模态检索 MCP</span>
+                                    <span style="background:rgba(110,68,255,0.1);color:#6e44ff;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(110,68,255,0.2)">可信搜索 MCP</span>
+                                    <span style="background:rgba(255,106,61,0.1);color:#ff6a3d;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(255,106,61,0.2)">海报生成 MCP</span>
+                                    <span style="background:rgba(192,132,252,0.1);color:#c084fc;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(192,132,252,0.2)">AI写稿 MCP</span>
+                                    <span style="background:rgba(0,212,255,0.1);color:#00d4ff;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(0,212,255,0.2)">联网搜索 API</span>
+                                    <span style="background:rgba(110,68,255,0.1);color:#6e44ff;padding:2px 7px;border-radius:10px;font-size:clamp(9px,0.8vw,11px);border:1px solid rgba(110,68,255,0.2)">更多...</span>
+                                </div>
+                            </div>
+
+                            <!-- Scenarios -->
+                            <div style="flex:1;display:flex;flex-direction:column;min-height:0">
+                                <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin-bottom:clamp(6px,0.8vh,10px)">提供丰富的媒体行业典型智能体应用</p>
+                                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(5px,0.6vw,8px);flex:1">
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">📰</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">新闻生成</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">写稿·标题·SEO</span></p>
+                                    </div>
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">📂</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">媒资检索</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">多模态搜索</span></p>
+                                    </div>
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">🎯</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">选题推荐</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">热点·趋势</span></p>
+                                    </div>
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">🖼️</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">海报/网页生成</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">AI设计·出图</span></p>
+                                    </div>
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">🔎</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">深度搜索</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">联网·精准溯源</span></p>
+                                    </div>
+                                    <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:3px clamp(5px,0.5vw,8px);display:flex;align-items:center;gap:5px">
+                                        <span style="font-size:15px;flex-shrink:0;line-height:1">✍️</span>
+                                        <p style="font-size:clamp(10px,0.85vw,12px);line-height:1;color:var(--fg)"><span style="font-weight:500">创意生成</span> <span style="color:var(--muted);font-size:clamp(9px,0.75vw,10px)">文生图·创作</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right: steps + tools + permissions -->
+                        <div style="display:flex;flex-direction:column;gap:clamp(8px,1.2vh,14px)">
+                            <!-- 3 Steps -->
+                            <div class="card" style="animation-delay:0.25s;padding:clamp(14px,1.6vw,20px)">
+                                <h4 style="margin-bottom:clamp(8px,1vh,14px);font-size:clamp(14px,1.2vw,17px)">快速搭建 3 步走</h4>
+                                <div style="display:flex;flex-direction:column;gap:clamp(10px,1.2vh,16px)">
+                                    <div style="display:flex;align-items:center;gap:10px">
+                                        <span style="background:var(--accent);color:var(--bg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0">1</span>
+                                        <span style="font-size:clamp(12px,1.05vw,14px)">创建角色 + 编写 Prompt</span>
+                                    </div>
+                                    <div style="display:flex;align-items:center;gap:10px">
+                                        <span style="background:var(--accent);color:var(--bg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0">2</span>
+                                        <span style="font-size:clamp(12px,1.05vw,14px)">选模型 + 加插件 + 绑知识库</span>
+                                    </div>
+                                    <div style="display:flex;align-items:center;gap:10px">
+                                        <span style="background:var(--accent);color:var(--bg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0">3</span>
+                                        <span style="font-size:clamp(12px,1.05vw,14px)">预览调试 → 一键发布</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Permissions + API -->
+                            <div style="display:flex;gap:clamp(8px,1vw,14px);flex:1">
+                                <div style="flex:1;background:var(--card);border:1px solid var(--border);border-radius:clamp(8px,0.8vw,10px);padding:clamp(12px,1.4vw,18px)">
+                                    <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin-bottom:6px">🏢 企业级权限</p>
+                                    <p style="font-size:clamp(10px,0.9vw,12px);color:var(--muted);line-height:1.5">系统管理员·企业超管<br>空间创建者·普通用户<br>数据隔离，≤20空间/企业</p>
+                                </div>
+                                <div style="flex:1;background:linear-gradient(135deg,rgba(0,212,255,0.08),rgba(110,68,255,0.08));border:1px solid rgba(0,212,255,0.2);border-radius:clamp(8px,0.8vw,10px);padding:clamp(12px,1.4vw,18px)">
+                                    <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin-bottom:6px;color:var(--accent)">🚀 API 赋能业务</p>
+                                    <p style="font-size:clamp(10px,0.9vw,12px);color:var(--muted);line-height:1.5">标准 API 调用智能体<br>无缝接入业务系统<br>赋能媒体全流程</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE 23: AI ALGORITHM PLATFORM -->
+            <div class="slide" data-slide="23">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;padding-top:clamp(12px,2vh,24px);padding-bottom:clamp(8px,1.2vh,16px);color:var(--fg)">
+                    <!-- Header -->
+                    <div style="text-align:center;margin-bottom:clamp(8px,1.5vh,16px)">
+                        <p class="tag" style="animation-delay:0s">算法平台</p>
+                        <h2 style="font-size:clamp(22px,3vw,38px);margin:clamp(6px,0.8vh,10px) 0 0 0;animation-delay:0.05s">传播大脑 <span class="accent-text">AI算法开放平台</span></h2>
+                        <p style="font-size:clamp(13px,1.2vw,16px);color:var(--accent);animation-delay:0.1s;margin-top:clamp(4px,0.5vh,8px)">让文本深度理解与生成，驱动智能内容创作与洞察</p>
+                    </div>
+
+                    <!-- Hub Layout: 3 columns -->
+                    <div style="flex:1;display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:clamp(8px,1.2vw,14px);min-height:0">
+                        <!-- Left spoke: 3 basic capabilities -->
+                        <div style="display:flex;flex-direction:column;gap:clamp(6px,1vh,10px);justify-content:center">
+                            <div class="card" style="animation-delay:0.15s;padding:clamp(10px,1.2vw,16px);border-left:3px solid #00d4ff;text-align:left">
+                                <span style="font-size:22px">📝</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">文本理解</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">分类·主题·聚类·翻译<br>摘要·情感·实体·相似度<br>地址提取·关键词提取</p>
+                            </div>
+                            <div class="card" style="animation-delay:0.2s;padding:clamp(10px,1.2vw,16px);border-left:3px solid #6e44ff;text-align:left">
+                                <span style="font-size:22px">🖼️</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">图像理解</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">文字·人脸·物体<br>地标·镜头·Logo识别</p>
+                            </div>
+                            <div class="card" style="animation-delay:0.25s;padding:clamp(10px,1.2vw,16px);border-left:3px solid #ff6a3d;text-align:left">
+                                <span style="font-size:22px">📄</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">文档智能</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">文档解析·转换·切分</p>
+                            </div>
+                        </div>
+
+                        <!-- Center hub -->
+                        <div style="display:flex;flex-direction:column;gap:clamp(6px,1vh,10px);justify-content:center;align-items:center">
+                            <div style="width:clamp(140px,14vw,200px);height:clamp(140px,14vw,200px);border-radius:50%;background:linear-gradient(135deg,rgba(0,212,255,0.08),rgba(110,68,255,0.08),rgba(255,106,61,0.08));border:2px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;animation-delay:0.3s">
+                                <span style="font-size:clamp(32px,3.5vw,48px)">🧠</span>
+                                <p style="font-size:clamp(14px,1.3vw,18px);font-weight:700;margin:6px 0 2px;color:var(--accent)">传播大模型</p>
+                                <p style="font-size:clamp(9px,0.8vw,11px);color:var(--muted);margin-top:4px;line-height:1.4">理解 · 创作 · 洞察</p>
+                            </div>
+                            <!-- Creative cards below hub -->
+                            <div style="display:flex;flex-direction:column;gap:clamp(5px,0.8vh,8px);width:100%">
+                                <div class="card" style="animation-delay:0.45s;padding:clamp(8px,1vw,12px);text-align:center">
+                                    <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin:0 0 2px">🎬 视频生成 <span style="color:var(--muted);font-weight:400;font-size:clamp(10px,0.85vw,12px)">文生视频·图生视频·成片·分镜</span></p>
+                                </div>
+                                <div class="card" style="animation-delay:0.5s;padding:clamp(8px,1vw,12px);text-align:center">
+                                    <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin:0 0 2px">🎨 图像生成 <span style="color:var(--muted);font-weight:400;font-size:clamp(10px,0.85vw,12px)">文生图·海报·修复·抠图·扩展·上色</span></p>
+                                </div>
+                                <div class="card" style="animation-delay:0.55s;padding:clamp(8px,1vw,12px);text-align:center">
+                                    <p style="font-size:clamp(12px,1.05vw,14px);font-weight:600;margin:0 0 2px">✍️ 智能写作 <span style="color:var(--muted);font-weight:400;font-size:clamp(10px,0.85vw,12px)">新闻写作·帮写·润色·智能配图</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right spoke: 3 basic capabilities -->
+                        <div style="display:flex;flex-direction:column;gap:clamp(6px,1vh,10px);justify-content:center">
+                            <div class="card" style="animation-delay:0.35s;padding:clamp(10px,1.2vw,16px);border-right:3px solid #c084fc;text-align:right">
+                                <span style="font-size:22px">🔍</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">跨模态检索</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">文搜图·文搜视频<br>文搜稿件</p>
+                            </div>
+                            <div class="card" style="animation-delay:0.4s;padding:clamp(10px,1.2vw,16px);border-right:3px solid #10b981;text-align:right">
+                                <span style="font-size:22px">✅</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">蜂鸟审校</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">文本·图片<br>视频·音频审核</p>
+                            </div>
+                            <div class="card" style="animation-delay:0.45s;padding:clamp(10px,1.2vw,16px);border-right:3px solid #f59e0b;text-align:right">
+                                <span style="font-size:22px">🎙️</span>
+                                <p style="font-size:clamp(13px,1.1vw,15px);font-weight:600;margin:4px 0 3px">语音能力</p>
+                                <p style="font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.45">语音识别·合成<br>声音克隆</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom: News Timeline -->
+                    <div style="margin-top:clamp(8px,1.2vh,14px);background:var(--card);border:1px solid var(--border);border-radius:clamp(6px,0.7vw,8px);padding:clamp(6px,0.8vw,10px);display:flex;align-items:center;justify-content:center;gap:clamp(16px,2.5vw,40px)">
+                        <span style="font-size:clamp(10px,0.9vw,12px);font-weight:600;color:var(--accent)">📅 最新动态</span>
+                        <span style="color:var(--border)">|</span>
+                        <span style="font-size:clamp(9px,0.8vw,11px);color:var(--muted)"><span style="color:var(--fg);font-weight:500">01-19</span> 深度搜索上线</span>
+                        <span style="color:var(--border)">·</span>
+                        <span style="font-size:clamp(9px,0.8vw,11px);color:var(--muted)"><span style="color:var(--fg);font-weight:500">01-15</span> AI成片焕新</span>
+                        <span style="color:var(--border)">·</span>
+                        <span style="font-size:clamp(9px,0.8vw,11px);color:var(--muted)"><span style="color:var(--fg);font-weight:500">12-26</span> 多模态检索升级</span>
+                        <span style="color:var(--border)">·</span>
+                        <span style="font-size:clamp(9px,0.8vw,11px);color:var(--muted)"><span style="color:var(--fg);font-weight:500">12-19</span> 审校联网查询</span>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE 21: MEDIA ASSET + DEMO -->
+            <div class="slide" data-slide="21" id="demoSlide">
+                <div class="content center" style="color:var(--fg)">
+                    <p class="tag" style="animation-delay:0s">媒资管理</p>
+                    <h2 style="font-size:clamp(22px,3vw,36px);animation-delay:0.05s">媒资库数据管理 & <span class="accent-text">多媒体理解</span></h2>
+                    <p class="subtitle" style="font-size:clamp(12px,1.1vw,14px);color:var(--muted);animation-delay:0.1s">基于大模型能力的稿件、图片、视频、音频结构化和向量化处理</p>
+                    <div class="three-columns" style="margin-top:clamp(8px,1.5vh,16px);gap:clamp(10px,1.5vw,18px)">
+                        <div class="card" style="animation-delay:0.15s">
+                            <span style="font-size:clamp(24px,2.5vw,30px)">📄</span>
+                            <h4 style="margin:clamp(4px,0.5vh,8px) 0 clamp(2px,0.3vh,4px);font-size:clamp(14px,1.2vw,17px)">稿件处理</h4>
+                            <p style="font-size:clamp(11px,1vw,13px);color:var(--muted);line-height:1.5;margin:0">语义向量化<br>关键词自动提取<br>内容分类与标签</p>
+                        </div>
+                        <div class="card" style="animation-delay:0.2s">
+                            <span style="font-size:clamp(24px,2.5vw,30px)">🖼️</span>
+                            <h4 style="margin:clamp(4px,0.5vh,8px) 0 clamp(2px,0.3vh,4px);font-size:clamp(14px,1.2vw,17px)">图片理解</h4>
+                            <p style="font-size:clamp(11px,1vw,13px);color:var(--muted);line-height:1.5;margin:0">人脸识别 & 人物标注<br>物体/场景识别<br>特征向量化</p>
+                        </div>
+                        <div class="card" style="animation-delay:0.25s">
+                            <span style="font-size:clamp(24px,2.5vw,30px)">🎬</span>
+                            <h4 style="margin:clamp(4px,0.5vh,8px) 0 clamp(2px,0.3vh,4px);font-size:clamp(14px,1.2vw,17px)">视频+音频</h4>
+                            <p style="font-size:clamp(11px,1vw,13px);color:var(--muted);line-height:1.5;margin:0">关键帧提取 & 识别<br>语音转写 & 情感分析<br>多维度向量化</p>
+                        </div>
+                    </div>
+                    <div style="width:min(100%,900px);margin-left:auto;margin-right:auto;margin-top:clamp(6px,1vh,12px)">
+                        <p style="font-size:clamp(11px,1vw,13px);font-weight:600;color:var(--accent);margin-bottom:clamp(6px,0.8vh,10px);text-align:center">实时演示 · 图片结构化理解 & 向量化</p>
+                        <div style="display:flex;gap:clamp(10px,1.5vw,18px);height:clamp(200px,28vh,360px)">
+                            <div style="flex:0 0 40%;background:var(--card);border:1px solid var(--border);border-radius:clamp(8px,0.8vw,10px);overflow:hidden">
+                                <img src="demo-image.png" style="width:100%;height:100%;object-fit:cover" alt="demo">
+                            </div>
+                            <div style="flex:1;display:flex;flex-direction:column;min-width:0">
+                                <div class="demo-terminal" id="demoTerminal" style="flex:1">
+                                    <div class="demo-terminal-header">
+                                        <span class="code-dot" style="background:#ff5f56"></span>
+                                        <span class="code-dot" style="background:#ffbd2e"></span>
+                                        <span class="code-dot" style="background:#27c93f"></span>
+                                        <span style="font-size:clamp(9px,0.8vw,11px);color:var(--muted);margin-left:6px">structured-analysis.json</span>
+                                        <span class="demo-status" id="demoStatus" style="margin-left:auto;font-size:clamp(9px,0.8vw,11px)">⏳ 分析中...</span>
+                                    </div>
+                                    <div class="demo-terminal-body" id="demoBody"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align:center;margin-top:clamp(6px,0.8vh,10px)">
+                            <button class="demo-replay-btn" id="demoReplay" onclick="demoRan=false;runDemo()">▶ 重放演示</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" data-slide="20">
+                <div class="content" style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:center;padding-top:clamp(28px,4vh,45px);color:var(--fg)">
+                    <p class="tag" style="animation-delay:0s">生态建设</p>
+                    <h2 style="font-size:clamp(22px,3.2vw,40px);animation-delay:0.1s;text-align:center">媒体行业 Agent <span class="accent-text">生态建设</span></h2>
+                    <p class="subtitle" style="font-size:clamp(13px,1.3vw,17px);margin-bottom:clamp(14px,2.5vh,28px);animation-delay:0.2s;text-align:center;color:var(--accent)">以 OpenClaw 为例，打造媒体行业 Skills + Tools + Multi-Agent 开放生态</p>
+
+                    <div style="display:grid;grid-template-columns:repeat(6,1fr);row-gap:clamp(12px,2vh,20px);column-gap:clamp(10px,1.5vw,16px);width:100%;max-width:1100px">
+                        <!-- Skills 市场 -->
+                        <div class="eco-card" style="animation-delay:0.25s;border-top:3px solid #00d4ff;grid-column:span 2">
+                            <div style="display:flex;align-items:center;gap:clamp(8px,1vw,12px);margin-bottom:clamp(4px,0.8vh,8px)">
+                                <span class="eco-icon-wrap" style="background:rgba(0,212,255,0.12)">🧠</span>
+                                <h4 style="font-size:clamp(15px,1.5vw,18px);margin:0">Skills 市场</h4>
+                            </div>
+                            <div class="eco-tags">
+                                <span>🔍 媒体可信搜索</span>
+                                <span>✍️ AI写稿/标题/摘要</span>
+                                <span>🖼️ 图片海报处理</span>
+                                <span>🎬 视频处理</span>
+                                <span>📈 SEO优化</span>
+                                <span class="eco-more">…</span>
+                            </div>
+                            <p class="eco-desc">媒体人贡献技能包，一键安装、社区驱动</p>
+                        </div>
+
+                        <!-- Tools 市场 -->
+                        <div class="eco-card" style="animation-delay:0.3s;border-top:3px solid #6e44ff;grid-column:span 2">
+                            <div style="display:flex;align-items:center;gap:clamp(8px,1vw,12px);margin-bottom:clamp(4px,0.8vh,8px)">
+                                <span class="eco-icon-wrap" style="background:rgba(110,68,255,0.12)">🔧</span>
+                                <h4 style="font-size:clamp(15px,1.5vw,18px);margin:0">Tools 市场</h4>
+                            </div>
+                            <div class="eco-tags">
+                                <span>📂 媒资系统对接</span>
+                                <span>📰 CMS发布平台</span>
+                                <span>📝 OCR识别</span>
+                                <span>🎙️ 语音转写</span>
+                                <span>🌐 翻译引擎</span>
+                                <span class="eco-more">…</span>
+                            </div>
+                            <p class="eco-desc">标准化工具接入，统一 API 调用</p>
+                        </div>
+
+                        <!-- MCP 协议生态 -->
+                        <div class="eco-card" style="animation-delay:0.35s;border-top:3px solid #10b981;grid-column:span 2">
+                            <div style="display:flex;align-items:center;gap:clamp(8px,1vw,12px);margin-bottom:clamp(4px,0.8vh,8px)">
+                                <span class="eco-icon-wrap" style="background:rgba(16,185,129,0.12)">🪐</span>
+                                <h4 style="font-size:clamp(15px,1.5vw,18px);margin:0">MCP 协议生态</h4>
+                            </div>
+                            <div class="eco-tags">
+                                <span>📂 多模态检索 Server</span>
+                                <span>🔍 可信搜索 Server</span>
+                                <span>🖼️ 海报生成 Server</span>
+                                <span>✍️ AI写稿 Server</span>
+                                <span>🔗 第三方可自建接入</span>
+                                <span class="eco-more">…</span>
+                            </div>
+                            <p class="eco-desc">标准化协议接入，与 API 插件双引擎互补</p>
+                        </div>
+
+                        <!-- Plugin 生态 -->
+                        <div class="eco-card" style="animation-delay:0.4s;border-top:3px solid #ff6a3d;grid-column:2/4">
+                            <div style="display:flex;align-items:center;gap:clamp(8px,1vw,12px);margin-bottom:clamp(4px,0.8vh,8px)">
+                                <span class="eco-icon-wrap" style="background:rgba(255,106,61,0.12)">🧩</span>
+                                <h4 style="font-size:clamp(15px,1.5vw,18px);margin:0">Plugin 生态</h4>
+                            </div>
+                            <div class="eco-tags">
+                                <span>📱 潮新闻/区县融媒</span>
+                                <span>💬 微信/微博/头条</span>
+                                <span>✅ 合规审查插件</span>
+                                <span>©️ 版权检测插件</span>
+                                <span class="eco-more">…</span>
+                            </div>
+                            <p class="eco-desc">多渠道消息插件、合规与版权保障</p>
+                        </div>
+
+                        <!-- Agent 编排 -->
+                        <div class="eco-card" style="animation-delay:0.45s;border-top:3px solid #c084fc;grid-column:4/6">
+                            <div style="display:flex;align-items:center;gap:clamp(8px,1vw,12px);margin-bottom:clamp(4px,0.8vh,8px)">
+                                <span class="eco-icon-wrap" style="background:rgba(192,132,252,0.12)">🤖</span>
+                                <h4 style="font-size:clamp(15px,1.5vw,18px);margin:0">Agent 编排资源</h4>
+                            </div>
+                            <div class="eco-flow">
+                                <div class="eco-step"><span>📋</span><span>采编Agent</span></div>
+                                <span style="color:var(--accent);font-size:clamp(14px,1.4vw,18px)">→</span>
+                                <div class="eco-step"><span>🔍</span><span>审核Agent</span></div>
+                                <span style="color:var(--accent);font-size:clamp(14px,1.4vw,18px)">→</span>
+                                <div class="eco-step"><span>🚀</span><span>发布Agent</span></div>
+                            </div>
+                            <p class="eco-desc">一键安装，覆盖从选题到分发全流程</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <!-- SLIDE 17: MODEL SERVICE -->
+            <div class="slide" data-slide="17">
+                <div class="content" style="display:flex;flex-direction:column;height:100%;justify-content:flex-start;padding-top:clamp(20px,4vh,45px);color:var(--fg)">
+                    <p class="tag" style="animation-delay:0s">模型服务化管理</p>
+                    <h2 style="font-size:clamp(22px,3.2vw,40px);animation-delay:0.1s">模型服务化管理的<span class="accent-text">创新解决方案</span></h2>
+                    <p class="subtitle" style="text-align:left;font-size:clamp(13px,1.3vw,17px);margin-bottom:clamp(10px,1.6vh,20px);animation-delay:0.2s;color:var(--accent)">统一的模型服务代理，精细化管控，从公司到 API Key 的闭环管理</p>
+                    <div class="three-columns" style="margin-top:0">
+                        <div class="card" style="animation-delay:0.25s">
+                            <p style="font-size:clamp(22px,2.5vw,30px);margin-bottom:clamp(6px,1vh,10px)">🔗</p>
+                            <h4>统一模型代理</h4>
+                            <p style="font-size:clamp(12px,1.1vw,15px)">基于 OpenAI 协议统一 API，托管、审计和合规管理全品类国内厂商模型</p>
+                        </div>
+                        <div class="card" style="animation-delay:0.35s">
+                            <p style="font-size:clamp(22px,2.5vw,30px);margin-bottom:clamp(6px,1vh,10px)">⚡</p>
+                            <h4>快速响应</h4>
+                            <p style="font-size:clamp(12px,1.1vw,15px)">稳定的先进大模型服务，最新模型快速上线，免改代码完成切换</p>
+                        </div>
+                        <div class="card" style="animation-delay:0.45s">
+                            <p style="font-size:clamp(22px,2.5vw,30px);margin-bottom:clamp(6px,1vh,10px)">💰</p>
+                            <h4>精准计费计量</h4>
+                            <p style="font-size:clamp(12px,1.1vw,15px)">Token 消耗实时统计，多模式灵活适配，成本一手掌控</p>
+                        </div>
+                    </div>
+                    <div style="margin-top:clamp(6px,1.2vh,14px)">
+                        <div class="card" style="animation-delay:0.5s;max-width:100%">
+                            <div style="display:flex;align-items:flex-start;gap:clamp(14px,2vw,24px)">
+                                <p style="font-size:clamp(22px,2.5vw,30px);flex-shrink:0">🛡️</p>
+                                <div>
+                                    <h4>安全管控 <span style="font-size:clamp(11px,1vw,13px);color:var(--muted);font-weight:400;margin-left:8px">RPM · TPM 限流</span></h4>
+                                    <p style="font-size:clamp(12px,1.1vw,15px);margin-top:clamp(4px,0.6vh,8px)">每分钟请求数限制，防止异常并发冲击系统稳定性；每分钟 Token 限制，精准控制大吞吐量任务对带宽的消耗</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top:auto;padding-bottom:clamp(10px,2vh,25px)">
+                        <p style="font-size:clamp(11px,1vw,13px);color:var(--muted);text-align:center;margin-bottom:clamp(8px,1.2vh,16px);opacity:0;animation:fadeUp 0.6s ease 0.6s forwards">已接入主流厂商模型</p>
+                        <div style="display:flex;justify-content:center;align-items:center;gap:clamp(20px,4vw,48px);flex-wrap:nowrap">
+                            <span class="vendor-badge" style="animation-delay:0.65s;border-color:rgba(0,212,255,0.3);background:rgba(0,212,255,0.08)"><span class="vendor-dot" style="background:#00d4ff"></span>AICommind 传播大模型</span>
+                            <span class="vendor-badge" style="animation-delay:0.7s"><span class="vendor-dot" style="background:#4d6bfe"></span>DeepSeek</span>
+                            <span class="vendor-badge" style="animation-delay:0.7s"><span class="vendor-dot" style="background:#6e44ff"></span>Qwen 通义</span>
+                            <span class="vendor-badge" style="animation-delay:0.75s"><span class="vendor-dot" style="background:#ff6a3d"></span>Kimi 月之暗面</span>
+                            <span class="vendor-badge" style="animation-delay:0.8s"><span class="vendor-dot" style="background:#3b82f6"></span>GLM 智谱</span>
+                            <span class="vendor-badge" style="animation-delay:0.85s"><span class="vendor-dot" style="background:#00d4ff"></span>Doubao 豆包</span>
+                            <span class="vendor-badge" style="animation-delay:0.9s"><span class="vendor-dot" style="background:#2563eb"></span>ERNIE 文心</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE: AI SUPPORT -->
+            <div class="slide" data-slide="27">
+                <div class="content center" style="color:var(--fg)">
+                    <p class="tag" style="animation-delay:0s">能力支撑</p>
+                    <h2 style="font-size:clamp(24px,3.2vw,38px);margin:clamp(4px,0.6vh,8px) 0 clamp(2px,0.3vh,4px);animation-delay:0.05s">AI <span class="accent-text">能力支撑</span></h2>
+                    <p class="subtitle" style="font-size:clamp(12px,1.1vw,14px);color:var(--accent);animation-delay:0.1s">传播大模型赋能媒体全业务链 · 对内提效 对外赋能</p>
+
+                    <!-- 上排2个 -->
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.5vw,18px);margin-top:clamp(10px,1.8vh,18px)">
+                        <div class="card" style="animation-delay:0.15s;text-align:left">
+                            <h4 style="margin:0 0 clamp(6px,0.8vh,10px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">对内应用 — 全业务链AI化</h4>
+                            <div style="font-size:clamp(10px,0.9vw,12px);line-height:1.65;color:var(--muted)">
+                                <p style="margin:0;font-weight:600;color:var(--fg)">📰 媒立方</p>
+                                <p style="margin:1px 0 clamp(5px,0.6vh,8px)">AI对话首页 · 编辑器AI助手 · AI校对 · 大图卡片 · 报选题AI辅写/拆分 · 多模态检索 · 智能标签/摘要</p>
+                                <p style="margin:0;font-weight:600;color:var(--fg)">🌊 潮新闻</p>
+                                <p style="margin:1px 0 clamp(5px,0.6vh,8px)">潮奔奔/潮小拍/潮小搜/潮小帮/潮小康 · AI阅读 · 智能创作(标题/封面/配文/头像/评论)</p>
+                                <p style="margin:0;font-weight:600;color:var(--fg)">📝 提分宝</p>
+                                <p style="margin:1px 0 clamp(5px,0.6vh,8px)">AI作文批改 · 作文润色 · 破题示例/思路 · 作文精修 · 内容质检 · 素材深化</p>
+                                <p style="margin:0;font-weight:600;color:var(--fg)">☁️ 天目蓝云</p>
+                                <p style="margin:1px 0 0">AI生图 · 智能校对 · 智能写作 · AI对话 · 创作大脑</p>
+                            </div>
+                        </div>
+                        <div class="card" style="animation-delay:0.2s;text-align:left">
+                            <h4 style="margin:0 0 clamp(6px,0.8vh,10px);font-size:clamp(14px,1.2vw,17px);color:var(--accent)">对外应用 — 标准化能力输出</h4>
+                            <div style="font-size:clamp(10px,0.9vw,12px);line-height:1.65;color:var(--muted)">
+                                <p style="margin:0 0 clamp(5px,0.6vh,8px)">🏢 <b style="color:var(--fg)">福建</b> 媒资向量化+多模态检索</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">全总</b> 区县助手+编辑器AI</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">大连</b> 数字报OCR向量化+多模态检索</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">嘉兴</b> 媒资结构化+多模态检索</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">陕西</b> 智能体平台(创建/多轮对话/API/任务规划)</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">鼎文</b> 智库文档问答+PPT生成+AI证件照</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">广西/安徽/嘉兴</b> 客户端智能对话+AI阅读+AI头像</p>
+                                <p style="margin:0 0 clamp(3px,0.5vh,6px)">🏢 <b style="color:var(--fg)">党刊助手</b> 党政类问答</p>
+                                <p style="margin:0">🏢 <b style="color:var(--fg)">广西</b> 本地化云融媒体平台全套应用</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 下排3个 -->
+                    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(8px,1.2vw,16px);margin-top:clamp(8px,1.2vh,14px)">
+                        <div class="card" style="grid-column:1/3;animation-delay:0.25s">
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(12px,1vw,14px);color:var(--accent)">核心能力矩阵</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">智能写作 · AI校对 · 多模态检索 · 向量化 · 文档问答 · 图片生成 · 视频创作 · 语音转写</p>
+                        </div>
+                        <div class="card" style="grid-column:3/5;animation-delay:0.3s">
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(12px,1vw,14px);color:var(--accent)">部署模式</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">SaaS接入 · 本地化部署 · API集成 · 智能体平台</p>
+                        </div>
+                        <div class="card" style="grid-column:5/7;animation-delay:0.35s">
+                            <h4 style="margin:0 0 clamp(3px,0.4vh,6px);font-size:clamp(12px,1vw,14px);color:var(--accent)">行业覆盖</h4>
+                            <p style="margin:0;font-size:clamp(10px,0.85vw,12px);color:var(--muted);line-height:1.5">省级媒体 · 区县融媒 · 党政机关 · 教育行业</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- SLIDE 26: THANKS -->
+            <div class="slide" data-slide="26">
+                <div class="content center">
+                    <h1>感谢聆听</h1>
+                    <div class="divider"><span class="divider-line"></span><span class="divider-dot"></span><span class="divider-line"></span></div>
+                    <p class="subtitle">欢迎交流讨论</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img class="slide-logo" src="logo.png" alt="传播大脑">
+    <div class="nav-dots" id="navDots"></div>
+    <div class="slide-counter" id="slideCounter">1 / 20</div>
+    <div class="edit-hint" id="editHint">按 E 进入编辑模式</div>
+
+    <script>
+        const wrapper = document.getElementById('slidesWrapper');
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        let currentSlide = 0;
+        let isEditMode = false;
+
+        const navDots = document.getElementById('navDots');
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
+            dot.onclick = () => goToSlide(i);
+            navDots.appendChild(dot);
+        }
+
+        function goToSlide(index) {
+            const prev = currentSlide;
+            currentSlide = Math.max(0, Math.min(index, totalSlides - 1));
+            wrapper.style.transform = `translateY(-${currentSlide * 100}vh)`;
+            // Re-trigger animations on the new slide
+            if (prev !== currentSlide) {
+                const slide = slides[currentSlide];
+                const animEls = slide.querySelectorAll('.tag,.flow-box,.flow-arrow,.card,h2,.subtitle');
+                animEls.forEach(el => {
+                    const clone = el.cloneNode(true);
+                    el.parentNode.replaceChild(clone, el);
+                });
+            }
+            updateNav();
+            saveProgress();
+        }
+
+        function updateNav() {
+            document.querySelectorAll('.nav-dot').forEach((dot, i) => dot.classList.toggle('active', i === currentSlide));
+            document.getElementById('slideCounter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+        }
+
+        function nextSlide() { if (currentSlide < totalSlides - 1) goToSlide(currentSlide + 1); }
+        function prevSlide() { if (currentSlide > 0) goToSlide(currentSlide - 1); }
+
+        document.addEventListener('keydown', (e) => {
+            if (isEditMode && e.key !== 'Escape' && e.key !== 'e' && e.key !== 'E') return;
+            switch(e.key) {
+                case 'ArrowDown': case 'ArrowRight': case ' ': case 'PageDown': e.preventDefault(); nextSlide(); break;
+                case 'ArrowUp': case 'ArrowLeft': case 'PageUp': e.preventDefault(); prevSlide(); break;
+                case 'Home': e.preventDefault(); goToSlide(0); break;
+                case 'End': e.preventDefault(); goToSlide(totalSlides - 1); break;
+                case 'e': case 'E': toggleEditMode(); break;
+                case 'Escape': if (isEditMode) toggleEditMode(); break;
+            }
+        });
+
+        let touchStartY = 0, touchEndY = 0;
+        document.addEventListener('touchstart', (e) => { touchStartY = e.touches[0].clientY; }, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            touchEndY = e.changedTouches[0].clientY;
+            const diff = touchStartY - touchEndY;
+            if (Math.abs(diff) > 50) diff > 0 ? nextSlide() : prevSlide();
+        }, { passive: true });
+
+        // 鼠标滚轮翻页 - 累计滚动距离，达到阈值翻页
+        let scrollAccum = 0;
+        let scrollTimer = null;
+
+        document.addEventListener('wheel', (e) => {
+            // 累计滚动距离
+            scrollAccum += e.deltaY;
+
+            // 停止滚动300ms后重置累计值
+            clearTimeout(scrollTimer);
+            scrollTimer = setTimeout(() => {
+                scrollAccum = 0;
+            }, 300);
+
+            // 向下滚动累计超过80，翻下一页
+            if (scrollAccum > 80) {
+                nextSlide();
+                scrollAccum = 0;
+            }
+            // 向上滚动累计超过80，翻上一页
+            else if (scrollAccum < -80) {
+                prevSlide();
+                scrollAccum = 0;
+            }
+        }, { passive: true });
+
+        function toggleEditMode() {
+            isEditMode = !isEditMode;
+            document.querySelectorAll('.content h1, .content h2, .content h3, .content h4, .content p, .content li').forEach(el => el.contentEditable = isEditMode);
+            document.getElementById('editHint').textContent = isEditMode ? '编辑模式中 | Ctrl+S 保存 | ESC 退出' : '按 E 进入编辑模式';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveProgress(); alert('已保存'); }
+        });
+
+        function saveProgress() {
+            localStorage.setItem('slides-content', document.querySelector('.slides-wrapper').innerHTML);
+            localStorage.setItem('slides-current', currentSlide);
+        }
+
+        // localStorage 缓存已禁用，改文件直接刷新即可
+        document.getElementById('editHint').addEventListener('click', toggleEditMode);
+
+        // === DEMO: 流式结构化分析 ===
+        const demoSections = [
+            { title: '一、人物标签 (Person)', items: ['人物_习近平', '人物_党和国家领导人', '人物_中央政治局常委', '人物_男性正装群体', '人物_站立队列'] },
+            { title: '二、地点与场景 (Location & Scene)', items: ['地点_浙江嘉兴南湖', '场景_革命纪念地', '场景_湖边步道', '场景_户外政治仪式', '场景_晴朗天气'] },
+            { title: '三、核心物体 (Object)', items: ['物体_红船（仿制中共一大纪念船）', '物体_中式画舫游船', '物体_石阶人行道', '物体_花坛花卉（粉红/玫红色）', '物体_湖面水面', '物体_垂柳树'] },
+            { title: '四、文字与标识 (Text & Logo)', items: ['文字_"红船印初心"书法题字', '文字_红色印章装饰', '文字_左上角艺术字布局'] },
+            { title: '五、视觉与构图 (Visual)', items: ['构图_低角度仰拍', '构图_引导线（人物队列+湖岸线）', '光影_侧逆光长影', '色彩_暖色调主导', '氛围_庄严肃穆 + 希望感'] },
+            { title: '六、历史与政治内涵', items: ['主题_中国共产党诞生地', '主题_红船精神', '事件_2017年十九大后常委瞻仰南湖', '象征_不忘初心牢记使命', '象征_开天辟地首创精神'] },
+            { title: '七、图像属性 (Metadata)', items: ['类型_官方新闻照片', '来源_新华社/人民日报', '时间_2017年10月31日', '版权_中国政府官方发布'] },
+        ];
+
+        function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+        async function typeText(el, text, speed) {
+            for (let i = 0; i < text.length; i++) {
+                el.textContent += text[i];
+                el.parentElement.scrollTop = el.parentElement.scrollHeight;
+                await sleep(speed);
+            }
+        }
+
+        async function runDemo() {
+            const body = document.getElementById('demoBody');
+            const status = document.getElementById('demoStatus');
+            const replay = document.getElementById('demoReplay');
+            if (!body) return;
+            body.innerHTML = '';
+            replay.style.display = 'none';
+            status.textContent = '⏳ 分析中...';
+            status.style.color = '#fbbf24';
+
+            // 开始JSON输出
+            await sleep(300);
+            const openBrace = document.createElement('div');
+            openBrace.style.color = '#64748b';
+            openBrace.textContent = '{';
+            body.appendChild(openBrace);
+            await sleep(200);
+
+            for (const section of demoSections) {
+                const titleEl = document.createElement('div');
+                titleEl.className = 'demo-section-title';
+                body.appendChild(titleEl);
+                await typeText(titleEl, '  "' + section.title + '": [', 8);
+
+                for (let i = 0; i < section.items.length; i++) {
+                    const itemEl = document.createElement('div');
+                    itemEl.style.paddingLeft = '18px';
+                    body.appendChild(itemEl);
+                    const prefix = '<span class="demo-tag">"' + section.items[i] + '"</span>';
+                    itemEl.innerHTML = prefix + (i < section.items.length - 1 ? ',' : '');
+                    body.scrollTop = body.scrollHeight;
+                    await sleep(60 + Math.random() * 40);
+                }
+
+                const closeEl = document.createElement('div');
+                closeEl.style.color = '#64748b';
+                const isLast = section === demoSections[demoSections.length - 1];
+                closeEl.textContent = '  ]' + (isLast ? '' : ',');
+                body.appendChild(closeEl);
+                await sleep(150);
+            }
+
+            // 向量化
+            await sleep(300);
+            const embedTitle = document.createElement('div');
+            embedTitle.className = 'demo-section-title';
+            body.appendChild(embedTitle);
+            await typeText(embedTitle, '  "embedding": [', 8);
+
+            const embedLine = document.createElement('div');
+            embedLine.style.paddingLeft = '18px';
+            embedLine.style.color = '#c084fc';
+            body.appendChild(embedLine);
+
+            const nums = [0.0710156261920929, -0.0160277895629406, -0.0402783155441284, 0.0377660803496838, 0.0214583128974438, -0.0523847165346146, 0.0089234451293945, 0.0341256789012345];
+            for (let i = 0; i < nums.length; i++) {
+                embedLine.textContent += nums[i].toFixed(7);
+                if (i < nums.length - 1) embedLine.textContent += ', ';
+                body.scrollTop = body.scrollHeight;
+                await sleep(30);
+            }
+            embedLine.textContent += ', ...';
+
+            const ellipsis = document.createElement('div');
+            ellipsis.style.color = '#64748b';
+            ellipsis.textContent = '  // 1024维向量表示';
+            body.appendChild(ellipsis);
+
+            const closeBrace = document.createElement('div');
+            closeBrace.style.color = '#64748b';
+            closeBrace.textContent = '}';
+            body.appendChild(closeBrace);
+
+            // 完成
+            await sleep(200);
+            status.textContent = '✅ 分析完成';
+            status.style.color = '#27c93f';
+            replay.style.display = 'inline-block';
+        }
+
+        // 自动触发Demo
+        let demoRan = false;
+        let tokenBarsRan = false;
+        const _origGoToSlide = goToSlide;
+        if (typeof goToSlide === 'function') {
+            goToSlide = function(index) {
+                _origGoToSlide(index);
+                if (index === 11 && !demoRan) {
+                    demoRan = true;
+                    setTimeout(runDemo, 600);
+                }
+                if (index === 4 && !tokenBarsRan) {
+                    tokenBarsRan = true;
+                    setTimeout(renderTokenBars, 300);
+                }
+            };
+        }
+        // 页面加载时检查当前页，自动触发
+        if (currentSlide === 4 && !tokenBarsRan) {
+            tokenBarsRan = true;
+            setTimeout(renderTokenBars, 600);
+        }
+        if (currentSlide === 11 && !demoRan) {
+            demoRan = true;
+            setTimeout(runDemo, 900);
+        }
+
+        function renderTokenBars() {
+            var container = document.getElementById('tokenBars');
+            if (!container) { tokenBarsRan = false; return; }
+            var data = [
+                { word: '好', prob: 0.72, color: '#00d4ff' },
+                { word: '不错', prob: 0.10, color: '#7dd3fc' },
+                { word: '热', prob: 0.06, color: '#7dd3fc' },
+                { word: '冷', prob: 0.04, color: '#7dd3fc' },
+                { word: '棒', prob: 0.03, color: '#7dd3fc' },
+                { word: '(...)', prob: 0.05, color: 'rgba(160,160,176,0.4)' }
+            ];
+            data.forEach(function(t, i) {
+                var row = document.createElement('div');
+                row.style.cssText = 'display:flex;align-items:center;gap:10px;margin-bottom:6px;';
+                var label = document.createElement('span');
+                label.style.cssText = 'width:clamp(36px,4vw,50px);text-align:right;font-size:clamp(12px,1.1vw,15px);color:#fff;font-weight:500;flex-shrink:0;';
+                label.textContent = t.word;
+                var barBg = document.createElement('div');
+                barBg.style.cssText = 'flex:1;height:clamp(18px,2.2vh,28px);background:rgba(255,255,255,0.05);border-radius:4px;overflow:hidden;';
+                var bar = document.createElement('div');
+                bar.style.cssText = 'height:100%;width:0;border-radius:4px;background:' + t.color + ';transition:width 0.8s cubic-bezier(0.4,0,0.2,1) ' + (i*0.1) + 's;';
+                barBg.appendChild(bar);
+                var pct = document.createElement('span');
+                pct.style.cssText = 'font-size:clamp(11px,0.9vw,13px);color:var(--muted);width:clamp(40px,4vw,56px);flex-shrink:0;';
+                pct.textContent = (t.prob*100).toFixed(0) + '%';
+                row.appendChild(label);
+                row.appendChild(barBg);
+                row.appendChild(pct);
+                container.appendChild(row);
+                requestAnimationFrame(function() {
+                    requestAnimationFrame(function() {
+                        bar.style.width = (t.prob*100) + '%';
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+</html>
