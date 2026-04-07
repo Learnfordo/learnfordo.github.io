@@ -1,0 +1,257 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+.dash{background:#f0f3fb;font-family:var(--font-sans);min-height:100vh;padding:24px;color:#1a1d2e;}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.page-title{font-size:18px;font-weight:500;color:#1a1d2e;}
+.page-title span{font-size:13px;color:#8a90a8;font-weight:400;margin-left:8px;}
+.time-tabs{display:flex;gap:4px;background:#fff;border:0.5px solid #e2e6f3;border-radius:8px;padding:4px;}
+.time-tab{padding:5px 14px;font-size:12px;border-radius:6px;cursor:pointer;color:#8a90a8;border:none;background:transparent;transition:all .15s;}
+.time-tab.active{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;box-shadow:0 2px 8px rgba(91,124,250,.3);}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.07em;color:#a0a8c0;text-transform:uppercase;margin-bottom:10px;margin-top:20px;}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;}
+.card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:18px 20px;position:relative;overflow:hidden;}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:3px 0 0 3px;}
+.card.c-blue::before{background:linear-gradient(180deg,#5b7cfa,#7c5bf5);}
+.card.c-green::before{background:linear-gradient(180deg,#34d399,#10b981);}
+.card.c-amber::before{background:linear-gradient(180deg,#f59e0b,#ef8c00);}
+.card-label{font-size:12px;color:#8a90a8;margin-bottom:6px;}
+.card-value{font-size:24px;font-weight:500;color:#1a1d2e;}
+.card-value.blue{color:#5b7cfa;}
+.card-value.green{color:#10b981;}
+.card-sub{font-size:11px;color:#a0a8c0;margin-top:5px;line-height:1.6;}
+.card-sub b{color:#5b7cfa;font-weight:500;}
+.progress-bar{height:4px;background:#eef0f8;border-radius:2px;margin-top:10px;}
+.progress-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#5b7cfa,#7c5bf5);}
+.model-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.model-card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;}
+.model-tag{display:inline-flex;align-items:center;gap:5px;font-size:11px;padding:3px 10px;border-radius:20px;margin-bottom:12px;font-weight:500;}
+.tag-blue{background:#eef1ff;color:#5b7cfa;}
+.tag-purple{background:#f3eeff;color:#7c5bf5;}
+.model-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f0f2f8;}
+.model-row:last-child{border-bottom:none;}
+.model-row-label{font-size:12px;color:#8a90a8;}
+.model-row-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+.chart-wrap{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 20px;margin-top:12px;}
+.chart-legend{display:flex;gap:16px;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:#8a90a8;}
+.legend-dot{width:8px;height:8px;border-radius:2px;}
+.chart-canvas-wrap{position:relative;width:100%;height:180px;}
+.divider{height:0.5px;background:#e8ebf5;margin:20px 0;}
+.detail-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+.detail-title{font-size:14px;font-weight:500;color:#1a1d2e;}
+.search-box{background:#fff;border:0.5px solid #e2e6f3;border-radius:8px;padding:7px 12px;font-size:12px;color:#1a1d2e;outline:none;width:190px;transition:border-color .15s;}
+.search-box:focus{border-color:#5b7cfa;}
+.search-box::placeholder{color:#b0b8d0;}
+.bar-section{margin-bottom:16px;}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.bar-name{font-size:11px;color:#8a90a8;width:100px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bar-track{flex:1;height:6px;background:#eef0f8;border-radius:3px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,#5b7cfa,#7c5bf5);}
+.bar-num{font-size:11px;color:#5b7cfa;font-weight:500;width:56px;text-align:right;flex-shrink:0;}
+.agent-table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;border:0.5px solid #e2e6f3;}
+.agent-table th{font-size:11px;color:#a0a8c0;font-weight:500;text-align:left;padding:10px 14px;background:#f8f9fd;border-bottom:0.5px solid #e8ebf5;}
+.agent-table td{font-size:12px;color:#3a3f5c;padding:11px 14px;border-bottom:0.5px solid #f0f2f8;vertical-align:middle;}
+.agent-table tr:last-child td{border-bottom:none;}
+.agent-table tbody tr:hover td{background:#fafbff;}
+.agent-name-wrap{display:flex;align-items:center;gap:8px;}
+.agent-icon{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#eef1ff,#e6eaff);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
+.status-badge{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:500;}
+.badge-green{background:#e8faf4;color:#10b981;}
+.badge-gray{background:#f3f4f8;color:#a0a8c0;}
+.expand-btn{background:#f0f3ff;border:none;color:#5b7cfa;cursor:pointer;border-radius:6px;padding:4px 10px;font-size:11px;font-weight:500;}
+.expand-btn:hover{background:#e2e8ff;}
+.detail-drawer{background:#f8f9fd;border:0.5px solid #e8ebf5;border-radius:8px;padding:14px;margin:2px 0 6px;}
+.drawer-section{margin-bottom:10px;}
+.drawer-section-title{font-size:10px;font-weight:500;margin-bottom:8px;padding-bottom:4px;border-bottom:0.5px solid #e8ebf5;}
+.drawer-section-title.blue{color:#5b7cfa;}
+.drawer-section-title.purple{color:#7c5bf5;}
+.drawer-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}
+.drawer-cell{background:#fff;border:0.5px solid #e8ebf5;border-radius:6px;padding:8px 10px;}
+.drawer-cell-label{font-size:10px;color:#a0a8c0;margin-bottom:3px;}
+.drawer-cell-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+</style>
+
+<div class="dash">
+  <div class="topbar">
+    <div>
+      <div class="page-title">统计分析 <span>数据概览</span></div>
+    </div>
+    <div class="time-tabs">
+      <button class="time-tab" onclick="setTab(this)">今天</button>
+      <button class="time-tab active" onclick="setTab(this)">近7天</button>
+      <button class="time-tab" onclick="setTab(this)">近30天</button>
+      <button class="time-tab" onclick="setTab(this)">自定义</button>
+    </div>
+  </div>
+
+  <div class="section-label">智能体应用</div>
+  <div class="cards-grid">
+    <div class="card c-blue">
+      <div class="card-label">智能体总数</div>
+      <div class="card-value blue">48</div>
+      <div class="card-sub">已发布 <b>32</b> 个 · 草稿 16 个</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:67%"></div></div>
+    </div>
+    <div class="card c-blue">
+      <div class="card-label">总调用量</div>
+      <div class="card-value">126,480</div>
+      <div class="card-sub">平台对话 <b>98,210</b><br>API 调用 <b>28,270</b></div>
+    </div>
+    <div class="card c-green">
+      <div class="card-label">总 Token 消耗</div>
+      <div class="card-value green">2.4B</div>
+      <div class="card-sub">Input <b style="color:#10b981">1.6B</b> · Output <b style="color:#10b981">0.8B</b></div>
+    </div>
+  </div>
+
+  <div class="section-label">模型 Token 消耗</div>
+  <div class="model-grid">
+    <div class="model-card">
+      <div class="model-tag tag-blue">规划模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">1.52B</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">1.08B</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">440M</span></div>
+    </div>
+    <div class="model-card">
+      <div class="model-tag tag-purple">总结模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">880M</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">520M</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">360M</span></div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top:20px;">7天调用趋势</div>
+  <div class="chart-wrap">
+    <div class="chart-legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#5b7cfa"></div>平台对话</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>API 调用</div>
+    </div>
+    <div class="chart-canvas-wrap"><canvas id="trendChart"></canvas></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="detail-header">
+    <div class="detail-title">单个智能体明细</div>
+    <input class="search-box" type="text" placeholder="搜索智能体名称..." oninput="filterAgents(this.value)">
+  </div>
+
+  <div class="section-label" style="margin-top:0;">调用量排行</div>
+  <div class="bar-section" id="bar-section"></div>
+
+  <table class="agent-table">
+    <thead>
+      <tr>
+        <th>智能体名称</th>
+        <th>状态</th>
+        <th>总调用量</th>
+        <th>平台调用</th>
+        <th>API 调用</th>
+        <th>总 Tokens</th>
+        <th>详情</th>
+      </tr>
+    </thead>
+    <tbody id="agent-tbody"></tbody>
+  </table>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const icons=['🤖','🔍','📊','📄','💬','📝','✉️','🗄️'];
+const agents=[
+  {name:"客服助手Pro",status:"published",calls:28410,platform:22100,api:6310,totalT:"680M",inputT:"420M",outputT:"260M",planTotal:"430M",planIn:"280M",planOut:"150M",sumTotal:"250M",sumIn:"140M",sumOut:"110M"},
+  {name:"代码审查员",status:"published",calls:21350,platform:18900,api:2450,totalT:"510M",inputT:"340M",outputT:"170M",planTotal:"320M",planIn:"220M",planOut:"100M",sumTotal:"190M",sumIn:"120M",sumOut:"70M"},
+  {name:"数据分析师",status:"published",calls:18760,platform:14200,api:4560,totalT:"460M",inputT:"290M",outputT:"170M",planTotal:"280M",planIn:"180M",planOut:"100M",sumTotal:"180M",sumIn:"110M",sumOut:"70M"},
+  {name:"文档生成器",status:"published",calls:15230,platform:13800,api:1430,totalT:"380M",inputT:"230M",outputT:"150M",planTotal:"240M",planIn:"150M",planOut:"90M",sumTotal:"140M",sumIn:"80M",sumOut:"60M"},
+  {name:"知识库问答",status:"published",calls:12890,platform:11200,api:1690,totalT:"310M",inputT:"200M",outputT:"110M",planTotal:"190M",planIn:"120M",planOut:"70M",sumTotal:"120M",sumIn:"80M",sumOut:"40M"},
+  {name:"会议纪要助手",status:"draft",calls:9640,platform:9640,api:0,totalT:"240M",inputT:"160M",outputT:"80M",planTotal:"150M",planIn:"100M",planOut:"50M",sumTotal:"90M",sumIn:"60M",sumOut:"30M"},
+  {name:"邮件写作助理",status:"published",calls:8920,platform:6800,api:2120,totalT:"210M",inputT:"140M",outputT:"70M",planTotal:"130M",planIn:"85M",planOut:"45M",sumTotal:"80M",sumIn:"55M",sumOut:"25M"},
+  {name:"SQL查询助手",status:"draft",calls:6480,platform:6480,api:0,totalT:"160M",inputT:"100M",outputT:"60M",planTotal:"100M",planIn:"65M",planOut:"35M",sumTotal:"60M",sumIn:"35M",sumOut:"25M"},
+];
+let filtered=[...agents];
+
+function setTab(el){document.querySelectorAll('.time-tab').forEach(t=>t.classList.remove('active'));el.classList.add('active');}
+
+function renderBars(){
+  const top=filtered.slice(0,6),max=top[0]?.calls||1;
+  document.getElementById('bar-section').innerHTML=top.map((a,i)=>`
+    <div class="bar-row">
+      <div class="bar-name">${a.name}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.round(a.calls/max*100)}%"></div></div>
+      <div class="bar-num">${a.calls.toLocaleString()}</div>
+    </div>`).join('');
+}
+
+function renderTable(){
+  document.getElementById('agent-tbody').innerHTML=filtered.map((a,i)=>`
+    <tr>
+      <td><div class="agent-name-wrap"><div class="agent-icon">${icons[i%icons.length]}</div><span>${a.name}</span></div></td>
+      <td><span class="status-badge ${a.status==='published'?'badge-green':'badge-gray'}">${a.status==='published'?'已发布':'草稿'}</span></td>
+      <td style="font-weight:500">${a.calls.toLocaleString()}</td>
+      <td>${a.platform.toLocaleString()}</td>
+      <td>${a.api.toLocaleString()}</td>
+      <td>${a.totalT}</td>
+      <td><button class="expand-btn" onclick="toggleDetail(${i})">展开</button></td>
+    </tr>
+    <tr id="detail-${i}" style="display:none">
+      <td colspan="7" style="padding:4px 14px 12px;background:#fafbff;">
+        <div class="detail-drawer">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="drawer-section">
+              <div class="drawer-section-title blue">规划模型</div>
+              <div class="drawer-inner">
+                <div class="drawer-cell"><div class="drawer-cell-label">总 Tokens</div><div class="drawer-cell-value">${a.planTotal}</div></div>
+                <div class="drawer-cell"><div class="drawer-cell-label">Input</div><div class="drawer-cell-value">${a.planIn}</div></div>
+                <div class="drawer-cell"><div class="drawer-cell-label">Output</div><div class="drawer-cell-value">${a.planOut}</div></div>
+              </div>
+            </div>
+            <div class="drawer-section">
+              <div class="drawer-section-title purple">总结模型</div>
+              <div class="drawer-inner">
+                <div class="drawer-cell"><div class="drawer-cell-label">总 Tokens</div><div class="drawer-cell-value">${a.sumTotal}</div></div>
+                <div class="drawer-cell"><div class="drawer-cell-label">Input</div><div class="drawer-cell-value">${a.sumIn}</div></div>
+                <div class="drawer-cell"><div class="drawer-cell-label">Output</div><div class="drawer-cell-value">${a.sumOut}</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+    </tr>`).join('');
+}
+
+function toggleDetail(i){
+  const row=document.getElementById('detail-'+i);
+  const btn=document.querySelectorAll('.expand-btn')[i];
+  const isOpen=row.style.display!=='none';
+  document.querySelectorAll('[id^=detail-]').forEach(r=>r.style.display='none');
+  document.querySelectorAll('.expand-btn').forEach(b=>b.textContent='展开');
+  if(!isOpen){row.style.display='';btn.textContent='收起';}
+}
+
+function filterAgents(q){
+  filtered=q?agents.filter(a=>a.name.includes(q)):[...agents];
+  renderBars();renderTable();
+}
+
+renderBars();renderTable();
+
+new Chart(document.getElementById('trendChart'),{
+  type:'bar',
+  data:{
+    labels:['周一','周二','周三','周四','周五','周六','周日'],
+    datasets:[
+      {label:'平台对话',data:[12400,14200,13800,16500,18200,15600,7510],backgroundColor:'rgba(91,124,250,.75)',borderRadius:5,stack:'s'},
+      {label:'API调用',data:[3200,3800,3500,4200,4800,4100,580],backgroundColor:'rgba(167,139,250,.75)',borderRadius:5,stack:'s'}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.parsed.y.toLocaleString()}`}}},
+    scales:{
+      x:{grid:{display:false},ticks:{color:'#a0a8c0',font:{size:11}}},
+      y:{grid:{color:'rgba(226,230,243,.8)'},ticks:{color:'#a0a8c0',font:{size:11},callback:v=>v>=1000?(v/1000)+'k':v},border:{dash:[3,3]}}
+    }
+  }
+});
+</script>
