@@ -1,0 +1,271 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+.dash{background:#f0f3fb;font-family:var(--font-sans);padding:24px;color:#1a1d2e;}
+.breadcrumb{font-size:12px;color:#a0a8c0;margin-bottom:16px;display:flex;align-items:center;gap:6px;}
+.breadcrumb span{color:#5b7cfa;cursor:pointer;}
+.breadcrumb span:hover{text-decoration:underline;}
+.bc-sep{color:#d0d4e8;}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.page-title{font-size:18px;font-weight:500;color:#1a1d2e;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.key-mono{font-family:var(--font-mono);font-size:13px;color:#7c5bf5;background:#f3eeff;padding:3px 10px;border-radius:6px;}
+.status-badge{font-size:11px;background:#e8faf4;color:#10b981;padding:3px 10px;border-radius:20px;font-weight:500;}
+.time-tabs{display:flex;gap:4px;background:#fff;border:0.5px solid #e2e6f3;border-radius:8px;padding:4px;}
+.time-tab{padding:5px 14px;font-size:12px;border-radius:6px;cursor:pointer;color:#8a90a8;border:none;background:transparent;font-weight:500;transition:all .15s;}
+.time-tab.active{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;box-shadow:0 2px 8px rgba(91,124,250,.3);}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.07em;color:#a0a8c0;text-transform:uppercase;margin-bottom:10px;margin-top:20px;}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;}
+.card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;position:relative;overflow:hidden;}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:3px 0 0 3px;}
+.card.cb::before{background:linear-gradient(180deg,#5b7cfa,#7c5bf5);}
+.card.cg::before{background:linear-gradient(180deg,#34d399,#10b981);}
+.card.cp::before{background:linear-gradient(180deg,#f472b6,#ec4899);}
+.card-label{font-size:11px;color:#8a90a8;margin-bottom:5px;}
+.card-value{font-size:22px;font-weight:500;color:#1a1d2e;}
+.card-value.blue{color:#5b7cfa;}
+.card-value.green{color:#10b981;}
+.card-sub{font-size:11px;color:#a0a8c0;margin-top:4px;line-height:1.6;}
+.card-sub b{color:#5b7cfa;font-weight:500;}
+.model-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.model-card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;}
+.model-tag{display:inline-flex;align-items:center;font-size:11px;padding:3px 10px;border-radius:20px;margin-bottom:12px;font-weight:500;}
+.tag-blue{background:#eef1ff;color:#5b7cfa;}
+.tag-purple{background:#f3eeff;color:#7c5bf5;}
+.model-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f0f2f8;}
+.model-row:last-child{border-bottom:none;}
+.model-row-label{font-size:12px;color:#8a90a8;}
+.model-row-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+.chart-wrap{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 20px;}
+.chart-legend{display:flex;gap:16px;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:#8a90a8;}
+.legend-dot{width:8px;height:8px;border-radius:2px;}
+.chart-canvas-wrap{position:relative;width:100%;height:190px;}
+.info-bar{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:14px 18px;display:flex;gap:32px;flex-wrap:wrap;margin-bottom:4px;}
+.info-item{display:flex;flex-direction:column;gap:3px;}
+.info-label{font-size:11px;color:#a0a8c0;}
+.info-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+.table-wrap{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;overflow:hidden;}
+.data-table{width:100%;border-collapse:collapse;}
+.data-table th{font-size:11px;color:#a0a8c0;font-weight:500;text-align:left;padding:10px 14px;background:#f8f9fd;border-bottom:0.5px solid #e8ebf5;white-space:nowrap;}
+.data-table td{font-size:12px;color:#3a3f5c;padding:10px 14px;border-bottom:0.5px solid #f0f2f8;vertical-align:middle;}
+.data-table tr:last-child td{border-bottom:none;}
+.data-table tbody tr:hover td{background:#fafbff;}
+.agent-icon{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#eef1ff,#e6eaff);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
+.agent-name-wrap{display:flex;align-items:center;gap:8px;}
+.tag-pill{display:inline-block;background:#f0f3ff;color:#5b7cfa;font-size:10px;padding:1px 7px;border-radius:10px;}
+.deleted-tag{background:#f3f4f8;color:#a0a8c0;}
+.progress-mini{height:4px;background:#eef0f8;border-radius:2px;margin-top:5px;overflow:hidden;}
+.progress-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#5b7cfa,#7c5bf5);}
+.custom-date{background:#fff;border:0.5px solid #e2e6f3;border-radius:10px;padding:12px 16px;margin-top:8px;}
+.filter-group{display:flex;flex-direction:column;gap:4px;}
+.filter-label{font-size:11px;color:#a0a8c0;}
+.filter-input,.date-input{background:#f8f9fd;border:0.5px solid #e2e6f3;border-radius:7px;padding:6px 10px;font-size:12px;color:#1a1d2e;outline:none;height:32px;width:130px;}
+.filter-input:focus,.date-input:focus{border-color:#5b7cfa;}
+.btn-search{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;border:none;border-radius:7px;padding:0 18px;height:32px;font-size:12px;cursor:pointer;font-weight:500;white-space:nowrap;}
+</style>
+
+<div class="dash">
+  <div class="breadcrumb">
+    <span>APIKey 管理</span><div class="bc-sep">›</div>
+    <span style="font-family:var(--font-mono);font-size:11px;">sk-ant-****6Fxa</span><div class="bc-sep">›</div>
+    <div style="color:#1a1d2e;">统计</div>
+  </div>
+
+  <div class="topbar">
+    <div class="page-title">
+      <span class="key-mono">sk-ant-****6Fxa</span>
+      <span class="status-badge">启用中</span>
+    </div>
+    <div class="time-tabs">
+      <button class="time-tab" onclick="setTab(this,'today')">今天</button>
+      <button class="time-tab active" onclick="setTab(this,'7d')">近7天</button>
+      <button class="time-tab" onclick="setTab(this,'30d')">近30天</button>
+      <button class="time-tab" onclick="setTab(this,'custom')">自定义</button>
+    </div>
+  </div>
+  <div class="custom-date" id="customDate" style="display:none;">
+    <div class="filter-row" style="display:flex;gap:10px;align-items:flex-end;margin-bottom:12px;">
+      <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="c-date-start"></div>
+      <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="c-date-end"></div>
+      <button class="btn-search" onclick="applyCustom()">查询</button>
+    </div>
+  </div>
+
+  <div class="info-bar">
+    <div class="info-item"><div class="info-label">Key 名称</div><div class="info-value">生产环境主Key</div></div>
+    <div class="info-item"><div class="info-label">创建时间</div><div class="info-value">2024-01-10</div></div>
+    <div class="info-item"><div class="info-label">创建人</div><div class="info-value">高佳强</div></div>
+    <div class="info-item"><div class="info-label">最近调用时间</div><div class="info-value">2025-04-08 14:32</div></div>
+    <div class="info-item"><div class="info-label">调用智能体数</div><div class="info-value" style="color:#5b7cfa;font-size:16px;font-weight:500;">6 个</div></div>
+  </div>
+
+  <div class="section-label">调用量概览</div>
+  <div class="cards-grid">
+    <div class="card cb">
+      <div class="card-label">总 API 调用量</div>
+      <div class="card-value blue">18,340</div>
+      <div class="card-sub">近7天累计</div>
+    </div>
+    <div class="card cb">
+      <div class="card-label">调用智能体数</div>
+      <div class="card-value">6</div>
+      <div class="card-sub">个不同智能体</div>
+    </div>
+    <div class="card cb">
+      <div class="card-label">日均调用量</div>
+      <div class="card-value">2,620</div>
+      <div class="card-sub">次 / 天</div>
+    </div>
+  </div>
+
+  <div class="section-label">Token 消耗概览</div>
+  <div class="cards-grid">
+    <div class="card cg">
+      <div class="card-label">总 Token 消耗</div>
+      <div class="card-value green">430M</div>
+      <div class="card-sub">Input <b style="color:#10b981">270M</b> · Output <b style="color:#10b981">160M</b></div>
+    </div>
+    <div class="card cg">
+      <div class="card-label">Input Tokens</div>
+      <div class="card-value">270M</div>
+      <div class="card-sub">占总消耗 <b style="color:#10b981">62.8%</b></div>
+    </div>
+    <div class="card cg">
+      <div class="card-label">Output Tokens</div>
+      <div class="card-value">160M</div>
+      <div class="card-sub">占总消耗 <b style="color:#10b981">37.2%</b></div>
+    </div>
+  </div>
+
+  <div class="section-label">模型 Token 消耗</div>
+  <div class="model-grid">
+    <div class="model-card">
+      <div class="model-tag tag-blue">规划模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">268M</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">172M</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">96M</span></div>
+    </div>
+    <div class="model-card">
+      <div class="model-tag tag-purple">总结模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">162M</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">98M</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">64M</span></div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top:20px;">所调用智能体明细</div>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>智能体名称</th>
+          <th>调用量</th>
+          <th>调用占比</th>
+          <th>总 Tokens</th>
+          <th>Input Tokens</th>
+          <th>Output Tokens</th>
+          <th>规划模型 Tokens</th>
+          <th>总结模型 Tokens</th>
+        </tr>
+      </thead>
+      <tbody id="key-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const agentBase=[
+  {icon:'🤖',name:'客服助手Pro',deleted:false,calls:6310,total:'150M',input:'95M',output:'55M',plan:'92M',sum:'58M'},
+  {icon:'🔍',name:'深度搜索Pro',deleted:false,calls:4820,total:'112M',input:'70M',output:'42M',plan:'68M',sum:'44M'},
+  {icon:'📊',name:'数据分析师',deleted:false,calls:3240,total:'86M',input:'54M',output:'32M',plan:'52M',sum:'34M'},
+  {icon:'📄',name:'文档生成器',deleted:false,calls:2180,total:'48M',input:'30M',output:'18M',plan:'30M',sum:'18M'},
+  {icon:'💬',name:'知识库问答',deleted:false,calls:1120,total:'22M',input:'14M',output:'8M',plan:'14M',sum:'8M'},
+  {icon:'🗑️',name:'旧版助手（已删除）',deleted:true,calls:670,total:'12M',input:'7M',output:'5M',plan:'8M',sum:'4M'},
+];
+
+let currentTab='7d';
+const dataMap={
+  '7d':{totalCalls:'18,340',agents:6,daily:'2,620',totalToken:'430M',input:'270M',output:'160M',planTotal:'268M',planIn:'172M',planOut:'96M',sumTotal:'162M',sumIn:'98M',sumOut:'64M',agentsData:agentBase},
+  today:{totalCalls:'2,620',agents:6,daily:'2,620',totalToken:'61M',input:'39M',output:'22M',planTotal:'38M',planIn:'25M',planOut:'13M',sumTotal:'23M',sumIn:'14M',sumOut:'9M',agentsData:agentBase.map(a=>({...a,calls:Math.round(a.calls/7)}))},
+  '30d':{totalCalls:'78,600',agents:6,daily:'2,620',totalToken:'1.8B',input:'1.2B',output:'640M',planTotal:'1.1B',planIn:'740M',planOut:'410M',sumTotal:'700M',sumIn:'420M',sumOut:'280M',agentsData:agentBase.map(a=>({...a,calls:Math.round(a.calls/7*30)}))},
+  custom:null,
+};
+
+function setTab(el,key){
+  document.querySelectorAll('.time-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('customDate').style.display=key==='custom'?'block':'none';
+  if(key!=='custom'){currentTab=key;refreshData();}
+}
+
+function applyCustom(){
+  const s=document.getElementById('c-date-start').value;
+  const e=document.getElementById('c-date-end').value;
+  if(!s||!e) return;
+  currentTab='custom';
+  const days=Math.max(1,Math.round((new Date(e)-new Date(s))/(86400000))+1);
+  const ratio=days/7;
+  const b=dataMap['7d'];
+  dataMap.custom={
+    totalCalls:Math.round(18340*ratio).toLocaleString(),
+    agents:b.agents,
+    daily:Math.round(2620*ratio).toLocaleString(),
+    totalToken:Math.round(430*ratio)+'M',
+    input:Math.round(270*ratio)+'M',
+    output:Math.round(160*ratio)+'M',
+    planTotal:Math.round(268*ratio)+'M',
+    planIn:Math.round(172*ratio)+'M',
+    planOut:Math.round(96*ratio)+'M',
+    sumTotal:Math.round(162*ratio)+'M',
+    sumIn:Math.round(98*ratio)+'M',
+    sumOut:Math.round(64*ratio)+'M',
+    agentsData:agentBase.map(a=>({...a,calls:Math.round(a.calls*ratio)})),
+  };
+  refreshData();
+}
+
+function refreshData(){
+  const d=dataMap[currentTab]||dataMap['7d'];
+  // Update cards
+  const cards=document.querySelectorAll('.cards-grid .card');
+  cards[0].querySelector('.card-value').textContent=d.totalCalls;
+  cards[1].querySelector('.card-value').textContent=d.agents;
+  cards[2].querySelector('.card-value').textContent=d.daily;
+  cards[3].querySelector('.card-value').textContent=d.totalToken;
+  cards[4].querySelector('.card-value').textContent=d.input;
+  cards[5].querySelector('.card-value').textContent=d.output;
+  // Update model cards
+  const mc=document.querySelectorAll('.model-card');
+  const mr0=mc[0].querySelectorAll('.model-row-value');
+  mr0[0].textContent=d.planTotal;mr0[1].textContent=d.planIn;mr0[2].textContent=d.planOut;
+  const mr1=mc[1].querySelectorAll('.model-row-value');
+  mr1[0].textContent=d.sumTotal;mr1[1].textContent=d.sumIn;mr1[2].textContent=d.sumOut;
+  renderTable();
+}
+
+function renderTable(){
+  const agents=(dataMap[currentTab]||dataMap['7d']).agentsData;
+  const maxCalls=agents[0].calls;
+  const totalCalls=agents.reduce((s,a)=>s+a.calls,0);
+  document.getElementById('key-tbody').innerHTML=agents.map(r=>`
+    <tr>
+      <td><div class="agent-name-wrap">
+        <div class="agent-icon">${r.icon}</div>
+        <span style="${r.deleted?'color:#a0a8c0;':''}">${r.name}</span>
+        ${r.deleted?'<span class="tag-pill deleted-tag">已删除</span>':''}
+      </div></td>
+      <td style="font-weight:500;${r.deleted?'color:#a0a8c0;':''}">${r.calls.toLocaleString()}</td>
+      <td style="min-width:80px;">
+        <div style="font-size:11px;color:#8a90a8;margin-bottom:3px;">${Math.round(r.calls/totalCalls*100)}%</div>
+        <div class="progress-mini"><div class="progress-fill" style="width:${Math.round(r.calls/maxCalls*100)}%;${r.deleted?'background:#c0c8e0;':''}"></div></div>
+      </td>
+      <td style="${r.deleted?'color:#a0a8c0;':''}">${r.total}</td>
+      <td style="${r.deleted?'color:#a0a8c0;':''}">${r.input}</td>
+      <td style="${r.deleted?'color:#a0a8c0;':''}">${r.output}</td>
+      <td style="${r.deleted?'color:#a0a8c0;':''}">${r.plan}</td>
+      <td style="${r.deleted?'color:#a0a8c0;':''}">${r.sum}</td>
+    </tr>`).join('');
+}
+
+renderTable();
+</script>
