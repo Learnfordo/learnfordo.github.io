@@ -35,7 +35,10 @@
 .data-table th{font-size:11px;color:#a0a8c0;font-weight:500;text-align:left;padding:10px 12px;background:#f8f9fd;border-bottom:0.5px solid #e8ebf5;white-space:nowrap;}
 .data-table td{font-size:12px;color:#3a3f5c;padding:10px 12px;border-bottom:0.5px solid #f0f2f8;vertical-align:middle;}
 .data-table tr:last-child>td{border-bottom:none;}
-.data-table tbody tr:hover>td{background:#fafbff;cursor:pointer;}
+.data-table tbody tr:hover>td{background:#fafbff;}
+.vec-preview{font-family:var(--font-mono);font-size:11px;color:#7c5bf5;background:#f3eeff;padding:2px 8px;border-radius:4px;position:relative;cursor:default;}
+.vec-tooltip{display:none;position:fixed;background:#1a1d2e;color:#e2e6f3;font-family:var(--font-mono);font-size:11px;padding:12px 16px;border-radius:8px;max-width:380px;max-height:200px;overflow:auto;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,.25);line-height:1.8;pointer-events:none;}
+.vec-tooltip.show{display:block;}
 .type-badge{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:500;white-space:nowrap;}
 .tb-text{background:#eef1ff;color:#5b7cfa;}
 .tb-video{background:#fff3e0;color:#f59e0b;}
@@ -52,11 +55,15 @@
 .detail-cell{background:#fff;border:0.5px solid #e8ebf5;border-radius:8px;padding:10px 12px;}
 .detail-cell-label{font-size:10px;color:#a0a8c0;margin-bottom:4px;}
 .detail-cell-value{font-size:12px;color:#1a1d2e;line-height:1.5;}
-.vec-preview{font-family:var(--font-mono);font-size:11px;color:#7c5bf5;background:#f3eeff;padding:2px 8px;border-radius:4px;}
+.cv-cell{background:#faf8ff !important;border:0.5px solid #e8e0ff !important;}
+.cv-cell .detail-cell-label{color:#7c5bf5 !important;}
+.vec-preview{font-family:var(--font-mono);font-size:11px;color:#7c5bf5;background:#f3eeff;padding:2px 8px;border-radius:4px;position:relative;cursor:default;}
 .vec-full{font-family:var(--font-mono);font-size:11px;color:#3a3f5c;background:#f8f9fd;border:0.5px solid #e2e6f3;border-radius:6px;padding:10px 12px;line-height:1.8;word-break:break-all;max-height:120px;overflow-y:auto;}
 .vec-dim{font-size:10px;color:#a0a8c0;}
 .tab-content{display:none;}
 .tab-content.active{display:block;}
+.filter-box{transition:max-height .3s ease,opacity .25s ease,margin .25s ease;overflow:hidden;}
+.filter-box.collapsed{max-height:0!important;opacity:0;margin-top:0!important;margin-bottom:0!important;padding-top:0!important;padding-bottom:0!important;pointer-events:none;}
 .id-mono{font-family:var(--font-mono);font-size:11px;color:#8a90a8;}
 .entity-wrap{display:flex;flex-wrap:wrap;gap:2px;}
 </style>
@@ -69,30 +76,25 @@
 
   <!-- 结构化 -->
   <div id="tab-structured" class="tab-content active">
-    <div class="section-label">入库概览</div>
-    <div class="cards-grid">
-      <div class="card cb"><div class="card-label">总入库量</div><div class="card-value blue">84,620</div><div class="card-sub">条记录</div></div>
-      <div class="card cb"><div class="card-label">文本</div><div class="card-value">42,310</div><div class="card-sub">占比 50%</div></div>
-      <div class="card co"><div class="card-label">视频</div><div class="card-value">21,480</div><div class="card-sub">占比 25.4%</div></div>
-      <div class="card cp"><div class="card-label">图片</div><div class="card-value">15,200</div><div class="card-sub">占比 18%</div></div>
-      <div class="card cg"><div class="card-label">音频</div><div class="card-value">5,630</div><div class="card-sub">占比 6.6%</div></div>
-    </div>
-
-    <div class="section-label">筛选条件</div>
-    <div class="filter-box">
+    <div class="section-label">筛选条件 <button class="filter-toggle" onclick="filterToggle('s',this)" style="cursor:pointer;background:none;border:none;color:#5b7cfa;font-size:11px;font-weight:500;margin-left:6px;">收起 ▴</button></div>
+    <div class="filter-box" id="filter-s" style="max-height:600px;">
       <div class="filter-row">
         <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="s-date-start"></div>
         <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="s-date-end"></div>
-        <div class="filter-group"><div class="filter-label">数据类型</div>
-          <select class="filter-select" id="s-type">
-            <option value="">全部类型</option>
-            <option>文本</option><option>视频</option><option>图片</option><option>音频</option>
-          </select>
-        </div>
         <div class="filter-group"><div class="filter-label">来源</div><input class="filter-input" placeholder="来源媒体..." id="s-source"></div>
         <div class="filter-group"><div class="filter-label">作者</div><input class="filter-input" placeholder="作者名称..." id="s-author"></div>
+        <div class="filter-group"><div class="filter-label">数据类型</div>
+          <select class="filter-select" id="s-type" onchange="sFilterType(this.value)">
+            <option value="">全部类型</option>
+            <option>文本</option><option>图片</option><option>视频</option><option>音频</option>
+          </select>
+        </div>
+        <div style="display:flex;gap:6px;align-items:flex-end;">
+          <button class="btn-search">查询</button>
+          <button class="btn-reset">重置</button>
+        </div>
       </div>
-      <div class="filter-row" style="margin-top:10px;">
+      <div class="filter-row s-fnlp" style="margin-top:10px;display:none;">
         <div class="filter-group"><div class="filter-label">关键词</div><input class="filter-input" placeholder="搜索关键词..." id="s-kw"></div>
         <div class="filter-group"><div class="filter-label">摘要</div><input class="filter-input" placeholder="摘要内容..." id="s-summary"></div>
         <div class="filter-group"><div class="filter-label">内容标签</div><input class="filter-input" placeholder="标签词..." id="s-tag"></div>
@@ -111,11 +113,28 @@
           </select>
         </div>
         <div class="filter-group"><div class="filter-label">实体抽取</div><input class="filter-input" placeholder="人名/地名/机构..." id="s-entity"></div>
-        <div style="display:flex;gap:6px;align-items:flex-end;">
-          <button class="btn-search">查询</button>
-          <button class="btn-reset">重置</button>
-        </div>
       </div>
+      <div class="filter-row s-fcv" style="margin-top:10px;display:none;">
+        <div class="filter-group"><div class="filter-label">人物</div><input class="filter-input" placeholder="人物名称..." id="s-person"></div>
+        <div class="filter-group"><div class="filter-label">Logo</div><input class="filter-input" placeholder="Logo识别..." id="s-logo"></div>
+        <div class="filter-group"><div class="filter-label">物体</div><input class="filter-input" placeholder="物体识别..." id="s-object"></div>
+        <div class="filter-group"><div class="filter-label">地标</div><input class="filter-input" placeholder="地标建筑..." id="s-landmark"></div>
+        <div class="filter-group"><div class="filter-label">镜头类型</div>
+          <select class="filter-select" id="s-shot">
+            <option value="">全部</option><option>全景</option><option>中景</option><option>近景</option><option>特写</option>
+          </select>
+        </div>
+        <div class="filter-group"><div class="filter-label">文字识别</div><input class="filter-input" placeholder="OCR文字..." id="s-ocr"></div>
+      </div>
+    </div>
+
+    <div class="section-label">入库概览</div>
+    <div class="cards-grid">
+      <div class="card cb"><div class="card-label">总入库量</div><div class="card-value blue">84,620</div><div class="card-sub">条记录</div></div>
+      <div class="card cb"><div class="card-label">文本</div><div class="card-value">42,310</div><div class="card-sub">占比 50%</div></div>
+      <div class="card co"><div class="card-label">视频</div><div class="card-value">21,480</div><div class="card-sub">占比 25.4%</div></div>
+      <div class="card cp"><div class="card-label">图片</div><div class="card-value">15,200</div><div class="card-sub">占比 18%</div></div>
+      <div class="card cg"><div class="card-label">音频</div><div class="card-value">5,630</div><div class="card-sub">占比 6.6%</div></div>
     </div>
 
     <div class="section-label">入库明细</div>
@@ -134,24 +153,15 @@
 
   <!-- 向量化 -->
   <div id="tab-vector" class="tab-content">
-    <div class="section-label">入库概览</div>
-    <div class="cards-grid">
-      <div class="card cb"><div class="card-label">总向量化量</div><div class="card-value blue">61,840</div><div class="card-sub">条记录</div></div>
-      <div class="card cb"><div class="card-label">文本</div><div class="card-value">30,200</div><div class="card-sub">占比 48.8%</div></div>
-      <div class="card co"><div class="card-label">视频</div><div class="card-value">16,400</div><div class="card-sub">占比 26.5%</div></div>
-      <div class="card cp"><div class="card-label">图片</div><div class="card-value">11,840</div><div class="card-sub">占比 19.1%</div></div>
-      <div class="card cg"><div class="card-label">音频</div><div class="card-value">3,400</div><div class="card-sub">占比 5.5%</div></div>
-    </div>
-
-    <div class="section-label">筛选条件</div>
-    <div class="filter-box">
+    <div class="section-label">筛选条件 <button class="filter-toggle" onclick="filterToggle('v',this)" style="cursor:pointer;background:none;border:none;color:#5b7cfa;font-size:11px;font-weight:500;margin-left:6px;">收起 ▴</button></div>
+    <div class="filter-box" id="filter-v" style="max-height:600px;">
       <div class="filter-row">
         <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="v-date-start"></div>
         <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="v-date-end"></div>
         <div class="filter-group"><div class="filter-label">数据类型</div>
           <select class="filter-select" id="v-type">
             <option value="">全部类型</option>
-            <option>文本</option><option>视频</option><option>图片</option><option>音频</option>
+            <option>文本</option><option>图片</option><option>视频</option><option>音频</option>
           </select>
         </div>
         <div class="filter-group"><div class="filter-label">标题</div><input class="filter-input" placeholder="标题关键词..." id="v-title"></div>
@@ -164,12 +174,21 @@
       </div>
     </div>
 
+    <div class="section-label">入库概览</div>
+    <div class="cards-grid">
+      <div class="card cb"><div class="card-label">总向量化量</div><div class="card-value blue">61,840</div><div class="card-sub">条记录</div></div>
+      <div class="card cb"><div class="card-label">文本</div><div class="card-value">30,200</div><div class="card-sub">占比 48.8%</div></div>
+      <div class="card co"><div class="card-label">视频</div><div class="card-value">16,400</div><div class="card-sub">占比 26.5%</div></div>
+      <div class="card cp"><div class="card-label">图片</div><div class="card-value">11,840</div><div class="card-sub">占比 19.1%</div></div>
+      <div class="card cg"><div class="card-label">音频</div><div class="card-value">3,400</div><div class="card-sub">占比 5.5%</div></div>
+    </div>
+
     <div class="section-label">入库明细</div>
     <div class="table-wrap">
       <table class="data-table">
         <thead>
           <tr>
-            <th>媒资ID</th><th>标题</th><th>来源</th><th>发布时间</th><th>作者</th><th>类型</th><th>向量维度</th><th>向量预览</th><th>操作</th>
+            <th>媒资ID</th><th>标题</th><th>来源</th><th>发布时间</th><th>作者</th><th>类型</th><th>向量维度</th><th>向量预览</th>
           </tr>
         </thead>
         <tbody id="v-tbody"></tbody>
@@ -178,16 +197,18 @@
   </div>
 </div>
 
+<div class="vec-tooltip" id="vec-tip"></div>
+
 <script>
 const sData=[
   {id:"MA-20240401-0012",title:"浙江杭州西湖景区春节游客创新高",source:"浙江日报",date:"2025-02-01",author:"张明",type:"文本",sentiment:"正面",category:"社会",keywords:["西湖","春节","旅游","杭州"],tags:["国家级新区","高层动态","旅游攻略"],entities:{人名:["张伟"],地名:["浙江省杭州市西湖风景区"],机构名:["浙江省文旅厅"],日期:["2025年春节"]},summary:"2025年春节期间，杭州西湖景区接待游客突破历史新高，同比增长38%，成为全国热门目的地之一。"},
   {id:"MA-20240401-0031",title:"人工智能助力媒体内容生产变革",source:"科技日报",date:"2025-03-15",author:"李晓华",type:"文本",sentiment:"正面",category:"科技",keywords:["人工智能","媒体","内容生产","大模型"],tags:["科技产业","就业创业","教育事业"],entities:{人名:["李强"],机构名:["新华社","百度"],日期:["2025年"]},summary:"大模型技术正深刻改变媒体内容生产方式，多家头部媒体机构已将AI工具引入日常编辑流程。"},
   {id:"MA-20240402-0008",title:"A股三大指数集体收涨 科技板块领涨",source:"财经网",date:"2025-03-20",author:"王芳",type:"文本",sentiment:"正面",category:"财经",keywords:["A股","科技板块","涨幅","指数"],tags:["金融","股市","投资"],entities:{机构名:["上交所","深交所"],日期:["2025年3月20日"]},summary:"今日A股三大指数全线飘红，科技板块领涨，半导体、AI概念股表现亮眼。"},
-  {id:"VD-20240402-0019",title:"2025两会代表通道采访视频",source:"央视新闻",date:"2025-03-05",author:"陈磊",type:"视频",sentiment:"正面",category:"时政",keywords:["两会","代表","通道采访"],tags:["高层动态","国家级新区"],entities:{人名:["李白","张三"],地名:["北京人民大会堂"],机构名:["全国人大"],日期:["2025年3月"]},summary:"央视对两会代表通道进行现场采访，多位代表就民生、科技、教育等议题发表看法。"},
-  {id:"IM-20240403-0044",title:"西湖全景航拍图",source:"新华社",date:"2025-02-14",author:"赵强",type:"图片",sentiment:"正面",category:"旅游",keywords:["西湖","航拍","风景"],tags:["旅游攻略","浙江"],entities:{地名:["浙江省杭州市西湖"],日期:["2025年2月"]},summary:"新华社发布西湖最新航拍全景图，展现春日西湖山水之美。"},
+  {id:"VD-20240402-0019",title:"2025两会代表通道采访视频",source:"央视新闻",date:"2025-03-05",author:"陈磊",type:"视频",sentiment:"正面",category:"时政",keywords:["两会","代表","通道采访"],tags:["高层动态","国家级新区"],entities:{人名:["李白","张三"],地名:["北京人民大会堂"],机构名:["全国人大"],日期:["2025年3月"]},summary:"央视对两会代表通道进行现场采访，多位代表就民生、科技、教育等议题发表看法。",cv:{人物:["李强","王芳"],logo:["央视新闻"],物体:["讲台","麦克风","国旗"],地标:["人民大会堂"],镜头:["全景","中景","特写"],文字:["两会代表通道","2025"]}},
+  {id:"IM-20240403-0044",title:"西湖全景航拍图",source:"新华社",date:"2025-02-14",author:"赵强",type:"图片",sentiment:"正面",category:"旅游",keywords:["西湖","航拍","风景"],tags:["旅游攻略","浙江"],entities:{地名:["浙江省杭州市西湖"],日期:["2025年2月"]},summary:"新华社发布西湖最新航拍全景图，展现春日西湖山水之美。",cv:{人物:[],logo:[],物体:["湖水","桥梁","游船","树木"],地标:["西湖","断桥","雷峰塔"],镜头:["全景","俯拍"],文字:[""]}},
   {id:"AU-20240403-0007",title:"经济学家解读2025年GDP增长目标",source:"经济之声",date:"2025-03-08",author:"刘洋",type:"音频",sentiment:"中性",category:"财经",keywords:["GDP","经济增长","目标","政策"],tags:["财经","宏观经济"],entities:{人名:["刘鹤"],机构名:["国家发改委"],日期:["2025年"]},summary:"经济学家就2025年政府工作报告中GDP增长目标进行深度解读，分析实现路径与挑战。"},
   {id:"MA-20240404-0055",title:"新能源汽车出口量再创历史新高",source:"人民日报",date:"2025-03-22",author:"孙伟",type:"文本",sentiment:"正面",category:"汽车",keywords:["新能源汽车","出口","比亚迪","全球市场"],tags:["汽车产业","电商产业"],entities:{机构名:["比亚迪","商务部"],日期:["2025年第一季度"]},summary:"2025年一季度中国新能源汽车出口量同比增长超60%，比亚迪等品牌在欧洲、东南亚市场表现突出。"},
-  {id:"VD-20240404-0023",title:"篮球亚洲杯中国队精彩集锦",source:"体育频道",date:"2025-03-18",author:"周杰",type:"视频",sentiment:"正面",category:"体育",keywords:["篮球","亚洲杯","中国队","集锦"],tags:["体育","篮球"],entities:{人名:["郭艾伦","周琦"],机构名:["中国篮协"],日期:["2025年3月"]},summary:"中国队在亚洲杯小组赛表现出色，多名球员发挥亮眼，精彩进攻集锦引发广泛关注。"},
+  {id:"VD-20240404-0023",title:"篮球亚洲杯中国队精彩集锦",source:"体育频道",date:"2025-03-18",author:"周杰",type:"视频",sentiment:"正面",category:"体育",keywords:["篮球","亚洲杯","中国队","集锦"],tags:["体育","篮球"],entities:{人名:["郭艾伦","周琦"],机构名:["中国篮协"],日期:["2025年3月"]},summary:"中国队在亚洲杯小组赛表现出色，多名球员发挥亮眼，精彩进攻集锦引发广泛关注。",cv:{人物:["郭艾伦","周琦"],logo:["中国篮协","体育频道"],物体:["篮球","球衣","记分牌"],地标:["体育馆"],镜头:["近景","特写","慢动作"],文字:["亚洲杯","中国 vs 日本","88:76"]}},
 ];
 
 const vData=[
@@ -213,34 +234,48 @@ function switchTab(id,el){
 
 let sExpanded=null;
 function renderStructured(){
-  document.getElementById('s-tbody').innerHTML=sData.map((r,i)=>`
-    <tr onclick="toggleS(${i})">
+  document.getElementById('s-tbody').innerHTML=sData.map((r,i)=>{
+    const isCv = r.type==='图片'||r.type==='视频';
+    const nlpCells = `
+      <div class="detail-cell"><div class="detail-cell-label">摘要</div><div class="detail-cell-value" style="font-size:11px;line-height:1.6;">${r.summary}</div></div>
+      <div class="detail-cell"><div class="detail-cell-label">关键词</div><div class="detail-cell-value">${r.keywords.map(k=>`<span class="tag-pill">${k}</span>`).join('')}</div></div>
+      <div class="detail-cell"><div class="detail-cell-label">内容标签</div><div class="detail-cell-value">${r.tags.map(t=>`<span class="tag-pill">${t}</span>`).join('')}</div></div>
+      <div class="detail-cell"><div class="detail-cell-label">情感分类</div><div class="detail-cell-value"><span class="${sentClass[r.sentiment]}">${r.sentiment}</span></div></div>
+      <div class="detail-cell"><div class="detail-cell-label">文本分类</div><div class="detail-cell-value">${r.category}</div></div>
+      <div class="detail-cell"><div class="detail-cell-label">实体抽取</div><div class="detail-cell-value" style="font-size:11px;line-height:1.8;">
+        ${Object.entries(r.entities).map(([k,v])=>`<span style="color:#a0a8c0;">${k}：</span>${v.join('、')}<br>`).join('')}
+      </div></div>`;
+    const cvCells = r.cv ? `
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">👁️ 人物识别</div><div class="detail-cell-value">${r.cv.人物.length?r.cv.人物.map(p=>`<span class="tag-pill">${p}</span>`).join(''):'<span style="color:#a0a8c0">未识别</span>'}</div></div>
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">🏷️ Logo 识别</div><div class="detail-cell-value">${r.cv.logo.length?r.cv.logo.map(l=>`<span class="tag-pill">${l}</span>`).join(''):'<span style="color:#a0a8c0">未识别</span>'}</div></div>
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">📦 物体识别</div><div class="detail-cell-value">${r.cv.物体.length?r.cv.物体.map(o=>`<span class="tag-pill">${o}</span>`).join(''):'<span style="color:#a0a8c0">未识别</span>'}</div></div>
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">📍 地标识别</div><div class="detail-cell-value">${r.cv.地标.length?r.cv.地标.map(l=>`<span class="tag-pill">${l}</span>`).join(''):'<span style="color:#a0a8c0">未识别</span>'}</div></div>
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">🎥 镜头类型</div><div class="detail-cell-value">${r.cv.镜头.length?r.cv.镜头.map(s=>`<span class="tag-pill">${s}</span>`).join(''):'<span style="color:#a0a8c0">—</span>'}</div></div>
+      <div class="detail-cell cv-cell"><div class="detail-cell-label">🔤 文字识别 (OCR)</div><div class="detail-cell-value">${r.cv.文字.length&&r.cv.文字[0]?r.cv.文字.map(t=>`<span class="tag-pill">${t}</span>`).join(''):'<span style="color:#a0a8c0">未识别</span>'}</div></div>` : '';
+    return `
+    <tr onclick="toggleS(${i})" style="cursor:pointer;">
       <td class="id-mono">${r.id}</td>
       <td style="max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.title}</td>
       <td>${r.source}</td>
       <td>${r.date}</td>
       <td>${r.author}</td>
       <td><span class="type-badge ${typeClass[r.type]}">${r.type}</span></td>
-      <td><span class="${sentClass[r.sentiment]}">${r.sentiment}</span></td>
+      <td><span class="${sentClass[r.sentiment]||''}">${r.sentiment}</span></td>
       <td>${r.category}</td>
       <td>${r.keywords.slice(0,2).map(k=>`<span class="tag-pill">${k}</span>`).join('')}${r.keywords.length>2?`<span class="tag-pill">+${r.keywords.length-2}</span>`:''}</td>
       <td>${r.tags.slice(0,2).map(t=>`<span class="tag-pill">${t}</span>`).join('')}${r.tags.length>2?`<span class="tag-pill">+${r.tags.length-2}</span>`:''}</td>
-      <td><button class="expand-btn" id="sbtn-${i}" onclick="e=>{e.stopPropagation();toggleS(${i})}">展开</button></td>
+      <td><button class="expand-btn" id="sbtn-${i}" onclick="event.stopPropagation();toggleS(${i})">展开</button></td>
     </tr>
     <tr id="sdetail-${i}" class="detail-row" style="display:none">
       <td colspan="11">
         <div class="detail-inner">
           <div class="detail-grid">
-            <div class="detail-cell"><div class="detail-cell-label">摘要</div><div class="detail-cell-value" style="font-size:11px;line-height:1.6;">${r.summary}</div></div>
-            <div class="detail-cell"><div class="detail-cell-label">关键词</div><div class="detail-cell-value">${r.keywords.map(k=>`<span class="tag-pill">${k}</span>`).join('')}</div></div>
-            <div class="detail-cell"><div class="detail-cell-label">内容标签</div><div class="detail-cell-value">${r.tags.map(t=>`<span class="tag-pill">${t}</span>`).join('')}</div></div>
-            <div class="detail-cell"><div class="detail-cell-label">实体抽取</div><div class="detail-cell-value" style="font-size:11px;line-height:1.8;">
-              ${Object.entries(r.entities).map(([k,v])=>`<span style="color:#a0a8c0;">${k}：</span>${v.join('、')}<br>`).join('')}
-            </div></div>
+            ${nlpCells}${cvCells}
           </div>
         </div>
       </td>
-    </tr>`).join('');
+    </tr>`;
+  }).join('');
 }
 
 function toggleS(i){
@@ -252,9 +287,10 @@ function toggleS(i){
   if(!open){row.style.display='';btn.textContent='收起';}
 }
 
-let vExpanded=null;
 function renderVector(){
-  document.getElementById('v-tbody').innerHTML=vData.map((r,i)=>`
+  document.getElementById('v-tbody').innerHTML=vData.map((r,i)=>{
+    const vecStr = '[' + r.vec.map(v=>v.toFixed(6)).join(', ') + ']';
+    return `
     <tr>
       <td class="id-mono">${r.id}</td>
       <td style="max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.title}</td>
@@ -263,41 +299,44 @@ function renderVector(){
       <td>${r.author}</td>
       <td><span class="type-badge ${typeClass[r.type]}">${r.type}</span></td>
       <td><span class="vec-dim">${r.dim}维</span></td>
-      <td><span class="vec-preview">[${r.vec.slice(0,3).map(v=>v.toFixed(6)).join(', ')}, ...]</span></td>
-      <td><button class="expand-btn" id="vbtn-${i}" onclick="toggleV(${i})">展开</button></td>
-    </tr>
-    <tr id="vdetail-${i}" class="detail-row" style="display:none">
-      <td colspan="9">
-        <div class="detail-inner">
-          <div style="display:grid;grid-template-columns:1fr 2fr;gap:12px;">
-            <div class="detail-cell">
-              <div class="detail-cell-label">元数据信息</div>
-              <div style="font-size:12px;line-height:2;margin-top:4px;">
-                <span style="color:#a0a8c0;">标题：</span>${r.title}<br>
-                <span style="color:#a0a8c0;">来源：</span>${r.source}<br>
-                <span style="color:#a0a8c0;">作者：</span>${r.author}<br>
-                <span style="color:#a0a8c0;">发布时间：</span>${r.date}<br>
-                <span style="color:#a0a8c0;">媒体类型：</span>${r.type}<br>
-                <span style="color:#a0a8c0;">向量维度：</span>${r.dim}
-              </div>
-            </div>
-            <div class="detail-cell">
-              <div class="detail-cell-label">向量化结果（前16维）</div>
-              <div class="vec-full">[<br>${r.vec.map((v,j)=>`&nbsp;&nbsp;${v.toFixed(9)},`).join('<br>')}<br>&nbsp;&nbsp;...<br>]</div>
-            </div>
-          </div>
-        </div>
-      </td>
-    </tr>`).join('');
+      <td><span class="vec-preview" data-vec="${vecStr}" onmouseenter="showVecTip(event,this)" onmouseleave="hideVecTip()">[${r.vec.slice(0,3).map(v=>v.toFixed(6)).join(', ')}, ...]</span></td>
+    </tr>`;
+  }).join('');
 }
 
-function toggleV(i){
-  const row=document.getElementById('vdetail-'+i);
-  const btn=document.getElementById('vbtn-'+i);
-  const open=row.style.display!=='none';
-  document.querySelectorAll('[id^=vdetail-]').forEach(r=>r.style.display='none');
-  document.querySelectorAll('[id^=vbtn-]').forEach(b=>b.textContent='展开');
-  if(!open){row.style.display='';btn.textContent='收起';}
+function showVecTip(e, el){
+  const tip = document.getElementById('vec-tip');
+  tip.textContent = el.dataset.vec;
+  tip.classList.add('show');
+  const rect = el.getBoundingClientRect();
+  tip.style.left = rect.left + 'px';
+  tip.style.top = (rect.bottom + 6) + 'px';
+}
+
+function hideVecTip(){
+  document.getElementById('vec-tip').classList.remove('show');
+}
+
+function sFilterType(val){
+  const fnlp = document.querySelectorAll('.s-fnlp');
+  const fcv = document.querySelectorAll('.s-fcv');
+  if(!val){
+    fnlp.forEach(e=>e.style.display='none');
+    fcv.forEach(e=>e.style.display='none');
+  } else if(val==='文本'||val==='音频'){
+    fnlp.forEach(e=>e.style.display='flex');
+    fcv.forEach(e=>e.style.display='none');
+  } else {
+    fnlp.forEach(e=>e.style.display='flex');
+    fcv.forEach(e=>e.style.display='flex');
+  }
+}
+
+function filterToggle(tab, btn){
+  const box = document.getElementById('filter-'+tab);
+  const isCollapsed = box.classList.toggle('collapsed');
+  btn.innerHTML = isCollapsed ? '展开 ▾' : '收起 ▴';
+  if (!isCollapsed) { box.style.maxHeight = box.scrollHeight + 'px'; setTimeout(()=>box.style.maxHeight='', 300); }
 }
 
 renderStructured();
