@@ -1,0 +1,131 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+.dash{background:#f0f3fb;font-family:var(--font-sans);padding:24px;color:#1a1d2e;}
+.breadcrumb{font-size:12px;color:#a0a8c0;margin-bottom:16px;display:flex;align-items:center;gap:6px;}
+.breadcrumb span{color:#5b7cfa;cursor:pointer;}
+.breadcrumb span:hover{text-decoration:underline;}
+.bc-sep{color:#d0d4e8;}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.page-title{font-size:18px;font-weight:500;color:#1a1d2e;display:flex;align-items:center;gap:10px;}
+.agent-badge{font-size:11px;background:#eef1ff;color:#5b7cfa;padding:3px 10px;border-radius:20px;font-weight:500;}
+.status-dot{width:7px;height:7px;border-radius:50%;background:#10b981;display:inline-block;margin-right:4px;}
+.time-tabs{display:flex;gap:4px;background:#fff;border:0.5px solid #e2e6f3;border-radius:8px;padding:4px;}
+.time-tab{padding:5px 14px;font-size:12px;border-radius:6px;cursor:pointer;color:#8a90a8;border:none;background:transparent;font-weight:500;transition:all .15s;}
+.time-tab.active{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;box-shadow:0 2px 8px rgba(91,124,250,.3);}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.07em;color:#a0a8c0;text-transform:uppercase;margin-bottom:10px;margin-top:20px;}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;}
+.card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;position:relative;overflow:hidden;}
+.card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:3px 0 0 3px;}
+.card.cb::before{background:linear-gradient(180deg,#5b7cfa,#7c5bf5);}
+.card.cg::before{background:linear-gradient(180deg,#34d399,#10b981);}
+.card-label{font-size:11px;color:#8a90a8;margin-bottom:5px;}
+.card-value{font-size:22px;font-weight:500;color:#1a1d2e;}
+.card-value.blue{color:#5b7cfa;}
+.card-value.green{color:#10b981;}
+.card-sub{font-size:11px;color:#a0a8c0;margin-top:4px;line-height:1.6;}
+.card-sub b{color:#5b7cfa;font-weight:500;}
+.model-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.model-card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;}
+.model-tag{display:inline-flex;align-items:center;font-size:11px;padding:3px 10px;border-radius:20px;margin-bottom:12px;font-weight:500;}
+.tag-blue{background:#eef1ff;color:#5b7cfa;}
+.tag-purple{background:#f3eeff;color:#7c5bf5;}
+.model-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f0f2f8;}
+.model-row:last-child{border-bottom:none;}
+.model-row-label{font-size:12px;color:#8a90a8;}
+.model-row-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+.chart-wrap{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 20px;margin-top:0;}
+.chart-legend{display:flex;gap:16px;margin-bottom:12px;}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:#8a90a8;}
+.legend-dot{width:8px;height:8px;border-radius:2px;}
+.chart-canvas-wrap{position:relative;width:100%;height:200px;}
+.info-bar{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:14px 18px;display:flex;gap:32px;flex-wrap:wrap;margin-bottom:4px;}
+.info-item{display:flex;flex-direction:column;gap:3px;}
+.info-label{font-size:11px;color:#a0a8c0;}
+.info-value{font-size:13px;font-weight:500;color:#1a1d2e;}
+</style>
+
+<div class="dash">
+  <div class="breadcrumb">
+    <span>智能体管理</span><div class="bc-sep">›</div>
+    <span>客服助手Pro</span><div class="bc-sep">›</div>
+    <div style="color:#1a1d2e;">统计</div>
+  </div>
+
+  <div class="topbar">
+    <div class="page-title">
+      客服助手Pro
+      <span class="agent-badge"><span class="status-dot"></span>已发布</span>
+    </div>
+    <div class="time-tabs">
+      <button class="time-tab" onclick="setTab(this,'today')">今天</button>
+      <button class="time-tab active" onclick="setTab(this,'7d')">近7天</button>
+      <button class="time-tab" onclick="setTab(this,'30d')">近30天</button>
+      <button class="time-tab" onclick="setTab(this,'custom')">自定义</button>
+    </div>
+  </div>
+
+  <div class="info-bar">
+    <div class="info-item"><div class="info-label">智能体ID</div><div class="info-value" style="font-family:var(--font-mono);font-size:12px;color:#8a90a8;">AGT-20240315-0012</div></div>
+    <div class="info-item"><div class="info-label">创建时间</div><div class="info-value">2024-03-15</div></div>
+    <div class="info-item"><div class="info-label">发布时间</div><div class="info-value">2024-03-18</div></div>
+    <div class="info-item"><div class="info-label">规划模型</div><div class="info-value">claude-sonnet-4</div></div>
+    <div class="info-item"><div class="info-label">总结模型</div><div class="info-value">claude-haiku-4</div></div>
+    <div class="info-item"><div class="info-label">创建人</div><div class="info-value">高佳强</div></div>
+  </div>
+
+  <div class="section-label">调用量概览</div>
+  <div class="cards-grid">
+    <div class="card cb">
+      <div class="card-label">总调用量</div>
+      <div class="card-value blue">28,410</div>
+      <div class="card-sub">平台对话 <b>22,100</b><br>API 调用 <b>6,310</b></div>
+    </div>
+    <div class="card cb">
+      <div class="card-label">平台对话量</div>
+      <div class="card-value">22,100</div>
+      <div class="card-sub">占总调用 <b>77.8%</b></div>
+    </div>
+    <div class="card cb">
+      <div class="card-label">API 调用量</div>
+      <div class="card-value">6,310</div>
+      <div class="card-sub">占总调用 <b>22.2%</b></div>
+    </div>
+  </div>
+
+  <div class="section-label">Token 消耗概览</div>
+  <div class="cards-grid">
+    <div class="card cg">
+      <div class="card-label">总 Token 消耗</div>
+      <div class="card-value green">680M</div>
+      <div class="card-sub">Input <b style="color:#10b981">420M</b> · Output <b style="color:#10b981">260M</b></div>
+    </div>
+    <div class="card cg">
+      <div class="card-label">Input Tokens</div>
+      <div class="card-value">420M</div>
+      <div class="card-sub">占总消耗 <b style="color:#10b981">61.8%</b></div>
+    </div>
+    <div class="card cg">
+      <div class="card-label">Output Tokens</div>
+      <div class="card-value">260M</div>
+      <div class="card-sub">占总消耗 <b style="color:#10b981">38.2%</b></div>
+    </div>
+  </div>
+
+  <div class="section-label">模型 Token 消耗</div>
+  <div class="model-grid">
+    <div class="model-card">
+      <div class="model-tag tag-blue">规划模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">430M</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">280M</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">150M</span></div>
+    </div>
+    <div class="model-card">
+      <div class="model-tag tag-purple">总结模型</div>
+      <div class="model-row"><span class="model-row-label">总 Tokens</span><span class="model-row-value">250M</span></div>
+      <div class="model-row"><span class="model-row-label">Input Tokens</span><span class="model-row-value">140M</span></div>
+      <div class="model-row"><span class="model-row-label">Output Tokens</span><span class="model-row-value">110M</span></div>
+    </div>
+  </div>
+
+</div>
