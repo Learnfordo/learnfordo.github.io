@@ -1,4 +1,3 @@
-
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 .dash{background:#f0f3fb;font-family:var(--font-sans);padding:24px;color:#1a1d2e;min-height:100vh;}
@@ -6,6 +5,11 @@
 .tab-btn{padding:7px 28px;font-size:13px;border-radius:7px;cursor:pointer;color:#8a90a8;border:none;background:transparent;font-weight:500;transition:all .15s;}
 .tab-btn.active{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;box-shadow:0 2px 8px rgba(91,124,250,.3);}
 .section-label{font-size:11px;font-weight:500;letter-spacing:.07em;color:#a0a8c0;text-transform:uppercase;margin-bottom:10px;margin-top:20px;}
+.overview-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;margin-top:20px;}
+.overview-title{font-size:11px;font-weight:500;letter-spacing:.07em;color:#a0a8c0;text-transform:uppercase;margin:0;}
+.time-tabs{display:flex;gap:4px;background:#fff;border:0.5px solid #e2e6f3;border-radius:8px;padding:4px;}
+.time-tab{padding:5px 14px;font-size:12px;border-radius:6px;cursor:pointer;color:#8a90a8;border:none;background:transparent;transition:all .15s;}
+.time-tab.active{background:linear-gradient(135deg,#5b7cfa,#7c5bf5);color:#fff;box-shadow:0 2px 8px rgba(91,124,250,.3);}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;}
 .card{background:#fff;border:0.5px solid #e2e6f3;border-radius:12px;padding:16px 18px;position:relative;overflow:hidden;}
 .card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;border-radius:3px 0 0 3px;}
@@ -66,6 +70,7 @@
 .filter-box.collapsed{max-height:0!important;opacity:0;margin-top:0!important;margin-bottom:0!important;padding-top:0!important;padding-bottom:0!important;pointer-events:none;}
 .id-mono{font-family:var(--font-mono);font-size:11px;color:#8a90a8;}
 .entity-wrap{display:flex;flex-wrap:wrap;gap:2px;}
+.custom-date{background:#fff;border:0.5px solid #e2e6f3;border-radius:10px;padding:12px 16px;margin-top:8px;}
 </style>
 
 <div class="dash">
@@ -76,11 +81,36 @@
 
   <!-- 结构化 -->
   <div id="tab-structured" class="tab-content active">
+    <div class="overview-header">
+      <div class="overview-title">入库概览</div>
+      <div class="time-tabs">
+        <button class="time-tab active" onclick="setSTab(this,'today')">今天</button>
+        <button class="time-tab" onclick="setSTab(this,'7d')">近7天</button>
+        <button class="time-tab" onclick="setSTab(this,'30d')">近30天</button>
+        <button class="time-tab" onclick="setSTab(this,'custom')">自定义</button>
+      </div>
+    </div>
+    <div class="custom-date" id="sCustomDate" style="display:none;">
+      <div class="filter-row">
+        <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="s-custom-start"></div>
+        <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="s-custom-end"></div>
+        <button class="btn-search" onclick="applySCustom()">查询</button>
+      </div>
+    </div>
+    <div class="cards-grid" id="s-cards">
+      <div class="card cb"><div class="card-label">总入库量</div><div class="card-value blue" data-key="total">84,620</div><div class="card-sub">条记录</div></div>
+      <div class="card cb"><div class="card-label">文本</div><div class="card-value" data-key="text">42,310</div><div class="card-sub" data-sub="text">占比 50%</div></div>
+      <div class="card co"><div class="card-label">视频</div><div class="card-value" data-key="video">21,480</div><div class="card-sub" data-sub="video">占比 25.4%</div></div>
+      <div class="card cp"><div class="card-label">图片</div><div class="card-value" data-key="image">15,200</div><div class="card-sub" data-sub="image">占比 18%</div></div>
+      <div class="card cg"><div class="card-label">音频</div><div class="card-value" data-key="audio">5,630</div><div class="card-sub" data-sub="audio">占比 6.6%</div></div>
+    </div>
+
     <div class="section-label">筛选条件 <button class="filter-toggle" onclick="filterToggle('s',this)" style="cursor:pointer;background:none;border:none;color:#5b7cfa;font-size:11px;font-weight:500;margin-left:6px;">收起 ▴</button></div>
     <div class="filter-box" id="filter-s" style="max-height:600px;">
       <div class="filter-row">
         <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="s-date-start"></div>
         <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="s-date-end"></div>
+        <div class="filter-group"><div class="filter-label">媒资ID</div><input class="filter-input" placeholder="媒资ID..." id="s-media-id"></div>
         <div class="filter-group"><div class="filter-label">来源</div><input class="filter-input" placeholder="来源媒体..." id="s-source"></div>
         <div class="filter-group"><div class="filter-label">作者</div><input class="filter-input" placeholder="作者名称..." id="s-author"></div>
         <div class="filter-group"><div class="filter-label">数据类型</div>
@@ -128,15 +158,6 @@
       </div>
     </div>
 
-    <div class="section-label">入库概览</div>
-    <div class="cards-grid">
-      <div class="card cb"><div class="card-label">总入库量</div><div class="card-value blue">84,620</div><div class="card-sub">条记录</div></div>
-      <div class="card cb"><div class="card-label">文本</div><div class="card-value">42,310</div><div class="card-sub">占比 50%</div></div>
-      <div class="card co"><div class="card-label">视频</div><div class="card-value">21,480</div><div class="card-sub">占比 25.4%</div></div>
-      <div class="card cp"><div class="card-label">图片</div><div class="card-value">15,200</div><div class="card-sub">占比 18%</div></div>
-      <div class="card cg"><div class="card-label">音频</div><div class="card-value">5,630</div><div class="card-sub">占比 6.6%</div></div>
-    </div>
-
     <div class="section-label">入库明细</div>
     <div class="table-wrap">
       <table class="data-table" id="s-table">
@@ -153,6 +174,30 @@
 
   <!-- 向量化 -->
   <div id="tab-vector" class="tab-content">
+    <div class="overview-header">
+      <div class="overview-title">入库概览</div>
+      <div class="time-tabs">
+        <button class="time-tab active" onclick="setVTab(this,'today')">今天</button>
+        <button class="time-tab" onclick="setVTab(this,'7d')">近7天</button>
+        <button class="time-tab" onclick="setVTab(this,'30d')">近30天</button>
+        <button class="time-tab" onclick="setVTab(this,'custom')">自定义</button>
+      </div>
+    </div>
+    <div class="custom-date" id="vCustomDate" style="display:none;">
+      <div class="filter-row">
+        <div class="filter-group"><div class="filter-label">开始时间</div><input class="filter-input date-input" type="date" id="v-custom-start"></div>
+        <div class="filter-group"><div class="filter-label">结束时间</div><input class="filter-input date-input" type="date" id="v-custom-end"></div>
+        <button class="btn-search" onclick="applyVCustom()">查询</button>
+      </div>
+    </div>
+    <div class="cards-grid" id="v-cards">
+      <div class="card cb"><div class="card-label">总向量化量</div><div class="card-value blue" data-key="total">61,840</div><div class="card-sub">条记录</div></div>
+      <div class="card cb"><div class="card-label">文本</div><div class="card-value" data-key="text">30,200</div><div class="card-sub" data-sub="text">占比 48.8%</div></div>
+      <div class="card co"><div class="card-label">视频</div><div class="card-value" data-key="video">16,400</div><div class="card-sub" data-sub="video">占比 26.5%</div></div>
+      <div class="card cp"><div class="card-label">图片</div><div class="card-value" data-key="image">11,840</div><div class="card-sub" data-sub="image">占比 19.1%</div></div>
+      <div class="card cg"><div class="card-label">音频</div><div class="card-value" data-key="audio">3,400</div><div class="card-sub" data-sub="audio">占比 5.5%</div></div>
+    </div>
+
     <div class="section-label">筛选条件 <button class="filter-toggle" onclick="filterToggle('v',this)" style="cursor:pointer;background:none;border:none;color:#5b7cfa;font-size:11px;font-weight:500;margin-left:6px;">收起 ▴</button></div>
     <div class="filter-box" id="filter-v" style="max-height:600px;">
       <div class="filter-row">
@@ -165,6 +210,7 @@
           </select>
         </div>
         <div class="filter-group"><div class="filter-label">标题</div><input class="filter-input" placeholder="标题关键词..." id="v-title"></div>
+        <div class="filter-group"><div class="filter-label">媒资ID</div><input class="filter-input" placeholder="媒资ID..." id="v-media-id"></div>
         <div class="filter-group"><div class="filter-label">来源</div><input class="filter-input" placeholder="来源媒体..." id="v-source"></div>
         <div class="filter-group"><div class="filter-label">作者</div><input class="filter-input" placeholder="作者名称..." id="v-author"></div>
         <div style="display:flex;gap:6px;align-items:flex-end;">
@@ -174,21 +220,12 @@
       </div>
     </div>
 
-    <div class="section-label">入库概览</div>
-    <div class="cards-grid">
-      <div class="card cb"><div class="card-label">总向量化量</div><div class="card-value blue">61,840</div><div class="card-sub">条记录</div></div>
-      <div class="card cb"><div class="card-label">文本</div><div class="card-value">30,200</div><div class="card-sub">占比 48.8%</div></div>
-      <div class="card co"><div class="card-label">视频</div><div class="card-value">16,400</div><div class="card-sub">占比 26.5%</div></div>
-      <div class="card cp"><div class="card-label">图片</div><div class="card-value">11,840</div><div class="card-sub">占比 19.1%</div></div>
-      <div class="card cg"><div class="card-label">音频</div><div class="card-value">3,400</div><div class="card-sub">占比 5.5%</div></div>
-    </div>
-
     <div class="section-label">入库明细</div>
     <div class="table-wrap">
       <table class="data-table">
         <thead>
           <tr>
-            <th>媒资ID</th><th>标题</th><th>来源</th><th>发布时间</th><th>作者</th><th>类型</th><th>向量维度</th><th>向量预览</th>
+            <th>媒资ID</th><th>标题</th><th>来源</th><th>发布时间</th><th>作者</th><th>类型</th>
           </tr>
         </thead>
         <tbody id="v-tbody"></tbody>
@@ -225,6 +262,7 @@ const vData=[
 const typeClass={文本:'tb-text',视频:'tb-video',图片:'tb-image',音频:'tb-audio'};
 const sentClass={正面:'sentiment-pos',负面:'sentiment-neg',中性:''};
 
+// ===== Tab switching =====
 function switchTab(id,el){
   document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
@@ -232,6 +270,99 @@ function switchTab(id,el){
   el.classList.add('active');
 }
 
+// ===== 结构化 - 概览日期筛选 =====
+let sOverviewTab='7d';
+const sOverviewData={
+  today:{total:12089,text:6044,video:3069,image:2171,audio:804},
+  '7d':{total:84620,text:42310,video:21480,image:15200,audio:5630},
+  '30d':{total:362657,text:181329,video:92057,image:65143,audio:24129},
+  custom:null,
+};
+const sBase=sOverviewData['7d'];
+
+function setSTab(el,tab){
+  document.querySelectorAll('#tab-structured .time-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('sCustomDate').style.display=tab==='custom'?'block':'none';
+  if(tab!=='custom'){sOverviewTab=tab;updateSCards();}
+}
+
+function applySCustom(){
+  const s=document.getElementById('s-custom-start').value;
+  const e=document.getElementById('s-custom-end').value;
+  if(!s||!e)return;
+  const days=Math.max(1,Math.round((new Date(e)-new Date(s))/(86400000))+1);
+  const ratio=days/7;
+  sOverviewData.custom={
+    total:Math.round(sBase.total*ratio),
+    text:Math.round(sBase.text*ratio),
+    video:Math.round(sBase.video*ratio),
+    image:Math.round(sBase.image*ratio),
+    audio:Math.round(sBase.audio*ratio),
+  };
+  sOverviewTab='custom';
+  updateSCards();
+}
+
+function updateSCards(){
+  const d=sOverviewData[sOverviewTab]||sBase;
+  const cards=document.querySelectorAll('#s-cards .card');
+  const vals=cards.map(c=>c.querySelector('.card-value'));
+  const subs=cards.map(c=>c.querySelector('.card-sub'));
+  vals[0].textContent=d.total.toLocaleString();
+  vals[1].textContent=d.text.toLocaleString();subs[1].textContent='占比 '+(d.text/d.total*100).toFixed(1)+'%';
+  vals[2].textContent=d.video.toLocaleString();subs[2].textContent='占比 '+(d.video/d.total*100).toFixed(1)+'%';
+  vals[3].textContent=d.image.toLocaleString();subs[3].textContent='占比 '+(d.image/d.total*100).toFixed(1)+'%';
+  vals[4].textContent=d.audio.toLocaleString();subs[4].textContent='占比 '+(d.audio/d.total*100).toFixed(1)+'%';
+}
+
+// ===== 向量化 - 概览日期筛选 =====
+let vOverviewTab='7d';
+const vOverviewData={
+  today:{total:8834,text:4314,video:2343,image:1691,audio:486},
+  '7d':{total:61840,text:30200,video:16400,image:11840,audio:3400},
+  '30d':{total:265029,text:129429,video:70286,image:50743,audio:14571},
+  custom:null,
+};
+const vBase=vOverviewData['7d'];
+
+function setVTab(el,tab){
+  document.querySelectorAll('#tab-vector .time-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('vCustomDate').style.display=tab==='custom'?'block':'none';
+  if(tab!=='custom'){vOverviewTab=tab;updateVCards();}
+}
+
+function applyVCustom(){
+  const s=document.getElementById('v-custom-start').value;
+  const e=document.getElementById('v-custom-end').value;
+  if(!s||!e)return;
+  const days=Math.max(1,Math.round((new Date(e)-new Date(s))/(86400000))+1);
+  const ratio=days/7;
+  vOverviewData.custom={
+    total:Math.round(vBase.total*ratio),
+    text:Math.round(vBase.text*ratio),
+    video:Math.round(vBase.video*ratio),
+    image:Math.round(vBase.image*ratio),
+    audio:Math.round(vBase.audio*ratio),
+  };
+  vOverviewTab='custom';
+  updateVCards();
+}
+
+function updateVCards(){
+  const d=vOverviewData[vOverviewTab]||vBase;
+  const cards=document.querySelectorAll('#v-cards .card');
+  const vals=cards.map(c=>c.querySelector('.card-value'));
+  const subs=cards.map(c=>c.querySelector('.card-sub'));
+  vals[0].textContent=d.total.toLocaleString();
+  vals[1].textContent=d.text.toLocaleString();subs[1].textContent='占比 '+(d.text/d.total*100).toFixed(1)+'%';
+  vals[2].textContent=d.video.toLocaleString();subs[2].textContent='占比 '+(d.video/d.total*100).toFixed(1)+'%';
+  vals[3].textContent=d.image.toLocaleString();subs[3].textContent='占比 '+(d.image/d.total*100).toFixed(1)+'%';
+  vals[4].textContent=d.audio.toLocaleString();subs[4].textContent='占比 '+(d.audio/d.total*100).toFixed(1)+'%';
+}
+
+// ===== 渲染明细 =====
 let sExpanded=null;
 function renderStructured(){
   document.getElementById('s-tbody').innerHTML=sData.map((r,i)=>{
@@ -288,9 +419,7 @@ function toggleS(i){
 }
 
 function renderVector(){
-  document.getElementById('v-tbody').innerHTML=vData.map((r,i)=>{
-    const vecStr = '[' + r.vec.map(v=>v.toFixed(6)).join(', ') + ']';
-    return `
+  document.getElementById('v-tbody').innerHTML=vData.map(r=>`
     <tr>
       <td class="id-mono">${r.id}</td>
       <td style="max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.title}</td>
@@ -298,10 +427,7 @@ function renderVector(){
       <td>${r.date}</td>
       <td>${r.author}</td>
       <td><span class="type-badge ${typeClass[r.type]}">${r.type}</span></td>
-      <td><span class="vec-dim">${r.dim}维</span></td>
-      <td><span class="vec-preview" data-vec="${vecStr}" onmouseenter="showVecTip(event,this)" onmouseleave="hideVecTip()">[${r.vec.slice(0,3).map(v=>v.toFixed(6)).join(', ')}, ...]</span></td>
-    </tr>`;
-  }).join('');
+    </tr>`).join('');
 }
 
 function showVecTip(e, el){
