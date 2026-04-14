@@ -1,0 +1,48 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{SITE_TITLE}</title>
+  <meta name="description" content={SITE_DESCRIPTION} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <slot />
+</body>
+</html>
+
+<style is:global>
+:root {
+  --bg: #0a0a0b;
+  --bg-raised: #111113;
+  --bg-card: #161618;
+  --bg-card-hover: #1c1c1f;
+  --border: #232325;
+  --border-hover: #333336;
+  --text: #f0f0f0;
+  --text-secondary: #9999a0;
+  --text-muted: #666670;
+  --accent: #0fd9d2;
+  --accent-soft: rgba(15, 217, 210, 0.08);
+  --accent-border: rgba(15, 217, 210, 0.2);
+  --radius: 12px;
+  --radius-lg: 16px;
+  --max-w: 900px;
+  --font: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; -webkit-font-smoothing:antialiased; }
+body { font-family:var(--font); font-size:15px; line-height:1.65; color:var(--text); background:var(--bg); }
+a { color:var(--accent); text-decoration:none; transition:opacity .2s; }
+a:hover { opacity:.85; }
+img { max-width:100%; display:block; }
+</style>

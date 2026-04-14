@@ -1,5 +1,2 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'jiaqiang | 个人博客';
-export const SITE_DESCRIPTION = '个人简历与技术博客';
+export const SITE_TITLE = '高佳强 | AI 产品经理';
+export const SITE_DESCRIPTION = 'AI/Agent/算法 资深产品经理 — 7年AI产品经验，聚焦LLM应用与AI Agent';

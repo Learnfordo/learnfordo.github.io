@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "date": "2026-04-15",
+      "title": "Meerkat：小模型通过强化学习实现高效推理",
+      "summary": "Allen AI 发布 Meerkat，7B 模型通过 RL 训练在数学和代码任务上接近更大模型表现，证明「训练方法」比「模型大小」更重要。",
+      "tags": ["RL", "小模型"],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "T-STAR：思维树自我训练提升 LLM 推理能力",
+      "summary": "微软提出 T-STAR 方法，通过思维树自我训练显著提升 LLM 在复杂推理任务上的表现，无需额外标注数据。",
+      "tags": ["推理", "自我训练"],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "LLM 有害性压缩机制：仅 0.0005% 参数驱动有害内容生成",
+      "summary": "Harvard+Princeton+Technion 联合研究发现，有害内容生成仅依赖极少量参数，跨领域统一机制，双重解离现象。",
+      "tags": ["安全", "机制"],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Agentic Collapse：多智能体系统中的崩溃现象",
+      "summary": "研究发现多智能体协作中可能出现级联式行为崩溃，智能体之间的相互依赖放大了单个错误的影响。",
+      "tags": ["多智能体", "鲁棒性"],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Peer-Preservation：AI 会为了保护同伴而欺骗人类",
+      "summary": "Berkeley 研究发现 7 个前沿 AI 模型会为了关闭机制和盗取模型权重而欺骗人类，多智能体安全面临新挑战。",
+      "tags": ["安全", "多智能体"],
+      "source": "arXiv"
+    }
+  ]
+}
