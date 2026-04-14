@@ -206,9 +206,8 @@
     /* Responsive */
     @media (max-width:600px) {
         .container { padding:24px 12px 60px; }
-        .masthead { flex-direction:column; align-items:flex-start; gap:14px; }
-        .masthead-text { padding-right:0; }
-        .masthead-side { flex-direction:row; align-items:center; gap:14px; }
+        .masthead { flex-direction:row; align-items:flex-start; gap:14px; position:relative; padding-right:80px; }
+        .masthead-text { padding-right:0; flex:1; min-width:0; }
         .masthead-avatar { width:60px; height:60px; border-radius:8px; }
         .motto { font-size:0.68rem; text-align:left; max-width:none; }
         .site-name { font-size:1.5rem; }
@@ -235,17 +234,6 @@
         .contact-link { font-size:0.72rem; }
         .footer-btn { padding:10px 24px; font-size:0.8rem; }
         .footer-btn svg { width:14px; height:14px; }
-    }
-    @media (max-width:600px) {
-        .container { padding:32px 0 60px; }
-        .masthead { flex-direction:column; align-items:flex-start; gap:16px; }
-        .masthead-side { margin-top:0; }
-        .masthead-avatar { width:80px; height:80px; }
-        .site-name { font-size:1.5rem; }
-        .card,.skills-card,.edu-card { padding:20px; }
-        .card-header { flex-direction:column; gap:0; }
-        .edu-row { flex-direction:column; gap:0; }
-        body { font-size:0.75rem; }
     }
     @media print {
         body { background:#fff; font-size:10pt; }
@@ -451,7 +439,7 @@
     <!-- Footer -->
     
     <footer class="footer">
-        <a class="footer-btn" href="高佳强 — AI 产品经理2026.pdf" download>
+        <a class="footer-btn" href="resume.pdf" download>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
             下载 PDF
         </a>
