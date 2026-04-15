@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T07:05:36.837Z",
+  "updatedAt": "2026-04-15T09:50:49.501Z",
   "items": [
     {
       "date": "2026-04-14",
@@ -90,7 +90,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 567
+      "score": 608
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "summary": "via blog.google",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 162
     },
     {
       "date": "2026-04-14",
@@ -102,17 +113,6 @@
       ],
       "source": "HN",
       "score": 259
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary": "via blog.google",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 150
     },
     {
       "date": "2026-04-14",
