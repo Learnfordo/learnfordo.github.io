@@ -10,6 +10,7 @@ const path = Astro.url.pathname;
       <a href="/" class:path={path === '/'}>首页</a>
       <a href="/blog/" class:path={path.startsWith('/blog/')}>文章</a>
       <a href="/news/" class:path={path.startsWith('/news/')}>AI 快讯</a>
+      <a href="/papers/" class:path={path.startsWith('/papers/')}>论文库</a>
       <a href="/about/" class:path={path.startsWith('/about/')}>关于我</a>
     </div>
     <div class="nav-right">
