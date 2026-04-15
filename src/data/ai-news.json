@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T03:30:43.454Z",
+  "updatedAt": "2026-04-15T05:40:40.969Z",
   "items": [
     {
       "date": "2026-04-14",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 474
+      "score": 538
     },
     {
       "date": "2026-04-14",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 237
+      "score": 254
     },
     {
       "date": "2026-04-14",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 121
+      "score": 144
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+      "summary": "via github.com",
+      "url": "https://github.com/dropseed/plain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Troubleshooting Email Delivery to Microsoft Users",
+      "summary": "via rozumem.xyz",
+      "url": "https://rozumem.xyz/posts/14",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
     },
     {
       "date": "2026-04-14",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 114
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
-      "summary": "via github.com",
-      "url": "https://github.com/dropseed/plain",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 71
     },
     {
       "date": "2026-04-14",
