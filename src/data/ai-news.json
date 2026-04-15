@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T15:15:46.358Z",
+  "updatedAt": "2026-04-15T15:27:50.500Z",
   "items": [
     {
       "date": "2026-04-15",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 167
+      "score": 176
     },
     {
       "date": "2026-04-15",
@@ -21,7 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 122
+      "score": 136
+    },
+    {
+      "date": "2026-04-15",
+      "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
     },
     {
       "date": "2026-04-14",
