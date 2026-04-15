@@ -7,7 +7,8 @@ import { join } from 'path';
 
 let newsItems: any[] = [];
 try {
-  const raw = readFileSync(join(import.meta.dirname, '../../data/ai-news.json'), 'utf-8');
+  const newsPath = join(process.cwd(), 'src/data/ai-news.json');
+  const raw = readFileSync(newsPath, 'utf-8');
   newsItems = JSON.parse(raw).items || [];
 } catch {
   newsItems = [];

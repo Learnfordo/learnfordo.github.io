@@ -13,7 +13,7 @@ const recentPosts = sortedPosts.slice(0, 6);
 
 let newsItems: any[] = [];
 try {
-  const raw = readFileSync(join(import.meta.dirname, '../data/ai-news.json'), 'utf-8');
+  const raw = readFileSync(join(process.cwd(), 'src/data/ai-news.json'), 'utf-8');
   newsItems = JSON.parse(raw).items || [];
 } catch {
   newsItems = [];
