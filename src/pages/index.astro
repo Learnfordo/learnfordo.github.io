@@ -80,7 +80,7 @@ try {
           <a class="article-card" href={`/blog/${post.id}/`}>
             <div class="card">
               <h3>{post.data.title}</h3>
-              <p>{post.data.description || post.excerpt.substring(0, 120) + '...'}</p>
+              <p>{post.data.description || (post.excerpt ? post.excerpt.substring(0, 120) : '深度解读 AI 前沿论文与行业动态')}</p>
               <div class="meta">
                 <time>{new Date(post.data.pubDate).toLocaleDateString('zh-CN')}</time>
                 <span class="read-more">阅读全文 →</span>
