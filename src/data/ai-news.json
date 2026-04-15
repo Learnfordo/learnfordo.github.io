@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-04-15T09:50:49.501Z",
+  "updatedAt": "2026-04-15T15:15:46.358Z",
   "items": [
+    {
+      "date": "2026-04-15",
+      "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+      "summary": "via www.gizmoweek.com",
+      "url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Daily Claude outage is upon us. Waiting for Claude Status to update",
+      "summary": "via claudestatus.com",
+      "url": "https://claudestatus.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 122
+    },
     {
       "date": "2026-04-14",
       "title": "SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis",
