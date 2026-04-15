@@ -1,61 +1,6 @@
 {
-  "updatedAt": "2026-04-15T02:00:01.239Z",
+  "updatedAt": "2026-04-15T02:00:59.587Z",
   "items": [
-    {
-      "date": "2026-04-14",
-      "title": "Claude Code Routines",
-      "summary": "via code.claude.com",
-      "url": "https://code.claude.com/docs/en/routines",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 425
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Introspective Diffusion Language Models",
-      "summary": "via introspective-diffusion.github.io",
-      "url": "https://introspective-diffusion.github.io/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 229
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary": "via blog.google",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 107
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
-      "summary": "via github.com",
-      "url": "https://github.com/ginlix-ai/langalpha",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 107
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
-      "summary": "via github.com",
-      "url": "https://github.com/dropseed/plain",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 68
-    },
     {
       "date": "2026-04-14",
       "title": "Rapid LoRA Aggregation for Wireless Channel Adaptation in Open-Set Radio Frequency Fingerprinting",
@@ -135,6 +80,61 @@
       "url": "https://arxiv.org/abs/2604.12806v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Claude Code Routines",
+      "summary": "via code.claude.com",
+      "url": "https://code.claude.com/docs/en/routines",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 425
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Introspective Diffusion Language Models",
+      "summary": "via introspective-diffusion.github.io",
+      "url": "https://introspective-diffusion.github.io/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 229
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "summary": "via github.com",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 108
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "summary": "via blog.google",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+      "summary": "via github.com",
+      "url": "https://github.com/dropseed/plain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
     },
     {
       "date": "2026-04-13",
