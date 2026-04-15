@@ -1,82 +1,123 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../consts.ts';
+import { getCollection } from 'astro:content';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+const recentPosts = sortedPosts.slice(0, 6);
+
+let newsItems: any[] = [];
+try {
+  const raw = readFileSync(join(import.meta.dirname, '../data/ai-news.json'), 'utf-8');
+  newsItems = JSON.parse(raw).items || [];
+} catch {
+  newsItems = [];
+}
 ---
 
-<!doctype html>
-<html lang="zh-CN">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section class="hero">
-				<h1>你好，我是 jiaqiang</h1>
-				<p class="tagline">专注于自动化与技术探索</p>
-			</section>
+<BaseLayout>
+  <Header />
 
-			<section class="about">
-				<h2>关于我</h2>
-				<p>热爱技术，追求效率，喜欢用代码解决生活中的问题。</p>
-			</section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        <span>AI 产品经理 · 7年经验</span>
+      </div>
+      <h1>你好，我是 <span class="gradient-text">高佳强</span></h1>
+      <p class="subtitle">
+        聚焦 LLM 应用与 AI Agent 落地，记录 AI 行业前沿思考与研究报告。<br />
+        杭州市高层次人才（人工智能专项 E类）
+      </p>
+    </div>
+  </section>
 
-			<section class="skills">
-				<h2>技能</h2>
-				<ul>
-					<li>自动化工作流</li>
-					<li>Web 开发</li>
-					<li>AI 应用</li>
-				</ul>
-			</section>
+  <!-- AI News -->
+  {newsItems.length > 0 && (
+  <section class="section">
+    <div class="wrap">
+      <div class="section-label">AI 快讯</div>
+      <h2 class="section-title">今日 AI 动态</h2>
+      <p class="section-desc">每日自动抓取 arXiv 与 Hacker News 最新 AI 资讯</p>
+      <div class="news-list">
+        {newsItems.slice(0, 5).map((item: any) => (
+          <div class="news-item">
+            <span class="news-date">{item.date}</span>
+            <div>
+              <h3><a href={item.url || '#'} target="_blank" rel="noopener">{item.title}</a></h3>
+              <p>{item.summary}</p>
+              {item.tags && item.tags.length > 0 && (
+                <div class="news-tags">
+                  {item.tags.map((tag: string) => <span class="news-tag">{tag}</span>)}
+                </div>
+              )}
+            </div>
+            <span class="news-source">{item.source}</span>
+          </div>
+        ))}
+      </div>
+      <p style="margin-top: 20px; text-align: center;">
+        <a href="/news/">查看全部 AI 快讯 →</a>
+      </p>
+    </div>
+  </section>
+  )}
 
-			<section class="contact">
-				<h2>联系方式</h2>
-				<ul>
-					<li><a href="https://github.com/Learnfordo" target="_blank">GitHub</a></li>
-				</ul>
-			</section>
+  <!-- Articles -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-label">研究报告</div>
+      <h2 class="section-title">最新文章</h2>
+      <p class="section-desc">深度解读 AI 前沿论文与行业动态</p>
+      <div class="articles-grid">
+        {recentPosts.map((post) => (
+          <a class="article-card" href={`/blog/${post.id}/`}>
+            <div class="card">
+              <h3>{post.data.title}</h3>
+              <p>{post.data.description || post.excerpt.substring(0, 120) + '...'}</p>
+              <div class="meta">
+                <time>{new Date(post.data.pubDate).toLocaleDateString('zh-CN')}</time>
+                <span class="read-more">阅读全文 →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top: 24px; text-align: center;">
+        <a href="/blog/">查看全部文章 →</a>
+      </p>
+    </div>
+  </section>
 
-			<section class="blog-link">
-				<h2>博客文章</h2>
-				<p><a href="/blog/">查看所有文章 →</a></p>
-			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+  <!-- About teaser -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-label">关于我</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;">
+        <div class="card" style="text-align: center; padding: 32px 24px;">
+          <div style="font-size: 36px; font-weight: 700;" class="gradient-text">7年</div>
+          <div style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">AI 产品经验</div>
+        </div>
+        <div class="card" style="text-align: center; padding: 32px 24px;">
+          <div style="font-size: 36px; font-weight: 700;" class="gradient-text">10+</div>
+          <div style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">深度研究报告</div>
+        </div>
+        <div class="card" style="text-align: center; padding: 32px 24px;">
+          <div style="font-size: 36px; font-weight: 700;" class="gradient-text">3W+</div>
+          <div style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">产品覆盖用户</div>
+        </div>
+      </div>
+      <p style="margin-top: 24px; text-align: center;">
+        <a href="/about/">了解更多 →</a>
+      </p>
+    </div>
+  </section>
 
-<style>
-	.hero {
-		text-align: center;
-		padding: 3rem 0;
-	}
-	.hero h1 {
-		font-size: 2.5rem;
-		margin-bottom: 0.5rem;
-	}
-	.tagline {
-		color: #666;
-		font-size: 1.2rem;
-	}
-	section {
-		margin: 2rem 0;
-		padding: 1rem 0;
-	}
-	h2 {
-		border-bottom: 2px solid #eee;
-		padding-bottom: 0.5rem;
-	}
-	ul {
-		list-style: none;
-		padding: 0;
-	}
-	li {
-		padding: 0.5rem 0;
-	}
-	a {
-		color: #0366d6;
-	}
-</style>
+  <Footer />
+</BaseLayout>

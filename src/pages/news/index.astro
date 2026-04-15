@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+let newsItems: any[] = [];
+try {
+  const raw = readFileSync(join(import.meta.dirname, '../../data/ai-news.json'), 'utf-8');
+  newsItems = JSON.parse(raw).items || [];
+} catch {
+  newsItems = [];
+}
+---
+
+<BaseLayout>
+  <Header />
+
+  <section class="section" style="padding-top: 64px;">
+    <div class="wrap">
+      <div class="section-label">AI 快讯</div>
+      <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">每日 AI 动态</h1>
+      <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">
+        自动抓取 arXiv cs.AI/cs.CL 与 Hacker News 最新 AI 资讯
+      </p>
+
+      {newsItems.length > 0 ? (
+        <div class="news-list">
+          {newsItems.map((item: any) => (
+            <div class="news-item">
+              <span class="news-date">{item.date}</span>
+              <div>
+                <h3><a href={item.url || '#'} target="_blank" rel="noopener">{item.title}</a></h3>
+                <p>{item.summary}</p>
+                {item.tags && item.tags.length > 0 && (
+                  <div class="news-tags">
+                    {item.tags.map((tag: string) => <span class="news-tag">{tag}</span>)}
+                  </div>
+                )}
+              </div>
+              <span class="news-source">{item.source}</span>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div style="text-align: center; padding: 60px 0; color: var(--text-muted);">
+          <p>AI 快讯正在收集中，每日自动更新...</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <Footer />
+</BaseLayout>

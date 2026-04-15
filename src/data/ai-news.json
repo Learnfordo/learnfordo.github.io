@@ -1,24 +1,158 @@
 {
+  "updatedAt": "2026-04-15T01:56:55.440Z",
   "items": [
+    {
+      "date": "2026-04-14",
+      "title": "Introspective Diffusion Language Models",
+      "summary": "via introspective-diffusion.github.io",
+      "url": "https://introspective-diffusion.github.io/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 229
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "summary": "via github.com",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "summary": "via blog.google",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 106
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+      "summary": "via github.com",
+      "url": "https://github.com/dropseed/plain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
+      "summary": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistent",
+      "url": "https://arxiv.org/abs/2604.11807v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Detecting Safety Violations Across Many Agent Traces",
+      "summary": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and onl",
+      "url": "https://arxiv.org/abs/2604.11806v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pai",
+      "url": "https://arxiv.org/abs/2604.11805v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
+      "summary": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite the",
+      "url": "https://arxiv.org/abs/2604.11803v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs?",
+      "summary": "Using psychological constructs such as the Big Five, large language models (LLMs) can imitate specific personality profiles and predict a user's personality. While LLMs can exhibit behaviors consisten",
+      "url": "https://arxiv.org/abs/2604.11802v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "CLSGen: A Dual-Head Fine-Tuning Framework for Joint Probabilistic Classification and Verbalized Explanation",
+      "summary": "With the recent progress of Large Language Models (LLMs), there is a growing interest in applying these models to solve complex and challenging problems. Modern LLMs, capable of processing long contex",
+      "url": "https://arxiv.org/abs/2604.11801v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net",
+      "summary": "Accurate delineation of the Clinical Target Volume (CTV) is essential for radiotherapy planning, yet remains time-consuming and difficult to assess, especially for complex treatments such as Total Mar",
+      "url": "https://arxiv.org/abs/2604.11798v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "C-ReD: A Comprehensive Chinese Benchmark for AI-Generated Text Detection Derived from Real-World Prompts",
+      "summary": "Recently, large language models (LLMs) are capable of generating highly fluent textual content. While they offer significant convenience to humans, they also introduce various risks, like phishing and",
+      "url": "https://arxiv.org/abs/2604.11796v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "A Mechanistic Analysis of Looped Reasoning Language Models",
+      "summary": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting i",
+      "url": "https://arxiv.org/abs/2604.11791v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+      "summary": "Tool-augmented Large Language Model (LLM) agents have demonstrated impressive capabilities in automating complex, multi-step real-world tasks, yet remain vulnerable to indirect prompt injection. Adver",
+      "url": "https://arxiv.org/abs/2604.11790v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-04-15",
       "title": "Meerkat: 小模型通过强化学习实现高效推理",
       "summary": "Allen AI 发布 Meerkat，7B 模型通过 RL 训练在数学和代码任务上接近更大模型表现，证明「训练方法」比「模型大小」更重要。",
-      "tags": ["RL", "小模型"],
+      "tags": [
+        "RL",
+        "小模型"
+      ],
       "source": "arXiv"
     },
     {
       "date": "2026-04-14",
       "title": "T-STAR: 思维树自我训练提升 LLM 推理能力",
       "summary": "微软提出 T-STAR 方法，通过思维树自我训练显著提升 LLM 在复杂推理任务上的表现，无需额外标注数据。",
-      "tags": ["推理", "自我训练"],
+      "tags": [
+        "推理",
+        "自我训练"
+      ],
       "source": "arXiv"
     },
     {
       "date": "2026-04-13",
       "title": "LLM 有害性压缩机制：仅 0.0005% 参数驱动有害内容生成",
       "summary": "Harvard+Princeton+Technion 联合研究发现，有害内容生成仅依赖极少量参数，跨领域统一机制，双重解离现象。",
-      "tags": ["安全", "机制"],
+      "tags": [
+        "安全",
+        "机制"
+      ],
       "source": "arXiv"
     }
   ]
