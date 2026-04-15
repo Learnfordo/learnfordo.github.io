@@ -1,6 +1,97 @@
 {
-  "updatedAt": "2026-04-15T01:56:55.440Z",
+  "updatedAt": "2026-04-15T01:58:59.832Z",
   "items": [
+    {
+      "date": "2026-04-14",
+      "title": "Rapid LoRA Aggregation for Wireless Channel Adaptation in Open-Set Radio Frequency Fingerprinting",
+      "summary": "Radio frequency fingerprints (RFFs) enable secure wireless authentication but struggle in open-set scenarios with unknown devices and varying channels. Existing methods face challenges in generalizati",
+      "url": "https://arxiv.org/abs/2604.12834v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Detecting and refurbishing ground truth errors during training of deep learning-based echocardiography segmentation models",
+      "summary": "Deep learning-based medical image segmentation typically relies on ground truth (GT) labels obtained through manual annotation, but these can be prone to random errors or systematic biases. This study",
+      "url": "https://arxiv.org/abs/2604.12832v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Loop Corrections to the Training and Generalization Errors of Random Feature Models",
+      "summary": "We investigate random feature models in which neural networks sampled from a prescribed initialization ensemble are frozen and used as random features, with only the readout weights optimized. Adoptin",
+      "url": "https://arxiv.org/abs/2604.12827v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair",
+      "summary": "Large language models (LLMs) inherently absorb harmful knowledge, misinformation, and personal data during pretraining on large-scale web corpora, with no native mechanism for selective removal. While",
+      "url": "https://arxiv.org/abs/2604.12820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Understanding and Improving Continuous Adversarial Training for LLMs via In-context Learning Theory",
+      "summary": "Adversarial training (AT) is an effective defense for large language models (LLMs) against jailbreak attacks, but performing AT on LLMs is costly. To improve the efficiency of AT for LLMs, recent stud",
+      "url": "https://arxiv.org/abs/2604.12817v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "The role of System 1 and System 2 semantic memory structure in human and LLM biases",
+      "summary": "Implicit biases in both humans and large language models (LLMs) pose significant societal risks. Dual process theories propose that biases arise primarily from associative System 1 thinking, while del",
+      "url": "https://arxiv.org/abs/2604.12816v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding",
+      "summary": "Existing Multimodal Large Language Models (MLLMs) suffer from significant performance degradation on the long document understanding task as document length increases. This stems from two fundamental ",
+      "url": "https://arxiv.org/abs/2604.12812v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Algorithmic Analysis of Dense Associative Memory: Finite-Size Guarantees and Adversarial Robustness",
+      "summary": "Dense Associative Memory (DAM) generalizes Hopfield networks through higher-order interactions and achieves storage capacity that scales as $O(N^{n-1})$ under suitable pattern separation conditions. E",
+      "url": "https://arxiv.org/abs/2604.12811v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach",
+      "summary": "Satellite image restoration aims to improve image quality by compensating for degradations (e.g., noise and blur) introduced by the imaging system and acquisition conditions. As a fundamental preproce",
+      "url": "https://arxiv.org/abs/2604.12807v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Interpretable Relational Inference with LLM-Guided Symbolic Dynamics Modeling",
+      "summary": "Inferring latent interaction structures from observed dynamics is a fundamental inverse problem in many-body interacting systems. Most neural approaches rely on black-box surrogates over trainable gra",
+      "url": "https://arxiv.org/abs/2604.12806v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Claude Code Routines",
+      "summary": "via code.claude.com",
+      "url": "https://code.claude.com/docs/en/routines",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 424
+    },
     {
       "date": "2026-04-14",
       "title": "Introspective Diffusion Language Models",
@@ -14,9 +105,9 @@
     },
     {
       "date": "2026-04-14",
-      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
-      "summary": "via github.com",
-      "url": "https://github.com/ginlix-ai/langalpha",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "summary": "via blog.google",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
       "tags": [
         "Hacker News"
       ],
@@ -25,14 +116,14 @@
     },
     {
       "date": "2026-04-14",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary": "via blog.google",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "summary": "via github.com",
+      "url": "https://github.com/ginlix-ai/langalpha",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 106
+      "score": 107
     },
     {
       "date": "2026-04-14",
