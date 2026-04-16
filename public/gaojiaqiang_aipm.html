@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <meta name="description" content="高佳强的个人简历 — AI/agent/算法产品经理">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
     :root {
         --bg: #fcfaf5;
@@ -81,7 +81,6 @@
         border-bottom-color:var(--text-dark); color:var(--text-dark); text-decoration:none;
     }
     .sep { margin:0 5px; color:#c8cdcf; }
-    .nowrap { white-space:nowrap; }
 
     /* Section heading */
     .section-heading {
@@ -207,9 +206,9 @@
     /* Responsive */
     @media (max-width:600px) {
         .container { padding:24px 12px 60px; }
-        .masthead { flex-direction:row; align-items:flex-start; gap:14px; position:relative; padding-right:80px; }
-        .masthead-side { position: absolute; top: 0; right: 0; }
-        .masthead-text { padding-right:0; flex:1; min-width:0; }
+        .masthead { flex-direction:column; align-items:flex-start; gap:14px; }
+        .masthead-text { padding-right:0; }
+        .masthead-side { flex-direction:row; align-items:center; gap:14px; }
         .masthead-avatar { width:60px; height:60px; border-radius:8px; }
         .motto { font-size:0.68rem; text-align:left; max-width:none; }
         .site-name { font-size:1.5rem; }
@@ -237,6 +236,17 @@
         .footer-btn { padding:10px 24px; font-size:0.8rem; }
         .footer-btn svg { width:14px; height:14px; }
     }
+    @media (max-width:600px) {
+        .container { padding:32px 0 60px; }
+        .masthead { flex-direction:column; align-items:flex-start; gap:16px; }
+        .masthead-side { margin-top:0; }
+        .masthead-avatar { width:80px; height:80px; }
+        .site-name { font-size:1.5rem; }
+        .card,.skills-card,.edu-card { padding:20px; }
+        .card-header { flex-direction:column; gap:0; }
+        .edu-row { flex-direction:column; gap:0; }
+        body { font-size:0.75rem; }
+    }
     @media print {
         body { background:#fff; font-size:10pt; }
         .container { max-width:100%; padding:0; }
@@ -252,23 +262,21 @@
     <header class="masthead">
         <div class="masthead-text">
             <h1 class="site-name">高佳强</h1>
-            <p class="site-role">AI / agent/算法 资深产品经理</p>
+            <p class="site-role">资深AI 产品经理 — 大模型应用 &AI Agent方向</p>
             <div class="contact-info">
                 <a href="mailto:gaojiaqiang_china@163.com">gaojiaqiang_china@163.com</a>
                 <span class="sep">·</span>
-                <span class="nowrap">135 8824 0809（同微信）</span>
+                135 8824 0809（同微信）
                 <span class="sep">·</span>
-                <span class="nowrap">1997.10</span>
+                1997.10
             </div>
             <div style="margin-top:6px; display:inline-flex; align-items:center;">
                 <span class="credential-badge">E类</span>
                 <span class="credential-label">杭州市高层次人才（人工智能专项人才认定）</span>
             </div>
             <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:0 10px;">
-                <a class="contact-link" href="https://learnfordo.site" target="_blank">博客 learnfordo.site</a>
-                <a class="contact-link" href="https://github.com/Learnfordo" target="_blank">GitHub Learnfordo</a>
+                <a class="contact-link" href="https://learnfordo.github.io/" target="_blank">博客 learnfordo.github.io</a>
                 <span class="contact-link">公众号 AI催晨箭</span>
-                <span class="contact-link">AI 助手：LuffyUp 🦞</span>
             </div>
 
         </div>
@@ -281,7 +289,7 @@
     <!-- About Me -->
     <section style="margin-top:24px; margin-bottom:36px;">
         <div style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--text-body); line-height:1.7;">
-            关于我：7年AI产品工作经验，熟悉AI相关技术框架及落地路径；AI 发展的亲历者 — CNN → BERT → GPT → LLM → AI Agent，目前工作方向：LLM 应用及 AI Agent
+            关于我：资深 AI 产品经理，7 年 AI 产品经验，专注大模型应用与 Agent 平台方向。兼具技术深度与商业落地能力——既理解 Transformer/Agent 底层原理，又能推动产品从 PoC 到规模化变现。目前工作方向：LLM应用及AIAgent。
         </div>
     </section>
 
@@ -326,46 +334,69 @@
                 <span class="card-period">2024.07 – 至今</span>
             </div>
             <div class="card-role">资深 AI 产品经理</div>
+
             <div class="project">
-                <div class="project-title">文思智能体平台</div>
+                <div class="project-title">文思智能体平台（从 0 到 1 · AI Agent 编排平台）</div>
                 <ul>
-                    <li>主导从零搭建面向媒体行业的企业级 AI Agent 编排平台，覆盖集团 <span class="hl">5200+</span> 员工及多家 ToB 客户，平台内累计创建 <span class="hl">100+</span> 智能体应用，已发布的智能体 <span class="hl">80%+</span> 已投入日常生产。</li>
-                    <li>独立负责全链路产品设计与迭代，覆盖智能体编排、知识库、工具插件体系、权限管控、工作空间等全模块。</li>
-                    <li>主导设计自研 Agent 框架，支持迭代思考与自主思考机制，及基于 React 框架的多轮规划能力，满足媒体行业复杂内容生产场景需求。</li>
-                    <li>设计标准化 API 体系支持下游系统集成，并建设多维度用量统计（调用次数、Token 消耗等），支撑企业客户成本管控与运营决策。</li>
-                    <li>支持 SaaS 与本地部署两种交付模式，已完成多家 ToB 客户接入，并面向新闻生产、媒资检索等场景内置行业模板，从 PoC 到规模化落地，降低媒体机构智能化转型门槛。</li>
+                    <li><span class="hl">从 0 到 1 搭建</span>企业级 AI Agent 编排平台，21 个月内覆盖集团
+                        <span class="hl">5200+</span> 员工及多家 ToB 客户，累计创建
+                        <span class="hl">100+</span> 智能体应用，已发布智能体 <span class="hl">80%+</span>
+                        投入日常生产，成为集团 AI 基础设施</li>
+                    <li>独立设计全链路产品模块：智能体编排引擎、知识库系统、工具插件体系、权限管控、
+                        多工作空间等，支持 <span class="hl">SaaS 与本地部署</span>双模式交付</li>
+                    <li>主导设计自研 Agent 框架，支持迭代思考与自主思考机制，基于 ReAct 框架实现多轮
+                        规划能力，满足媒体行业复杂内容生产场景需求</li>
+                    <li>设计标准化 API 体系及多维度用量统计（调用次数、Token 消耗），支撑企业客户
+                        成本管控与运营决策，降低 ToB 客户接入门槛</li>
                 </ul>
             </div>
+
             <div class="project">
                 <div class="project-title">创作大脑 AIGC 平台</div>
                 <ul>
-                    <li>建设面向媒体行业的一站式 AIGC 创作平台，覆盖 <span class="hl">3W+</span> 用户及 <span class="hl">1000+</span> SaaS 企业客户，日均 AIGC 调用量 <span class="hl">10W+</span> 次。</li>
-                    <li>全流程产品建设：推动 AI 对话、内容创作、AI 海报生成、AI 视频生成（一键成片）、内容审核等功能落地，覆盖媒体策采编发全流程。</li>
-                    <li>AI 能力持续优化：主导各场景 AIGC 效果优化与 Chat 对话能力迭代，建立 AIGC 效果评估体系（采纳率、人工修改率等），推进模型能力与业务场景的深度适配。</li>
+                    <li>建设面向媒体行业的一站式 AIGC 创作平台，覆盖 <span class="hl">3W+</span> 用户及
+                        <span class="hl">1000+</span> SaaS 企业客户，日均 AIGC 调用量
+                        <span class="hl">10W+</span> 次，覆盖策采编发全流程</li>
+                    <li>推动 AI 对话、内容创作、AI 海报生成、AI 视频生成（一键成片）、内容审核等
+                        全功能模块落地</li>
+                    <li>建立 AIGC 效果评估体系（采纳率、人工修改率），推进模型能力与业务场景深度适配，
+                        持续提升内容生产效率</li>
                 </ul>
             </div>
+
             <div class="project">
-                <div class="project-title">集团能力横向支撑</div>
+                <div class="project-title">AI 能力横向输出</div>
                 <ul>
-                    <li>为浙报集团内部产品提供 AI 能力支撑，服务集团旗下核心业务线。</li>
-                    <li>媒资智能检索：支持集团媒资数据 Embedding 存储与管理，建设语义检索、混合检索及多模态检索能力，为内容推荐场景提供底层支撑。</li>
-                    <li>潮奔奔 AI 助手：为潮新闻资讯 App 提供 AI 助手核心能力，涵盖多轮对话、意图识别、多模态搜索、知识库问答等，助手月活达 <span class="hl">7W+</span>，问题解决率达 <span class="hl">85%</span>。</li>
+                    <li>建设 AI 能力开放平台，已有 <span class="hl">200+</span> 家媒体机构及技术公司接入，
+                        统筹落地统一模型代理服务、Skill Hub、Agent 市场、API/MCP 市场</li>
+                    <li>为潮新闻 App 提供 AI 助手核心能力（多轮对话、意图识别、多模态搜索、知识库问答），
+                        助手月活达 <span class="hl">7W+</span>，问题解决率达 <span class="hl">85%</span></li>
+                    <li>建设媒资智能检索：支持集团媒资数据 Embedding 存储与管理，实现语义检索、
+                        混合检索及多模态检索能力</li>
                 </ul>
             </div>
-            <div class="project">
-                <div class="project-title">AI 能力开放平台</div>
-                <ul>
-                    <li>主导建设面向媒体垂直场景的一体化 AI 能力开放平台，已有 <span class="hl">200+</span> 家媒体机构及技术公司接入相关内容。</li>
-                    <li>平台能力体系建设：统筹规划并落地统一模型代理服务、媒体 Skill Hub、Agent 市场、API/MCP 市场及若干 AI 算法原子能力，助力开发者高效构建和集成智能化应用。</li>
-                </ul>
-            </div>
+
             <div style="margin-top:12px;">
-                <div style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.88rem; font-weight:600; color:var(--text-dark); margin-bottom:8px;">🔗 项目链接</div>
+                <div style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif;
+                    font-size:0.88rem; font-weight:600; color:var(--text-dark); margin-bottom:8px;">
+                    🔗 项目链接</div>
                 <div style="display:flex; flex-wrap:wrap; gap:8px 20px;">
-                    <a href="https://agent.commind.com/login" target="_blank" style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">文思智能体平台</a>
-                    <a href="https://ai.commind.com/index/" target="_blank" style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">创作大脑 AIGC 平台</a>
-                    <a href="https://tidenews.com.cn/" target="_blank" style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">潮新闻·潮奔奔 AI 助手</a>
-                    <a href="https://open.tmlyun.com/ai-home" target="_blank" style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">AI 能力开放平台</a>
+                    <a href="https://agent.commind.com/login" target="_blank" style="font-family:'Noto Sans SC',
+                        -apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent);
+                        text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">
+                        文思智能体平台</a>
+                    <a href="https://ai.commind.com/index/" target="_blank" style="font-family:'Noto Sans SC',
+                        -apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent);
+                        text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">
+                        创作大脑 AIGC 平台</a>
+                    <a href="https://tidenews.com.cn/" target="_blank" style="font-family:'Noto Sans SC',
+                        -apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent);
+                        text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">
+                        潮新闻·潮奔奔 AI 助手</a>
+                    <a href="https://open.tmlyun.com/ai-home" target="_blank" style="font-family:'Noto Sans SC',
+                        -apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--accent);
+                        text-decoration:none; border-bottom:1px solid rgba(15,217,210,0.3); padding-bottom:1px;">
+                        AI 能力开放平台</a>
                 </div>
             </div>
         </div>
@@ -380,30 +411,40 @@
             <div class="project">
                 <div class="project-title">小诺发票智能客服</div>
                 <ul>
-                    <li>主导发票场景智能客服产品建设，涵盖 AI 机器人与人工客服两侧，推动智能客服回复准确率由 <span class="hl">56% 提升至 88%</span>，人工客服答案采纳率达 <span class="hl">74%</span>。</li>
-                    <li>优化 FAQ 召回排序与知识库问答能力，新增问题推荐、输入联想候选及自动挖掘知识点等功能，大幅提升机器人回复准确率与覆盖率。</li>
-                    <li>在人工侧建设历史上下文、快捷话术与候选回复预测能力，自动记忆客服历史话术并结合输入上下文智能推荐，提升人工坐席处理效率与答案采纳率。</li>
-                    <li>设计 AI 与人工客服的职责边界与流转策略，建立涵盖解决率、转人工率、平均响应时长、客户满意度等关键指标的评估体系，数据驱动产品持续迭代。</li>
+                    <li>主导智能客服产品建设（AI 机器人 + 人工客服双端），推动回复准确率从
+                        <span class="hl">56% 提升至 88%</span>（+32pt），人工客服答案采纳率达
+                        <span class="hl">74%</span></li>
+                    <li>优化 FAQ 召回排序与知识库问答能力，新增问题推荐、输入联想、自动挖掘知识点等功能，
+                        大幅提升机器人回复准确率与覆盖率</li>
+                    <li>建设人工侧历史上下文、快捷话术与候选回复预测能力，自动记忆客服历史话术并结合
+                        输入上下文智能推荐</li>
+                    <li>设计 AI 与人工客服职责边界与流转策略，建立涵盖解决率、转人工率、响应时长、
+                        满意度的评估体系，数据驱动产品持续迭代</li>
                 </ul>
             </div>
             <div class="project">
                 <div class="project-title">智能票据解析</div>
                 <ul>
-                    <li>规划并落地面向报销与对账场景的智能票据解析产品，围绕收据/发票的自动结构化处理，打通票据图像定位、OCR 识别、关键信息抽取（商户名称、日期、总金额、地址等）全链路，日均处理票据量达 <span class="hl">2W+ 张</span>。</li>
-                    <li>负责全链路技术方案选型与产品设计，基于传统 OCR + NLP + LLM 体系构建解析 pipeline；引入正则、词典、模糊匹配等手段识别并解析文本，将关键字段准确率从约 <span class="hl">63% 提升至 85%+</span>。</li>
-                    <li>设计可配置规则引擎与词典管理后台，将商户名、日期、金额等解析逻辑从代码中剥离，支持运营/实施人员以配置方式快速适配新票据版式，降低运维成本。</li>
+                    <li>规划并落地面向报销与对账场景的票据解析产品，打通 OCR 识别→关键信息抽取全链路，
+                        日均处理票据 <span class="hl">2W+ 张</span></li>
+                    <li>基于传统 OCR + NLP + LLM 构建解析 pipeline，引入正则、词典、模糊匹配等手段，
+                        关键字段准确率从 <span class="hl">63% 提升至 85%+</span></li>
+                    <li>设计可配置规则引擎与词典管理后台，将商户名、日期、金额等解析逻辑从代码中剥离，
+                        支持运营人员以配置方式快速适配新票据版式</li>
                 </ul>
             </div>
             <div class="project">
-                <div class="project-title">BI 数据可视化平台</div>
+                <div class="project-title">BI 数据可视化平台（从 0 到 1）</div>
                 <ul>
-                    <li>主导从零搭建面向 B 端企业用户的数据可视化平台，支持本地部署与 SaaS 两种交付模式，服务永辉超市、得物等 <span class="hl">200+</span> 标杆客户。</li>
-                    <li>覆盖数据连接、字段拖拽、自定义 SQL、筛选器、图表联动/钻取、数据权限管控、报表分享等全链路功能，用户无需编程背景即可快速搭建可视化页面。</li>
-                    <li>引入 ChatBI 功能，结合 LLM + RAG 实现自然语言→SQL→数据结果的全链路自动化，引入企业私有知识库（指标口径、表结构等）与 Schema Linking、代码自动修复等机制提升 SQL 生成准确率，降低业务人员数据获取门槛。</li>
+                    <li>从 0 到 1 搭建面向 B 端企业用户的数据可视化平台，支持本地部署与 SaaS 双模式，
+                        服务永辉超市、得物等 <span class="hl">200+</span> 标杆客户</li>
+                    <li>覆盖数据连接、字段拖拽、自定义 SQL、筛选器、图表联动/钻取、数据权限管控、
+                        报表分享等全链路功能</li>
+                    <li>引入 ChatBI 功能，结合 LLM + RAG 实现自然语言→SQL→数据结果全链路自动化，
+                        引入 Schema Linking、代码自动修复等机制提升 SQL 生成准确率</li>
                 </ul>
             </div>
         </div>
-
         <!-- 同花顺 -->
         <div class="card">
             <div class="card-header">
@@ -412,39 +453,40 @@
             </div>
             <div class="card-role">AI 产品经理</div>
             <div class="project">
-                <div class="project-title">内容安全智能审核</div>
+                <div class="project-title">智能投顾 — 智能客服机器人（200W 月活）</div>
                 <ul>
-                    <li>负责 UGC 场景用户内容智能审核产品规划落地，利用 LLM 能力通过预训练 + 有监督微调提高违规内容识别，自动识别广告、色情、涉政等违规内容。</li>
-                    <li>制定监督学习样本采集清洗优化标准流程，配合算法完成特征工程、大模型迭代、模型评测验收。结合审核平台/人工审核完善风控交互逻辑及运营流程。</li>
-                    <li>模型准确率 <span class="hl">92%</span>，机审率 <span class="hl">90%</span>，日处理约 <span class="hl">100W</span> 审核请求，节省 <span class="hl">10-15 个</span>人工审核人力。</li>
+                    <li>独立负责智能投顾机器人对话系统，月活约 <span class="hl">200W</span> 用户，
+                        Query 解决率达 <span class="hl">92%</span></li>
+                    <li>基于 Pipeline 式对话框架设计意图体系，搭建机器人管理后台及多轮对话管理模块，
+                        配合算法提升意图识别效果，借助未识别 Query 召回扩充知识库</li>
+                    <li>基于检索式和任务式方案解决用户问题，制定意图梳理流程，系统性提升对话覆盖率和解决率</li>
                 </ul>
             </div>
             <div class="project">
-                <div class="project-title">智能投顾 — 智能客服机器人</div>
+                <div class="project-title">内容安全智能审核</div>
                 <ul>
-                    <li>独立负责投顾机器人客服领域 Query 对话，基于 Pipeline 式对话框架结合算法提升整体对话能力。</li>
-                    <li>基于检索式和任务式解决用户问题——制定意图体系梳理流程，配合算法提升意图识别效果，搭建机器人管理后台，支持多轮对话管理模块，借助算法召回未识别 Query 扩充知识库。</li>
-                    <li>智能投顾月活约 <span class="hl">200W</span> 用户，Query 解决率达 <span class="hl">92%</span>。</li>
+                    <li>负责 UGC 场景智能审核产品，日处理约 <span class="hl">100W</span> 审核请求，
+                        模型准确率 <span class="hl">92%</span>，机审率 <span class="hl">90%</span>，
+                        节省 <span class="hl">10-15 个</span>人工审核人力</li>
+                    <li>利用大模型预训练 + 有监督微调提高违规内容识别准确率，自动识别广告、色情、
+                        涉政等违规内容</li>
+                    <li>制定样本采集清洗标准流程，配合算法完成特征工程、模型迭代、评测验收，
+                        完善风控交互逻辑及运营流程</li>
                 </ul>
             </div>
             <div class="project">
                 <div class="project-title">AI 训练平台</div>
                 <ul>
-                    <li>搭建同花顺内网 AI 训练平台，基于 NLP 技术为公司内部 AI 赋能。</li>
-                    <li>负责功能规划和产品建设，拆解数据管理、模型及版本管理、效果评估等功能模块及可视化界面。</li>
-                    <li>支持文本分类、NER、短文本相似度、研报观点抽取、情感分析 <span class="hl">6 大通用模型</span>场景，覆盖公司 <span class="hl">90%</span> AI 应用，无算法专业知识的同事也可快速训练部署高精度模型。</li>
+                    <li>搭建同花顺内网 AI 训练平台，支持文本分类、NER、短文本相似度、研报观点抽取、
+                        情感分析 <span class="hl">6 大通用模型</span>场景，覆盖公司 <span class="hl">90%</span>
+                        AI 应用</li>
+                    <li>负责数据管理、模型及版本管理、效果评估等全链路功能模块规划，
+                        无算法背景的同事也可快速训练部署高精度模型</li>
                 </ul>
             </div>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <a class="footer-btn" href="gaojiaqiang_aipm.pdf" download>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            下载 PDF
-        </a>
-    </footer>
+    </section>
 
 </div>
 </body>
