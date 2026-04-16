@@ -305,13 +305,12 @@ img { max-width: 100%; display: block; }
 /* === Responsive === */
 @media (max-width: 700px) {
   /* Nav */
-  .nav-inner { padding: 0 16px; height: 52px; }
-  .nav-brand { font-size: 14px; }
-  .nav-links { gap: 10px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-shrink: 0; max-width: calc(100vw - 120px); }
-  .nav-links::-webkit-scrollbar { display: none; }
-  .nav-links a { font-size: 12px; white-space: nowrap; padding: 4px 0; }
-  .nav-links a.active::after { bottom: -16px; }
-  .theme-toggle { width: 32px; height: 32px; }
+  .nav-inner { padding: 0 12px; height: 50px; }
+  .nav-brand { font-size: 13px; flex-shrink: 0; }
+  .nav-links { gap: 6px; flex-shrink: 1; min-width: 0; }
+  .nav-links a { font-size: 12px; padding: 3px 2px; white-space: nowrap; }
+  .nav-links a.active::after { bottom: -15px; }
+  .theme-toggle { width: 30px; height: 30px; flex-shrink: 0; }
 
   /* Hero */
   .hero { padding: 100px 0 40px; }
@@ -363,8 +362,9 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 400px) {
-  .nav-links { max-width: calc(100vw - 100px); gap: 8px; }
-  .nav-links a { font-size: 11px; }
+  .nav-brand { font-size: 12px; }
+  .nav-links { gap: 4px; }
+  .nav-links a { font-size: 10px; padding: 3px 1px; }
   .hero h1 { font-size: 24px; }
   .hero .subtitle { font-size: 14px; }
   .post-header h1 { font-size: 21px; }
