@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-04-15T15:27:50.500Z",
+  "updatedAt": "2026-04-16T04:32:06.514Z",
   "items": [
+    {
+      "date": "2026-04-15",
+      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+      "summary": "Spatial reasoning over three-dimensional scenes is a core capability for embodied intelligence, yet continuous model improvement remains bottlenecked by the cost of geometric annotation. The self-evol",
+      "url": "https://arxiv.org/abs/2604.14144v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space",
+      "summary": "While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base m",
+      "url": "https://arxiv.org/abs/2604.14142v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning",
+      "summary": "As language models are increasingly deployed for complex autonomous tasks, their ability to reason accurately over longer horizons becomes critical. An essential component of this ability is planning ",
+      "url": "https://arxiv.org/abs/2604.14140v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs",
+      "summary": "Evaluating LLMs is challenging, as benchmark scores often fail to capture models' real-world usefulness. Instead, users often rely on ``vibe-testing'': informal experience-based evaluation, such as co",
+      "url": "https://arxiv.org/abs/2604.14137v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Rhetorical Questions in LLM Representations: A Linear Probing Study",
+      "summary": "Rhetorical questions are asked not to seek information but to persuade or signal stance. How large language models internally represent them remains unclear. We analyze rhetorical questions in LLM rep",
+      "url": "https://arxiv.org/abs/2604.14128v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "summary": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities ",
+      "url": "https://arxiv.org/abs/2604.14125v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis",
+      "summary": "LLM reasoning traces suffer from complex flaws -- *Step Internal Flaws* (logical errors, hallucinations, etc.) and *Step-wise Flaws* (overthinking, underthinking), which vary by sample. A natural appr",
+      "url": "https://arxiv.org/abs/2604.14121v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Complex Interpolation of Matrices with an application to Multi-Manifold Learning",
+      "summary": "Given two symmetric positive-definite matrices $A, B \\in \\mathbb{R}^{n \\times n}$, we study the spectral properties of the interpolation $A^{1-x} B^x$ for $0 \\leq x \\leq 1$. The presence of `common st",
+      "url": "https://arxiv.org/abs/2604.14118v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "summary": "While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challen",
+      "url": "https://arxiv.org/abs/2604.14116v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation",
+      "summary": "Sequential recommendation has become increasingly prominent in both academia and industry, particularly in e-commerce. The primary goal is to extract user preferences from historical interaction seque",
+      "url": "https://arxiv.org/abs/2604.14114v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "ChatGPT for Excel",
+      "summary": "via chatgpt.com",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-04-15",
+      "title": "US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]",
+      "summary": "via fingfx.thomsonreuters.com",
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 103
+    },
     {
       "date": "2026-04-15",
       "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
@@ -330,44 +432,6 @@
       "summary": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting i",
       "url": "https://arxiv.org/abs/2604.11791v1",
       "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
-      "summary": "Tool-augmented Large Language Model (LLM) agents have demonstrated impressive capabilities in automating complex, multi-step real-world tasks, yet remain vulnerable to indirect prompt injection. Adver",
-      "url": "https://arxiv.org/abs/2604.11790v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Meerkat: 小模型通过强化学习实现高效推理",
-      "summary": "Allen AI 发布 Meerkat，7B 模型通过 RL 训练在数学和代码任务上接近更大模型表现，证明「训练方法」比「模型大小」更重要。",
-      "tags": [
-        "RL",
-        "小模型"
-      ],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "T-STAR: 思维树自我训练提升 LLM 推理能力",
-      "summary": "微软提出 T-STAR 方法，通过思维树自我训练显著提升 LLM 在复杂推理任务上的表现，无需额外标注数据。",
-      "tags": [
-        "推理",
-        "自我训练"
-      ],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "LLM 有害性压缩机制：仅 0.0005% 参数驱动有害内容生成",
-      "summary": "Harvard+Princeton+Technion 联合研究发现，有害内容生成仅依赖极少量参数，跨领域统一机制，双重解离现象。",
-      "tags": [
-        "安全",
-        "机制"
-      ],
       "source": "arXiv"
     }
   ]
