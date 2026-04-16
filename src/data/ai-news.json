@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-04-16T04:38:43.914Z",
+  "updatedAt": "2026-04-16T15:56:31.882Z",
   "items": [
+    {
+      "date": "2026-04-16",
+      "title": "Claude Opus 4.7",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 427
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
+      "summary": "via qwen.ai",
+      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 349
+    },
+    {
+      "date": "2026-04-16",
+      "title": "FSF trying to contact Google about spammer sending 10k+ mails from Gmail account",
+      "summary": "via daedal.io",
+      "url": "https://daedal.io/@thomzane/116410863009847575",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 286
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Cloudflare Email Service",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/email-for-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 164
+    },
     {
       "date": "2026-04-15",
       "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
@@ -90,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 134
+      "score": 279
     },
     {
       "date": "2026-04-15",
@@ -399,38 +443,6 @@
       "title": "Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs?",
       "summary": "Using psychological constructs such as the Big Five, large language models (LLMs) can imitate specific personality profiles and predict a user's personality. While LLMs can exhibit behaviors consisten",
       "url": "https://arxiv.org/abs/2604.11802v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "CLSGen: A Dual-Head Fine-Tuning Framework for Joint Probabilistic Classification and Verbalized Explanation",
-      "summary": "With the recent progress of Large Language Models (LLMs), there is a growing interest in applying these models to solve complex and challenging problems. Modern LLMs, capable of processing long contex",
-      "url": "https://arxiv.org/abs/2604.11801v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net",
-      "summary": "Accurate delineation of the Clinical Target Volume (CTV) is essential for radiotherapy planning, yet remains time-consuming and difficult to assess, especially for complex treatments such as Total Mar",
-      "url": "https://arxiv.org/abs/2604.11798v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "C-ReD: A Comprehensive Chinese Benchmark for AI-Generated Text Detection Derived from Real-World Prompts",
-      "summary": "Recently, large language models (LLMs) are capable of generating highly fluent textual content. While they offer significant convenience to humans, they also introduce various risks, like phishing and",
-      "url": "https://arxiv.org/abs/2604.11796v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "A Mechanistic Analysis of Looped Reasoning Language Models",
-      "summary": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting i",
-      "url": "https://arxiv.org/abs/2604.11791v1",
       "tags": [],
       "source": "arXiv"
     }
