@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T04:35:59.973Z",
+  "updatedAt": "2026-04-17T11:45:32.955Z",
   "items": [
     {
       "date": "2026-04-16",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1572
+      "score": 1795
     },
     {
       "date": "2026-04-16",
@@ -101,7 +101,40 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 969
+      "score": 1128
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/ai-platform/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 288
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Android CLI: Build Android apps 3x faster using any agent",
+      "summary": "via android-developers.googleblog.com",
+      "url": "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 255
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+      "summary": "via github.com",
+      "url": "https://github.com/gainsec/autoprober",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 192
     },
     {
       "date": "2026-04-16",
@@ -113,17 +146,6 @@
       ],
       "source": "HN",
       "score": 346
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/ai-platform/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 255
     },
     {
       "date": "2026-04-16",
@@ -438,22 +460,6 @@
       ],
       "source": "HN",
       "score": 114
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Rapid LoRA Aggregation for Wireless Channel Adaptation in Open-Set Radio Frequency Fingerprinting",
-      "summary": "Radio frequency fingerprints (RFFs) enable secure wireless authentication but struggle in open-set scenarios with unknown devices and varying channels. Existing methods face challenges in generalizati",
-      "url": "https://arxiv.org/abs/2604.12834v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Detecting and refurbishing ground truth errors during training of deep learning-based echocardiography segmentation models",
-      "summary": "Deep learning-based medical image segmentation typically relies on ground truth (GT) labels obtained through manual annotation, but these can be prone to random errors or systematic biases. This study",
-      "url": "https://arxiv.org/abs/2604.12832v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
