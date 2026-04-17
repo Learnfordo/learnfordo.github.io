@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-04-16T16:19:11.746Z",
+  "updatedAt": "2026-04-17T04:32:20.761Z",
   "items": [
+    {
+      "date": "2026-04-16",
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "summary": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly",
+      "url": "https://arxiv.org/abs/2604.15309v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
+      "summary": "Whether language models can systematically generalize remains actively debated. Yet empirical performance is jointly shaped by multiple factors such as training data, training paradigms, and inference",
+      "url": "https://arxiv.org/abs/2604.15306v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
+      "summary": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEva",
+      "url": "https://arxiv.org/abs/2604.15302v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Benchmarking Optimizers for MLPs in Tabular Deep Learning",
+      "summary": "MLP is a heavily used backbone in modern deep learning (DL) architectures for supervised learning on tabular data, and AdamW is the go-to optimizer used to train tabular DL models. Unlike architecture",
+      "url": "https://arxiv.org/abs/2604.15297v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision? An Interpretability Study",
+      "summary": "Over the past year, spatial intelligence has drawn increasing attention. Many prior works study it from the perspective of visual-spatial intelligence, where models have access to visuospatial informa",
+      "url": "https://arxiv.org/abs/2604.15294v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving",
+      "summary": "The reliability of a machine vision system for autonomous driving depends heavily on its training data distribution. When a vehicle encounters significantly different conditions, such as atypical obst",
+      "url": "https://arxiv.org/abs/2604.15291v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Structural interpretability in SVMs with truncated orthogonal polynomial kernels",
+      "summary": "We study post-training interpretability for Support Vector Machines (SVMs) built from truncated orthogonal polynomial kernels. Since the associated reproducing kernel Hilbert space is finite-dimension",
+      "url": "https://arxiv.org/abs/2604.15285v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Why Do Vision Language Models Struggle To Recognize Human Emotions?",
+      "summary": "Understanding emotions is a fundamental ability for intelligent systems to be able to interact with humans. Vision-language models (VLMs) have made tremendous progress in the last few years for many v",
+      "url": "https://arxiv.org/abs/2604.15280v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations",
+      "summary": "Node embeddings act as the information interface for graph neural networks, yet their empirical impact is often reported under mismatched backbones, splits, and training budgets. This paper provides a",
+      "url": "https://arxiv.org/abs/2604.15273v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Prism: Symbolic Superoptimization of Tensor Programs",
+      "summary": "This paper presents Prism, the first symbolic superoptimizer for tensor programs. The key idea is sGraph, a symbolic, hierarchical representation that compactly encodes large classes of tensor program",
+      "url": "https://arxiv.org/abs/2604.15272v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-04-16",
       "title": "Claude Opus 4.7",
@@ -10,18 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 538
+      "score": 1570
     },
     {
       "date": "2026-04-16",
-      "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
+      "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
       "summary": "via qwen.ai",
       "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 397
+      "score": 967
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 346
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/ai-platform/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 255
+    },
+    {
+      "date": "2026-04-16",
+      "title": "AI cybersecurity is not proof of work",
+      "summary": "via antirez.com",
+      "url": "https://antirez.com/news/163",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 212
     },
     {
       "date": "2026-04-16",
@@ -339,110 +452,6 @@
       "title": "Detecting and refurbishing ground truth errors during training of deep learning-based echocardiography segmentation models",
       "summary": "Deep learning-based medical image segmentation typically relies on ground truth (GT) labels obtained through manual annotation, but these can be prone to random errors or systematic biases. This study",
       "url": "https://arxiv.org/abs/2604.12832v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Loop Corrections to the Training and Generalization Errors of Random Feature Models",
-      "summary": "We investigate random feature models in which neural networks sampled from a prescribed initialization ensemble are frozen and used as random features, with only the readout weights optimized. Adoptin",
-      "url": "https://arxiv.org/abs/2604.12827v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair",
-      "summary": "Large language models (LLMs) inherently absorb harmful knowledge, misinformation, and personal data during pretraining on large-scale web corpora, with no native mechanism for selective removal. While",
-      "url": "https://arxiv.org/abs/2604.12820v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Understanding and Improving Continuous Adversarial Training for LLMs via In-context Learning Theory",
-      "summary": "Adversarial training (AT) is an effective defense for large language models (LLMs) against jailbreak attacks, but performing AT on LLMs is costly. To improve the efficiency of AT for LLMs, recent stud",
-      "url": "https://arxiv.org/abs/2604.12817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "The role of System 1 and System 2 semantic memory structure in human and LLM biases",
-      "summary": "Implicit biases in both humans and large language models (LLMs) pose significant societal risks. Dual process theories propose that biases arise primarily from associative System 1 thinking, while del",
-      "url": "https://arxiv.org/abs/2604.12816v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding",
-      "summary": "Existing Multimodal Large Language Models (MLLMs) suffer from significant performance degradation on the long document understanding task as document length increases. This stems from two fundamental ",
-      "url": "https://arxiv.org/abs/2604.12812v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Algorithmic Analysis of Dense Associative Memory: Finite-Size Guarantees and Adversarial Robustness",
-      "summary": "Dense Associative Memory (DAM) generalizes Hopfield networks through higher-order interactions and achieves storage capacity that scales as $O(N^{n-1})$ under suitable pattern separation conditions. E",
-      "url": "https://arxiv.org/abs/2604.12811v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach",
-      "summary": "Satellite image restoration aims to improve image quality by compensating for degradations (e.g., noise and blur) introduced by the imaging system and acquisition conditions. As a fundamental preproce",
-      "url": "https://arxiv.org/abs/2604.12807v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Interpretable Relational Inference with LLM-Guided Symbolic Dynamics Modeling",
-      "summary": "Inferring latent interaction structures from observed dynamics is a fundamental inverse problem in many-body interacting systems. Most neural approaches rely on black-box surrogates over trainable gra",
-      "url": "https://arxiv.org/abs/2604.12806v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
-      "summary": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistent",
-      "url": "https://arxiv.org/abs/2604.11807v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Detecting Safety Violations Across Many Agent Traces",
-      "summary": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and onl",
-      "url": "https://arxiv.org/abs/2604.11806v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
-      "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pai",
-      "url": "https://arxiv.org/abs/2604.11805v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
-      "summary": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite the",
-      "url": "https://arxiv.org/abs/2604.11803v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs?",
-      "summary": "Using psychological constructs such as the Big Five, large language models (LLMs) can imitate specific personality profiles and predict a user's personality. While LLMs can exhibit behaviors consisten",
-      "url": "https://arxiv.org/abs/2604.11802v1",
       "tags": [],
       "source": "arXiv"
     }
