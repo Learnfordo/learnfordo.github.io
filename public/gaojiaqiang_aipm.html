@@ -273,10 +273,16 @@
         body { font-size:0.75rem; }
     }
     @media print {
-        body { background:#fff; font-size:10pt; }
+        body { background:#fff; font-size:10pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
         .container { max-width:100%; padding:0; }
         .footer { display:none; }
         .card,.skills-card,.edu-card { background:#fff; border:1px solid #eee; break-inside:avoid; }
+        .skills-card .skills-list li,
+        .skills-brief li,
+        .skills-list li { padding-left:14px; color:#6d7574 !important; }
+        .skills-card .skills-list li::before,
+        .skills-brief li::before,
+        .skills-list li::before { content:'•'; position:relative; top:0; background:#0fd9d2; }
     }
     </style>
 </head>
