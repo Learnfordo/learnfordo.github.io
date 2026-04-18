@@ -143,7 +143,6 @@
     }
     .skills-list li:last-child { margin-bottom:0; }
     .skills-list li strong { color:var(--text-dark); font-weight:700; }
-    .skills-list .hon-text { color:#6d7574; }
     .skills-list code {
         font-family:'Noto Sans SC', 'Courier New', monospace; background:rgba(0,0,0,0.04);
         color:var(--text-dark); padding:1px 5px; border-radius:3px; font-size:0.78rem;
@@ -274,13 +273,10 @@
         body { font-size:0.75rem; }
     }
     @media print {
-        body { background:#fff; font-size:10pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+        body { background:#fff; font-size:10pt; }
         .container { max-width:100%; padding:0; }
         .footer { display:none; }
         .card,.skills-card,.edu-card { background:#fff; border:1px solid #eee; break-inside:avoid; }
-        .skills-list li { padding-left:14px; color:#6d7574 !important; }
-        .skills-list li::before { display:none !important; }
-        .skills-list { list-style-type: disc !important; padding-left:14px; }
     }
     </style>
 </head>
@@ -511,8 +507,8 @@
     <!-- 荣誉与认证 -->
     <section style="margin-top:24px;">
         <h2 class="section-heading">荣誉与认证</h2>
-        <div style="background:var(--card-bg); border-radius:var(--radius-card); padding:24px;">
-            <ul style="list-style-type:disc; padding-left:20px; margin:0; color:#6d7574; font-size:0.84rem; line-height:1.65;">
+        <div class="skills-card">
+            <ul class="skills-list">
                 <li>杭州市 E 类高层次人才（人工智能专项人才认定）</li>
             </ul>
         </div>
