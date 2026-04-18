@@ -51,8 +51,9 @@
         flex-shrink:0;
     }
     .masthead-avatar {
-        width:100px; height:100px; border-radius:10px;
+        width:90px; height:120px; border-radius:10px;
         object-fit:cover;
+        object-position: top center;
     }
     .motto {
         font-family: 'Noto Sans SC', -apple-system, 'Helvetica Neue', sans-serif;
@@ -66,11 +67,11 @@
     }
     .site-role {
         font-family: 'Noto Sans SC', -apple-system, 'Helvetica Neue', sans-serif;
-        font-size:0.95rem; color:var(--text-muted); font-weight:400; margin-bottom:10px;
+        font-size:0.95rem; color:var(--accent); font-weight:500; margin-bottom:10px;
     }
     .contact-info {
         font-family: 'Noto Sans SC', -apple-system, 'Helvetica Neue', sans-serif;
-        font-size:0.82rem; color:var(--text-muted); line-height:1.8;
+        font-size:0.8rem; color:var(--text-body); line-height:1.8;
     }
     .contact-info a {
         color:var(--text-muted); text-decoration:none;
@@ -98,7 +99,7 @@
         flex-wrap:wrap; gap:4px; margin-bottom:2px;
     }
     .card-company {
-        font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:1rem; font-weight:600; color:var(--text-dark);
+        font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:1rem; font-weight:600; color:var(--accent);
     }
     .card-period {
         font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.78rem; color:var(--text-muted); font-weight:500;
@@ -147,6 +148,30 @@
         color:var(--text-dark); padding:1px 5px; border-radius:3px; font-size:0.78rem;
     }
 
+    /* Skills tag cloud */
+    .skills-tags {
+        display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;
+    }
+    .skill-tag {
+        background:rgba(15,217,210,0.1);
+        color:var(--text-dark);
+        padding:4px 12px; border-radius:20px;
+        font-size:0.78rem; font-weight:500;
+        white-space:nowrap;
+    }
+
+    .skills-divider {
+        height:1px; background:var(--card-border);
+        margin:14px 0 12px;
+    }
+    .skills-brief {
+        font-size:0.82rem; line-height:1.65; color:var(--text-body);
+    }
+    .skills-brief li {
+        margin-bottom:4px;
+    }
+    .skills-brief li strong { color:var(--text-dark); font-weight:600; }
+
     /* Education card */
     .edu-card {
         background:var(--card-bg); border-radius:var(--radius-card);
@@ -166,21 +191,21 @@
     .edu-courses { margin-top:8px; font-size:0.78rem; color:var(--text-muted); }
 
     .credential-badge {
-        font-family:'Noto Sans SC', 'Courier New', monospace;
-        font-size:0.72rem; font-weight:700;
+        font-family:'Noto Sans SC', -apple-system, 'Helvetica Neue', sans-serif;
+        font-size:0.7rem; font-weight:700;
         color:var(--accent); background:rgba(15,217,210,0.1);
-        padding:2px 6px; border-radius:4px;
+        padding:2px 2px; border-radius:4px;
         letter-spacing:0.05em; line-height:1.4;
     }
     .credential-label {
         font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif;
-        font-size:0.8rem; color:var(--text-muted);
-        margin-left:4px; line-height:1.4;
+        font-size:0.75rem; color:var(--text-body);
+        margin-left:0; line-height:1.4;
     }
     .contact-link {
         font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif;
-        font-size:0.78rem; color:var(--accent); text-decoration:none;
-        border-bottom:1px solid rgba(15,217,210,0.3);
+        font-size:0.78rem; color:var(--text-body); text-decoration:none;
+        border-bottom:1px solid rgba(0,0,0,0.08);
         padding-bottom:1px;
     }
     .contact-link:hover { color:var(--text-dark); border-bottom-color:var(--text-dark); }
@@ -268,57 +293,54 @@
                 <span class="sep">·</span>
                 135 8824 0809（同微信）
                 <span class="sep">·</span>
+                杭州
+                <span class="sep">·</span>
                 1997.10
             </div>
-            <div style="margin-top:6px; display:inline-flex; align-items:center;">
-                <span class="credential-badge">E类</span>
-                <span class="credential-label">杭州市高层次人才（人工智能专项人才认定）</span>
-            </div>
-            <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:0 10px;">
+            <div style="margin-top:6px; display:flex; flex-wrap:wrap; align-items:center; gap:0 8px;">
+                <span class="credential-badge">E类</span><span class="credential-label">杭州市高层次人才</span>
+                <span style="color:#c8cdcf">|</span>
                 <a class="contact-link" href="https://learnfordo.github.io/" target="_blank">博客 learnfordo.github.io</a>
-                <span class="contact-link">公众号 AI催晨箭</span>
+                <span style="color:#c8cdcf">|</span>
+                <span class="contact-link" style="border:none; color:var(--text-body);">公众号 AI催晨箭</span>
             </div>
 
         </div>
         <div class="masthead-side">
             <img class="masthead-avatar" src="avatar_200.jpeg" alt="高佳强">
-            <p class="motto">细想全是问题<br>去做全是答案</p>
         </div>
     </header>
 
     <!-- About Me -->
     <section style="margin-top:24px; margin-bottom:36px;">
-        <div style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--text-body); line-height:1.7;">
-            关于我：资深 AI 产品经理，7 年 AI 产品经验，专注大模型应用与 Agent 平台方向。兼具技术深度与商业落地能力——既理解 Transformer/Agent 底层原理，又能推动产品从 PoC 到规模化变现。目前工作方向：LLM应用及AIAgent。
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section>
-        <h2 class="section-heading">教育背景</h2>
-        <div class="edu-card">
-            <div class="edu-row">
-                <div>
-                    <span class="edu-school">杭州师范大学</span>
-                    <span class="edu-detail"> · 电子商务 · 管理学学士（本科）</span>
-                </div>
-                <span class="edu-period">2015.09 – 2019.06</span>
-            </div>
-            <div class="edu-courses">主修：管理学 · 经济学 · 人力资源管理 · 统计学 · 市场营销 · 网络贸易 · 电子商务</div>
+        <div style="font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',sans-serif; font-size:0.84rem; color:var(--text-body); line-height:1.7; padding:14px 18px; background:rgba(15,217,210,0.06); border-left:3px solid var(--accent); border-radius:0 8px 8px 0;">
+            6+ 年 AI 产品经验，专注 LLM 大模型应用与 Agent 平台方向。兼具技术深度与商业落地能力——既理解 Transformer/LLM 底层原理，又能推动产品从 PoC 到规模化变现。目前工作方向：LLM 应用及 AI Agent。
         </div>
     </section>
 
     <!-- Skills -->
     <section style="margin-top:36px;">
-        <h2 class="section-heading">核心能力</h2>
+        <h2 class="section-heading">专业技能</h2>
         <div class="skills-card">
+            <!-- 标签云 -->
+            <div class="skills-tags">
+                <span class="skill-tag">NLP</span>
+                <span class="skill-tag">LLM</span>
+                <span class="skill-tag">AI Agent</span>
+                <span class="skill-tag">Harness Engineering</span>
+                <span class="skill-tag">ReAct</span>
+                <span class="skill-tag">智能客服</span>
+                <span class="skill-tag">对话系统</span>
+            </div>
+            <div class="skills-divider"></div>
+            <!-- 简述 -->
             <ul class="skills-list">
                 <li><strong>精通大模型与 Agent 全技术栈</strong>，深入理解 <code>Transformer</code> 底层原理及 <code>NLP</code>→<code>LLM</code>→<code>Agent</code> 的技术演进路径，具备从模型机制到业务场景的系统化认知</li>
                 <li><strong>熟练运用 <code>Prompt Engineering</code>、<code>Context Engineering</code>、<code>RAG</code>、<code>Function Call</code>、<code>MCP</code>/<code>Skill</code> 编排等关键技术</strong>，能够针对不同业务场景进行上下文策略设计与提示优化，将模型能力稳定转化为可量化业务价值</li>
                 <li><strong>熟练使用 <code>Cursor</code>、<code>Claude Code</code>、<code>OpenClaw</code> 等 <code>AI Agent</code> 工具进行 Vibe Coding</strong>，能在产品侧驱动代码生成与迭代，快速搭建 Demo / PoC 并与工程同学协同落地</li>
                 <li><strong>深入了解问答系统、智能客服等对话领域</strong>，如 <code>Query</code> 解析、语义理解、多轮对话管理等</li>
                 <li><strong>熟悉 <code>NLP</code> 基础概念及底层技术及常用算法</strong>，具备意图识别、实体抽取、语义理解、上下文管理等业务经验</li>
-                <li>专利《一种文本分类方法、装置、计算机设备及存储介质》公开号 <code>CN113806480A</code></li>
+                <li><strong>PRD & 需求分析：</strong>独立完成从用户调研、竞品分析到 PRD 输出的全链路，主导多产品从 0 到 1 落地</li>
             </ul>
         </div>
     </section>
@@ -338,7 +360,7 @@
             <div class="project">
                 <div class="project-title">文思智能体平台（从 0 到 1 · AI Agent 编排平台）</div>
                 <ul>
-                    <li><span class="hl">从 0 到 1 搭建</span>企业级 AI Agent 编排平台，21 个月内覆盖集团
+                    <li><span class="hl">从 0 到 1 搭建</span>企业级 AI Agent 编排平台，覆盖集团
                         <span class="hl">5200+</span> 员工及多家 ToB 客户，累计创建
                         <span class="hl">100+</span> 智能体应用，已发布智能体 <span class="hl">80%+</span>
                         投入日常生产，成为集团 AI 基础设施</li>
@@ -411,36 +433,25 @@
             <div class="project">
                 <div class="project-title">小诺发票智能客服</div>
                 <ul>
-                    <li>主导智能客服产品建设（AI 机器人 + 人工客服双端），推动回复准确率从
-                        <span class="hl">56% 提升至 88%</span>（+32pt），人工客服答案采纳率达
-                        <span class="hl">74%</span></li>
-                    <li>优化 FAQ 召回排序与知识库问答能力，新增问题推荐、输入联想、自动挖掘知识点等功能，
-                        大幅提升机器人回复准确率与覆盖率</li>
-                    <li>建设人工侧历史上下文、快捷话术与候选回复预测能力，自动记忆客服历史话术并结合
-                        输入上下文智能推荐</li>
-                    <li>设计 AI 与人工客服职责边界与流转策略，建立涵盖解决率、转人工率、响应时长、
-                        满意度的评估体系，数据驱动产品持续迭代</li>
+                    <li>主导智能客服产品建设，推动回复准确率从 <span class="hl">56% 提升至 88%</span>，
+                        人工客服答案采纳率达 <span class="hl">74%</span></li>
+                    <li>建立涵盖解决率、转人工率、响应时长、满意度的评估体系，数据驱动产品持续迭代</li>
                 </ul>
             </div>
             <div class="project">
                 <div class="project-title">智能票据解析</div>
                 <ul>
-                    <li>规划并落地面向报销与对账场景的票据解析产品，打通 OCR 识别→关键信息抽取全链路，
-                        日均处理票据 <span class="hl">2W+ 张</span></li>
-                    <li>基于传统 OCR + NLP + LLM 构建解析 pipeline，引入正则、词典、模糊匹配等手段，
-                        关键字段准确率从 <span class="hl">63% 提升至 85%+</span></li>
-                    <li>设计可配置规则引擎与词典管理后台，将商户名、日期、金额等解析逻辑从代码中剥离，
-                        支持运营人员以配置方式快速适配新票据版式</li>
+                    <li>规划票据解析产品，打通 OCR 识别→关键信息抽取全链路，日均处理票据
+                        <span class="hl">2W+ 张</span>，关键字段准确率从 <span class="hl">63% 提升至 85%+</span></li>
+                    <li>设计可配置规则引擎与词典管理后台，支持运营人员快速适配新票据版式</li>
                 </ul>
             </div>
             <div class="project">
-                <div class="project-title">BI 数据可视化平台（从 0 到 1）</div>
+                <div class="project-title">BI 数据可视化平台</div>
                 <ul>
-                    <li>从 0 到 1 搭建面向 B 端企业用户的数据可视化平台，支持本地部署与 SaaS 双模式，
-                        服务永辉超市、得物等 <span class="hl">200+</span> 标杆客户</li>
-                    <li>覆盖数据连接、字段拖拽、自定义 SQL、筛选器、图表联动/钻取、数据权限管控、
-                        报表分享等全链路功能</li>
-                    <li>引入 ChatBI 功能，结合 LLM + RAG 实现自然语言→SQL→数据结果全链路自动化，
+                    <li>从 0 到 1 搭建面向 B 端用户的数据可视化平台，服务永辉超市、得物等
+                        <span class="hl">200+</span> 标杆客户</li>
+                    <li>引入 ChatBI 功能，基于 SQL + LLM 实现自然语言→SQL→数据结果全链路自动化，
                         引入 Schema Linking、代码自动修复等机制提升 SQL 生成准确率</li>
                 </ul>
             </div>
@@ -453,13 +464,11 @@
             </div>
             <div class="card-role">AI 产品经理</div>
             <div class="project">
-                <div class="project-title">智能投顾 — 智能客服机器人（200W 月活）</div>
+                <div class="project-title">问财智能投顾 — 智能客服机器人</div>
                 <ul>
                     <li>独立负责智能投顾机器人对话系统，月活约 <span class="hl">200W</span> 用户，
                         Query 解决率达 <span class="hl">92%</span></li>
-                    <li>基于 Pipeline 式对话框架设计意图体系，搭建机器人管理后台及多轮对话管理模块，
-                        配合算法提升意图识别效果，借助未识别 Query 召回扩充知识库</li>
-                    <li>基于检索式和任务式方案解决用户问题，制定意图梳理流程，系统性提升对话覆盖率和解决率</li>
+                    <li>基于 Pipeline 式对话框架设计意图体系，搭建机器人管理后台及多轮对话管理模块</li>
                 </ul>
             </div>
             <div class="project">
@@ -468,24 +477,41 @@
                     <li>负责 UGC 场景智能审核产品，日处理约 <span class="hl">100W</span> 审核请求，
                         模型准确率 <span class="hl">92%</span>，机审率 <span class="hl">90%</span>，
                         节省 <span class="hl">10-15 个</span>人工审核人力</li>
-                    <li>利用大模型预训练 + 有监督微调提高违规内容识别准确率，自动识别广告、色情、
-                        涉政等违规内容</li>
-                    <li>制定样本采集清洗标准流程，配合算法完成特征工程、模型迭代、评测验收，
-                        完善风控交互逻辑及运营流程</li>
                 </ul>
             </div>
             <div class="project">
                 <div class="project-title">AI 训练平台</div>
                 <ul>
-                    <li>搭建同花顺内网 AI 训练平台，支持文本分类、NER、短文本相似度、研报观点抽取、
-                        情感分析 <span class="hl">6 大通用模型</span>场景，覆盖公司 <span class="hl">90%</span>
-                        AI 应用</li>
-                    <li>负责数据管理、模型及版本管理、效果评估等全链路功能模块规划，
-                        无算法背景的同事也可快速训练部署高精度模型</li>
+                    <li>搭建内网 AI 训练平台，支持文本分类、NER、短文本相似度等 <span class="hl">6 大通用模型</span>
+                        场景，覆盖公司 <span class="hl">90%</span> AI 应用</li>
                 </ul>
             </div>
         </div>
 
+    </section>
+
+    <!-- Education -->
+    <section style="margin-top:36px;">
+        <h2 class="section-heading">教育背景</h2>
+        <div class="edu-card">
+            <div class="edu-row">
+                <div>
+                    <span class="edu-school">杭州师范大学</span>
+                    <span class="edu-detail"> · 电子商务 · 管理学学士（本科）</span>
+                </div>
+                <span class="edu-period">2015.09 – 2019.06</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉与认证 -->
+    <section style="margin-top:24px;">
+        <h2 class="section-heading">荣誉与认证</h2>
+        <div class="skills-card">
+            <ul class="skills-list">
+                <li>杭州市 E 类高层次人才（人工智能专项人才认定）</li>
+            </ul>
+        </div>
     </section>
 
 </div>
