@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T04:38:12.809Z",
+  "updatedAt": "2026-04-19T12:07:46.798Z",
   "items": [
     {
       "date": "2026-04-18",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 342
+      "score": 433
     },
     {
       "date": "2026-04-18",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 262
+      "score": 330
     },
     {
       "date": "2026-04-18",
@@ -32,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 187
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Dad brains: How fatherhood rewires the male mind",
-      "summary": "via www.bbc.com",
-      "url": "https://www.bbc.com/future/article/20260417-fatherhood-how-the-male-brain-and-body-prepare-for-childcare",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
+      "score": 307
     },
     {
       "date": "2026-04-16",
@@ -124,6 +113,28 @@
       "url": "https://arxiv.org/abs/2604.15272v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Game devs explain the tricks involved with letting you pause a game",
+      "summary": "via kotaku.com",
+      "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 164
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Dad brains: How fatherhood rewires the male mind",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/future/article/20260417-fatherhood-how-the-male-brain-and-body-prepare-for-childcare",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
     },
     {
       "date": "2026-04-17",
@@ -456,14 +467,6 @@
       "title": "PAL: Personal Adaptive Learner",
       "summary": "AI-driven education platforms have made some progress in personalisation, yet most remain constrained to static adaptation--predefined quizzes, uniform pacing, or generic feedback--limiting their abil",
       "url": "https://arxiv.org/abs/2604.13017v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
-      "summary": "On-policy distillation (OPD) has become a core technique in the post-training of large language models, yet its training dynamics remain poorly understood. This paper provides a systematic investigati",
-      "url": "https://arxiv.org/abs/2604.13016v1",
       "tags": [],
       "source": "arXiv"
     }
