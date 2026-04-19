@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-04-19T12:10:21.179Z",
+  "updatedAt": "2026-04-19T12:44:52.536Z",
   "items": [
+    {
+      "date": "2026-04-18",
+      "title": "Why Japan has such good railways",
+      "summary": "via worksinprogress.co",
+      "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 443
+    },
     {
       "date": "2026-04-18",
       "title": "Thoughts and feelings around Claude Design",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 331
+      "score": 336
     },
     {
       "date": "2026-04-18",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 309
+      "score": 321
     },
     {
       "date": "2026-04-16",
@@ -102,6 +113,17 @@
       "url": "https://arxiv.org/abs/2604.15272v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Game devs explain the tricks involved with letting you pause a game",
+      "summary": "via kotaku.com",
+      "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
     },
     {
       "date": "2026-04-17",
