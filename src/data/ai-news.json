@@ -1,38 +1,49 @@
 {
-  "updatedAt": "2026-04-18T10:00:37.350Z",
+  "updatedAt": "2026-04-19T04:38:12.809Z",
   "items": [
     {
-      "date": "2026-04-17",
-      "title": "Claude Design",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "date": "2026-04-18",
+      "title": "Why Japan has such good railways",
+      "summary": "via worksinprogress.co",
+      "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1048
+      "score": 342
     },
     {
-      "date": "2026-04-17",
-      "title": "Measuring Claude 4.7's tokenizer costs",
-      "summary": "via www.claudecodecamp.com",
-      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "date": "2026-04-18",
+      "title": "Thoughts and feelings around Claude Design",
+      "summary": "via samhenri.gold",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 611
+      "score": 262
     },
     {
-      "date": "2026-04-17",
-      "title": "A simplified model of Fil-C",
-      "summary": "via www.corsix.org",
-      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "date": "2026-04-18",
+      "title": "College instructor turns to typewriters to curb AI-written work",
+      "summary": "via sentinelcolorado.com",
+      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 176
+      "score": 187
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Dad brains: How fatherhood rewires the male mind",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/future/article/20260417-fatherhood-how-the-male-brain-and-body-prepare-for-childcare",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
     },
     {
       "date": "2026-04-16",
@@ -113,6 +124,39 @@
       "url": "https://arxiv.org/abs/2604.15272v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "Claude Design",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1048
+    },
+    {
+      "date": "2026-04-17",
+      "title": "Measuring Claude 4.7's tokenizer costs",
+      "summary": "via www.claudecodecamp.com",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 611
+    },
+    {
+      "date": "2026-04-17",
+      "title": "A simplified model of Fil-C",
+      "summary": "via www.corsix.org",
+      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 176
     },
     {
       "date": "2026-04-15",
@@ -422,44 +466,6 @@
       "url": "https://arxiv.org/abs/2604.13016v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Bilevel Late Acceptance Hill Climbing for the Electric Capacitated Vehicle Routing Problem",
-      "summary": "This paper tackles the Electric Capacitated Vehicle Routing Problem (E-CVRP) through a bilevel optimization framework that handles routing and charging decisions separately or jointly depending on the",
-      "url": "https://arxiv.org/abs/2604.13013v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
-      "summary": "On-policy distillation (OPD) has emerged as an efficient post-training paradigm for large language models. However, standard OPD requires a live teacher inference server throughout training, resulting",
-      "url": "https://arxiv.org/abs/2604.13010v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Claude Code Routines",
-      "summary": "via code.claude.com",
-      "url": "https://code.claude.com/docs/en/routines",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 608
-    },
-    {
-      "date": "2026-04-14",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary": "via blog.google",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
     }
   ]
 }
