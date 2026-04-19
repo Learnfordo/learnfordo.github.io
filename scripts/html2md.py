@@ -70,6 +70,7 @@ titles = {
     'Agentic-Collapse': '唤醒沉睡的Agent：100条数据让"失忆"模型重获新生',
     'Peer-Preservation': 'AI会为了保护同伴而欺骗人类？Berkeley最新研究揭示多智能体系统隐秘裂缝',
     'Meerkat': '每条日志看起来都无害，合在一起却是勒索攻击——AI Agent安全审计新范式Meerkat',
+    'Recursive-Instability': 'LLM的递归不稳定性：当AI学会了"短路径"，却走不了"长路"',
 }
 
 for dirname in sorted(os.listdir(articles_dir)):
