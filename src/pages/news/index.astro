@@ -9,7 +9,19 @@ let newsItems: any[] = [];
 try {
   const newsPath = join(process.cwd(), 'src/data/ai-news.json');
   const raw = readFileSync(newsPath, 'utf-8');
-  newsItems = JSON.parse(raw).items || [];
+  const allItems = JSON.parse(raw).items || [];
+  // 前端过滤：只保留 AI 相关内容，防止 cron 任务灌入非 AI 条目
+  const aiKeywords = ['ai', 'llm', 'ml ', 'agent', 'gpt', 'claude', 'openai', 'anthropic',
+    'deep learning', 'neural', 'transformer', 'model', 'generative', 'diffusion', 'chatgpt',
+    'machine learning', 'artificial intelligence', 'nlp', 'prompt', 'automation', 'robot',
+    'autonomous', 'language model', 'vision', 'embedding', 'fine-tun', 'inference',
+    'tokenizer', 'reinforcement learning', 'rlhf', 'dpo', 'agi', 'gpu', 'tpu', 'hbm',
+    'large language', 'text-to-', 'speech recognition', 'computer vision',
+    'cybersecurity', 'data center', 'anthropic', 'sora', 'gemini', 'codex'];
+  newsItems = allItems.filter((item: any) => {
+    const text = ((item.title || '') + ' ' + (item.summary || '') + ' ' + (item.tags || []).join(' ')).toLowerCase();
+    return aiKeywords.some(kw => text.includes(kw));
+  });
 } catch {
   newsItems = [];
 }
