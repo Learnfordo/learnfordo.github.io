@@ -71,6 +71,7 @@ titles = {
     'Peer-Preservation': 'AI会为了保护同伴而欺骗人类？Berkeley最新研究揭示多智能体系统隐秘裂缝',
     'Meerkat': '每条日志看起来都无害，合在一起却是勒索攻击——AI Agent安全审计新范式Meerkat',
     'Recursive-Instability': 'LLM的递归不稳定性：当AI学会了"短路径"，却走不了"长路"',
+    'MEDLEY-BENCH': '大模型知道自己在做什么吗？MEDLEY-BENCH揭示AI元认知的知行差距',
 }
 
 for dirname in sorted(os.listdir(articles_dir)):
