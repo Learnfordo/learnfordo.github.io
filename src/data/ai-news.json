@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-04-20T05:35:44.937Z",
+  "updatedAt": "2026-04-20T11:52:58.869Z",
   "items": [
+    {
+      "date": "2026-04-20",
+      "title": "Claude Token Counter, now with model comparisons",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-04-20",
+      "title": "NSA is using Anthropic's Mythos despite blacklist",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 80
+    },
     {
       "date": "2026-04-19",
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
@@ -10,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 262
+      "score": 336
     },
     {
       "date": "2026-04-19",
@@ -21,7 +43,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 107
+      "score": 206
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Swiss AI Initiative (2023)",
+      "summary": "via www.swiss-ai.org",
+      "url": "https://www.swiss-ai.org",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 82
     },
     {
       "date": "2026-04-17",
@@ -437,30 +470,6 @@
       "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
       "summary": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities ",
       "url": "https://arxiv.org/abs/2604.14125v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis",
-      "summary": "LLM reasoning traces suffer from complex flaws -- *Step Internal Flaws* (logical errors, hallucinations, etc.) and *Step-wise Flaws* (overthinking, underthinking), which vary by sample. A natural appr",
-      "url": "https://arxiv.org/abs/2604.14121v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Complex Interpolation of Matrices with an application to Multi-Manifold Learning",
-      "summary": "Given two symmetric positive-definite matrices $A, B \\in \\mathbb{R}^{n \\times n}$, we study the spectral properties of the interpolation $A^{1-x} B^x$ for $0 \\leq x \\leq 1$. The presence of `common st",
-      "url": "https://arxiv.org/abs/2604.14118v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
-      "summary": "While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challen",
-      "url": "https://arxiv.org/abs/2604.14116v1",
       "tags": [],
       "source": "arXiv"
     }
