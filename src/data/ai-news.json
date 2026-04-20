@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-04-20T04:44:58.922Z",
+  "updatedAt": "2026-04-20T05:35:44.937Z",
   "items": [
-    {
-      "date": "2026-04-19",
-      "title": "Notion leaks email addresses of all editors of any public page",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 344
-    },
     {
       "date": "2026-04-19",
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
@@ -21,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 251
+      "score": 262
     },
     {
       "date": "2026-04-19",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 98
+      "score": 107
     },
     {
       "date": "2026-04-17",
@@ -123,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 73
+      "score": 79
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Notion leaks email addresses of all editors of any public page",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 344
     },
     {
       "date": "2026-04-18",
