@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-04-21T04:35:30.696Z",
+  "updatedAt": "2026-04-21T11:58:56.540Z",
   "items": [
+    {
+      "date": "2026-04-21",
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "summary": "via docs.openclaw.ai",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 247
+    },
+    {
+      "date": "2026-04-21",
+      "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+      "summary": "via webmatrices.com",
+      "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 194
+    },
     {
       "date": "2026-04-20",
       "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
@@ -83,6 +105,39 @@
     },
     {
       "date": "2026-04-20",
+      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
+      "summary": "via github.com",
+      "url": "https://github.com/gizmo64k/soulplayer-c64",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 134
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
+      "summary": "via prismml.com",
+      "url": "https://prismml.com/news/ternary-bonsai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 166
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Air is full of DNA",
+      "summary": "via www.nature.com",
+      "url": "https://www.nature.com/articles/d41586-026-01099-2",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 112
+    },
+    {
+      "date": "2026-04-20",
       "title": "Atlassian enables default data collection to train AI",
       "summary": "via letsdatascience.com",
       "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
@@ -113,28 +168,6 @@
       ],
       "source": "HN",
       "score": 221
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "summary": "via github.com",
-      "url": "https://github.com/gizmo64k/soulplayer-c64",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 94
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
-      "summary": "via prismml.com",
-      "url": "https://prismml.com/news/ternary-bonsai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 90
     },
     {
       "date": "2026-04-20",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 1048
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Measuring Claude 4.7's tokenizer costs",
-      "summary": "via www.claudecodecamp.com",
-      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 611
-    },
-    {
-      "date": "2026-04-17",
-      "title": "A simplified model of Fil-C",
-      "summary": "via www.corsix.org",
-      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 176
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Are the costs of AI agents also rising exponentially? (2025)",
-      "summary": "via www.tobyord.com",
-      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 207
     }
   ]
 }
