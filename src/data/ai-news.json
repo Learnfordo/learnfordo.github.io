@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-04-20T11:52:58.869Z",
+  "updatedAt": "2026-04-21T04:35:30.696Z",
   "items": [
+    {
+      "date": "2026-04-20",
+      "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+      "summary": "Mathematical problem solving remains a challenging test of reasoning for large language and multimodal models, yet existing benchmarks are limited in size, language coverage, and task diversity. We in",
+      "url": "https://arxiv.org/abs/2604.18584v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Sessa: Selective State Space Attention",
+      "summary": "Modern sequence models are dominated by Transformers, where self-attention mixes information from the visible context in an input-dependent way. However, when retrieval is not sharp and attention rema",
+      "url": "https://arxiv.org/abs/2604.18580v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Bounded Ratio Reinforcement Learning",
+      "summary": "Proximal Policy Optimization (PPO) has become the predominant algorithm for on-policy reinforcement learning due to its scalability and empirical robustness across domains. However, there is a signifi",
+      "url": "https://arxiv.org/abs/2604.18578v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
+      "summary": "We present BLF (Bayesian Linguistic Forecaster), an agentic system for binary forecasting that achieves state-of-the-art performance on the ForecastBench benchmark. The system is built on three ideas.",
+      "url": "https://arxiv.org/abs/2604.18576v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "When Can LLMs Learn to Reason with Weak Supervision?",
+      "summary": "Large language models have achieved significant reasoning improvements through reinforcement learning with verifiable rewards (RLVR). Yet as model capabilities grow, constructing high-quality reward s",
+      "url": "https://arxiv.org/abs/2604.18574v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Back into Plato's Cave: Examining Cross-modal Representational Convergence at Scale",
+      "summary": "The Platonic Representation Hypothesis suggests that neural networks trained on different modalities (e.g., text and images) align and eventually converge toward the same representation of reality. If",
+      "url": "https://arxiv.org/abs/2604.18572v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+      "summary": "Modern medicine generates vast multimodal data across siloed systems, yet no existing model integrates the full breadth and temporal depth of the clinical record into a unified patient representation.",
+      "url": "https://arxiv.org/abs/2604.18570v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Revisiting Active Sequential Prediction-Powered Mean Estimation",
+      "summary": "In this work, we revisit the problem of active sequential prediction-powered mean estimation, where at each round one must decide the query probability of the ground-truth label upon observing the cov",
+      "url": "https://arxiv.org/abs/2604.18569v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Latent Phase-Shift Rollback: Inference-Time Error Correction via Residual Stream Monitoring and KV-Cache Steering",
+      "summary": "Large language models frequently commit unrecoverable reasoning errors mid-generation: once a wrong step is taken, subsequent tokens compound the mistake rather than correct it. We introduce $\\textbf{",
+      "url": "https://arxiv.org/abs/2604.18567v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Benchmarking System Dynamics AI Assistants: Cloud Versus Local LLMs on CLD Extraction and Discussion",
+      "summary": "We present a systematic evaluation of large language model families -- spanning both proprietary cloud APIs and locally-hosted open-source models -- on two purpose-built benchmarks for System Dynamics",
+      "url": "https://arxiv.org/abs/2604.18566v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Atlassian enables default data collection to train AI",
+      "summary": "via letsdatascience.com",
+      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 530
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 325
+    },
+    {
+      "date": "2026-04-20",
+      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
+      "summary": "via www.adweek.com",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 221
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
+      "summary": "via github.com",
+      "url": "https://github.com/gizmo64k/soulplayer-c64",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 94
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
+      "summary": "via prismml.com",
+      "url": "https://prismml.com/news/ternary-bonsai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 90
+    },
     {
       "date": "2026-04-20",
       "title": "Claude Token Counter, now with model comparisons",
@@ -325,153 +460,6 @@
       ],
       "source": "HN",
       "score": 207
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Claude Opus 4.7",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1795
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
-      "summary": "via qwen.ai",
-      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1128
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/ai-platform/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 288
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Android CLI: Build Android apps 3x faster using any agent",
-      "summary": "via android-developers.googleblog.com",
-      "url": "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 255
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
-      "summary": "via github.com",
-      "url": "https://github.com/gainsec/autoprober",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 192
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 346
-    },
-    {
-      "date": "2026-04-16",
-      "title": "AI cybersecurity is not proof of work",
-      "summary": "via antirez.com",
-      "url": "https://antirez.com/news/163",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
-    },
-    {
-      "date": "2026-04-16",
-      "title": "FSF trying to contact Google about spammer sending 10k+ mails from Gmail account",
-      "summary": "via daedal.io",
-      "url": "https://daedal.io/@thomzane/116410863009847575",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 288
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Cloudflare Email Service",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/email-for-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
-    },
-    {
-      "date": "2026-04-15",
-      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
-      "summary": "Spatial reasoning over three-dimensional scenes is a core capability for embodied intelligence, yet continuous model improvement remains bottlenecked by the cost of geometric annotation. The self-evol",
-      "url": "https://arxiv.org/abs/2604.14144v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space",
-      "summary": "While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base m",
-      "url": "https://arxiv.org/abs/2604.14142v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning",
-      "summary": "As language models are increasingly deployed for complex autonomous tasks, their ability to reason accurately over longer horizons becomes critical. An essential component of this ability is planning ",
-      "url": "https://arxiv.org/abs/2604.14140v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs",
-      "summary": "Evaluating LLMs is challenging, as benchmark scores often fail to capture models' real-world usefulness. Instead, users often rely on ``vibe-testing'': informal experience-based evaluation, such as co",
-      "url": "https://arxiv.org/abs/2604.14137v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Rhetorical Questions in LLM Representations: A Linear Probing Study",
-      "summary": "Rhetorical questions are asked not to seek information but to persuade or signal stance. How large language models internally represent them remains unclear. We analyze rhetorical questions in LLM rep",
-      "url": "https://arxiv.org/abs/2604.14128v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
-      "summary": "While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities ",
-      "url": "https://arxiv.org/abs/2604.14125v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
