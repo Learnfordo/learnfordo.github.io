@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-04-21T11:58:56.540Z",
+  "updatedAt": "2026-04-22T04:32:59.404Z",
   "items": [
+    {
+      "date": "2026-04-21",
+      "title": "Generalization at the Edge of Stability",
+      "summary": "Training modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this re",
+      "url": "https://arxiv.org/abs/2604.19740v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Phase Transitions in the Fluctuations of Functionals of Random Neural Networks",
+      "summary": "We establish central and non-central limit theorems for sequences of functionals of the Gaussian output of an infinitely-wide random neural network on the d-dimensional sphere . We show that the asymp",
+      "url": "https://arxiv.org/abs/2604.19738v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Safe Continual Reinforcement Learning in Non-stationary Environments",
+      "summary": "Reinforcement learning (RL) offers a compelling data-driven paradigm for synthesizing controllers for complex systems when accurate physical models are unavailable; however, most existing control-orie",
+      "url": "https://arxiv.org/abs/2604.19737v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "summary": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fun",
+      "url": "https://arxiv.org/abs/2604.19734v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "FASTER: Value-Guided Sampling for Fast RL",
+      "summary": "Some of the most performant reinforcement learning algorithms today can be prohibitively expensive as they use test-time scaling methods such as sampling multiple action candidates and selecting the b",
+      "url": "https://arxiv.org/abs/2604.19730v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "FB-NLL: A Feature-Based Approach to Tackle Noisy Labels in Personalized Federated Learning",
+      "summary": "Personalized Federated Learning (PFL) aims to learn multiple task-specific models rather than a single global model across heterogeneous data distributions. Existing PFL approaches typically rely on i",
+      "url": "https://arxiv.org/abs/2604.19729v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
+      "summary": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching tog",
+      "url": "https://arxiv.org/abs/2604.19728v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Benign Overfitting in Adversarial Training for Vision Transformers",
+      "summary": "Despite the remarkable success of Vision Transformers (ViTs) across a wide range of vision tasks, recent studies have revealed that they remain vulnerable to adversarial examples, much like Convolutio",
+      "url": "https://arxiv.org/abs/2604.19724v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Adaptive MSD-Splitting: Enhancing C4.5 and Random Forests for Skewed Continuous Attributes",
+      "summary": "The discretization of continuous numerical attributes remains a persistent computational bottleneck in the induction of decision trees, particularly as dataset dimensions scale. Building upon the rece",
+      "url": "https://arxiv.org/abs/2604.19722v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Discovering a Shared Logical Subspace: Steering LLM Logical Reasoning via Alignment of Natural-Language and Symbolic Views",
+      "summary": "Large Language Models (LLMs) still struggle with multi-step logical reasoning. Existing approaches either purely refine the reasoning chain in natural language form or attach a symbolic solver as an e",
+      "url": "https://arxiv.org/abs/2604.19716v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "ChatGPT Images 2.0",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 587
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Claude Code to be removed from Anthropic's Pro plan?",
+      "summary": "via bsky.app",
+      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 424
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 406
+    },
+    {
+      "date": "2026-04-21",
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "summary": "via www.brex.com",
+      "url": "https://www.brex.com/crabtrap",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 99
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Stephen's Sausage Roll remains one of the most influential puzzle games",
+      "summary": "via thinkygames.com",
+      "url": "https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 153
+    },
     {
       "date": "2026-04-21",
       "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 344
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Why Japan has such good railways",
-      "summary": "via worksinprogress.co",
-      "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 443
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Thoughts and feelings around Claude Design",
-      "summary": "via samhenri.gold",
-      "url": "https://samhenri.gold/blog/20260418-claude-design/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 336
-    },
-    {
-      "date": "2026-04-18",
-      "title": "College instructor turns to typewriters to curb AI-written work",
-      "summary": "via sentinelcolorado.com",
-      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 323
-    },
-    {
-      "date": "2026-04-16",
-      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
-      "summary": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly",
-      "url": "https://arxiv.org/abs/2604.15309v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
-      "summary": "Whether language models can systematically generalize remains actively debated. Yet empirical performance is jointly shaped by multiple factors such as training data, training paradigms, and inference",
-      "url": "https://arxiv.org/abs/2604.15306v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
-      "summary": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEva",
-      "url": "https://arxiv.org/abs/2604.15302v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Benchmarking Optimizers for MLPs in Tabular Deep Learning",
-      "summary": "MLP is a heavily used backbone in modern deep learning (DL) architectures for supervised learning on tabular data, and AdamW is the go-to optimizer used to train tabular DL models. Unlike architecture",
-      "url": "https://arxiv.org/abs/2604.15297v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision? An Interpretability Study",
-      "summary": "Over the past year, spatial intelligence has drawn increasing attention. Many prior works study it from the perspective of visual-spatial intelligence, where models have access to visuospatial informa",
-      "url": "https://arxiv.org/abs/2604.15294v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving",
-      "summary": "The reliability of a machine vision system for autonomous driving depends heavily on its training data distribution. When a vehicle encounters significantly different conditions, such as atypical obst",
-      "url": "https://arxiv.org/abs/2604.15291v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Structural interpretability in SVMs with truncated orthogonal polynomial kernels",
-      "summary": "We study post-training interpretability for Support Vector Machines (SVMs) built from truncated orthogonal polynomial kernels. Since the associated reproducing kernel Hilbert space is finite-dimension",
-      "url": "https://arxiv.org/abs/2604.15285v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Why Do Vision Language Models Struggle To Recognize Human Emotions?",
-      "summary": "Understanding emotions is a fundamental ability for intelligent systems to be able to interact with humans. Vision-language models (VLMs) have made tremendous progress in the last few years for many v",
-      "url": "https://arxiv.org/abs/2604.15280v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations",
-      "summary": "Node embeddings act as the information interface for graph neural networks, yet their empirical impact is often reported under mismatched backbones, splits, and training budgets. This paper provides a",
-      "url": "https://arxiv.org/abs/2604.15273v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Prism: Symbolic Superoptimization of Tensor Programs",
-      "summary": "This paper presents Prism, the first symbolic superoptimizer for tensor programs. The key idea is sGraph, a symbolic, hierarchical representation that compactly encodes large classes of tensor program",
-      "url": "https://arxiv.org/abs/2604.15272v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Game devs explain the tricks involved with letting you pause a game",
-      "summary": "via kotaku.com",
-      "url": "https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
-    },
-    {
-      "date": "2026-04-17",
-      "title": "Claude Design",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1048
     }
   ]
 }
