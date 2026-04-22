@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-04-22T04:35:47.601Z",
+  "updatedAt": "2026-04-22T14:13:57.945Z",
   "items": [
+    {
+      "date": "2026-04-22",
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 98
+    },
     {
       "date": "2026-04-21",
       "title": "Generalization at the Edge of Stability",
@@ -90,7 +101,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 589
+      "score": 920
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 679
+    },
+    {
+      "date": "2026-04-20",
+      "title": "All your agents are going async",
+      "summary": "via zknill.io",
+      "url": "https://zknill.io/posts/all-your-agents-are-going-async/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
     },
     {
       "date": "2026-04-21",
@@ -102,17 +135,6 @@
       ],
       "source": "HN",
       "score": 426
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 406
     },
     {
       "date": "2026-04-21",
@@ -438,28 +460,6 @@
       "url": "https://arxiv.org/abs/2604.16264v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-15",
-      "title": "Prove you are a robot: CAPTCHAs for agents",
-      "summary": "via browser-use.com",
-      "url": "https://browser-use.com/posts/prove-you-are-a-robot",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-04-19",
-      "title": "Notion leaks email addresses of all editors of any public page",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 344
     }
   ]
 }
