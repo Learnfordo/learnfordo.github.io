@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-04-23T11:58:56.178Z",
+  "updatedAt": "2026-04-24T04:33:07.571Z",
   "items": [
+    {
+      "date": "2026-04-23",
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "summary": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention ",
+      "url": "https://arxiv.org/abs/2604.21931v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
+      "summary": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutra",
+      "url": "https://arxiv.org/abs/2604.21930v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+      "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human pe",
+      "url": "https://arxiv.org/abs/2604.21928v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
+      "summary": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typ",
+      "url": "https://arxiv.org/abs/2604.21927v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "The Sample Complexity of Multicalibration",
+      "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor wh",
+      "url": "https://arxiv.org/abs/2604.21923v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
+      "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they ca",
+      "url": "https://arxiv.org/abs/2604.21916v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
+      "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior w",
+      "url": "https://arxiv.org/abs/2604.21911v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation",
+      "summary": "Scientific workflow systems automate execution -- scheduling, fault tolerance, resource management -- but not the semantic translation that precedes it. Scientists still manually convert research ques",
+      "url": "https://arxiv.org/abs/2604.21910v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Low-Rank Adaptation Redux for Large Models",
+      "summary": "Low-rank adaptation (LoRA) has emerged as the de facto standard for parameter-efficient fine-tuning (PEFT) of foundation models, enabling the adaptation of billion-parameter networks with minimal comp",
+      "url": "https://arxiv.org/abs/2604.21905v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
+      "summary": "Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often desi",
+      "url": "https://arxiv.org/abs/2604.21903v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "GPT-5.5",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1192
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "summary": "via socket.dev",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 688
+    },
+    {
+      "date": "2026-04-23",
+      "title": "An update on recent Claude Code quality reports",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 611
+    },
+    {
+      "date": "2026-04-23",
+      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "summary": "via blog.meshcore.io",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
+      "summary": "via github.com",
+      "url": "https://github.com/Infisical/agent-vault",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 88
+    },
     {
       "date": "2026-04-22",
       "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
@@ -322,144 +457,6 @@
       "url": "https://arxiv.org/abs/2604.18584v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Sessa: Selective State Space Attention",
-      "summary": "Modern sequence models are dominated by Transformers, where self-attention mixes information from the visible context in an input-dependent way. However, when retrieval is not sharp and attention rema",
-      "url": "https://arxiv.org/abs/2604.18580v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Bounded Ratio Reinforcement Learning",
-      "summary": "Proximal Policy Optimization (PPO) has become the predominant algorithm for on-policy reinforcement learning due to its scalability and empirical robustness across domains. However, there is a signifi",
-      "url": "https://arxiv.org/abs/2604.18578v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
-      "summary": "We present BLF (Bayesian Linguistic Forecaster), an agentic system for binary forecasting that achieves state-of-the-art performance on the ForecastBench benchmark. The system is built on three ideas.",
-      "url": "https://arxiv.org/abs/2604.18576v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "When Can LLMs Learn to Reason with Weak Supervision?",
-      "summary": "Large language models have achieved significant reasoning improvements through reinforcement learning with verifiable rewards (RLVR). Yet as model capabilities grow, constructing high-quality reward s",
-      "url": "https://arxiv.org/abs/2604.18574v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Back into Plato's Cave: Examining Cross-modal Representational Convergence at Scale",
-      "summary": "The Platonic Representation Hypothesis suggests that neural networks trained on different modalities (e.g., text and images) align and eventually converge toward the same representation of reality. If",
-      "url": "https://arxiv.org/abs/2604.18572v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
-      "summary": "Modern medicine generates vast multimodal data across siloed systems, yet no existing model integrates the full breadth and temporal depth of the clinical record into a unified patient representation.",
-      "url": "https://arxiv.org/abs/2604.18570v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Revisiting Active Sequential Prediction-Powered Mean Estimation",
-      "summary": "In this work, we revisit the problem of active sequential prediction-powered mean estimation, where at each round one must decide the query probability of the ground-truth label upon observing the cov",
-      "url": "https://arxiv.org/abs/2604.18569v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Latent Phase-Shift Rollback: Inference-Time Error Correction via Residual Stream Monitoring and KV-Cache Steering",
-      "summary": "Large language models frequently commit unrecoverable reasoning errors mid-generation: once a wrong step is taken, subsequent tokens compound the mistake rather than correct it. We introduce $\\textbf{",
-      "url": "https://arxiv.org/abs/2604.18567v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Benchmarking System Dynamics AI Assistants: Cloud Versus Local LLMs on CLD Extraction and Discussion",
-      "summary": "We present a systematic evaluation of large language model families -- spanning both proprietary cloud APIs and locally-hosted open-source models -- on two purpose-built benchmarks for System Dynamics",
-      "url": "https://arxiv.org/abs/2604.18566v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "summary": "via github.com",
-      "url": "https://github.com/gizmo64k/soulplayer-c64",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 134
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
-      "summary": "via prismml.com",
-      "url": "https://prismml.com/news/ternary-bonsai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 166
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Air is full of DNA",
-      "summary": "via www.nature.com",
-      "url": "https://www.nature.com/articles/d41586-026-01099-2",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 112
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Atlassian enables default data collection to train AI",
-      "summary": "via letsdatascience.com",
-      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 530
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 325
-    },
-    {
-      "date": "2026-04-20",
-      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
-      "summary": "via www.adweek.com",
-      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 221
     }
   ]
 }
