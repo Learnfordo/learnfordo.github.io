@@ -15,8 +15,9 @@ const vendors = [...new Set(sorted.map(p => p.vendor).filter(Boolean))];
 
   <section class="section" style="padding-top: 64px; padding-bottom: 80px;">
     <div class="wrap">
-      <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">论文库</h1>
-      <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">Top 15 AI 厂商发布的新模型论文，每日自动更新 · 论文 PDF 可直接预览/下载</p>
+      <div class="section-label">论文库</div>
+      <h1 class="section-title">论文库</h1>
+      <p class="section-desc">Top 15 AI 厂商发布的新模型论文，每日自动更新 · 论文 PDF 可直接预览/下载</p>
 
       <!-- 厂商筛选 -->
       <div id="vendor-filters" style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; align-items: center;">
