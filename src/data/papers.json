@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Partial oracles quantum algorithm framework -- Part I: Analysis of in-place operations",
+    "vendor": "OpenAI",
+    "date": "2026-04-23",
+    "arxivId": "2604.21788v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21788v1",
+    "summary": "The partial oracles framework is a quantum search algorithm that has the potential to exceed the quadratic speedup of Grover's algorithm, up to a theoretical maximum of an exponential speedup. Until now, however, the framework has lacked an explicit method for constructing the operator that represen",
+    "tags": []
+  },
+  {
+    "title": "Symplectic split-operator method for the time-dependent unitary Tavis-Cummings model",
+    "vendor": "OpenAI",
+    "date": "2026-04-23",
+    "arxivId": "2604.21778v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21778v1",
+    "summary": "We present a fast, memory-efficient, unitarity-preserving numerical method beyond the rotating-wave approximation for the closed Tavis-Cummings model in which a multilevel spin system interacts with a cavity mode. This model can describe the interaction of an ensemble of spins with a cavity mode in ",
+    "tags": []
+  },
+  {
+    "title": "Modeling dependency between operational risk losses and macroeconomic variables using Hidden Markov Models",
+    "vendor": "OpenAI",
+    "date": "2026-04-23",
+    "arxivId": "2604.21734v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21734v1",
+    "summary": "Predicting future operational risk losses gives rise to a significant challenge due to the heterogeneous and time-dependent structures present in real-world data. Furthermore, stress test exercises require examining the relationship with operational losses. To capture such relationship, we propose t",
+    "tags": []
+  },
+  {
+    "title": "Effects of Swarm Size Variability on Operator Workload",
+    "vendor": "OpenAI",
+    "date": "2026-04-23",
+    "arxivId": "2604.21707v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21707v1",
+    "summary": "Real-world deployments of human--swarm teams depend on balancing operator workload to leverage human strengths without inducing overload. A key challenge is that swarm size is often dynamic: robots may join or leave the mission due to failures or redeployment, causing abrupt workload fluctuations. U",
+    "tags": []
+  },
+  {
+    "title": "Lagrange: Operating Italy's First Publicly-Accessible Quantum Computer for Research and Education",
+    "vendor": "OpenAI",
+    "date": "2026-04-23",
+    "arxivId": "2604.21695v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21695v1",
+    "summary": "We describe the design, implementation, and nine-month operational experience of the software management stack for Lagrange, an IQM Spark five-qubit superconducting quantum computer jointly acquired by LINKS Foundation, Politecnico di Torino and the Italian National Institute of Metrological Researc",
+    "tags": []
+  },
+  {
+    "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+    "vendor": "Google DeepMind",
+    "date": "2026-04-23",
+    "arxivId": "2604.21928v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21928v1",
+    "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This pa",
+    "tags": []
+  },
+  {
+    "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
+    "vendor": "Google DeepMind",
+    "date": "2026-04-23",
+    "arxivId": "2604.21927v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21927v1",
+    "summary": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defin",
+    "tags": []
+  },
+  {
+    "title": "The Sample Complexity of Multicalibration",
+    "vendor": "Google DeepMind",
+    "date": "2026-04-23",
+    "arxivId": "2604.21923v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21923v1",
+    "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor whose population multicalibration error, measured by Expected Calibration Error (ECE), is at most $\\va",
+    "tags": []
+  },
+  {
+    "title": "First measurement of wind line formation regions in an early O-type star",
+    "vendor": "Google DeepMind",
+    "date": "2026-04-23",
+    "arxivId": "2604.21920v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21920v1",
+    "summary": "Massive stars with their strong ionizing radiation and strong stellar winds are the key feedback agents of the universe. Stellar winds of massive stars are often measured by fitting resonance lines in the UV using non-LTE stellar atmosphere models. So far, the line formation regions of these lines h",
+    "tags": []
+  },
+  {
+    "title": "Wave physics as a choreographic notation for partner dance",
+    "vendor": "Google DeepMind",
+    "date": "2026-04-23",
+    "arxivId": "2604.21918v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21918v1",
+    "summary": "The wave is considered a paradigm in dance and connects bodily expression with nature. Although wave concepts such as propagation and phase have proven to be powerful tools for dance analysis, many aspects of bodily expression, including partner dance, have been investigated using numerical approach",
+    "tags": []
+  },
+  {
+    "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
+    "vendor": "Mistral",
+    "date": "2026-04-23",
+    "arxivId": "2604.21926v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21926v1",
+    "summary": "Understanding human activities and their surrounding environments typically relies on visual perception, yet cameras pose persistent challenges in privacy, safety, energy efficiency, and scalability. We explore an alternative: 4D perception without vision. Its goal is to reconstruct human motion and",
+    "tags": []
+  },
+  {
+    "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
+    "vendor": "Mistral",
+    "date": "2026-04-23",
+    "arxivId": "2604.21916v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21916v1",
+    "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in ",
+    "tags": []
+  },
+  {
+    "title": "Cryogenic shock exfoliation for ultrahigh mobility rhombohedral graphite nanoelectronics",
+    "vendor": "Mistral",
+    "date": "2026-04-23",
+    "arxivId": "2604.21912v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21912v1",
+    "summary": "Rhombohedral multilayer graphene (RMG) offers a highly tunable platform for correlated electron physics, featuring field-effect control of magnetic, superconducting, and topological phases[1-24]. The promise of these materials has been held back by the limited abundance of rhombohedral stacking in n",
+    "tags": []
+  },
+  {
+    "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
+    "vendor": "Mistral",
+    "date": "2026-04-23",
+    "arxivId": "2604.21911v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21911v1",
+    "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or ",
+    "tags": []
+  },
+  {
+    "title": "CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis",
+    "vendor": "MiniMax",
+    "date": "2026-04-23",
+    "arxivId": "2604.21917v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21917v1",
+    "summary": "We present CrossCommitVuln-Bench, a curated benchmark of 15 real-world Python vulnerabilities (CVEs) in which the exploitable condition was introduced across multiple commits - each individually benign to per-commit static analysis - but collectively critical. We manually annotate each CVE with its ",
+    "tags": []
+  },
+  {
+    "title": "$3d_{z^2}$ orbital delocalization and magnetic collapse in superconducting (La,Pr)$_3$Ni$_2$O$_{7-δ}$ films",
+    "vendor": "MiniMax",
+    "date": "2026-04-23",
+    "arxivId": "2604.21899v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21899v1",
+    "summary": "The recent discovery of Ruddlesden-Popper (RP) nickelate thin-film superconductors has opened a new frontier in unconventional superconductivity. Its realization requires both compressive epitaxial strain and highly oxidative growth conditions, yet the microscopic pathway from the parent phase to th",
+    "tags": []
+  },
+  {
+    "title": "A simple $(2+ε)$-approximation for knapsack interdiction",
+    "vendor": "MiniMax",
+    "date": "2026-04-23",
+    "arxivId": "2604.21877v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.21877v1",
+    "summary": "In the knapsack interdiction problem, there are $n$ items, each with a non-negative profit, interdiction cost, and packing weight. There is also an interdiction budget and a capacity. The objective is to select a set of items to interdict (delete) subject to the budget which minimizes the maximum pr",
+    "tags": []
+  },
+  {
+    "title": "Pangu-ACE: Adaptive Cascaded Experts for Educational Response Generation on EduBench",
+    "vendor": "华为",
+    "date": "2026-04-16",
+    "arxivId": "2604.14828v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.14828v1",
+    "summary": "Educational assistants should spend more computation only when the task needs it. This paper rewrites our earlier draft around the system that was actually implemented and archived in the repository: a sample-level 1B to 7B cascade for the shared-8 EduBench benchmark. The final system, Pangu-ACE, us",
+    "tags": []
+  },
+  {
+    "title": "MOONSHOT : A Framework for Multi-Objective Pruning of Vision and Large Language Models",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-04-14",
+    "arxivId": "2604.13287v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.13287v1",
+    "summary": "Weight pruning is a common technique for compressing large neural networks. We focus on the challenging post-training one-shot setting, where a pre-trained model is compressed without any retraining. Existing one-shot pruning methods typically optimize a single objective, such as a layer-wise recons",
+    "tags": []
+  },
+  {
+    "title": "Gemma 4, Phi-4, and Qwen3: Accuracy-Efficiency Tradeoffs in Dense and MoE Reasoning Language Models",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-04-08",
+    "arxivId": "2604.07035v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.07035v1",
+    "summary": "Mixture-of-experts (MoE) language models are often expected to offer better quality-efficiency tradeoffs than dense models because only a subset of parameters is activated per token, but the practical value of that advantage depends on end-to-end behavior under realistic inference constraints. We pr",
+    "tags": []
+  },
+  {
+    "title": "Riemann-Bench: A Benchmark for Moonshot Mathematics",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-04-08",
+    "arxivId": "2604.06802v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.06802v1",
+    "summary": "Recent AI systems have achieved gold-medal-level performance on the International Mathematical Olympiad, demonstrating remarkable proficiency at competition-style problem solving. However, competition mathematics represents only a narrow slice of mathematical reasoning: problems are drawn from limit",
+    "tags": []
+  },
+  {
+    "title": "QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Oriented Clinical Question Answering and Evidence Sentence Alignment",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-26",
+    "arxivId": "2604.14175v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.14175v1",
+    "summary": "We present a unified system addressing both Subtask 3 (answer generation) and Subtask 4 (evidence sentence alignment) of the ArchEHR-QA Shared Task. For Subtask 3, we apply two-stage Quantised Low-Rank Adaptation (QLoRA) to Qwen3-4B loaded in 4-bit NF4 quantisation: first on 30,000 samples from the ",
+    "tags": []
+  },
+  {
+    "title": "MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet Training",
+    "vendor": "Microsoft",
+    "date": "2026-03-26",
+    "arxivId": "2603.25813v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.25813v1",
+    "summary": "We present MAGNET (Model Autonomously Growing Network), a decentralized system for autonomous generation, training, and serving of domain-expert language models across commodity hardware. MAGNET integrates four components: (1) autoresearch, an autonomous ML research pipeline that automates dataset g",
+    "tags": []
+  },
+  {
+    "title": "Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-25",
+    "arxivId": "2604.14171v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.14171v1",
+    "summary": "Romanized Nepali, the Nepali language written in the Latin alphabet, is the dominant medium for informal digital communication in Nepal, yet it remains critically underresourced in the landscape of Large Language Models (LLMs). This study presents a systematic benchmarking of linguistic adaptation a",
+    "tags": []
+  },
+  {
+    "title": "Polyglot-Lion: Efficient Multilingual ASR for Singapore via Balanced Fine-Tuning of Qwen3-ASR",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-17",
+    "arxivId": "2603.16184v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.16184v1",
+    "summary": "We present Polyglot-Lion, a family of compact multilingual automatic speech recognition (ASR) models tailored for the linguistic landscape of Singapore, covering English, Mandarin, Tamil, and Malay. Our models are obtained by fine-tuning Qwen3-ASR-0.6B and Qwen3-ASR-1.7B exclusively on publicly avai",
+    "tags": []
+  },
+  {
+    "title": "PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers",
+    "vendor": "华为",
+    "date": "2026-03-17",
+    "arxivId": "2603.16196v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.16196v1",
+    "summary": "Motion forecasting is a core task in autonomous driving systems, aiming to accurately predict the future trajectories of surrounding agents to ensure driving safety. Existing methods typically process discrete driving scenes independently, neglecting the temporal continuity and historical context co",
+    "tags": []
+  },
+  {
+    "title": "Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-12",
+    "arxivId": "2603.13406v2",
+    "pdfUrl": "https://arxiv.org/pdf/2603.13406v2",
+    "summary": "Emotion recognition in videos is a pivotal task in affective computing, where identifying subtle psychological states such as Ambivalence and Hesitancy holds significant value for behavioral intervention and digital health. Ambivalence and Hesitancy states often manifest through cross-modal inconsis",
+    "tags": []
+  },
+  {
+    "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
+    "vendor": "华为",
+    "date": "2026-03-11",
+    "arxivId": "2603.10862v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.10862v1",
+    "summary": "Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional speech understanding. However, the majority of high-performance frameworks are predominantly optimized for GPU centric ecosystems and proprietary backbones, creating a significant gap for deployment on ",
+    "tags": []
+  },
+  {
+    "title": "EAGLE-Pangu: Accelerator-Safe Tree Speculative Decoding on Ascend NPUs",
+    "vendor": "华为",
+    "date": "2026-03-09",
+    "arxivId": "2603.08088v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.08088v1",
+    "summary": "Autoregressive decoding remains a primary bottleneck in large language model (LLM) serving, motivating speculative decoding methods that reduce expensive teacher-model invocations by verifying multiple candidate tokens per step. Tree-structured speculation further increases parallelism, but is often",
+    "tags": []
+  },
+  {
+    "title": "Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity",
+    "vendor": "Microsoft",
+    "date": "2026-03-05",
+    "arxivId": "2603.05168v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.05168v1",
+    "summary": "Semi-structured N:M sparsity and low-bit quantization (e.g., 1.58-bit BitNet) are two promising approaches for improving the efficiency of large language models (LLMs), yet they have largely been studied in isolation. In this work, we investigate their interaction and show that 1.58-bit BitNet is na",
+    "tags": []
+  },
+  {
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "vendor": "Microsoft",
+    "date": "2026-03-04",
+    "arxivId": "2603.03975v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.03975v1",
+    "summary": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimoda",
+    "tags": []
+  },
+  {
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-02-17",
+    "arxivId": "2602.15763v2",
+    "pdfUrl": "https://arxiv.org/pdf/2602.15763v2",
+    "summary": "We present GLM-5, a next-generation foundation model designed to transition the paradigm of vibe coding to agentic engineering. Building upon the agentic, reasoning, and coding (ARC) capabilities of its predecessor, GLM-5 adopts DSA to significantly reduce training and inference costs while maintain",
+    "tags": []
+  },
+  {
+    "title": "ERNIE 5.0 Technical Report",
+    "vendor": "百度",
+    "date": "2026-02-04",
+    "arxivId": "2602.04705v1",
+    "pdfUrl": "https://arxiv.org/pdf/2602.04705v1",
+    "summary": "In this report, we introduce ERNIE 5.0, a natively autoregressive foundation model desinged for unified multimodal understanding and generation across text, image, video, and audio. All modalities are trained from scratch under a unified next-group-of-tokens prediction objective, based on an ultra-s",
+    "tags": []
+  },
+  {
+    "title": "Multimodal Multi-Agent Ransomware Analysis Using AutoGen",
+    "vendor": "Microsoft",
+    "date": "2026-01-28",
+    "arxivId": "2601.20346v2",
+    "pdfUrl": "https://arxiv.org/pdf/2601.20346v2",
+    "summary": "Ransomware has become one of the most serious cybersecurity threats causing major financial losses and operational disruptions worldwide.Traditional detection methods such as static analysis, heuristic scanning and behavioral analysis often fall short when used alone. To address these limitations, t",
+    "tags": []
+  },
+  {
+    "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
+    "vendor": "Meta",
+    "date": "2026-01-15",
+    "arxivId": "2601.11659v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.11659v1",
+    "summary": "This document consolidates publicly reported technical details about Metas Llama 4 model family. It summarizes (i) released variants (Scout and Maverick) and the broader herd context including the previewed Behemoth teacher model, (ii) architectural characteristics beyond a high-level MoE descriptio",
+    "tags": []
+  }
+]

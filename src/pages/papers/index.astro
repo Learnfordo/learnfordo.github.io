@@ -2,6 +2,17 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import papers from '../../data/papers.json';
+
+// 按月份分组
+const grouped = {};
+for (const paper of papers) {
+  const monthKey = paper.date.substring(0, 7); // "2026-04"
+  const label = `${paper.date.substring(0, 4)} 年 ${parseInt(paper.date.substring(5, 7))} 月`;
+  if (!grouped[monthKey]) grouped[monthKey] = { label, papers: [] };
+  grouped[monthKey].papers.push(paper);
+}
+const months = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
 ---
 
 <BaseLayout>
@@ -11,99 +22,43 @@ import Footer from '../../components/Footer.astro';
     <div class="wrap">
       <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">论文库</h1>
       <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">
-        所有研究报告引用的核心论文，持续更新
+        Top 15 AI 厂商发布的新模型论文，每日自动更新 · PDF 可预览/下载
       </p>
 
-      <h2 style="font-size: 22px; font-weight: 600; margin: 32px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">2026 年 4 月</h2>
+      {months.map(([key, { label, papers: monthPapers }]) => (
+        <>
+          <h2 style="font-size: 22px; font-weight: 600; margin: 32px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">{label}</h2>
+          {monthPapers.map((paper) => (
+            <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+              <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
+                {paper.title}
+              </h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
+                {paper.vendor} · {paper.date}
+                {paper.arxivId && ` · arXiv ${paper.arxivId}`}
+              </p>
+              <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
+                {paper.summary}
+              </p>
+              <div style="display: flex; gap: 8px; margin-top: 12px; align-items: center;">
+                {paper.tags.map((tag) => (
+                  <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">{tag}</span>
+                ))}
+                {paper.pdfUrl && (
+                  <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer"
+                    style="font-size: 12px; color: var(--accent); display: inline-flex; align-items: center; gap: 4px; text-decoration: none; font-weight: 600;">
+                    📄 PDF
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
+        </>
+      ))}
 
-      <!-- Meerkat -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-          <a href="/blog/meerkat/">Detecting Safety Violations Across Many Agent Traces</a>
-        </h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-          UPenn · arXiv 2604.11806 · 2026-04-14
-        </p>
-        <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-          在 Terminal-Bench 2.0 和 HAL USACO 中发现跨越 12+ 模型、超过 1000 条 trace 的系统性作弊，比之前审计估计多 4 倍。
-        </p>
-        <div style="display: flex; gap: 6px; margin-top: 10px;">
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">Agent 安全</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">Trace 审计</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">评测作弊</span>
-        </div>
-      </div>
-
-      <!-- Harmful Compression -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-          <a href="/blog/harmful-compression/">Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism</a>
-        </h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-          哈佛 Kempner 研究所 + 普林斯顿 + Technion · arXiv 2604.09544 · 2026-04-10
-        </p>
-        <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-          LLM 生成有害内容仅依赖不到 0.0005% 的参数，剪掉这些参数模型不再产生有害内容，但不影响正常能力。
-        </p>
-        <div style="display: flex; gap: 6px; margin-top: 10px;">
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">有害性压缩</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">机制可解释性</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">模型安全</span>
-        </div>
-      </div>
-
-      <!-- Agentic Collapse -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-          <a href="/blog/agentic-collapse/">Agentic Collapse: 领域特化导致"失忆"</a>
-        </h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-          2026-04-12
-        </p>
-        <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-          100 条数据即可让"失忆"模型重获新生，揭示领域特化如何让模型丧失泛化能力。
-        </p>
-        <div style="display: flex; gap: 6px; margin-top: 10px;">
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">Agent 失忆</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">领域特化</span>
-        </div>
-      </div>
-
-      <!-- Peer Preservation -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-          <a href="/blog/peer-preservation/">Peer-Preservation: 多智能体系统的隐秘裂缝</a>
-        </h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-          Berkeley · 2026-04-11
-        </p>
-        <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-          AI 会为了保护同伴而欺骗人类，揭示多智能体系统的潜在风险。
-        </p>
-        <div style="display: flex; gap: 6px; margin-top: 10px;">
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">多智能体</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">欺骗行为</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">AI 安全</span>
-        </div>
-      </div>
-
-      <!-- QED-Nano -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-          <a href="/blog/qed-nano/">QED-Nano: 小模型做难事</a>
-        </h3>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-          2026-04-07
-        </p>
-        <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-          小模型通过强化学习可以完成复杂推理任务，证明训练方法比模型大小更重要。
-        </p>
-        <div style="display: flex; gap: 6px; margin-top: 10px;">
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">小模型</span>
-          <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">强化学习</span>
-        </div>
-      </div>
-
+      {papers.length === 0 && (
+        <p style="font-size: 14px; color: var(--text-secondary);">暂无论文数据，等待自动抓取...</p>
+      )}
     </div>
   </section>
 
