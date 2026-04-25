@@ -2,13 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import papers from '../../data/papers.json';
+
+// 读取 papers.json 数据
+const rawData = await import('../../data/papers.json');
+const papers = (rawData?.default || rawData || []);
 
 // 按月份分组
 const grouped = {};
 for (const paper of papers) {
-  const monthKey = paper.date.substring(0, 7); // "2026-04"
-  const label = `${paper.date.substring(0, 4)} 年 ${parseInt(paper.date.substring(5, 7))} 月`;
+  const monthKey = paper.date?.substring(0, 7) || 'unknown';
+  const label = `${paper.date?.substring(0, 4) || '?'} 年 ${parseInt(paper.date?.substring(5, 7) || '1')} 月`;
   if (!grouped[monthKey]) grouped[monthKey] = { label, papers: [] };
   grouped[monthKey].papers.push(paper);
 }
@@ -22,29 +25,29 @@ const months = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
     <div class="wrap">
       <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">论文库</h1>
       <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">
-        Top 15 AI 厂商发布的新模型论文，每日自动更新 · PDF 可预览/下载
+        Top 15 AI 厂商发布的新模型论文，每日自动更新 · 论文 PDF 可直接预览/下载
       </p>
 
-      {months.map(([key, { label, papers: monthPapers }]) => (
+      {Array.isArray(months) && months.map(([key, { label, papers: monthPapers }]) => (
         <>
           <h2 style="font-size: 22px; font-weight: 600; margin: 32px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">{label}</h2>
-          {monthPapers.map((paper) => (
+          {Array.isArray(monthPapers) && monthPapers.map((paper) => (
             <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
               <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-                {paper.title}
+                {paper?.title || '无标题'}
               </h3>
               <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-                {paper.vendor} · {paper.date}
-                {paper.arxivId && ` · arXiv ${paper.arxivId}`}
+                {paper?.vendor || ''} · {paper?.date || ''}
+                {paper?.arxivId && ` · arXiv ${paper.arxivId}`}
               </p>
               <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-                {paper.summary}
+                {paper?.summary || ''}
               </p>
-              <div style="display: flex; gap: 8px; margin-top: 12px; align-items: center;">
-                {paper.tags.map((tag) => (
+              <div style="display: flex; gap: 8px; margin-top: 12px; align-items: center; flex-wrap: wrap;">
+                {Array.isArray(paper?.tags) && paper.tags.map((tag) => (
                   <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">{tag}</span>
                 ))}
-                {paper.pdfUrl && (
+                {paper?.pdfUrl && (
                   <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer"
                     style="font-size: 12px; color: var(--accent); display: inline-flex; align-items: center; gap: 4px; text-decoration: none; font-weight: 600;">
                     📄 PDF
@@ -56,9 +59,9 @@ const months = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
         </>
       ))}
 
-      {papers.length === 0 && (
+      {!Array.isArray(papers) || papers.length === 0 ? (
         <p style="font-size: 14px; color: var(--text-secondary);">暂无论文数据，等待自动抓取...</p>
-      )}
+      ) : null}
     </div>
   </section>
 
