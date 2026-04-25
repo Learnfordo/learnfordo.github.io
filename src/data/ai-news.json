@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T06:37:50.160Z",
+  "updatedAt": "2026-04-25T06:46:43.597Z",
   "items": [
     {
       "date": "2026-04-25",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 52
-    },
-    {
-      "date": "2026-04-24",
-      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
-      "summary": "via nickyreinert.de",
-      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 855
+      "score": 58
     },
     {
       "date": "2026-04-24",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 502
+      "score": 505
     },
     {
       "date": "2026-04-24",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 159
+      "score": 161
+    },
+    {
+      "date": "2026-04-24",
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "summary": "via nickyreinert.de",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 855
     },
     {
       "date": "2026-04-24",
