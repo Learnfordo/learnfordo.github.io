@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-04-25T06:31:47.449Z",
+  "updatedAt": "2026-04-25T06:37:50.160Z",
   "items": [
+    {
+      "date": "2026-04-25",
+      "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
+      "summary": "via unsung.aresluna.org",
+      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
+    },
     {
       "date": "2026-04-24",
       "title": "I cancelled Claude: Token issues, declining quality, and poor support",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 851
+      "score": 855
     },
     {
       "date": "2026-04-24",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 498
+      "score": 502
     },
     {
       "date": "2026-04-24",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 198
+      "score": 200
     },
     {
       "date": "2026-04-23",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 158
+      "score": 159
     },
     {
       "date": "2026-04-24",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 920
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 679
     }
   ]
 }
