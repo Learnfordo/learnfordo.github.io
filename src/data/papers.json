@@ -7,7 +7,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21788v1",
     "summary": "The partial oracles framework is a quantum search algorithm that has the potential to exceed the quadratic speedup of Grover's algorithm, up to a theoretical maximum of an exponential speedup. Until now, however, the framework has lacked an explicit method for constructing the operator that represen",
     "tags": [],
-    "descriptionCn": "OpenAI 发布的新一代大语言模型。"
+    "descriptionCn": "《Partial oracles quantum algorithm framework -- Part I: Analy...》— OpenAI 发布的最新研究论文。"
   },
   {
     "title": "Symplectic split-operator method for the time-dependent unitary Tavis-Cummings model",
@@ -17,7 +17,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21778v1",
     "summary": "We present a fast, memory-efficient, unitarity-preserving numerical method beyond the rotating-wave approximation for the closed Tavis-Cummings model in which a multilevel spin system interacts with a cavity mode. This model can describe the interaction of an ensemble of spins with a cavity mode in ",
     "tags": [],
-    "descriptionCn": "OpenAI 发布的新一代大语言模型。 聚焦模型效率和推理优化。"
+    "descriptionCn": "《Symplectic split-operator method for the time-dependent unit...》— OpenAI 发布的最新研究论文。"
   },
   {
     "title": "Modeling dependency between operational risk losses and macroeconomic variables using Hidden Markov Models",
@@ -27,7 +27,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21734v1",
     "summary": "Predicting future operational risk losses gives rise to a significant challenge due to the heterogeneous and time-dependent structures present in real-world data. Furthermore, stress test exercises require examining the relationship with operational losses. To capture such relationship, we propose t",
     "tags": [],
-    "descriptionCn": "OpenAI 发布的新一代大语言模型。"
+    "descriptionCn": "《Modeling dependency between operational risk losses and macr...》— OpenAI 发布的最新研究论文。"
   },
   {
     "title": "Effects of Swarm Size Variability on Operator Workload",
@@ -37,7 +37,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21707v1",
     "summary": "Real-world deployments of human--swarm teams depend on balancing operator workload to leverage human strengths without inducing overload. A key challenge is that swarm size is often dynamic: robots may join or leave the mission due to failures or redeployment, causing abrupt workload fluctuations. U",
     "tags": [],
-    "descriptionCn": "OpenAI 发布的新一代大语言模型。"
+    "descriptionCn": "《Effects of Swarm Size Variability on Operator Workload》— OpenAI 发布的最新研究论文。"
   },
   {
     "title": "Lagrange: Operating Italy's First Publicly-Accessible Quantum Computer for Research and Education",
@@ -47,7 +47,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21695v1",
     "summary": "We describe the design, implementation, and nine-month operational experience of the software management stack for Lagrange, an IQM Spark five-qubit superconducting quantum computer jointly acquired by LINKS Foundation, Politecnico di Torino and the Italian National Institute of Metrological Researc",
     "tags": [],
-    "descriptionCn": "OpenAI 发布的新一代大语言模型。"
+    "descriptionCn": "《Lagrange: Operating Italy's First Publicly-Accessible Quantu...》— OpenAI 发布的最新研究论文。"
   },
   {
     "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
@@ -57,7 +57,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21928v1",
     "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This pa",
     "tags": [],
-    "descriptionCn": "Google DeepMind 发布的最新 AI 模型。 侧重编码和程序生成能力。"
+    "descriptionCn": "《评估 of Automatic Speech Recognition Using Generative Large 语言...》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
@@ -67,7 +67,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21927v1",
     "summary": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defin",
     "tags": [],
-    "descriptionCn": "Google DeepMind 发布的最新 AI 模型。"
+    "descriptionCn": "《Fine-Tuning Regimes Define Distinct Continual Learning Probl...》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "The Sample Complexity of Multicalibration",
@@ -77,7 +77,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21923v1",
     "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor whose population multicalibration error, measured by Expected Calibration Error (ECE), is at most $\\va",
     "tags": [],
-    "descriptionCn": "Google DeepMind 发布的最新 AI 模型。"
+    "descriptionCn": "《The Sample Complexity of Multicalibration》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "First measurement of wind line formation regions in an early O-type star",
@@ -87,7 +87,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21920v1",
     "summary": "Massive stars with their strong ionizing radiation and strong stellar winds are the key feedback agents of the universe. Stellar winds of massive stars are often measured by fitting resonance lines in the UV using non-LTE stellar atmosphere models. So far, the line formation regions of these lines h",
     "tags": [],
-    "descriptionCn": "Google DeepMind 发布的最新 AI 模型。 专注于 Agent 和工具调用能力。"
+    "descriptionCn": "《First measurement of wind line formation regions in an early...》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "Wave physics as a choreographic notation for partner dance",
@@ -97,7 +97,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21918v1",
     "summary": "The wave is considered a paradigm in dance and connects bodily expression with nature. Although wave concepts such as propagation and phase have proven to be powerful tools for dance analysis, many aspects of bodily expression, including partner dance, have been investigated using numerical approach",
     "tags": [],
-    "descriptionCn": "Google DeepMind 发布的最新 AI 模型。 专注于 Agent 和工具调用能力。"
+    "descriptionCn": "《Wave physics as a choreographic notation for partner dance》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
@@ -107,7 +107,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21926v1",
     "summary": "Understanding human activities and their surrounding environments typically relies on visual perception, yet cameras pose persistent challenges in privacy, safety, energy efficiency, and scalability. We explore an alternative: 4D perception without vision. Its goal is to reconstruct human motion and",
     "tags": [],
-    "descriptionCn": "Mistral AI 发布的开源大语言模型。 具备视觉理解或多模态能力。"
+    "descriptionCn": "《Seeing Without Eyes: 4D Human-Scene Understanding from Weara...》— Mistral 发布的最新研究论文。"
   },
   {
     "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
@@ -117,7 +117,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21916v1",
     "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in ",
     "tags": [],
-    "descriptionCn": "Mistral AI 发布的开源大语言模型。 强调数学推理和逻辑能力。"
+    "descriptionCn": "《MathDuels: Evaluating LLMs as Problem Posers and Solvers》— Mistral 发布的最新研究论文。"
   },
   {
     "title": "Cryogenic shock exfoliation for ultrahigh mobility rhombohedral graphite nanoelectronics",
@@ -127,7 +127,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21912v1",
     "summary": "Rhombohedral multilayer graphene (RMG) offers a highly tunable platform for correlated electron physics, featuring field-effect control of magnetic, superconducting, and topological phases[1-24]. The promise of these materials has been held back by the limited abundance of rhombohedral stacking in n",
     "tags": [],
-    "descriptionCn": "Mistral AI 发布的开源大语言模型。"
+    "descriptionCn": "《Cryogenic shock exfoliation for ultrahigh mobility rhombohed...》— Mistral 发布的最新研究论文。"
   },
   {
     "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
@@ -137,7 +137,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21911v1",
     "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or ",
     "tags": [],
-    "descriptionCn": "Mistral AI 发布的开源大语言模型。 具备视觉理解或多模态能力。"
+    "descriptionCn": "《When Prompts Override 视觉: Prompt-Induced Hallucinations in L...》— Mistral 发布的最新研究论文。"
   },
   {
     "title": "CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis",
@@ -147,7 +147,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21917v1",
     "summary": "We present CrossCommitVuln-Bench, a curated benchmark of 15 real-world Python vulnerabilities (CVEs) in which the exploitable condition was introduced across multiple commits - each individually benign to per-commit static analysis - but collectively critical. We manually annotate each CVE with its ",
     "tags": [],
-    "descriptionCn": "MiniMax 发布的最新 AI 大模型。"
+    "descriptionCn": "《CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vuln...》— MiniMax 发布的最新研究论文。"
   },
   {
     "title": "$3d_{z^2}$ orbital delocalization and magnetic collapse in superconducting (La,Pr)$_3$Ni$_2$O$_{7-δ}$ films",
@@ -157,7 +157,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21899v1",
     "summary": "The recent discovery of Ruddlesden-Popper (RP) nickelate thin-film superconductors has opened a new frontier in unconventional superconductivity. Its realization requires both compressive epitaxial strain and highly oxidative growth conditions, yet the microscopic pathway from the parent phase to th",
     "tags": [],
-    "descriptionCn": "MiniMax 发布的最新 AI 大模型。"
+    "descriptionCn": "《$3d_{z^2}$ orbital delocalization and magnetic collapse in s...》— MiniMax 发布的最新研究论文。"
   },
   {
     "title": "A simple $(2+ε)$-approximation for knapsack interdiction",
@@ -167,7 +167,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.21877v1",
     "summary": "In the knapsack interdiction problem, there are $n$ items, each with a non-negative profit, interdiction cost, and packing weight. There is also an interdiction budget and a capacity. The objective is to select a set of items to interdict (delete) subject to the budget which minimizes the maximum pr",
     "tags": [],
-    "descriptionCn": "MiniMax 发布的最新 AI 大模型。"
+    "descriptionCn": "《A simple $(2+ε)$-approximation for knapsack interdiction》— MiniMax 发布的最新研究论文。"
   },
   {
     "title": "Qwen3.5-Omni Technical Report",
@@ -177,7 +177,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.15804v2",
     "summary": "In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model family. Representing a significant evolution over its predecessor, Qwen3.5-Omni scales to hundreds of billions of parameters and supports a 256k context length. By leveraging a massive dataset comprising heterogeneo",
     "tags": [],
-    "descriptionCn": "Qwen3.5-Omni 全模态大模型技术报告，统一文本、图像、音频理解和生成。"
+    "descriptionCn": "《Qwen3.5-Omni 技术报告》— 通义千问全模态大模型，统一文本、图像、音频的理解与生成能力。"
   },
   {
     "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
@@ -185,7 +185,7 @@
     "date": "2026-04-16",
     "pdfUrl": "",
     "summary": "Pangu Embedded 双系统推理器技术报告。",
-    "descriptionCn": "盘古 Embedded 双系统推理器技术报告，融合快速推理与深度思考。"
+    "descriptionCn": "《Pangu Embedded: An 高效 Dual-system LLM Reasoner with Metacognition》— 华为盘古双系统推理器，融合 System 1 快速直觉与 System 2 深度思考，实现高效元认知。"
   },
   {
     "title": "Pangu-ACE: Adaptive Cascaded Experts for Educational Response Generation on EduBench",
@@ -195,7 +195,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.14828v1",
     "summary": "Educational assistants should spend more computation only when the task needs it. This paper rewrites our earlier draft around the system that was actually implemented and archived in the repository: a sample-level 1B to 7B cascade for the shared-8 EduBench benchmark. The final system, Pangu-ACE, us",
     "tags": [],
-    "descriptionCn": "盘古系列大语言模型技术报告，华为自研 AI 大模型。"
+    "descriptionCn": "《Pangu-ACE: Adaptive Cascaded Experts for Educational Response Generation on EduBench》— 华为盘古系列大语言模型，自研架构赋能多场景 AI 应用。"
   },
   {
     "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
@@ -203,7 +203,7 @@
     "date": "2026-04-15",
     "pdfUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/main/DeepSeek_V4.pdf",
     "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
-    "descriptionCn": "DeepSeek V4 技术报告，面向百万级 Token 上下文的高效智能推理，引入多 Token 预测和 MLA 注意力机制。",
+    "descriptionCn": "《DeepSeek-V4: Towards Highly 高效 Million-Token Context Intelligence》— 深度求索最新旗舰模型，支持百万 Token 超长上下文，多 Token 预测与 MLA 注意力机制大幅提升推理效率。",
     "arxivId": null
   },
   {
@@ -214,7 +214,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.13287v1",
     "summary": "Weight pruning is a common technique for compressing large neural networks. We focus on the challenging post-training one-shot setting, where a pre-trained model is compressed without any retraining. Existing one-shot pruning methods typically optimize a single objective, such as a layer-wise recons",
     "tags": [],
-    "descriptionCn": "月之暗面 Moonshot AI 发布的 Kimi 系列模型。"
+    "descriptionCn": "《MOONSHOT : A Framework for Multi-Objective Pruning of 视觉 and...》— Moonshot (Kimi) 发布的最新研究论文。"
   },
   {
     "title": "From GPT-3 to GPT-5: Mapping their capabilities, scope, limitations, and consequences",
@@ -224,7 +224,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.10332v1",
     "summary": "We present the progress of the GPT family from GPT-3 through GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4.1, and the GPT-5 family. Our work is comparative rather than merely historical. We investigates how the family evolved in technical framing, user interaction, modality, deployment architecture, an",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 From GPT-3 to : Mapping their capabilities, scope, limitations, and consequences》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "Claude Opus 4.6 Model Card",
@@ -232,7 +232,7 @@
     "date": "2026-04-10",
     "pdfUrl": "https://www-cdn.anthropic.com/claude-opus-4.6-model-card.pdf",
     "summary": "Claude Opus 4.6 模型技术报告，重点在安全对齐和推理能力。",
-    "descriptionCn": "Claude Opus 4 旗舰模型技术报告，在安全对齐和复杂推理方面达到新高度。"
+    "descriptionCn": "《Claude Opus 4.6 模型卡》— Anthropic 旗舰安全大语言模型，专注于复杂推理、长文本理解和可信 AI 对齐。"
   },
   {
     "title": "Gemma 4, Phi-4, and Qwen3: Accuracy-Efficiency Tradeoffs in Dense and MoE Reasoning Language Models",
@@ -242,7 +242,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.07035v1",
     "summary": "Mixture-of-experts (MoE) language models are often expected to offer better quality-efficiency tradeoffs than dense models because only a subset of parameters is activated per token, but the practical value of that advantage depends on end-to-end behavior under realistic inference constraints. We pr",
     "tags": [],
-    "descriptionCn": "Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。"
+    "descriptionCn": "《Gemma 4, Phi-4, and Qwen3: Accuracy-Efficiency Tradeoffs in Dense and MoE 推理 语言模型s》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
     "title": "Riemann-Bench: A Benchmark for Moonshot Mathematics",
@@ -252,7 +252,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.06802v1",
     "summary": "Recent AI systems have achieved gold-medal-level performance on the International Mathematical Olympiad, demonstrating remarkable proficiency at competition-style problem solving. However, competition mathematics represents only a narrow slice of mathematical reasoning: problems are drawn from limit",
     "tags": [],
-    "descriptionCn": "月之暗面 Moonshot AI 发布的 Kimi 系列模型。 强调数学推理和逻辑能力。"
+    "descriptionCn": "《Riemann-Bench: A Benchmark for Moonshot Mathematics》— Moonshot (Kimi) 发布的最新研究论文。"
   },
   {
     "title": "QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Oriented Clinical Question Answering and Evidence Sentence Alignment",
@@ -262,7 +262,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.14175v1",
     "summary": "We present a unified system addressing both Subtask 3 (answer generation) and Subtask 4 (evidence sentence alignment) of the ArchEHR-QA Shared Task. For Subtask 3, we apply two-stage Quantised Low-Rank Adaptation (QLoRA) to Qwen3-4B loaded in 4-bit NF4 quantisation: first on 30,000 samples from the ",
     "tags": [],
-    "descriptionCn": "Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。"
+    "descriptionCn": "《QU-NLP at ArchEHR-QA 2026: Two-Stage QLoRA Fine-Tuning of Qwen3-4B for Patient-Oriented Clinical Question Answering and Evidence Sentence 对齐》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
     "title": "MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet Training",
@@ -272,7 +272,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.25813v1",
     "summary": "We present MAGNET (Model Autonomously Growing Network), a decentralized system for autonomous generation, training, and serving of domain-expert language models across commodity hardware. MAGNET integrates four components: (1) autoresearch, an autonomous ML research pipeline that automates dataset g",
     "tags": [],
-    "descriptionCn": "BitNet 1.58 比特量化模型技术报告，极致压缩高效推理。"
+    "descriptionCn": "《MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet 训练》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
   },
   {
     "title": "Qwen3.6-Max Technical Report",
@@ -280,7 +280,7 @@
     "date": "2026-03-25",
     "pdfUrl": "",
     "summary": "Qwen3.6-Max 系列模型技术报告，性能对标 GPT-5 级别。",
-    "descriptionCn": "Qwen3.6-Max 旗舰模型技术报告，在推理、编码和多语言方面性能对标国际一流。"
+    "descriptionCn": "《Qwen3.6-Max 技术报告》— 阿里通义千问最新旗舰模型，在推理、编码和多语言方面性能对标国际顶尖水平。"
   },
   {
     "title": "Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali",
@@ -290,7 +290,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.14171v1",
     "summary": "Romanized Nepali, the Nepali language written in the Latin alphabet, is the dominant medium for informal digital communication in Nepal, yet it remains critically underresourced in the landscape of Large Language Models (LLMs). This study presents a systematic benchmarking of linguistic adaptation a",
     "tags": [],
-    "descriptionCn": "Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。"
+    "descriptionCn": "《Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
     "title": "Gemini 3 Technical Report",
@@ -298,7 +298,7 @@
     "date": "2026-03-20",
     "pdfUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_report.pdf",
     "summary": "Gemini 3 多模态大模型技术报告。",
-    "descriptionCn": "Gemini 3 多模态大模型技术报告，在视觉理解、推理和代码生成方面有显著提升。"
+    "descriptionCn": "《Gemini 3 技术报告》— Google DeepMind 最新多模态大模型，在视觉理解、长上下文推理和 Agent 能力方面显著提升。"
   },
   {
     "title": "Global Convergence of Multiplicative Updates for the Matrix Mechanism: A Collaborative Proof with Gemini 3",
@@ -308,7 +308,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.19465v2",
     "summary": "We analyze a fixed-point iteration $v \\leftarrow φ(v)$ arising in the optimization of a regularized nuclear norm objective involving the Hadamard product structure, posed in DMR+22 in the context of an optimization problem over the space of algorithms in private machine learning. We prove that the i",
     "tags": [],
-    "descriptionCn": "Gemini 3 多模态大模型技术报告，在视觉理解、推理和代码生成方面有显著提升。"
+    "descriptionCn": "《Global Convergence of Multiplicative Updates for the Matrix Mechanism: A Collaborative Proof with Gemini 3》— Google DeepMind 最新多模态大模型，在视觉理解、长上下文推理和 Agent 能力方面显著提升。"
   },
   {
     "title": "Polyglot-Lion: Efficient Multilingual ASR for Singapore via Balanced Fine-Tuning of Qwen3-ASR",
@@ -318,7 +318,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.16184v1",
     "summary": "We present Polyglot-Lion, a family of compact multilingual automatic speech recognition (ASR) models tailored for the linguistic landscape of Singapore, covering English, Mandarin, Tamil, and Malay. Our models are obtained by fine-tuning Qwen3-ASR-0.6B and Qwen3-ASR-1.7B exclusively on publicly avai",
     "tags": [],
-    "descriptionCn": "Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。"
+    "descriptionCn": "《Polyglot-Lion: 高效 Multilingual ASR for Singapore via Balanced Fine-Tuning of Qwen3-ASR》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
     "title": "PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers",
@@ -328,7 +328,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.16196v1",
     "summary": "Motion forecasting is a core task in autonomous driving systems, aiming to accurately predict the future trajectories of surrounding agents to ensure driving safety. Existing methods typically process discrete driving scenes independently, neglecting the temporal continuity and historical context co",
     "tags": [],
-    "descriptionCn": "盘古系列大语言模型技术报告，华为自研 AI 大模型。"
+    "descriptionCn": "《PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers》— 华为盘古系列大语言模型，自研架构赋能多场景 AI 应用。"
   },
   {
     "title": "GPT-5 System Card",
@@ -336,7 +336,7 @@
     "date": "2026-03-15",
     "pdfUrl": "https://cdn.openai.com/gpt-5-system-card.pdf",
     "summary": "GPT-5 系统技术报告，涵盖能力评测、安全对齐和多模态能力。",
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 系统卡》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection",
@@ -346,7 +346,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.13406v2",
     "summary": "Emotion recognition in videos is a pivotal task in affective computing, where identifying subtle psychological states such as Ambivalence and Hesitancy holds significant value for behavioral intervention and digital health. Ambivalence and Hesitancy states often manifest through cross-modal inconsis",
     "tags": [],
-    "descriptionCn": "Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。"
+    "descriptionCn": "《Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
     "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
@@ -356,7 +356,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.10862v1",
     "summary": "Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional speech understanding. However, the majority of high-performance frameworks are predominantly optimized for GPU centric ecosystems and proprietary backbones, creating a significant gap for deployment on ",
     "tags": [],
-    "descriptionCn": "盘古系列大语言模型技术报告，华为自研 AI 大模型。"
+    "descriptionCn": "《OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs》— 华为盘古系列大语言模型，自研架构赋能多场景 AI 应用。"
   },
   {
     "title": "EAGLE-Pangu: Accelerator-Safe Tree Speculative Decoding on Ascend NPUs",
@@ -366,7 +366,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.08088v1",
     "summary": "Autoregressive decoding remains a primary bottleneck in large language model (LLM) serving, motivating speculative decoding methods that reduce expensive teacher-model invocations by verifying multiple candidate tokens per step. Tree-structured speculation further increases parallelism, but is often",
     "tags": [],
-    "descriptionCn": "盘古系列大语言模型技术报告，华为自研 AI 大模型。"
+    "descriptionCn": "《EAGLE-Pangu: Accelerator-Safe Tree Speculative De编码 on Ascend NPUs》— 华为盘古系列大语言模型，自研架构赋能多场景 AI 应用。"
   },
   {
     "title": "Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity",
@@ -376,7 +376,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.05168v1",
     "summary": "Semi-structured N:M sparsity and low-bit quantization (e.g., 1.58-bit BitNet) are two promising approaches for improving the efficiency of large language models (LLMs), yet they have largely been studied in isolation. In this work, we investigate their interaction and show that 1.58-bit BitNet is na",
     "tags": [],
-    "descriptionCn": "BitNet 1.58 比特量化模型技术报告，极致压缩高效推理。"
+    "descriptionCn": "《Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity》— 微软稀疏量化模型，结合 1.58-bit 量化与半结构化稀疏，实现极致推理效率。"
   },
   {
     "title": "Evaluating GPT-5 as a Multimodal Clinical Reasoner: A Landscape Commentary",
@@ -386,7 +386,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.04763v1",
     "summary": "The transition from task-specific artificial intelligence toward general-purpose foundation models raises fundamental questions about their capacity to support the integrated reasoning required in clinical medicine, where diagnosis demands synthesis of ambiguous patient narratives, laboratory data, ",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 Evaluating as a 多模态 Clinical Reasoner: A Landscape Commentary》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "Phi-4-reasoning-vision-15B Technical Report",
@@ -394,7 +394,7 @@
     "date": "2026-03-04",
     "pdfUrl": "",
     "summary": "Phi-4 推理视觉模型技术报告，15B 参数量级。",
-    "descriptionCn": "Phi-4 Reasoning 推理模型技术报告，小参数实现强推理能力。"
+    "descriptionCn": "《Phi-4-推理-视觉-15B 技术报告》— 微软 Phi-4 推理模型，在小参数量下实现强大的多步推理能力。"
   },
   {
     "title": "Scaling In, Not Up? Testing Thick Citation Context Analysis with GPT-5 and Fragile Prompts",
@@ -404,7 +404,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2602.22359v1",
     "summary": "This paper tests whether large language models (LLMs) can support interpretative citation context analysis (CCA) by scaling in thick, text-grounded readings of a single hard case rather than scaling up typological labels. It foregrounds prompt-sensitivity analysis as a methodological issue by varyin",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 Scaling In, Not Up? Testing Thick Citation Context Analysis with and Fragile Prompts》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "SCHEMA for Gemini 3 Pro Image: A Structured Methodology for Controlled AI Image Generation on Google's Native Multimodal Model",
@@ -414,7 +414,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2602.18903v1",
     "summary": "This paper presents SCHEMA (Structured Components for Harmonized Engineered Modular Architecture), a structured prompt engineering methodology specifically developed for Google Gemini 3 Pro Image. Unlike generic prompt guidelines or model-agnostic tips, SCHEMA is an engineered framework built on sys",
     "tags": [],
-    "descriptionCn": "Gemini 3 多模态大模型技术报告，在视觉理解、推理和代码生成方面有显著提升。"
+    "descriptionCn": "《SCHEMA for Gemini 3 Pro Image: A Structured Methodology for Controlled AI Image Generation on Google's Native 多模态 Model》— Google DeepMind 最新多模态大模型，在视觉理解、长上下文推理和 Agent 能力方面显著提升。"
   },
   {
     "title": "GLM-5: from Vibe Coding to Agentic Engineering",
@@ -422,7 +422,7 @@
     "date": "2026-02-17",
     "pdfUrl": "",
     "summary": "GLM-5 技术报告，展示从编码辅助到智能体工程的全面能力。",
-    "descriptionCn": "GLM-5 大语言模型技术报告，支持智能体工程和复杂任务自动化。"
+    "descriptionCn": "《GLM-5: from Vibe 编码 to 智能体ic Engineering》— 智谱 AI 旗舰大语言模型，从辅助编码到智能体工程的全面能力升级。"
   },
   {
     "title": "GPT-5 vs Other LLMs in Long Short-Context Performance",
@@ -432,7 +432,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2602.14188v1",
     "summary": "With the significant expansion of the context window in Large Language Models (LLMs), these models are theoretically capable of processing millions of tokens in a single pass. However, research indicates a significant gap between this theoretical capacity and the practical ability of models to robus",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 vs Other LLMs in Long Short-Context Performance》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "Compiler-Guided Inference-Time Adaptation: Improving GPT-5 Programming Performance in Idris",
@@ -442,7 +442,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2602.11481v1",
     "summary": "GPT-5, a state of the art large language model from OpenAI, demonstrates strong performance in widely used programming languages such as Python, C++, and Java; however, its ability to operate in low resource or less commonly used languages remains underexplored. This work investigates whether GPT-5 ",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 Compiler-Guided 推理-Time Adaptation: Improving 编程 Performance in Idris》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "ERNIE 5.0 Technical Report",
@@ -450,7 +450,7 @@
     "date": "2026-02-04",
     "pdfUrl": "",
     "summary": "文心大模型 ERNIE 5.0 技术报告。",
-    "descriptionCn": "文心 ERNIE 5.0 大语言模型技术报告，百度最新旗舰 AI 模型。"
+    "descriptionCn": "《ERNIE 5.0 技术报告》— 百度文心最新旗舰大语言模型，在知识增强、推理和多模态方面全面升级。"
   },
   {
     "title": "Multimodal Multi-Agent Ransomware Analysis Using AutoGen",
@@ -460,7 +460,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2601.20346v2",
     "summary": "Ransomware has become one of the most serious cybersecurity threats causing major financial losses and operational disruptions worldwide.Traditional detection methods such as static analysis, heuristic scanning and behavioral analysis often fall short when used alone. To address these limitations, t",
     "tags": [],
-    "descriptionCn": "AutoGen 多智能体框架技术报告，微软多 Agent 协作平台。"
+    "descriptionCn": "《多模态 Multi-智能体 Ransomware Analysis Using AutoGen》— 微软多智能体协作框架，支持多 Agent 的复杂任务编排与自动化。"
   },
   {
     "title": "Kimi K2: Open Agentic Intelligence",
@@ -468,7 +468,7 @@
     "date": "2026-01-20",
     "pdfUrl": "",
     "summary": "Kimi K2 技术报告，开放式智能体架构与编码能力评测。",
-    "descriptionCn": "Kimi K2 开放智能体架构模型技术报告，编码和工具调用能力卓越。"
+    "descriptionCn": "《Kimi K2: Open 智能体ic Intelligence》— 月之暗面开放智能体架构模型，编码和工具调用能力卓越，专注 Agent 应用场景。"
   },
   {
     "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
@@ -476,7 +476,7 @@
     "date": "2026-01-15",
     "pdfUrl": "",
     "summary": "Llama 4 系列模型技术报告，包括架构创新、训练策略和性能评测。",
-    "descriptionCn": "Llama 4 开源大语言模型技术报告，采用 MoE 架构，性能和效率大幅提升。"
+    "descriptionCn": "《The Llama 4 Herd: 架构, 训练, 评估, and 部署 Notes》— Meta 最新开源旗舰模型，采用 MoE 混合专家架构，在推理、多语言和编码任务中表现优异。"
   },
   {
     "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5",
@@ -486,7 +486,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2601.10527v2",
     "summary": "The rapid evolution of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has driven major gains in reasoning, perception, and generation across language and vision, yet whether these advances translate into comparable improvements in safety remains unclear, partly due to frag",
     "tags": [],
-    "descriptionCn": "GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。"
+    "descriptionCn": "《GPT-5 A 安全 Report on .2, Gemini 3 Pro, Qwen3-VL, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "Beyond Gemini-3-Pro: Revisiting LLM Routing and Aggregation at Scale",
@@ -496,7 +496,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2601.01330v2",
     "summary": "Large Language Models (LLMs) have rapidly advanced, with Gemini-3-Pro setting a new performance milestone. In this work, we explore collective intelligence as an alternative to monolithic scaling, and demonstrate that open-source LLMs' collaboration can surpass Gemini-3-Pro. We first revisit LLM rou",
     "tags": [],
-    "descriptionCn": "Gemini 3 多模态大模型技术报告，在视觉理解、推理和代码生成方面有显著提升。"
+    "descriptionCn": "《Beyond Gemini-3-Pro: Revisiting LLM Routing and Aggregation ...》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "An Automated Retrieval-Augmented Generation LLaMA-4 109B-based System for Evaluating Radiotherapy Treatment Plans",
@@ -506,7 +506,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2509.20707v2",
     "summary": "Purpose: To develop a retrieval-augmented generation (RAG) system powered by LLaMA-4 109B for automated, protocol-aware, and interpretable evaluation of radiotherapy treatment plans. Methods and Materials: We curated a multi-protocol dataset of 614 radiotherapy plans across four disease sites and co",
     "tags": [],
-    "descriptionCn": "Meta AI 开源大语言模型。"
+    "descriptionCn": "《An Automated Retrieval-Augmented Generation LLaMA-4 109B-bas...》— Meta 发布的最新研究论文。"
   },
   {
     "title": "Multilevel Analysis of Cryptocurrency News using RAG Approach with Fine-Tuned Mistral Large Language Model",
@@ -516,7 +516,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2509.03527v1",
     "summary": "In the paper, we consider multilevel multitask analysis of cryptocurrency news using a fine-tuned Mistral 7B large language model with retrieval-augmented generation (RAG). On the first level of analytics, the fine-tuned model generates graph and text summaries with sentiment scores as well as JSON ",
     "tags": [],
-    "descriptionCn": "Mistral 开源大语言模型技术报告，欧洲领先 AI 模型。"
+    "descriptionCn": "《Multilevel Analysis of Cryptocurrency News using RAG Approach with Fine-Tuned Mistral Large 语言模型》— Mistral AI 旗舰模型，欧洲领先的开源大语言模型，MoE 架构兼顾性能与效率。"
   },
   {
     "title": "Pangu Pro MoE: Mixture of Grouped Experts for Efficient Sparsity",
@@ -526,7 +526,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2505.21411v2",
     "summary": "The surgence of Mixture of Experts (MoE) in Large Language Models promises a small price of execution cost for a much larger model parameter count and learning capacity, because only a small fraction of parameters are activated for each input token. However, it is commonly observed that some experts",
     "tags": [],
-    "descriptionCn": "盘古 Pro MoE 混合专家模型技术报告，高效稀疏化训练。"
+    "descriptionCn": "《Pangu Pro MoE: Mixture of Grouped Experts for 高效 Sparsity》— 华为盘古混合专家模型，分组专家机制实现高效稀疏化训练与推理。"
   },
   {
     "title": "Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs",
@@ -536,7 +536,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2505.20155v1",
     "summary": "Large Language Models (LLMs) deliver state-of-the-art capabilities across numerous tasks, but their immense size and inference costs pose significant computational challenges for practical deployment. While structured pruning offers a promising avenue for model compression, existing methods often st",
     "tags": [],
-    "descriptionCn": "盘古 Light 高效剪枝与加速推理技术报告。"
+    "descriptionCn": "《Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs》— 华为盘古模型高效剪枝与加速方案，权重重初始化降低剪枝后性能损失。"
   },
   {
     "title": "Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs",
@@ -546,7 +546,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2505.04519v1",
     "summary": "Sparse large language models (LLMs) with Mixture of Experts (MoE) and close to a trillion parameters are dominating the realm of most capable language models. However, the massive model scale poses significant challenges for the underlying software and hardware systems. In this paper, we aim to unco",
     "tags": [],
-    "descriptionCn": "盘古 Ultra MoE 大规模混合专家模型技术报告，在昇腾 NPU 上训练。"
+    "descriptionCn": "《Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs》— 华为盘古超大规模混合专家模型技术报告，基于昇腾 NPU 的大规模训练实践。"
   },
   {
     "title": "DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
@@ -556,7 +556,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2504.21801v2",
     "summary": "We introduce DeepSeek-Prover-V2, an open-source large language model designed for formal theorem proving in Lean 4, with initialization data collected through a recursive theorem proving pipeline powered by DeepSeek-V3. The cold-start training procedure begins by prompting DeepSeek-V3 to decompose c",
     "tags": [],
-    "descriptionCn": "DeepSeek Prover 数学定理证明模型技术报告，在形式化验证方面取得突破。"
+    "descriptionCn": "《DeepSeek-Prover-V2: Advancing Formal 数学 推理 via Reinforcement Learning for Subgoal Decomposition》— 深度求索数学定理证明模型，基于强化学习的子目标分解策略，在形式化验证任务中取得突破。"
   },
   {
     "title": "Phi-4-reasoning Technical Report",
@@ -566,7 +566,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2504.21318v1",
     "summary": "We introduce Phi-4-reasoning, a 14-billion parameter reasoning model that achieves strong performance on complex reasoning tasks. Trained via supervised fine-tuning of Phi-4 on carefully curated set of \"teachable\" prompts-selected for the right level of complexity and diversity-and reasoning demonst",
     "tags": [],
-    "descriptionCn": "Phi-4 Reasoning 推理模型技术报告，小参数实现强推理能力。"
+    "descriptionCn": "《Phi-4-推理 技术报告》— 微软 Phi-4 推理模型，在小参数量下实现强大的多步推理能力。"
   },
   {
     "title": "Deep Learning with Pretrained 'Internal World' Layers: A Gemma 3-Based Modular Architecture for Wildfire Prediction",
@@ -576,7 +576,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2504.18562v1",
     "summary": "Deep learning models, especially large Transformers, carry substantial \"memory\" in their intermediate layers -- an \\emph{internal world} that encodes a wealth of relational and contextual knowledge. This work harnesses that internal world for wildfire occurrence prediction by introducing a modular a",
     "tags": [],
-    "descriptionCn": "Gemma 3 轻量级开源大语言模型技术报告，适合端侧部署和高效推理。"
+    "descriptionCn": "《Deep Learning with Pretrained 'Internal World' Layers: A Gemma 3-Based Modular 架构 for Wildfire Prediction》— Google 开源轻量级大语言模型，支持端侧部署与高效微调。"
   },
   {
     "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
@@ -586,7 +586,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2503.01743v2",
     "summary": "We introduce Phi-4-Mini and Phi-4-Multimodal, compact yet highly capable language and multimodal models. Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the perform",
     "tags": [],
-    "descriptionCn": "Phi-4 Mini 紧凑多模态模型技术报告，适合移动端和边缘部署。"
+    "descriptionCn": "《Phi-4-Mini 技术报告: Compact yet Powerful 多模态 语言模型s via Mixture-of-LoRAs》— 微软紧凑型多模态模型，兼顾性能与部署效率，适合边缘计算场景。"
   },
   {
     "title": "Phi-4 Technical Report",
@@ -596,7 +596,7 @@
     "pdfUrl": "https://arxiv.org/pdf/2412.08905v1",
     "summary": "We present phi-4, a 14-billion parameter language model developed with a training recipe that is centrally focused on data quality. Unlike most language models, where pre-training is based primarily on organic data sources such as web content or code, phi-4 strategically incorporates synthetic data ",
     "tags": [],
-    "descriptionCn": "Phi-4 高效小模型技术报告，微软小模型系列最新进展。"
+    "descriptionCn": "《Phi-4 技术报告》— 微软高效小模型系列，以极少参数实现接近大模型的性能。"
   },
   {
     "title": "Evaluating Students' Open-ended Written Responses with LLMs: Using the RAG Framework for GPT-3.5, GPT-4, Claude-3, and Mistral-Large",
@@ -606,6 +606,6 @@
     "pdfUrl": "https://arxiv.org/pdf/2405.05444v1",
     "summary": "Evaluating open-ended written examination responses from students is an essential yet time-intensive task for educators, requiring a high degree of effort, consistency, and precision. Recent developments in Large Language Models (LLMs) present a promising opportunity to balance the need for thorough",
     "tags": [],
-    "descriptionCn": "Mistral 开源大语言模型技术报告，欧洲领先 AI 模型。"
+    "descriptionCn": "《Evaluating Students' Open-ended Written Responses with LLMs: Using the RAG Framework for GPT-3.5, GPT-4, Claude-3, and Mistral-Large》— Mistral AI 开源大语言模型，欧洲 AI 领域代表性成果。"
   }
 ]
