@@ -154,6 +154,19 @@ async function main() {
 
   base.sort((a, b) => b.date.localeCompare(a.date));
 
+  // === Step 3: 搜索 HuggingFace 模型库（国内厂商常用） ===
+  console.log('\n🔍 搜索 HuggingFace...');
+  const hfPapers = await fetchHF(seen);
+  for (const paper of hfPapers) {
+    if (!seen.has(paper.title)) {
+      if (!paper.descriptionCn) paper.descriptionCn = cnDesc(paper);
+      base.push(paper);
+      seen.add(paper.title);
+      added++;
+      console.log(`  ✨ HF: ${paper.vendor} - ${paper.title.substring(0, 70)}`);
+    }
+  }
+
   writeFileSync(OUTPUT_PATH, JSON.stringify(base, null, 2));
   console.log(`\n✅ papers.json: ${base.length} 篇论文, 新增 ${added} 篇`);
 
@@ -234,4 +247,42 @@ function cnDesc(paper) {
   if (s.includes('agent') || s.includes('tool')) return vendorDesc + ' 专注于 Agent 和工具调用能力。';
   if (s.includes('efficien') || s.includes('sparse')) return vendorDesc + ' 聚焦模型效率和推理优化。';
   return vendorDesc;
+}
+// === HuggingFace 搜索 ===
+const HF_MODELS = [
+  { vendor: 'DeepSeek', id: 'deepseek-ai/DeepSeek-V4-Pro' },
+  { vendor: 'DeepSeek', id: 'deepseek-ai/DeepSeek-R1' },
+  { vendor: '阿里 (Qwen)', id: 'Qwen/Qwen3.6' },
+  { vendor: '阿里 (Qwen)', id: 'Qwen/Qwen3.5-Omni' },
+  { vendor: '智谱 (GLM)', id: 'THUDM/GLM-5' },
+  { vendor: '智谱 (GLM)', id: 'THUDM/GLM-5.1' },
+  { vendor: 'Moonshot (Kimi)', id: 'moonshotai/Kimi-K2' },
+  { vendor: '华为', id: 'Huawei/Pangu-Embedded' },
+  { vendor: 'Microsoft', id: 'microsoft/Phi-4' },
+  { vendor: '百度', id: 'baidu/ERNIE-5.0' },
+];
+
+async function fetchHF(seenTitles) {
+  const papers = [], seenLocal = new Set();
+  for (const { vendor, id } of HF_MODELS) {
+    try {
+      const res = await fetch(`https://huggingface.co/api/models/${id}`, { signal: AbortSignal.timeout(10000) });
+      if (!res.ok) continue;
+      const info = await res.json();
+      const pdfs = (info.siblings || []).filter(f => (f.rfilename || '').toLowerCase().endsWith('.pdf'));
+      if (pdfs.length === 0) continue;
+      const date = (info.createdAt || info.lastModified || '').substring(0, 10);
+      const title = info.cardData?.title || `${id.split('/').pop()} Technical Report`;
+      if (seenTitles.has(title) || seenLocal.has(title)) continue;
+      seenLocal.add(title);
+      papers.push({
+        title, vendor, date, arxivId: null,
+        pdfUrl: `https://huggingface.co/${id}/resolve/main/${pdfs[0].rfilename}`,
+        summary: info.cardData?.modelDescription || '',
+        descriptionCn: cnDesc({ title, vendor, summary: info.cardData?.modelDescription || '' }),
+        tags: ['HuggingFace'],
+      });
+    } catch (e) { /* HF 不可达，静默跳过 */ }
+  }
+  return papers;
 }
