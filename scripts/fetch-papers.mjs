@@ -156,6 +156,20 @@ async function main() {
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(base, null, 2));
   console.log(`\n✅ papers.json: ${base.length} 篇论文, 新增 ${added} 篇`);
+
+  // 如果有新论文，git 提交推送
+  if (added > 0) {
+    const { execSync } = await import('child_process');
+    try {
+      execSync('git add src/data/papers.json', { cwd: __dirname + '/..', stdio: 'pipe' });
+      execSync("git commit -m 'papers: 新增论文'", { cwd: __dirname + '/..', stdio: 'pipe' });
+      execSync('git pull --rebase origin main', { cwd: __dirname + '/..', stdio: 'pipe' });
+      execSync('git push origin main', { cwd: __dirname + '/..', stdio: 'pipe' });
+      console.log('📤 已推送到 GitHub');
+    } catch (e) {
+      console.error('Git 推送失败:', e.stderr?.toString()?.substring(0, 200) || e.message);
+    }
+  }
 }
 
 main().catch(e => { console.error('❌', e.message); process.exit(1); });
