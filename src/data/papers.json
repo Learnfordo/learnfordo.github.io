@@ -183,7 +183,7 @@
     "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
     "vendor": "华为",
     "date": "2026-04-16",
-    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "pdfUrl": "",
     "summary": "Pangu Embedded 双系统推理器技术报告。",
     "descriptionCn": "盘古 Embedded 双系统推理器技术报告，融合快速推理与深度思考。"
   },
@@ -201,7 +201,7 @@
     "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
     "vendor": "DeepSeek",
     "date": "2026-04-15",
-    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "pdfUrl": "",
     "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
     "descriptionCn": "DeepSeek V4 技术报告，面向百万级 Token 上下文的高效智能推理，引入多 Token 预测和 MLA 注意力机制。",
     "arxivId": null
@@ -278,7 +278,7 @@
     "title": "Qwen3.6-Max Technical Report",
     "vendor": "阿里 (Qwen)",
     "date": "2026-03-25",
-    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "pdfUrl": "",
     "summary": "Qwen3.6-Max 系列模型技术报告，性能对标 GPT-5 级别。",
     "descriptionCn": "Qwen3.6-Max 旗舰模型技术报告，在推理、编码和多语言方面性能对标国际一流。"
   },
@@ -392,7 +392,7 @@
     "title": "Phi-4-reasoning-vision-15B Technical Report",
     "vendor": "Microsoft",
     "date": "2026-03-04",
-    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "pdfUrl": "",
     "summary": "Phi-4 推理视觉模型技术报告，15B 参数量级。",
     "descriptionCn": "Phi-4 Reasoning 推理模型技术报告，小参数实现强推理能力。"
   },
@@ -420,7 +420,7 @@
     "title": "GLM-5: from Vibe Coding to Agentic Engineering",
     "vendor": "智谱 (GLM)",
     "date": "2026-02-17",
-    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "pdfUrl": "",
     "summary": "GLM-5 技术报告，展示从编码辅助到智能体工程的全面能力。",
     "descriptionCn": "GLM-5 大语言模型技术报告，支持智能体工程和复杂任务自动化。"
   },
@@ -448,7 +448,7 @@
     "title": "ERNIE 5.0 Technical Report",
     "vendor": "百度",
     "date": "2026-02-04",
-    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "pdfUrl": "",
     "summary": "文心大模型 ERNIE 5.0 技术报告。",
     "descriptionCn": "文心 ERNIE 5.0 大语言模型技术报告，百度最新旗舰 AI 模型。"
   },
@@ -466,7 +466,7 @@
     "title": "Kimi K2: Open Agentic Intelligence",
     "vendor": "Moonshot (Kimi)",
     "date": "2026-01-20",
-    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "pdfUrl": "",
     "summary": "Kimi K2 技术报告，开放式智能体架构与编码能力评测。",
     "descriptionCn": "Kimi K2 开放智能体架构模型技术报告，编码和工具调用能力卓越。"
   },
@@ -474,7 +474,7 @@
     "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
     "vendor": "Meta",
     "date": "2026-01-15",
-    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "pdfUrl": "",
     "summary": "Llama 4 系列模型技术报告，包括架构创新、训练策略和性能评测。",
     "descriptionCn": "Llama 4 开源大语言模型技术报告，采用 MoE 架构，性能和效率大幅提升。"
   },
