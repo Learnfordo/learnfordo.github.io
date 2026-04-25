@@ -9,21 +9,21 @@ const sorted = [...allPapers].sort((a, b) => (b.date || '').localeCompare(a.date
 const vendors = [...new Set(sorted.map(p => p.vendor).filter(Boolean))];
 
 const VENDOR_ICONS = {
-  'OpenAI': 'https://www.google.com/s2/favicons?domain=openai.com&sz=32',
-  'Google DeepMind': '/icons/vendors/googledeepmind.svg',
+  'OpenAI': '/icons/vendors/openai.svg',
+  'Google DeepMind': '/icons/vendors/deepmind.svg',
   'Meta': '/icons/vendors/meta.svg',
   'Anthropic': '/icons/vendors/anthropic.svg',
   'Mistral': '/icons/vendors/mistral.svg',
-  'DeepSeek': 'https://www.google.com/s2/favicons?domain=deepseek.com&sz=32',
+  'DeepSeek': '/icons/vendors/deepseek.svg',
   '智谱 (GLM)': '/icons/vendors/zhipu.svg',
-  '阿里 (Qwen)': 'https://www.google.com/s2/favicons?domain=aliyun.com&sz=32',
+  '阿里 (Qwen)': '/icons/vendors/qwen.svg',
   '百度': '/icons/vendors/baidu.svg',
   '字节跳动': '/icons/vendors/bytedance.svg',
   'Moonshot (Kimi)': '/icons/vendors/kimi.svg',
   'MiniMax': '/icons/vendors/minimax.svg',
   '科大讯飞': '/icons/vendors/iflytek.svg',
   '华为': '/icons/vendors/huawei.svg',
-  'Microsoft': 'https://www.google.com/s2/favicons?domain=microsoft.com&sz=32',
+  'Microsoft': '/icons/vendors/microsoft.svg',
 };
 function iconOf(v) { return VENDOR_ICONS[v] || ''; }
 ---
