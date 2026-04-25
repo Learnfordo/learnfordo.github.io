@@ -153,6 +153,22 @@
     "tags": []
   },
   {
+    "title": "Qwen3.5-Omni Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-04-17",
+    "arxivId": "2604.15804v2",
+    "pdfUrl": "https://arxiv.org/pdf/2604.15804v2",
+    "summary": "In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model family. Representing a significant evolution over its predecessor, Qwen3.5-Omni scales to hundreds of billions of parameters and supports a 256k context length. By leveraging a massive dataset comprising heterogeneo",
+    "tags": []
+  },
+  {
+    "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+    "vendor": "华为",
+    "date": "2026-04-16",
+    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "summary": "Pangu Embedded 双系统推理器技术报告。"
+  },
+  {
     "title": "Pangu-ACE: Adaptive Cascaded Experts for Educational Response Generation on EduBench",
     "vendor": "华为",
     "date": "2026-04-16",
@@ -162,6 +178,13 @@
     "tags": []
   },
   {
+    "title": "DeepSeek-V4 Technical Report",
+    "vendor": "DeepSeek",
+    "date": "2026-04-15",
+    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。"
+  },
+  {
     "title": "MOONSHOT : A Framework for Multi-Objective Pruning of Vision and Large Language Models",
     "vendor": "Moonshot (Kimi)",
     "date": "2026-04-14",
@@ -169,6 +192,22 @@
     "pdfUrl": "https://arxiv.org/pdf/2604.13287v1",
     "summary": "Weight pruning is a common technique for compressing large neural networks. We focus on the challenging post-training one-shot setting, where a pre-trained model is compressed without any retraining. Existing one-shot pruning methods typically optimize a single objective, such as a layer-wise recons",
     "tags": []
+  },
+  {
+    "title": "From GPT-3 to GPT-5: Mapping their capabilities, scope, limitations, and consequences",
+    "vendor": "OpenAI",
+    "date": "2026-04-11",
+    "arxivId": "2604.10332v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.10332v1",
+    "summary": "We present the progress of the GPT family from GPT-3 through GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4.1, and the GPT-5 family. Our work is comparative rather than merely historical. We investigates how the family evolved in technical framing, user interaction, modality, deployment architecture, an",
+    "tags": []
+  },
+  {
+    "title": "Claude Opus 4.6 Model Card",
+    "vendor": "Anthropic",
+    "date": "2026-04-10",
+    "pdfUrl": "https://www-cdn.anthropic.com/claude-opus-4.6-model-card.pdf",
+    "summary": "Claude Opus 4.6 模型技术报告，重点在安全对齐和推理能力。"
   },
   {
     "title": "Gemma 4, Phi-4, and Qwen3: Accuracy-Efficiency Tradeoffs in Dense and MoE Reasoning Language Models",
@@ -207,12 +246,35 @@
     "tags": []
   },
   {
+    "title": "Qwen3.6-Max Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-25",
+    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "summary": "Qwen3.6-Max 系列模型技术报告，性能对标 GPT-5 级别。"
+  },
+  {
     "title": "Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali",
     "vendor": "阿里 (Qwen)",
     "date": "2026-03-25",
     "arxivId": "2604.14171v1",
     "pdfUrl": "https://arxiv.org/pdf/2604.14171v1",
     "summary": "Romanized Nepali, the Nepali language written in the Latin alphabet, is the dominant medium for informal digital communication in Nepal, yet it remains critically underresourced in the landscape of Large Language Models (LLMs). This study presents a systematic benchmarking of linguistic adaptation a",
+    "tags": []
+  },
+  {
+    "title": "Gemini 3 Technical Report",
+    "vendor": "Google DeepMind",
+    "date": "2026-03-20",
+    "pdfUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_report.pdf",
+    "summary": "Gemini 3 多模态大模型技术报告。"
+  },
+  {
+    "title": "Global Convergence of Multiplicative Updates for the Matrix Mechanism: A Collaborative Proof with Gemini 3",
+    "vendor": "Google DeepMind",
+    "date": "2026-03-19",
+    "arxivId": "2603.19465v2",
+    "pdfUrl": "https://arxiv.org/pdf/2603.19465v2",
+    "summary": "We analyze a fixed-point iteration $v \\leftarrow φ(v)$ arising in the optimization of a regularized nuclear norm objective involving the Hadamard product structure, posed in DMR+22 in the context of an optimization problem over the space of algorithms in private machine learning. We prove that the i",
     "tags": []
   },
   {
@@ -232,6 +294,13 @@
     "pdfUrl": "https://arxiv.org/pdf/2603.16196v1",
     "summary": "Motion forecasting is a core task in autonomous driving systems, aiming to accurately predict the future trajectories of surrounding agents to ensure driving safety. Existing methods typically process discrete driving scenes independently, neglecting the temporal continuity and historical context co",
     "tags": []
+  },
+  {
+    "title": "GPT-5 System Card",
+    "vendor": "OpenAI",
+    "date": "2026-03-15",
+    "pdfUrl": "https://cdn.openai.com/gpt-5-system-card.pdf",
+    "summary": "GPT-5 系统技术报告，涵盖能力评测、安全对齐和多模态能力。"
   },
   {
     "title": "Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection",
@@ -270,31 +339,70 @@
     "tags": []
   },
   {
+    "title": "Evaluating GPT-5 as a Multimodal Clinical Reasoner: A Landscape Commentary",
+    "vendor": "OpenAI",
+    "date": "2026-03-05",
+    "arxivId": "2603.04763v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.04763v1",
+    "summary": "The transition from task-specific artificial intelligence toward general-purpose foundation models raises fundamental questions about their capacity to support the integrated reasoning required in clinical medicine, where diagnosis demands synthesis of ambiguous patient narratives, laboratory data, ",
+    "tags": []
+  },
+  {
     "title": "Phi-4-reasoning-vision-15B Technical Report",
     "vendor": "Microsoft",
     "date": "2026-03-04",
-    "arxivId": "2603.03975v1",
-    "pdfUrl": "https://arxiv.org/pdf/2603.03975v1",
-    "summary": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimoda",
+    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "summary": "Phi-4 推理视觉模型技术报告，15B 参数量级。"
+  },
+  {
+    "title": "Scaling In, Not Up? Testing Thick Citation Context Analysis with GPT-5 and Fragile Prompts",
+    "vendor": "OpenAI",
+    "date": "2026-02-25",
+    "arxivId": "2602.22359v1",
+    "pdfUrl": "https://arxiv.org/pdf/2602.22359v1",
+    "summary": "This paper tests whether large language models (LLMs) can support interpretative citation context analysis (CCA) by scaling in thick, text-grounded readings of a single hard case rather than scaling up typological labels. It foregrounds prompt-sensitivity analysis as a methodological issue by varyin",
+    "tags": []
+  },
+  {
+    "title": "SCHEMA for Gemini 3 Pro Image: A Structured Methodology for Controlled AI Image Generation on Google's Native Multimodal Model",
+    "vendor": "Google DeepMind",
+    "date": "2026-02-21",
+    "arxivId": "2602.18903v1",
+    "pdfUrl": "https://arxiv.org/pdf/2602.18903v1",
+    "summary": "This paper presents SCHEMA (Structured Components for Harmonized Engineered Modular Architecture), a structured prompt engineering methodology specifically developed for Google Gemini 3 Pro Image. Unlike generic prompt guidelines or model-agnostic tips, SCHEMA is an engineered framework built on sys",
     "tags": []
   },
   {
     "title": "GLM-5: from Vibe Coding to Agentic Engineering",
     "vendor": "智谱 (GLM)",
     "date": "2026-02-17",
-    "arxivId": "2602.15763v2",
-    "pdfUrl": "https://arxiv.org/pdf/2602.15763v2",
-    "summary": "We present GLM-5, a next-generation foundation model designed to transition the paradigm of vibe coding to agentic engineering. Building upon the agentic, reasoning, and coding (ARC) capabilities of its predecessor, GLM-5 adopts DSA to significantly reduce training and inference costs while maintain",
+    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "summary": "GLM-5 技术报告，展示从编码辅助到智能体工程的全面能力。"
+  },
+  {
+    "title": "GPT-5 vs Other LLMs in Long Short-Context Performance",
+    "vendor": "OpenAI",
+    "date": "2026-02-15",
+    "arxivId": "2602.14188v1",
+    "pdfUrl": "https://arxiv.org/pdf/2602.14188v1",
+    "summary": "With the significant expansion of the context window in Large Language Models (LLMs), these models are theoretically capable of processing millions of tokens in a single pass. However, research indicates a significant gap between this theoretical capacity and the practical ability of models to robus",
+    "tags": []
+  },
+  {
+    "title": "Compiler-Guided Inference-Time Adaptation: Improving GPT-5 Programming Performance in Idris",
+    "vendor": "OpenAI",
+    "date": "2026-02-12",
+    "arxivId": "2602.11481v1",
+    "pdfUrl": "https://arxiv.org/pdf/2602.11481v1",
+    "summary": "GPT-5, a state of the art large language model from OpenAI, demonstrates strong performance in widely used programming languages such as Python, C++, and Java; however, its ability to operate in low resource or less commonly used languages remains underexplored. This work investigates whether GPT-5 ",
     "tags": []
   },
   {
     "title": "ERNIE 5.0 Technical Report",
     "vendor": "百度",
     "date": "2026-02-04",
-    "arxivId": "2602.04705v1",
-    "pdfUrl": "https://arxiv.org/pdf/2602.04705v1",
-    "summary": "In this report, we introduce ERNIE 5.0, a natively autoregressive foundation model desinged for unified multimodal understanding and generation across text, image, video, and audio. All modalities are trained from scratch under a unified next-group-of-tokens prediction objective, based on an ultra-s",
-    "tags": []
+    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "summary": "文心大模型 ERNIE 5.0 技术报告。"
   },
   {
     "title": "Multimodal Multi-Agent Ransomware Analysis Using AutoGen",
@@ -306,12 +414,134 @@
     "tags": []
   },
   {
+    "title": "Kimi K2: Open Agentic Intelligence",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-01-20",
+    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "summary": "Kimi K2 技术报告，开放式智能体架构与编码能力评测。"
+  },
+  {
     "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
     "vendor": "Meta",
     "date": "2026-01-15",
-    "arxivId": "2601.11659v1",
-    "pdfUrl": "https://arxiv.org/pdf/2601.11659v1",
-    "summary": "This document consolidates publicly reported technical details about Metas Llama 4 model family. It summarizes (i) released variants (Scout and Maverick) and the broader herd context including the previewed Behemoth teacher model, (ii) architectural characteristics beyond a high-level MoE descriptio",
+    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "summary": "Llama 4 系列模型技术报告，包括架构创新、训练策略和性能评测。"
+  },
+  {
+    "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5",
+    "vendor": "Google DeepMind",
+    "date": "2026-01-15",
+    "arxivId": "2601.10527v2",
+    "pdfUrl": "https://arxiv.org/pdf/2601.10527v2",
+    "summary": "The rapid evolution of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has driven major gains in reasoning, perception, and generation across language and vision, yet whether these advances translate into comparable improvements in safety remains unclear, partly due to frag",
+    "tags": []
+  },
+  {
+    "title": "Beyond Gemini-3-Pro: Revisiting LLM Routing and Aggregation at Scale",
+    "vendor": "Google DeepMind",
+    "date": "2026-01-04",
+    "arxivId": "2601.01330v2",
+    "pdfUrl": "https://arxiv.org/pdf/2601.01330v2",
+    "summary": "Large Language Models (LLMs) have rapidly advanced, with Gemini-3-Pro setting a new performance milestone. In this work, we explore collective intelligence as an alternative to monolithic scaling, and demonstrate that open-source LLMs' collaboration can surpass Gemini-3-Pro. We first revisit LLM rou",
+    "tags": []
+  },
+  {
+    "title": "An Automated Retrieval-Augmented Generation LLaMA-4 109B-based System for Evaluating Radiotherapy Treatment Plans",
+    "vendor": "Meta",
+    "date": "2025-09-25",
+    "arxivId": "2509.20707v2",
+    "pdfUrl": "https://arxiv.org/pdf/2509.20707v2",
+    "summary": "Purpose: To develop a retrieval-augmented generation (RAG) system powered by LLaMA-4 109B for automated, protocol-aware, and interpretable evaluation of radiotherapy treatment plans. Methods and Materials: We curated a multi-protocol dataset of 614 radiotherapy plans across four disease sites and co",
+    "tags": []
+  },
+  {
+    "title": "Multilevel Analysis of Cryptocurrency News using RAG Approach with Fine-Tuned Mistral Large Language Model",
+    "vendor": "Mistral",
+    "date": "2025-08-25",
+    "arxivId": "2509.03527v1",
+    "pdfUrl": "https://arxiv.org/pdf/2509.03527v1",
+    "summary": "In the paper, we consider multilevel multitask analysis of cryptocurrency news using a fine-tuned Mistral 7B large language model with retrieval-augmented generation (RAG). On the first level of analytics, the fine-tuned model generates graph and text summaries with sentiment scores as well as JSON ",
+    "tags": []
+  },
+  {
+    "title": "Pangu Pro MoE: Mixture of Grouped Experts for Efficient Sparsity",
+    "vendor": "华为",
+    "date": "2025-05-27",
+    "arxivId": "2505.21411v2",
+    "pdfUrl": "https://arxiv.org/pdf/2505.21411v2",
+    "summary": "The surgence of Mixture of Experts (MoE) in Large Language Models promises a small price of execution cost for a much larger model parameter count and learning capacity, because only a small fraction of parameters are activated for each input token. However, it is commonly observed that some experts",
+    "tags": []
+  },
+  {
+    "title": "Pangu Light: Weight Re-Initialization for Pruning and Accelerating LLMs",
+    "vendor": "华为",
+    "date": "2025-05-26",
+    "arxivId": "2505.20155v1",
+    "pdfUrl": "https://arxiv.org/pdf/2505.20155v1",
+    "summary": "Large Language Models (LLMs) deliver state-of-the-art capabilities across numerous tasks, but their immense size and inference costs pose significant computational challenges for practical deployment. While structured pruning offers a promising avenue for model compression, existing methods often st",
+    "tags": []
+  },
+  {
+    "title": "Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs",
+    "vendor": "华为",
+    "date": "2025-05-07",
+    "arxivId": "2505.04519v1",
+    "pdfUrl": "https://arxiv.org/pdf/2505.04519v1",
+    "summary": "Sparse large language models (LLMs) with Mixture of Experts (MoE) and close to a trillion parameters are dominating the realm of most capable language models. However, the massive model scale poses significant challenges for the underlying software and hardware systems. In this paper, we aim to unco",
+    "tags": []
+  },
+  {
+    "title": "DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
+    "vendor": "DeepSeek",
+    "date": "2025-04-30",
+    "arxivId": "2504.21801v2",
+    "pdfUrl": "https://arxiv.org/pdf/2504.21801v2",
+    "summary": "We introduce DeepSeek-Prover-V2, an open-source large language model designed for formal theorem proving in Lean 4, with initialization data collected through a recursive theorem proving pipeline powered by DeepSeek-V3. The cold-start training procedure begins by prompting DeepSeek-V3 to decompose c",
+    "tags": []
+  },
+  {
+    "title": "Phi-4-reasoning Technical Report",
+    "vendor": "Microsoft",
+    "date": "2025-04-30",
+    "arxivId": "2504.21318v1",
+    "pdfUrl": "https://arxiv.org/pdf/2504.21318v1",
+    "summary": "We introduce Phi-4-reasoning, a 14-billion parameter reasoning model that achieves strong performance on complex reasoning tasks. Trained via supervised fine-tuning of Phi-4 on carefully curated set of \"teachable\" prompts-selected for the right level of complexity and diversity-and reasoning demonst",
+    "tags": []
+  },
+  {
+    "title": "Deep Learning with Pretrained 'Internal World' Layers: A Gemma 3-Based Modular Architecture for Wildfire Prediction",
+    "vendor": "Google DeepMind",
+    "date": "2025-04-20",
+    "arxivId": "2504.18562v1",
+    "pdfUrl": "https://arxiv.org/pdf/2504.18562v1",
+    "summary": "Deep learning models, especially large Transformers, carry substantial \"memory\" in their intermediate layers -- an \\emph{internal world} that encodes a wealth of relational and contextual knowledge. This work harnesses that internal world for wildfire occurrence prediction by introducing a modular a",
+    "tags": []
+  },
+  {
+    "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+    "vendor": "Microsoft",
+    "date": "2025-03-03",
+    "arxivId": "2503.01743v2",
+    "pdfUrl": "https://arxiv.org/pdf/2503.01743v2",
+    "summary": "We introduce Phi-4-Mini and Phi-4-Multimodal, compact yet highly capable language and multimodal models. Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the perform",
+    "tags": []
+  },
+  {
+    "title": "Phi-4 Technical Report",
+    "vendor": "Microsoft",
+    "date": "2024-12-12",
+    "arxivId": "2412.08905v1",
+    "pdfUrl": "https://arxiv.org/pdf/2412.08905v1",
+    "summary": "We present phi-4, a 14-billion parameter language model developed with a training recipe that is centrally focused on data quality. Unlike most language models, where pre-training is based primarily on organic data sources such as web content or code, phi-4 strategically incorporates synthetic data ",
+    "tags": []
+  },
+  {
+    "title": "Evaluating Students' Open-ended Written Responses with LLMs: Using the RAG Framework for GPT-3.5, GPT-4, Claude-3, and Mistral-Large",
+    "vendor": "Mistral",
+    "date": "2024-05-08",
+    "arxivId": "2405.05444v1",
+    "pdfUrl": "https://arxiv.org/pdf/2405.05444v1",
+    "summary": "Evaluating open-ended written examination responses from students is an essential yet time-intensive task for educators, requiring a high degree of effort, consistency, and precision. Recent developments in Large Language Models (LLMs) present a promising opportunity to balance the need for thorough",
     "tags": []
   }
 ]
