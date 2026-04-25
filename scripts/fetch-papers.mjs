@@ -41,18 +41,18 @@ const KNOWN_PAPERS = [
 
 // 精准 arXiv 搜索：只搜索模型名 + "technical report"
 const ARXIV_QUERIES = [
-  { vendor: 'OpenAI', query: 'ti:"GPT-5"+OR+abs:"GPT-5+technical+report"' },
-  { vendor: 'Google DeepMind', query: 'ti:"Gemini 3"+OR+ti:"Gemma 3"+OR+abs:"Gemini+3+technical+report"' },
-  { vendor: 'Meta', query: 'ti:"Llama 4"+OR+ti:"LLaMA 4"' },
-  { vendor: 'Anthropic', query: 'ti:"Claude Opus 4"+OR+ti:"Claude 5"+OR+abs:"Claude+model+card"' },
-  { vendor: 'Mistral', query: 'ti:"Mistral Large"+OR+ti:"Pixtral Large"' },
-  { vendor: 'DeepSeek', query: 'ti:"DeepSeek-V4"+OR+ti:"DeepSeek-R2"+OR+ti:"DeepSeek-Prover-V2"' },
-  { vendor: '智谱 (GLM)', query: 'ti:"GLM-5"+OR+ti:"GLM-5.1"+OR+abs:"GLM-5+technical+report"' },
-  { vendor: '阿里 (Qwen)', query: 'ti:"Qwen3.6"+OR+ti:"Qwen3.5"+OR+abs:"Qwen+technical+report"' },
-  { vendor: '百度', query: 'ti:"ERNIE 5"+OR+ti:"ERNIE+5.0"+OR+abs:"ERNIE+technical+report"' },
-  { vendor: 'Moonshot (Kimi)', query: 'ti:"Kimi-K2"+OR+ti:"Kimi k2.6"+OR+abs:"Kimi+K2+technical+report"' },
-  { vendor: '华为', query: 'ti:"Pangu"+AND+ti:"technical+report" OR ti:"Pangu"+AND+cat:cs.CL' },
-  { vendor: 'Microsoft', query: 'ti:"Phi-4"+AND+ti:"Technical+Report" OR ti:"BitNet b1.58"+AND+ti:"Technical+Report"' },
+  { vendor: 'OpenAI', query: 'all:"GPT-5"+AND+all:"technical+report" OR all:"GPT-5"+AND+all:"system+card"' },
+  { vendor: 'Google DeepMind', query: 'all:"Gemini 3"+AND+all:"technical+report" OR all:"Gemma 3"+AND+all:"technical+report"' },
+  { vendor: 'Meta', query: 'all:"Llama 4"+AND+all:technical' },
+  { vendor: 'Anthropic', query: 'all:"Claude Opus 4" OR all:"Claude 5"+AND+all:"model"' },
+  { vendor: 'Mistral', query: 'all:"Mistral Large" OR all:"Pixtral Large"' },
+  { vendor: 'DeepSeek', query: 'all:DeepSeek-V4 OR all:"DeepSeek V4" OR all:DeepSeek-R2 OR all:"DeepSeek Prover"' },
+  { vendor: '智谱 (GLM)', query: 'all:"GLM-5"+AND+all:technical OR all:"GLM-5.1"' },
+  { vendor: '阿里 (Qwen)', query: 'all:"Qwen3.6" OR all:"Qwen3.5"+AND+all:technical' },
+  { vendor: '百度', query: 'all:"ERNIE 5" OR all:"ERNIE+5.0"+AND+all:technical' },
+  { vendor: 'Moonshot (Kimi)', query: 'all:"Kimi K2"+AND+all:technical OR all:"Kimi k2.6"' },
+  { vendor: '华为', query: 'all:Pangu+AND+all:technical+AND+cat:cs.*' },
+  { vendor: 'Microsoft', query: 'all:"Phi-4"+AND+all:technical OR all:BitNet+AND+all:technical+AND+cat:cs.*' },
 ];
 
 function titleKeywords(title) {

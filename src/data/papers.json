@@ -198,12 +198,13 @@
     "descriptionCn": "盘古系列大语言模型技术报告，华为自研 AI 大模型。"
   },
   {
-    "title": "DeepSeek-V4 Technical Report",
+    "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
     "vendor": "DeepSeek",
     "date": "2026-04-15",
     "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
     "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
-    "descriptionCn": "DeepSeek V4 技术报告，引入多 Token 预测机制和高效推理架构。"
+    "descriptionCn": "DeepSeek V4 技术报告，面向百万级 Token 上下文的高效智能推理，引入多 Token 预测和 MLA 注意力机制。",
+    "arxivId": null
   },
   {
     "title": "MOONSHOT : A Framework for Multi-Objective Pruning of Vision and Large Language Models",
