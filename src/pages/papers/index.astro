@@ -8,24 +8,6 @@ const allPapers = (rawData?.default || rawData || []);
 const sorted = [...allPapers].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 const vendors = [...new Set(sorted.map(p => p.vendor).filter(Boolean))];
 
-const VENDOR_ICONS = {
-  'OpenAI': 'https://openai.com/favicon.ico',
-  'Google DeepMind': '/icons/vendors/deepmind.png',
-  'Meta': '/icons/vendors/meta.png',
-  'Anthropic': '/icons/vendors/anthropic.png',
-  'Mistral': 'https://mistral.ai/favicon.ico',
-  'DeepSeek': '/icons/vendors/deepseek.png',
-  '智谱 (GLM)': '/icons/vendors/zhipu.png',
-  '阿里 (Qwen)': '/icons/vendors/qwen.png',
-  '百度': '/icons/vendors/baidu.png',
-  '字节跳动': '/icons/vendors/bytedance.png',
-  'Moonshot (Kimi)': '/icons/vendors/kimi.png',
-  'MiniMax': '/icons/vendors/minimax.png',
-  '科大讯飞': '/icons/vendors/iflytek.png',
-  '华为': '/icons/vendors/huawei.png',
-  'Microsoft': '/icons/vendors/microsoft.png',
-};
-function iconOf(v) { return VENDOR_ICONS[v] || ''; }
 ---
 
 <BaseLayout>
@@ -33,10 +15,8 @@ function iconOf(v) { return VENDOR_ICONS[v] || ''; }
 
   <section class="section" style="padding-top: 64px; padding-bottom: 80px;">
     <div class="wrap">
-      <h1 style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 4px;">📚 论文库</h1>
-      <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 28px;">
-        Top 15 AI 厂商的新模型技术报告 · 每日 00:04 / 12:07 自动更新
-      </p>
+      <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">论文库</h1>
+      <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">Top 15 AI 厂商发布的新模型论文，每日自动更新 · 论文 PDF 可直接预览/下载</p>
 
       <!-- 厂商筛选 -->
       <div id="vendor-filters" style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; align-items: center;">
@@ -47,7 +27,6 @@ function iconOf(v) { return VENDOR_ICONS[v] || ''; }
           <button class="v-filter" data-vendor={v}
             style="display: inline-flex; align-items: center; gap: 5px; padding: 5px 14px; border-radius: 24px; border: 1.5px solid var(--border); background: var(--bg-card); color: var(--text-secondary); font-size: 12px; cursor: pointer; transition: all 0.2s;"
           >
-            <img src={iconOf(v)} alt={v} style="width:18px;height:18px;border-radius:4px;flex-shrink:0;" />
             {v}（{sorted.filter(p => p.vendor === v).length}）
           </button>
         ))}
@@ -60,7 +39,6 @@ function iconOf(v) { return VENDOR_ICONS[v] || ''; }
             style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; margin-bottom: 12px; transition: all 0.2s;"
           >
             <div style="display: flex; gap: 14px; align-items: flex-start;">
-              <img src={iconOf(paper.vendor)} alt={paper.vendor} title={paper.vendor}
                 style="width:28px;height:28px;border-radius:6px;flex-shrink:0;margin-top:2px;" />
               <div style="flex:1; min-width:0;">
                 <div class="paper-meta" style="display:flex; align-items:center; gap:8px; margin-bottom:5px; flex-wrap:wrap;">
