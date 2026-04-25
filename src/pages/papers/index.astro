@@ -3,19 +3,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 
-// 读取 papers.json 数据
 const rawData = await import('../../data/papers.json');
-const papers = (rawData?.default || rawData || []);
+const allPapers = (rawData?.default || rawData || []);
 
-// 按月份分组
-const grouped = {};
-for (const paper of papers) {
-  const monthKey = paper.date?.substring(0, 7) || 'unknown';
-  const label = `${paper.date?.substring(0, 4) || '?'} 年 ${parseInt(paper.date?.substring(5, 7) || '1')} 月`;
-  if (!grouped[monthKey]) grouped[monthKey] = { label, papers: [] };
-  grouped[monthKey].papers.push(paper);
-}
-const months = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
+// 按日期降序排列
+const sorted = [...allPapers].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+// 提取所有厂商（去重）
+const vendors = [...new Set(sorted.map(p => p.vendor).filter(Boolean))];
 ---
 
 <BaseLayout>
@@ -23,47 +18,115 @@ const months = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
 
   <section class="section" style="padding-top: 64px;">
     <div class="wrap">
-      <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px;">论文库</h1>
-      <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 36px;">
-        Top 15 AI 厂商发布的新模型论文，每日自动更新 · 论文 PDF 可直接预览/下载
+      <h1 style="font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 4px;">论文库</h1>
+      <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 24px;">
+        Top 15 AI 厂商新模型论文，每日自动更新 · 支持 PDF 预览/下载
       </p>
 
-      {Array.isArray(months) && months.map(([key, { label, papers: monthPapers }]) => (
-        <>
-          <h2 style="font-size: 22px; font-weight: 600; margin: 32px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">{label}</h2>
-          {Array.isArray(monthPapers) && monthPapers.map((paper) => (
-            <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-              <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px;">
-                {paper?.title || '无标题'}
-              </h3>
-              <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">
-                {paper?.vendor || ''} · {paper?.date || ''}
-                {paper?.arxivId && ` · arXiv ${paper.arxivId}`}
-              </p>
-              <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-                {paper?.summary || ''}
-              </p>
-              <div style="display: flex; gap: 8px; margin-top: 12px; align-items: center; flex-wrap: wrap;">
-                {Array.isArray(paper?.tags) && paper.tags.map((tag) => (
-                  <span style="font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px;">{tag}</span>
-                ))}
-                {paper?.pdfUrl && (
-                  <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer"
-                    style="font-size: 12px; color: var(--accent); display: inline-flex; align-items: center; gap: 4px; text-decoration: none; font-weight: 600;">
+      <!-- 厂商筛选 -->
+      <div id="vendor-filters" style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px;">
+        <button class="filter-btn active" data-vendor="all" style="
+          padding: 6px 16px; border-radius: 20px; border: 1px solid var(--accent);
+          background: var(--accent); color: #fff; font-size: 13px; cursor: pointer;
+          transition: all 0.2s; font-weight: 600;
+        ">全部 ({sorted.length})</button>
+        {vendors.map(v => (
+          <button class="filter-btn" data-vendor={v} style="
+            padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
+            background: var(--bg-card); color: var(--text-secondary); font-size: 13px;
+            cursor: pointer; transition: all 0.2s;
+          ">{v} ({sorted.filter(p => p.vendor === v).length})</button>
+        ))}
+      </div>
+
+      <!-- 论文列表 -->
+      <div id="papers-list">
+        {sorted.map((paper, i) => (
+          <div class="paper-card" data-vendor={paper.vendor || ''} style="
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 12px; padding: 20px 24px; margin-bottom: 12px;
+            transition: opacity 0.2s;
+          ">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;">
+              <div style="flex: 1; min-width: 0;">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                  <span style="font-size: 12px; color: var(--accent); background: var(--accent-soft); padding: 2px 10px; border-radius: 12px; font-weight: 600;">{paper.vendor}</span>
+                  <span style="font-size: 12px; color: var(--text-muted);">{paper.date}</span>
+                  {paper.arxivId && <span style="font-size: 11px; color: var(--text-muted);">arXiv {paper.arxivId.replace(/v\d+$/, '')}</span>}
+                </div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 6px; line-height: 1.5;">
+                  {paper.title}
+                </h3>
+                <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                  {paper.descriptionCn || paper.summary?.substring(0, 200) || '暂无简介'}
+                </p>
+              </div>
+              <div style="flex-shrink: 0; display: flex; gap: 6px;">
+                {paper.pdfUrl && (
+                  <a href={paper.pdfUrl} target="_blank" rel="noopener noreferrer" title="查看 PDF"
+                    style="font-size: 12px; color: var(--accent); border: 1px solid var(--accent); padding: 6px 14px; border-radius: 8px; text-decoration: none; font-weight: 600; white-space: nowrap;">
                     📄 PDF
                   </a>
                 )}
               </div>
             </div>
-          ))}
-        </>
-      ))}
+          </div>
+        ))}
+      </div>
 
-      {!Array.isArray(papers) || papers.length === 0 ? (
-        <p style="font-size: 14px; color: var(--text-secondary);">暂无论文数据，等待自动抓取...</p>
-      ) : null}
+      {sorted.length === 0 && (
+        <p style="font-size: 14px; color: var(--text-secondary); text-align: center; padding: 40px 0;">暂无论文数据，等待自动抓取...</p>
+      )}
     </div>
   </section>
 
   <Footer />
 </BaseLayout>
+
+<script>
+  // 前端筛选逻辑
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.paper-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const vendor = btn.dataset.vendor;
+
+      // 按钮样式
+      buttons.forEach(b => {
+        if (b.dataset.vendor === vendor) {
+          b.style.background = 'var(--accent)';
+          b.style.color = '#fff';
+          b.style.borderColor = 'var(--accent)';
+          b.classList.add('active');
+        } else {
+          b.style.background = 'var(--bg-card)';
+          b.style.color = 'var(--text-secondary)';
+          b.style.borderColor = 'var(--border)';
+          b.classList.remove('active');
+        }
+      });
+
+      // 筛选卡片
+      cards.forEach(card => {
+        if (vendor === 'all' || card.dataset.vendor === vendor) {
+          card.style.display = '';
+          card.style.opacity = '1';
+        } else {
+          card.style.display = 'none';
+          card.style.opacity = '0';
+        }
+      });
+    });
+  });
+</script>
+
+<style is:global>
+  .filter-btn:hover {
+    border-color: var(--accent) !important;
+    color: var(--accent) !important;
+  }
+  .filter-btn.active:hover {
+    color: #fff !important;
+  }
+</style>

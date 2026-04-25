@@ -9,7 +9,6 @@
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = `${__dirname}/../src/data/papers.json`;
@@ -148,6 +147,11 @@ async function main() {
     }
   }
 
+  // 生成中文简介
+  for (const p of base) {
+    if (!p.descriptionCn) p.descriptionCn = cnDesc(p);
+  }
+
   base.sort((a, b) => b.date.localeCompare(a.date));
 
   writeFileSync(OUTPUT_PATH, JSON.stringify(base, null, 2));
@@ -155,3 +159,65 @@ async function main() {
 }
 
 main().catch(e => { console.error('❌', e.message); process.exit(1); });
+
+// === 中文简介生成 ===
+function cnDesc(paper) {
+  const rules = [
+    [/GPT-5/, 'GPT-5 旗舰大语言模型技术报告，涵盖多模态能力、推理性能和安全性评测。'],
+    [/Gemini.?3/, 'Gemini 3 多模态大模型技术报告，在视觉理解、推理和代码生成方面有显著提升。'],
+    [/Gemma.?3/, 'Gemma 3 轻量级开源大语言模型技术报告，适合端侧部署和高效推理。'],
+    [/Llama.?4/, 'Llama 4 开源大语言模型技术报告，采用 MoE 架构，性能和效率大幅提升。'],
+    [/Claude.*Opus.?4/, 'Claude Opus 4 旗舰模型技术报告，在安全对齐和复杂推理方面达到新高度。'],
+    [/DeepSeek.*V4/, 'DeepSeek V4 技术报告，引入多 Token 预测机制和高效推理架构。'],
+    [/DeepSeek.*Prover/, 'DeepSeek Prover 数学定理证明模型技术报告，在形式化验证方面取得突破。'],
+    [/GLM-5/, 'GLM-5 大语言模型技术报告，支持智能体工程和复杂任务自动化。'],
+    [/Qwen3\.6/, 'Qwen3.6-Max 旗舰模型技术报告，在推理、编码和多语言方面性能对标国际一流。'],
+    [/Qwen3\.5.*Omni/, 'Qwen3.5-Omni 全模态大模型技术报告，统一文本、图像、音频理解和生成。'],
+    [/Qwen3/, 'Qwen3 大语言模型技术报告，开源 MoE 架构，性能优异。'],
+    [/ERNIE.?5/, '文心 ERNIE 5.0 大语言模型技术报告，百度最新旗舰 AI 模型。'],
+    [/Kimi.?K2/, 'Kimi K2 开放智能体架构模型技术报告，编码和工具调用能力卓越。'],
+    [/Kimi.*k2\.6/, 'Kimi K2.6 最新版本模型技术报告，推理和 Agent 能力进一步增强。'],
+    [/Pangu.*Embedded/, '盘古 Embedded 双系统推理器技术报告，融合快速推理与深度思考。'],
+    [/Pangu.*Pro.*MoE/, '盘古 Pro MoE 混合专家模型技术报告，高效稀疏化训练。'],
+    [/Pangu.*Ultra.*MoE/, '盘古 Ultra MoE 大规模混合专家模型技术报告，在昇腾 NPU 上训练。'],
+    [/Pangu.*Light/, '盘古 Light 高效剪枝与加速推理技术报告。'],
+    [/Pangu/, '盘古系列大语言模型技术报告，华为自研 AI 大模型。'],
+    [/Phi-4.*reasoning/, 'Phi-4 Reasoning 推理模型技术报告，小参数实现强推理能力。'],
+    [/Phi-4.*Mini/, 'Phi-4 Mini 紧凑多模态模型技术报告，适合移动端和边缘部署。'],
+    [/Phi-4/, 'Phi-4 高效小模型技术报告，微软小模型系列最新进展。'],
+    [/BitNet/, 'BitNet 量化模型技术报告，极致压缩高效推理。'],
+    [/MAGNET/, 'MAGNET 自主专家模型生成框架技术报告，去中心化自动研究。'],
+    [/AutoGen/, 'AutoGen 多智能体框架技术报告，微软多 Agent 协作平台。'],
+    [/CogVideoX/, 'CogVideoX 文本到视频扩散模型技术报告，智谱多模态生成最新进展。'],
+    [/CogAgent/, 'CogAgent 视觉语言 GUI 智能体模型技术报告。'],
+    [/Mistral/, 'Mistral 开源大语言模型技术报告，欧洲领先 AI 模型。'],
+    [/Mixtral/, 'Mixtral MoE 混合专家模型技术报告，高效开源大模型。'],
+    [/Pixtral/, 'Pixtral 多模态视觉语言模型技术报告。'],
+  ];
+  for (const [re, desc] of rules) if (re.test(paper.title)) return desc;
+
+  const vendorDesc = {
+    'OpenAI': 'OpenAI 发布的新一代大语言模型。',
+    'Google DeepMind': 'Google DeepMind 发布的最新 AI 模型。',
+    'Meta': 'Meta AI 开源大语言模型。',
+    'Anthropic': 'Anthropic 发布的安全对齐大语言模型。',
+    'DeepSeek': 'DeepSeek 深度求索发布的最新 AI 模型。',
+    '智谱 (GLM)': '智谱 AI 发布的 GLM 系列大语言模型。',
+    '阿里 (Qwen)': '阿里云通义千问 Qwen 系列大语言模型。',
+    '百度': '百度文心 ERNIE 系列大语言模型。',
+    'Moonshot (Kimi)': '月之暗面 Kimi 系列模型。',
+    '华为': '华为盘古 Pangu 系列大语言模型。',
+    'Microsoft': '微软 Phi / BitNet 系列模型。',
+    'Mistral': 'Mistral AI 开源大语言模型。',
+    'MiniMax': 'MiniMax 发布的最新 AI 大模型。',
+  }[paper.vendor] || `${paper.vendor} 发布的最新 AI 模型。`;
+
+  const s = paper.summary?.toLowerCase() || '';
+  if (s.includes('code') || s.includes('programming')) return vendorDesc + ' 侧重编码和程序生成能力。';
+  if (s.includes('reasoning') || s.includes('math')) return vendorDesc + ' 强调数学推理和逻辑能力。';
+  if (s.includes('vision') || s.includes('image')) return vendorDesc + ' 具备视觉理解或多模态能力。';
+  if (s.includes('safety') || s.includes('alignment')) return vendorDesc + ' 关注安全对齐和可控性。';
+  if (s.includes('agent') || s.includes('tool')) return vendorDesc + ' 专注于 Agent 和工具调用能力。';
+  if (s.includes('efficien') || s.includes('sparse')) return vendorDesc + ' 聚焦模型效率和推理优化。';
+  return vendorDesc;
+}
