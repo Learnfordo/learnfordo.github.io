@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T04:31:40.561Z",
+  "updatedAt": "2026-04-25T05:06:21.927Z",
   "items": [
     {
       "date": "2026-04-24",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 824
+      "score": 833
     },
     {
       "date": "2026-04-24",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 435
+      "score": 449
     },
     {
       "date": "2026-04-24",
@@ -32,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 176
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
-      "summary": "via github.com",
-      "url": "https://github.com/browser-use/browser-harness",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 92
+      "score": 181
     },
     {
       "date": "2026-04-23",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 148
+      "score": 153
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "summary": "via github.com",
+      "url": "https://github.com/browser-use/browser-harness",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 92
     },
     {
       "date": "2026-04-24",
