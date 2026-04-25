@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-04-25T05:31:05.663Z",
+  "updatedAt": "2026-04-25T05:36:57.568Z",
   "items": [
+    {
+      "date": "2026-04-24",
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "summary": "via nickyreinert.de",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 840
+    },
     {
       "date": "2026-04-24",
       "title": "Google plans to invest up to $40B in Anthropic",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 461
+      "score": 463
     },
     {
       "date": "2026-04-24",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 184
+      "score": 187
     },
     {
       "date": "2026-04-23",
@@ -112,18 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 153
-    },
-    {
-      "date": "2026-04-24",
-      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
-      "summary": "via nickyreinert.de",
-      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 833
+      "score": 154
     },
     {
       "date": "2026-04-24",
