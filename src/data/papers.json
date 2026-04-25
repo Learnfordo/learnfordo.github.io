@@ -1,5 +1,14 @@
 [
   {
+    "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+    "vendor": "DeepSeek",
+    "date": "2026-04-24",
+    "pdfUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/main/DeepSeek_V4.pdf",
+    "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
+    "descriptionCn": "《DeepSeek-V4: Towards Highly 高效 Million-Token Context Intelligence》— 深度求索最新旗舰模型，支持百万 Token 超长上下文，多 Token 预测与 MLA 注意力机制大幅提升推理效率。",
+    "arxivId": null
+  },
+  {
     "title": "Qwen3.5-Omni Technical Report",
     "vendor": "阿里 (Qwen)",
     "date": "2026-04-17",
@@ -10,21 +19,19 @@
     "descriptionCn": "《Qwen3.5-Omni 技术报告》— 通义千问全模态大模型，统一文本、图像、音频的理解与生成能力。"
   },
   {
-    "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-    "vendor": "DeepSeek",
-    "date": "2026-04-24",
-    "pdfUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/main/DeepSeek_V4.pdf",
-    "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
-    "descriptionCn": "《DeepSeek-V4: Towards Highly 高效 Million-Token Context Intelligence》— 深度求索最新旗舰模型，支持百万 Token 超长上下文，多 Token 预测与 MLA 注意力机制大幅提升推理效率。",
-    "arxivId": null
-  },
-  {
     "title": "Claude Opus 4.6 Model Card",
     "vendor": "Anthropic",
     "date": "2026-04-10",
     "pdfUrl": "https://www-cdn.anthropic.com/claude-opus-4.6-model-card.pdf",
     "summary": "Claude Opus 4.6 模型技术报告，重点在安全对齐和推理能力。",
     "descriptionCn": "《Claude Opus 4.6 模型卡》— Anthropic 旗舰安全大语言模型，专注于复杂推理、长文本理解和可信 AI 对齐。"
+  },
+  {
+    "title": "Kimi K2: Open Agentic Intelligence",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-04-08",
+    "pdfUrl": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/kimi_k2_report.pdf",
+    "descriptionCn": "《Kimi K2：开放智能体》— Moonshot 最新开源 MoE 模型，Agentic Coding SOTA。"
   },
   {
     "title": "Gemini 3 Technical Report",
@@ -41,5 +48,37 @@
     "pdfUrl": "https://cdn.openai.com/gpt-5-system-card.pdf",
     "summary": "GPT-5 系统技术报告，涵盖能力评测、安全对齐和多模态能力。",
     "descriptionCn": "《GPT-5 系统卡》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+  },
+  {
+    "title": "Qwen2.5 Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2025-01-23",
+    "pdfUrl": "https://arxiv.org/pdf/2412.15115",
+    "arxivId": "2412.15115v1",
+    "descriptionCn": "《Qwen2.5 技术报告》— 通义千问 2.5 系列开源模型，覆盖 0.5B 到 72B。"
+  },
+  {
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "vendor": "DeepSeek",
+    "date": "2025-01-20",
+    "pdfUrl": "https://arxiv.org/pdf/2501.12948",
+    "arxivId": "2501.12948v1",
+    "descriptionCn": "《DeepSeek-R1：通过强化学习激发大语言模型推理能力》— 首个通过纯 RL 训练达到 OpenAI o1 级别推理的开放模型。"
+  },
+  {
+    "title": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+    "vendor": "MiniMax",
+    "date": "2025-01-15",
+    "pdfUrl": "https://arxiv.org/pdf/2501.08313",
+    "arxivId": "2501.08313v1",
+    "descriptionCn": "《MiniMax-01：闪电注意力扩展基础模型》— 456B 参数 MoE 模型，闪电注意力线性复杂度。"
+  },
+  {
+    "title": "DeepSeek-V3 Technical Report",
+    "vendor": "DeepSeek",
+    "date": "2024-12-26",
+    "pdfUrl": "https://arxiv.org/pdf/2412.19437",
+    "arxivId": "2412.19437v1",
+    "descriptionCn": "《DeepSeek-V3 技术报告》— 671B 参数 MoE 架构，训练成本仅 557 万美元。"
   }
 ]
