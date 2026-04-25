@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-04-25T08:04:47.218Z",
+  "updatedAt": "2026-04-25T16:08:16.962Z",
   "items": [
     {
       "date": "2026-04-25",
-      "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
+      "title": "Plain text has been around for decades and it’s here to stay",
       "summary": "via unsung.aresluna.org",
       "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 71
+      "score": 197
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "summary": "via github.com",
+      "url": "https://github.com/nex-crm/wuphf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 158
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "summary": "via alash3al.github.io",
+      "url": "https://alash3al.github.io/stash?_v01",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
     },
     {
       "date": "2026-04-24",
@@ -21,18 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 550
-    },
-    {
-      "date": "2026-04-24",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
+      "score": 709
     },
     {
       "date": "2026-04-23",
@@ -113,6 +124,39 @@
       "url": "https://arxiv.org/abs/2604.21903v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "1-Bit Hokusai's \"The Great Wave\" (2023)",
+      "summary": "via www.hypertalking.com",
+      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 226
+    },
+    {
+      "date": "2026-04-25",
+      "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
+      "summary": "via unsung.aresluna.org",
+      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 71
+    },
+    {
+      "date": "2026-04-24",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 212
     },
     {
       "date": "2026-04-23",
@@ -425,41 +469,6 @@
       "url": "https://arxiv.org/abs/2604.19728v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Benign Overfitting in Adversarial Training for Vision Transformers",
-      "summary": "Despite the remarkable success of Vision Transformers (ViTs) across a wide range of vision tasks, recent studies have revealed that they remain vulnerable to adversarial examples, much like Convolutio",
-      "url": "https://arxiv.org/abs/2604.19724v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Adaptive MSD-Splitting: Enhancing C4.5 and Random Forests for Skewed Continuous Attributes",
-      "summary": "The discretization of continuous numerical attributes remains a persistent computational bottleneck in the induction of decision trees, particularly as dataset dimensions scale. Building upon the rece",
-      "url": "https://arxiv.org/abs/2604.19722v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Discovering a Shared Logical Subspace: Steering LLM Logical Reasoning via Alignment of Natural-Language and Symbolic Views",
-      "summary": "Large Language Models (LLMs) still struggle with multi-step logical reasoning. Existing approaches either purely refine the reasoning chain in natural language form or attach a symbolic solver as an e",
-      "url": "https://arxiv.org/abs/2604.19716v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "ChatGPT Images 2.0",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 920
     }
   ]
 }
