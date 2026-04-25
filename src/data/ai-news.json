@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T01:05:38.205Z",
+  "updatedAt": "2026-04-25T04:21:53.444Z",
   "items": [
     {
       "date": "2026-04-24",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 766
+      "score": 821
     },
     {
       "date": "2026-04-24",
@@ -21,29 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 294
-    },
-    {
-      "date": "2026-04-24",
-      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-      "summary": "via developers.openai.com",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 211
-    },
-    {
-      "date": "2026-04-24",
-      "title": "SFO Quiet Airport (2025)",
-      "summary": "via viewfromthewing.com",
-      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 126
+      "score": 426
     },
     {
       "date": "2026-04-24",
@@ -54,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 120
+      "score": 176
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "summary": "via github.com",
+      "url": "https://github.com/browser-use/browser-harness",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 91
     },
     {
       "date": "2026-04-23",
@@ -135,6 +124,39 @@
       "url": "https://arxiv.org/abs/2604.21903v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Email could have been X.400 times better",
+      "summary": "via buttondown.com",
+      "url": "https://buttondown.com/blog/x400-vs-smtp-email",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 146
+    },
+    {
+      "date": "2026-04-24",
+      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "summary": "via developers.openai.com",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 211
+    },
+    {
+      "date": "2026-04-24",
+      "title": "SFO Quiet Airport (2025)",
+      "summary": "via viewfromthewing.com",
+      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 126
     },
     {
       "date": "2026-04-23",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 679
-    },
-    {
-      "date": "2026-04-20",
-      "title": "All your agents are going async",
-      "summary": "via zknill.io",
-      "url": "https://zknill.io/posts/all-your-agents-are-going-async/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 85
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Claude Code to be removed from Anthropic's Pro plan?",
-      "summary": "via bsky.app",
-      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 426
     }
   ]
 }
