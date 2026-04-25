@@ -65,6 +65,7 @@ const experiences = [
           <div class="role">AI / Agent / 算法 资深产品经理</div>
           <div class="contact">
             gaojiaqiang_china@163.com · 135 8824 0809<br />
+            <span class="credential-badge">E类</span><span class="credential-label">杭州市高层次人才</span><br />
             座右铭：细想全是问题，去做全是答案
           </div>
         </div>
@@ -126,4 +127,22 @@ const experiences = [
   </section>
 
   <Footer />
+<style is:global>
+.credential-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 2px 4px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+.credential-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-left: 4px;
+  line-height: 1.4;
+}
+</style>
 </BaseLayout>
