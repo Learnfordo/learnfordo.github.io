@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-04-26T04:46:34.906Z",
+  "updatedAt": "2026-04-26T09:46:14.152Z",
   "items": [
+    {
+      "date": "2026-04-26",
+      "title": "GnuPG – post-quantum crypto landing in mainline",
+      "summary": "via lists.gnupg.org",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
+    },
     {
       "date": "2026-04-25",
       "title": "Amateur armed with ChatGPT solves an Erdős problem",
@@ -10,18 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 173
+      "score": 374
     },
     {
       "date": "2026-04-25",
-      "title": "GPT‑5.5 Bio Bug Bounty",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "title": "Hokusai and Tesselations",
+      "summary": "via dl.ndl.go.jp",
+      "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 140
+      "score": 108
     },
     {
       "date": "2026-04-23",
@@ -112,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 149
+      "score": 209
+    },
+    {
+      "date": "2026-04-25",
+      "title": "GPT‑5.5 Bio Bug Bounty",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 140
     },
     {
       "date": "2026-04-22",
@@ -460,22 +482,6 @@
       "title": "Phase Transitions in the Fluctuations of Functionals of Random Neural Networks",
       "summary": "We establish central and non-central limit theorems for sequences of functionals of the Gaussian output of an infinitely-wide random neural network on the d-dimensional sphere . We show that the asymp",
       "url": "https://arxiv.org/abs/2604.19738v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Safe Continual Reinforcement Learning in Non-stationary Environments",
-      "summary": "Reinforcement learning (RL) offers a compelling data-driven paradigm for synthesizing controllers for complex systems when accurate physical models are unavailable; however, most existing control-orie",
-      "url": "https://arxiv.org/abs/2604.19737v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
-      "summary": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fun",
-      "url": "https://arxiv.org/abs/2604.19734v1",
       "tags": [],
       "source": "arXiv"
     }
