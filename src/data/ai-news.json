@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-04-25T16:08:16.962Z",
+  "updatedAt": "2026-04-26T04:46:34.906Z",
   "items": [
     {
       "date": "2026-04-25",
-      "title": "Plain text has been around for decades and it’s here to stay",
-      "summary": "via unsung.aresluna.org",
-      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+      "title": "Amateur armed with ChatGPT solves an Erdős problem",
+      "summary": "via www.scientificamerican.com",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 197
+      "score": 173
     },
     {
       "date": "2026-04-25",
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "summary": "via github.com",
-      "url": "https://github.com/nex-crm/wuphf",
+      "title": "GPT‑5.5 Bio Bug Bounty",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 158
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-      "summary": "via alash3al.github.io",
-      "url": "https://alash3al.github.io/stash?_v01",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Google plans to invest up to $40B in Anthropic",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 709
+      "score": 140
     },
     {
       "date": "2026-04-23",
@@ -126,6 +104,17 @@
       "source": "arXiv"
     },
     {
+      "date": "2026-04-23",
+      "title": "OpenAI Privacy Filter",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 149
+    },
+    {
       "date": "2026-04-22",
       "title": "1-Bit Hokusai's \"The Great Wave\" (2023)",
       "summary": "via www.hypertalking.com",
@@ -134,7 +123,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 226
+      "score": 538
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Plain text has been around for decades and it’s here to stay",
+      "summary": "via unsung.aresluna.org",
+      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 197
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "summary": "via github.com",
+      "url": "https://github.com/nex-crm/wuphf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 158
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "summary": "via alash3al.github.io",
+      "url": "https://alash3al.github.io/stash?_v01",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Google plans to invest up to $40B in Anthropic",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 709
     },
     {
       "date": "2026-04-25",
@@ -443,30 +476,6 @@
       "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
       "summary": "Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fun",
       "url": "https://arxiv.org/abs/2604.19734v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "FASTER: Value-Guided Sampling for Fast RL",
-      "summary": "Some of the most performant reinforcement learning algorithms today can be prohibitively expensive as they use test-time scaling methods such as sampling multiple action candidates and selecting the b",
-      "url": "https://arxiv.org/abs/2604.19730v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "FB-NLL: A Feature-Based Approach to Tackle Noisy Labels in Personalized Federated Learning",
-      "summary": "Personalized Federated Learning (PFL) aims to learn multiple task-specific models rather than a single global model across heterogeneous data distributions. Existing PFL approaches typically rely on i",
-      "url": "https://arxiv.org/abs/2604.19729v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
-      "summary": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching tog",
-      "url": "https://arxiv.org/abs/2604.19728v1",
       "tags": [],
       "source": "arXiv"
     }
