@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T09:46:14.152Z",
+  "updatedAt": "2026-04-26T11:49:36.321Z",
   "items": [
     {
       "date": "2026-04-26",
@@ -10,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 68
+      "score": 83
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Eden AI – European Alternative to OpenRouter",
+      "summary": "via www.edenai.co",
+      "url": "https://www.edenai.co",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 58
     },
     {
       "date": "2026-04-25",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 374
+      "score": 434
     },
     {
       "date": "2026-04-25",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 108
+      "score": 117
     },
     {
       "date": "2026-04-23",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 209
+      "score": 226
     },
     {
       "date": "2026-04-25",
@@ -474,14 +485,6 @@
       "title": "Generalization at the Edge of Stability",
       "summary": "Training modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this re",
       "url": "https://arxiv.org/abs/2604.19740v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Phase Transitions in the Fluctuations of Functionals of Random Neural Networks",
-      "summary": "We establish central and non-central limit theorems for sequences of functionals of the Gaussian output of an infinitely-wide random neural network on the d-dimensional sphere . We show that the asymp",
-      "url": "https://arxiv.org/abs/2604.19738v1",
       "tags": [],
       "source": "arXiv"
     }
