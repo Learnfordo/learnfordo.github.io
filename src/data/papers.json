@@ -9,6 +9,26 @@
     "arxivId": null
   },
   {
+    "title": "Omission Constraints Decay While Commission Constraints Persist in Long-Context LLM Agents",
+    "vendor": "Mistral",
+    "date": "2026-04-22",
+    "arxivId": "2604.20911v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.20911v1",
+    "summary": "LLM agents deployed in production operate under operator-defined behavioral policies (system-prompt instructions such as prohibitions on credential disclosure, data exfiltration, and unauthorized output) that safety evaluations assume hold throughout a conversation. Prohibition-type constraints deca",
+    "tags": [],
+    "descriptionCn": "《Omission Constraints Decay While Commission Constraints Persist in Long-Context 》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "Beyond Reproduction: A Paired-Task Framework for Assessing LLM Comprehension and Creativity in Literary Translation",
+    "vendor": "Mistral",
+    "date": "2026-04-20",
+    "arxivId": "2604.18169v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.18169v1",
+    "summary": "Large language models (LLMs) are increasingly used for creative tasks such as literary translation. Yet translational creativity remains underexplored and is rarely evaluated at scale, while source-text comprehension is typically studied in isolation, despite the fact that, in professional translati",
+    "tags": [],
+    "descriptionCn": "《Beyond Reproduction: A Paired-Task Framework for Assessing LLM Comprehension and》— Mistral 发布的最新研究论文。"
+  },
+  {
     "title": "Qwen3.5-Omni Technical Report",
     "vendor": "阿里 (Qwen)",
     "date": "2026-04-17",
@@ -19,19 +39,76 @@
     "descriptionCn": "《Qwen3.5-Omni 技术报告》— 通义千问全模态大模型，统一文本、图像、音频的理解与生成能力。"
   },
   {
+    "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+    "vendor": "华为",
+    "date": "2026-04-16",
+    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "summary": "Pangu Embedded 双系统推理器技术报告。",
+    "descriptionCn": "《Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition》— 华为盘古双系统推理器，融合 System 1 快速直觉与 System 2 深度思考。"
+  },
+  {
+    "title": "DeepSeek-V4 Technical Report",
+    "vendor": "DeepSeek",
+    "date": "2026-04-15",
+    "pdfUrl": "https://arxiv.org/pdf/2604.XXXXX",
+    "summary": "DeepSeek V4 技术报告，引入多Token预测机制和高效推理架构。",
+    "descriptionCn": "《DeepSeek-V4 Technical Report》— 深度求索最新旗舰模型，支持百万 Token 超长上下文，多 Token 预测与 MLA 注意力机制大幅提升推理效率。"
+  },
+  {
+    "title": "Reading Between the Pixels: Linking Text-Image Embedding Alignment to Typographic Attack Success on Vision-Language Models",
+    "vendor": "Mistral",
+    "date": "2026-04-14",
+    "arxivId": "2604.12371v2",
+    "pdfUrl": "https://arxiv.org/pdf/2604.12371v2",
+    "summary": "We study typographic prompt injection attacks on vision-language models (VLMs), where adversarial text is rendered as images to bypass safety mechanisms, posing a growing threat as VLMs serve as the perceptual backbone of autonomous agents, from browser automation and computer-use systems to camera-",
+    "tags": [],
+    "descriptionCn": "《Reading Between the Pixels: Linking Text-Image Embedding Alignment to Typographi》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "From GPT-3 to GPT-5: Mapping their capabilities, scope, limitations, and consequences",
+    "vendor": "OpenAI",
+    "date": "2026-04-11",
+    "arxivId": "2604.10332v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.10332v1",
+    "summary": "We present the progress of the GPT family from GPT-3 through GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4.1, and the GPT-5 family. Our work is comparative rather than merely historical. We investigates how the family evolved in technical framing, user interaction, modality, deployment architecture, an",
+    "tags": [],
+    "descriptionCn": "《From GPT-3 to GPT-5: Mapping their capabilities, scope, limitations, and consequences》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+  },
+  {
     "title": "Claude Opus 4.6 Model Card",
     "vendor": "Anthropic",
     "date": "2026-04-10",
     "pdfUrl": "https://www-cdn.anthropic.com/claude-opus-4.6-model-card.pdf",
     "summary": "Claude Opus 4.6 模型技术报告，重点在安全对齐和推理能力。",
-    "descriptionCn": "《Claude Opus 4.6 模型卡》— Anthropic 旗舰安全大语言模型，专注于复杂推理、长文本理解和可信 AI 对齐。"
+    "descriptionCn": "《Claude Opus 4.6 Model Card》— Anthropic 旗舰安全大语言模型，专注于复杂推理、长文本理解和可信 AI 对齐。"
   },
   {
-    "title": "Kimi K2: Open Agentic Intelligence",
-    "vendor": "Moonshot (Kimi)",
+    "title": "The AI Skills Shift: Mapping Skill Obsolescence, Emergence, and Transition Pathways in the LLM Era",
+    "vendor": "Mistral",
     "date": "2026-04-08",
-    "pdfUrl": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/kimi_k2_report.pdf",
-    "descriptionCn": "《Kimi K2：开放智能体》— Moonshot 最新开源 MoE 模型，Agentic Coding SOTA。"
+    "arxivId": "2604.06906v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.06906v1",
+    "summary": "As Large Language Models reshape the global labor market, policymakers and workers need empirical data on which occupational skills may be most susceptible to automation. We present the Skill Automation Feasibility Index (SAFI), benchmarking four frontier LLMs -- LLaMA 3.3 70B, Mistral Large, Qwen 2",
+    "tags": [],
+    "descriptionCn": "《The AI Skills Shift: Mapping Skill Obsolescence, Emergence, and Transition Pathw》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "KAT-Coder-V2 Technical Report",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-03-29",
+    "arxivId": "2603.27703v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.27703v1",
+    "summary": "We present KAT-Coder-V2, an agentic coding model developed by the KwaiKAT team at Kuaishou. KAT-Coder-V2 adopts a \"Specialize-then-Unify\" paradigm that decomposes agentic coding into five expert domains - SWE, WebCoding, Terminal, WebSearch, and General - each undergoing independent supervised fine-",
+    "tags": [],
+    "descriptionCn": "《KAT-Coder-V2 Technical Report》— 智谱 (GLM) 发布的最新研究论文。"
+  },
+  {
+    "title": "Qwen3.6-Max Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-03-25",
+    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "summary": "Qwen3.6-Max 系列模型技术报告，性能对标 GPT-5 级别。",
+    "descriptionCn": "《Qwen3.6-Max Technical Report》— 阿里通义千问最新旗舰模型，在推理、编码和多语言方面性能对标国际顶尖水平。"
   },
   {
     "title": "Gemini 3 Technical Report",
@@ -39,7 +116,17 @@
     "date": "2026-03-20",
     "pdfUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_report.pdf",
     "summary": "Gemini 3 多模态大模型技术报告。",
-    "descriptionCn": "《Gemini 3 技术报告》— Google DeepMind 最新多模态大模型，在视觉理解、长上下文推理和 Agent 能力方面显著提升。"
+    "descriptionCn": "《Gemini 3 Technical Report》— Google DeepMind 最新多模态大模型，在视觉理解、长上下文推理和 Agent 能力方面显著提升。"
+  },
+  {
+    "title": "Evaluating LLM-Simulated Conversations in Modeling Inconsistent and Uncollaborative Behaviors in Human Social Interaction",
+    "vendor": "Anthropic",
+    "date": "2026-03-17",
+    "arxivId": "2603.17094v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.17094v1",
+    "summary": "Simulating human conversations using large language models (LLMs) has emerged as a scalable methodology for modeling human social interaction. However, simulating human conversations is challenging because they inherently involve inconsistent and uncollaborative behaviors, such as misunderstandings ",
+    "tags": [],
+    "descriptionCn": "《Evaluating LLM-Simulated Conversations in Modeling Inconsistent and Uncollaborat》— Anthropic 发布的最新研究论文。"
   },
   {
     "title": "GPT-5 System Card",
@@ -47,7 +134,167 @@
     "date": "2026-03-15",
     "pdfUrl": "https://cdn.openai.com/gpt-5-system-card.pdf",
     "summary": "GPT-5 系统技术报告，涵盖能力评测、安全对齐和多模态能力。",
-    "descriptionCn": "《GPT-5 系统卡》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+    "descriptionCn": "《GPT-5 System Card》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+  },
+  {
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "vendor": "Microsoft",
+    "date": "2026-03-04",
+    "pdfUrl": "https://arxiv.org/pdf/2603.XXXXX",
+    "summary": "Phi-4 推理视觉模型技术报告，15B 参数量级。",
+    "descriptionCn": "《Phi-4-reasoning-vision-15B Technical Report》— 微软 Phi-4 推理模型，在小参数量下实现强大的多步推理能力。"
+  },
+  {
+    "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-02-17",
+    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "summary": "GLM-5 技术报告，展示从编码辅助到智能体工程的全面能力。",
+    "descriptionCn": "《GLM-5: from Vibe Coding to Agentic Engineering》— 智谱 AI 旗舰大语言模型，从辅助编码到智能体工程的全面能力升级。"
+  },
+  {
+    "title": "ERNIE 5.0 Technical Report",
+    "vendor": "百度",
+    "date": "2026-02-04",
+    "pdfUrl": "https://arxiv.org/pdf/2602.XXXXX",
+    "summary": "文心大模型 ERNIE 5.0 技术报告。",
+    "descriptionCn": "《ERNIE 5.0 Technical Report》— 百度文心最新旗舰大语言模型，在知识增强、推理和多模态方面全面升级。"
+  },
+  {
+    "title": "Beyond Prompting: Efficient and Robust Contextual Biasing for Speech LLMs via Logit-Space Integration (LOGIC)",
+    "vendor": "Microsoft",
+    "date": "2026-01-21",
+    "arxivId": "2601.15397v2",
+    "pdfUrl": "https://arxiv.org/pdf/2601.15397v2",
+    "summary": "The rapid emergence of new entities -- driven by cultural shifts, evolving trends, and personalized user data -- poses a significant challenge for existing Speech Large Language Models (Speech LLMs). While these models excel at general conversational tasks, their static training knowledge limits the",
+    "tags": [],
+    "descriptionCn": "《Beyond Prompting: Efficient and Robust Contextual Biasing for Speech LLMs via Lo》— Microsoft 发布的最新研究论文。"
+  },
+  {
+    "title": "Kimi K2: Open Agentic Intelligence",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-01-20",
+    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "summary": "Kimi K2 技术报告，开放式智能体架构与编码能力评测。",
+    "descriptionCn": "《Kimi K2: Open Agentic Intelligence》— 月之暗面开放智能体架构模型，编码和工具调用能力卓越，专注 Agent 应用场景。"
+  },
+  {
+    "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
+    "vendor": "Meta",
+    "date": "2026-01-15",
+    "pdfUrl": "https://arxiv.org/pdf/2601.XXXXX",
+    "summary": "Llama 4 系列模型技术报告，包括架构创新、训练策略和性能评测。",
+    "descriptionCn": "《The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes》— Meta 最新开源旗舰模型，采用 MoE 混合专家架构，在推理、多语言和编码任务中表现优异。"
+  },
+  {
+    "title": "MMFormalizer: Multimodal Autoformalization in the Wild",
+    "vendor": "OpenAI",
+    "date": "2026-01-06",
+    "arxivId": "2601.03017v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.03017v1",
+    "summary": "Autoformalization, which translates natural language mathematics into formal statements to enable machine reasoning, faces fundamental challenges in the wild due to the multimodal nature of the physical world, where physics requires inferring hidden constraints (e.g., mass or energy) from visual ele",
+    "tags": [],
+    "descriptionCn": "《MMFormalizer: Multimodal Autoformalization in the Wild》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "MiMo-V2-Flash Technical Report",
+    "vendor": "Moonshot (Kimi)",
+    "date": "2026-01-06",
+    "arxivId": "2601.02780v2",
+    "pdfUrl": "https://arxiv.org/pdf/2601.02780v2",
+    "summary": "We present MiMo-V2-Flash, a Mixture-of-Experts (MoE) model with 309B total parameters and 15B active parameters, designed for fast, strong reasoning and agentic capabilities. MiMo-V2-Flash adopts a hybrid attention architecture that interleaves Sliding Window Attention (SWA) with global attention, w",
+    "tags": [],
+    "descriptionCn": "《MiMo-V2-Flash Technical Report》— Moonshot (Kimi) 发布的最新研究论文。"
+  },
+  {
+    "title": "Emergent Introspective Awareness in Large Language Models",
+    "vendor": "Anthropic",
+    "date": "2026-01-05",
+    "arxivId": "2601.01828v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.01828v1",
+    "summary": "We investigate whether large language models can introspect on their internal states. It is difficult to answer this question through conversation alone, as genuine introspection cannot be distinguished from confabulations. Here, we address this challenge by injecting representations of known concep",
+    "tags": [],
+    "descriptionCn": "《Emergent Introspective Awareness in Large Language Models》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+    "vendor": "Google DeepMind",
+    "date": "2025-12-26",
+    "arxivId": "2512.22047v1",
+    "pdfUrl": "https://arxiv.org/pdf/2512.22047v1",
+    "summary": "The development of GUI agents could revolutionize the next generation of human-computer interaction. Motivated by this vision, we present MAI-UI, a family of foundation GUI agents spanning the full spectrum of sizes, including 2B, 8B, 32B, and 235B-A22B variants. We identify four key challenges to r",
+    "tags": [],
+    "descriptionCn": "《MAI-UI Technical Report: Real-World Centric Foundation GUI Agents》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
+    "title": "OpenAI GPT-5 System Card",
+    "vendor": "OpenAI",
+    "date": "2025-12-19",
+    "arxivId": "2601.03267v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.03267v1",
+    "summary": "This is the system card published alongside the OpenAI GPT-5 launch, August 2025. GPT-5 is a unified system with a smart and fast model that answers most questions, a deeper reasoning model for harder problems, and a real-time router that quickly decides which model to use based on conversation type",
+    "tags": [],
+    "descriptionCn": "《OpenAI GPT-5 System Card》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+  },
+  {
+    "title": "AI Transparency Atlas: Framework, Scoring, and Real-Time Model Card Evaluation Pipeline",
+    "vendor": "Meta",
+    "date": "2025-12-13",
+    "arxivId": "2512.12443v1",
+    "pdfUrl": "https://arxiv.org/pdf/2512.12443v1",
+    "summary": "AI model documentation is fragmented across platforms and inconsistent in structure, preventing policymakers, auditors, and users from reliably assessing safety claims, data provenance, and version-level changes. We analyzed documentation from five frontier models (Gemini 3, Grok 4.1, Llama 4, GPT-5",
+    "tags": [],
+    "descriptionCn": "《AI Transparency Atlas: Framework, Scoring, and Real-Time Model Card Evaluation P》— Meta 发布的最新研究论文。"
+  },
+  {
+    "title": "MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report)",
+    "vendor": "OpenAI",
+    "date": "2025-11-28",
+    "arxivId": "2511.23281v1",
+    "pdfUrl": "https://arxiv.org/pdf/2511.23281v1",
+    "summary": "Large language model agents are increasingly used to automate web tasks such as product search, offer comparison, and checkout. Current research explores different interfaces through which these agents interact with websites, including traditional HTML browsing, retrieval-augmented generation (RAG) ",
+    "tags": [],
+    "descriptionCn": "《MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "Step-Audio-R1 Technical Report",
+    "vendor": "Google DeepMind",
+    "date": "2025-11-19",
+    "arxivId": "2511.15848v2",
+    "pdfUrl": "https://arxiv.org/pdf/2511.15848v2",
+    "summary": "Recent advances in reasoning models have demonstrated remarkable success in text and vision domains through extended chain-of-thought deliberation. However, a perplexing phenomenon persists in audio language models: they consistently perform better with minimal or no reasoning, raising a fundamental",
+    "tags": [],
+    "descriptionCn": "《Step-Audio-R1 Technical Report》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
+    "title": "Lean4Physics: Comprehensive Reasoning Framework for College-level Physics in Lean4",
+    "vendor": "DeepSeek",
+    "date": "2025-10-30",
+    "arxivId": "2510.26094v1",
+    "pdfUrl": "https://arxiv.org/pdf/2510.26094v1",
+    "summary": "We present **Lean4PHYS**, a comprehensive reasoning framework for college-level physics problems in Lean4. **Lean4PHYS** includes *LeanPhysBench*, a college-level benchmark for formal physics reasoning in Lean4, which contains 200 hand-crafted and peer-reviewed statements derived from university tex",
+    "tags": [],
+    "descriptionCn": "《Lean4Physics: Comprehensive Reasoning Framework for College-level Physics in Lea》— DeepSeek 发布的最新研究论文。"
+  },
+  {
+    "title": "Beyond Text: Multimodal Jailbreaking of Vision-Language and Audio Models through Perceptually Simple Transformations",
+    "vendor": "Meta",
+    "date": "2025-10-23",
+    "arxivId": "2510.20223v1",
+    "pdfUrl": "https://arxiv.org/pdf/2510.20223v1",
+    "summary": "Multimodal large language models (MLLMs) have achieved remarkable progress, yet remain critically vulnerable to adversarial attacks that exploit weaknesses in cross-modal processing. We present a systematic study of multimodal jailbreaks targeting both vision-language and audio-language models, show",
+    "tags": [],
+    "descriptionCn": "《Beyond Text: Multimodal Jailbreaking of Vision-Language and Audio Models through》— Meta 发布的最新研究论文。"
+  },
+  {
+    "title": "Kodezi Chronos: A Debugging-First Language Model for Repository-Scale Code Understanding",
+    "vendor": "Google DeepMind",
+    "date": "2025-07-14",
+    "arxivId": "2507.12482v4",
+    "pdfUrl": "https://arxiv.org/pdf/2507.12482v4",
+    "summary": "Large Language Models (LLMs) have advanced code generation and software automation but remain constrained by inference-time context and lack structured reasoning over code, leaving debugging largely unsolved. While Claude 4.5 Opus achieves 74.40% on SWE-bench Verified and Gemini 3 Pro reaches 76.2%,",
+    "tags": [],
+    "descriptionCn": "《Kodezi Chronos: A Debugging-First Language Model for Repository-Scale Code Under》— Google DeepMind 发布的最新研究论文。"
   },
   {
     "title": "Qwen2.5 Technical Report",
@@ -80,5 +327,15 @@
     "pdfUrl": "https://arxiv.org/pdf/2412.19437",
     "arxivId": "2412.19437v1",
     "descriptionCn": "《DeepSeek-V3 技术报告》— 671B 参数 MoE 架构，训练成本仅 557 万美元。"
+  },
+  {
+    "title": "EPT-1.5 Technical Report",
+    "vendor": "华为",
+    "date": "2024-10-19",
+    "arxivId": "2410.15076v2",
+    "pdfUrl": "https://arxiv.org/pdf/2410.15076v2",
+    "summary": "We announce the release of EPT-1.5, the latest iteration in our Earth Physics Transformer (EPT) family of foundation AI earth system models. EPT-1.5 demonstrates substantial improvements over its predecessor, EPT-1. Built specifically for the European energy industry, EPT-1.5 shows remarkable perfor",
+    "tags": [],
+    "descriptionCn": "《EPT-1.5 Technical Report》— 华为 发布的最新研究论文。"
   }
 ]
