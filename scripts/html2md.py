@@ -73,6 +73,7 @@ titles = {
     'Recursive-Instability': 'LLM的递归不稳定性：当AI学会了"短路径"，却走不了"长路"',
     'MEDLEY-BENCH': '大模型知道自己在做什么吗？MEDLEY-BENCH揭示AI元认知的知行差距',
     'DESPITE-Robot-Planning-Safety': '你的AI机器人正在暗中制造危险：DESPITE揭示规划安全的致命盲区',
+    'Superminds-Test': '你的AI Agent为什么不会社交？Superminds Test揭示集体智能的致命瓶颈',
 }
 
 for dirname in sorted(os.listdir(articles_dir)):
