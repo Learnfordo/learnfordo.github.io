@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-04-27T04:54:37.105Z",
+  "updatedAt": "2026-04-27T11:58:22.482Z",
   "items": [
     {
       "date": "2026-04-27",
-      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "title": "Pgbackrest is no longer being maintained",
+      "summary": "via github.com",
+      "url": "https://github.com/pgbackrest/pgbackrest",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 83
+      "score": 85
+    },
+    {
+      "date": "2026-04-27",
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "summary": "via github.com",
+      "url": "https://github.com/evanklem/evanflow",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 78
     },
     {
       "date": "2026-04-26",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 559
+      "score": 735
     },
     {
       "date": "2026-04-26",
@@ -32,18 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 344
-    },
-    {
-      "date": "2026-04-26",
-      "title": "Show HN: AI memory with biological decay (52% recall)",
-      "summary": "via github.com",
-      "url": "https://github.com/sachitrafa/YourMemory",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 78
+      "score": 560
     },
     {
       "date": "2026-04-25",
@@ -54,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 114
+      "score": 238
     },
     {
       "date": "2026-04-24",
@@ -135,6 +135,28 @@
       "url": "https://arxiv.org/abs/2604.22709v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 83
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Show HN: AI memory with biological decay (52% recall)",
+      "summary": "via github.com",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 78
     },
     {
       "date": "2026-04-26",
@@ -468,22 +490,6 @@
       ],
       "source": "HN",
       "score": 92
-    },
-    {
-      "date": "2026-04-22",
-      "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
-      "summary": "Paralinguistic cues are essential for natural human-computer interaction, yet their evaluation in Large Audio-Language Models (LALMs) remains limited by coarse feature coverage and the inherent subjec",
-      "url": "https://arxiv.org/abs/2604.20842v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL",
-      "summary": "Modern language models demonstrate impressive coding capabilities in common programming languages (PLs), such as C++ and Python, but their performance in lower-resource PLs is often limited by trainin",
-      "url": "https://arxiv.org/abs/2604.20835v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
