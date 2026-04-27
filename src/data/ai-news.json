@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-04-26T11:49:36.321Z",
+  "updatedAt": "2026-04-27T04:08:54.798Z",
   "items": [
+    {
+      "date": "2026-04-27",
+      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
+    },
+    {
+      "date": "2026-04-26",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 535
+    },
+    {
+      "date": "2026-04-26",
+      "title": "AI should elevate your thinking, not replace it",
+      "summary": "via www.koshyjohn.com",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Show HN: AI memory with biological decay (52% recall)",
+      "summary": "via github.com",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 76
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Three constraints before I build anything",
+      "summary": "via jordanlord.co.uk",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 94
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
+      "summary": "Scaling laws are used to plan multi-million-dollar training runs, but fitting those laws can itself cost millions. In modern large-scale workflows, assembling a sufficiently informative set of pilot e",
+      "url": "https://arxiv.org/abs/2604.22753v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
+      "summary": "The wide adoption of AI agents in complex human workflows is driving rapid growth in LLM token consumption. When agents are deployed on tasks that require a significant amount of tokens, three questio",
+      "url": "https://arxiv.org/abs/2604.22750v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Representational Harms in LLM-Generated Narratives Against Global Majority Nationalities",
+      "summary": "Large language models (LLMs) are increasingly used for text generation tasks from everyday use to high-stakes enterprise and government applications, including simulated interviews with asylum seekers",
+      "url": "https://arxiv.org/abs/2604.22749v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "summary": "As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a central bottleneck. Agents that manipulate objects, na",
+      "url": "https://arxiv.org/abs/2604.22748v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Relaxation-Informed Training of Neural Network Surrogate Models",
+      "summary": "ReLU neural networks trained as surrogate models can be embedded exactly in mixed-integer linear programs (MILPs), enabling global optimization over the learned function. The tractability of the resul",
+      "url": "https://arxiv.org/abs/2604.22746v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "An Undecidability Proof for the Plan Existence Problem",
+      "summary": "The plan existence problem asks, given a goal in the form of a formula in modal logic, an initial epistemic state (a pointed Kripke model), and a set of epistemic actions, whether there exists a seque",
+      "url": "https://arxiv.org/abs/2604.22736v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Neural Recovery of Historical Lexical Structure in Bantu Languages from Modern Data",
+      "summary": "We investigate whether neural models trained exclusively on modern morphological data can recover cross-lingual lexical structure consistent with historical reconstruction. Using BantuMorph v7, a tran",
+      "url": "https://arxiv.org/abs/2604.22730v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Zero-Shot Morphological Discovery in Low-Resource Bantu Languages via Cross-Lingual Transfer and Unsupervised Clustering",
+      "summary": "We present a method for discovering morphological features in low-resource Bantu languages by combining cross-lingual transfer learning with unsupervised clustering. Applied to Giriama (nyf), a langua",
+      "url": "https://arxiv.org/abs/2604.22723v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Aligning Dense Retrievers with LLM Utility via DistillationAligning Dense Retrievers with LLM Utility via Distillation",
+      "summary": "Dense vector retrieval is the practical backbone of Retrieval- Augmented Generation (RAG), but similarity search can suffer from precision limitations. Conversely, utility-based approaches leveraging ",
+      "url": "https://arxiv.org/abs/2604.22722v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought",
+      "summary": "While long, explicit chains-of-thought (CoT) have proven effective on complex reasoning tasks, they are costly to generate during inference. Non-verbal reasoning methods have emerged with shorter gene",
+      "url": "https://arxiv.org/abs/2604.22709v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-04-26",
       "title": "GnuPG – post-quantum crypto landing in mainline",
@@ -347,144 +482,6 @@
       "title": "Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL",
       "summary": "Modern language models demonstrate impressive coding capabilities in common programming languages (PLs), such as C++ and Python, but their performance in lower-resource PLs is often limited by trainin",
       "url": "https://arxiv.org/abs/2604.20835v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "AVISE: Framework for Evaluating the Security of AI Systems",
-      "summary": "As artificial intelligence (AI) systems are increasingly deployed across critical domains, their security vulnerabilities pose growing risks of high-profile exploits and consequential system failures.",
-      "url": "https://arxiv.org/abs/2604.20833v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels",
-      "summary": "Federated learning (FL) enables collaborative model training without sharing raw data; however, the presence of noisy labels across distributed clients can severely degrade the learning performance. I",
-      "url": "https://arxiv.org/abs/2604.20825v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
-      "summary": "The central problem in biomedical imaging are batch effects: systematic technical variations unrelated to the biological signal of interest. These batch effects critically undermine experimental repro",
-      "url": "https://arxiv.org/abs/2604.20824v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Global Offshore Wind Infrastructure: Deployment and Operational Dynamics from Dense Sentinel-1 Time Series",
-      "summary": "The offshore wind energy sector is expanding rapidly, increasing the need for independent, high-temporal-resolution monitoring of infrastructure deployment and operation at global scale. While Earth O",
-      "url": "https://arxiv.org/abs/2604.20822v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Stream-CQSA: Avoiding Out-of-Memory in Attention Computation via Flexible Workload Scheduling",
-      "summary": "The scalability of long-context large language models is fundamentally limited by the quadratic memory cost of exact self-attention, which often leads to out-of-memory (OOM) failures on modern hardwar",
-      "url": "https://arxiv.org/abs/2604.20819v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Convergent Evolution: How Different Language Models Learn Similar Number Representations",
-      "summary": "Language models trained on natural text learn to represent numbers using periodic features with dominant periods at $T=2, 5, 10$. In this paper, we identify a two-tiered hierarchy of these features: w",
-      "url": "https://arxiv.org/abs/2604.20817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control",
-      "summary": "Reinforcement Learning (RL) post-training has become the standard for aligning generative models with human preferences, yet most methods rely on a single scalar reward. When multiple criteria matter,",
-      "url": "https://arxiv.org/abs/2604.20816v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Diagnosing CFG Interpretation in LLMs",
-      "summary": "As LLMs are increasingly integrated into agentic systems, they must adhere to dynamically defined, machine-interpretable interfaces. We evaluate LLMs as in-context interpreters: given a novel context-",
-      "url": "https://arxiv.org/abs/2604.20811v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "summary": "via qwen.ai",
-      "url": "https://qwen.ai/blog?id=qwen3.6-27b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 876
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Over-editing refers to a model modifying code beyond what is necessary",
-      "summary": "via nrehiew.github.io",
-      "url": "https://nrehiew.github.io/blog/minimal_editing/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 375
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Scoring Show HN submissions for AI design patterns",
-      "summary": "via www.adriankrebs.ch",
-      "url": "https://www.adriankrebs.ch/blog/design-slop/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 314
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Website streamed live directly from a model",
-      "summary": "via flipbook.page",
-      "url": "https://flipbook.page/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 308
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Parallel agents in Zed",
-      "summary": "via zed.dev",
-      "url": "https://zed.dev/blog/parallel-agents",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 239
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Our eighth generation TPUs: two chips for the agentic era",
-      "summary": "via blog.google",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 98
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Generalization at the Edge of Stability",
-      "summary": "Training modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this re",
-      "url": "https://arxiv.org/abs/2604.19740v1",
       "tags": [],
       "source": "arXiv"
     }
