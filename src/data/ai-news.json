@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T14:51:56.209Z",
+  "updatedAt": "2026-04-28T15:02:06.413Z",
   "items": [
     {
       "date": "2026-04-28",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 291
+      "score": 309
     },
     {
       "date": "2026-04-28",
@@ -21,7 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 197
+      "score": 198
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
+      "summary": "via github.com",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
     },
     {
       "date": "2026-04-27",
@@ -112,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 939
+      "score": 940
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 504
     },
     {
       "date": "2026-04-27",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 577
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 496
     },
     {
       "date": "2026-04-27",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 226
-    },
-    {
-      "date": "2026-04-25",
-      "title": "GPT‑5.5 Bio Bug Bounty",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 140
     }
   ]
 }
