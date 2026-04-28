@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-04-28T05:02:40.542Z",
+  "updatedAt": "2026-04-28T14:51:56.209Z",
   "items": [
+    {
+      "date": "2026-04-28",
+      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+      "summary": "via github.com",
+      "url": "https://github.com/localsend/localsend",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 291
+    },
+    {
+      "date": "2026-04-28",
+      "title": "An Update on GitHub Availability",
+      "summary": "via github.blog",
+      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 197
+    },
     {
       "date": "2026-04-27",
       "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
@@ -90,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 809
+      "score": 939
     },
     {
       "date": "2026-04-27",
@@ -101,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 481
+      "score": 577
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 496
     },
     {
       "date": "2026-04-27",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 140
-    },
-    {
-      "date": "2026-04-22",
-      "title": "1-Bit Hokusai's \"The Great Wave\" (2023)",
-      "summary": "via www.hypertalking.com",
-      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 538
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Plain text has been around for decades and it’s here to stay",
-      "summary": "via unsung.aresluna.org",
-      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 197
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "summary": "via github.com",
-      "url": "https://github.com/nex-crm/wuphf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 158
     }
   ]
 }
