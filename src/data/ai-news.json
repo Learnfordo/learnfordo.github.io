@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-04-27T11:58:22.482Z",
+  "updatedAt": "2026-04-28T05:02:40.542Z",
   "items": [
+    {
+      "date": "2026-04-27",
+      "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
+      "summary": "Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require substantial authoring effort and may not correspond well to the logical errors and",
+      "url": "https://arxiv.org/abs/2604.24758v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "The Optimal Sample Complexity of Multiclass and List Learning",
+      "summary": "While the optimal sample complexity of binary classification in terms of the VC dimension is well-established, determining the optimal sample complexity of multiclass classification has remained open.",
+      "url": "https://arxiv.org/abs/2604.24749v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Conflict-Aware Harmonized Rotational Gradient for Multiscale Kinetic Regimes",
+      "summary": "In this paper, we propose a harmonized rotational gradient method, termed HRGrad, for simultaneously tackling multiscale time-dependent kinetic problems with varying small parameters. These parameters",
+      "url": "https://arxiv.org/abs/2604.24745v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Learning to Think from Multiple Thinkers",
+      "summary": "We study learning with Chain-of-Thought (CoT) supervision from multiple thinkers, all of whom provide correct but possibly systematically different solutions, e.g., step-by-step solutions to math prob",
+      "url": "https://arxiv.org/abs/2604.24737v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "SpecRLBench: A Benchmark for Generalization in Specification-Guided Reinforcement Learning",
+      "summary": "Specification-guided reinforcement learning (RL) provides a principled framework for encoding complex, temporally extended tasks using formal specifications such as linear temporal logic (LTL). While ",
+      "url": "https://arxiv.org/abs/2604.24729v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Sentiment and Emotion Classification of Indonesian E-Commerce Reviews via Multi-Task BiLSTM and AutoML Benchmarking",
+      "summary": "Indonesian marketplace reviews mix standard vocabulary with slang, regional loanwords, numeric shorthands, and emoji, making lexicon-based sentiment tools unreliable in practice. This paper describes ",
+      "url": "https://arxiv.org/abs/2604.24720v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Learning to Rotate: Temporal and Semantic Rotary Encoding for Sequential Modeling",
+      "summary": "Every Transformer architecture dedicates enormous capacity to learning rich representations in semantic embedding space -- yet the rotation manifold acted upon by Rotary Positional Embeddings (RoPE) h",
+      "url": "https://arxiv.org/abs/2604.24717v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
+      "summary": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch a",
+      "url": "https://arxiv.org/abs/2604.24715v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Case-Specific Rubrics for Clinical AI Evaluation: Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters",
+      "summary": "Objective. Clinical AI documentation systems require evaluation methodologies that are clinically valid, economically viable, and sensitive to iterative changes. Methods requiring expert review per sc",
+      "url": "https://arxiv.org/abs/2604.24710v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models",
+      "summary": "Training large neural networks with data-parallel stochastic gradient descent allocates N GPU replicas to compute effectively identical updates -- a practice that leaves the rich space of learning rat",
+      "url": "https://arxiv.org/abs/2604.24708v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 809
+    },
+    {
+      "date": "2026-04-27",
+      "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
+      "summary": "via app.oravys.com",
+      "url": "https://app.oravys.com/blog/mercor-breach-2026",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 481
+    },
     {
       "date": "2026-04-27",
       "title": "Pgbackrest is no longer being maintained",
@@ -10,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 85
+      "score": 403
+    },
+    {
+      "date": "2026-04-27",
+      "title": "China blocks Meta's acquisition of AI startup Manus",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 337
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "summary": "via github.com",
+      "url": "https://github.com/dirac-run/dirac",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 316
     },
     {
       "date": "2026-04-27",
@@ -336,160 +460,6 @@
       ],
       "source": "HN",
       "score": 158
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-      "summary": "via alash3al.github.io",
-      "url": "https://alash3al.github.io/stash?_v01",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Google plans to invest up to $40B in Anthropic",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 709
-    },
-    {
-      "date": "2026-04-25",
-      "title": "\"Plain text has been around for decades and it's here to stay.\" – Unsung",
-      "summary": "via unsung.aresluna.org",
-      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 71
-    },
-    {
-      "date": "2026-04-24",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Email could have been X.400 times better",
-      "summary": "via buttondown.com",
-      "url": "https://buttondown.com/blog/x400-vs-smtp-email",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 168
-    },
-    {
-      "date": "2026-04-24",
-      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
-      "summary": "via nickyreinert.de",
-      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 855
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
-      "summary": "via github.com",
-      "url": "https://github.com/browser-use/browser-harness",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 92
-    },
-    {
-      "date": "2026-04-24",
-      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-      "summary": "via developers.openai.com",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 211
-    },
-    {
-      "date": "2026-04-24",
-      "title": "SFO Quiet Airport (2025)",
-      "summary": "via viewfromthewing.com",
-      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 126
-    },
-    {
-      "date": "2026-04-23",
-      "title": "GPT-5.5",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-gpt-5-5/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1198
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
-      "summary": "via socket.dev",
-      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 691
-    },
-    {
-      "date": "2026-04-23",
-      "title": "An update on recent Claude Code quality reports",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 614
-    },
-    {
-      "date": "2026-04-23",
-      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
-      "summary": "via blog.meshcore.io",
-      "url": "https://blog.meshcore.io/2026/04/23/the-split",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-04-22",
-      "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
-      "summary": "via github.com",
-      "url": "https://github.com/Infisical/agent-vault",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 92
     }
   ]
 }
