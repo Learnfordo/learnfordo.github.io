@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T04:59:39.547Z",
+  "updatedAt": "2026-04-29T11:44:33.158Z",
   "items": [
     {
       "date": "2026-04-28",
@@ -90,7 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 774
+      "score": 865
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Who owns the code Claude Code wrote?",
+      "summary": "via legallayer.substack.com",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 429
+    },
+    {
+      "date": "2026-04-28",
+      "title": "How ChatGPT serves ads",
+      "summary": "via www.buchodi.com",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 371
+    },
+    {
+      "date": "2026-04-28",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "summary": "via stratechery.com",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 711
     },
     {
       "date": "2026-04-28",
@@ -113,28 +157,6 @@
       ],
       "source": "HN",
       "score": 341
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Who owns the code Claude Code wrote?",
-      "summary": "via legallayer.substack.com",
-      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 301
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 654
     },
     {
       "date": "2026-04-28",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 83
-    },
-    {
-      "date": "2026-04-26",
-      "title": "Eden AI – European Alternative to OpenRouter",
-      "summary": "via www.edenai.co",
-      "url": "https://www.edenai.co",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 58
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Amateur armed with ChatGPT solves an Erdős problem",
-      "summary": "via www.scientificamerican.com",
-      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 434
     }
   ]
 }
