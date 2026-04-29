@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-04-28T15:02:06.413Z",
+  "updatedAt": "2026-04-29T04:32:48.060Z",
   "items": [
+    {
+      "date": "2026-04-28",
+      "title": "Recursive Multi-Agent Systems",
+      "summary": "Recursive or looped language models have recently emerged as a new scaling axis by iteratively refining the same model computation over latent states to deepen reasoning. We extend such scaling princi",
+      "url": "https://arxiv.org/abs/2604.25917v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "summary": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinemen",
+      "url": "https://arxiv.org/abs/2604.25914v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+      "summary": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $",
+      "url": "https://arxiv.org/abs/2604.25907v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "A paradox of AI fluency",
+      "summary": "How much does a user's skill with AI shape what AI actually delivers for them? This question is critical for users, AI product builders, and society at large, but it remains underexplored. Using a ric",
+      "url": "https://arxiv.org/abs/2604.25905v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Teacher Forcing as Generalized Bayes: Optimization Geometry Mismatch in Switching Surrogates for Chaotic Dynamics",
+      "summary": "Identity teacher forcing (ITF) enables stable training of deterministic recurrent surrogates for chaotic dynamical systems and has been highly effective for dynamical systems reconstruction (DSR) with",
+      "url": "https://arxiv.org/abs/2604.25904v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models",
+      "summary": "The accelerating adoption of Large Language Models (LLMs) in software engineering (SE) has brought with it a silent crisis: unsustainable computational cost. While these models demonstrate remarkable ",
+      "url": "https://arxiv.org/abs/2604.25903v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Toward a Functional Geometric Algebra for Natural Language Semantics",
+      "summary": "Distributional and neural approaches to natural language semantics have been built almost exclusively on conventional linear algebra: vectors, matrices, tensors, and the operations that accompany them",
+      "url": "https://arxiv.org/abs/2604.25902v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "TSN-Affinity: Similarity-Driven Parameter Reuse for Continual Offline Reinforcement Learning",
+      "summary": "Continual offline reinforcement learning (CORL) aims to learn a sequence of tasks from datasets collected over time while preserving performance on previously learned tasks. This setting corresponds t",
+      "url": "https://arxiv.org/abs/2604.25898v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+      "summary": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse co",
+      "url": "https://arxiv.org/abs/2604.25897v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Three Models of RLHF Annotation: Extension, Evidence, and Authority",
+      "summary": "Preference-based alignment methods, most prominently Reinforcement Learning with Human Feedback (RLHF), use the judgments of human annotators to shape large language model behaviour. However, the norm",
+      "url": "https://arxiv.org/abs/2604.25895v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-04-28",
       "title": "Localsend: An open-source cross-platform alternative to AirDrop",
@@ -10,18 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 309
+      "score": 770
     },
     {
       "date": "2026-04-28",
-      "title": "An Update on GitHub Availability",
+      "title": "An update on GitHub availability",
       "summary": "via github.blog",
       "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 198
+      "score": 340
+    },
+    {
+      "date": "2026-04-28",
+      "title": "VibeVoice: Open-source frontier voice AI",
+      "summary": "via github.com",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 339
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Who owns the code Claude Code wrote?",
+      "summary": "via legallayer.substack.com",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 296
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 653
     },
     {
       "date": "2026-04-28",
@@ -124,17 +237,6 @@
       ],
       "source": "HN",
       "score": 940
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 504
     },
     {
       "date": "2026-04-27",
@@ -358,108 +460,6 @@
       ],
       "source": "HN",
       "score": 434
-    },
-    {
-      "date": "2026-04-25",
-      "title": "Hokusai and Tesselations",
-      "summary": "via dl.ndl.go.jp",
-      "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 117
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
-      "summary": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention ",
-      "url": "https://arxiv.org/abs/2604.21931v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
-      "summary": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutra",
-      "url": "https://arxiv.org/abs/2604.21930v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
-      "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human pe",
-      "url": "https://arxiv.org/abs/2604.21928v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Fine-Tuning Regimes Define Distinct Continual Learning Problems",
-      "summary": "Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typ",
-      "url": "https://arxiv.org/abs/2604.21927v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "The Sample Complexity of Multicalibration",
-      "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor wh",
-      "url": "https://arxiv.org/abs/2604.21923v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
-      "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they ca",
-      "url": "https://arxiv.org/abs/2604.21916v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
-      "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior w",
-      "url": "https://arxiv.org/abs/2604.21911v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation",
-      "summary": "Scientific workflow systems automate execution -- scheduling, fault tolerance, resource management -- but not the semantic translation that precedes it. Scientists still manually convert research ques",
-      "url": "https://arxiv.org/abs/2604.21910v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Low-Rank Adaptation Redux for Large Models",
-      "summary": "Low-rank adaptation (LoRA) has emerged as the de facto standard for parameter-efficient fine-tuning (PEFT) of foundation models, enabling the adaptation of billion-parameter networks with minimal comp",
-      "url": "https://arxiv.org/abs/2604.21905v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
-      "summary": "Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often desi",
-      "url": "https://arxiv.org/abs/2604.21903v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "OpenAI Privacy Filter",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
     }
   ]
 }
