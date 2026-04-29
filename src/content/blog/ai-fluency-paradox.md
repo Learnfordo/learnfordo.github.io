@@ -1,7 +1,7 @@
 ---
-title: 'AI-Fluency-Paradox'
-description: ''
-pubDate: '2026-01-01'
+title: 'AI流畅性悖论——越熟练越失败？'
+description: 'Stanford 27K真实对话数据揭示：熟练用户64%对话含失败vs新手24%，但59%可见vs12%可见。悖论公式：更多失败×更多可见=更多纠正×更好结果。'
+pubDate: '2026-04-29'
 ---
 
 ## 🦞 钩子
