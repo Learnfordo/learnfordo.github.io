@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-04-29T11:51:06.900Z",
+  "updatedAt": "2026-04-29T12:05:47.610Z",
   "items": [
+    {
+      "date": "2026-04-28",
+      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+      "summary": "via github.com",
+      "url": "https://github.com/localsend/localsend",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 868
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Who owns the code Claude Code wrote?",
+      "summary": "via legallayer.substack.com",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 433
+    },
+    {
+      "date": "2026-04-28",
+      "title": "How ChatGPT serves ads",
+      "summary": "via www.buchodi.com",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-04-28",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "summary": "via stratechery.com",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 711
+    },
     {
       "date": "2026-04-28",
       "title": "Recursive Multi-Agent Systems",
@@ -80,61 +135,6 @@
       "url": "https://arxiv.org/abs/2604.25895v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "summary": "via github.com",
-      "url": "https://github.com/localsend/localsend",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 865
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Who owns the code Claude Code wrote?",
-      "summary": "via legallayer.substack.com",
-      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 429
-    },
-    {
-      "date": "2026-04-28",
-      "title": "How ChatGPT serves ads",
-      "summary": "via www.buchodi.com",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 374
-    },
-    {
-      "date": "2026-04-28",
-      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
-      "summary": "via stratechery.com",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 283
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 711
     },
     {
       "date": "2026-04-28",
