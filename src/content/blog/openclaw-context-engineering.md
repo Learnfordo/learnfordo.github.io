@@ -4,6 +4,57 @@ description: '本文档基于 OpenClaw 源码逆向分析，覆盖从消息到�
 pubDate: '2026-04-29'
 ---
 
+<style>
+.prose {
+  max-width: 820px !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  color: #333 !important;
+  padding: 0 20px 80px !important;
+}
+.prose h1 { font-size: 22px; margin-top: 32px; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; color: #333 !important; }
+.prose h2 { font-size: 18px; margin-top: 28px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; color: #333 !important; }
+.prose h3 { font-size: 16px; margin-top: 20px; color: #333 !important; }
+.prose h4 { font-size: 14px; margin-top: 16px; color: #333 !important; }
+.prose pre { background: #f5f5f5; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; line-height: 1.4; border: 1px solid #ddd; white-space: pre-wrap; word-break: break-all; }
+.prose code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+.prose pre code { background: none; padding: 0; }
+.prose table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 12px; }
+.prose th, .prose td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
+.prose th { background: #f5f5f5; font-weight: bold; }
+.prose a { color: #3b82f6; }
+.prose li { margin: 4px 0; }
+.prose blockquote { border-left: 4px solid #ddd; padding: 8px 16px; margin: 16px 0; color: #555; background: #fafafa; }
+.prose hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
+.prose ul, .prose ol { margin-bottom: 20px; padding-left: 24px; }
+.prose p { margin-bottom: 20px; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .prose { color: #ddd !important; }
+  :root:not([data-theme="light"]) .prose h1,
+  :root:not([data-theme="light"]) .prose h2,
+  :root:not([data-theme="light"]) .prose h3,
+  :root:not([data-theme="light"]) .prose h4 { color: #eee !important; }
+  :root:not([data-theme="light"]) .prose pre { background: #1a1a1a; border-color: #333; }
+  :root:not([data-theme="light"]) .prose code { background: #2a2a2a; }
+  :root:not([data-theme="light"]) .prose th { background: #1a1a1a; }
+  :root:not([data-theme="light"]) .prose th,
+  :root:not([data-theme="light"]) .prose td { border-color: #333; }
+  :root:not([data-theme="light"]) .prose blockquote { background: #1a1a1a; border-left-color: #555; color: #aaa; }
+  :root:not([data-theme="light"]) .prose hr { border-top-color: #333; }
+}
+:root[data-theme="dark"] .prose { color: #ddd !important; }
+:root[data-theme="dark"] .prose h1,
+:root[data-theme="dark"] .prose h2,
+:root[data-theme="dark"] .prose h3,
+:root[data-theme="dark"] .prose h4 { color: #eee !important; }
+:root[data-theme="dark"] .prose pre { background: #1a1a1a; border-color: #333; }
+:root[data-theme="dark"] .prose code { background: #2a2a2a; }
+:root[data-theme="dark"] .prose th { background: #1a1a1a; }
+:root[data-theme="dark"] .prose th,
+:root[data-theme="dark"] .prose td { border-color: #333; }
+:root[data-theme="dark"] .prose blockquote { background: #1a1a1a; border-left-color: #555; color: #aaa; }
+:root[data-theme="dark"] .prose hr { border-top-color: #333; }
+</style>
 
 <h1 id="openclaw-context-engineering">OpenClaw Context Engineering 完整链路文档</h1>
 <blockquote>
