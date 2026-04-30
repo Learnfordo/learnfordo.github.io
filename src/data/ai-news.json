@@ -1,60 +1,27 @@
 {
-  "updatedAt": "2026-04-29T12:05:47.610Z",
+  "updatedAt": "2026-04-30T01:32:05.899Z",
   "items": [
     {
-      "date": "2026-04-28",
-      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "summary": "via github.com",
-      "url": "https://github.com/localsend/localsend",
+      "date": "2026-04-29",
+      "title": "Copy Fail – CVE-2026-31431",
+      "summary": "via copy.fail",
+      "url": "https://copy.fail/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 868
+      "score": 561
     },
     {
-      "date": "2026-04-28",
-      "title": "Who owns the code Claude Code wrote?",
-      "summary": "via legallayer.substack.com",
-      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "date": "2026-04-29",
+      "title": "Ramp's Sheets AI Exfiltrates Financials",
+      "summary": "via www.promptarmor.com",
+      "url": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 433
-    },
-    {
-      "date": "2026-04-28",
-      "title": "How ChatGPT serves ads",
-      "summary": "via www.buchodi.com",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-04-28",
-      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
-      "summary": "via stratechery.com",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 283
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 711
+      "score": 102
     },
     {
       "date": "2026-04-28",
@@ -135,6 +102,61 @@
       "url": "https://arxiv.org/abs/2604.25895v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+      "summary": "via github.com",
+      "url": "https://github.com/localsend/localsend",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 868
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Who owns the code Claude Code wrote?",
+      "summary": "via legallayer.substack.com",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 433
+    },
+    {
+      "date": "2026-04-28",
+      "title": "How ChatGPT serves ads",
+      "summary": "via www.buchodi.com",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-04-28",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "summary": "via stratechery.com",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "summary": "via talkie-lm.com",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 711
     },
     {
       "date": "2026-04-28",
@@ -433,28 +455,6 @@
       "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
       "summary": "via www.ft.com",
       "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 83
-    },
-    {
-      "date": "2026-04-26",
-      "title": "Show HN: AI memory with biological decay (52% recall)",
-      "summary": "via github.com",
-      "url": "https://github.com/sachitrafa/YourMemory",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 78
-    },
-    {
-      "date": "2026-04-26",
-      "title": "GnuPG – post-quantum crypto landing in mainline",
-      "summary": "via lists.gnupg.org",
-      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
       "tags": [
         "Hacker News"
       ],
