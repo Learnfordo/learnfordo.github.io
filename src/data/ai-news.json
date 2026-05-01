@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-04-30T05:02:20.496Z",
+  "updatedAt": "2026-05-01T05:27:49.384Z",
   "items": [
+    {
+      "date": "2026-04-30",
+      "title": "Computing Equilibrium beyond Unilateral Deviation",
+      "summary": "Most familiar equilibrium concepts, such as Nash and correlated equilibrium, guarantee only that no single player can improve their utility by deviating unilaterally. They offer no guarantees against ",
+      "url": "https://arxiv.org/abs/2604.28186v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "summary": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration ",
+      "url": "https://arxiv.org/abs/2604.28182v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "summary": "Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and organized through directory structures and content",
+      "url": "https://arxiv.org/abs/2604.28181v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
+      "summary": "In recent years, physics-informed neural networks (PINNs) have gained significant attention for solving differential equations, although they suffer from two fundamental limitations, namely, spectral ",
+      "url": "https://arxiv.org/abs/2604.28180v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
+      "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challenging. Existing graph construction methods, whether co",
+      "url": "https://arxiv.org/abs/2604.28178v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders",
+      "summary": "Machine learning models can learn from data samples to carry out various tasks efficiently. When data samples are adversarially manipulated, such as by insertion of carefully crafted noise, it can cau",
+      "url": "https://arxiv.org/abs/2604.28176v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Strait: Perceiving Priority and Interference in ML Inference Serving",
+      "summary": "Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization an",
+      "url": "https://arxiv.org/abs/2604.28175v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "summary": "Modern video diffusion models excel at appearance synthesis but still struggle with physical consistency: objects drift, collisions lack realistic rebound, and material responses seldom match their un",
+      "url": "https://arxiv.org/abs/2604.28169v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Mapping the Phase Diagram of the Vicsek Model with Machine Learning",
+      "summary": "In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of ",
+      "url": "https://arxiv.org/abs/2604.28167v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Sequential Inference for Gaussian Processes: A Signal Processing Perspective",
+      "summary": "The proliferation of capable and efficient machine learning (ML) models marks one of the strongest methodological shifts in signal processing (SP) in its nearly 100-year history. ML models support the",
+      "url": "https://arxiv.org/abs/2604.28163v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/theo/status/2049645973350363168",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1047
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Spain's parliament will act against massive IP blockages by LaLiga",
+      "summary": "via www.democrata.es",
+      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 440
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
+      "summary": "via semgrep.dev",
+      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 356
+    },
     {
       "date": "2026-04-30",
       "title": "Craig Venter has died",
@@ -338,128 +451,6 @@
       "url": "https://arxiv.org/abs/2604.24745v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Learning to Think from Multiple Thinkers",
-      "summary": "We study learning with Chain-of-Thought (CoT) supervision from multiple thinkers, all of whom provide correct but possibly systematically different solutions, e.g., step-by-step solutions to math prob",
-      "url": "https://arxiv.org/abs/2604.24737v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "SpecRLBench: A Benchmark for Generalization in Specification-Guided Reinforcement Learning",
-      "summary": "Specification-guided reinforcement learning (RL) provides a principled framework for encoding complex, temporally extended tasks using formal specifications such as linear temporal logic (LTL). While ",
-      "url": "https://arxiv.org/abs/2604.24729v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Sentiment and Emotion Classification of Indonesian E-Commerce Reviews via Multi-Task BiLSTM and AutoML Benchmarking",
-      "summary": "Indonesian marketplace reviews mix standard vocabulary with slang, regional loanwords, numeric shorthands, and emoji, making lexicon-based sentiment tools unreliable in practice. This paper describes ",
-      "url": "https://arxiv.org/abs/2604.24720v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Learning to Rotate: Temporal and Semantic Rotary Encoding for Sequential Modeling",
-      "summary": "Every Transformer architecture dedicates enormous capacity to learning rich representations in semantic embedding space -- yet the rotation manifold acted upon by Rotary Positional Embeddings (RoPE) h",
-      "url": "https://arxiv.org/abs/2604.24717v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
-      "summary": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch a",
-      "url": "https://arxiv.org/abs/2604.24715v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Case-Specific Rubrics for Clinical AI Evaluation: Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters",
-      "summary": "Objective. Clinical AI documentation systems require evaluation methodologies that are clinically valid, economically viable, and sensitive to iterative changes. Methods requiring expert review per sc",
-      "url": "https://arxiv.org/abs/2604.24710v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models",
-      "summary": "Training large neural networks with data-parallel stochastic gradient descent allocates N GPU replicas to compute effectively identical updates -- a practice that leaves the rich space of learning rat",
-      "url": "https://arxiv.org/abs/2604.24708v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 940
-    },
-    {
-      "date": "2026-04-27",
-      "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
-      "summary": "via app.oravys.com",
-      "url": "https://app.oravys.com/blog/mercor-breach-2026",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 577
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Pgbackrest is no longer being maintained",
-      "summary": "via github.com",
-      "url": "https://github.com/pgbackrest/pgbackrest",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 403
-    },
-    {
-      "date": "2026-04-27",
-      "title": "China blocks Meta's acquisition of AI startup Manus",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 337
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-      "summary": "via github.com",
-      "url": "https://github.com/dirac-run/dirac",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 316
-    },
-    {
-      "date": "2026-04-27",
-      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "summary": "via github.com",
-      "url": "https://github.com/evanklem/evanflow",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 78
     }
   ]
 }
