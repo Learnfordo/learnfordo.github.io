@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-01T05:27:49.384Z",
+  "updatedAt": "2026-05-02T04:46:40.446Z",
   "items": [
+    {
+      "date": "2026-05-01",
+      "title": "The gay jailbreak technique (2025)",
+      "summary": "via github.com",
+      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 442
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Show HN: AI CAD Harness",
+      "summary": "via fusion.adam.new",
+      "url": "https://fusion.adam.new/install",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 74
+    },
     {
       "date": "2026-04-30",
       "title": "Computing Equilibrium beyond Unilateral Deviation",
@@ -80,6 +102,17 @@
       "url": "https://arxiv.org/abs/2604.28163v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "Eka’s robotic claw feels like we're approaching a ChatGPT moment",
+      "summary": "via www.wired.com",
+      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
     },
     {
       "date": "2026-04-30",
@@ -427,30 +460,6 @@
       ],
       "source": "HN",
       "score": 133
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
-      "summary": "Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require substantial authoring effort and may not correspond well to the logical errors and",
-      "url": "https://arxiv.org/abs/2604.24758v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "The Optimal Sample Complexity of Multiclass and List Learning",
-      "summary": "While the optimal sample complexity of binary classification in terms of the VC dimension is well-established, determining the optimal sample complexity of multiclass classification has remained open.",
-      "url": "https://arxiv.org/abs/2604.24749v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Conflict-Aware Harmonized Rotational Gradient for Multiscale Kinetic Regimes",
-      "summary": "In this paper, we propose a harmonized rotational gradient method, termed HRGrad, for simultaneously tackling multiscale time-dependent kinetic problems with varying small parameters. These parameters",
-      "url": "https://arxiv.org/abs/2604.24745v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
