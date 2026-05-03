@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-05-02T04:46:40.446Z",
+  "updatedAt": "2026-05-03T05:03:13.776Z",
   "items": [
     {
-      "date": "2026-05-01",
-      "title": "The gay jailbreak technique (2025)",
-      "summary": "via github.com",
-      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "date": "2026-05-02",
+      "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
+      "summary": "via hnup.date",
+      "url": "https://hnup.date/hn-sota",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 442
+      "score": 73
     },
     {
-      "date": "2026-05-01",
-      "title": "Show HN: AI CAD Harness",
-      "summary": "via fusion.adam.new",
-      "url": "https://fusion.adam.new/install",
+      "date": "2026-05-02",
+      "title": "Voice-AI-for-Beginners – A curated learning path for developers",
+      "summary": "via github.com",
+      "url": "https://github.com/mahimairaja/voiceai",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 74
+      "score": 51
     },
     {
       "date": "2026-04-30",
@@ -102,6 +102,28 @@
       "url": "https://arxiv.org/abs/2604.28163v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "The gay jailbreak technique (2025)",
+      "summary": "via github.com",
+      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 442
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Show HN: AI CAD Harness",
+      "summary": "via fusion.adam.new",
+      "url": "https://fusion.adam.new/install",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 74
     },
     {
       "date": "2026-04-29",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 343
-    },
-    {
-      "date": "2026-04-28",
-      "title": "VibeVoice: Open-source frontier voice AI",
-      "summary": "via github.com",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 341
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
-      "summary": "via github.com",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
     }
   ]
 }
