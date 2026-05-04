@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-05-03T05:03:13.776Z",
+  "updatedAt": "2026-05-04T05:04:08.362Z",
   "items": [
+    {
+      "date": "2026-05-03",
+      "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 331
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Agentic Coding Is a Trap",
+      "summary": "via larsfaye.com",
+      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 280
+    },
+    {
+      "date": "2026-05-03",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "summary": "via github.com",
+      "url": "https://github.com/aattaran/deepclaude",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 269
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Let's Buy Spirit Air",
+      "summary": "via letsbuyspiritair.com",
+      "url": "https://letsbuyspiritair.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 266
+    },
+    {
+      "date": "2026-05-01",
+      "title": "HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs",
+      "summary": "We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closures, boundary handling) in a query-conditioned way",
+      "url": "https://arxiv.org/abs/2605.00820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models",
+      "summary": "Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt",
+      "url": "https://arxiv.org/abs/2605.00817v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
+      "summary": "While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a \"Visual Signal Dilution\" phenomenon, where the accumulation of textual his",
+      "url": "https://arxiv.org/abs/2605.00814v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
+      "summary": "Large language models are increasingly deployed as autonomous coding agents and have achieved remarkably strong performance on software engineering benchmarks. However, it is unclear whether such succ",
+      "url": "https://arxiv.org/abs/2605.00803v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Generating Statistical Charts with Validation-Driven LLM Workflows",
+      "summary": "Generating diverse, readable statistical charts from tabular data remains challenging for LLMs, as many failures become apparent after rendering and are not detectable from data or code alone. Existin",
+      "url": "https://arxiv.org/abs/2605.00800v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution",
+      "summary": "Humans solve problems by executing targeted plans, yet large language models (LLMs) remain unreliable for structured workflow execution. We propose RunAgent, a multi-agent plan execution platform that",
+      "url": "https://arxiv.org/abs/2605.00798v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI",
+      "summary": "Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded health information. AI-assisted development lowers t",
+      "url": "https://arxiv.org/abs/2605.00796v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+      "summary": "With the development of deep learning, medical image processing has been widely used to assist clinical research. This paper focuses on the denoising problem of low-dose computed tomography using deep",
+      "url": "https://arxiv.org/abs/2605.00793v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Make Your LVLM KV Cache More Lightweight",
+      "summary": "Key-Value (KV) cache has become a de facto component of modern Large Vision-Language Models (LVLMs) for inference. While it enhances decoding efficiency in Large Language Models (LLMs), its direct ado",
+      "url": "https://arxiv.org/abs/2605.00789v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "SAVGO: Learning State-Action Value Geometry with Cosine Similarity for Continuous Control",
+      "summary": "While representation and similarity learning have improved the sample efficiency of Reinforcement Learning (RL), they are rarely used to shape policy updates directly in the action space. To bridge th",
+      "url": "https://arxiv.org/abs/2605.00787v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-05-02",
       "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
@@ -330,136 +454,6 @@
       "url": "https://arxiv.org/abs/2604.25914v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
-      "summary": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $",
-      "url": "https://arxiv.org/abs/2604.25907v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "A paradox of AI fluency",
-      "summary": "How much does a user's skill with AI shape what AI actually delivers for them? This question is critical for users, AI product builders, and society at large, but it remains underexplored. Using a ric",
-      "url": "https://arxiv.org/abs/2604.25905v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Teacher Forcing as Generalized Bayes: Optimization Geometry Mismatch in Switching Surrogates for Chaotic Dynamics",
-      "summary": "Identity teacher forcing (ITF) enables stable training of deterministic recurrent surrogates for chaotic dynamical systems and has been highly effective for dynamical systems reconstruction (DSR) with",
-      "url": "https://arxiv.org/abs/2604.25904v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models",
-      "summary": "The accelerating adoption of Large Language Models (LLMs) in software engineering (SE) has brought with it a silent crisis: unsustainable computational cost. While these models demonstrate remarkable ",
-      "url": "https://arxiv.org/abs/2604.25903v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Toward a Functional Geometric Algebra for Natural Language Semantics",
-      "summary": "Distributional and neural approaches to natural language semantics have been built almost exclusively on conventional linear algebra: vectors, matrices, tensors, and the operations that accompany them",
-      "url": "https://arxiv.org/abs/2604.25902v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "TSN-Affinity: Similarity-Driven Parameter Reuse for Continual Offline Reinforcement Learning",
-      "summary": "Continual offline reinforcement learning (CORL) aims to learn a sequence of tasks from datasets collected over time while preserving performance on previously learned tasks. This setting corresponds t",
-      "url": "https://arxiv.org/abs/2604.25898v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
-      "summary": "Contact variability, sensing uncertainty, and external disturbances make grasp execution stochastic. Expected-quality objectives ignore tail outcomes and often select grasps that fail under adverse co",
-      "url": "https://arxiv.org/abs/2604.25897v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Three Models of RLHF Annotation: Extension, Evidence, and Authority",
-      "summary": "Preference-based alignment methods, most prominently Reinforcement Learning with Human Feedback (RLHF), use the judgments of human annotators to shape large language model behaviour. However, the norm",
-      "url": "https://arxiv.org/abs/2604.25895v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "summary": "via github.com",
-      "url": "https://github.com/localsend/localsend",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 868
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Who owns the code Claude Code wrote?",
-      "summary": "via legallayer.substack.com",
-      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 433
-    },
-    {
-      "date": "2026-04-28",
-      "title": "How ChatGPT serves ads",
-      "summary": "via www.buchodi.com",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-04-28",
-      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
-      "summary": "via stratechery.com",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 283
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Talkie: a 13B vintage language model from 1930",
-      "summary": "via talkie-lm.com",
-      "url": "https://talkie-lm.com/introducing-talkie",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 711
-    },
-    {
-      "date": "2026-04-28",
-      "title": "An update on GitHub availability",
-      "summary": "via github.blog",
-      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 343
     }
   ]
 }
