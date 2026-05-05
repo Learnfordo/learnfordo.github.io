@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-05-04T05:04:08.362Z",
+  "updatedAt": "2026-05-05T04:32:29.889Z",
   "items": [
+    {
+      "date": "2026-05-05",
+      "title": "Y Combinator's Stake in OpenAI (0.6%)",
+      "summary": "via daringfireball.net",
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 191
+    },
+    {
+      "date": "2026-05-04",
+      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
+      "summary": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this pr",
+      "url": "https://arxiv.org/abs/2605.02888v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
+      "summary": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outli",
+      "url": "https://arxiv.org/abs/2605.02884v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Multi-fidelity surrogates for mechanics of composites: from co-kriging to multi-fidelity neural networks",
+      "summary": "Composite materials exhibit strongly hierarchical and anisotropic properties governed by coupled mechanisms spanning constituents, plies, laminates, structures, and manufacturing history. This intrins",
+      "url": "https://arxiv.org/abs/2605.02871v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
+      "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments co",
+      "url": "https://arxiv.org/abs/2605.02867v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection",
+      "summary": "Cross-language code clone detection (X-CCD) is challenging because semantically equivalent programs written in different languages often share little surface similarity. Although large language models",
+      "url": "https://arxiv.org/abs/2605.02860v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+      "summary": "Scientists increasingly rely on sensor-based data, yet transforming raw streams into insights across the edge-to-cloud continuum remains difficult. Provisioning heterogeneous infrastructure and managi",
+      "url": "https://arxiv.org/abs/2605.02859v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
+      "summary": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standard metrics provide limited visibility into layer-w",
+      "url": "https://arxiv.org/abs/2605.02853v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "(POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+      "summary": "Scientists increasingly rely on sensor-based data; however transforming raw streams into insights across the edge-to-cloud continuum remains difficult due to the breadth of expertise required to coord",
+      "url": "https://arxiv.org/abs/2605.02844v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "A second-order method on the Stiefel manifold via Newton$\\unicode{x2013}$Schulz",
+      "summary": "Retraction-free approaches offer attractive low-cost alternatives to Riemannian methods on the Stiefel manifold, but they are often first-order, which may limit the efficiency under high-accuracy requ",
+      "url": "https://arxiv.org/abs/2605.02838v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "A Closed-Form Persistence-Landmark Pipeline for Certified Point-Cloud and Graph Classification",
+      "summary": "We introduce PLACE (Persistence-Landmark Analytic Classification Engine), a closed-form pipeline for classifying point clouds and graphs through their persistent-homology signatures. Three quantitativ",
+      "url": "https://arxiv.org/abs/2605.02836v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 333
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Agent Skills",
+      "summary": "via addyosmani.com",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 178
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Sierra Raises $950M at $15B Valuation",
+      "summary": "via sierra.ai",
+      "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 99
+    },
     {
       "date": "2026-05-03",
       "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
@@ -331,127 +455,6 @@
       "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
       "summary": "Diffusion large language models (dLLMs) offer parallel decoding and bidirectional context, but state-of-the-art dLLMs require billions of parameters for competitive performance. While existing distill",
       "url": "https://arxiv.org/abs/2604.26951v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport",
-      "summary": "We introduce Hyper Input Convex Neural Networks (HyCNNs), a novel neural network architecture designed for learning convex functions. HyCNNs combine the principles of Maxout networks with input convex",
-      "url": "https://arxiv.org/abs/2604.26942v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Select to Think: Unlocking SLM Potential with Local Sufficiency",
-      "summary": "Small language models (SLMs) offer computational efficiency for scalable deployment, yet they often fall short of the reasoning power exhibited by their larger counterparts (LLMs). To mitigate this ga",
-      "url": "https://arxiv.org/abs/2604.26940v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Learning Over-Relaxation Policies for ADMM with Convergence Guarantees",
-      "summary": "The Alternating Direction Method of Multipliers (ADMM) is a widely used method for structured convex optimization, and its practical performance depends strongly on the choice of penalty and relaxatio",
-      "url": "https://arxiv.org/abs/2604.26932v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "A Note on How to Remove the $\\ln\\ln T$ Term from the Squint Bound",
-      "summary": "In Orabona and Pál [2016], we introduced the shifted KT potentials, to remove the $\\ln \\ln T$ factor in the parameter-free learning with expert bound. In this short technical note, I show that this is",
-      "url": "https://arxiv.org/abs/2604.26926v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation",
-      "summary": "LLMs have achieved strong results on both function-level code synthesis and repository-level code modification, yet a capability that falls between these two extremes -- compositional code creation, i",
-      "url": "https://arxiv.org/abs/2604.26923v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "On the Learning Curves of Revenue Maximization",
-      "summary": "Learning curves are a fundamental primitive in supervised learning, describing how an algorithm's performance improves with more data and providing a quantitative measure of its generalization ability",
-      "url": "https://arxiv.org/abs/2604.26922v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Causal Learning with Neural Assemblies",
-      "summary": "Can Neural Assemblies -- groups of neurons that fire together and strengthen through co-activation -- learn the direction of causal influence between variables? While established as a computationally ",
-      "url": "https://arxiv.org/abs/2604.26919v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
-      "summary": "Claw-style environments support multi-step workflows over local files, tools, and persistent workspace states. However, scalable development around these environments remains constrained by the absenc",
-      "url": "https://arxiv.org/abs/2604.26904v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Recent Advances in mm-Wave and Sub-THz/THz Oscillators for FutureG Technologies",
-      "summary": "This paper provides a concise yet comprehensive review of recent advancements in millimeter-wave (mm-wave) oscillators below 100 GHz and sub-terahertz (sub-THz/THz) oscillators above 100 GHz for next-",
-      "url": "https://arxiv.org/abs/2604.26903v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Copy Fail",
-      "summary": "via copy.fail",
-      "url": "https://copy.fail/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 738
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Ramp's Sheets AI Exfiltrates Financials",
-      "summary": "via www.promptarmor.com",
-      "url": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 122
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Copy Fail – CVE-2026-31431",
-      "summary": "via copy.fail",
-      "url": "https://copy.fail/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 561
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Recursive Multi-Agent Systems",
-      "summary": "Recursive or looped language models have recently emerged as a new scaling axis by iteratively refining the same model computation over latent states to deepen reasoning. We extend such scaling princi",
-      "url": "https://arxiv.org/abs/2604.25917v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
-      "summary": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinemen",
-      "url": "https://arxiv.org/abs/2604.25914v1",
       "tags": [],
       "source": "arXiv"
     }
