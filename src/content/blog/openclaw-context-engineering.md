@@ -72,6 +72,8 @@ pubDate: '2026-04-29'
 <li><a href="#phase-4-llm-请求构建与调用">Phase 4: LLM 请求构建与调用</a></li>
 <li><a href="#phase-5-tool-loopreact-循环">Phase 5: Tool Loop（ReAct 循环）</a></li>
 <li><a href="#phase-6-后处理post-processing">Phase 6: 后处理（Post-processing）</a></li>
+<li><a href="#phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</a></li>
+<li><a href="#phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</a></li>
 <li><a href="#skills-子系统">Skills 子系统</a></li>
 <li><a href="#memory-子系统">Memory 子系统</a></li>
 <li><a href="#错误处理路径">错误处理路径</a></li>
@@ -81,8 +83,6 @@ pubDate: '2026-04-29'
 <li><a href="#附录-a-完整实例帮我查一下杭州天气">附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;</a></li>
 <li><a href="#附录-b-关键源码文件映射">附录 B: 关键源码文件映射</a></li>
 <li><a href="#附录-c-你的实际配置快照">附录 C: 你的实际配置快照</a></li>
-<li><a href="#phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</a></li>
-<li><a href="#phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</a></li>
 <li><a href="#附录-d-心跳与-cron-源码文件映射">附录 D: 心跳与 Cron 源码文件映射</a></li>
 <li><a href="#设计要点总结">设计要点总结</a></li>
 </ol>
@@ -572,6 +572,477 @@ If nothing needs attention, reply HEARTBEAT_OK.
 <div class="codehilite"><pre><span></span><code><span class="mf">1.</span><span class="w"> </span><span class="n">emitSessionTranscriptUpdate</span><span class="p">(</span><span class="n">sessionFile</span><span class="p">)</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">触发</span><span class="w"> </span><span class="n">transcript</span><span class="w"> </span><span class="n">索引更新</span>
 <span class="mf">2.</span><span class="w"> </span><span class="n">syncPostCompactionSessionMemory</span><span class="p">()</span><span class="w">        </span><span class="err">→</span><span class="w"> </span><span class="n">同步</span><span class="w"> </span><span class="n">memory</span><span class="w"> </span><span class="n">索引</span>
 </code></pre></div>
+
+<hr />
+<h2 id="phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</h2>
+<p>Heartbeat 是 OpenClaw 的<strong>定时唤醒机制</strong>，独立于用户消息流。它让 Agent 在无人对话时仍能被周期性唤醒，执行检查任务（如查邮件、看日历、推定时内容）。Heartbeat 与 Cron 共用同一套底层调度基础设施，但语义不同：Heartbeat 是<strong>周期性轮询</strong>，Cron 是<strong>定点触发</strong>。</p>
+
+<h3 id="71-架构总览">7.1 架构总览</h3>
+<div class="codehilite"><pre><code>Gateway 启动
+  ↓
+startHeartbeatRunner() 初始化调度器
+  ↓
+每个 agent 注册心跳状态 (agentId, intervalMs, phaseMs, nextDueMs)
+  ↓
+setTimeout 等待下一个 due time
+  ↓
+时间到 → 唤醒队列 (heartbeat-wake) → requestHeartbeatNow()
+  ↓
+runHeartbeatOnce() 构建 payload
+  ↓
+getReplyFromConfig() 复用用户消息同一套入口
+  ↓
+LLM 执行 → 输出 HEARTBEAT_OK 或 实际内容
+  ↓
+交付层判断是否需要推送到渠道</code></pre></div>
+
+<h3 id="72-心跳配置解析">7.2 心跳配置解析</h3>
+<p><strong><code>resolveHeartbeatSummaryForAgent</code></strong> (heartbeat-summary-Cgk1PVlc.js)</p>
+<p>每个 agent 的心跳配置来自三层合并：</p>
+<div class="codehilite"><pre><code>agents.defaults.heartbeat          ← 默认配置（全局）
+agents.list[].heartbeat            ← 单个 agent 覆盖
+session 级别覆盖（无配置字段，运行时不可改）</code></pre></div>
+
+<p>配置字段：</p>
+<table>
+<tr><th>字段</th><th>类型</th><th>默认</th><th>说明</th></tr>
+<tr><td><code>enabled</code></td><td>bool</td><td>true</td><td>是否启用</td></tr>
+<tr><td><code>every</code></td><td>string</td><td>&quot;30m&quot;</td><td>间隔，支持 <code>5m</code>, <code>1h</code>, <code>30s</code></td></tr>
+<tr><td><code>target</code></td><td>string</td><td>&quot;none&quot;</td><td>推送目标：<code>none</code>/<code>last</code>/<code>telegram</code>/<code>webchat</code> 等</td></tr>
+<tr><td><code>model</code></td><td>string</td><td>-</td><td>心跳专用模型覆盖</td></tr>
+<tr><td><code>prompt</code></td><td>string</td><td>内置</td><td>心跳提示词覆盖</td></tr>
+<tr><td><code>ackMaxChars</code></td><td>number</td><td>300</td><td>HEARTBEAT_OK 过滤阈值</td></tr>
+<tr><td><code>activeHours</code></td><td>object</td><td>-</td><td>活跃时段限制</td></tr>
+</table>
+
+<p><strong>你的配置：</strong></p>
+<div class="codehilite"><pre><code>{
+  &quot;heartbeat&quot;: {
+    &quot;every&quot;: &quot;5m&quot;, 
+    &quot;model&quot;: &quot;alibaba/deepseek-v4-flash&quot;, 
+    &quot;target&quot;: &quot;last&quot;, 
+    &quot;lightContext&quot;: true, 
+    &quot;isolatedSession&quot;: true
+  }
+}</code></pre></div>
+
+<h3 id="73-心跳调度器">7.3 心跳调度器</h3>
+<p><strong><code>startHeartbeatRunner</code></strong> (heartbeat-runner-CInrztfM.js:1000+)</p>
+<p>调度器是 Gateway 内的单例状态机：</p>
+<div class="codehilite"><pre><code>const state = {
+  cfg,           // 当前配置引用
+  agents: Map,   // agentId → { agentId, heartbeat, intervalMs, phaseMs, nextDueMs }
+  timer,         // setTimeout handle
+  stopped,       // 是否已停止
+  runtime        // 动态加载的运行时
+};</code></pre></div>
+
+<p><strong>Phase 偏移算法：</strong></p>
+<p>每个 agent 的心跳不是简单的 <code>setInterval</code>，而是用 <strong>SHA-256 哈希</strong> 计算相位偏移，避免所有 agent 同时心跳造成突刺：</p>
+<div class="codehilite"><pre><code>const phaseMs = sha256(`${schedulerSeed}:${agentId}`).readUInt32BE(0) % intervalMs;</code></pre></div>
+
+<p>这意味着：</p>
+<ul>
+<li>两个 agent 即使配了相同的 <code>every: 5m</code>，实际触发时间也会错开</li>
+<li>重启 Gateway 后相位不变（seed 基于 deviceId）</li>
+</ul>
+
+<p><strong>调度循环：</strong></p>
+<div class="codehilite"><pre><code>scheduleNext()
+  → 计算所有 agent 的 nextDueMs
+  → 取最近的 due time
+  → setTimeout(dueTime - now)
+  → 超时后 run({ reason: &quot;interval&quot; })
+  → 遍历所有 agent，检查 now >= nextDueMs
+  → 对到期的 agent 执行 runOnce()
+  → 重新 scheduleNext()</code></pre></div>
+
+<h3 id="74-心跳唤醒队列">7.4 心跳唤醒队列</h3>
+<p><strong><code>heartbeat-wake-a3GAt85y.js</code></strong> — 全局唤醒队列</p>
+<p>这是心跳系统的<strong>事件总线</strong>。所有非间隔触发的心跳（Cron、exec 完成、手动唤醒）都走这里：</p>
+<div class="codehilite"><pre><code>requestHeartbeatNow({ reason, agentId, sessionKey })
+  → queuePendingWakeReason() 入队
+  → schedule(250ms) 聚合调度
+  → 250ms 后批量消费
+  → 调用 handler (即 runHeartbeatOnce)</code></pre></div>
+
+<p><strong>优先级：</strong></p>
+<div class="codehilite"><pre><code>REASON_PRIORITY = {
+  RETRY: 0,      // 重试（最低）
+  INTERVAL: 1,   // 定时心跳
+  DEFAULT: 2,    // 默认
+  ACTION: 3      // 手动/Cron/exec（最高）
+};</code></pre></div>
+
+<p>高优先级会覆盖低优先级的同目标唤醒。</p>
+<p><strong>聚合机制：</strong></p>
+<ul>
+<li>多个唤醒请求在 250ms 内会合并为一次批量执行</li>
+<li>如果 handler 返回 <code>requests-in-flight</code>，会 1s 后重试</li>
+<li>全局单线程：一次只处理一批，完成后才处理下一批</li>
+</ul>
+
+<h3 id="75-单次心跳执行">7.5 单次心跳执行</h3>
+<p><strong><code>runHeartbeatOnce</code> / <code>runOnce</code></strong> (heartbeat-runner-CInrztfM.js:400+)</p>
+<p>这是心跳系统的<strong>核心执行函数</strong>。一次心跳的完整流程：</p>
+
+<h4 id="751-跳过条件检查">7.5.1 跳过条件检查</h4>
+<div class="codehilite"><pre><code>1. heartbeat 未启用 → skip (disabled)
+2. 当前不在 activeHours 时段 → skip (outside-active-hours)
+3. 正在 compaction 中 → skip (compacting)
+4. HEARTBEAT.md 不存在或 effectively empty → skip (empty-prompt)
+5. requests-in-flight（并发限制）→ skip (requests-in-flight)
+6. 距离上次心跳太近 → skip (rate-limited) [isolated session 有 5s 冷却]</code></pre></div>
+
+<h4 id="752-payload-构建">7.5.2 Payload 构建</h4>
+<div class="codehilite"><pre><code>const payload = {
+  kind: &quot;heartbeat&quot;,      // 标记这是心跳消息
+  heartbeatPrompt,         // HEARTBEAT_PROMPT 或 HEARTBEAT.md 内容
+  heartbeatModel,          // 覆盖模型（如 deepseek-v4-flash）
+  systemEvents,            // Cron/Exec 等系统事件文本数组
+  lightContext,            // 是否轻量 bootstrap
+  isolatedSession,         // 是否在独立 session 运行
+  ackMaxChars,             // HEARTBEAT_OK 过滤阈值
+};</code></pre></div>
+
+<p><strong>心跳提示词来源：</strong></p>
+<div class="codehilite"><pre><code>HEARTBEAT.md 存在且非空 → 读取文件内容
+否则 → 默认提示：
+  &quot;Read HEARTBEAT.md if it exists... If nothing needs attention, reply HEARTBEAT_OK.&quot;</code></pre></div>
+
+<h4 id="753-system-events-注入">7.5.3 System Events 注入</h4>
+<p>心跳执行前，会检查 session 的 system events 队列：</p>
+<div class="codehilite"><pre><code>peekSystemEventEntries(sessionKey)  → 取出队列中的事件
+  → 按类型过滤：
+     - isHeartbeatNoiseEvent() → 跳过（HEARTBEAT_OK, heartbeat poll 等）
+     - isExecCompletionEvent() → 构建 exec 完成提示
+     - isCronSystemEvent()     → 构建 Cron 提醒提示
+  → 合并为 systemEvents 数组</code></pre></div>
+
+<p>这意味着：<strong>Cron 任务不是独立线程，而是通过 systemEvent 进入心跳循环被消费。</strong></p>
+
+<h4 id="754-session-选择">7.5.4 Session 选择</h4>
+<div class="codehilite"><pre><code>isolatedSession = true（你的配置）
+  → 创建/复用一个独立 session（sessionKey = agent:main:main）
+  → 该 session 没有历史对话上下文
+  → 运行后结果不会自动出现在主对话
+
+isolatedSession = false
+  → 复用主 session
+  → 结果直接追加到主对话历史</code></pre></div>
+
+<h4 id="755-实际执行">7.5.5 实际执行</h4>
+<div class="codehilite"><pre><code>// 心跳复用与用户消息完全相同的入口
+await getReplyFromConfig({
+  agentId,
+  sessionKey,
+  inboundMessage: payload,  // 伪装成一条用户消息
+  isHeartbeat: true,
+  // ... 其他配置
+});</code></pre></div>
+
+<p>关键：<strong>心跳消息在 getReplyFromConfig 内部被标记为 <code>isHeartbeat</code>，这会：</strong></p>
+<ul>
+<li>注入 <code>## Heartbeats</code> 规则到 system prompt</li>
+<li>影响交付层的过滤逻辑</li>
+</ul>
+
+<h4 id="756-响应过滤heartbeat_ok-机制">7.5.6 响应过滤（HEARTBEAT_OK 机制）</h4>
+<div class="codehilite"><pre><code>LLM 返回响应
+  → stripHeartbeatToken(response)
+    → 包含 &quot;HEARTBEAT_OK&quot;?
+      → 纯 HEARTBEAT_OK（或 &lt;= ackMaxChars）→ shouldSkip = true
+      → HEARTBEAT_OK + 额外内容 → 去掉 token，保留剩余内容
+    → 不包含 → shouldSkip = false，保留全文</code></pre></div>
+
+<p><strong>设计意图：</strong> 让 LLM 有一个明确的&quot;空操作&quot;信号，避免无意义的输出污染对话。</p>
+
+<h3 id="76-system-events-队列">7.6 System Events 队列</h3>
+<p><strong><code>system-events-Dq_M0n12.js</code></strong> — 进程内全局队列</p>
+<div class="codehilite"><pre><code>const queues = Map&lt;sessionKey, {
+  queue: [{ text, ts, contextKey, deliveryContext, trusted }],
+  lastText,      // 去重：相同文本不重复入队
+  lastContextKey
+}&gt;;</code></pre></div>
+
+<p><strong>行为：</strong></p>
+<ul>
+<li>每 session 最多 20 条（<code>MAX_EVENTS = 20</code>），超出的丢弃</li>
+<li>入队时自动去重（<code>lastText</code> 对比）</li>
+<li>消费时要么全部取出（<code>drain</code>），要么部分消费（<code>consume</code>）</li>
+<li>支持 deliveryContext 透传（决定输出推送到哪里）</li>
+</ul>
+
+<p><strong>使用场景：</strong></p>
+<ul>
+<li>Cron 任务触发时 → <code>enqueueSystemEvent(&quot;提醒内容&quot;, { sessionKey })</code></li>
+<li>Exec 完成时 → <code>enqueueSystemEvent(&quot;exec finished: ...&quot;, { sessionKey })</code></li>
+<li>心跳 runner 执行前 → <code>peekSystemEventEntries()</code> 读取待处理事件</li>
+</ul>
+
+<h3 id="77-心跳交付目标解析">7.7 心跳交付目标解析</h3>
+<p><strong><code>resolveHeartbeatDeliveryTarget</code></strong> (targets-DbBSGhxR.js)</p>
+<p>心跳的输出<strong>默认不推送</strong>（<code>target: &quot;none&quot;</code>）。推送需要满足复杂条件：</p>
+<div class="codehilite"><pre><code>target = &quot;none&quot;
+  → 不推送，只在内部处理
+
+target = &quot;last&quot;
+  → 推送到该 session 最后交互的渠道
+  → 需要 session 有 lastChannel/lastTo 记录
+  → 支持 Telegram topic thread 继承
+
+target = &quot;telegram&quot; / &quot;webchat&quot; / ...
+  → 推送到指定渠道
+  → 需要配置 to（目标 ID）
+  → 检查 allowFrom 白名单</code></pre></div>
+
+<p><strong>你的配置：</strong> <code>target: &quot;last&quot;</code> → 推送到最后交互的渠道（webchat）。</p>
+
+<h3 id="78-心跳可见性控制">7.8 心跳可见性控制</h3>
+<p><strong><code>resolveHeartbeatVisibility</code></strong> (heartbeat-visibility-K-nKdcA-.js)</p>
+<p>心跳输出是否展示给用户，由三层配置决定：</p>
+<table>
+<tr><th>层级</th><th>配置路径</th><th>作用</th></tr>
+<tr><td>全局默认</td><td><code>channels.defaults.heartbeat</code></td><td>所有渠道默认</td></tr>
+<tr><td>渠道级</td><td><code>channels.&lt;channel&gt;.heartbeat</code></td><td>单个渠道</td></tr>
+<tr><td>账号级</td><td><code>channels.&lt;channel&gt;.accounts.&lt;id&gt;.heartbeat</code></td><td>单个账号</td></tr>
+</table>
+
+<p>字段：</p>
+<ul>
+<li><code>showOk</code>: 是否显示 HEARTBEAT_OK（默认 false）</li>
+<li><code>showAlerts</code>: 是否显示非 OK 输出（默认 true）</li>
+<li><code>useIndicator</code>: 是否用小圆点指示器（默认 true）</li>
+</ul>
+<p><strong>默认行为：</strong> HEARTBEAT_OK 不显示，有实际内容时才显示。</p>
+
+<h3 id="79-心跳与用户消息的关键区别">7.9 心跳与用户消息的关键区别</h3>
+<table>
+<tr><th>维度</th><th>用户消息</th><th>Heartbeat</th></tr>
+<tr><td>触发源</td><td>用户发送</td><td>Gateway 定时器 / Cron / Exec</td></tr>
+<tr><td>Payload</td><td>用户文本</td><td>HEARTBEAT.md + systemEvents</td></tr>
+<tr><td>Session</td><td>主 session</td><td>可独立（isolatedSession）</td></tr>
+<tr><td>历史保留</td><td>是</td><td>isolated 时否</td></tr>
+<tr><td>交付目标</td><td>当前渠道</td><td>由 target 配置决定</td></tr>
+<tr><td>System Prompt</td><td>完整</td><td>lightContext 时可精简</td></tr>
+<tr><td>响应过滤</td><td>无</td><td>stripHeartbeatToken</td></tr>
+<tr><td>模型</td><td>默认模型</td><td>可独立覆盖</td></tr>
+</table>
+
+<hr />
+<h2 id="phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</h2>
+<p>Cron 是 OpenClaw 的<strong>定点任务调度系统</strong>。它不负责直接执行代码，而是通过在指定时间向心跳系统注入 systemEvent，让心跳 runner 在下次唤醒时代为消费。</p>
+
+<h3 id="81-架构总览">8.1 架构总览</h3>
+<div class="codehilite"><pre><code>用户创建 Cron Job（openclaw cron add）
+  ↓
+Gateway Cron Scheduler 解析 schedule，存入 JSONL 存储
+  ↓
+内部定时器检查是否到点
+  ↓
+到点 → enqueueSystemEvent() 注入事件到目标 session
+  ↓
+心跳 runner 下次执行时 → peekSystemEventEntries() 发现事件
+  ↓
+构建 Cron Event Prompt → 进入 getReplyFromConfig()
+  ↓
+LLM 执行 agentTurn 或消费 systemEvent
+  ↓
+结果通过 delivery 层推送（或不推送）</code></pre></div>
+
+<p><strong>核心洞察：Cron 没有独立的执行引擎，它完全依赖 Heartbeat 的基础设施来消费。</strong></p>
+
+<h3 id="82-cron-任务-schema">8.2 Cron 任务 Schema</h3>
+<p><strong><code>cron-cli-BPJoMlQj.js</code></strong> 定义了完整的 Job 结构：</p>
+<div class="codehilite"><pre><code>interface CronJob {
+  id: string;                    // UUID
+  name?: string;                 // 可读名称
+  enabled: boolean;              // 是否启用
+  
+  schedule: {
+    kind: &quot;at&quot; | &quot;every&quot; | &quot;cron&quot;;
+    at?: string;                 // ISO-8601 时间戳（at 模式）
+    everyMs?: number;            // 间隔毫秒（every 模式）
+    expr?: string;               // Cron 表达式（cron 模式）
+    tz?: string;                 // 时区
+    staggerMs?: number;          // 随机抖动
+  };
+  
+  payload: {
+    kind: &quot;systemEvent&quot; | &quot;agentTurn&quot;;
+    text?: string;               // systemEvent 内容
+    message?: string;            // agentTurn 提示词
+    model?: string;              // 覆盖模型
+    thinking?: string;           // thinking 级别
+    timeoutSeconds?: number;     // 超时
+  };
+  
+  sessionTarget: &quot;main&quot; | &quot;isolated&quot; | &quot;current&quot; | &quot;session:&lt;id&gt;&quot;;
+  
+  delivery: {
+    mode: &quot;none&quot; | &quot;announce&quot; | &quot;webhook&quot;;
+    channel?: string;
+    to?: string;
+    accountId?: string;
+  };
+  
+  failureAlert?: {
+    mode: &quot;announce&quot; | &quot;webhook&quot;;
+    to?: string;
+    after?: number;              // 连续失败次数阈值
+    cooldownMs?: number;
+  };
+  
+  state: {
+    nextRunAtMs: number;
+    lastRunAtMs: number;
+    lastRunStatus: &quot;ok&quot; | &quot;error&quot; | &quot;skipped&quot;;
+    lastDeliveryStatus: string;
+    consecutiveErrors: number;
+  }
+}</code></pre></div>
+
+<h3 id="83-三种-schedule-类型">8.3 三种 Schedule 类型</h3>
+<table>
+<tr><th>类型</th><th>字段</th><th>示例</th></tr>
+<tr><td><code>at</code></td><td><code>at: ISO时间戳</code></td><td>一次性任务 <code>&quot;2026-04-30T09:00:00&quot;</code></td></tr>
+<tr><td><code>every</code></td><td><code>everyMs: 毫秒</code></td><td>周期性任务 <code>everyMs: 300000</code>（5分钟）</td></tr>
+<tr><td><code>cron</code></td><td><code>expr: cron表达式</code></td><td>标准 crontab <code>&quot;30 12 * * *&quot;</code></td></tr>
+</table>
+<p><strong>Stagger（抖动）：</strong> <code>cron</code> 模式支持 <code>staggerMs</code>，在触发时随机延迟 0~staggerMs，避免多个 job 同时触发。</p>
+
+<h3 id="84-两种-payload-类型">8.4 两种 Payload 类型</h3>
+<p>这是 Cron 最核心的设计抉择：</p>
+
+<h4 id="841-payloadkind--systemevent">8.4.1 <code>payload.kind = &quot;systemEvent&quot;</code></h4>
+<div class="codehilite"><pre><code>{
+  &quot;kind&quot;: &quot;systemEvent&quot;,
+  &quot;text&quot;: &quot;提醒：该检查邮件了&quot;
+}</code></pre></div>
+
+<p><strong>行为：</strong></p>
+<ul>
+<li>Cron 到点 → <code>enqueueSystemEvent(text, { sessionKey })</code></li>
+<li>心跳 runner 下次执行时 → 发现 system event</li>
+<li><code>buildCronEventPrompt()</code> → <code>&quot;A scheduled reminder has been triggered. The reminder content is: ...&quot;</code></li>
+<li>LLM 在心跳上下文中消费该事件</li>
+<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;main&quot;</code>（因为 systemEvent 需要主 session 的上下文）</li>
+</ul>
+
+<h4 id="842-payloadkind--agentturn">8.4.2 <code>payload.kind = &quot;agentTurn&quot;</code></h4>
+<div class="codehilite"><pre><code>{
+  &quot;kind&quot;: &quot;agentTurn&quot;,
+  &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
+  &quot;model&quot;: &quot;alibaba/glm-5.1&quot;, 
+  &quot;timeoutSeconds&quot;: 600
+}</code></pre></div>
+
+<p><strong>行为：</strong></p>
+<ul>
+<li>Cron 到点 → 创建独立 agent session</li>
+<li>直接执行 LLM agent turn（不经过心跳 systemEvent 队列）</li>
+<li>可以调用 tools、执行复杂任务</li>
+<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;isolated&quot;</code> / <code>&quot;current&quot;</code> / <code>&quot;session:&lt;id&gt;&quot;</code>（不能是 <code>&quot;main&quot;</code>）</li>
+</ul>
+
+<h3 id="85-session-target-模式">8.5 Session Target 模式</h3>
+<table>
+<tr><th>值</th><th>适用 payload</th><th>行为</th></tr>
+<tr><td><code>&quot;main&quot;</code></td><td><code>systemEvent</code> only</td><td>注入 system event 到主 session，由心跳消费</td></tr>
+<tr><td><code>&quot;isolated&quot;</code></td><td><code>agentTurn</code> only</td><td>创建独立 session，完全隔离</td></tr>
+<tr><td><code>&quot;current&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到创建时的当前 session</td></tr>
+<tr><td><code>&quot;session:&lt;id&gt;&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到指定持久 session</td></tr>
+</table>
+
+<p><strong>关键约束（源码硬编码）：</strong></p>
+<ul>
+<li><code>sessionTarget=&quot;main&quot;</code> → 必须是 <code>payload.kind=&quot;systemEvent&quot;</code></li>
+<li><code>sessionTarget=&quot;isolated&quot;/&quot;current&quot;/&quot;session:xxx&quot;</code> → 必须是 <code>payload.kind=&quot;agentTurn&quot;</code></li>
+</ul>
+
+<h3 id="86-delivery-机制">8.6 Delivery 机制</h3>
+<p>Cron 任务的输出交付，由 <code>delivery.mode</code> 决定：</p>
+<table>
+<tr><th>mode</th><th>行为</th></tr>
+<tr><td><code>&quot;none&quot;</code></td><td>不推送，只记录执行状态</td></tr>
+<tr><td><code>&quot;announce&quot;</code></td><td>推送到指定 channel/to</td></tr>
+<tr><td><code>&quot;webhook&quot;</code></td><td>POST 到指定 URL</td></tr>
+</table>
+
+<p><strong>默认行为：</strong></p>
+<ul>
+<li><code>agentTurn</code> + 无 delivery → 默认 <code>&quot;announce&quot;</code></li>
+<li><code>systemEvent</code> + 无 delivery → 默认 <code>&quot;none&quot;</code>（因为 systemEvent 的输出由心跳 target 决定）</li>
+</ul>
+
+<h3 id="87-cron-与-heartbeat-的协作关系">8.7 Cron 与 Heartbeat 的协作关系</h3>
+<div class="codehilite"><pre><code>时间线 ──────────────────────────────────────────────►
+
+  Cron 触发                    心跳执行
+     │                            │
+     ▼                            ▼
+  enqueueSystemEvent          runHeartbeatOnce()
+     │                            │
+     ▼                            ▼
+  [System Events 队列]  ←──  peekSystemEventEntries()
+                                │
+                                ▼
+                          buildCronEventPrompt()
+                                │
+                                ▼
+                          getReplyFromConfig()
+                                │
+                                ▼
+                           LLM 执行
+                                │
+                                ▼
+                          输出到用户/不输出</code></pre></div>
+
+<p><strong>关键时序问题：</strong></p>
+<ul>
+<li>Cron 触发后，不会立即执行，而是等待<strong>下次心跳</strong></li>
+<li>如果心跳间隔 5 分钟，Cron 任务最多延迟 5 分钟才被执行</li>
+<li>如果心跳被跳过（如 HEARTBEAT.md empty），Cron 事件会被累积，下次心跳时批量处理</li>
+</ul>
+
+<h3 id="88-实际案例分析">8.8 实际案例分析</h3>
+<p><strong>你的&quot;每日 AI 快讯&quot; Cron 任务：</strong></p>
+<div class="codehilite"><pre><code>{
+  &quot;name&quot;: &quot;博客-AI快讯抓取与推送(12:30)&quot;, 
+  &quot;schedule&quot;: { &quot;kind&quot;: &quot;cron&quot;, &quot;expr&quot;: &quot;30 12 * * *&quot;, &quot;tz&quot;: &quot;Asia/Shanghai&quot; },
+  &quot;sessionTarget&quot;: &quot;isolated&quot;, 
+  &quot;payload&quot;: {
+    &quot;kind&quot;: &quot;agentTurn&quot;, 
+    &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
+    &quot;timeoutSeconds&quot;: 600
+  },
+  &quot;delivery&quot;: { &quot;mode&quot;: &quot;none&quot; }
+}</code></pre></div>
+
+<p><strong>执行链路：</strong></p>
+<ul>
+<li>每天 12:30 CST，Cron scheduler 触发</li>
+<li>创建 isolated session，直接执行 agentTurn</li>
+<li>LLM 执行搜索、写文章、git push 等操作</li>
+<li><code>delivery.mode: &quot;none&quot;</code> → 结果不推送到任何渠道</li>
+<li>执行状态记录在 <code>state.lastRunStatus</code></li>
+</ul>
+
+<p><strong>你的&quot;单词推送&quot; Cron 任务（已改为心跳驱动）：</strong></p>
+<p>之前用 Cron 的 <code>systemEvent</code> 模式，后来发现延迟问题（等心跳）。现在改到 HEARTBEAT.md 里由心跳直接驱动，更实时。</p>
+
+<h3 id="89-失败告警机制">8.9 失败告警机制</h3>
+<div class="codehilite"><pre><code>lastRunStatus = &quot;error&quot;
+  → consecutiveErrors += 1
+  → consecutiveErrors >= failureAlert.after?
+    → 触发告警（announce/webhook）
+    → 告警后进入 cooldownMs 冷却期</code></pre></div>
+
+<p><strong>你的超时问题：</strong></p>
+<ul>
+<li><code>00:04</code> 论文库抓取：连续 5 次 timeout → consecutiveErrors=5</li>
+<li>但无 <code>failureAlert</code> 配置 → 不会告警</li>
+</ul>
 
 <hr />
 <h2 id="skills">Skills 子系统</h2>
@@ -1399,477 +1870,6 @@ getReplyFromConfig()
 <span class="w">  </span><span class="nt">&quot;reasoning&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;off&quot;</span>
 <span class="p">}</span>
 </code></pre></div>
-
-<hr />
-<h2 id="phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</h2>
-<p>Heartbeat 是 OpenClaw 的<strong>定时唤醒机制</strong>，独立于用户消息流。它让 Agent 在无人对话时仍能被周期性唤醒，执行检查任务（如查邮件、看日历、推定时内容）。Heartbeat 与 Cron 共用同一套底层调度基础设施，但语义不同：Heartbeat 是<strong>周期性轮询</strong>，Cron 是<strong>定点触发</strong>。</p>
-
-<h3 id="71-架构总览">7.1 架构总览</h3>
-<div class="codehilite"><pre><code>Gateway 启动
-  ↓
-startHeartbeatRunner() 初始化调度器
-  ↓
-每个 agent 注册心跳状态 (agentId, intervalMs, phaseMs, nextDueMs)
-  ↓
-setTimeout 等待下一个 due time
-  ↓
-时间到 → 唤醒队列 (heartbeat-wake) → requestHeartbeatNow()
-  ↓
-runHeartbeatOnce() 构建 payload
-  ↓
-getReplyFromConfig() 复用用户消息同一套入口
-  ↓
-LLM 执行 → 输出 HEARTBEAT_OK 或 实际内容
-  ↓
-交付层判断是否需要推送到渠道</code></pre></div>
-
-<h3 id="72-心跳配置解析">7.2 心跳配置解析</h3>
-<p><strong><code>resolveHeartbeatSummaryForAgent</code></strong> (heartbeat-summary-Cgk1PVlc.js)</p>
-<p>每个 agent 的心跳配置来自三层合并：</p>
-<div class="codehilite"><pre><code>agents.defaults.heartbeat          ← 默认配置（全局）
-agents.list[].heartbeat            ← 单个 agent 覆盖
-session 级别覆盖（无配置字段，运行时不可改）</code></pre></div>
-
-<p>配置字段：</p>
-<table>
-<tr><th>字段</th><th>类型</th><th>默认</th><th>说明</th></tr>
-<tr><td><code>enabled</code></td><td>bool</td><td>true</td><td>是否启用</td></tr>
-<tr><td><code>every</code></td><td>string</td><td>&quot;30m&quot;</td><td>间隔，支持 <code>5m</code>, <code>1h</code>, <code>30s</code></td></tr>
-<tr><td><code>target</code></td><td>string</td><td>&quot;none&quot;</td><td>推送目标：<code>none</code>/<code>last</code>/<code>telegram</code>/<code>webchat</code> 等</td></tr>
-<tr><td><code>model</code></td><td>string</td><td>-</td><td>心跳专用模型覆盖</td></tr>
-<tr><td><code>prompt</code></td><td>string</td><td>内置</td><td>心跳提示词覆盖</td></tr>
-<tr><td><code>ackMaxChars</code></td><td>number</td><td>300</td><td>HEARTBEAT_OK 过滤阈值</td></tr>
-<tr><td><code>activeHours</code></td><td>object</td><td>-</td><td>活跃时段限制</td></tr>
-</table>
-
-<p><strong>你的配置：</strong></p>
-<div class="codehilite"><pre><code>{
-  &quot;heartbeat&quot;: {
-    &quot;every&quot;: &quot;5m&quot;, 
-    &quot;model&quot;: &quot;alibaba/deepseek-v4-flash&quot;, 
-    &quot;target&quot;: &quot;last&quot;, 
-    &quot;lightContext&quot;: true, 
-    &quot;isolatedSession&quot;: true
-  }
-}</code></pre></div>
-
-<h3 id="73-心跳调度器">7.3 心跳调度器</h3>
-<p><strong><code>startHeartbeatRunner</code></strong> (heartbeat-runner-CInrztfM.js:1000+)</p>
-<p>调度器是 Gateway 内的单例状态机：</p>
-<div class="codehilite"><pre><code>const state = {
-  cfg,           // 当前配置引用
-  agents: Map,   // agentId → { agentId, heartbeat, intervalMs, phaseMs, nextDueMs }
-  timer,         // setTimeout handle
-  stopped,       // 是否已停止
-  runtime        // 动态加载的运行时
-};</code></pre></div>
-
-<p><strong>Phase 偏移算法：</strong></p>
-<p>每个 agent 的心跳不是简单的 <code>setInterval</code>，而是用 <strong>SHA-256 哈希</strong> 计算相位偏移，避免所有 agent 同时心跳造成突刺：</p>
-<div class="codehilite"><pre><code>const phaseMs = sha256(`${schedulerSeed}:${agentId}`).readUInt32BE(0) % intervalMs;</code></pre></div>
-
-<p>这意味着：</p>
-<ul>
-<li>两个 agent 即使配了相同的 <code>every: 5m</code>，实际触发时间也会错开</li>
-<li>重启 Gateway 后相位不变（seed 基于 deviceId）</li>
-</ul>
-
-<p><strong>调度循环：</strong></p>
-<div class="codehilite"><pre><code>scheduleNext()
-  → 计算所有 agent 的 nextDueMs
-  → 取最近的 due time
-  → setTimeout(dueTime - now)
-  → 超时后 run({ reason: &quot;interval&quot; })
-  → 遍历所有 agent，检查 now >= nextDueMs
-  → 对到期的 agent 执行 runOnce()
-  → 重新 scheduleNext()</code></pre></div>
-
-<h3 id="74-心跳唤醒队列">7.4 心跳唤醒队列</h3>
-<p><strong><code>heartbeat-wake-a3GAt85y.js</code></strong> — 全局唤醒队列</p>
-<p>这是心跳系统的<strong>事件总线</strong>。所有非间隔触发的心跳（Cron、exec 完成、手动唤醒）都走这里：</p>
-<div class="codehilite"><pre><code>requestHeartbeatNow({ reason, agentId, sessionKey })
-  → queuePendingWakeReason() 入队
-  → schedule(250ms) 聚合调度
-  → 250ms 后批量消费
-  → 调用 handler (即 runHeartbeatOnce)</code></pre></div>
-
-<p><strong>优先级：</strong></p>
-<div class="codehilite"><pre><code>REASON_PRIORITY = {
-  RETRY: 0,      // 重试（最低）
-  INTERVAL: 1,   // 定时心跳
-  DEFAULT: 2,    // 默认
-  ACTION: 3      // 手动/Cron/exec（最高）
-};</code></pre></div>
-
-<p>高优先级会覆盖低优先级的同目标唤醒。</p>
-<p><strong>聚合机制：</strong></p>
-<ul>
-<li>多个唤醒请求在 250ms 内会合并为一次批量执行</li>
-<li>如果 handler 返回 <code>requests-in-flight</code>，会 1s 后重试</li>
-<li>全局单线程：一次只处理一批，完成后才处理下一批</li>
-</ul>
-
-<h3 id="75-单次心跳执行">7.5 单次心跳执行</h3>
-<p><strong><code>runHeartbeatOnce</code> / <code>runOnce</code></strong> (heartbeat-runner-CInrztfM.js:400+)</p>
-<p>这是心跳系统的<strong>核心执行函数</strong>。一次心跳的完整流程：</p>
-
-<h4 id="751-跳过条件检查">7.5.1 跳过条件检查</h4>
-<div class="codehilite"><pre><code>1. heartbeat 未启用 → skip (disabled)
-2. 当前不在 activeHours 时段 → skip (outside-active-hours)
-3. 正在 compaction 中 → skip (compacting)
-4. HEARTBEAT.md 不存在或 effectively empty → skip (empty-prompt)
-5. requests-in-flight（并发限制）→ skip (requests-in-flight)
-6. 距离上次心跳太近 → skip (rate-limited) [isolated session 有 5s 冷却]</code></pre></div>
-
-<h4 id="752-payload-构建">7.5.2 Payload 构建</h4>
-<div class="codehilite"><pre><code>const payload = {
-  kind: &quot;heartbeat&quot;,      // 标记这是心跳消息
-  heartbeatPrompt,         // HEARTBEAT_PROMPT 或 HEARTBEAT.md 内容
-  heartbeatModel,          // 覆盖模型（如 deepseek-v4-flash）
-  systemEvents,            // Cron/Exec 等系统事件文本数组
-  lightContext,            // 是否轻量 bootstrap
-  isolatedSession,         // 是否在独立 session 运行
-  ackMaxChars,             // HEARTBEAT_OK 过滤阈值
-};</code></pre></div>
-
-<p><strong>心跳提示词来源：</strong></p>
-<div class="codehilite"><pre><code>HEARTBEAT.md 存在且非空 → 读取文件内容
-否则 → 默认提示：
-  &quot;Read HEARTBEAT.md if it exists... If nothing needs attention, reply HEARTBEAT_OK.&quot;</code></pre></div>
-
-<h4 id="753-system-events-注入">7.5.3 System Events 注入</h4>
-<p>心跳执行前，会检查 session 的 system events 队列：</p>
-<div class="codehilite"><pre><code>peekSystemEventEntries(sessionKey)  → 取出队列中的事件
-  → 按类型过滤：
-     - isHeartbeatNoiseEvent() → 跳过（HEARTBEAT_OK, heartbeat poll 等）
-     - isExecCompletionEvent() → 构建 exec 完成提示
-     - isCronSystemEvent()     → 构建 Cron 提醒提示
-  → 合并为 systemEvents 数组</code></pre></div>
-
-<p>这意味着：<strong>Cron 任务不是独立线程，而是通过 systemEvent 进入心跳循环被消费。</strong></p>
-
-<h4 id="754-session-选择">7.5.4 Session 选择</h4>
-<div class="codehilite"><pre><code>isolatedSession = true（你的配置）
-  → 创建/复用一个独立 session（sessionKey = agent:main:main）
-  → 该 session 没有历史对话上下文
-  → 运行后结果不会自动出现在主对话
-
-isolatedSession = false
-  → 复用主 session
-  → 结果直接追加到主对话历史</code></pre></div>
-
-<h4 id="755-实际执行">7.5.5 实际执行</h4>
-<div class="codehilite"><pre><code>// 心跳复用与用户消息完全相同的入口
-await getReplyFromConfig({
-  agentId,
-  sessionKey,
-  inboundMessage: payload,  // 伪装成一条用户消息
-  isHeartbeat: true,
-  // ... 其他配置
-});</code></pre></div>
-
-<p>关键：<strong>心跳消息在 getReplyFromConfig 内部被标记为 <code>isHeartbeat</code>，这会：</strong></p>
-<ul>
-<li>注入 <code>## Heartbeats</code> 规则到 system prompt</li>
-<li>影响交付层的过滤逻辑</li>
-</ul>
-
-<h4 id="756-响应过滤heartbeat_ok-机制">7.5.6 响应过滤（HEARTBEAT_OK 机制）</h4>
-<div class="codehilite"><pre><code>LLM 返回响应
-  → stripHeartbeatToken(response)
-    → 包含 &quot;HEARTBEAT_OK&quot;?
-      → 纯 HEARTBEAT_OK（或 &lt;= ackMaxChars）→ shouldSkip = true
-      → HEARTBEAT_OK + 额外内容 → 去掉 token，保留剩余内容
-    → 不包含 → shouldSkip = false，保留全文</code></pre></div>
-
-<p><strong>设计意图：</strong> 让 LLM 有一个明确的&quot;空操作&quot;信号，避免无意义的输出污染对话。</p>
-
-<h3 id="76-system-events-队列">7.6 System Events 队列</h3>
-<p><strong><code>system-events-Dq_M0n12.js</code></strong> — 进程内全局队列</p>
-<div class="codehilite"><pre><code>const queues = Map&lt;sessionKey, {
-  queue: [{ text, ts, contextKey, deliveryContext, trusted }],
-  lastText,      // 去重：相同文本不重复入队
-  lastContextKey
-}&gt;;</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>每 session 最多 20 条（<code>MAX_EVENTS = 20</code>），超出的丢弃</li>
-<li>入队时自动去重（<code>lastText</code> 对比）</li>
-<li>消费时要么全部取出（<code>drain</code>），要么部分消费（<code>consume</code>）</li>
-<li>支持 deliveryContext 透传（决定输出推送到哪里）</li>
-</ul>
-
-<p><strong>使用场景：</strong></p>
-<ul>
-<li>Cron 任务触发时 → <code>enqueueSystemEvent(&quot;提醒内容&quot;, { sessionKey })</code></li>
-<li>Exec 完成时 → <code>enqueueSystemEvent(&quot;exec finished: ...&quot;, { sessionKey })</code></li>
-<li>心跳 runner 执行前 → <code>peekSystemEventEntries()</code> 读取待处理事件</li>
-</ul>
-
-<h3 id="77-心跳交付目标解析">7.7 心跳交付目标解析</h3>
-<p><strong><code>resolveHeartbeatDeliveryTarget</code></strong> (targets-DbBSGhxR.js)</p>
-<p>心跳的输出<strong>默认不推送</strong>（<code>target: &quot;none&quot;</code>）。推送需要满足复杂条件：</p>
-<div class="codehilite"><pre><code>target = &quot;none&quot;
-  → 不推送，只在内部处理
-
-target = &quot;last&quot;
-  → 推送到该 session 最后交互的渠道
-  → 需要 session 有 lastChannel/lastTo 记录
-  → 支持 Telegram topic thread 继承
-
-target = &quot;telegram&quot; / &quot;webchat&quot; / ...
-  → 推送到指定渠道
-  → 需要配置 to（目标 ID）
-  → 检查 allowFrom 白名单</code></pre></div>
-
-<p><strong>你的配置：</strong> <code>target: &quot;last&quot;</code> → 推送到最后交互的渠道（webchat）。</p>
-
-<h3 id="78-心跳可见性控制">7.8 心跳可见性控制</h3>
-<p><strong><code>resolveHeartbeatVisibility</code></strong> (heartbeat-visibility-K-nKdcA-.js)</p>
-<p>心跳输出是否展示给用户，由三层配置决定：</p>
-<table>
-<tr><th>层级</th><th>配置路径</th><th>作用</th></tr>
-<tr><td>全局默认</td><td><code>channels.defaults.heartbeat</code></td><td>所有渠道默认</td></tr>
-<tr><td>渠道级</td><td><code>channels.&lt;channel&gt;.heartbeat</code></td><td>单个渠道</td></tr>
-<tr><td>账号级</td><td><code>channels.&lt;channel&gt;.accounts.&lt;id&gt;.heartbeat</code></td><td>单个账号</td></tr>
-</table>
-
-<p>字段：</p>
-<ul>
-<li><code>showOk</code>: 是否显示 HEARTBEAT_OK（默认 false）</li>
-<li><code>showAlerts</code>: 是否显示非 OK 输出（默认 true）</li>
-<li><code>useIndicator</code>: 是否用小圆点指示器（默认 true）</li>
-</ul>
-<p><strong>默认行为：</strong> HEARTBEAT_OK 不显示，有实际内容时才显示。</p>
-
-<h3 id="79-心跳与用户消息的关键区别">7.9 心跳与用户消息的关键区别</h3>
-<table>
-<tr><th>维度</th><th>用户消息</th><th>Heartbeat</th></tr>
-<tr><td>触发源</td><td>用户发送</td><td>Gateway 定时器 / Cron / Exec</td></tr>
-<tr><td>Payload</td><td>用户文本</td><td>HEARTBEAT.md + systemEvents</td></tr>
-<tr><td>Session</td><td>主 session</td><td>可独立（isolatedSession）</td></tr>
-<tr><td>历史保留</td><td>是</td><td>isolated 时否</td></tr>
-<tr><td>交付目标</td><td>当前渠道</td><td>由 target 配置决定</td></tr>
-<tr><td>System Prompt</td><td>完整</td><td>lightContext 时可精简</td></tr>
-<tr><td>响应过滤</td><td>无</td><td>stripHeartbeatToken</td></tr>
-<tr><td>模型</td><td>默认模型</td><td>可独立覆盖</td></tr>
-</table>
-
-<hr />
-<h2 id="phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</h2>
-<p>Cron 是 OpenClaw 的<strong>定点任务调度系统</strong>。它不负责直接执行代码，而是通过在指定时间向心跳系统注入 systemEvent，让心跳 runner 在下次唤醒时代为消费。</p>
-
-<h3 id="81-架构总览">8.1 架构总览</h3>
-<div class="codehilite"><pre><code>用户创建 Cron Job（openclaw cron add）
-  ↓
-Gateway Cron Scheduler 解析 schedule，存入 JSONL 存储
-  ↓
-内部定时器检查是否到点
-  ↓
-到点 → enqueueSystemEvent() 注入事件到目标 session
-  ↓
-心跳 runner 下次执行时 → peekSystemEventEntries() 发现事件
-  ↓
-构建 Cron Event Prompt → 进入 getReplyFromConfig()
-  ↓
-LLM 执行 agentTurn 或消费 systemEvent
-  ↓
-结果通过 delivery 层推送（或不推送）</code></pre></div>
-
-<p><strong>核心洞察：Cron 没有独立的执行引擎，它完全依赖 Heartbeat 的基础设施来消费。</strong></p>
-
-<h3 id="82-cron-任务-schema">8.2 Cron 任务 Schema</h3>
-<p><strong><code>cron-cli-BPJoMlQj.js</code></strong> 定义了完整的 Job 结构：</p>
-<div class="codehilite"><pre><code>interface CronJob {
-  id: string;                    // UUID
-  name?: string;                 // 可读名称
-  enabled: boolean;              // 是否启用
-  
-  schedule: {
-    kind: &quot;at&quot; | &quot;every&quot; | &quot;cron&quot;;
-    at?: string;                 // ISO-8601 时间戳（at 模式）
-    everyMs?: number;            // 间隔毫秒（every 模式）
-    expr?: string;               // Cron 表达式（cron 模式）
-    tz?: string;                 // 时区
-    staggerMs?: number;          // 随机抖动
-  };
-  
-  payload: {
-    kind: &quot;systemEvent&quot; | &quot;agentTurn&quot;;
-    text?: string;               // systemEvent 内容
-    message?: string;            // agentTurn 提示词
-    model?: string;              // 覆盖模型
-    thinking?: string;           // thinking 级别
-    timeoutSeconds?: number;     // 超时
-  };
-  
-  sessionTarget: &quot;main&quot; | &quot;isolated&quot; | &quot;current&quot; | &quot;session:&lt;id&gt;&quot;;
-  
-  delivery: {
-    mode: &quot;none&quot; | &quot;announce&quot; | &quot;webhook&quot;;
-    channel?: string;
-    to?: string;
-    accountId?: string;
-  };
-  
-  failureAlert?: {
-    mode: &quot;announce&quot; | &quot;webhook&quot;;
-    to?: string;
-    after?: number;              // 连续失败次数阈值
-    cooldownMs?: number;
-  };
-  
-  state: {
-    nextRunAtMs: number;
-    lastRunAtMs: number;
-    lastRunStatus: &quot;ok&quot; | &quot;error&quot; | &quot;skipped&quot;;
-    lastDeliveryStatus: string;
-    consecutiveErrors: number;
-  }
-}</code></pre></div>
-
-<h3 id="83-三种-schedule-类型">8.3 三种 Schedule 类型</h3>
-<table>
-<tr><th>类型</th><th>字段</th><th>示例</th></tr>
-<tr><td><code>at</code></td><td><code>at: ISO时间戳</code></td><td>一次性任务 <code>&quot;2026-04-30T09:00:00&quot;</code></td></tr>
-<tr><td><code>every</code></td><td><code>everyMs: 毫秒</code></td><td>周期性任务 <code>everyMs: 300000</code>（5分钟）</td></tr>
-<tr><td><code>cron</code></td><td><code>expr: cron表达式</code></td><td>标准 crontab <code>&quot;30 12 * * *&quot;</code></td></tr>
-</table>
-<p><strong>Stagger（抖动）：</strong> <code>cron</code> 模式支持 <code>staggerMs</code>，在触发时随机延迟 0~staggerMs，避免多个 job 同时触发。</p>
-
-<h3 id="84-两种-payload-类型">8.4 两种 Payload 类型</h3>
-<p>这是 Cron 最核心的设计抉择：</p>
-
-<h4 id="841-payloadkind--systemevent">8.4.1 <code>payload.kind = &quot;systemEvent&quot;</code></h4>
-<div class="codehilite"><pre><code>{
-  &quot;kind&quot;: &quot;systemEvent&quot;,
-  &quot;text&quot;: &quot;提醒：该检查邮件了&quot;
-}</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>Cron 到点 → <code>enqueueSystemEvent(text, { sessionKey })</code></li>
-<li>心跳 runner 下次执行时 → 发现 system event</li>
-<li><code>buildCronEventPrompt()</code> → <code>&quot;A scheduled reminder has been triggered. The reminder content is: ...&quot;</code></li>
-<li>LLM 在心跳上下文中消费该事件</li>
-<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;main&quot;</code>（因为 systemEvent 需要主 session 的上下文）</li>
-</ul>
-
-<h4 id="842-payloadkind--agentturn">8.4.2 <code>payload.kind = &quot;agentTurn&quot;</code></h4>
-<div class="codehilite"><pre><code>{
-  &quot;kind&quot;: &quot;agentTurn&quot;,
-  &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
-  &quot;model&quot;: &quot;alibaba/glm-5.1&quot;, 
-  &quot;timeoutSeconds&quot;: 600
-}</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>Cron 到点 → 创建独立 agent session</li>
-<li>直接执行 LLM agent turn（不经过心跳 systemEvent 队列）</li>
-<li>可以调用 tools、执行复杂任务</li>
-<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;isolated&quot;</code> / <code>&quot;current&quot;</code> / <code>&quot;session:&lt;id&gt;&quot;</code>（不能是 <code>&quot;main&quot;</code>）</li>
-</ul>
-
-<h3 id="85-session-target-模式">8.5 Session Target 模式</h3>
-<table>
-<tr><th>值</th><th>适用 payload</th><th>行为</th></tr>
-<tr><td><code>&quot;main&quot;</code></td><td><code>systemEvent</code> only</td><td>注入 system event 到主 session，由心跳消费</td></tr>
-<tr><td><code>&quot;isolated&quot;</code></td><td><code>agentTurn</code> only</td><td>创建独立 session，完全隔离</td></tr>
-<tr><td><code>&quot;current&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到创建时的当前 session</td></tr>
-<tr><td><code>&quot;session:&lt;id&gt;&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到指定持久 session</td></tr>
-</table>
-
-<p><strong>关键约束（源码硬编码）：</strong></p>
-<ul>
-<li><code>sessionTarget=&quot;main&quot;</code> → 必须是 <code>payload.kind=&quot;systemEvent&quot;</code></li>
-<li><code>sessionTarget=&quot;isolated&quot;/&quot;current&quot;/&quot;session:xxx&quot;</code> → 必须是 <code>payload.kind=&quot;agentTurn&quot;</code></li>
-</ul>
-
-<h3 id="86-delivery-机制">8.6 Delivery 机制</h3>
-<p>Cron 任务的输出交付，由 <code>delivery.mode</code> 决定：</p>
-<table>
-<tr><th>mode</th><th>行为</th></tr>
-<tr><td><code>&quot;none&quot;</code></td><td>不推送，只记录执行状态</td></tr>
-<tr><td><code>&quot;announce&quot;</code></td><td>推送到指定 channel/to</td></tr>
-<tr><td><code>&quot;webhook&quot;</code></td><td>POST 到指定 URL</td></tr>
-</table>
-
-<p><strong>默认行为：</strong></p>
-<ul>
-<li><code>agentTurn</code> + 无 delivery → 默认 <code>&quot;announce&quot;</code></li>
-<li><code>systemEvent</code> + 无 delivery → 默认 <code>&quot;none&quot;</code>（因为 systemEvent 的输出由心跳 target 决定）</li>
-</ul>
-
-<h3 id="87-cron-与-heartbeat-的协作关系">8.7 Cron 与 Heartbeat 的协作关系</h3>
-<div class="codehilite"><pre><code>时间线 ──────────────────────────────────────────────►
-
-  Cron 触发                    心跳执行
-     │                            │
-     ▼                            ▼
-  enqueueSystemEvent          runHeartbeatOnce()
-     │                            │
-     ▼                            ▼
-  [System Events 队列]  ←──  peekSystemEventEntries()
-                                │
-                                ▼
-                          buildCronEventPrompt()
-                                │
-                                ▼
-                          getReplyFromConfig()
-                                │
-                                ▼
-                           LLM 执行
-                                │
-                                ▼
-                          输出到用户/不输出</code></pre></div>
-
-<p><strong>关键时序问题：</strong></p>
-<ul>
-<li>Cron 触发后，不会立即执行，而是等待<strong>下次心跳</strong></li>
-<li>如果心跳间隔 5 分钟，Cron 任务最多延迟 5 分钟才被执行</li>
-<li>如果心跳被跳过（如 HEARTBEAT.md empty），Cron 事件会被累积，下次心跳时批量处理</li>
-</ul>
-
-<h3 id="88-实际案例分析">8.8 实际案例分析</h3>
-<p><strong>你的&quot;每日 AI 快讯&quot; Cron 任务：</strong></p>
-<div class="codehilite"><pre><code>{
-  &quot;name&quot;: &quot;博客-AI快讯抓取与推送(12:30)&quot;, 
-  &quot;schedule&quot;: { &quot;kind&quot;: &quot;cron&quot;, &quot;expr&quot;: &quot;30 12 * * *&quot;, &quot;tz&quot;: &quot;Asia/Shanghai&quot; },
-  &quot;sessionTarget&quot;: &quot;isolated&quot;, 
-  &quot;payload&quot;: {
-    &quot;kind&quot;: &quot;agentTurn&quot;, 
-    &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
-    &quot;timeoutSeconds&quot;: 600
-  },
-  &quot;delivery&quot;: { &quot;mode&quot;: &quot;none&quot; }
-}</code></pre></div>
-
-<p><strong>执行链路：</strong></p>
-<ul>
-<li>每天 12:30 CST，Cron scheduler 触发</li>
-<li>创建 isolated session，直接执行 agentTurn</li>
-<li>LLM 执行搜索、写文章、git push 等操作</li>
-<li><code>delivery.mode: &quot;none&quot;</code> → 结果不推送到任何渠道</li>
-<li>执行状态记录在 <code>state.lastRunStatus</code></li>
-</ul>
-
-<p><strong>你的&quot;单词推送&quot; Cron 任务（已改为心跳驱动）：</strong></p>
-<p>之前用 Cron 的 <code>systemEvent</code> 模式，后来发现延迟问题（等心跳）。现在改到 HEARTBEAT.md 里由心跳直接驱动，更实时。</p>
-
-<h3 id="89-失败告警机制">8.9 失败告警机制</h3>
-<div class="codehilite"><pre><code>lastRunStatus = &quot;error&quot;
-  → consecutiveErrors += 1
-  → consecutiveErrors >= failureAlert.after?
-    → 触发告警（announce/webhook）
-    → 告警后进入 cooldownMs 冷却期</code></pre></div>
-
-<p><strong>你的超时问题：</strong></p>
-<ul>
-<li><code>00:04</code> 论文库抓取：连续 5 次 timeout → consecutiveErrors=5</li>
-<li>但无 <code>failureAlert</code> 配置 → 不会告警</li>
-</ul>
 
 <hr />
 <h2 id="附录-d-心跳与-cron-源码文件映射">附录 D: 心跳与 Cron 源码文件映射</h2>
