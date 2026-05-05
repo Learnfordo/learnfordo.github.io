@@ -58,7 +58,7 @@ pubDate: '2026-04-29'
 
 <h1 id="openclaw-context-engineering">OpenClaw Context Engineering 完整链路文档</h1>
 <blockquote>
-<p>版本: v2026.4.30 | 作者: LuffyUp | 日期: 2026-05-05<br />
+<p>版本: v2026.5.5 | 作者: LuffyUp | 日期: 2026-05-05<br />
 本文档基于 OpenClaw 源码逆向分析，覆盖从消息到达 Gateway 到最终响应的完整生命周期。<br />
 包含：主链路 + Skills 子系统 + Memory 子系统 + 错误处理 + Provider 抽象层 + Hook 体系 + Fallback 链路 + Heartbeat 心跳 + Cron 定时任务</p>
 </blockquote>
@@ -1912,5 +1912,5 @@ getReplyFromConfig()
 </ol>
 <p><strong>可扩展性：</strong> 插件 Hook（11个）→ Internal Hook（8个）→ Pi Hook（5个），三层各自独立，层层可介入。</p>
 <hr />
-<p><em>文档版本 v2026.4.30。如需补充任何环节的源码细节，告诉我。</em></p>
+<p><em>文档版本 v2026.5.5。如需补充任何环节的源码细节，告诉我。</em></p>
 
