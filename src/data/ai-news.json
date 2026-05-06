@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-05T05:03:45.426Z",
+  "updatedAt": "2026-05-06T04:33:26.962Z",
   "items": [
+    {
+      "date": "2026-05-05",
+      "title": "A Closed-Form Adaptive-Landmark Kernel for Certified Point-Cloud and Graph Classification",
+      "summary": "We introduce PALACE (Persistence Adaptive-Landmark Analytic Classification Engine), the data-adaptive companion to PLACE, paying a small cross-validation tier on three knobs (budget, radii, bandwidth;",
+      "url": "https://arxiv.org/abs/2605.04046v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "summary": "Clinical LLMs are often scaled by increasing model size, context length, retrieval complexity, or inference-time compute, with the implicit expectation that higher accuracy implies safer behavior. Thi",
+      "url": "https://arxiv.org/abs/2605.04039v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "summary": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry reci",
+      "url": "https://arxiv.org/abs/2605.04036v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
+      "summary": "We propose HeadsUp, a scalable feed-forward method for reconstructing high-quality 3D Gaussian heads from large-scale multi-camera setups. Our method employs an efficient encoder-decoder architecture ",
+      "url": "https://arxiv.org/abs/2605.04035v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "summary": "AI systems are entering critical domains like healthcare, finance, and defense, yet remain vulnerable to adversarial attacks. While AI red teaming is a primary defense, current approaches force operat",
+      "url": "https://arxiv.org/abs/2605.04019v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems",
+      "summary": "Reasoning-intensive retrieval aims to surface evidence that supports downstream reasoning rather than merely matching topical similarity. This capability is increasingly important for agentic search s",
+      "url": "https://arxiv.org/abs/2605.04018v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Conditional Diffusion Sampling",
+      "summary": "Sampling from unnormalized multimodal distributions with limited density evaluations remains a fundamental challenge in machine learning and natural sciences. Successful approaches construct a bridge ",
+      "url": "https://arxiv.org/abs/2605.04013v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+      "summary": "Language models excel at diagnostic assessments on currated medical case-studies and vignettes, performing on par with, or better than, clinical professionals. However, existing studies focus on compl",
+      "url": "https://arxiv.org/abs/2605.04012v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
+      "summary": "A brain tumor is a medical disorder faced by individuals of all demographics. Medically, it is described as the spread of non-essential cells close to or throughout the brain. Symptoms of this ailment",
+      "url": "https://arxiv.org/abs/2605.04008v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
+      "summary": "High-precision CNC machining of free-form aerospace components requires bounded compensations informed by inspection, simulation, and process knowledge. Off-the-shelf large language model (LLM) assist",
+      "url": "https://arxiv.org/abs/2605.04003v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "summary": "via www.thatprivacyguy.com",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1322
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Three Inverse Laws of AI",
+      "summary": "via susam.net",
+      "url": "https://susam.net/inverse-laws-of-robotics.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 392
+    },
+    {
+      "date": "2026-05-05",
+      "title": "When everyone has AI and the company still learns nothing",
+      "summary": "via www.robert-glaser.de",
+      "url": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 334
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Agents for financial services and insurance",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 216
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Should I run plain Docker Compose in production in 2026?",
+      "summary": "via distr.sh",
+      "url": "https://distr.sh/blog/running-docker-in-production/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 374
+    },
     {
       "date": "2026-05-05",
       "title": "Y Combinator's Stake in OpenAI (0.6%)",
@@ -308,153 +443,6 @@
       "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
       "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challenging. Existing graph construction methods, whether co",
       "url": "https://arxiv.org/abs/2604.28178v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders",
-      "summary": "Machine learning models can learn from data samples to carry out various tasks efficiently. When data samples are adversarially manipulated, such as by insertion of carefully crafted noise, it can cau",
-      "url": "https://arxiv.org/abs/2604.28176v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Strait: Perceiving Priority and Interference in ML Inference Serving",
-      "summary": "Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization an",
-      "url": "https://arxiv.org/abs/2604.28175v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
-      "summary": "Modern video diffusion models excel at appearance synthesis but still struggle with physical consistency: objects drift, collisions lack realistic rebound, and material responses seldom match their un",
-      "url": "https://arxiv.org/abs/2604.28169v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Mapping the Phase Diagram of the Vicsek Model with Machine Learning",
-      "summary": "In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of ",
-      "url": "https://arxiv.org/abs/2604.28167v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Sequential Inference for Gaussian Processes: A Signal Processing Perspective",
-      "summary": "The proliferation of capable and efficient machine learning (ML) models marks one of the strongest methodological shifts in signal processing (SP) in its nearly 100-year history. ML models support the",
-      "url": "https://arxiv.org/abs/2604.28163v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "The gay jailbreak technique (2025)",
-      "summary": "via github.com",
-      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 442
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Show HN: AI CAD Harness",
-      "summary": "via fusion.adam.new",
-      "url": "https://fusion.adam.new/install",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 74
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Eka’s robotic claw feels like we're approaching a ChatGPT moment",
-      "summary": "via www.wired.com",
-      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/theo/status/2049645973350363168",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1047
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Spain's parliament will act against massive IP blockages by LaLiga",
-      "summary": "via www.democrata.es",
-      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 440
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
-      "summary": "via semgrep.dev",
-      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Craig Venter has died",
-      "summary": "via www.jcvi.org",
-      "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 150
-    },
-    {
-      "date": "2026-04-30",
-      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
-      "summary": "via github.com",
-      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 54
-    },
-    {
-      "date": "2026-04-29",
-      "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-      "summary": "Diffusion large language models (dLLMs) offer parallel decoding and bidirectional context, but state-of-the-art dLLMs require billions of parameters for competitive performance. While existing distill",
-      "url": "https://arxiv.org/abs/2604.26951v1",
       "tags": [],
       "source": "arXiv"
     }
