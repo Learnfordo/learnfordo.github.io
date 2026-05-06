@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-06T05:00:05.701Z",
+  "updatedAt": "2026-05-06T11:03:16.102Z",
   "items": [
+    {
+      "date": "2026-05-06",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 359
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Telus Uses AI to Alter Call-Agent Accents",
+      "summary": "via letsdatascience.com",
+      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 157
+    },
     {
       "date": "2026-05-05",
       "title": "A Closed-Form Adaptive-Landmark Kernel for Certified Point-Cloud and Graph Classification",
@@ -90,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1329
+      "score": 1465
+    },
+    {
+      "date": "2026-05-05",
+      "title": "DNSSEC disruption affecting .de domains – Resolved",
+      "summary": "via status.denic.de",
+      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 679
     },
     {
       "date": "2026-05-05",
@@ -101,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 393
+      "score": 456
     },
     {
       "date": "2026-05-05",
@@ -419,30 +452,6 @@
       "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
       "summary": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration ",
       "url": "https://arxiv.org/abs/2604.28182v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
-      "summary": "Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and organized through directory structures and content",
-      "url": "https://arxiv.org/abs/2604.28181v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
-      "summary": "In recent years, physics-informed neural networks (PINNs) have gained significant attention for solving differential equations, although they suffer from two fundamental limitations, namely, spectral ",
-      "url": "https://arxiv.org/abs/2604.28180v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
-      "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challenging. Existing graph construction methods, whether co",
-      "url": "https://arxiv.org/abs/2604.28178v1",
       "tags": [],
       "source": "arXiv"
     }
