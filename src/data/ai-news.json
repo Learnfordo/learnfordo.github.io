@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-06T11:03:16.102Z",
+  "updatedAt": "2026-05-07T04:37:44.497Z",
   "items": [
+    {
+      "date": "2026-05-06",
+      "title": "Taming Outlier Tokens in Diffusion Transformers",
+      "summary": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract dispropo",
+      "url": "https://arxiv.org/abs/2605.05206v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Implicit Representations of Grammaticality in Language Models",
+      "summary": "Grammaticality and likelihood are distinct notions in human language. Pretrained language models (LMs), which are probabilistic models of language fitted to maximize corpus likelihood, generate gramma",
+      "url": "https://arxiv.org/abs/2605.05197v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Grokability in five inequalities",
+      "summary": "In this note, we report five mathematical discoveries made in collaboration with Grok, all of which have been subsequently verified by the authors. These include an improved lower bound on the maximal",
+      "url": "https://arxiv.org/abs/2605.05193v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
+      "summary": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(",
+      "url": "https://arxiv.org/abs/2605.05192v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+      "summary": "Long-horizon search agents must manage a rapidly growing working context as they reason, call tools, and observe information. Naively accumulating all intermediate content can overwhelm the agent, inc",
+      "url": "https://arxiv.org/abs/2605.05191v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
+      "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterio",
+      "url": "https://arxiv.org/abs/2605.05189v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Estimating the expected output of wide random MLPs more efficiently than sampling",
+      "summary": "By far the most common way to estimate an expected loss in machine learning is to draw samples, compute the loss on each one, and take the empirical average. However, sampling is not necessarily optim",
+      "url": "https://arxiv.org/abs/2605.05179v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Understanding In-Context Learning for Nonlinear Regression with Transformers: Attention as Featurizer",
+      "summary": "Pre-trained transformers are able to learn from examples provided as part of the prompt without any weight updates, a remarkable ability known as in-context learning (ICL). Despite its demonstrated ef",
+      "url": "https://arxiv.org/abs/2605.05176v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "MRI-Eval: A Tiered Benchmark for Evaluating LLM Performance on MRI Physics and GE Scanner Operations Knowledge",
+      "summary": "Background: Existing MRI LLM benchmarks rely mainly on review-book multiple-choice questions, where top proprietary models already score highly, limiting discrimination. No systematic benchmark has ev",
+      "url": "https://arxiv.org/abs/2605.05175v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
+      "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing",
+      "url": "https://arxiv.org/abs/2605.05172v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 466
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+      "summary": "via tilde.run",
+      "url": "https://tilde.run/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 134
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Learning the Integral of a Diffusion Model",
+      "summary": "via sander.ai",
+      "url": "https://sander.ai/2026/05/06/flow-maps.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 117
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Show HN: I built an open-source email builder, alternative to Beefree/Unlayer",
+      "summary": "via play.templatical.com",
+      "url": "https://play.templatical.com",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
+    },
+    {
+      "date": "2026-05-05",
+      "title": "A Theory of Deep Learning",
+      "summary": "via elonlit.com",
+      "url": "https://elonlit.com/scrivings/a-theory-of-deep-learning/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 149
+    },
     {
       "date": "2026-05-06",
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
@@ -325,135 +460,6 @@
       ],
       "source": "HN",
       "score": 269
-    },
-    {
-      "date": "2026-05-03",
-      "title": "Let's Buy Spirit Air",
-      "summary": "via letsbuyspiritair.com",
-      "url": "https://letsbuyspiritair.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 266
-    },
-    {
-      "date": "2026-05-01",
-      "title": "HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs",
-      "summary": "We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closures, boundary handling) in a query-conditioned way",
-      "url": "https://arxiv.org/abs/2605.00820v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models",
-      "summary": "Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt",
-      "url": "https://arxiv.org/abs/2605.00817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
-      "summary": "While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a \"Visual Signal Dilution\" phenomenon, where the accumulation of textual his",
-      "url": "https://arxiv.org/abs/2605.00814v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
-      "summary": "Large language models are increasingly deployed as autonomous coding agents and have achieved remarkably strong performance on software engineering benchmarks. However, it is unclear whether such succ",
-      "url": "https://arxiv.org/abs/2605.00803v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Generating Statistical Charts with Validation-Driven LLM Workflows",
-      "summary": "Generating diverse, readable statistical charts from tabular data remains challenging for LLMs, as many failures become apparent after rendering and are not detectable from data or code alone. Existin",
-      "url": "https://arxiv.org/abs/2605.00800v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution",
-      "summary": "Humans solve problems by executing targeted plans, yet large language models (LLMs) remain unreliable for structured workflow execution. We propose RunAgent, a multi-agent plan execution platform that",
-      "url": "https://arxiv.org/abs/2605.00798v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI",
-      "summary": "Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded health information. AI-assisted development lowers t",
-      "url": "https://arxiv.org/abs/2605.00796v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
-      "summary": "With the development of deep learning, medical image processing has been widely used to assist clinical research. This paper focuses on the denoising problem of low-dose computed tomography using deep",
-      "url": "https://arxiv.org/abs/2605.00793v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Make Your LVLM KV Cache More Lightweight",
-      "summary": "Key-Value (KV) cache has become a de facto component of modern Large Vision-Language Models (LVLMs) for inference. While it enhances decoding efficiency in Large Language Models (LLMs), its direct ado",
-      "url": "https://arxiv.org/abs/2605.00789v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "SAVGO: Learning State-Action Value Geometry with Cosine Similarity for Continuous Control",
-      "summary": "While representation and similarity learning have improved the sample efficiency of Reinforcement Learning (RL), they are rarely used to shape policy updates directly in the action space. To bridge th",
-      "url": "https://arxiv.org/abs/2605.00787v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-02",
-      "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
-      "summary": "via hnup.date",
-      "url": "https://hnup.date/hn-sota",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 73
-    },
-    {
-      "date": "2026-05-02",
-      "title": "Voice-AI-for-Beginners – A curated learning path for developers",
-      "summary": "via github.com",
-      "url": "https://github.com/mahimairaja/voiceai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 51
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Computing Equilibrium beyond Unilateral Deviation",
-      "summary": "Most familiar equilibrium concepts, such as Nash and correlated equilibrium, guarantee only that no single player can improve their utility by deviating unilaterally. They offer no guarantees against ",
-      "url": "https://arxiv.org/abs/2604.28186v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
-      "summary": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration ",
-      "url": "https://arxiv.org/abs/2604.28182v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
