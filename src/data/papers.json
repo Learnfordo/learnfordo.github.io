@@ -1,5 +1,75 @@
 [
   {
+    "title": "Irminsul: MLA-Native Position-Independent Caching for Agentic LLM Serving",
+    "vendor": "Mistral",
+    "date": "2026-05-07",
+    "arxivId": "2605.05696v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.05696v1",
+    "summary": "Agentic LLM workloads put bit-identical tokens at shifted positions every turn, voiding prefix caches at the first byte of divergence. Operators report cache-hit regressions ranging from moderate slowdowns to severe TTFT spikes of 10-16s on unchanged content. Prior position-independent caching syste",
+    "tags": [],
+    "descriptionCn": "《Irminsul: MLA-Native Position-Independent Caching for Agentic LLM Serving》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "ZAYA1-8B Technical Report",
+    "vendor": "OpenAI",
+    "date": "2026-05-06",
+    "arxivId": "2605.05365v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.05365v1",
+    "summary": "We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture. ZAYA1-8B's core pretraining, midtraining, and supervised fine-tuning (SFT) were performed on a full-stack AMD compute, networking, and software plat",
+    "tags": [],
+    "descriptionCn": "《ZAYA1-8B Technical Report》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems",
+    "vendor": "Anthropic",
+    "date": "2026-05-05",
+    "arxivId": "2605.03310v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.03310v1",
+    "summary": "Multi-agent LLM systems fail in production at rates between 41% and 87%, mostly due to coordination defects rather than base-model capability. Existing responses split between cataloguing failure modes empirically and shipping declarative orchestration frameworks as engineering tools; neither delive",
+    "tags": [],
+    "descriptionCn": "《Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Retrieval and Multi-Hop Reasoning in 1M-Token Context Windows: Evaluating LLMs on Classical Chinese Text",
+    "vendor": "DeepSeek",
+    "date": "2026-05-04",
+    "arxivId": "2605.02173v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.02173v1",
+    "summary": "We evaluate the long-context retrieval and reasoning capabilities of five frontier large language models with advertised 1M-token context windows on a classical Chinese corpus. Two complementary studies are reported. Test 1 measures single-needle retrieval at 1M tokens of input, with three biographi",
+    "tags": [],
+    "descriptionCn": "《Retrieval and Multi-Hop Reasoning in 1M-Token Context Windows: Evaluating LLMs o》— DeepSeek 发布的最新研究论文。"
+  },
+  {
+    "title": "VisInject: Disruption != Injection -- A Dual-Dimension Evaluation of Universal Adversarial Attacks on Vision-Language Models",
+    "vendor": "DeepSeek",
+    "date": "2026-05-02",
+    "arxivId": "2605.01449v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.01449v1",
+    "summary": "Universal adversarial attacks on aligned multimodal large language models are increasingly reported with attack success rates in the 60-80% range, suggesting the visual modality is highly vulnerable to imperceptible perturbations as a prompt-injection channel. We argue that this number conflates two",
+    "tags": [],
+    "descriptionCn": "《VisInject: Disruption != Injection -- A Dual-Dimension Evaluation of Universal A》— DeepSeek 发布的最新研究论文。"
+  },
+  {
+    "title": "When Roles Fail: Epistemic Constraints on Advocate Role Fidelity in LLM-Based Political Statement Analysis",
+    "vendor": "Mistral",
+    "date": "2026-04-29",
+    "arxivId": "2604.27228v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.27228v1",
+    "summary": "Democratic discourse analysis systems increasingly rely on multi-agent LLM pipelines in which distinct evaluator models are assigned adversarial roles to generate structured, multi-perspective assessments of political statements. A core assumption is that models will reliably maintain their assigned",
+    "tags": [],
+    "descriptionCn": "《When Roles Fail: Epistemic Constraints on Advocate Role Fidelity in LLM-Based Po》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs",
+    "vendor": "Anthropic",
+    "date": "2026-04-25",
+    "arxivId": "2604.23366v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.23366v1",
+    "summary": "Autonomous multi-agent LLM systems are increasingly deployed to investigate operational incidents and produce structured diagnostic reports. Their trustworthiness hinges on whether each claim is grounded in observed evidence rather than model-internal inference. Existing groundedness evaluators (bin",
+    "tags": [],
+    "descriptionCn": "《GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LL》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
     "vendor": "DeepSeek",
     "date": "2026-04-24",
