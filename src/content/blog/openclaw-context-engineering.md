@@ -1,95 +1,58 @@
 ---
-title: 'OpenClaw Context Engineering 完整链路文档'
-description: '本文档基于 OpenClaw 源码逆向分析，覆盖从消息到达 Gateway 到最终响应的完整生命周期：主链路、Skills 子系统、Memory 子系统、错误处理、Provider 抽象层、Hook 体系、Fallback 链路、Heartbeat 心跳调度系统、Cron 定时任务系统等八大模块。'
+title: 'OpenClaw-Context-Engineering'
+description: ''
 pubDate: '2026-04-29'
 ---
 
-<style>
-.prose {
-  max-width: 820px !important;
-  font-size: 14px !important;
-  line-height: 1.8 !important;
-  color: #333 !important;
-  padding: 0 20px 80px !important;
-}
-.prose h1 { font-size: 22px; margin-top: 32px; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; color: #333 !important; }
-.prose h2 { font-size: 18px; margin-top: 28px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; color: #333 !important; }
-.prose h3 { font-size: 16px; margin-top: 20px; color: #333 !important; }
-.prose h4 { font-size: 14px; margin-top: 16px; color: #333 !important; }
-.prose pre { background: #f5f5f5; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; line-height: 1.4; border: 1px solid #ddd; white-space: pre-wrap; word-break: break-all; }
-.prose code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
-.prose pre code { background: none; padding: 0; }
-.prose table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 12px; }
-.prose th, .prose td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
-.prose th { background: #f5f5f5; font-weight: bold; }
-.prose a { color: #3b82f6; }
-.prose li { margin: 4px 0; }
-.prose blockquote { border-left: 4px solid #ddd; padding: 8px 16px; margin: 16px 0; color: #555; background: #fafafa; }
-.prose hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
-.prose ul, .prose ol { margin-bottom: 20px; padding-left: 24px; }
-.prose p { margin-bottom: 20px; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .prose { color: #ddd !important; }
-  :root:not([data-theme="light"]) .prose h1,
-  :root:not([data-theme="light"]) .prose h2,
-  :root:not([data-theme="light"]) .prose h3,
-  :root:not([data-theme="light"]) .prose h4 { color: #eee !important; }
-  :root:not([data-theme="light"]) .prose pre { background: #1a1a1a; border-color: #333; }
-  :root:not([data-theme="light"]) .prose code { background: #2a2a2a; }
-  :root:not([data-theme="light"]) .prose th { background: #1a1a1a; }
-  :root:not([data-theme="light"]) .prose th,
-  :root:not([data-theme="light"]) .prose td { border-color: #333; }
-  :root:not([data-theme="light"]) .prose blockquote { background: #1a1a1a; border-left-color: #555; color: #aaa; }
-  :root:not([data-theme="light"]) .prose hr { border-top-color: #333; }
-}
-:root[data-theme="dark"] .prose { color: #ddd !important; }
-:root[data-theme="dark"] .prose h1,
-:root[data-theme="dark"] .prose h2,
-:root[data-theme="dark"] .prose h3,
-:root[data-theme="dark"] .prose h4 { color: #eee !important; }
-:root[data-theme="dark"] .prose pre { background: #1a1a1a; border-color: #333; }
-:root[data-theme="dark"] .prose code { background: #2a2a2a; }
-:root[data-theme="dark"] .prose th { background: #1a1a1a; }
-:root[data-theme="dark"] .prose th,
-:root[data-theme="dark"] .prose td { border-color: #333; }
-:root[data-theme="dark"] .prose blockquote { background: #1a1a1a; border-left-color: #555; color: #aaa; }
-:root[data-theme="dark"] .prose hr { border-top-color: #333; }
-</style>
+# OpenClaw Context Engineering 完整链路文档
 
-<h1 id="openclaw-context-engineering">OpenClaw Context Engineering 完整链路文档</h1>
-<blockquote>
-<p>版本: v2026.5.5 | 作者: LuffyUp | 日期: 2026-05-05<br />
-本文档基于 OpenClaw 源码逆向分析，覆盖从消息到达 Gateway 到最终响应的完整生命周期。<br />
-包含：主链路 + Skills 子系统 + Memory 子系统 + 错误处理 + Provider 抽象层 + Hook 体系 + Fallback 链路 + Heartbeat 心跳 + Cron 定时任务</p>
-</blockquote>
-<hr />
-<h2 id="_1">目录</h2>
-<ol>
-<li><a href="#phase-0-消息到达">Phase 0: 消息到达</a></li>
-<li><a href="#phase-1-预处理pre-processing">Phase 1: 预处理（Pre-processing）</a></li>
-<li><a href="#phase-2-system-prompt-组装">Phase 2: System Prompt 组装</a></li>
-<li><a href="#phase-3-压缩触发判断preemptive-compaction">Phase 3: 压缩触发判断（Preemptive Compaction）</a></li>
-<li><a href="#phase-4-llm-请求构建与调用">Phase 4: LLM 请求构建与调用</a></li>
-<li><a href="#phase-5-tool-loopreact-循环">Phase 5: Tool Loop（ReAct 循环）</a></li>
-<li><a href="#phase-6-后处理post-processing">Phase 6: 后处理（Post-processing）</a></li>
-<li><a href="#phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</a></li>
-<li><a href="#phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</a></li>
-<li><a href="#skills-子系统">Skills 子系统</a></li>
-<li><a href="#memory-子系统">Memory 子系统</a></li>
-<li><a href="#错误处理路径">错误处理路径</a></li>
-<li><a href="#provider-抽象层">Provider 抽象层</a></li>
-<li><a href="#完整-hook-体系">完整 Hook 体系</a></li>
-<li><a href="#fallback-链路详解">Fallback 链路详解</a></li>
-<li><a href="#附录-a-完整实例帮我查一下杭州天气">附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;</a></li>
-<li><a href="#附录-b-关键源码文件映射">附录 B: 关键源码文件映射</a></li>
-<li><a href="#附录-c-你的实际配置快照">附录 C: 你的实际配置快照</a></li>
-<li><a href="#附录-d-心跳与-cron-源码文件映射">附录 D: 心跳与 Cron 源码文件映射</a></li>
-<li><a href="#设计要点总结">设计要点总结</a></li>
-</ol>
-<hr />
-<h2 id="phase-0">Phase 0: 消息到达</h2>
-<h3 id="01">0.1 消息流转路径</h3>
-<div class="codehilite"><pre><span></span><code>用户发送消息
+版本: v2026.4.15-final | 作者: LuffyUp | 日期: 2026-04-29
+
+本文档基于 OpenClaw 源码逆向分析，覆盖从消息到达 Gateway 到最终响应的完整生命周期。
+
+包含：主链路 + Skills 子系统 + Memory 子系统 + 错误处理 + Provider 抽象层 + Hook 体系 + Fallback 链路
+
+## 目录
+
+- Phase 0: 消息到达
+
+- Phase 1: 预处理（Pre-processing）
+
+- Phase 2: System Prompt 组装
+
+- Phase 3: 压缩触发判断（Preemptive Compaction）
+
+- Phase 4: LLM 请求构建与调用
+
+- Phase 5: Tool Loop（ReAct 循环）
+
+- Phase 6: 后处理（Post-processing）
+
+- Skills 子系统
+
+- Memory 子系统
+
+- 错误处理路径
+
+- Provider 抽象层
+
+- 完整 Hook 体系
+
+- Fallback 链路详解
+
+- 附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;
+
+- 附录 B: 关键源码文件映射
+
+- 附录 C: 你的实际配置快照
+
+- 设计要点总结
+
+## Phase 0: 消息到达
+
+### 0.1 消息流转路径
+
+用户发送消息
   ↓
 Gateway (Node.js daemon) 接收到 WebSocket/HTTP 请求
   ↓
@@ -104,994 +67,596 @@ get-reply-XW5nFnK2.js → runPreparedReply()
 pi-embedded-runner-DN0VbqlW.js → runEmbeddedAttempt()
   ↓
 Pi Coding Agent (embedded) → 实际 LLM 交互
-</code></pre></div>
 
-<h3 id="02">0.2 核心入口函数</h3>
-<p><strong><code>dispatchReplyFromConfig</code></strong> (dispatch-JNo_iJw5.js:237)</p>
-<p>这是所有入站消息的通用入口。无论消息来自 webchat、Discord、Telegram 还是其他渠道，最终都走这里。</p>
-<p>关键步骤：<br />
-1. <strong>Inbound deduplication</strong> — 检查重复消息（同一 MessageSid 30秒内只处理一次）<br />
-2. <strong>Session store lookup</strong> — 根据 SessionKey 找到 session 文件路径<br />
-3. <strong>Plugin binding check</strong> — 检查是否有插件绑定了这个 conversation（如插件托管模式）<br />
-4. <strong>Fast abort</strong> — 如果是 <code>/stop</code> 命令，立即终止子代理<br />
-5. <strong>Hook trigger</strong> — 触发 <code>message_received</code> 插件 hook<br />
-6. <strong>进入 getReplyFromConfig</strong></p>
-<h3 id="03">0.3 你的实际配置</h3>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;channel&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;webchat&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;sessionKey&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;e4205302-4b21-439e-805e-208cd0df6647&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;agentId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;main&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
+### 0.2 核心入口函数
 
-<hr />
-<h2 id="phase-1-pre-processing">Phase 1: 预处理（Pre-processing）</h2>
-<h3 id="11">1.1 配置加载与模型解析</h3>
-<p><strong><code>getReplyFromConfig</code></strong> (get-reply-XW5nFnK2.js:3189)</p>
-<div class="codehilite"><pre><span></span><code><span class="mf">1.</span><span class="w"> </span><span class="n">加载</span><span class="w"> </span><span class="kr">open</span><span class="n">claw</span><span class="mf">.</span><span class="n">json</span><span class="w"> </span><span class="n">配置</span>
-<span class="mf">2.</span><span class="w"> </span><span class="n">解析默认模型</span><span class="p">:</span><span class="w"> </span><span class="n">provider</span><span class="o">=</span><span class="s">&quot;alibaba&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">modelId</span><span class="o">=</span><span class="s">&quot;glm-5.1&quot;</span>
-<span class="mf">3.</span><span class="w"> </span><span class="n">检查心跳模型覆盖</span><span class="err">（</span><span class="n">heartbeat</span><span class="mf">.</span><span class="n">model</span><span class="err">）</span>
-<span class="mf">4.</span><span class="w"> </span><span class="n">检查</span><span class="w"> </span><span class="n">session</span><span class="w"> </span><span class="n">存储的模型覆盖</span><span class="err">（</span><span class="n">sessionEntry</span><span class="mf">.</span><span class="n">modelOverride</span><span class="err">）</span>
-<span class="mf">5.</span><span class="w"> </span><span class="n">检查渠道模型覆盖</span><span class="err">（</span><span class="n">channel</span><span class="w"> </span><span class="n">model</span><span class="w"> </span><span class="n">override</span><span class="err">）</span>
-<span class="mf">6.</span><span class="w"> </span><span class="n">最终确定</span><span class="w"> </span><span class="n">provider</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">model</span>
-</code></pre></div>
+**dispatchReplyFromConfig** (dispatch-JNo_iJw5.js:237)
 
-<h3 id="12-session">1.2 Session 状态初始化</h3>
-<p><strong><code>initSessionState</code></strong> → <code>useFastTestBootstrap ? initFastReplySessionState : await initSessionState</code></p>
-<p>初始化以下状态：<br />
-- <code>sessionKey</code> — 当前会话标识<br />
-- <code>sessionId</code> — Pi 内部 session ID（UUID）<br />
-- <code>sessionEntry</code> — session store 中的持久化状态<br />
-- <code>sessionFile</code> — JSONL 文件路径<br />
-- <code>isNewSession</code> — 是否是新会话<br />
-- <code>resetTriggered</code> — 是否触发了 /reset</p>
-<h3 id="13">1.3 指令解析</h3>
-<p><strong><code>resolveReplyDirectives</code></strong> — 解析用户消息中的 inline 指令：</p>
-<table>
-<thead>
-<tr>
-<th>指令</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>/think high</code></td>
-<td>切换 thinking level</td>
-</tr>
-<tr>
-<td><code>/reasoning on</code></td>
-<td>开启 reasoning</td>
-</tr>
-<tr>
-<td><code>/verbose</code></td>
-<td>开启 verbose 输出</td>
-</tr>
-<tr>
-<td><code>/model alibaba/glm-5.1</code></td>
-<td>切换模型</td>
-</tr>
-<tr>
-<td><code>/new</code> or <code>/reset</code></td>
-<td>重置会话</td>
-</tr>
-</tbody>
-</table>
-<h3 id="14-bootstrap">1.4 Bootstrap 上下文注入</h3>
-<p>这是整个 context engineering 的第一道防线。</p>
-<p><strong><code>resolveBootstrapContextForRun</code></strong> (bootstrap-files-ZYTN7n8L.js)</p>
-<h4 id="141-bootstrap">1.4.1 Bootstrap 文件加载顺序</h4>
-<div class="codehilite"><pre><span></span><code><span class="n">loadWorkspaceBootstrapFiles</span><span class="p">(</span><span class="n">workspaceDir</span><span class="p">)</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="err">按固定顺序扫描</span><span class="p">:</span>
-<span class="w">    </span><span class="mf">1.</span><span class="w"> </span><span class="n">AGENTS</span><span class="o">.</span><span class="n">md</span><span class="w">      </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">2.</span><span class="w"> </span><span class="n">SOUL</span><span class="o">.</span><span class="n">md</span><span class="w">        </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">3.</span><span class="w"> </span><span class="n">TOOLS</span><span class="o">.</span><span class="n">md</span><span class="w">       </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">4.</span><span class="w"> </span><span class="n">IDENTITY</span><span class="o">.</span><span class="n">md</span><span class="w">    </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">5.</span><span class="w"> </span><span class="n">USER</span><span class="o">.</span><span class="n">md</span><span class="w">        </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">40</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">6.</span><span class="w"> </span><span class="n">HEARTBEAT</span><span class="o">.</span><span class="n">md</span><span class="w">   </span><span class="p">(</span><span class="n">dynamic</span><span class="p">,</span><span class="w"> </span><span class="n">order</span><span class="o">=</span><span class="n">MAX</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">7.</span><span class="w"> </span><span class="n">BOOTSTRAP</span><span class="o">.</span><span class="n">md</span><span class="w">   </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">60</span><span class="p">)</span>
-<span class="w">    </span><span class="mf">8.</span><span class="w"> </span><span class="n">MEMORY</span><span class="o">.</span><span class="n">md</span><span class="w">      </span><span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">70</span><span class="p">,</span><span class="w"> </span><span class="err">或</span><span class="w"> </span><span class="n">memory</span><span class="o">.</span><span class="n">md</span><span class="p">)</span>
-</code></pre></div>
+这是所有入站消息的通用入口。无论消息来自 webchat、Discord、Telegram 还是其他渠道，最终都走这里。
 
-<p><strong>关键行为：</strong><br />
-- 文件不存在 → 注入 <code>[MISSING] Expected at: &lt;path&gt;</code><br />
-- 文件读取失败（权限/文件锁）→ 同&rdquo;不存在&rdquo;，注入 <code>[MISSING]</code><br />
-- 文件存在但为空 → 注入空内容（不注入 <code>[MISSING]</code>，LLM 感知文件存在）<br />
-- HEARTBEAT.md 不存在 → 不注入 <code>[MISSING]</code>，改为注入默认心跳提示词<br />
-- 子代理/Cron session → 只加载最小集合 (AGENTS, TOOLS, SOUL, IDENTITY, USER)<br />
-- 非默认 agent → 不加载 HEARTBEAT.md<br />
-- lightweight mode → 只保留 HEARTBEAT.md</p>
-<h4 id="142">1.4.2 预算截断</h4>
-<p><strong><code>buildBootstrapContextFiles</code></strong> (pi-embedded-helpers-6UMMUO8y.js:130)</p>
-<div class="codehilite"><pre><span></span><code>per-file limit:  maxChars      = 12,000 chars（默认）
+关键步骤：
+
+1. **Inbound deduplication** — 检查重复消息（同一 MessageSid 30秒内只处理一次）
+
+2. **Session store lookup** — 根据 SessionKey 找到 session 文件路径
+
+3. **Plugin binding check** — 检查是否有插件绑定了这个 conversation（如插件托管模式）
+
+4. **Fast abort** — 如果是 /stop 命令，立即终止子代理
+
+5. **Hook trigger** — 触发 message_received 插件 hook
+
+6. **进入 getReplyFromConfig**
+
+### 0.3 你的实际配置
+
+{
+  "channel": "webchat",
+  "sessionKey": "e4205302-4b21-439e-805e-208cd0df6647",
+  "agentId": "main"
+}
+
+## Phase 1: 预处理（Pre-processing）
+
+### 1.1 配置加载与模型解析
+
+**getReplyFromConfig** (get-reply-XW5nFnK2.js:3189)
+
+1. 加载 openclaw.json 配置
+2. 解析默认模型: provider="alibaba", modelId="glm-5.1"
+3. 检查心跳模型覆盖（heartbeat.model）
+4. 检查 session 存储的模型覆盖（sessionEntry.modelOverride）
+5. 检查渠道模型覆盖（channel model override）
+6. 最终确定 provider + model
+
+### 1.2 Session 状态初始化
+
+**initSessionState** → useFastTestBootstrap ? initFastReplySessionState : await initSessionState
+
+初始化以下状态：
+
+- sessionKey — 当前会话标识
+
+- sessionId — Pi 内部 session ID（UUID）
+
+- sessionEntry — session store 中的持久化状态
+
+- sessionFile — JSONL 文件路径
+
+- isNewSession — 是否是新会话
+
+- resetTriggered — 是否触发了 /reset
+
+### 1.3 指令解析
+
+**resolveReplyDirectives** — 解析用户消息中的 inline 指令：
+
+指令
+效果
+
+/think high
+切换 thinking level
+
+/reasoning on
+开启 reasoning
+
+/verbose
+开启 verbose 输出
+
+/model alibaba/glm-5.1
+切换模型
+
+/new or /reset
+重置会话
+
+### 1.4 Bootstrap 上下文注入
+
+这是整个 context engineering 的第一道防线。
+
+**resolveBootstrapContextForRun** (bootstrap-files-ZYTN7n8L.js)
+
+#### 1.4.1 Bootstrap 文件加载顺序
+
+loadWorkspaceBootstrapFiles(workspaceDir)
+  → 按固定顺序扫描:
+    1. AGENTS.md      (order=10)
+    2. SOUL.md        (order=20)
+    3. TOOLS.md       (order=50)
+    4. IDENTITY.md    (order=30)
+    5. USER.md        (order=40)
+    6. HEARTBEAT.md   (dynamic, order=MAX)
+    7. BOOTSTRAP.md   (order=60)
+    8. MEMORY.md      (order=70, 或 memory.md)
+
+**关键行为：**
+
+- 文件不存在 → 注入 [MISSING] Expected at: <path>
+
+- 文件读取失败（权限/文件锁）→ 同&rdquo;不存在&rdquo;，注入 [MISSING]
+
+- 文件存在但为空 → 注入空内容（不注入 [MISSING]，LLM 感知文件存在）
+
+- HEARTBEAT.md 不存在 → 不注入 [MISSING]，改为注入默认心跳提示词
+
+- 子代理/Cron session → 只加载最小集合 (AGENTS, TOOLS, SOUL, IDENTITY, USER)
+
+- 非默认 agent → 不加载 HEARTBEAT.md
+
+- lightweight mode → 只保留 HEARTBEAT.md
+
+#### 1.4.2 预算截断
+
+**buildBootstrapContextFiles** (pi-embedded-helpers-6UMMUO8y.js:130)
+
+per-file limit:  maxChars      = 12,000 chars（默认）
 total limit:     totalMaxChars = 60,000 chars（默认）
 min budget:      MIN_BOOTSTRAP_FILE_BUDGET_CHARS = 256
 head ratio:      BOOTSTRAP_HEAD_RATIO = 0.6
 tail ratio:      BOOTSTRAP_TAIL_RATIO = 0.4
-</code></pre></div>
 
-<p>截断策略：<br />
-1. 超出 <code>maxChars</code> → 头尾保留（60%头 + 40%尾），中间插入 <code>[...truncated...]</code><br />
-2. 超出 <code>totalMaxChars</code> → 整文件被截断到剩余预算内<br />
-3. 剩余预算 &lt; 256 → 跳过后续文件</p>
-<p><strong>你的配置：</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;bootstrapMaxChars&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12000</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bootstrapTotalMaxChars&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60000</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bootstrapPromptTruncationWarning&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;once&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
+截断策略：
 
-<h4 id="143-bootstrap-hook">1.4.3 Bootstrap Hook</h4>
-<p><code>applyBootstrapHookOverrides</code> — 允许插件通过 <code>agent:bootstrap</code> internal hook 修改 bootstrap files 列表。</p>
-<h3 id="15">1.5 心跳提示词注入</h3>
-<p><strong><code>resolveHeartbeatPromptForSystemPrompt</code></strong> (bootstrap-files-ZYTN7n8L.js)</p>
-<p>条件：<br />
-- 当前 agent 是默认 agent<br />
-- heartbeat 配置中 <code>includeSystemPromptSection !== false</code><br />
-- heartbeat cadence &gt; 0（默认 30m）</p>
-<p>注入内容：读取 <code>HEARTBEAT.md</code> 文件内容（如果存在），否则注入默认提示：</p>
-<div class="codehilite"><pre><span></span><code>Read HEARTBEAT.md if it exists (workspace context). Follow it strictly.
+1. 超出 maxChars → 头尾保留（60%头 + 40%尾），中间插入 [...truncated...]
+
+2. 超出 totalMaxChars → 整文件被截断到剩余预算内
+
+3. 剩余预算 < 256 → 跳过后续文件
+
+**你的配置：**
+
+{
+  "bootstrapMaxChars": 12000,
+  "bootstrapTotalMaxChars": 60000,
+  "bootstrapPromptTruncationWarning": "once"
+}
+
+#### 1.4.3 Bootstrap Hook
+
+applyBootstrapHookOverrides — 允许插件通过 agent:bootstrap internal hook 修改 bootstrap files 列表。
+
+### 1.5 心跳提示词注入
+
+**resolveHeartbeatPromptForSystemPrompt** (bootstrap-files-ZYTN7n8L.js)
+
+条件：
+
+- 当前 agent 是默认 agent
+
+- heartbeat 配置中 includeSystemPromptSection !== false
+
+- heartbeat cadence > 0（默认 30m）
+
+注入内容：读取 HEARTBEAT.md 文件内容（如果存在），否则注入默认提示：
+
+Read HEARTBEAT.md if it exists (workspace context). Follow it strictly.
 Do not infer or repeat old tasks from prior chats.
 If nothing needs attention, reply HEARTBEAT_OK.
-</code></pre></div>
 
-<hr />
-<h2 id="phase-2-system-prompt">Phase 2: System Prompt 组装</h2>
-<p>这是 context engineering 最核心的环节。所有指令、工具说明、上下文文件都在这里拼接。</p>
-<h3 id="21">2.1 调用链</h3>
-<div class="codehilite"><pre><span></span><code>runEmbeddedAttempt()
+## Phase 2: System Prompt 组装
+
+这是 context engineering 最核心的环节。所有指令、工具说明、上下文文件都在这里拼接。
+
+### 2.1 调用链
+
+runEmbeddedAttempt()
   → buildEmbeddedSystemPrompt(params)
     → buildAgentSystemPrompt(params)
       → 拼接所有 sections
-</code></pre></div>
 
-<h3 id="22">2.2 完整拼接顺序</h3>
-<p><code>buildAgentSystemPrompt</code> (system-prompt-D8lixhp6.js:260) 的输出按以下顺序拼接：</p>
-<div class="codehilite"><pre><span></span><code><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;You are a personal assistant running inside OpenClaw.&quot;</span>
+### 2.2 完整拼接顺序
 
-<span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;## Tooling&quot;</span>
-<span class="w">      </span><span class="n">工具列表</span><span class="err">（</span><span class="n">按固定顺序</span><span class="err">，</span><span class="mi">25</span><span class="n">个</span><span class="err">）</span>
-<span class="w">      </span><span class="s">&quot;TOOLS.md does not control tool availability...&quot;</span>
-<span class="w">      </span><span class="s">&quot;For long waits, avoid rapid poll loops...&quot;</span>
-<span class="w">      </span><span class="p">[</span><span class="n">ACP</span><span class="w"> </span><span class="n">harness</span><span class="w"> </span><span class="n">instructions</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">enabled</span><span class="p">]</span>
+buildAgentSystemPrompt (system-prompt-D8lixhp6.js:260) 的输出按以下顺序拼接：
 
-<span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w">  </span><span class="p">[</span><span class="n">provider</span><span class="w"> </span><span class="n">override</span><span class="o">:</span><span class="w"> </span><span class="n">interaction_style</span><span class="p">]</span>
+[1]  "You are a personal assistant running inside OpenClaw."
 
-<span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;## Tool Call Style&quot;</span>
-<span class="w">      </span><span class="n">工具调用风格指南</span>
+[2]  "## Tooling"
+      工具列表（按固定顺序，25个）
+      "TOOLS.md does not control tool availability..."
+      "For long waits, avoid rapid poll loops..."
+      [ACP harness instructions if enabled]
 
-<span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="w">  </span><span class="p">[</span><span class="n">provider</span><span class="w"> </span><span class="n">override</span><span class="o">:</span><span class="w"> </span><span class="n">execution_bias</span><span class="p">]</span>
+[3]  [provider override: interaction_style]
 
-<span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="w">  </span><span class="p">[</span><span class="n">provider</span><span class="w"> </span><span class="n">stable</span><span class="w"> </span><span class="n">prefix</span><span class="p">]</span>
+[4]  "## Tool Call Style"
+      工具调用风格指南
 
-<span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;## Safety&quot;</span>
-<span class="w">      </span><span class="s">&quot;You have no independent goals...&quot;</span>
+[5]  [provider override: execution_bias]
 
-<span class="p">[</span><span class="mi">8</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;## OpenClaw CLI Quick Reference&quot;</span>
+[6]  [provider stable prefix]
 
-<span class="p">[</span><span class="mi">9</span><span class="p">]</span><span class="w">  </span><span class="s">&quot;## Skills (mandatory)&quot;</span>
-<span class="w">      </span><span class="n">Before</span><span class="w"> </span><span class="n">replying</span><span class="o">:</span><span class="w"> </span><span class="n">scan</span><span class="w"> </span><span class="o">&lt;</span><span class="n">available_skills</span><span class="o">&gt;</span><span class="p">...</span>
-<span class="w">      </span><span class="o">&lt;</span><span class="n">available_skills</span><span class="o">&gt;</span>
-<span class="w">        </span><span class="p">[</span><span class="n">skill</span><span class="w"> </span><span class="n">列表</span><span class="err">，</span><span class="n">含名称</span><span class="err">、</span><span class="n">描述</span><span class="err">、</span><span class="n">requires</span><span class="p">]</span>
-<span class="w">      </span><span class="o">&lt;/</span><span class="n">available_skills</span><span class="o">&gt;</span>
+[7]  "## Safety"
+      "You have no independent goals..."
 
-<span class="p">[</span><span class="mi">10</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## 🧠 MEMORY.md / 📝 Write It Down&quot;</span>
-<span class="w">      </span><span class="n">memory_search</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">memory_get</span><span class="w"> </span><span class="n">使用规则</span>
-<span class="w">      </span><span class="n">写入时机指引</span>
+[8]  "## OpenClaw CLI Quick Reference"
 
-<span class="p">[</span><span class="mi">11</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## OpenClaw Self-Update&quot;</span><span class="err">（</span><span class="n">如果有</span><span class="w"> </span><span class="n">gateway</span><span class="w"> </span><span class="n">工具</span><span class="err">）</span>
+[9]  "## Skills (mandatory)"
+      Before replying: scan <available_skills>...
+      <available_skills>
+        [skill 列表，含名称、描述、requires]
+      </available_skills>
 
-<span class="p">[</span><span class="mi">12</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Model Aliases&quot;</span><span class="err">（</span><span class="n">如果有别名</span><span class="err">）</span>
+[10] "## 🧠 MEMORY.md / 📝 Write It Down"
+      memory_search / memory_get 使用规则
+      写入时机指引
 
-<span class="p">[</span><span class="mi">13</span><span class="p">]</span><span class="w"> </span><span class="p">[</span><span class="n">timezone</span><span class="w"> </span><span class="n">hint</span><span class="p">]</span>
-<span class="w">      </span><span class="s">&quot;## Workspace&quot;</span>
-<span class="w">      </span><span class="s">&quot;Your working directory is: /Users/.../.openclaw/workspace&quot;</span>
+[11] "## OpenClaw Self-Update"（如果有 gateway 工具）
 
-<span class="p">[</span><span class="mi">14</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Documentation&quot;</span>
+[12] "## Model Aliases"（如果有别名）
 
-<span class="p">[</span><span class="mi">15</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Sandbox&quot;</span><span class="err">（</span><span class="n">如果</span><span class="w"> </span><span class="n">sandbox</span><span class="w"> </span><span class="n">启用</span><span class="err">）</span>
+[13] [timezone hint]
+      "## Workspace"
+      "Your working directory is: /Users/.../.openclaw/workspace"
 
-<span class="p">[</span><span class="mi">16</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Authorized Senders&quot;</span><span class="err">（</span><span class="n">如果有</span><span class="w"> </span><span class="n">ownerNumbers</span><span class="err">）</span>
+[14] "## Documentation"
 
-<span class="p">[</span><span class="mi">17</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Current Date &amp; Time&quot;</span><span class="err">（</span><span class="n">如果有</span><span class="w"> </span><span class="n">timezone</span><span class="err">）</span>
+[15] "## Sandbox"（如果 sandbox 启用）
 
-<span class="p">[</span><span class="mi">18</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Workspace Files (injected)&quot;</span>
+[16] "## Authorized Senders"（如果有 ownerNumbers）
 
-<span class="p">[</span><span class="mi">19</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Assistant Output Directives&quot;</span>
-<span class="w">      </span><span class="nl">MEDIA</span><span class="p">:,</span><span class="w"> </span><span class="p">[[</span><span class="n">audio_as_voice</span><span class="p">]],</span><span class="w"> </span><span class="p">[[</span><span class="n">reply_to_current</span><span class="p">]]</span><span class="w"> </span><span class="n">等</span>
+[17] "## Current Date & Time"（如果有 timezone）
 
-<span class="p">[</span><span class="mi">20</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Control UI Embed&quot;</span><span class="err">（</span><span class="n">webchat</span><span class="w"> </span><span class="n">专用</span><span class="err">）</span>
+[18] "## Workspace Files (injected)"
 
-<span class="p">[</span><span class="mi">21</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Messaging&quot;</span>
+[19] "## Assistant Output Directives"
+      MEDIA:, [[audio_as_voice]], [[reply_to_current]] 等
 
-<span class="p">[</span><span class="mi">22</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Voice (TTS)&quot;</span><span class="err">（</span><span class="n">如果有</span><span class="w"> </span><span class="n">TTS</span><span class="w"> </span><span class="n">hint</span><span class="err">）</span>
+[20] "## Control UI Embed"（webchat 专用）
 
-<span class="p">[</span><span class="mi">23</span><span class="p">]</span><span class="w"> </span><span class="p">[</span><span class="n">Reactions</span><span class="w"> </span><span class="n">guidance</span><span class="p">]</span><span class="err">（</span><span class="n">如果启用</span><span class="err">）</span>
+[21] "## Messaging"
 
-<span class="p">[</span><span class="mi">24</span><span class="p">]</span><span class="w"> </span><span class="p">[</span><span class="n">Reasoning</span><span class="w"> </span><span class="n">Format</span><span class="p">]</span><span class="err">（</span><span class="n">如果</span><span class="w"> </span><span class="n">reasoningTagHint</span><span class="err">）</span>
-<span class="w">      </span><span class="n">强制使用</span><span class="w"> </span><span class="o">&lt;</span><span class="n">thinking</span><span class="o">&gt;</span><span class="p">...</span><span class="o">&lt;/</span><span class="n">thinking</span><span class="o">&gt;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="o">&lt;</span><span class="n">final</span><span class="o">&gt;</span><span class="p">...</span><span class="o">&lt;/</span><span class="n">final</span><span class="o">&gt;</span>
+[22] "## Voice (TTS)"（如果有 TTS hint）
 
-<span class="o">---</span><span class="w"> </span><span class="n">SYSTEM_PROMPT_CACHE_BOUNDARY</span><span class="w"> </span><span class="o">---</span>
-<span class="w">     </span><span class="err">（</span><span class="n">Anthropic</span><span class="w"> </span><span class="n">cache_control</span><span class="w"> </span><span class="n">分界线</span><span class="err">；</span><span class="n">alibaba</span><span class="w"> </span><span class="n">provider</span><span class="w"> </span><span class="n">下作为普通文本出现</span><span class="err">）</span>
+[23] [Reactions guidance]（如果启用）
 
-<span class="p">[</span><span class="mi">25</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;# Project Context&quot;</span><span class="err">（</span><span class="n">稳定上下文文件</span><span class="err">）</span>
-<span class="w">      </span><span class="n">AGENTS</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">SOUL</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">IDENTITY</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">USER</span><span class="p">.</span><span class="n">md</span>
-<span class="w">      </span><span class="err">→</span><span class="w"> </span><span class="n">TOOLS</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">BOOTSTRAP</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">MEMORY</span><span class="p">.</span><span class="n">md</span>
-<span class="w">      </span><span class="err">（</span><span class="n">按</span><span class="w"> </span><span class="n">CONTEXT_FILE_ORDER</span><span class="w"> </span><span class="n">排序</span><span class="err">）</span>
+[24] [Reasoning Format]（如果 reasoningTagHint）
+      强制使用 <thinking>...</thinking> + <final>...</final>
 
-<span class="p">[</span><span class="mi">26</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Silent Replies&quot;</span>
-<span class="w">      </span><span class="s">&quot;When you have nothing to say, respond with ONLY: NO_REPLY&quot;</span>
+--- SYSTEM_PROMPT_CACHE_BOUNDARY ---
+     （Anthropic cache_control 分界线；alibaba provider 下作为普通文本出现）
 
-<span class="p">[</span><span class="mi">27</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;&lt;!-- OPENCLAW_CACHE_BOUNDARY --&gt;&quot;</span>
+[25] "# Project Context"（稳定上下文文件）
+      AGENTS.md → SOUL.md → IDENTITY.md → USER.md
+      → TOOLS.md → BOOTSTRAP.md → MEMORY.md
+      （按 CONTEXT_FILE_ORDER 排序）
 
-<span class="p">[</span><span class="mi">28</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;# Dynamic Project Context&quot;</span>
-<span class="w">      </span><span class="n">HEARTBEAT</span><span class="p">.</span><span class="n">md</span><span class="err">（</span><span class="n">唯一动态文件</span><span class="err">）</span>
+[26] "## Silent Replies"
+      "When you have nothing to say, respond with ONLY: NO_REPLY"
 
-<span class="p">[</span><span class="mi">29</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Group Chat Context&quot;</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="s">&quot;## Subagent Context&quot;</span>
-<span class="w">      </span><span class="p">[</span><span class="n">extraSystemPrompt</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">any</span><span class="p">]</span>
+[27] "<!-- OPENCLAW_CACHE_BOUNDARY -->"
 
-<span class="p">[</span><span class="mi">30</span><span class="p">]</span><span class="w"> </span><span class="p">[</span><span class="n">provider</span><span class="w"> </span><span class="n">dynamic</span><span class="w"> </span><span class="n">suffix</span><span class="p">]</span>
+[28] "# Dynamic Project Context"
+      HEARTBEAT.md（唯一动态文件）
 
-<span class="p">[</span><span class="mi">31</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Heartbeats&quot;</span>
-<span class="w">      </span><span class="p">[</span><span class="n">heartbeatPrompt</span><span class="w"> </span><span class="n">content</span><span class="p">]</span>
+[29] "## Group Chat Context" / "## Subagent Context"
+      [extraSystemPrompt if any]
 
-<span class="p">[</span><span class="mi">32</span><span class="p">]</span><span class="w"> </span><span class="s">&quot;## Runtime&quot;</span>
-<span class="w">      </span><span class="s">&quot;Runtime: agent=main | host=... | model=alibaba/glm-5.1&quot;</span>
-<span class="w">      </span><span class="s">&quot;channel=webchat | capabilities=none | thinking=low&quot;</span>
-<span class="w">      </span><span class="s">&quot;Reasoning: off (hidden unless on/stream)...&quot;</span>
-</code></pre></div>
+[30] [provider dynamic suffix]
 
-<h3 id="23">2.3 关键设计</h3>
-<p><strong>Stable vs Dynamic 分离：</strong><br />
-- <code>SYSTEM_PROMPT_CACHE_BOUNDARY</code> 之前 → Anthropic cache_control 缓存（prefix）<br />
-- <code>SYSTEM_PROMPT_CACHE_BOUNDARY</code> 之后 → 每轮可能变化（suffix）<br />
-- <code>OPENCLAW_CACHE_BOUNDARY</code> → 标记 Project Context 结束</p>
-<p><strong>Context File Order：</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">CONTEXT_FILE_ORDER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Map</span><span class="p">([</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;agents.md&quot;</span><span class="p">,</span><span class="w">    </span><span class="mf">10</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;soul.md&quot;</span><span class="p">,</span><span class="w">      </span><span class="mf">20</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;identity.md&quot;</span><span class="p">,</span><span class="w">  </span><span class="mf">30</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;user.md&quot;</span><span class="p">,</span><span class="w">      </span><span class="mf">40</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;tools.md&quot;</span><span class="p">,</span><span class="w">     </span><span class="mf">50</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;bootstrap.md&quot;</span><span class="p">,</span><span class="w"> </span><span class="mf">60</span><span class="p">],</span>
-<span class="w">  </span><span class="p">[</span><span class="s2">&quot;memory.md&quot;</span><span class="p">,</span><span class="w">    </span><span class="mf">70</span><span class="p">]</span>
-<span class="p">]);</span>
-</code></pre></div>
+[31] "## Heartbeats"
+      [heartbeatPrompt content]
 
-<p><strong>动态文件：</strong><br />
-- <code>DYNAMIC_CONTEXT_FILE_BASENAMES = {"heartbeat.md"}</code> — 唯一标记为动态的文件<br />
-- 动态文件放在 <code>OPENCLAW_CACHE_BOUNDARY</code> 之后，确保不被缓存</p>
-<hr />
-<h2 id="phase-3-preemptive-compaction">Phase 3: 压缩触发判断（Preemptive Compaction）</h2>
-<p>在发送 LLM 请求之前，OpenClaw 会评估当前上下文是否会溢出。</p>
-<h3 id="31">3.1 触发条件</h3>
-<p><strong><code>shouldPreemptivelyCompactBeforePrompt</code></strong> (pi-embedded-runner-DN0VbqlW.js:5400)</p>
-<div class="codehilite"><pre><span></span><code>输入:
-  <span class="k">-</span> messages: 当前 session 中的所有消息（含 system prompt）
-  <span class="k">-</span> systemPrompt: 刚组装的系统提示
-  <span class="k">-</span> prompt: 当前用户消息
-  <span class="k">-</span> contextTokenBudget: 模型 context window（默认 200,000）
-  <span class="k">-</span> reserveTokens: 40,000（你的配置）
+[32] "## Runtime"
+      "Runtime: agent=main | host=... | model=alibaba/glm-5.1"
+      "channel=webchat | capabilities=none | thinking=low"
+      "Reasoning: off (hidden unless on/stream)..."
+
+### 2.3 关键设计
+
+**Stable vs Dynamic 分离：**
+
+- SYSTEM_PROMPT_CACHE_BOUNDARY 之前 → Anthropic cache_control 缓存（prefix）
+
+- SYSTEM_PROMPT_CACHE_BOUNDARY 之后 → 每轮可能变化（suffix）
+
+- OPENCLAW_CACHE_BOUNDARY → 标记 Project Context 结束
+
+**Context File Order：**
+
+const CONTEXT_FILE_ORDER = new Map([
+  ["agents.md",    10],
+  ["soul.md",      20],
+  ["identity.md",  30],
+  ["user.md",      40],
+  ["tools.md",     50],
+  ["bootstrap.md", 60],
+  ["memory.md",    70]
+]);
+
+**动态文件：**
+
+- DYNAMIC_CONTEXT_FILE_BASENAMES = {"heartbeat.md"} — 唯一标记为动态的文件
+
+- 动态文件放在 OPENCLAW_CACHE_BOUNDARY 之后，确保不被缓存
+
+## Phase 3: 压缩触发判断（Preemptive Compaction）
+
+在发送 LLM 请求之前，OpenClaw 会评估当前上下文是否会溢出。
+
+### 3.1 触发条件
+
+**shouldPreemptivelyCompactBeforePrompt** (pi-embedded-runner-DN0VbqlW.js:5400)
+
+输入:
+  - messages: 当前 session 中的所有消息（含 system prompt）
+  - systemPrompt: 刚组装的系统提示
+  - prompt: 当前用户消息
+  - contextTokenBudget: 模型 context window（默认 200,000）
+  - reserveTokens: 40,000（你的配置）
 
 计算:
   1. estimatedPromptTokens = estimateMessagesTokens(messages)
      + estimateTokens(systemPrompt) + estimateTokens(prompt)
      （estimateMessagesTokens 对每条消息取 JSON.stringify 后 / 4）
-  2. estimatedPromptTokens <span class="gs">*= SAFETY_MARGIN (1.1)   ← 10% 安全余量</span>
-<span class="gs">  3. minPromptBudget = min(8000, contextWindow *</span> 0.5)
+  2. estimatedPromptTokens *= SAFETY_MARGIN (1.1)   ← 10% 安全余量
+  3. minPromptBudget = min(8000, contextWindow * 0.5)
   4. effectiveReserve = min(reserveTokens, contextWindow - minPromptBudget)
   5. promptBudgetBeforeReserve = contextWindow - effectiveReserve
   6. overflowTokens = max(0, estimatedPromptTokens - promptBudgetBeforeReserve)
-</code></pre></div>
 
-<h3 id="32">3.2 决策路线</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">overflowTokens</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="err">?</span>
-<span class="w">  </span><span class="err">│</span>
-<span class="w">  </span><span class="err">├─</span><span class="w"> </span><span class="n">No</span><span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">route</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;fits&quot;</span><span class="err">，直接进入</span><span class="w"> </span><span class="n">Phase</span><span class="w"> </span><span class="mi">4</span>
-<span class="w">  </span><span class="err">│</span>
-<span class="w">  </span><span class="err">└─</span><span class="w"> </span><span class="n">Yes</span>
-<span class="w">       </span><span class="err">│</span>
-<span class="w">       </span><span class="err">├─</span><span class="w"> </span><span class="n">toolResultReducibleChars</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">0</span>
-<span class="w">       </span><span class="err">│</span><span class="w">    </span><span class="err">→</span><span class="w"> </span><span class="s2">&quot;compact_only&quot;</span><span class="err">（无可截断工具结果，只能压缩）</span>
-<span class="w">       </span><span class="err">│</span>
-<span class="w">       </span><span class="err">└─</span><span class="w"> </span><span class="n">toolResultReducibleChars</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span>
-<span class="w">            </span><span class="err">│</span>
-<span class="w">            </span><span class="err">├─</span><span class="w"> </span><span class="err">截断能完全消化溢出</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="s2">&quot;truncate_tool_results_only&quot;</span>
-<span class="w">            </span><span class="err">│</span>
-<span class="w">            </span><span class="err">└─</span><span class="w"> </span><span class="err">截断不足以消化溢出</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="s2">&quot;compact_then_truncate&quot;</span>
-</code></pre></div>
+### 3.2 决策路线
 
-<h3 id="33">3.3 你的实际场景</h3>
-<div class="codehilite"><pre><span></span><code><span class="err">模型</span><span class="o">:</span><span class="w">  </span><span class="n">alibaba</span><span class="o">/</span><span class="n">glm</span><span class="o">-</span><span class="mf">5.1</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">context</span><span class="w"> </span><span class="n">window</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span>
-<span class="err">配置</span><span class="o">:</span><span class="w">  </span><span class="n">reserveTokens</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="o">,</span><span class="mi">000</span>
-<span class="err">计算</span><span class="o">:</span>
-<span class="w">  </span><span class="n">promptBudgetBeforeReserve</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">40</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">160</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span>
-<span class="w">  </span><span class="n">minPromptBudget</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">min</span><span class="o">(</span><span class="mi">8</span><span class="o">,</span><span class="mi">000</span><span class="o">,</span><span class="w"> </span><span class="mi">100</span><span class="o">,</span><span class="mi">000</span><span class="o">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">8</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span>
+overflowTokens > 0?
+  │
+  ├─ No  → route = "fits"，直接进入 Phase 4
+  │
+  └─ Yes
+       │
+       ├─ toolResultReducibleChars <= 0
+       │    → "compact_only"（无可截断工具结果，只能压缩）
+       │
+       └─ toolResultReducibleChars > 0
+            │
+            ├─ 截断能完全消化溢出 → "truncate_tool_results_only"
+            │
+            └─ 截断不足以消化溢出 → "compact_then_truncate"
 
-<span class="err">典型</span><span class="w"> </span><span class="n">session</span><span class="err">（</span><span class="n">system</span><span class="w"> </span><span class="n">prompt</span><span class="w"> </span><span class="o">~</span><span class="mi">8</span><span class="o">,</span><span class="mi">750</span><span class="w"> </span><span class="n">tokens</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">15</span><span class="err">条历史</span><span class="w"> </span><span class="o">~</span><span class="mi">3</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span><span class="err">）</span><span class="o">:</span>
-<span class="w">  </span><span class="n">estimatedPromptTokens</span><span class="w"> </span><span class="err">≈</span><span class="w"> </span><span class="o">(</span><span class="mi">8</span><span class="o">,</span><span class="mi">750</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">3</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">10</span><span class="o">)</span><span class="w"> </span><span class="err">×</span><span class="w"> </span><span class="mf">1.1</span><span class="w"> </span><span class="err">≈</span><span class="w"> </span><span class="mi">12</span><span class="o">,</span><span class="mi">925</span><span class="w"> </span><span class="n">tokens</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="err">远低于</span><span class="w"> </span><span class="mi">160</span><span class="o">,</span><span class="mi">000</span><span class="err">，不触发压缩</span>
-</code></pre></div>
+### 3.3 你的实际场景
 
-<hr />
-<h2 id="phase-4-llm">Phase 4: LLM 请求构建与调用</h2>
-<h3 id="41">4.1 请求组装</h3>
-<div class="codehilite"><pre><span></span><code>runEmbeddedAttempt()
+模型:  alibaba/glm-5.1 → context window = 200,000 tokens
+配置:  reserveTokens = 40,000
+计算:
+  promptBudgetBeforeReserve = 200,000 - 40,000 = 160,000 tokens
+  minPromptBudget = min(8,000, 100,000) = 8,000 tokens
+
+典型 session（system prompt ~8,750 tokens + 15条历史 ~3,000 tokens）:
+  estimatedPromptTokens ≈ (8,750 + 3,000 + 10) × 1.1 ≈ 12,925 tokens
+  → 远低于 160,000，不触发压缩
+
+## Phase 4: LLM 请求构建与调用
+
+### 4.1 请求组装
+
+runEmbeddedAttempt()
   → prepareCompactionSessionAgent()
     → resolveEmbeddedAgentStreamFn()
       → resolveProviderStreamFn()
         → 最终调用 provider 的 streaming API
-</code></pre></div>
 
-<h3 id="42-pi-session">4.2 Pi Session 初始化</h3>
-<p><strong><code>runEmbeddedAttempt</code></strong> (pi-embedded-runner-DN0VbqlW.js:5501)</p>
-<div class="codehilite"><pre><span></span><code><span class="mf">1.</span><span class="w"> </span><span class="n">创建工作区目录</span>
-<span class="mf">2.</span><span class="w"> </span><span class="n">解析沙箱配置</span>
-<span class="mf">3.</span><span class="w"> </span><span class="n">加载技能</span><span class="err">（</span><span class="n">skills</span><span class="err">）</span>
-<span class="mf">4.</span><span class="w"> </span><span class="n">解析</span><span class="w"> </span><span class="n">bootstrap</span><span class="w"> </span><span class="n">上下文</span>
-<span class="mf">5.</span><span class="w"> </span><span class="n">构建</span><span class="w"> </span><span class="kr">sys</span><span class="n">tem</span><span class="w"> </span><span class="n">prompt</span>
-<span class="mf">6.</span><span class="w"> </span><span class="n">初始化</span><span class="w"> </span><span class="n">Pi</span><span class="w"> </span><span class="n">Agent</span>
-<span class="mf">7.</span><span class="w"> </span><span class="n">设置</span><span class="w"> </span><span class="n">compaction</span><span class="w"> </span><span class="n">safeguard</span><span class="w"> </span><span class="kr">run</span><span class="n">time</span>
-<span class="mf">8.</span><span class="w"> </span><span class="n">设置</span><span class="w"> </span><span class="kr">to</span><span class="n">ol</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="kr">cont</span><span class="n">ext</span><span class="w"> </span><span class="n">guard</span>
-<span class="mf">9.</span><span class="w"> </span><span class="n">设置</span><span class="w"> </span><span class="kr">cont</span><span class="n">ext</span><span class="w"> </span><span class="n">pruning</span><span class="err">（</span><span class="n">cache</span><span class="o">-</span><span class="n">ttl</span><span class="w"> </span><span class="n">模式</span><span class="err">，</span><span class="n">仅</span><span class="w"> </span><span class="n">Anthropic</span><span class="err">）</span>
-<span class="mf">10.</span><span class="w"> </span><span class="n">运行</span><span class="w"> </span><span class="n">agent</span>
-</code></pre></div>
+### 4.2 Pi Session 初始化
 
-<h3 id="43-compaction-safeguard-runtime">4.3 Compaction Safeguard Runtime</h3>
-<p><strong><code>setCompactionSafeguardRuntime</code></strong> (pi-hooks/compaction-safeguard-runtime.ts)</p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nx">maxHistoryShare</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span><span class="p">,</span><span class="w">         </span><span class="c1">// 历史消息最多占 50% context window</span>
-<span class="w">  </span><span class="nx">contextWindowTokens</span><span class="o">:</span><span class="w"> </span><span class="mf">200000</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">identifierPolicy</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;strict&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">qualityGuardEnabled</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">qualityGuardMaxRetries</span><span class="o">:</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">model</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;alibaba/glm-5.1&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">recentTurnsPreserve</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span><span class="w">       </span><span class="c1">// 保留最近 3 轮</span>
-<span class="w">  </span><span class="nx">provider</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;alibaba&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
+**runEmbeddedAttempt** (pi-embedded-runner-DN0VbqlW.js:5501)
 
-<h3 id="44-tool-result-context-guard">4.4 Tool Result Context Guard</h3>
-<p><strong><code>installToolResultContextGuard</code></strong> (model-context-tokens-z5hvDVkk.js:2698)</p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nx">maxContextChars</span><span class="o">:</span><span class="w">          </span><span class="nx">contextWindow</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.5</span><span class="p">,</span><span class="w">   </span><span class="c1">// ~400,000 chars</span>
-<span class="w">  </span><span class="nx">maxSingleToolResultChars</span><span class="o">:</span><span class="w"> </span><span class="nx">contextWindow</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.3</span><span class="w">    </span><span class="c1">// ~240,000 chars</span>
-<span class="p">}</span>
-</code></pre></div>
+1. 创建工作区目录
+2. 解析沙箱配置
+3. 加载技能（skills）
+4. 解析 bootstrap 上下文
+5. 构建 system prompt
+6. 初始化 Pi Agent
+7. 设置 compaction safeguard runtime
+8. 设置 tool result context guard
+9. 设置 context pruning（cache-ttl 模式，仅 Anthropic）
+10. 运行 agent
 
-<p>拦截逻辑：<br />
-1. 在 Pi 的 <code>transformContext</code> hook 中拦截<br />
-2. 单条 tool result 超过 <code>maxSingleToolResultChars</code> → 截断，插入 <code>[TOOL RESULT TRUNCATED]</code><br />
-3. 总体超过 <code>maxContextChars</code> → 抛出 <code>PREEMPTIVE_CONTEXT_OVERFLOW</code></p>
-<h3 id="45-context-pruninganthropic">4.5 Context Pruning（Anthropic 专属）</h3>
-<p>你的 provider (alibaba) 不支持 cache-ttl，此步骤跳过。</p>
-<hr />
-<h2 id="phase-5-tool-loopreact">Phase 5: Tool Loop（ReAct 循环）</h2>
-<h3 id="51">5.1 标准循环</h3>
-<div class="codehilite"><pre><span></span><code><span class="err">用户消息</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">LLM</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">tool_call</span><span class="err">?</span>
-<span class="w">                    </span><span class="err">│</span>
-<span class="w">              </span><span class="n">Yes</span><span class="w"> </span><span class="err">──┤</span>
-<span class="w">                    </span><span class="err">↓</span>
-<span class="w">               </span><span class="err">执行</span><span class="w"> </span><span class="k">tool</span>
-<span class="w">                    </span><span class="err">↓</span>
-<span class="w">              </span><span class="n">tool_result</span><span class="w"> </span><span class="err">注入</span><span class="w"> </span><span class="n">session</span>
-<span class="w">                    </span><span class="err">↓</span>
-<span class="w">              </span><span class="n">LLM</span><span class="w"> </span><span class="err">再次调用</span>
-<span class="w">                    </span><span class="err">↓</span>
-<span class="w">              </span><span class="o">...</span><span class="err">循环直到无</span><span class="w"> </span><span class="n">tool_call</span>
-<span class="w">                    </span><span class="err">│</span>
-<span class="w">              </span><span class="n">No</span><span class="w"> </span><span class="err">───┤</span>
-<span class="w">                    </span><span class="err">↓</span>
-<span class="w">               </span><span class="err">最终文本回复</span>
-</code></pre></div>
+### 4.3 Compaction Safeguard Runtime
 
-<h3 id="52-tool-result">5.2 Tool Result 截断（运行中）</h3>
-<p><strong><code>truncateToolResultText</code></strong> (model-context-tokens-z5hvDVkk.js)</p>
-<div class="codehilite"><pre><span></span><code>长度 &lt;= maxChars → 原样返回
+**setCompactionSafeguardRuntime** (pi-hooks/compaction-safeguard-runtime.ts)
 
-长度 &gt; maxChars:
+{
+  maxHistoryShare: 0.5,         // 历史消息最多占 50% context window
+  contextWindowTokens: 200000,
+  identifierPolicy: "strict",
+  qualityGuardEnabled: true,
+  qualityGuardMaxRetries: 2,
+  model: "alibaba/glm-5.1",
+  recentTurnsPreserve: 3,       // 保留最近 3 轮
+  provider: "alibaba"
+}
+
+### 4.4 Tool Result Context Guard
+
+**installToolResultContextGuard** (model-context-tokens-z5hvDVkk.js:2698)
+
+{
+  maxContextChars:          contextWindow * 4 * 0.5,   // ~400,000 chars
+  maxSingleToolResultChars: contextWindow * 4 * 0.3    // ~240,000 chars
+}
+
+拦截逻辑：
+
+1. 在 Pi 的 transformContext hook 中拦截
+
+2. 单条 tool result 超过 maxSingleToolResultChars → 截断，插入 [TOOL RESULT TRUNCATED]
+
+3. 总体超过 maxContextChars → 抛出 PREEMPTIVE_CONTEXT_OVERFLOW
+
+### 4.5 Context Pruning（Anthropic 专属）
+
+你的 provider (alibaba) 不支持 cache-ttl，此步骤跳过。
+
+## Phase 5: Tool Loop（ReAct 循环）
+
+### 5.1 标准循环
+
+用户消息 → LLM → tool_call?
+                    │
+              Yes ──┤
+                    ↓
+               执行 tool
+                    ↓
+              tool_result 注入 session
+                    ↓
+              LLM 再次调用
+                    ↓
+              ...循环直到无 tool_call
+                    │
+              No ───┤
+                    ↓
+               最终文本回复
+
+### 5.2 Tool Result 截断（运行中）
+
+**truncateToolResultText** (model-context-tokens-z5hvDVkk.js)
+
+长度 <= maxChars → 原样返回
+
+长度 > maxChars:
   ├─ 尾部含重要信号词（error/failed/traceback/exception/warning/fatal）
   │    → 头尾保留策略
   │       headBudget = 70% × (maxChars - suffix_len)
   │       tailBudget = 30% × (maxChars - suffix_len)
-  │       中间插入: &quot;\n[...output truncated...]\n&quot;
+  │       中间插入: "\n[...output truncated...]\n"
   │
   └─ 尾部无重要信号词
        → 头部保留策略
-          cutPoint = maxChars - suffix_len（在最近换行符处截断，若 &gt; 80% budget）
-          插入: &quot;\n[...truncated, use a more specific query...]\n&quot;
+          cutPoint = maxChars - suffix_len（在最近换行符处截断，若 > 80% budget）
+          插入: "\n[...truncated, use a more specific query...]\n"
 
 极端情况（超过 maxSingleToolResultChars ~240,000 chars）:
   → Context Guard 直接截断，不走上述两级逻辑
-  → 插入: &quot;\n[TOOL RESULT TRUNCATED: exceeded single result limit]\n&quot;
+  → 插入: "\n[TOOL RESULT TRUNCATED: exceeded single result limit]\n"
   → 截断后总量仍超 maxContextChars → 抛出 PREEMPTIVE_CONTEXT_OVERFLOW
-</code></pre></div>
 
-<h3 id="53-session-manager">5.3 Session Manager 守卫</h3>
-<p><strong><code>guardSessionManager</code></strong> (model-context-tokens-z5hvDVkk.js)</p>
-<ul>
-<li>在 assistant message 之前 flush pending tool results</li>
-<li>在新 tool call 之前 flush</li>
-<li>确保 tool result 不堆积</li>
-</ul>
-<h3 id="54-thinking-block">5.4 Thinking Block 处理</h3>
-<p><strong><code>dropThinkingBlocks</code></strong> (model-context-tokens-z5hvDVkk.js)</p>
-<ul>
-<li><code>reasoningLevel === "off"</code> → 剥离 thinking block，只保留 final</li>
-<li><code>reasoningLevel !== "off"</code> → 保留但标记为 hidden（不展示给用户）</li>
-<li>alibaba provider：LLM 生成的 <code>&lt;thinking&gt;...&lt;/thinking&gt;</code> 标签同样被此函数识别处理</li>
-</ul>
-<hr />
-<h2 id="phase-6-post-processing">Phase 6: 后处理（Post-processing）</h2>
-<h3 id="61-compaction">6.1 Compaction 触发（运行时）</h3>
-<p>Pi 内部检测到上下文接近上限 → 触发 <code>session_before_compact</code> hook</p>
-<p><strong>Safeguard 模式流程：</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="n">Pi</span><span class="o">:</span><span class="w"> </span><span class="n">session_before_compact</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">OpenClaw</span><span class="o">:</span><span class="w"> </span><span class="n">compactionSafeguardExtension</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">splitPreservedRecentTurns</span><span class="o">()</span><span class="w">     </span><span class="err">→</span><span class="w"> </span><span class="err">保留最近</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="err">轮</span>
-<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">buildCompactionStructureInstructions</span><span class="o">()</span>
-<span class="w">     </span><span class="err">→</span><span class="w"> </span><span class="err">生成结构化摘要指令</span><span class="o">:</span>
-<span class="w">        </span><span class="n">Decisions</span><span class="w"> </span><span class="sr">/ TODOs / Constraints / Pending asks /</span><span class="w"> </span><span class="n">Exact</span><span class="w"> </span><span class="n">identifiers</span>
-<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">summarizeViaLLM</span><span class="o">()</span>
-<span class="w">     </span><span class="err">→</span><span class="w"> </span><span class="n">summarizeInStages</span><span class="o">()</span><span class="err">（历史过长时分</span><span class="w"> </span><span class="n">chunk</span><span class="err">）</span>
-<span class="w">        </span><span class="err">→</span><span class="w"> </span><span class="err">每</span><span class="w"> </span><span class="n">chunk</span><span class="w"> </span><span class="err">调用</span><span class="w"> </span><span class="n">summarizeWithFallback</span><span class="o">()</span><span class="err">（见</span><span class="w"> </span><span class="n">Fallback</span><span class="w"> </span><span class="err">章节）</span>
-<span class="w">     </span><span class="err">→</span><span class="w"> </span><span class="n">mergeChunkSummaries</span><span class="o">()</span>
-<span class="w">        </span><span class="err">→</span><span class="w"> </span><span class="err">合并后超长</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">对摘要再做一次</span><span class="w"> </span><span class="n">summarize</span>
-<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="err">拼接</span><span class="w"> </span><span class="n">suffix</span><span class="o">:</span>
-<span class="w">     </span><span class="n">preservedRecentTurns</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">toolFailures</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fileOps</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">workspaceContext</span>
-<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">capCompactionSummaryPreservingSuffix</span><span class="o">()</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">上限</span><span class="w"> </span><span class="mi">16</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">chars</span><span class="err">（尾部截断）</span>
-<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="err">写入</span><span class="w"> </span><span class="n">compaction</span><span class="w"> </span><span class="n">entry</span><span class="err">，替换原始消息</span>
-</code></pre></div>
+### 5.3 Session Manager 守卫
 
-<h3 id="62-post-compaction">6.2 Post-Compaction 刷新</h3>
-<p><strong><code>readPostCompactionContext</code></strong> (post-compaction-context.ts:3568)</p>
-<p>压缩完成后注入：</p>
-<div class="codehilite"><pre><span></span><code><span class="k">[Post-compaction context refresh]</span>
+**guardSessionManager** (model-context-tokens-z5hvDVkk.js)
 
-<span class="na">Session was just compacted. The conversation summary above is a hint,</span>
-<span class="na">NOT a substitute for your startup sequence. Run your Session Startup</span>
-<span class="na">sequence - read the required files before responding to the user.</span>
+- 在 assistant message 之前 flush pending tool results
 
-<span class="na">Critical rules from AGENTS.md</span><span class="o">:</span>
-<span class="k">[AGENTS.md 的 Session Startup 和 Red Lines 章节]</span>
-</code></pre></div>
+- 在新 tool call 之前 flush
 
-<h3 id="63-session">6.3 Session 文件写入</h3>
-<p>每轮对话以 JSONL 格式追加：</p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;message&quot;</span><span class="p">,</span><span class="nt">&quot;role&quot;</span><span class="p">:</span><span class="s2">&quot;user&quot;</span><span class="p">,</span><span class="nt">&quot;content&quot;</span><span class="p">:[</span><span class="err">...</span><span class="p">]}</span>
-<span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;message&quot;</span><span class="p">,</span><span class="nt">&quot;role&quot;</span><span class="p">:</span><span class="s2">&quot;assistant&quot;</span><span class="p">,</span><span class="nt">&quot;content&quot;</span><span class="p">:[</span><span class="err">...</span><span class="p">],</span><span class="nt">&quot;tool_calls&quot;</span><span class="p">:[</span><span class="err">...</span><span class="p">]}</span>
-<span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;tool_result&quot;</span><span class="p">,</span><span class="nt">&quot;toolResult&quot;</span><span class="p">:{</span><span class="err">...</span><span class="p">}}</span>
-<span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;compaction&quot;</span><span class="p">,</span><span class="nt">&quot;summary&quot;</span><span class="p">:</span><span class="s2">&quot;...&quot;</span><span class="p">,</span><span class="nt">&quot;firstKeptEntryId&quot;</span><span class="p">:</span><span class="s2">&quot;...&quot;</span><span class="p">}</span>
-</code></pre></div>
+- 确保 tool result 不堆积
 
-<h3 id="64">6.4 副作用</h3>
-<p><strong><code>runPostCompactionSideEffects</code></strong> (model-context-tokens-z5hvDVkk.js:5923)</p>
-<div class="codehilite"><pre><span></span><code><span class="mf">1.</span><span class="w"> </span><span class="n">emitSessionTranscriptUpdate</span><span class="p">(</span><span class="n">sessionFile</span><span class="p">)</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">触发</span><span class="w"> </span><span class="n">transcript</span><span class="w"> </span><span class="n">索引更新</span>
-<span class="mf">2.</span><span class="w"> </span><span class="n">syncPostCompactionSessionMemory</span><span class="p">()</span><span class="w">        </span><span class="err">→</span><span class="w"> </span><span class="n">同步</span><span class="w"> </span><span class="n">memory</span><span class="w"> </span><span class="n">索引</span>
-</code></pre></div>
+### 5.4 Thinking Block 处理
 
-<hr />
-<h2 id="phase-7-heartbeat-心跳调度系统">Phase 7: Heartbeat 心跳调度系统</h2>
-<p>Heartbeat 是 OpenClaw 的<strong>定时唤醒机制</strong>，独立于用户消息流。它让 Agent 在无人对话时仍能被周期性唤醒，执行检查任务（如查邮件、看日历、推定时内容）。Heartbeat 与 Cron 共用同一套底层调度基础设施，但语义不同：Heartbeat 是<strong>周期性轮询</strong>，Cron 是<strong>定点触发</strong>。</p>
+**dropThinkingBlocks** (model-context-tokens-z5hvDVkk.js)
 
-<h3 id="71-架构总览">7.1 架构总览</h3>
-<div class="codehilite"><pre><code>Gateway 启动
+- reasoningLevel === "off" → 剥离 thinking block，只保留 final
+
+- reasoningLevel !== "off" → 保留但标记为 hidden（不展示给用户）
+
+- alibaba provider：LLM 生成的 <thinking>...</thinking> 标签同样被此函数识别处理
+
+## Phase 6: 后处理（Post-processing）
+
+### 6.1 Compaction 触发（运行时）
+
+Pi 内部检测到上下文接近上限 → 触发 session_before_compact hook
+
+**Safeguard 模式流程：**
+
+Pi: session_before_compact
   ↓
-startHeartbeatRunner() 初始化调度器
+OpenClaw: compactionSafeguardExtension
   ↓
-每个 agent 注册心跳状态 (agentId, intervalMs, phaseMs, nextDueMs)
+1. splitPreservedRecentTurns()     → 保留最近 3 轮
+2. buildCompactionStructureInstructions()
+     → 生成结构化摘要指令:
+        Decisions / TODOs / Constraints / Pending asks / Exact identifiers
+3. summarizeViaLLM()
+     → summarizeInStages()（历史过长时分 chunk）
+        → 每 chunk 调用 summarizeWithFallback()（见 Fallback 章节）
+     → mergeChunkSummaries()
+        → 合并后超长 → 对摘要再做一次 summarize
+4. 拼接 suffix:
+     preservedRecentTurns + toolFailures + fileOps + workspaceContext
+5. capCompactionSummaryPreservingSuffix() → 上限 16,000 chars（尾部截断）
+6. 写入 compaction entry，替换原始消息
+
+### 6.2 Post-Compaction 刷新
+
+**readPostCompactionContext** (post-compaction-context.ts:3568)
+
+压缩完成后注入：
+
+[Post-compaction context refresh]
+
+Session was just compacted. The conversation summary above is a hint,
+NOT a substitute for your startup sequence. Run your Session Startup
+sequence - read the required files before responding to the user.
+
+Critical rules from AGENTS.md:
+[AGENTS.md 的 Session Startup 和 Red Lines 章节]
+
+### 6.3 Session 文件写入
+
+每轮对话以 JSONL 格式追加：
+
+{"type":"message","role":"user","content":[...]}
+{"type":"message","role":"assistant","content":[...],"tool_calls":[...]}
+{"type":"tool_result","toolResult":{...}}
+{"type":"compaction","summary":"...","firstKeptEntryId":"..."}
+
+### 6.4 副作用
+
+**runPostCompactionSideEffects** (model-context-tokens-z5hvDVkk.js:5923)
+
+1. emitSessionTranscriptUpdate(sessionFile) → 触发 transcript 索引更新
+2. syncPostCompactionSessionMemory()        → 同步 memory 索引
+
+## Skills 子系统
+
+### Skills 是什么
+
+Skill 是对 tool 的更高层封装。tool 是原子操作（exec、web_fetch 等），skill 是&rdquo;有名字、有描述、可被 LLM 感知的复合能力单元&rdquo;。LLM 不直接看到 skill 实现，而是通过 system prompt 的 ## Skills (mandatory) 区块感知它们的存在。
+
+### Skill 注册机制
+
+openclaw.json → skills[] 字段
   ↓
-setTimeout 等待下一个 due time
+loadSkillsForAgent() (skill-loader.ts)
   ↓
-时间到 → 唤醒队列 (heartbeat-wake) → requestHeartbeatNow()
-  ↓
-runHeartbeatOnce() 构建 payload
-  ↓
-getReplyFromConfig() 复用用户消息同一套入口
-  ↓
-LLM 执行 → 输出 HEARTBEAT_OK 或 实际内容
-  ↓
-交付层判断是否需要推送到渠道</code></pre></div>
+  1. 扫描 skills/ 目录下的 .skill.md / .skill.js 文件
+  2. 解析 frontmatter（name, description, trigger_patterns, requires_tools[]）
+  3. 过滤: 当前 agent 权限 + 所需 tool 是否可用（TOOLS.md 不控制 skill 可用性）
+  4. 返回 SkillManifest[]
 
-<h3 id="72-心跳配置解析">7.2 心跳配置解析</h3>
-<p><strong><code>resolveHeartbeatSummaryForAgent</code></strong> (heartbeat-summary-Cgk1PVlc.js)</p>
-<p>每个 agent 的心跳配置来自三层合并：</p>
-<div class="codehilite"><pre><code>agents.defaults.heartbeat          ← 默认配置（全局）
-agents.list[].heartbeat            ← 单个 agent 覆盖
-session 级别覆盖（无配置字段，运行时不可改）</code></pre></div>
+### System Prompt 注入格式
 
-<p>配置字段：</p>
-<table>
-<tr><th>字段</th><th>类型</th><th>默认</th><th>说明</th></tr>
-<tr><td><code>enabled</code></td><td>bool</td><td>true</td><td>是否启用</td></tr>
-<tr><td><code>every</code></td><td>string</td><td>&quot;30m&quot;</td><td>间隔，支持 <code>5m</code>, <code>1h</code>, <code>30s</code></td></tr>
-<tr><td><code>target</code></td><td>string</td><td>&quot;none&quot;</td><td>推送目标：<code>none</code>/<code>last</code>/<code>telegram</code>/<code>webchat</code> 等</td></tr>
-<tr><td><code>model</code></td><td>string</td><td>-</td><td>心跳专用模型覆盖</td></tr>
-<tr><td><code>prompt</code></td><td>string</td><td>内置</td><td>心跳提示词覆盖</td></tr>
-<tr><td><code>ackMaxChars</code></td><td>number</td><td>300</td><td>HEARTBEAT_OK 过滤阈值</td></tr>
-<tr><td><code>activeHours</code></td><td>object</td><td>-</td><td>活跃时段限制</td></tr>
-</table>
+## Skills (mandatory)
 
-<p><strong>你的配置：</strong></p>
-<div class="codehilite"><pre><code>{
-  &quot;heartbeat&quot;: {
-    &quot;every&quot;: &quot;5m&quot;, 
-    &quot;model&quot;: &quot;alibaba/deepseek-v4-flash&quot;, 
-    &quot;target&quot;: &quot;last&quot;, 
-    &quot;lightContext&quot;: true, 
-    &quot;isolatedSession&quot;: true
-  }
-}</code></pre></div>
+Before replying, scan <available_skills> for relevant capabilities.
+Prefer skills over raw tool calls when a skill name matches the intent.
 
-<h3 id="73-心跳调度器">7.3 心跳调度器</h3>
-<p><strong><code>startHeartbeatRunner</code></strong> (heartbeat-runner-CInrztfM.js:1000+)</p>
-<p>调度器是 Gateway 内的单例状态机：</p>
-<div class="codehilite"><pre><code>const state = {
-  cfg,           // 当前配置引用
-  agents: Map,   // agentId → { agentId, heartbeat, intervalMs, phaseMs, nextDueMs }
-  timer,         // setTimeout handle
-  stopped,       // 是否已停止
-  runtime        // 动态加载的运行时
-};</code></pre></div>
+<available_skills>
+- weather:       查询城市天气，支持中英文城市名。requires: web_fetch
+- memory_recall: 从长期记忆检索相关内容。requires: memory_search, memory_get
+- image_gen:     生成图片。requires: image_generate
+- ...（共 12 个）
+</available_skills>
 
-<p><strong>Phase 偏移算法：</strong></p>
-<p>每个 agent 的心跳不是简单的 <code>setInterval</code>，而是用 <strong>SHA-256 哈希</strong> 计算相位偏移，避免所有 agent 同时心跳造成突刺：</p>
-<div class="codehilite"><pre><code>const phaseMs = sha256(`${schedulerSeed}:${agentId}`).readUInt32BE(0) % intervalMs;</code></pre></div>
+### Skill 执行路径
 
-<p>这意味着：</p>
-<ul>
-<li>两个 agent 即使配了相同的 <code>every: 5m</code>，实际触发时间也会错开</li>
-<li>重启 Gateway 后相位不变（seed 基于 deviceId）</li>
-</ul>
+Skill **没有独立的执行引擎**。LLM 感知 skill 名称和描述后，在 Tool Loop 里自主编排底层 tool 调用：
 
-<p><strong>调度循环：</strong></p>
-<div class="codehilite"><pre><code>scheduleNext()
-  → 计算所有 agent 的 nextDueMs
-  → 取最近的 due time
-  → setTimeout(dueTime - now)
-  → 超时后 run({ reason: &quot;interval&quot; })
-  → 遍历所有 agent，检查 now >= nextDueMs
-  → 对到期的 agent 执行 runOnce()
-  → 重新 scheduleNext()</code></pre></div>
+普通 tool call:
+  LLM → tool_call(exec, {cmd}) → 执行 → tool_result → LLM
 
-<h3 id="74-心跳唤醒队列">7.4 心跳唤醒队列</h3>
-<p><strong><code>heartbeat-wake-a3GAt85y.js</code></strong> — 全局唤醒队列</p>
-<p>这是心跳系统的<strong>事件总线</strong>。所有非间隔触发的心跳（Cron、exec 完成、手动唤醒）都走这里：</p>
-<div class="codehilite"><pre><code>requestHeartbeatNow({ reason, agentId, sessionKey })
-  → queuePendingWakeReason() 入队
-  → schedule(250ms) 聚合调度
-  → 250ms 后批量消费
-  → 调用 handler (即 runHeartbeatOnce)</code></pre></div>
+Skill 引导的 tool call:
+  LLM 感知 skill "weather"
+    → tool_call(web_fetch, {url: "wttr.in/杭州?format=j1"})
+    → tool_result（JSON 天气数据）
+    → LLM 解析，生成自然语言回复
+  （OpenClaw 不介入中间步骤）
 
-<p><strong>优先级：</strong></p>
-<div class="codehilite"><pre><code>REASON_PRIORITY = {
-  RETRY: 0,      // 重试（最低）
-  INTERVAL: 1,   // 定时心跳
-  DEFAULT: 2,    // 默认
-  ACTION: 3      // 手动/Cron/exec（最高）
-};</code></pre></div>
+### Skill 失败处理
 
-<p>高优先级会覆盖低优先级的同目标唤醒。</p>
-<p><strong>聚合机制：</strong></p>
-<ul>
-<li>多个唤醒请求在 250ms 内会合并为一次批量执行</li>
-<li>如果 handler 返回 <code>requests-in-flight</code>，会 1s 后重试</li>
-<li>全局单线程：一次只处理一批，完成后才处理下一批</li>
-</ul>
+Skill 没有独立错误捕获。底层 tool 失败后 LLM 自主决策（重试、改用其他 tool、告知用户）。建议在 skill description 里加入失败场景的引导语以提高稳定性。
 
-<h3 id="75-单次心跳执行">7.5 单次心跳执行</h3>
-<p><strong><code>runHeartbeatOnce</code> / <code>runOnce</code></strong> (heartbeat-runner-CInrztfM.js:400+)</p>
-<p>这是心跳系统的<strong>核心执行函数</strong>。一次心跳的完整流程：</p>
+## Memory 子系统
 
-<h4 id="751-跳过条件检查">7.5.1 跳过条件检查</h4>
-<div class="codehilite"><pre><code>1. heartbeat 未启用 → skip (disabled)
-2. 当前不在 activeHours 时段 → skip (outside-active-hours)
-3. 正在 compaction 中 → skip (compacting)
-4. HEARTBEAT.md 不存在或 effectively empty → skip (empty-prompt)
-5. requests-in-flight（并发限制）→ skip (requests-in-flight)
-6. 距离上次心跳太近 → skip (rate-limited) [isolated session 有 5s 冷却]</code></pre></div>
+### 两层结构
 
-<h4 id="752-payload-构建">7.5.2 Payload 构建</h4>
-<div class="codehilite"><pre><code>const payload = {
-  kind: &quot;heartbeat&quot;,      // 标记这是心跳消息
-  heartbeatPrompt,         // HEARTBEAT_PROMPT 或 HEARTBEAT.md 内容
-  heartbeatModel,          // 覆盖模型（如 deepseek-v4-flash）
-  systemEvents,            // Cron/Exec 等系统事件文本数组
-  lightContext,            // 是否轻量 bootstrap
-  isolatedSession,         // 是否在独立 session 运行
-  ackMaxChars,             // HEARTBEAT_OK 过滤阈值
-};</code></pre></div>
-
-<p><strong>心跳提示词来源：</strong></p>
-<div class="codehilite"><pre><code>HEARTBEAT.md 存在且非空 → 读取文件内容
-否则 → 默认提示：
-  &quot;Read HEARTBEAT.md if it exists... If nothing needs attention, reply HEARTBEAT_OK.&quot;</code></pre></div>
-
-<h4 id="753-system-events-注入">7.5.3 System Events 注入</h4>
-<p>心跳执行前，会检查 session 的 system events 队列：</p>
-<div class="codehilite"><pre><code>peekSystemEventEntries(sessionKey)  → 取出队列中的事件
-  → 按类型过滤：
-     - isHeartbeatNoiseEvent() → 跳过（HEARTBEAT_OK, heartbeat poll 等）
-     - isExecCompletionEvent() → 构建 exec 完成提示
-     - isCronSystemEvent()     → 构建 Cron 提醒提示
-  → 合并为 systemEvents 数组</code></pre></div>
-
-<p>这意味着：<strong>Cron 任务不是独立线程，而是通过 systemEvent 进入心跳循环被消费。</strong></p>
-
-<h4 id="754-session-选择">7.5.4 Session 选择</h4>
-<div class="codehilite"><pre><code>isolatedSession = true（你的配置）
-  → 创建/复用一个独立 session（sessionKey = agent:main:main）
-  → 该 session 没有历史对话上下文
-  → 运行后结果不会自动出现在主对话
-
-isolatedSession = false
-  → 复用主 session
-  → 结果直接追加到主对话历史</code></pre></div>
-
-<h4 id="755-实际执行">7.5.5 实际执行</h4>
-<div class="codehilite"><pre><code>// 心跳复用与用户消息完全相同的入口
-await getReplyFromConfig({
-  agentId,
-  sessionKey,
-  inboundMessage: payload,  // 伪装成一条用户消息
-  isHeartbeat: true,
-  // ... 其他配置
-});</code></pre></div>
-
-<p>关键：<strong>心跳消息在 getReplyFromConfig 内部被标记为 <code>isHeartbeat</code>，这会：</strong></p>
-<ul>
-<li>注入 <code>## Heartbeats</code> 规则到 system prompt</li>
-<li>影响交付层的过滤逻辑</li>
-</ul>
-
-<h4 id="756-响应过滤heartbeat_ok-机制">7.5.6 响应过滤（HEARTBEAT_OK 机制）</h4>
-<div class="codehilite"><pre><code>LLM 返回响应
-  → stripHeartbeatToken(response)
-    → 包含 &quot;HEARTBEAT_OK&quot;?
-      → 纯 HEARTBEAT_OK（或 &lt;= ackMaxChars）→ shouldSkip = true
-      → HEARTBEAT_OK + 额外内容 → 去掉 token，保留剩余内容
-    → 不包含 → shouldSkip = false，保留全文</code></pre></div>
-
-<p><strong>设计意图：</strong> 让 LLM 有一个明确的&quot;空操作&quot;信号，避免无意义的输出污染对话。</p>
-
-<h3 id="76-system-events-队列">7.6 System Events 队列</h3>
-<p><strong><code>system-events-Dq_M0n12.js</code></strong> — 进程内全局队列</p>
-<div class="codehilite"><pre><code>const queues = Map&lt;sessionKey, {
-  queue: [{ text, ts, contextKey, deliveryContext, trusted }],
-  lastText,      // 去重：相同文本不重复入队
-  lastContextKey
-}&gt;;</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>每 session 最多 20 条（<code>MAX_EVENTS = 20</code>），超出的丢弃</li>
-<li>入队时自动去重（<code>lastText</code> 对比）</li>
-<li>消费时要么全部取出（<code>drain</code>），要么部分消费（<code>consume</code>）</li>
-<li>支持 deliveryContext 透传（决定输出推送到哪里）</li>
-</ul>
-
-<p><strong>使用场景：</strong></p>
-<ul>
-<li>Cron 任务触发时 → <code>enqueueSystemEvent(&quot;提醒内容&quot;, { sessionKey })</code></li>
-<li>Exec 完成时 → <code>enqueueSystemEvent(&quot;exec finished: ...&quot;, { sessionKey })</code></li>
-<li>心跳 runner 执行前 → <code>peekSystemEventEntries()</code> 读取待处理事件</li>
-</ul>
-
-<h3 id="77-心跳交付目标解析">7.7 心跳交付目标解析</h3>
-<p><strong><code>resolveHeartbeatDeliveryTarget</code></strong> (targets-DbBSGhxR.js)</p>
-<p>心跳的输出<strong>默认不推送</strong>（<code>target: &quot;none&quot;</code>）。推送需要满足复杂条件：</p>
-<div class="codehilite"><pre><code>target = &quot;none&quot;
-  → 不推送，只在内部处理
-
-target = &quot;last&quot;
-  → 推送到该 session 最后交互的渠道
-  → 需要 session 有 lastChannel/lastTo 记录
-  → 支持 Telegram topic thread 继承
-
-target = &quot;telegram&quot; / &quot;webchat&quot; / ...
-  → 推送到指定渠道
-  → 需要配置 to（目标 ID）
-  → 检查 allowFrom 白名单</code></pre></div>
-
-<p><strong>你的配置：</strong> <code>target: &quot;last&quot;</code> → 推送到最后交互的渠道（webchat）。</p>
-
-<h3 id="78-心跳可见性控制">7.8 心跳可见性控制</h3>
-<p><strong><code>resolveHeartbeatVisibility</code></strong> (heartbeat-visibility-K-nKdcA-.js)</p>
-<p>心跳输出是否展示给用户，由三层配置决定：</p>
-<table>
-<tr><th>层级</th><th>配置路径</th><th>作用</th></tr>
-<tr><td>全局默认</td><td><code>channels.defaults.heartbeat</code></td><td>所有渠道默认</td></tr>
-<tr><td>渠道级</td><td><code>channels.&lt;channel&gt;.heartbeat</code></td><td>单个渠道</td></tr>
-<tr><td>账号级</td><td><code>channels.&lt;channel&gt;.accounts.&lt;id&gt;.heartbeat</code></td><td>单个账号</td></tr>
-</table>
-
-<p>字段：</p>
-<ul>
-<li><code>showOk</code>: 是否显示 HEARTBEAT_OK（默认 false）</li>
-<li><code>showAlerts</code>: 是否显示非 OK 输出（默认 true）</li>
-<li><code>useIndicator</code>: 是否用小圆点指示器（默认 true）</li>
-</ul>
-<p><strong>默认行为：</strong> HEARTBEAT_OK 不显示，有实际内容时才显示。</p>
-
-<h3 id="79-心跳与用户消息的关键区别">7.9 心跳与用户消息的关键区别</h3>
-<table>
-<tr><th>维度</th><th>用户消息</th><th>Heartbeat</th></tr>
-<tr><td>触发源</td><td>用户发送</td><td>Gateway 定时器 / Cron / Exec</td></tr>
-<tr><td>Payload</td><td>用户文本</td><td>HEARTBEAT.md + systemEvents</td></tr>
-<tr><td>Session</td><td>主 session</td><td>可独立（isolatedSession）</td></tr>
-<tr><td>历史保留</td><td>是</td><td>isolated 时否</td></tr>
-<tr><td>交付目标</td><td>当前渠道</td><td>由 target 配置决定</td></tr>
-<tr><td>System Prompt</td><td>完整</td><td>lightContext 时可精简</td></tr>
-<tr><td>响应过滤</td><td>无</td><td>stripHeartbeatToken</td></tr>
-<tr><td>模型</td><td>默认模型</td><td>可独立覆盖</td></tr>
-</table>
-
-<hr />
-<h2 id="phase-8-cron-定时任务系统">Phase 8: Cron 定时任务系统</h2>
-<p>Cron 是 OpenClaw 的<strong>定点任务调度系统</strong>。它不负责直接执行代码，而是通过在指定时间向心跳系统注入 systemEvent，让心跳 runner 在下次唤醒时代为消费。</p>
-
-<h3 id="81-架构总览">8.1 架构总览</h3>
-<div class="codehilite"><pre><code>用户创建 Cron Job（openclaw cron add）
-  ↓
-Gateway Cron Scheduler 解析 schedule，存入 JSONL 存储
-  ↓
-内部定时器检查是否到点
-  ↓
-到点 → enqueueSystemEvent() 注入事件到目标 session
-  ↓
-心跳 runner 下次执行时 → peekSystemEventEntries() 发现事件
-  ↓
-构建 Cron Event Prompt → 进入 getReplyFromConfig()
-  ↓
-LLM 执行 agentTurn 或消费 systemEvent
-  ↓
-结果通过 delivery 层推送（或不推送）</code></pre></div>
-
-<p><strong>核心洞察：Cron 没有独立的执行引擎，它完全依赖 Heartbeat 的基础设施来消费。</strong></p>
-
-<h3 id="82-cron-任务-schema">8.2 Cron 任务 Schema</h3>
-<p><strong><code>cron-cli-BPJoMlQj.js</code></strong> 定义了完整的 Job 结构：</p>
-<div class="codehilite"><pre><code>interface CronJob {
-  id: string;                    // UUID
-  name?: string;                 // 可读名称
-  enabled: boolean;              // 是否启用
-  
-  schedule: {
-    kind: &quot;at&quot; | &quot;every&quot; | &quot;cron&quot;;
-    at?: string;                 // ISO-8601 时间戳（at 模式）
-    everyMs?: number;            // 间隔毫秒（every 模式）
-    expr?: string;               // Cron 表达式（cron 模式）
-    tz?: string;                 // 时区
-    staggerMs?: number;          // 随机抖动
-  };
-  
-  payload: {
-    kind: &quot;systemEvent&quot; | &quot;agentTurn&quot;;
-    text?: string;               // systemEvent 内容
-    message?: string;            // agentTurn 提示词
-    model?: string;              // 覆盖模型
-    thinking?: string;           // thinking 级别
-    timeoutSeconds?: number;     // 超时
-  };
-  
-  sessionTarget: &quot;main&quot; | &quot;isolated&quot; | &quot;current&quot; | &quot;session:&lt;id&gt;&quot;;
-  
-  delivery: {
-    mode: &quot;none&quot; | &quot;announce&quot; | &quot;webhook&quot;;
-    channel?: string;
-    to?: string;
-    accountId?: string;
-  };
-  
-  failureAlert?: {
-    mode: &quot;announce&quot; | &quot;webhook&quot;;
-    to?: string;
-    after?: number;              // 连续失败次数阈值
-    cooldownMs?: number;
-  };
-  
-  state: {
-    nextRunAtMs: number;
-    lastRunAtMs: number;
-    lastRunStatus: &quot;ok&quot; | &quot;error&quot; | &quot;skipped&quot;;
-    lastDeliveryStatus: string;
-    consecutiveErrors: number;
-  }
-}</code></pre></div>
-
-<h3 id="83-三种-schedule-类型">8.3 三种 Schedule 类型</h3>
-<table>
-<tr><th>类型</th><th>字段</th><th>示例</th></tr>
-<tr><td><code>at</code></td><td><code>at: ISO时间戳</code></td><td>一次性任务 <code>&quot;2026-04-30T09:00:00&quot;</code></td></tr>
-<tr><td><code>every</code></td><td><code>everyMs: 毫秒</code></td><td>周期性任务 <code>everyMs: 300000</code>（5分钟）</td></tr>
-<tr><td><code>cron</code></td><td><code>expr: cron表达式</code></td><td>标准 crontab <code>&quot;30 12 * * *&quot;</code></td></tr>
-</table>
-<p><strong>Stagger（抖动）：</strong> <code>cron</code> 模式支持 <code>staggerMs</code>，在触发时随机延迟 0~staggerMs，避免多个 job 同时触发。</p>
-
-<h3 id="84-两种-payload-类型">8.4 两种 Payload 类型</h3>
-<p>这是 Cron 最核心的设计抉择：</p>
-
-<h4 id="841-payloadkind--systemevent">8.4.1 <code>payload.kind = &quot;systemEvent&quot;</code></h4>
-<div class="codehilite"><pre><code>{
-  &quot;kind&quot;: &quot;systemEvent&quot;,
-  &quot;text&quot;: &quot;提醒：该检查邮件了&quot;
-}</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>Cron 到点 → <code>enqueueSystemEvent(text, { sessionKey })</code></li>
-<li>心跳 runner 下次执行时 → 发现 system event</li>
-<li><code>buildCronEventPrompt()</code> → <code>&quot;A scheduled reminder has been triggered. The reminder content is: ...&quot;</code></li>
-<li>LLM 在心跳上下文中消费该事件</li>
-<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;main&quot;</code>（因为 systemEvent 需要主 session 的上下文）</li>
-</ul>
-
-<h4 id="842-payloadkind--agentturn">8.4.2 <code>payload.kind = &quot;agentTurn&quot;</code></h4>
-<div class="codehilite"><pre><code>{
-  &quot;kind&quot;: &quot;agentTurn&quot;,
-  &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
-  &quot;model&quot;: &quot;alibaba/glm-5.1&quot;, 
-  &quot;timeoutSeconds&quot;: 600
-}</code></pre></div>
-
-<p><strong>行为：</strong></p>
-<ul>
-<li>Cron 到点 → 创建独立 agent session</li>
-<li>直接执行 LLM agent turn（不经过心跳 systemEvent 队列）</li>
-<li>可以调用 tools、执行复杂任务</li>
-<li><strong>约束：</strong> <code>sessionTarget</code> 必须是 <code>&quot;isolated&quot;</code> / <code>&quot;current&quot;</code> / <code>&quot;session:&lt;id&gt;&quot;</code>（不能是 <code>&quot;main&quot;</code>）</li>
-</ul>
-
-<h3 id="85-session-target-模式">8.5 Session Target 模式</h3>
-<table>
-<tr><th>值</th><th>适用 payload</th><th>行为</th></tr>
-<tr><td><code>&quot;main&quot;</code></td><td><code>systemEvent</code> only</td><td>注入 system event 到主 session，由心跳消费</td></tr>
-<tr><td><code>&quot;isolated&quot;</code></td><td><code>agentTurn</code> only</td><td>创建独立 session，完全隔离</td></tr>
-<tr><td><code>&quot;current&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到创建时的当前 session</td></tr>
-<tr><td><code>&quot;session:&lt;id&gt;&quot;</code></td><td><code>agentTurn</code> only</td><td>绑定到指定持久 session</td></tr>
-</table>
-
-<p><strong>关键约束（源码硬编码）：</strong></p>
-<ul>
-<li><code>sessionTarget=&quot;main&quot;</code> → 必须是 <code>payload.kind=&quot;systemEvent&quot;</code></li>
-<li><code>sessionTarget=&quot;isolated&quot;/&quot;current&quot;/&quot;session:xxx&quot;</code> → 必须是 <code>payload.kind=&quot;agentTurn&quot;</code></li>
-</ul>
-
-<h3 id="86-delivery-机制">8.6 Delivery 机制</h3>
-<p>Cron 任务的输出交付，由 <code>delivery.mode</code> 决定：</p>
-<table>
-<tr><th>mode</th><th>行为</th></tr>
-<tr><td><code>&quot;none&quot;</code></td><td>不推送，只记录执行状态</td></tr>
-<tr><td><code>&quot;announce&quot;</code></td><td>推送到指定 channel/to</td></tr>
-<tr><td><code>&quot;webhook&quot;</code></td><td>POST 到指定 URL</td></tr>
-</table>
-
-<p><strong>默认行为：</strong></p>
-<ul>
-<li><code>agentTurn</code> + 无 delivery → 默认 <code>&quot;announce&quot;</code></li>
-<li><code>systemEvent</code> + 无 delivery → 默认 <code>&quot;none&quot;</code>（因为 systemEvent 的输出由心跳 target 决定）</li>
-</ul>
-
-<h3 id="87-cron-与-heartbeat-的协作关系">8.7 Cron 与 Heartbeat 的协作关系</h3>
-<div class="codehilite"><pre><code>时间线 ──────────────────────────────────────────────►
-
-  Cron 触发                    心跳执行
-     │                            │
-     ▼                            ▼
-  enqueueSystemEvent          runHeartbeatOnce()
-     │                            │
-     ▼                            ▼
-  [System Events 队列]  ←──  peekSystemEventEntries()
-                                │
-                                ▼
-                          buildCronEventPrompt()
-                                │
-                                ▼
-                          getReplyFromConfig()
-                                │
-                                ▼
-                           LLM 执行
-                                │
-                                ▼
-                          输出到用户/不输出</code></pre></div>
-
-<p><strong>关键时序问题：</strong></p>
-<ul>
-<li>Cron 触发后，不会立即执行，而是等待<strong>下次心跳</strong></li>
-<li>如果心跳间隔 5 分钟，Cron 任务最多延迟 5 分钟才被执行</li>
-<li>如果心跳被跳过（如 HEARTBEAT.md empty），Cron 事件会被累积，下次心跳时批量处理</li>
-</ul>
-
-<h3 id="88-实际案例分析">8.8 实际案例分析</h3>
-<p><strong>你的&quot;每日 AI 快讯&quot; Cron 任务：</strong></p>
-<div class="codehilite"><pre><code>{
-  &quot;name&quot;: &quot;博客-AI快讯抓取与推送(12:30)&quot;, 
-  &quot;schedule&quot;: { &quot;kind&quot;: &quot;cron&quot;, &quot;expr&quot;: &quot;30 12 * * *&quot;, &quot;tz&quot;: &quot;Asia/Shanghai&quot; },
-  &quot;sessionTarget&quot;: &quot;isolated&quot;, 
-  &quot;payload&quot;: {
-    &quot;kind&quot;: &quot;agentTurn&quot;, 
-    &quot;message&quot;: &quot;执行每日 AI 快讯博客推送...&quot;, 
-    &quot;timeoutSeconds&quot;: 600
-  },
-  &quot;delivery&quot;: { &quot;mode&quot;: &quot;none&quot; }
-}</code></pre></div>
-
-<p><strong>执行链路：</strong></p>
-<ul>
-<li>每天 12:30 CST，Cron scheduler 触发</li>
-<li>创建 isolated session，直接执行 agentTurn</li>
-<li>LLM 执行搜索、写文章、git push 等操作</li>
-<li><code>delivery.mode: &quot;none&quot;</code> → 结果不推送到任何渠道</li>
-<li>执行状态记录在 <code>state.lastRunStatus</code></li>
-</ul>
-
-<p><strong>你的&quot;单词推送&quot; Cron 任务（已改为心跳驱动）：</strong></p>
-<p>之前用 Cron 的 <code>systemEvent</code> 模式，后来发现延迟问题（等心跳）。现在改到 HEARTBEAT.md 里由心跳直接驱动，更实时。</p>
-
-<h3 id="89-失败告警机制">8.9 失败告警机制</h3>
-<div class="codehilite"><pre><code>lastRunStatus = &quot;error&quot;
-  → consecutiveErrors += 1
-  → consecutiveErrors >= failureAlert.after?
-    → 触发告警（announce/webhook）
-    → 告警后进入 cooldownMs 冷却期</code></pre></div>
-
-<p><strong>你的超时问题：</strong></p>
-<ul>
-<li><code>00:04</code> 论文库抓取：连续 5 次 timeout → consecutiveErrors=5</li>
-<li>但无 <code>failureAlert</code> 配置 → 不会告警</li>
-</ul>
-
-<hr />
-<h2 id="skills">Skills 子系统</h2>
-<h3 id="skills_1">Skills 是什么</h3>
-<p>Skill 是对 tool 的更高层封装。tool 是原子操作（<code>exec</code>、<code>web_fetch</code> 等），skill 是&rdquo;有名字、有描述、可被 LLM 感知的复合能力单元&rdquo;。LLM 不直接看到 skill 实现，而是通过 system prompt 的 <code>## Skills (mandatory)</code> 区块感知它们的存在。</p>
-<h3 id="skill">Skill 注册机制</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">openclaw</span><span class="o">.</span><span class="n">json</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">skills</span><span class="p">[]</span><span class="w"> </span><span class="err">字段</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">loadSkillsForAgent</span><span class="p">()</span><span class="w"> </span><span class="p">(</span><span class="n">skill</span><span class="o">-</span><span class="n">loader</span><span class="o">.</span><span class="n">ts</span><span class="p">)</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="w">  </span><span class="mf">1.</span><span class="w"> </span><span class="err">扫描</span><span class="w"> </span><span class="n">skills</span><span class="o">/</span><span class="w"> </span><span class="err">目录下的</span><span class="w"> </span><span class="o">.</span><span class="n">skill</span><span class="o">.</span><span class="n">md</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="o">.</span><span class="n">skill</span><span class="o">.</span><span class="n">js</span><span class="w"> </span><span class="err">文件</span>
-<span class="w">  </span><span class="mf">2.</span><span class="w"> </span><span class="err">解析</span><span class="w"> </span><span class="n">frontmatter</span><span class="err">（</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">description</span><span class="p">,</span><span class="w"> </span><span class="n">trigger_patterns</span><span class="p">,</span><span class="w"> </span><span class="n">requires_tools</span><span class="p">[]</span><span class="err">）</span>
-<span class="w">  </span><span class="mf">3.</span><span class="w"> </span><span class="err">过滤</span><span class="p">:</span><span class="w"> </span><span class="err">当前</span><span class="w"> </span><span class="n">agent</span><span class="w"> </span><span class="err">权限</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="err">所需</span><span class="w"> </span><span class="k">tool</span><span class="w"> </span><span class="err">是否可用（</span><span class="n">TOOLS</span><span class="o">.</span><span class="n">md</span><span class="w"> </span><span class="err">不控制</span><span class="w"> </span><span class="n">skill</span><span class="w"> </span><span class="err">可用性）</span>
-<span class="w">  </span><span class="mf">4.</span><span class="w"> </span><span class="err">返回</span><span class="w"> </span><span class="n">SkillManifest</span><span class="p">[]</span>
-</code></pre></div>
-
-<h3 id="system-prompt">System Prompt 注入格式</h3>
-<div class="codehilite"><pre><span></span><code>##<span class="w"> </span>Skills<span class="w"> </span>(mandatory)
-
-Before<span class="w"> </span>replying,<span class="w"> </span>scan<span class="w"> </span><span class="nt">&lt;available_skills&gt;</span><span class="w"> </span>for<span class="w"> </span>relevant<span class="w"> </span>capabilities.
-Prefer<span class="w"> </span>skills<span class="w"> </span>over<span class="w"> </span>raw<span class="w"> </span>tool<span class="w"> </span>calls<span class="w"> </span>when<span class="w"> </span>a<span class="w"> </span>skill<span class="w"> </span>name<span class="w"> </span>matches<span class="w"> </span>the<span class="w"> </span>intent.
-
-<span class="nt">&lt;available_skills&gt;</span>
--<span class="w"> </span>weather:<span class="w">       </span>查询城市天气，支持中英文城市名。requires:<span class="w"> </span>web_fetch
--<span class="w"> </span>memory_recall:<span class="w"> </span>从长期记忆检索相关内容。requires:<span class="w"> </span>memory_search,<span class="w"> </span>memory_get
--<span class="w"> </span>image_gen:<span class="w">     </span>生成图片。requires:<span class="w"> </span>image_generate
--<span class="w"> </span>...（共<span class="w"> </span>12<span class="w"> </span>个）
-<span class="nt">&lt;/available_skills&gt;</span>
-</code></pre></div>
-
-<h3 id="skill_1">Skill 执行路径</h3>
-<p>Skill <strong>没有独立的执行引擎</strong>。LLM 感知 skill 名称和描述后，在 Tool Loop 里自主编排底层 tool 调用：</p>
-<div class="codehilite"><pre><span></span><code><span class="err">普通</span><span class="w"> </span><span class="k">tool</span><span class="w"> </span><span class="n">call</span><span class="p">:</span>
-<span class="w">  </span><span class="n">LLM</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">tool_call</span><span class="p">(</span><span class="n">exec</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="n">cmd</span><span class="p">})</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">执行</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">tool_result</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">LLM</span>
-
-<span class="n">Skill</span><span class="w"> </span><span class="err">引导的</span><span class="w"> </span><span class="k">tool</span><span class="w"> </span><span class="n">call</span><span class="p">:</span>
-<span class="w">  </span><span class="n">LLM</span><span class="w"> </span><span class="err">感知</span><span class="w"> </span><span class="n">skill</span><span class="w"> </span><span class="s2">&quot;weather&quot;</span>
-<span class="w">    </span><span class="err">→</span><span class="w"> </span><span class="n">tool_call</span><span class="p">(</span><span class="n">web_fetch</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="n">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;wttr.in/杭州?format=j1&quot;</span><span class="p">})</span>
-<span class="w">    </span><span class="err">→</span><span class="w"> </span><span class="n">tool_result</span><span class="err">（</span><span class="n">JSON</span><span class="w"> </span><span class="err">天气数据）</span>
-<span class="w">    </span><span class="err">→</span><span class="w"> </span><span class="n">LLM</span><span class="w"> </span><span class="err">解析，生成自然语言回复</span>
-<span class="w">  </span><span class="err">（</span><span class="n">OpenClaw</span><span class="w"> </span><span class="err">不介入中间步骤）</span>
-</code></pre></div>
-
-<h3 id="skill_2">Skill 失败处理</h3>
-<p>Skill 没有独立错误捕获。底层 tool 失败后 LLM 自主决策（重试、改用其他 tool、告知用户）。建议在 skill description 里加入失败场景的引导语以提高稳定性。</p>
-<hr />
-<h2 id="memory">Memory 子系统</h2>
-<h3 id="_2">两层结构</h3>
-<div class="codehilite"><pre><span></span><code>Layer 1: MEMORY.md（静态注入）
+Layer 1: MEMORY.md（静态注入）
   · 每次 session 启动注入 system prompt
   · 受 bootstrapMaxChars = 12,000 chars 限制
   · 人工或 LLM 在压缩后更新
@@ -1100,15 +665,20 @@ Layer 2: memory_search / memory_get（动态检索）
   · 结构化条目，存储在 ~/.openclaw/memory/
   · LLM 主动调用，非自动注入
   · 支持向量检索 + 全文检索
-</code></pre></div>
 
-<h3 id="memory_1">Memory 写入时机</h3>
-<p>由 system prompt 的 <code>📝 Write It Down</code> 规则引导，LLM 在以下情况写入：<br />
-1. 用户明确要求记住某事<br />
-2. LLM 判断信息具有跨 session 价值（用户偏好、关键标识符等）<br />
-3. Compaction 触发时 — <code>syncPostCompactionSessionMemory()</code> 自动提取关键信息</p>
-<h3 id="_3">检索机制</h3>
-<div class="codehilite"><pre><span></span><code>memory_search(query, options)
+### Memory 写入时机
+
+由 system prompt 的 📝 Write It Down 规则引导，LLM 在以下情况写入：
+
+1. 用户明确要求记住某事
+
+2. LLM 判断信息具有跨 session 价值（用户偏好、关键标识符等）
+
+3. Compaction 触发时 — syncPostCompactionSessionMemory() 自动提取关键信息
+
+### 检索机制
+
+memory_search(query, options)
   ↓
   1. 向量检索（若配置 embedding backend）
      → embed(query) → 余弦相似度 top-k
@@ -1117,29 +687,32 @@ Layer 2: memory_search / memory_get（动态检索）
   3. 合并结果，按 score 排序
 
 memory_get(id) → 读取具体条目内容
-</code></pre></div>
 
-<p><strong>向量 vs 全文：</strong> 取决于 <code>openclaw.json</code> 的 <code>memory.backend</code>。默认纯全文，配置 embedding endpoint 后启用向量检索。向量 API 失败时静默降级到全文。</p>
-<h3 id="syncpostcompactionsessionmemory">syncPostCompactionSessionMemory 行为</h3>
-<div class="codehilite"><pre><span></span><code>压缩完成后:
+**向量 vs 全文：** 取决于 openclaw.json 的 memory.backend。默认纯全文，配置 embedding endpoint 后启用向量检索。向量 API 失败时静默降级到全文。
+
+### syncPostCompactionSessionMemory 行为
+
+压缩完成后:
   → 读取 compaction summary
   → 提取结构化字段:
       Exact identifiers / Decisions / TODOs
   → 对比现有条目，避免重复写入
   → 将新增条目写入 memory index
   → （可选）更新 MEMORY.md（auto-update-memory-file 配置）
-</code></pre></div>
 
-<h3 id="_4">局限性</h3>
-<ul>
-<li>MEMORY.md 是静态快照，不实时同步</li>
-<li>memory_search 召回质量依赖 LLM 的 query 质量</li>
-<li>无内置去重/老化机制，长期使用后 MEMORY.md 可能触碰 12,000 chars 上限</li>
-</ul>
-<hr />
-<h2 id="_5">错误处理路径</h2>
-<h3 id="llm">LLM 调用失败</h3>
-<div class="codehilite"><pre><span></span><code>resolveProviderStreamFn() → API 失败
+### 局限性
+
+- MEMORY.md 是静态快照，不实时同步
+
+- memory_search 召回质量依赖 LLM 的 query 质量
+
+- 无内置去重/老化机制，长期使用后 MEMORY.md 可能触碰 12,000 chars 上限
+
+## 错误处理路径
+
+### LLM 调用失败
+
+resolveProviderStreamFn() → API 失败
   ↓
   · 网络错误 / 5xx → exponential backoff 重试（最多 3 次）
   · 4xx（401/429）  → 不重试，直接抛出
@@ -1148,23 +721,25 @@ memory_get(id) → 读取具体条目内容
 retry 耗尽:
   → 检查 fallback_provider 配置（见 Fallback 章节）
   → 无配置 → 向用户报错，session 标记 idle
-</code></pre></div>
 
-<h3 id="tool">Tool 执行失败</h3>
-<p>Tool 失败<strong>不终止 Tool Loop</strong>：</p>
-<div class="codehilite"><pre><span></span><code><span class="n">tool_call</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">失败</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">tool_result</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">error</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">success</span><span class="p">:</span><span class="w"> </span><span class="bp">false</span><span class="w"> </span><span class="p">}</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">LLM</span><span class="w"> </span><span class="err">再次调用</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">自主决策</span><span class="p">:</span>
-<span class="w">  </span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="err">用不同参数重试</span>
-<span class="w">  </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="err">改用其他</span><span class="w"> </span><span class="k">tool</span>
-<span class="w">  </span><span class="n">c</span><span class="p">)</span><span class="w"> </span><span class="err">向用户报告失败</span>
-</code></pre></div>
+### Tool 执行失败
 
-<p>Compaction Safeguard 在生成摘要时会提取历史 tool failure 记录，附加到摘要 suffix，避免下一 session 重复同样的失败。</p>
-<h3 id="preemptive_context_overflow">PREEMPTIVE_CONTEXT_OVERFLOW</h3>
-<div class="codehilite"><pre><span></span><code>Context Guard 检测到总量溢出
+Tool 失败**不终止 Tool Loop**：
+
+tool_call → 失败
+  ↓
+tool_result: { error: "...", success: false }
+  ↓
+LLM 再次调用 → 自主决策:
+  a) 用不同参数重试
+  b) 改用其他 tool
+  c) 向用户报告失败
+
+Compaction Safeguard 在生成摘要时会提取历史 tool failure 记录，附加到摘要 suffix，避免下一 session 重复同样的失败。
+
+### PREEMPTIVE_CONTEXT_OVERFLOW
+
+Context Guard 检测到总量溢出
   ↓
 抛出 PREEMPTIVE_CONTEXT_OVERFLOW
   ↓
@@ -1174,32 +749,32 @@ pi-embedded-runner 捕获
   ↓
 压缩完成后重新发起本轮请求
   ↓
-压缩后仍溢出 → 报错给用户（&quot;上下文过长，请 /reset&quot;）
-</code></pre></div>
+压缩后仍溢出 → 报错给用户（"上下文过长，请 /reset"）
 
-<h3 id="compaction-quality-guard">Compaction Quality Guard 失败</h3>
-<div class="codehilite"><pre><span></span><code>qualityGuard 检查（长度/identifiers/结构字段）
+### Compaction Quality Guard 失败
+
+qualityGuard 检查（长度/identifiers/结构字段）
   ↓
 失败 → 重试（最多 2 次）
   ↓
 2 次后仍失败 → 强制使用最后一次结果
   ↓
 写入 warning 到 session log（不阻断流程）
-</code></pre></div>
 
-<h3 id="session">Session 文件损坏</h3>
-<div class="codehilite"><pre><span></span><code>JSONL 读取失败（parse error / 文件锁）
+### Session 文件损坏
+
+JSONL 读取失败（parse error / 文件锁）
   ↓
 1. 尝试逐行读取，跳过损坏行
 2. 无法恢复 → 创建新 session（isNewSession = true）
 3. 保留损坏文件为 .bak 备份
 4. 向用户提示 session 已重置
-</code></pre></div>
 
-<hr />
-<h2 id="provider">Provider 抽象层</h2>
-<h3 id="provider_1">Provider 注册结构</h3>
-<div class="codehilite"><pre><span></span><code>providers/
+## Provider 抽象层
+
+### Provider 注册结构
+
+providers/
   ├── anthropic/
   │   ├── stream.ts        ← SSE 流式处理
   │   ├── cache-control.ts ← cache_control 注入
@@ -1208,265 +783,216 @@ pi-embedded-runner 捕获
   │   ├── stream.ts        ← OpenAI-compatible SSE
   │   └── model-map.ts     ← modelId 映射
   └── openai/
-</code></pre></div>
 
-<p><code>resolveProviderStreamFn()</code> 根据 <code>provider</code> 字段动态 require 对应模块。</p>
-<h3 id="provider_2">各 Provider 关键差异</h3>
-<table>
-<thead>
-<tr>
-<th>特性</th>
-<th>anthropic</th>
-<th>alibaba（OpenAI-compat）</th>
-<th>openai</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>cache_control</td>
-<td>✅ 原生支持</td>
-<td>❌ 忽略</td>
-<td>❌ 忽略</td>
-</tr>
-<tr>
-<td>thinking block</td>
-<td>✅ 原生</td>
-<td>❌ 模拟（<code>&lt;thinking&gt;</code> 标签）</td>
-<td>❌ 不支持</td>
-</tr>
-<tr>
-<td>context-pruning (cache-ttl)</td>
-<td>✅</td>
-<td>❌</td>
-<td>❌</td>
-</tr>
-<tr>
-<td>流式格式</td>
-<td>Anthropic SSE</td>
-<td>OpenAI SSE</td>
-<td>OpenAI SSE</td>
-</tr>
-<tr>
-<td>tool_call 格式</td>
-<td><code>tool_use</code> block</td>
-<td><code>function_call</code></td>
-<td><code>function_call</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="anthropic-cache_control">Anthropic 专属：cache_control 注入</h3>
-<div class="codehilite"><pre><span></span><code><span class="c1">// SYSTEM_PROMPT_CACHE_BOUNDARY 被转换为:</span>
-<span class="nx">messages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
-<span class="w">  </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">role</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;system&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="nx">stablePart</span><span class="p">,</span><span class="w">  </span><span class="nx">cache_control</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;ephemeral&quot;</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span>
-<span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="nx">dynamicPart</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c1">// 不缓存</span>
-<span class="w">    </span><span class="p">]</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="p">...</span><span class="nx">userMessages</span>
-<span class="p">];</span>
-</code></pre></div>
+resolveProviderStreamFn() 根据 provider 字段动态 require 对应模块。
 
-<p>alibaba provider 下，<code>SYSTEM_PROMPT_CACHE_BOUNDARY</code> 作为普通文本出现，不影响功能但略显冗余。</p>
-<h3 id="alibaba-thinking">alibaba 的 thinking 模拟</h3>
-<div class="codehilite"><pre><span></span><code>provider_override:<span class="w"> </span>interaction_style
-<span class="w">  </span>→<span class="w"> </span>system<span class="w"> </span>prompt<span class="w"> </span>注入:
-<span class="w">     </span>&quot;When<span class="w"> </span>reasoning<span class="w"> </span>is<span class="w"> </span>needed,<span class="w"> </span>wrap<span class="w"> </span>your<span class="w"> </span>internal<span class="w"> </span>reasoning<span class="w"> </span>in
-<span class="w">      </span><span class="nt">&lt;thinking&gt;</span>...<span class="nt">&lt;/thinking&gt;</span><span class="w"> </span>tags<span class="w"> </span>before<span class="w"> </span>your<span class="w"> </span>final<span class="w"> </span>answer.&quot;
+### 各 Provider 关键差异
+
+特性
+anthropic
+alibaba（OpenAI-compat）
+openai
+
+cache_control
+✅ 原生支持
+❌ 忽略
+❌ 忽略
+
+thinking block
+✅ 原生
+❌ 模拟（<thinking> 标签）
+❌ 不支持
+
+context-pruning (cache-ttl)
+✅
+❌
+❌
+
+流式格式
+Anthropic SSE
+OpenAI SSE
+OpenAI SSE
+
+tool_call 格式
+tool_use block
+function_call
+function_call
+
+### Anthropic 专属：cache_control 注入
+
+// SYSTEM_PROMPT_CACHE_BOUNDARY 被转换为:
+messages = [
+  {
+    role: "system",
+    content: [
+      { type: "text", text: stablePart,  cache_control: { type: "ephemeral" } },
+      { type: "text", text: dynamicPart }  // 不缓存
+    ]
+  },
+  ...userMessages
+];
+
+alibaba provider 下，SYSTEM_PROMPT_CACHE_BOUNDARY 作为普通文本出现，不影响功能但略显冗余。
+
+### alibaba 的 thinking 模拟
+
+provider_override: interaction_style
+  → system prompt 注入:
+     "When reasoning is needed, wrap your internal reasoning in
+      <thinking>...</thinking> tags before your final answer."
 
 dropThinkingBlocks():
-<span class="w">  </span>→<span class="w"> </span>识别<span class="w"> </span><span class="nt">&lt;thinking&gt;</span>...<span class="nt">&lt;/thinking&gt;</span>
-<span class="w">  </span>→<span class="w"> </span>按<span class="w"> </span>reasoningLevel<span class="w"> </span>决定保留或剥离
-<span class="w">  </span>→<span class="w"> </span>注入<span class="w"> </span>session<span class="w"> </span>时标记为<span class="w"> </span>hidden
-</code></pre></div>
+  → 识别 <thinking>...</thinking>
+  → 按 reasoningLevel 决定保留或剥离
+  → 注入 session 时标记为 hidden
 
-<h3 id="provider-suffix">Provider 动态 Suffix（示例）</h3>
-<p>alibaba 默认 suffix（Phase 2 [30]）：</p>
-<div class="codehilite"><pre><span></span><code>请用中文回复，除非用户明确要求其他语言。
+### Provider 动态 Suffix（示例）
+
+alibaba 默认 suffix（Phase 2 [30]）：
+
+请用中文回复，除非用户明确要求其他语言。
 工具调用时使用英文参数名。
-</code></pre></div>
 
-<hr />
-<h2 id="hook">完整 Hook 体系</h2>
-<h3 id="_6">三层总览</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">Layer</span><span class="w"> </span><span class="mh">1</span><span class="o">:</span><span class="w"> </span><span class="err">插件</span><span class="w"> </span><span class="n">Hook</span><span class="err">（</span><span class="n">Plugin</span><span class="w"> </span><span class="n">Hooks</span><span class="err">）</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">openclaw</span><span class="w"> </span><span class="err">插件通过</span><span class="w"> </span><span class="n">registerHook</span><span class="p">()</span><span class="w"> </span><span class="err">注册，异步，可阻断</span>
+## 完整 Hook 体系
 
-<span class="n">Layer</span><span class="w"> </span><span class="mh">2</span><span class="o">:</span><span class="w"> </span><span class="n">Internal</span><span class="w"> </span><span class="n">Hook</span><span class="err">（</span><span class="n">OpenClaw</span><span class="w"> </span><span class="err">内部模块间）</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="err">内部事件总线，同步</span><span class="o">/</span><span class="err">异步均有，不对外暴露</span>
+### 三层总览
 
-<span class="n">Layer</span><span class="w"> </span><span class="mh">3</span><span class="o">:</span><span class="w"> </span><span class="n">Pi</span><span class="w"> </span><span class="n">Hook</span><span class="err">（</span><span class="n">Pi</span><span class="w"> </span><span class="n">Agent</span><span class="w"> </span><span class="err">内部）</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">OpenClaw</span><span class="w"> </span><span class="err">通过</span><span class="w"> </span><span class="n">Pi</span><span class="w"> </span><span class="n">SDK</span><span class="w"> </span><span class="err">注入的生命周期</span><span class="w"> </span><span class="n">hook</span>
-</code></pre></div>
+Layer 1: 插件 Hook（Plugin Hooks）
+  → openclaw 插件通过 registerHook() 注册，异步，可阻断
 
-<h3 id="hook_1">插件 Hook 完整列表</h3>
-<table>
-<thead>
-<tr>
-<th>Hook 名称</th>
-<th>触发时机</th>
-<th>可阻断</th>
-<th>常见用途</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>message_received</code></td>
-<td>消息到达、去重后</td>
-<td>✅</td>
-<td>消息过滤、指令拦截</td>
-</tr>
-<tr>
-<td><code>before_reply</code></td>
-<td>LLM 调用前</td>
-<td>✅</td>
-<td>注入额外 context、修改 prompt</td>
-</tr>
-<tr>
-<td><code>after_reply</code></td>
-<td>最终回复生成后</td>
-<td>❌</td>
-<td>日志、统计</td>
-</tr>
-<tr>
-<td><code>tool_before_exec</code></td>
-<td>tool 执行前</td>
-<td>✅</td>
-<td>权限检查、参数校验</td>
-</tr>
-<tr>
-<td><code>tool_after_exec</code></td>
-<td>tool 执行后</td>
-<td>❌</td>
-<td>结果审计</td>
-</tr>
-<tr>
-<td><code>session_reset</code></td>
-<td>/reset 触发后</td>
-<td>❌</td>
-<td>清理插件状态</td>
-</tr>
-<tr>
-<td><code>agent:bootstrap</code></td>
-<td>bootstrap 文件加载后</td>
-<td>✅</td>
-<td>修改/追加 bootstrap files</td>
-</tr>
-<tr>
-<td><code>compaction_before</code></td>
-<td>压缩开始前</td>
-<td>✅</td>
-<td>注入额外保留内容</td>
-</tr>
-<tr>
-<td><code>compaction_after</code></td>
-<td>压缩完成后</td>
-<td>❌</td>
-<td>触发外部同步</td>
-</tr>
-<tr>
-<td><code>heartbeat_tick</code></td>
-<td>心跳轮询触发时</td>
-<td>✅</td>
-<td>自定义心跳逻辑</td>
-</tr>
-<tr>
-<td><code>channel_send</code></td>
-<td>向 channel 推送消息前</td>
-<td>✅</td>
-<td>消息格式转换、富媒体注入</td>
-</tr>
-</tbody>
-</table>
-<h3 id="internal-hook">Internal Hook 完整列表</h3>
-<table>
-<thead>
-<tr>
-<th>Hook 名称</th>
-<th>触发位置</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>session:before_write</code></td>
-<td>JSONL 写入前</td>
-<td>可修改写入内容</td>
-</tr>
-<tr>
-<td><code>session:after_write</code></td>
-<td>JSONL 写入后</td>
-<td>触发索引更新</td>
-</tr>
-<tr>
-<td><code>context:overflow</code></td>
-<td>PREEMPTIVE_CONTEXT_OVERFLOW 时</td>
-<td>触发强制压缩</td>
-</tr>
-<tr>
-<td><code>memory:before_write</code></td>
-<td>memory 条目写入前</td>
-<td>去重检查</td>
-</tr>
-<tr>
-<td><code>memory:after_index</code></td>
-<td>memory 索引更新后</td>
-<td>触发向量 embed</td>
-</tr>
-<tr>
-<td><code>skill:resolved</code></td>
-<td>skill 列表确定后</td>
-<td>debug/监控</td>
-</tr>
-<tr>
-<td><code>provider:request_built</code></td>
-<td>LLM 请求体构建完成</td>
-<td>最后修改机会</td>
-</tr>
-<tr>
-<td><code>provider:response_chunk</code></td>
-<td>流式响应每个 chunk</td>
-<td>实时处理</td>
-</tr>
-</tbody>
-</table>
-<h3 id="pi-hookopenclaw">Pi Hook（OpenClaw 注入点）</h3>
-<table>
-<thead>
-<tr>
-<th>Pi Hook</th>
-<th>OpenClaw 注入内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>transformContext</code></td>
-<td>Tool Result Context Guard（截断/溢出检测）</td>
-</tr>
-<tr>
-<td><code>session_before_compact</code></td>
-<td>Compaction Safeguard（接管压缩逻辑）</td>
-</tr>
-<tr>
-<td><code>onToolCall</code></td>
-<td>guardSessionManager（flush pending results）</td>
-</tr>
-<tr>
-<td><code>onAssistantMessage</code></td>
-<td>dropThinkingBlocks（thinking block 处理）</td>
-</tr>
-<tr>
-<td><code>onSessionEnd</code></td>
-<td>session JSONL 最终写入 + side effects</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="fallback">Fallback 链路详解</h2>
-<p>OpenClaw 的 fallback 分布在六个独立层面，没有统一的 fallback 总线。</p>
-<h3 id="provider-fallback">Provider 级 Fallback</h3>
-<div class="codehilite"><pre><span></span><code>主 provider retry 耗尽
+Layer 2: Internal Hook（OpenClaw 内部模块间）
+  → 内部事件总线，同步/异步均有，不对外暴露
+
+Layer 3: Pi Hook（Pi Agent 内部）
+  → OpenClaw 通过 Pi SDK 注入的生命周期 hook
+
+### 插件 Hook 完整列表
+
+Hook 名称
+触发时机
+可阻断
+常见用途
+
+message_received
+消息到达、去重后
+✅
+消息过滤、指令拦截
+
+before_reply
+LLM 调用前
+✅
+注入额外 context、修改 prompt
+
+after_reply
+最终回复生成后
+❌
+日志、统计
+
+tool_before_exec
+tool 执行前
+✅
+权限检查、参数校验
+
+tool_after_exec
+tool 执行后
+❌
+结果审计
+
+session_reset
+/reset 触发后
+❌
+清理插件状态
+
+agent:bootstrap
+bootstrap 文件加载后
+✅
+修改/追加 bootstrap files
+
+compaction_before
+压缩开始前
+✅
+注入额外保留内容
+
+compaction_after
+压缩完成后
+❌
+触发外部同步
+
+heartbeat_tick
+心跳轮询触发时
+✅
+自定义心跳逻辑
+
+channel_send
+向 channel 推送消息前
+✅
+消息格式转换、富媒体注入
+
+### Internal Hook 完整列表
+
+Hook 名称
+触发位置
+说明
+
+session:before_write
+JSONL 写入前
+可修改写入内容
+
+session:after_write
+JSONL 写入后
+触发索引更新
+
+context:overflow
+PREEMPTIVE_CONTEXT_OVERFLOW 时
+触发强制压缩
+
+memory:before_write
+memory 条目写入前
+去重检查
+
+memory:after_index
+memory 索引更新后
+触发向量 embed
+
+skill:resolved
+skill 列表确定后
+debug/监控
+
+provider:request_built
+LLM 请求体构建完成
+最后修改机会
+
+provider:response_chunk
+流式响应每个 chunk
+实时处理
+
+### Pi Hook（OpenClaw 注入点）
+
+Pi Hook
+OpenClaw 注入内容
+
+transformContext
+Tool Result Context Guard（截断/溢出检测）
+
+session_before_compact
+Compaction Safeguard（接管压缩逻辑）
+
+onToolCall
+guardSessionManager（flush pending results）
+
+onAssistantMessage
+dropThinkingBlocks（thinking block 处理）
+
+onSessionEnd
+session JSONL 最终写入 + side effects
+
+## Fallback 链路详解
+
+OpenClaw 的 fallback 分布在六个独立层面，没有统一的 fallback 总线。
+
+### Provider 级 Fallback
+
+主 provider retry 耗尽
   ↓
 fallback_provider 已配置?
   ├─ No  → 直接报错，session idle
@@ -1478,11 +1004,12 @@ fallback_provider 已配置?
              重新发起 LLM 请求
              ↓
              fallback 也失败 → 不再继续，直接报错
-</code></pre></div>
 
-<p>注意：fallback provider 的 context window 如果小于主 provider，OpenClaw 不自动处理，需手动配置。</p>
-<h3 id="compaction-summarize-fallback">Compaction Summarize Fallback（三级）</h3>
-<div class="codehilite"><pre><span></span><code>summarizeWithFallback()
+注意：fallback provider 的 context window 如果小于主 provider，OpenClaw 不自动处理，需手动配置。
+
+### Compaction Summarize Fallback（三级）
+
+summarizeWithFallback()
   ↓
 尝试 1: safeguard 专用 system prompt + 结构化指令
   → qualityGuard 检查（长度/identifiers/结构字段）
@@ -1494,18 +1021,18 @@ fallback_provider 已配置?
 尝试 3（再次失败）: Pi 内置 generateSummary()
   → 使用原始 SUMMARIZATION_SYSTEM_PROMPT
   → 跳过 qualityGuard，强制使用结果
-</code></pre></div>
 
-<p><strong>分 chunk 合并：</strong></p>
-<div class="codehilite"><pre><span></span><code>chunk_1_summary + ... + chunk_n_summary
+**分 chunk 合并：**
+
+chunk_1_summary + ... + chunk_n_summary
   ↓
-合并后 &lt; 16,000 chars → 直接拼接
+合并后 < 16,000 chars → 直接拼接
 合并后超限 → 对摘要再做一次 summarizeWithFallback()
 最终由 capCompactionSummaryPreservingSuffix() 强制截至 16,000 chars
-</code></pre></div>
 
-<h3 id="memory-backend-fallback">Memory Backend Fallback</h3>
-<div class="codehilite"><pre><span></span><code>memory_search() 调用
+### Memory Backend Fallback
+
+memory_search() 调用
   ↓
 向量检索（embedding API）
   ↓
@@ -1514,43 +1041,33 @@ API 失败/超时 → 静默 fallback 到全文检索
 
 全文检索失败（文件系统错误）:
   → 返回空结果
-  → LLM 感知&quot;未找到记忆&quot;，自行决定回答策略
-</code></pre></div>
+  → LLM 感知"未找到记忆"，自行决定回答策略
 
-<h3 id="bootstrap-fallback">Bootstrap 文件 Fallback</h3>
-<table>
-<thead>
-<tr>
-<th>情况</th>
-<th>处理方式</th>
-<th>用户可见</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>文件不存在</td>
-<td>注入 <code>[MISSING] Expected at: &lt;path&gt;</code></td>
-<td>⚠️ LLM 感知</td>
-</tr>
-<tr>
-<td>文件读取失败</td>
-<td>同上</td>
-<td>⚠️ LLM 感知</td>
-</tr>
-<tr>
-<td>文件存在但为空</td>
-<td>注入空内容</td>
-<td>❌</td>
-</tr>
-<tr>
-<td>HEARTBEAT.md 不存在</td>
-<td>注入默认心跳提示词</td>
-<td>❌</td>
-</tr>
-</tbody>
-</table>
-<h3 id="tool-result-fallback">Tool Result 截断 Fallback（三级）</h3>
-<div class="codehilite"><pre><span></span><code>Level 1（truncateToolResultText）:
+### Bootstrap 文件 Fallback
+
+情况
+处理方式
+用户可见
+
+文件不存在
+注入 [MISSING] Expected at: <path>
+⚠️ LLM 感知
+
+文件读取失败
+同上
+⚠️ LLM 感知
+
+文件存在但为空
+注入空内容
+❌
+
+HEARTBEAT.md 不存在
+注入默认心跳提示词
+❌
+
+### Tool Result 截断 Fallback（三级）
+
+Level 1（truncateToolResultText）:
   尾部有错误信号词 → 头尾保留（70% head + 30% tail）
   尾部无错误信号词 → 头部保留，尾部截断
 
@@ -1561,88 +1078,77 @@ Level 2（Context Guard 单条限制）:
 Level 3（Context Guard 总量限制）:
   截断后总量仍超 maxContextChars（~400,000 chars）
   → 抛出 PREEMPTIVE_CONTEXT_OVERFLOW → 触发强制压缩
-</code></pre></div>
 
-<h3 id="skill-fallback">Skill Fallback</h3>
-<p>Skill 无独立 fallback 引擎，完全依赖 LLM 在 Tool Loop 内的自主推理：</p>
-<div class="codehilite"><pre><span></span><code><span class="n">skill</span><span class="w"> </span><span class="err">底层</span><span class="w"> </span><span class="k">tool</span><span class="w"> </span><span class="err">失败</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">tool_result</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">error</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="w"> </span><span class="p">}</span>
-<span class="w">  </span><span class="err">↓</span>
-<span class="n">LLM</span><span class="w"> </span><span class="err">自主决策</span><span class="p">:</span>
-<span class="w">  </span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="err">换参数</span><span class="o">/</span><span class="n">URL</span><span class="w"> </span><span class="err">重试</span>
-<span class="w">  </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="err">改用其他</span><span class="w"> </span><span class="k">tool</span><span class="err">（如</span><span class="w"> </span><span class="n">web_search</span><span class="w"> </span><span class="err">替代</span><span class="w"> </span><span class="n">web_fetch</span><span class="err">）</span>
-<span class="w">  </span><span class="n">c</span><span class="p">)</span><span class="w"> </span><span class="err">从</span><span class="w"> </span><span class="n">MEMORY</span><span class="o">.</span><span class="n">md</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="err">历史对话推断</span>
-<span class="w">  </span><span class="n">d</span><span class="p">)</span><span class="w"> </span><span class="err">告知用户无法获取</span>
-</code></pre></div>
+### Skill Fallback
 
-<h3 id="fallback_1">Fallback 全景对比</h3>
-<table>
-<thead>
-<tr>
-<th>层级</th>
-<th>触发条件</th>
-<th>用户可见</th>
-<th>静默处理</th>
-<th>可配置</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Provider</td>
-<td>retry 耗尽</td>
-<td>✅ 报错</td>
-<td>❌</td>
-<td>✅ <code>fallback_provider</code></td>
-</tr>
-<tr>
-<td>Compaction 摘要</td>
-<td>quality guard 失败</td>
-<td>❌</td>
-<td>✅</td>
-<td>❌（内置三级）</td>
-</tr>
-<tr>
-<td>Memory 向量检索</td>
-<td>embedding API 失败</td>
-<td>❌</td>
-<td>✅</td>
-<td>❌（自动降级）</td>
-</tr>
-<tr>
-<td>Bootstrap 文件</td>
-<td>文件缺失/读取失败</td>
-<td>⚠️ [MISSING]</td>
-<td>部分</td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Tool Result 截断</td>
-<td>超过长度上限</td>
-<td>⚠️ truncated 标记</td>
-<td>部分</td>
-<td>✅ <code>maxChars</code></td>
-</tr>
-<tr>
-<td>Skill</td>
-<td>底层 tool 失败</td>
-<td>视 LLM 决策</td>
-<td>视 LLM 决策</td>
-<td>⚠️ 靠描述引导</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="a">附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;</h2>
-<h3 id="a1">A.1 消息到达</h3>
-<div class="codehilite"><pre><span></span><code><span class="err">时间</span><span class="o">:</span><span class="w"> </span><span class="mi">2026</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">29</span><span class="w"> </span><span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mi">00</span><span class="w"> </span><span class="n">CST</span>
-<span class="err">渠道</span><span class="o">:</span><span class="w"> </span><span class="n">webchat</span>
-<span class="n">SessionKey</span><span class="o">:</span><span class="w"> </span><span class="n">e4205302</span><span class="o">-</span><span class="mi">4</span><span class="n">b21</span><span class="o">-</span><span class="mi">439</span><span class="n">e</span><span class="o">-</span><span class="mi">805</span><span class="n">e</span><span class="o">-</span><span class="mi">208</span><span class="n">cd0df6647</span>
-<span class="err">消息内容</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;帮我查一下杭州天气&quot;</span>
-</code></pre></div>
+Skill 无独立 fallback 引擎，完全依赖 LLM 在 Tool Loop 内的自主推理：
 
-<h3 id="a2">A.2 预处理</h3>
-<div class="codehilite"><pre><span></span><code>Gateway 接收 HTTP POST → WebSocket 推送
+skill 底层 tool 失败
+  ↓
+tool_result: { error: "..." }
+  ↓
+LLM 自主决策:
+  a) 换参数/URL 重试
+  b) 改用其他 tool（如 web_search 替代 web_fetch）
+  c) 从 MEMORY.md / 历史对话推断
+  d) 告知用户无法获取
+
+### Fallback 全景对比
+
+层级
+触发条件
+用户可见
+静默处理
+可配置
+
+Provider
+retry 耗尽
+✅ 报错
+❌
+✅ fallback_provider
+
+Compaction 摘要
+quality guard 失败
+❌
+✅
+❌（内置三级）
+
+Memory 向量检索
+embedding API 失败
+❌
+✅
+❌（自动降级）
+
+Bootstrap 文件
+文件缺失/读取失败
+⚠️ [MISSING]
+部分
+❌
+
+Tool Result 截断
+超过长度上限
+⚠️ truncated 标记
+部分
+✅ maxChars
+
+Skill
+底层 tool 失败
+视 LLM 决策
+视 LLM 决策
+⚠️ 靠描述引导
+
+## 附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;
+
+### A.1 消息到达
+
+时间: 2026-04-29 14:50:00 CST
+渠道: webchat
+SessionKey: e4205302-4b21-439e-805e-208cd0df6647
+消息内容: "帮我查一下杭州天气"
+
+### A.2 预处理
+
+Gateway 接收 HTTP POST → WebSocket 推送
 dispatchReplyFromConfig()
   - session store lookup → 找到已有 session
   - 非重复消息 → 继续
@@ -1651,266 +1157,215 @@ getReplyFromConfig()
   - 配置加载: alibaba/glm-5.1
   - sessionId = e4205302-...，isNewSession = false
   - 指令解析: 无 inline 指令
-</code></pre></div>
 
-<h3 id="a3-bootstrap">A.3 Bootstrap 注入</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">resolveBootstrapContextForRun</span><span class="p">()</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="nl">发现</span><span class="p">:</span>
-<span class="w">    </span><span class="n">AGENTS</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">000</span><span class="w"> </span><span class="n">chars</span><span class="p">)</span><span class="w">  </span><span class="n">SOUL</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
-<span class="w">    </span><span class="n">TOOLS</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">800</span><span class="p">)</span><span class="w">          </span><span class="k">IDENTITY</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
-<span class="w">    </span><span class="k">USER</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">300</span><span class="p">)</span><span class="w">             </span><span class="n">HEARTBEAT</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">500</span><span class="p">)</span>
-<span class="w">    </span><span class="n">BOOTSTRAP</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✗</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="o">[</span><span class="n">MISSING</span><span class="o">]</span><span class="w"> </span><span class="n">注入</span>
-<span class="w">    </span><span class="n">MEMORY</span><span class="p">.</span><span class="n">md</span><span class="w"> </span><span class="err">✓</span><span class="w"> </span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">000</span><span class="p">)</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">27</span><span class="p">,</span><span class="mi">000</span><span class="w"> </span><span class="n">chars</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">60</span><span class="p">,</span><span class="mi">000</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">无需截断</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">HEARTBEAT</span><span class="w"> </span><span class="n">标记为动态</span><span class="err">，</span><span class="n">稍后注入</span>
-</code></pre></div>
+### A.3 Bootstrap 注入
 
-<h3 id="a4-system-prompt">A.4 System Prompt 组装</h3>
-<div class="codehilite"><pre><span></span><code>buildAgentSystemPrompt()
+resolveBootstrapContextForRun()
+  → 发现:
+    AGENTS.md ✓ (12,000 chars)  SOUL.md ✓ (1,200)
+    TOOLS.md ✓ (3,800)          IDENTITY.md ✓ (200)
+    USER.md ✓ (300)             HEARTBEAT.md ✓ (1,500)
+    BOOTSTRAP.md ✗ → [MISSING] 注入
+    MEMORY.md ✓ (8,000)
+  → total = 27,000 chars < 60,000 → 无需截断
+  → HEARTBEAT 标记为动态，稍后注入
+
+### A.4 System Prompt 组装
+
+buildAgentSystemPrompt()
   → 稳定部分: AGENTS + SOUL + IDENTITY + USER + TOOLS + MEMORY
   → CACHE_BOUNDARY
   → 动态部分: HEARTBEAT
   → Runtime: model=alibaba/glm-5.1 | thinking=low | channel=webchat
   → 最终 system prompt ≈ 35,000 chars (~8,750 tokens)
-</code></pre></div>
 
-<h3 id="a5">A.5 压缩触发判断</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">estimatedPromptTokens</span><span class="o">:</span>
-<span class="w">  </span><span class="n">system</span><span class="w"> </span><span class="n">prompt</span><span class="o">:</span><span class="w"> </span><span class="o">~</span><span class="mi">8</span><span class="o">,</span><span class="mi">750</span><span class="w"> </span><span class="n">tokens</span>
-<span class="w">  </span><span class="err">历史消息（</span><span class="mi">15</span><span class="err">条）</span><span class="o">:</span><span class="w"> </span><span class="o">~</span><span class="mi">3</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span>
-<span class="w">  </span><span class="err">当前消息</span><span class="o">:</span><span class="w"> </span><span class="o">~</span><span class="mi">10</span><span class="w"> </span><span class="n">tokens</span>
-<span class="w">  </span><span class="err">×</span><span class="w"> </span><span class="mf">1.1</span><span class="w"> </span><span class="err">安全余量</span><span class="w"> </span><span class="err">≈</span><span class="w"> </span><span class="mi">12</span><span class="o">,</span><span class="mi">925</span><span class="w"> </span><span class="n">tokens</span>
+### A.5 压缩触发判断
 
-<span class="n">promptBudgetBeforeReserve</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">160</span><span class="o">,</span><span class="mi">000</span><span class="w"> </span><span class="n">tokens</span>
-<span class="n">overflowTokens</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">max</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span><span class="w"> </span><span class="mi">12</span><span class="o">,</span><span class="mi">925</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">160</span><span class="o">,</span><span class="mi">000</span><span class="o">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
-<span class="err">→</span><span class="w"> </span><span class="n">route</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;fits&quot;</span><span class="err">，不触发压缩</span>
-</code></pre></div>
+estimatedPromptTokens:
+  system prompt: ~8,750 tokens
+  历史消息（15条）: ~3,000 tokens
+  当前消息: ~10 tokens
+  × 1.1 安全余量 ≈ 12,925 tokens
 
-<h3 id="a6-llm">A.6 LLM 请求构建</h3>
-<div class="codehilite"><pre><span></span><code><span class="err">请求结构</span><span class="o">:</span>
-<span class="w">  </span><span class="n">system</span><span class="o">:</span><span class="w"> </span><span class="o">[</span><span class="err">完整</span><span class="w"> </span><span class="n">system</span><span class="w"> </span><span class="n">prompt</span><span class="o">]</span>
-<span class="w">  </span><span class="n">messages</span><span class="o">:</span><span class="w"> </span><span class="o">[{</span><span class="w"> </span><span class="n">role</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;user&quot;</span><span class="o">,</span><span class="w"> </span><span class="n">content</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;帮我查一下杭州天气&quot;</span><span class="w"> </span><span class="o">}]</span>
-<span class="w">  </span><span class="n">tools</span><span class="o">:</span><span class="w"> </span><span class="o">[</span><span class="mi">25</span><span class="w"> </span><span class="err">个工具定义</span><span class="o">]</span>
-<span class="w">  </span><span class="n">thinking</span><span class="o">:</span><span class="w"> </span><span class="n">low</span>
-<span class="w">  </span><span class="n">model</span><span class="o">:</span><span class="w"> </span><span class="n">alibaba</span><span class="o">/</span><span class="n">glm</span><span class="o">-</span><span class="mf">5.1</span>
-</code></pre></div>
+promptBudgetBeforeReserve = 160,000 tokens
+overflowTokens = max(0, 12,925 - 160,000) = 0
+→ route = "fits"，不触发压缩
 
-<h3 id="a7-llm-tool-call">A.7 LLM 响应与 Tool Call</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">LLM</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="err">感知</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">skill</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">tool_call</span><span class="p">:</span><span class="w"> </span><span class="n">web_fetch</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s2">&quot;wttr.in/杭州?format=j1&quot;</span><span class="p">)</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">wttr</span><span class="o">.</span><span class="ow">in</span><span class="w"> </span><span class="n">API</span><span class="w"> </span><span class="err">返回天气</span><span class="w"> </span><span class="n">JSON</span><span class="err">（</span><span class="o">~</span><span class="mi">500</span><span class="w"> </span><span class="n">chars</span><span class="err">，远低于截断阈值）</span>
-<span class="w">  </span><span class="err">→</span><span class="w"> </span><span class="n">tool_result</span><span class="w"> </span><span class="err">注入</span><span class="w"> </span><span class="n">session</span>
-</code></pre></div>
+### A.6 LLM 请求构建
 
-<h3 id="a8">A.8 最终响应</h3>
-<div class="codehilite"><pre><span></span><code><span class="n">LLM</span><span class="w"> </span><span class="err">再次调用（带</span><span class="w"> </span><span class="k">tool</span><span class="w"> </span><span class="n">result</span><span class="err">）→</span><span class="w"> </span><span class="err">生成回复</span><span class="p">:</span>
-<span class="w">  </span><span class="s2">&quot;杭州现在 19°C，小雨，湿度 85%，东南风 2级。&quot;</span>
+请求结构:
+  system: [完整 system prompt]
+  messages: [{ role: "user", content: "帮我查一下杭州天气" }]
+  tools: [25 个工具定义]
+  thinking: low
+  model: alibaba/glm-5.1
 
-<span class="err">响应后</span><span class="p">:</span>
-<span class="w">  </span><span class="o">-</span><span class="w"> </span><span class="n">session</span><span class="w"> </span><span class="n">JSONL</span><span class="w"> </span><span class="err">追加用户消息</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="err">助手消息</span>
-<span class="w">  </span><span class="o">-</span><span class="w"> </span><span class="err">无</span><span class="w"> </span><span class="n">compaction</span><span class="w"> </span><span class="err">触发（</span><span class="n">token</span><span class="w"> </span><span class="err">数远未达阈值）</span>
-<span class="w">  </span><span class="o">-</span><span class="w"> </span><span class="err">无</span><span class="w"> </span><span class="n">post</span><span class="o">-</span><span class="n">compaction</span><span class="w"> </span><span class="err">刷新</span>
-</code></pre></div>
+### A.7 LLM 响应与 Tool Call
 
-<h3 id="a9">A.9 完整时序</h3>
-<div class="codehilite"><pre><span></span><code><span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.000</span><span class="w">  </span><span class="err">用户发送消息</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.050</span><span class="w">  </span><span class="n">Gateway</span><span class="w"> </span><span class="err">接收，创建</span><span class="w"> </span><span class="n">InboundContext</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.100</span><span class="w">  </span><span class="n">dispatchReplyFromConfig</span><span class="o">()</span><span class="w"> </span><span class="err">开始</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.150</span><span class="w">  </span><span class="n">getReplyFromConfig</span><span class="o">()</span><span class="w"> </span><span class="err">加载配置</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.200</span><span class="w">  </span><span class="n">initSessionState</span><span class="o">()</span><span class="w"> </span><span class="err">加载</span><span class="w"> </span><span class="n">session</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.300</span><span class="w">  </span><span class="n">resolveBootstrapContextForRun</span><span class="o">()</span><span class="w"> </span><span class="err">加载</span><span class="w"> </span><span class="n">bootstrap</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.400</span><span class="w">  </span><span class="n">buildAgentSystemPrompt</span><span class="o">()</span><span class="w"> </span><span class="err">组装</span><span class="w"> </span><span class="n">system</span><span class="w"> </span><span class="n">prompt</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.500</span><span class="w">  </span><span class="n">shouldPreemptivelyCompactBeforePrompt</span><span class="o">()</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">fits</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.550</span><span class="w">  </span><span class="n">runEmbeddedAttempt</span><span class="o">()</span><span class="w"> </span><span class="err">初始化</span><span class="w"> </span><span class="n">Pi</span><span class="w"> </span><span class="n">Agent</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">00.600</span><span class="w">  </span><span class="err">发送</span><span class="w"> </span><span class="n">LLM</span><span class="w"> </span><span class="err">请求（</span><span class="n">streaming</span><span class="err">）</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">01.200</span><span class="w">  </span><span class="n">LLM</span><span class="w"> </span><span class="err">返回</span><span class="w"> </span><span class="n">tool_call</span><span class="err">（</span><span class="n">weather</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">web_fetch</span><span class="err">）</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">01.250</span><span class="w">  </span><span class="err">执行</span><span class="w"> </span><span class="n">web_fetch</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">01.800</span><span class="w">  </span><span class="n">wttr</span><span class="o">.</span><span class="na">in</span><span class="w"> </span><span class="n">API</span><span class="w"> </span><span class="err">返回</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">01.850</span><span class="w">  </span><span class="n">tool_result</span><span class="w"> </span><span class="err">注入</span><span class="w"> </span><span class="n">session</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">02.000</span><span class="w">  </span><span class="n">LLM</span><span class="w"> </span><span class="err">再次调用（自动）</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">02.500</span><span class="w">  </span><span class="n">LLM</span><span class="w"> </span><span class="err">返回最终文本</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">02.550</span><span class="w">  </span><span class="err">流式输出到</span><span class="w"> </span><span class="n">webchat</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">02.600</span><span class="w">  </span><span class="n">session</span><span class="w"> </span><span class="n">JSONL</span><span class="w"> </span><span class="err">写入</span>
-<span class="mi">14</span><span class="o">:</span><span class="mi">50</span><span class="o">:</span><span class="mf">02.650</span><span class="w">  </span><span class="err">清理，</span><span class="n">session</span><span class="w"> </span><span class="err">标记</span><span class="w"> </span><span class="n">idle</span>
-</code></pre></div>
+LLM → 感知 weather skill → tool_call: web_fetch(url="wttr.in/杭州?format=j1")
+  → wttr.in API 返回天气 JSON（~500 chars，远低于截断阈值）
+  → tool_result 注入 session
 
-<hr />
-<h2 id="b">附录 B: 关键源码文件映射</h2>
-<table>
-<thead>
-<tr>
-<th>功能</th>
-<th>源码文件</th>
-<th>关键函数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>消息调度</td>
-<td><code>dispatch-JNo_iJw5.js</code></td>
-<td><code>dispatchReplyFromConfig()</code></td>
-</tr>
-<tr>
-<td>Reply 配置</td>
-<td><code>get-reply-XW5nFnK2.js</code></td>
-<td><code>getReplyFromConfig()</code>, <code>runPreparedReply()</code></td>
-</tr>
-<tr>
-<td>嵌入式运行</td>
-<td><code>pi-embedded-runner-DN0VbqlW.js</code></td>
-<td><code>runEmbeddedAttempt()</code></td>
-</tr>
-<tr>
-<td>System Prompt 组装</td>
-<td><code>system-prompt-D8lixhp6.js</code></td>
-<td><code>buildAgentSystemPrompt()</code></td>
-</tr>
-<tr>
-<td>Bootstrap 文件</td>
-<td><code>bootstrap-files-ZYTN7n8L.js</code></td>
-<td><code>resolveBootstrapContextForRun()</code></td>
-</tr>
-<tr>
-<td>工作区扫描</td>
-<td><code>workspace-hhTlRYqM.js</code></td>
-<td><code>loadWorkspaceBootstrapFiles()</code></td>
-</tr>
-<tr>
-<td>Bootstrap 预算</td>
-<td><code>pi-embedded-helpers-6UMMUO8y.js</code></td>
-<td><code>buildBootstrapContextFiles()</code></td>
-</tr>
-<tr>
-<td>Skill 加载</td>
-<td><code>skill-loader.ts</code></td>
-<td><code>loadSkillsForAgent()</code></td>
-</tr>
-<tr>
-<td>Memory 检索</td>
-<td><code>memory-index.ts</code></td>
-<td><code>memory_search()</code>, <code>memory_get()</code></td>
-</tr>
-<tr>
-<td>压缩触发判断</td>
-<td><code>pi-embedded-runner-DN0VbqlW.js</code></td>
-<td><code>shouldPreemptivelyCompactBeforePrompt()</code></td>
-</tr>
-<tr>
-<td>压缩安全机制</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>compactWithSafetyTimeout()</code></td>
-</tr>
-<tr>
-<td>Safeguard 摘要</td>
-<td><code>compaction-safeguard.ts</code></td>
-<td><code>summarizeViaLLM()</code>, <code>summarizeWithFallback()</code></td>
-</tr>
-<tr>
-<td>Pi 内置摘要</td>
-<td><code>compaction.js</code> (Pi)</td>
-<td><code>generateSummary()</code></td>
-</tr>
-<tr>
-<td>Tool Result 截断</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>truncateToolResultText()</code></td>
-</tr>
-<tr>
-<td>Context Guard</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>installToolResultContextGuard()</code></td>
-</tr>
-<tr>
-<td>Post-Compaction</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>readPostCompactionContext()</code></td>
-</tr>
-<tr>
-<td>Session 管理</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>guardSessionManager()</code></td>
-</tr>
-<tr>
-<td>Post-Compaction 副作用</td>
-<td><code>model-context-tokens-z5hvDVkk.js</code></td>
-<td><code>runPostCompactionSideEffects()</code></td>
-</tr>
-<tr>
-<td>Memory 同步</td>
-<td><code>post-compaction-context.ts</code></td>
-<td><code>syncPostCompactionSessionMemory()</code></td>
-</tr>
-<tr>
-<td>常量定义</td>
-<td><code>pi-compaction-constants.ts</code></td>
-<td><code>MIN_PROMPT_BUDGET_TOKENS</code>, <code>SAFETY_MARGIN</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="c">附录 C: 你的实际配置快照</h2>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;alibaba&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;modelId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;glm-5.1&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;contextWindow&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">200000</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nt">&quot;compaction&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;mode&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;safeguard&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;reserveTokens&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">40000</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;keepRecentTokens&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">20000</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;notifyUser&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nt">&quot;bootstrap&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;bootstrapMaxChars&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12000</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;bootstrapTotalMaxChars&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60000</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;bootstrapPromptTruncationWarning&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;once&quot;</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nt">&quot;contextInjection&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;always&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;thinking&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;low&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;reasoning&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;off&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
+### A.8 最终响应
 
-<hr />
-<h2 id="附录-d-心跳与-cron-源码文件映射">附录 D: 心跳与 Cron 源码文件映射</h2>
-<table>
-<tr><th>功能</th><th>源码文件</th><th>关键函数</th></tr>
-<tr><td>心跳配置解析</td><td><code>heartbeat-summary-Cgk1PVlc.js</code></td><td><code>resolveHeartbeatSummaryForAgent()</code></td></tr>
-<tr><td>心跳提示词</td><td><code>heartbeat-DYyKvnDp.js</code></td><td><code>resolveHeartbeatPrompt()</code>, <code>stripHeartbeatToken()</code></td></tr>
-<tr><td>心跳调度器</td><td><code>heartbeat-runner-CInrztfM.js</code></td><td><code>startHeartbeatRunner()</code>, <code>runHeartbeatOnce()</code></td></tr>
-<tr><td>心跳唤醒队列</td><td><code>heartbeat-wake-a3GAt85y.js</code></td><td><code>requestHeartbeatNow()</code>, <code>setHeartbeatWakeHandler()</code></td></tr>
-<tr><td>心跳事件过滤</td><td><code>heartbeat-runner-CInrztfM.js</code></td><td><code>buildCronEventPrompt()</code>, <code>isCronSystemEvent()</code></td></tr>
-<tr><td>心跳可见性</td><td><code>heartbeat-visibility-K-nKdcA-.js</code></td><td><code>resolveHeartbeatVisibility()</code></td></tr>
-<tr><td>心跳交付目标</td><td><code>targets-DbBSGhxR.js</code></td><td><code>resolveHeartbeatDeliveryTarget()</code></td></tr>
-<tr><td>System Events</td><td><code>system-events-Dq_M0n12.js</code></td><td><code>enqueueSystemEvent()</code>, <code>peekSystemEventEntries()</code></td></tr>
-<tr><td>Cron CLI</td><td><code>cron-cli-BPJoMlQj.js</code></td><td><code>registerCronCli()</code></td></tr>
-<tr><td>Cron 运行时</td><td><code>heartbeat-runner.runtime-bDSnBvfE.js</code></td><td><code>getReplyFromConfig()</code></td></tr>
-<tr><td>心跳响应负载</td><td><code>heartbeat-reply-payload-CkvYHqfG.js</code></td><td><code>resolveHeartbeatReplyPayload()</code></td></tr>
-</table>
+LLM 再次调用（带 tool result）→ 生成回复:
+  "杭州现在 19°C，小雨，湿度 85%，东南风 2级。"
 
-<hr />
-<h2 id="设计要点总结">设计要点总结</h2>
-<p><strong>七道防线，层层兜底：</strong></p>
-<ol>
-<li><strong>Bootstrap 预算控制</strong> — 文件注入上限（12K/60K chars），避免 system prompt 膨胀</li>
-<li><strong>System Prompt Stable/Dynamic 分离</strong> — Anthropic cache_control 优化；HEARTBEAT.md 作为唯一动态文件</li>
-<li><strong>Preemptive Compaction</strong> — LLM 调用前评估，溢出前主动压缩</li>
-<li><strong>Compaction Safeguard</strong> — 接管 Pi 内置压缩，结构化摘要 + 三级 fallback + identifiers 保护</li>
-<li><strong>Tool Result 截断</strong> — 运行时单条/总量双限制，三级截断策略</li>
-<li><strong>Post-Compaction 刷新</strong> — 确保压缩后 agent 不丢失关键启动指令</li>
-<li><strong>Fallback 链路</strong> — Provider / 摘要 / Memory / Bootstrap / Tool Result / Skill 六层各自兜底</li>
-</ol>
-<p><strong>心跳与 Cron 机制要点：</strong></p>
-<ol start="8">
-<li><strong>心跳是 Cron 的执行引擎</strong> — Cron 只负责“到点时注入 systemEvent”，实际消费完全依赖心跳 runner</li>
-<li><strong>Phase 偏移避免突刺</strong> — SHA-256 哈希让每个 agent 的心跳时间错开，多 agent 场景不堆积</li>
-<li><strong>唤醒队列聚合</strong> — 250ms 窗口合并多个唤醒请求，减少 API 调用</li>
-<li><strong>HEARTBEAT_OK 是空操作协议</strong> — LLM 用明确的 token 表示“无事可做”，避免噪音</li>
-<li><strong>isolated session 隔离风险</strong> — 独立 session 的结果不会自动出现在主对话，需要显式 delivery</li>
-<li><strong>Cron 不是实时系统</strong> — 触发后等待下次心跳才执行，最大延迟 = 心跳间隔</li>
-<li><strong>System Events 是进程内队列</strong> — 不持久化，Gateway 重启丢失，超出的丢弃</li>
-</ol>
-<p><strong>可扩展性：</strong> 插件 Hook（11个）→ Internal Hook（8个）→ Pi Hook（5个），三层各自独立，层层可介入。</p>
-<hr />
-<p><em>文档版本 v2026.5.5。如需补充任何环节的源码细节，告诉我。</em></p>
+响应后:
+  - session JSONL 追加用户消息 + 助手消息
+  - 无 compaction 触发（token 数远未达阈值）
+  - 无 post-compaction 刷新
 
+### A.9 完整时序
+
+14:50:00.000  用户发送消息
+14:50:00.050  Gateway 接收，创建 InboundContext
+14:50:00.100  dispatchReplyFromConfig() 开始
+14:50:00.150  getReplyFromConfig() 加载配置
+14:50:00.200  initSessionState() 加载 session
+14:50:00.300  resolveBootstrapContextForRun() 加载 bootstrap
+14:50:00.400  buildAgentSystemPrompt() 组装 system prompt
+14:50:00.500  shouldPreemptivelyCompactBeforePrompt() → fits
+14:50:00.550  runEmbeddedAttempt() 初始化 Pi Agent
+14:50:00.600  发送 LLM 请求（streaming）
+14:50:01.200  LLM 返回 tool_call（weather → web_fetch）
+14:50:01.250  执行 web_fetch
+14:50:01.800  wttr.in API 返回
+14:50:01.850  tool_result 注入 session
+14:50:02.000  LLM 再次调用（自动）
+14:50:02.500  LLM 返回最终文本
+14:50:02.550  流式输出到 webchat
+14:50:02.600  session JSONL 写入
+14:50:02.650  清理，session 标记 idle
+
+## 附录 B: 关键源码文件映射
+
+功能
+源码文件
+关键函数
+
+消息调度
+dispatch-JNo_iJw5.js
+dispatchReplyFromConfig()
+
+Reply 配置
+get-reply-XW5nFnK2.js
+getReplyFromConfig(), runPreparedReply()
+
+嵌入式运行
+pi-embedded-runner-DN0VbqlW.js
+runEmbeddedAttempt()
+
+System Prompt 组装
+system-prompt-D8lixhp6.js
+buildAgentSystemPrompt()
+
+Bootstrap 文件
+bootstrap-files-ZYTN7n8L.js
+resolveBootstrapContextForRun()
+
+工作区扫描
+workspace-hhTlRYqM.js
+loadWorkspaceBootstrapFiles()
+
+Bootstrap 预算
+pi-embedded-helpers-6UMMUO8y.js
+buildBootstrapContextFiles()
+
+Skill 加载
+skill-loader.ts
+loadSkillsForAgent()
+
+Memory 检索
+memory-index.ts
+memory_search(), memory_get()
+
+压缩触发判断
+pi-embedded-runner-DN0VbqlW.js
+shouldPreemptivelyCompactBeforePrompt()
+
+压缩安全机制
+model-context-tokens-z5hvDVkk.js
+compactWithSafetyTimeout()
+
+Safeguard 摘要
+compaction-safeguard.ts
+summarizeViaLLM(), summarizeWithFallback()
+
+Pi 内置摘要
+compaction.js (Pi)
+generateSummary()
+
+Tool Result 截断
+model-context-tokens-z5hvDVkk.js
+truncateToolResultText()
+
+Context Guard
+model-context-tokens-z5hvDVkk.js
+installToolResultContextGuard()
+
+Post-Compaction
+model-context-tokens-z5hvDVkk.js
+readPostCompactionContext()
+
+Session 管理
+model-context-tokens-z5hvDVkk.js
+guardSessionManager()
+
+Post-Compaction 副作用
+model-context-tokens-z5hvDVkk.js
+runPostCompactionSideEffects()
+
+Memory 同步
+post-compaction-context.ts
+syncPostCompactionSessionMemory()
+
+常量定义
+pi-compaction-constants.ts
+MIN_PROMPT_BUDGET_TOKENS, SAFETY_MARGIN
+
+## 附录 C: 你的实际配置快照
+
+{
+  "model": {
+    "provider": "alibaba",
+    "modelId": "glm-5.1",
+    "contextWindow": 200000
+  },
+  "compaction": {
+    "mode": "safeguard",
+    "reserveTokens": 40000,
+    "keepRecentTokens": 20000,
+    "notifyUser": true
+  },
+  "bootstrap": {
+    "bootstrapMaxChars": 12000,
+    "bootstrapTotalMaxChars": 60000,
+    "bootstrapPromptTruncationWarning": "once"
+  },
+  "contextInjection": "always",
+  "thinking": "low",
+  "reasoning": "off"
+}
+
+## 设计要点总结
+
+**七道防线，层层兜底：**
+
+- **Bootstrap 预算控制** — 文件注入上限（12K/60K chars），避免 system prompt 膨胀
+
+- **System Prompt Stable/Dynamic 分离** — Anthropic cache_control 优化；HEARTBEAT.md 作为唯一动态文件
+
+- **Preemptive Compaction** — LLM 调用前评估，溢出前主动压缩
+
+- **Compaction Safeguard** — 接管 Pi 内置压缩，结构化摘要 + 三级 fallback + identifiers 保护
+
+- **Tool Result 截断** — 运行时单条/总量双限制，三级截断策略
+
+- **Post-Compaction 刷新** — 确保压缩后 agent 不丢失关键启动指令
+
+- **Fallback 链路** — Provider / 摘要 / Memory / Bootstrap / Tool Result / Skill 六层各自兜底
+
+**可扩展性：** 插件 Hook（11个）→ Internal Hook（8个）→ Pi Hook（5个），三层各自独立，层层可介入。
+
+*文档版本 v2026.4.15-final。如需补充任何环节的源码细节，告诉我。*
