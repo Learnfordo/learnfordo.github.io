@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-07T05:02:52.426Z",
+  "updatedAt": "2026-05-08T04:32:47.258Z",
   "items": [
+    {
+      "date": "2026-05-07",
+      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
+      "summary": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot m",
+      "url": "https://arxiv.org/abs/2605.06667v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "summary": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with lin",
+      "url": "https://arxiv.org/abs/2605.06665v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+      "summary": "GUI grounding is a critical capability for enabling GUI agents to execute tasks such as clicking and dragging. However, in complex scenarios like the ScreenSpot-Pro benchmark, existing models often su",
+      "url": "https://arxiv.org/abs/2605.06664v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "summary": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific know",
+      "url": "https://arxiv.org/abs/2605.06663v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "summary": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential compon",
+      "url": "https://arxiv.org/abs/2605.06660v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML",
+      "summary": "Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs fr",
+      "url": "https://arxiv.org/abs/2605.06656v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Optimizer-Model Consistency: Full Finetuning with the Same Optimizer as Pretraining Forgets Less",
+      "summary": "Optimizers play an important role in both pretraining and finetuning stages when training large language models (LLMs). In this paper, we present an observation that full finetuning with the same opti",
+      "url": "https://arxiv.org/abs/2605.06654v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+      "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless",
+      "url": "https://arxiv.org/abs/2605.06652v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "summary": "We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support",
+      "url": "https://arxiv.org/abs/2605.06651v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Beyond Negative Rollouts: Positive-Only Policy Optimization with Implicit Negative Gradients",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR), due to the deterministic verification, becomes a dominant paradigm for enhancing the reasoning ability of large language models (LLMs). The commu",
+      "url": "https://arxiv.org/abs/2605.06650v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "AI slop is killing online communities",
+      "summary": "via rmoff.net",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 515
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
+      "summary": "via old.reddit.com",
+      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 504
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Agents need control flow, not more prompts",
+      "summary": "via bsuh.bearblog.dev",
+      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-05-07",
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "summary": "via deepmind.google",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 264
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 223
+    },
     {
       "date": "2026-05-06",
       "title": "Taming Outlier Tokens in Diffusion Transformers",
@@ -322,144 +457,6 @@
       "url": "https://arxiv.org/abs/2605.02888v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
-      "summary": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such as range edits, ratio checks, or univariate outli",
-      "url": "https://arxiv.org/abs/2605.02884v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Multi-fidelity surrogates for mechanics of composites: from co-kriging to multi-fidelity neural networks",
-      "summary": "Composite materials exhibit strongly hierarchical and anisotropic properties governed by coupled mechanisms spanning constituents, plies, laminates, structures, and manufacturing history. This intrins",
-      "url": "https://arxiv.org/abs/2605.02871v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
-      "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations, while generalization gaps across environments co",
-      "url": "https://arxiv.org/abs/2605.02867v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection",
-      "summary": "Cross-language code clone detection (X-CCD) is challenging because semantically equivalent programs written in different languages often share little surface similarity. Although large language models",
-      "url": "https://arxiv.org/abs/2605.02860v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
-      "summary": "Scientists increasingly rely on sensor-based data, yet transforming raw streams into insights across the edge-to-cloud continuum remains difficult. Provisioning heterogeneous infrastructure and managi",
-      "url": "https://arxiv.org/abs/2605.02859v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
-      "summary": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standard metrics provide limited visibility into layer-w",
-      "url": "https://arxiv.org/abs/2605.02853v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "(POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
-      "summary": "Scientists increasingly rely on sensor-based data; however transforming raw streams into insights across the edge-to-cloud continuum remains difficult due to the breadth of expertise required to coord",
-      "url": "https://arxiv.org/abs/2605.02844v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "A second-order method on the Stiefel manifold via Newton$\\unicode{x2013}$Schulz",
-      "summary": "Retraction-free approaches offer attractive low-cost alternatives to Riemannian methods on the Stiefel manifold, but they are often first-order, which may limit the efficiency under high-accuracy requ",
-      "url": "https://arxiv.org/abs/2605.02838v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "A Closed-Form Persistence-Landmark Pipeline for Certified Point-Cloud and Graph Classification",
-      "summary": "We introduce PLACE (Persistence-Landmark Analytic Classification Engine), a closed-form pipeline for classifying point clouds and graphs through their persistent-homology signatures. Three quantitativ",
-      "url": "https://arxiv.org/abs/2605.02836v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-04",
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 343
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Agent Skills",
-      "summary": "via addyosmani.com",
-      "url": "https://addyosmani.com/blog/agent-skills/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 183
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Sierra Raises $950M at $15B Valuation",
-      "summary": "via sierra.ai",
-      "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 101
-    },
-    {
-      "date": "2026-05-03",
-      "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
-      "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 331
-    },
-    {
-      "date": "2026-05-03",
-      "title": "Agentic Coding Is a Trap",
-      "summary": "via larsfaye.com",
-      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 280
-    },
-    {
-      "date": "2026-05-03",
-      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
-      "summary": "via github.com",
-      "url": "https://github.com/aattaran/deepclaude",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 269
     }
   ]
 }
