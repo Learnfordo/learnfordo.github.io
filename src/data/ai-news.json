@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T04:43:39.634Z",
+  "updatedAt": "2026-05-08T10:25:39.757Z",
   "items": [
     {
       "date": "2026-05-07",
@@ -90,7 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 522
+      "score": 672
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Agents need control flow, not more prompts",
+      "summary": "via bsuh.bearblog.dev",
+      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 471
+    },
+    {
+      "date": "2026-05-07",
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "summary": "via deepmind.google",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 295
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Hardening Firefox with Claude Mythos Preview",
+      "summary": "via hacks.mozilla.org",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 198
     },
     {
       "date": "2026-05-07",
@@ -102,39 +146,6 @@
       ],
       "source": "HN",
       "score": 504
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Agents need control flow, not more prompts",
-      "summary": "via bsuh.bearblog.dev",
-      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 381
-    },
-    {
-      "date": "2026-05-07",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "summary": "via deepmind.google",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 264
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 224
     },
     {
       "date": "2026-05-06",
@@ -449,14 +460,6 @@
       ],
       "source": "HN",
       "score": 208
-    },
-    {
-      "date": "2026-05-04",
-      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
-      "summary": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target model verifies. A critical hyperparameter in this pr",
-      "url": "https://arxiv.org/abs/2605.02888v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
