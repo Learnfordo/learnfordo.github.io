@@ -47,7 +47,7 @@ const ARXIV_QUERIES = [
   { vendor: 'Anthropic', query: 'all:"Claude Opus 4" OR all:"Claude 5"+AND+all:"model"' },
   { vendor: 'Mistral', query: 'all:"Mistral Large" OR all:"Pixtral Large"' },
   { vendor: 'DeepSeek', query: 'all:DeepSeek-V4 OR all:"DeepSeek V4" OR all:DeepSeek-R2 OR all:"DeepSeek Prover"' },
-  { vendor: '智谱 (GLM)', query: 'all:"GLM-5"+AND+all:technical OR all:"GLM-5.1"' },
+  { vendor: '智谱 (GLM)', query: 'all:"GLM-5"+AND+all:technical OR all:"GLM-5.1" OR all:"GLM-5V"' },
   { vendor: '阿里 (Qwen)', query: 'all:"Qwen3.6" OR all:"Qwen3.5"+AND+all:technical' },
   { vendor: '百度', query: 'all:"ERNIE 5" OR all:"ERNIE+5.0"+AND+all:technical' },
   { vendor: 'Moonshot (Kimi)', query: 'all:"Kimi K2"+AND+all:technical OR all:"Kimi k2.6"' },
@@ -209,6 +209,8 @@ function cnDesc(paper) {
     return `《${title}》— 深度求索数学定理证明模型，基于强化学习的子目标分解策略，在形式化验证任务中取得突破。`;
   if (title.includes('DeepSeek-Prover'))
     return `《${title}》— 深度求索定理证明大模型，通过大规模合成数据训练实现自动定理证明。`;
+  if (title.includes('GLM-5V-Turbo') || title.includes('GLM-5V'))
+    return `《${title}》— 智谱 AI 视觉语言模型，融合视觉理解与语言推理的多模态旗舰。`;
   if (title.includes('GLM-5.1'))
     return `《${title}》— 智谱 AI 最新大语言模型，增强智能体工程与复杂任务自动处理能力。`;
   if (title.includes('GLM-5'))
@@ -271,6 +273,7 @@ const HF_MODELS = [
   { vendor: '阿里 (Qwen)', id: 'Qwen/Qwen3.5-Omni' },
   { vendor: '智谱 (GLM)', id: 'THUDM/GLM-5' },
   { vendor: '智谱 (GLM)', id: 'THUDM/GLM-5.1' },
+  { vendor: '智谱 (GLM)', id: 'THUDM/GLM-5V-Turbo' },
   { vendor: 'Moonshot (Kimi)', id: 'moonshotai/Kimi-K2' },
   { vendor: '华为', id: 'Huawei/Pangu-Embedded' },
   { vendor: 'Microsoft', id: 'microsoft/Phi-4' },

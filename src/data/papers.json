@@ -407,5 +407,14 @@
     "summary": "We announce the release of EPT-1.5, the latest iteration in our Earth Physics Transformer (EPT) family of foundation AI earth system models. EPT-1.5 demonstrates substantial improvements over its predecessor, EPT-1. Built specifically for the European energy industry, EPT-1.5 shows remarkable perfor",
     "tags": [],
     "descriptionCn": "《EPT-1.5 Technical Report》— 华为 发布的最新研究论文。"
+  },
+  {
+    "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-04-29",
+    "arxivId": "2604.26752v1",
+    "pdfUrl": "https://arxiv.org/pdf/2604.26752v1",
+    "summary": "We present GLM-5V-Turbo, a native foundation model designed for multimodal agents, integrating visual understanding with language reasoning for GUI interaction and agent tasks.",
+    "descriptionCn": "《GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents》— 智谱 AI 视觉语言模型，融合视觉理解与语言推理的多模态旗舰。"
   }
 ]
