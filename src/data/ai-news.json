@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-09T04:55:42.729Z",
+  "updatedAt": "2026-05-09T09:27:03.766Z",
   "items": [
+    {
+      "date": "2026-05-09",
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "summary": "via gowers.wordpress.com",
+      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/trq212/status/2052809885763747935",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
+    },
     {
       "date": "2026-05-08",
       "title": "AI is breaking two vulnerability cultures",
@@ -10,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 290
+      "score": 328
     },
     {
       "date": "2026-05-08",
@@ -21,18 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Can LLMs model real-world systems in TLA+?",
-      "summary": "via www.sigops.org",
-      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 54
+      "score": 162
     },
     {
       "date": "2026-05-07",
@@ -113,6 +124,28 @@
       "url": "https://arxiv.org/abs/2605.06650v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "OpenAI’s WebRTC problem",
+      "summary": "via moq.dev",
+      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 304
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "summary": "via www.sigops.org",
+      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
     },
     {
       "date": "2026-05-07",
@@ -427,39 +460,6 @@
       "url": "https://arxiv.org/abs/2605.04003v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-      "summary": "via www.thatprivacyguy.com",
-      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1465
-    },
-    {
-      "date": "2026-05-05",
-      "title": "DNSSEC disruption affecting .de domains – Resolved",
-      "summary": "via status.denic.de",
-      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 679
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Three Inverse Laws of AI",
-      "summary": "via susam.net",
-      "url": "https://susam.net/inverse-laws-of-robotics.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 456
     }
   ]
 }
