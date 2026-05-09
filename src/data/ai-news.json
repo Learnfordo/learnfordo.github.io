@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-05-08T11:52:22.592Z",
+  "updatedAt": "2026-05-09T04:55:42.729Z",
   "items": [
+    {
+      "date": "2026-05-08",
+      "title": "AI is breaking two vulnerability cultures",
+      "summary": "via www.jefftk.com",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 290
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Teaching Claude Why",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "summary": "via www.sigops.org",
+      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
+    },
     {
       "date": "2026-05-07",
       "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
@@ -80,6 +113,17 @@
       "url": "https://arxiv.org/abs/2605.06650v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "OpenAI's WebRTC problem",
+      "summary": "via moq.dev",
+      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
     },
     {
       "date": "2026-05-07",
@@ -416,50 +460,6 @@
       ],
       "source": "HN",
       "score": 456
-    },
-    {
-      "date": "2026-05-05",
-      "title": "When everyone has AI and the company still learns nothing",
-      "summary": "via www.robert-glaser.de",
-      "url": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 337
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Agents for financial services and insurance",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 217
-    },
-    {
-      "date": "2026-04-30",
-      "title": "Should I run plain Docker Compose in production in 2026?",
-      "summary": "via distr.sh",
-      "url": "https://distr.sh/blog/running-docker-in-production/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Y Combinator's Stake in OpenAI (0.6%)",
-      "summary": "via daringfireball.net",
-      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 208
     }
   ]
 }
