@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T09:27:03.766Z",
+  "updatedAt": "2026-05-10T05:22:14.593Z",
   "items": [
     {
       "date": "2026-05-09",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 283
+      "score": 618
     },
     {
       "date": "2026-05-09",
@@ -21,29 +21,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 127
+      "score": 436
     },
     {
-      "date": "2026-05-08",
-      "title": "AI is breaking two vulnerability cultures",
-      "summary": "via www.jefftk.com",
-      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "date": "2026-05-09",
+      "title": "LLMs corrupt your documents when you delegate",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2604.15597",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 328
+      "score": 381
     },
     {
-      "date": "2026-05-08",
-      "title": "Teaching Claude Why",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "date": "2026-05-09",
+      "title": "Meta's embrace of AI is making its employees miserable",
+      "summary": "via www.nytimes.com",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 162
+      "score": 352
     },
     {
       "date": "2026-05-07",
@@ -134,7 +134,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 304
+      "score": 480
+    },
+    {
+      "date": "2026-05-08",
+      "title": "AI is breaking two vulnerability cultures",
+      "summary": "via www.jefftk.com",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 328
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Teaching Claude Why",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 162
     },
     {
       "date": "2026-05-08",
@@ -442,22 +464,6 @@
       "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
       "summary": "Language models excel at diagnostic assessments on currated medical case-studies and vignettes, performing on par with, or better than, clinical professionals. However, existing studies focus on compl",
       "url": "https://arxiv.org/abs/2605.04012v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
-      "summary": "A brain tumor is a medical disorder faced by individuals of all demographics. Medically, it is described as the spread of non-essential cells close to or throughout the brain. Symptoms of this ailment",
-      "url": "https://arxiv.org/abs/2605.04008v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
-      "summary": "High-precision CNC machining of free-form aerospace components requires bounded compensations informed by inspection, simulation, and process knowledge. Off-the-shelf large language model (LLM) assist",
-      "url": "https://arxiv.org/abs/2605.04003v1",
       "tags": [],
       "source": "arXiv"
     }
