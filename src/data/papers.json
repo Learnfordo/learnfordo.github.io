@@ -10,6 +10,16 @@
     "descriptionCn": "《Irminsul: MLA-Native Position-Independent Caching for Agentic LLM Serving》— Mistral 发布的最新研究论文。"
   },
   {
+    "title": "Language Models Can Autonomously Hack and Self-Replicate",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-05-07",
+    "arxivId": "2605.06760v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.06760v1",
+    "summary": "We demonstrate that language models can autonomously replicate their weights and harness across a network by exploiting vulnerable hosts. The agent independently finds and exploits a web-application vulnerability, extracts credentials, and deploys an inference server with a copy of its harness and p",
+    "tags": [],
+    "descriptionCn": "《Language Models Can Autonomously Hack and Self-Replicate》— 阿里 (Qwen) 发布的最新研究论文。"
+  },
+  {
     "title": "ZAYA1-8B Technical Report",
     "vendor": "OpenAI",
     "date": "2026-05-06",
