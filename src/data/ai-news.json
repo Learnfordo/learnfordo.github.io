@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-10T05:22:14.593Z",
+  "updatedAt": "2026-05-11T04:08:07.679Z",
   "items": [
+    {
+      "date": "2026-05-10",
+      "title": "Local AI needs to be the norm",
+      "summary": "via unix.foo",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 733
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Task Paralysis and AI",
+      "summary": "via g5t.de",
+      "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 213
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 188
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Running local models on an M4 with 24GB memory",
+      "summary": "via jola.dev",
+      "url": "https://jola.dev/posts/running-local-models-on-m4",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
+    },
+    {
+      "date": "2026-05-10",
+      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+      "summary": "via kotaku.com",
+      "url": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 109
+    },
+    {
+      "date": "2026-05-08",
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "summary": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are larg",
+      "url": "https://arxiv.org/abs/2605.08083v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Normalizing Trajectory Models",
+      "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step method",
+      "url": "https://arxiv.org/abs/2605.08078v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
+      "summary": "Knowledge Graph Question Answering (KGQA) has shown promise for grounded and interpretable reasoning, yet existing approaches often fail to provide reliable coverage guarantees over retrieved answers.",
+      "url": "https://arxiv.org/abs/2605.08077v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping",
+      "summary": "Decoding imagined speech from non-invasive brain recordings is challenging because imagined datasets are scarce and difficult to align temporally across subjects and sessions In this work, we propose ",
+      "url": "https://arxiv.org/abs/2605.08075v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
+      "summary": "Conformal prediction (CP) provides a distribution-free approach to uncertainty quantification with finite-sample guarantees. However, applying CP to graph neural networks (GNNs) remains challenging as",
+      "url": "https://arxiv.org/abs/2605.08074v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+      "summary": "Recent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these arc",
+      "url": "https://arxiv.org/abs/2605.08073v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "A Note on Non-Negative $L_1$-Approximating Polynomials",
+      "summary": "$L_1$-Approximating polynomials, i.e., polynomials that approximate indicator functions in $L_1$-norm under certain distributions, are widely used in computational learning theory. We study the existe",
+      "url": "https://arxiv.org/abs/2605.08072v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
+      "summary": "A standard technique for scaling inference-time reasoning is Self-Consistency, whereby multiple candidate answers are sampled from an LLM and the most common answer is selected. More recently, it has ",
+      "url": "https://arxiv.org/abs/2605.08070v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "summary": "Existing Flow Matching (FM) text-to-image models suffer from two critical bottlenecks under multi-task alignment: the reward sparsity induced by scalar-valued rewards, and the gradient interference ar",
+      "url": "https://arxiv.org/abs/2605.08063v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Rubric-Grounded RL: Structured Judge Rewards for Generalizable Reasoning",
+      "summary": "We argue that decomposing reward into weighted, verifiable criteria and using an LLM judge to score them provides a partial-credit optimization signal: instead of a binary outcome or a single holistic",
+      "url": "https://arxiv.org/abs/2605.08061v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-05-09",
       "title": "A recent experience with ChatGPT 5.5 Pro",
@@ -323,147 +458,6 @@
       "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
       "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing",
       "url": "https://arxiv.org/abs/2605.05172v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 486
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
-      "summary": "via tilde.run",
-      "url": "https://tilde.run/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 137
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Learning the Integral of a Diffusion Model",
-      "summary": "via sander.ai",
-      "url": "https://sander.ai/2026/05/06/flow-maps.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Show HN: I built an open-source email builder, alternative to Beefree/Unlayer",
-      "summary": "via play.templatical.com",
-      "url": "https://play.templatical.com",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-05-05",
-      "title": "A Theory of Deep Learning",
-      "summary": "via elonlit.com",
-      "url": "https://elonlit.com/scrivings/a-theory-of-deep-learning/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 151
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 359
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Telus Uses AI to Alter Call-Agent Accents",
-      "summary": "via letsdatascience.com",
-      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 157
-    },
-    {
-      "date": "2026-05-05",
-      "title": "A Closed-Form Adaptive-Landmark Kernel for Certified Point-Cloud and Graph Classification",
-      "summary": "We introduce PALACE (Persistence Adaptive-Landmark Analytic Classification Engine), the data-adaptive companion to PLACE, paying a small cross-validation tier on three knobs (budget, radii, bandwidth;",
-      "url": "https://arxiv.org/abs/2605.04046v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
-      "summary": "Clinical LLMs are often scaled by increasing model size, context length, retrieval complexity, or inference-time compute, with the implicit expectation that higher accuracy implies safer behavior. Thi",
-      "url": "https://arxiv.org/abs/2605.04039v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
-      "summary": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry reci",
-      "url": "https://arxiv.org/abs/2605.04036v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
-      "summary": "We propose HeadsUp, a scalable feed-forward method for reconstructing high-quality 3D Gaussian heads from large-scale multi-camera setups. Our method employs an efficient encoder-decoder architecture ",
-      "url": "https://arxiv.org/abs/2605.04035v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
-      "summary": "AI systems are entering critical domains like healthcare, finance, and defense, yet remain vulnerable to adversarial attacks. While AI red teaming is a primary defense, current approaches force operat",
-      "url": "https://arxiv.org/abs/2605.04019v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems",
-      "summary": "Reasoning-intensive retrieval aims to surface evidence that supports downstream reasoning rather than merely matching topical similarity. This capability is increasingly important for agentic search s",
-      "url": "https://arxiv.org/abs/2605.04018v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "Conditional Diffusion Sampling",
-      "summary": "Sampling from unnormalized multimodal distributions with limited density evaluations remains a fundamental challenge in machine learning and natural sciences. Successful approaches construct a bridge ",
-      "url": "https://arxiv.org/abs/2605.04013v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-05",
-      "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
-      "summary": "Language models excel at diagnostic assessments on currated medical case-studies and vignettes, performing on par with, or better than, clinical professionals. However, existing studies focus on compl",
-      "url": "https://arxiv.org/abs/2605.04012v1",
       "tags": [],
       "source": "arXiv"
     }
