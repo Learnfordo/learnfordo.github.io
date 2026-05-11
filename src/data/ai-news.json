@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T04:34:59.844Z",
+  "updatedAt": "2026-05-11T05:43:08.143Z",
   "items": [
     {
       "date": "2026-05-10",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 772
+      "score": 839
     },
     {
       "date": "2026-05-10",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 213
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
-      "summary": "via www.tomshardware.com",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 194
+      "score": 218
     },
     {
       "date": "2026-05-10",
@@ -43,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 182
+      "score": 217
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
     },
     {
       "date": "2026-05-10",
@@ -54,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 119
+      "score": 136
     },
     {
       "date": "2026-05-08",
