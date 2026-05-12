@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T04:34:21.112Z",
+  "updatedAt": "2026-05-12T05:24:23.773Z",
   "items": [
     {
       "date": "2026-05-11",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 632
+      "score": 678
     },
     {
       "date": "2026-05-11",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 281
+      "score": 315
     },
     {
       "date": "2026-05-11",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 275
+      "score": 283
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Interaction Models",
+      "summary": "via thinkingmachines.ai",
+      "url": "https://thinkingmachines.ai/blog/interaction-models/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 154
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "summary": "via www.cocoawithlove.com",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 226
     },
     {
       "date": "2026-05-11",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 139
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "summary": "via www.cocoawithlove.com",
-      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
     },
     {
       "date": "2026-05-10",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 209
-    },
-    {
-      "date": "2026-05-07",
-      "title": "AI slop is killing online communities",
-      "summary": "via rmoff.net",
-      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 695
     }
   ]
 }
