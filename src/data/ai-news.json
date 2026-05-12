@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T05:24:23.773Z",
+  "updatedAt": "2026-05-12T11:48:57.446Z",
   "items": [
     {
       "date": "2026-05-11",
@@ -83,14 +83,14 @@
     },
     {
       "date": "2026-05-11",
-      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "title": "Postmortem: TanStack NPM supply-chain compromise",
       "summary": "via tanstack.com",
       "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 678
+      "score": 889
     },
     {
       "date": "2026-05-11",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 315
+      "score": 561
     },
     {
       "date": "2026-05-11",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 283
+      "score": 366
     },
     {
       "date": "2026-05-11",
@@ -123,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 154
+      "score": 237
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "summary": "via www.nytimes.com",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 199
     },
     {
       "date": "2026-05-10",
@@ -135,17 +146,6 @@
       ],
       "source": "HN",
       "score": 226
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Google says criminal hackers used AI to find a major software flaw",
-      "summary": "via www.nytimes.com",
-      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 139
     },
     {
       "date": "2026-05-10",
