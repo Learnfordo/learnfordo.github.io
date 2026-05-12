@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-11T05:43:08.143Z",
+  "updatedAt": "2026-05-12T04:34:21.112Z",
   "items": [
+    {
+      "date": "2026-05-11",
+      "title": "ELF: Embedded Language Flows",
+      "summary": "Diffusion and flow-based models have become the de facto approaches for generating continuous data, e.g., in domains such as images and videos. Their success has attracted growing interest in applying",
+      "url": "https://arxiv.org/abs/2605.10938v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
+      "summary": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide",
+      "url": "https://arxiv.org/abs/2605.10934v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices",
+      "summary": "While Mixture-of-Experts (MoE) scales model capacity without proportionally increasing computation, its massive total parameter footprint creates significant storage and memory-access bottlenecks, whi",
+      "url": "https://arxiv.org/abs/2605.10933v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime",
+      "summary": "Transformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens i",
+      "url": "https://arxiv.org/abs/2605.10931v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+      "summary": "Large language model agents increasingly rely on external skills to solve complex tasks, where skills act as modular units that extend their capabilities beyond what parametric memory alone supports. ",
+      "url": "https://arxiv.org/abs/2605.10923v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges",
+      "summary": "We consider anonymous multi-agent path finding (MAPF) where a set of robots is tasked to travel to a set of targets on a finite, connected graph. We show that MAPF can be cast as a special class of mu",
+      "url": "https://arxiv.org/abs/2605.10917v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Confidence-Guided Diffusion Augmentation for Enhanced Bangla Compound Character Recognition",
+      "summary": "Recognition of handwritten Bangla compound characters remains a challenging problem due to complex character structures, large intra-class variation, and limited availability of high-quality annotated",
+      "url": "https://arxiv.org/abs/2605.10916v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "summary": "We introduce Shepherd, a functional programming model that formalizes meta-agent operations on target agents as functions, with core operations mechanized in Lean. Shepherd records every agent-environ",
+      "url": "https://arxiv.org/abs/2605.10913v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+      "summary": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic s",
+      "url": "https://arxiv.org/abs/2605.10912v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Equivariant Reinforcement Learning for Clifford Quantum Circuit Synthesis",
+      "summary": "We consider the problem of synthesizing Clifford quantum circuits for devices with all-to-all qubit connectivity. We approach this task as a reinforcement learning problem in which an agent learns to ",
+      "url": "https://arxiv.org/abs/2605.10910v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "summary": "via tanstack.com",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 632
+    },
+    {
+      "date": "2026-05-11",
+      "title": "If AI writes your code, why use Python?",
+      "summary": "via medium.com",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 281
+    },
+    {
+      "date": "2026-05-11",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "summary": "via stemcell.ucla.edu",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 275
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "summary": "via www.nytimes.com",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 139
+    },
+    {
+      "date": "2026-05-10",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "summary": "via www.cocoawithlove.com",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 225
+    },
     {
       "date": "2026-05-10",
       "title": "Local AI needs to be the norm",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 695
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Agents need control flow, not more prompts",
-      "summary": "via bsuh.bearblog.dev",
-      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 487
-    },
-    {
-      "date": "2026-05-07",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "summary": "via deepmind.google",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 301
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 298
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Hardening Firefox with Claude Mythos Preview",
-      "summary": "via hacks.mozilla.org",
-      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "summary": "via old.reddit.com",
-      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 504
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Taming Outlier Tokens in Diffusion Transformers",
-      "summary": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract dispropo",
-      "url": "https://arxiv.org/abs/2605.05206v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Implicit Representations of Grammaticality in Language Models",
-      "summary": "Grammaticality and likelihood are distinct notions in human language. Pretrained language models (LMs), which are probabilistic models of language fitted to maximize corpus likelihood, generate gramma",
-      "url": "https://arxiv.org/abs/2605.05197v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Grokability in five inequalities",
-      "summary": "In this note, we report five mathematical discoveries made in collaboration with Grok, all of which have been subsequently verified by the authors. These include an improved lower bound on the maximal",
-      "url": "https://arxiv.org/abs/2605.05193v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
-      "summary": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(",
-      "url": "https://arxiv.org/abs/2605.05192v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
-      "summary": "Long-horizon search agents must manage a rapidly growing working context as they reason, call tools, and observe information. Naively accumulating all intermediate content can overwhelm the agent, inc",
-      "url": "https://arxiv.org/abs/2605.05191v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
-      "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterio",
-      "url": "https://arxiv.org/abs/2605.05189v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Estimating the expected output of wide random MLPs more efficiently than sampling",
-      "summary": "By far the most common way to estimate an expected loss in machine learning is to draw samples, compute the loss on each one, and take the empirical average. However, sampling is not necessarily optim",
-      "url": "https://arxiv.org/abs/2605.05179v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "Understanding In-Context Learning for Nonlinear Regression with Transformers: Attention as Featurizer",
-      "summary": "Pre-trained transformers are able to learn from examples provided as part of the prompt without any weight updates, a remarkable ability known as in-context learning (ICL). Despite its demonstrated ef",
-      "url": "https://arxiv.org/abs/2605.05176v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "MRI-Eval: A Tiered Benchmark for Evaluating LLM Performance on MRI Physics and GE Scanner Operations Knowledge",
-      "summary": "Background: Existing MRI LLM benchmarks rely mainly on review-book multiple-choice questions, where top proprietary models already score highly, limiting discrimination. No systematic benchmark has ev",
-      "url": "https://arxiv.org/abs/2605.05175v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-06",
-      "title": "When Life Gives You BC, Make Q-functions: Extracting Q-values from Behavior Cloning for On-Robot Reinforcement Learning",
-      "summary": "Behavior Cloning (BC) has emerged as a highly effective paradigm for robot learning. However, BC lacks a self-guided mechanism for online improvement after demonstrations have been collected. Existing",
-      "url": "https://arxiv.org/abs/2605.05172v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
