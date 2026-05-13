@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-12T11:48:57.446Z",
+  "updatedAt": "2026-05-13T04:33:00.215Z",
   "items": [
+    {
+      "date": "2026-05-12",
+      "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward",
+      "summary": "In this paper, we propose AlphaGRPO, a novel framework that applies Group Relative Policy Optimization (GRPO) to AR-Diffusion Unified Multimodal Models (UMMs) to enhance multimodal generation capabili",
+      "url": "https://arxiv.org/abs/2605.12495v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "summary": "Long-term memory is crucial for agents in specialized web environments, where success depends on recalling interface affordances, state dynamics, workflows, and recurring failure modes. However, exist",
+      "url": "https://arxiv.org/abs/2605.12493v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
+      "summary": "We introduce Pion, a spectrum-preserving optimizer for large language model (LLM) training based on orthogonal equivalence transformation. Unlike additive optimizers such as Adam and Muon, Pion update",
+      "url": "https://arxiv.org/abs/2605.12492v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Elastic Attention Cores for Scalable Vision Transformers",
+      "summary": "Vision Transformers (ViTs) achieve strong data-driven scaling by leveraging all-to-all self-attention. However, this flexibility incurs a computational cost that scales quadratically with image resolu",
+      "url": "https://arxiv.org/abs/2605.12491v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Task-Adaptive Embedding Refinement via Test-time LLM Guidance",
+      "summary": "We explore the effectiveness of an LLM-guided query refinement paradigm for extending the usability of embedding models to challenging zero-shot search and classification tasks. Our approach refines t",
+      "url": "https://arxiv.org/abs/2605.12487v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
+      "summary": "Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can resul",
+      "url": "https://arxiv.org/abs/2605.12484v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
+      "summary": "In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that w",
+      "url": "https://arxiv.org/abs/2605.12483v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents",
+      "summary": "Computer Use Agents (CUAs) can act through both atomic GUI actions, such as click and type, and high-level tool calls, such as API-based file operations, but this hybrid action space often leaves them",
+      "url": "https://arxiv.org/abs/2605.12481v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "OmniNFT: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation",
+      "summary": "Recent advances in joint audio-video generation have been remarkable, yet real-world applications demand strong per-modality fidelity, cross-modal alignment, and fine-grained synchronization. Reinforc",
+      "url": "https://arxiv.org/abs/2605.12480v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "MEME: Multi-entity &amp; Evolving Memory Evaluation",
+      "summary": "LLM-based agents increasingly operate in persistent environments where they must store, update, and reason over information across many sessions. While prior benchmarks evaluate only single-entity upd",
+      "url": "https://arxiv.org/abs/2605.12477v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Why senior developers fail to communicate their expertise",
+      "summary": "via www.nair.sh",
+      "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 443
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "via github.com",
+      "url": "https://github.com/cactus-compute/needle",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 337
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Reimagining the mouse pointer for the AI era",
+      "summary": "via deepmind.google",
+      "url": "https://deepmind.google/blog/ai-pointer/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 170
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "summary": "via github.com",
+      "url": "https://github.com/statewright/statewright",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 83
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "summary": "via www.hypercubic.ai",
+      "url": "https://www.hypercubic.ai/hopper",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
     {
       "date": "2026-05-11",
       "title": "ELF: Embedded Language Flows",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 352
-    },
-    {
-      "date": "2026-05-07",
-      "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
-      "summary": "For artistic applications, video generation requires fine-grained control over both performance and cinematography, i.e., the actor's motion and the camera trajectory. We present ActCam, a zero-shot m",
-      "url": "https://arxiv.org/abs/2605.06667v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
-      "summary": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with lin",
-      "url": "https://arxiv.org/abs/2605.06665v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
-      "summary": "GUI grounding is a critical capability for enabling GUI agents to execute tasks such as clicking and dragging. However, in complex scenarios like the ScreenSpot-Pro benchmark, existing models often su",
-      "url": "https://arxiv.org/abs/2605.06664v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
-      "summary": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific know",
-      "url": "https://arxiv.org/abs/2605.06663v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
-      "summary": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential compon",
-      "url": "https://arxiv.org/abs/2605.06660v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML",
-      "summary": "Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs fr",
-      "url": "https://arxiv.org/abs/2605.06656v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Optimizer-Model Consistency: Full Finetuning with the Same Optimizer as Pretraining Forgets Less",
-      "summary": "Optimizers play an important role in both pretraining and finetuning stages when training large language models (LLMs). In this paper, we present an observation that full finetuning with the same opti",
-      "url": "https://arxiv.org/abs/2605.06654v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
-      "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless",
-      "url": "https://arxiv.org/abs/2605.06652v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
-      "summary": "We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support",
-      "url": "https://arxiv.org/abs/2605.06651v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Beyond Negative Rollouts: Positive-Only Policy Optimization with Implicit Negative Gradients",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR), due to the deterministic verification, becomes a dominant paradigm for enhancing the reasoning ability of large language models (LLMs). The commu",
-      "url": "https://arxiv.org/abs/2605.06650v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "OpenAI’s WebRTC problem",
-      "summary": "via moq.dev",
-      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 480
-    },
-    {
-      "date": "2026-05-08",
-      "title": "AI is breaking two vulnerability cultures",
-      "summary": "via www.jefftk.com",
-      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 328
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Teaching Claude Why",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/teaching-claude-why",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Can LLMs model real-world systems in TLA+?",
-      "summary": "via www.sigops.org",
-      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 54
-    },
-    {
-      "date": "2026-05-07",
-      "title": "OpenAI's WebRTC problem",
-      "summary": "via moq.dev",
-      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
     }
   ]
 }
