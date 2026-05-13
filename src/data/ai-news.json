@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T04:33:00.215Z",
+  "updatedAt": "2026-05-13T05:33:39.314Z",
   "items": [
     {
       "date": "2026-05-12",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 443
+      "score": 475
     },
     {
       "date": "2026-05-12",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 337
+      "score": 358
     },
     {
       "date": "2026-05-12",
@@ -112,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 170
+      "score": 174
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "summary": "via www.hypercubic.ai",
+      "url": "https://www.hypercubic.ai/hopper",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
     },
     {
       "date": "2026-05-12",
@@ -124,17 +135,6 @@
       ],
       "source": "HN",
       "score": 83
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Agentic interface for mainframes and COBOL",
-      "summary": "via www.hypercubic.ai",
-      "url": "https://www.hypercubic.ai/hopper",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
     },
     {
       "date": "2026-05-11",
