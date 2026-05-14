@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T05:32:58.887Z",
+  "updatedAt": "2026-05-14T11:49:02.629Z",
   "items": [
     {
       "date": "2026-05-14",
@@ -10,18 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 89
+      "score": 307
     },
     {
       "date": "2026-05-14",
-      "title": "The other half of AI safety",
-      "summary": "via personalaisafety.com",
-      "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "summary": "via github.com",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 59
+      "score": 71
     },
     {
       "date": "2026-05-13",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 539
+      "score": 572
     },
     {
       "date": "2026-05-13",
@@ -123,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 182
+      "score": 211
     },
     {
       "date": "2026-05-12",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 657
+      "score": 685
+    },
+    {
+      "date": "2026-05-14",
+      "title": "The other half of AI safety",
+      "summary": "via personalaisafety.com",
+      "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
     },
     {
       "date": "2026-05-13",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 218
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Running local models on an M4 with 24GB memory",
-      "summary": "via jola.dev",
-      "url": "https://jola.dev/posts/running-local-models-on-m4",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 217
     }
   ]
 }
