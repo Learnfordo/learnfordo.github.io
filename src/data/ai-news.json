@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-13T05:33:39.314Z",
+  "updatedAt": "2026-05-14T04:34:00.987Z",
   "items": [
+    {
+      "date": "2026-05-13",
+      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+      "summary": "This paper introduces WARDEN, an early language model system capable of transcribing and translating Wardaman, an endangered Australian indigenous language into English. The significant challenge we f",
+      "url": "https://arxiv.org/abs/2605.13846v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "summary": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addr",
+      "url": "https://arxiv.org/abs/2605.13841v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "What is Learnable in Valiant's Theory of the Learnable?",
+      "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue memb",
+      "url": "https://arxiv.org/abs/2605.13840v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights",
+      "summary": "Multi-agent LLM systems usually collaborate by exchanging natural-language messages. This interface is simple and interpretable, but it forces each sender's intermediate computation to be serialized i",
+      "url": "https://arxiv.org/abs/2605.13839v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
+      "summary": "Video-guided 3D animation holds immense potential for content creation, offering intuitive and precise control over dynamic assets. However, practical deployment faces a critical yet frequently overlo",
+      "url": "https://arxiv.org/abs/2605.13838v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Topology-Preserving Neural Operator Learning via Hodge Decomposition",
+      "summary": "In this paper, we study solution operators of physical field equations on geometric meshes from a function-space perspective. We reveal that Hodge orthogonality fundamentally resolves spectral interfe",
+      "url": "https://arxiv.org/abs/2605.13834v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling",
+      "summary": "Modeling long-range dependencies in sequential data remains a central challenge in machine learning. Transformers address this challenge through attention mechanisms, but their quadratic complexity wi",
+      "url": "https://arxiv.org/abs/2605.13833v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Quantifying Sensitivity for Tree Ensembles: A symbolic and compositional approach",
+      "summary": "Decision tree ensembles (DTE) are a popular model for a wide range of AI classification tasks, used in multiple safety critical domains, and hence verifying properties on these models has been an acti",
+      "url": "https://arxiv.org/abs/2605.13830v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Negation Neglect: When models fail to learn negations in training",
+      "summary": "We introduce Negation Neglect, where finetuning LLMs on documents that flag a claim as false makes them believe the claim is true. For example, models are finetuned on documents that convey \"Ed Sheera",
+      "url": "https://arxiv.org/abs/2605.13829v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Reducing cross-sample prediction churn in scientific machine learning",
+      "summary": "Scientific machine learning reports predictive performance. It does not report whether the same prediction would survive a different draw of training data. Across $9$ chemistry benchmarks, two classif",
+      "url": "https://arxiv.org/abs/2605.13826v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Setting up a free *.city.state.us locality domain (2025)",
+      "summary": "via fredchan.org",
+      "url": "https://fredchan.org/blog/locality-domains-guide/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 530
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+      "summary": "I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I ",
+      "url": "https://news.ycombinator.com/item?id=48128003",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 228
+    },
+    {
+      "date": "2026-05-13",
+      "title": "The US is winning the AI race where it matters most: commercialization",
+      "summary": "via avkcode.github.io",
+      "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 174
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Meta won't let you block its AI account on Threads",
+      "summary": "via www.theverge.com",
+      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 143
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "via github.com",
+      "url": "https://github.com/cactus-compute/needle",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 654
+    },
     {
       "date": "2026-05-12",
       "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward",
@@ -91,17 +226,6 @@
       ],
       "source": "HN",
       "score": 475
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "summary": "via github.com",
-      "url": "https://github.com/cactus-compute/needle",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 358
     },
     {
       "date": "2026-05-12",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 136
-    },
-    {
-      "date": "2026-05-08",
-      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
-      "summary": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are larg",
-      "url": "https://arxiv.org/abs/2605.08083v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Normalizing Trajectory Models",
-      "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps -- an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step method",
-      "url": "https://arxiv.org/abs/2605.08078v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
-      "summary": "Knowledge Graph Question Answering (KGQA) has shown promise for grounded and interpretable reasoning, yet existing approaches often fail to provide reliable coverage guarantees over retrieved answers.",
-      "url": "https://arxiv.org/abs/2605.08077v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping",
-      "summary": "Decoding imagined speech from non-invasive brain recordings is challenging because imagined datasets are scarce and difficult to align temporally across subjects and sessions In this work, we propose ",
-      "url": "https://arxiv.org/abs/2605.08075v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
-      "summary": "Conformal prediction (CP) provides a distribution-free approach to uncertainty quantification with finite-sample guarantees. However, applying CP to graph neural networks (GNNs) remains challenging as",
-      "url": "https://arxiv.org/abs/2605.08074v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
-      "summary": "Recent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these arc",
-      "url": "https://arxiv.org/abs/2605.08073v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "A Note on Non-Negative $L_1$-Approximating Polynomials",
-      "summary": "$L_1$-Approximating polynomials, i.e., polynomials that approximate indicator functions in $L_1$-norm under certain distributions, are widely used in computational learning theory. We study the existe",
-      "url": "https://arxiv.org/abs/2605.08072v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
-      "summary": "A standard technique for scaling inference-time reasoning is Self-Consistency, whereby multiple candidate answers are sampled from an LLM and the most common answer is selected. More recently, it has ",
-      "url": "https://arxiv.org/abs/2605.08070v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
-      "summary": "Existing Flow Matching (FM) text-to-image models suffer from two critical bottlenecks under multi-task alignment: the reward sparsity induced by scalar-valued rewards, and the gradient interference ar",
-      "url": "https://arxiv.org/abs/2605.08063v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "Rubric-Grounded RL: Structured Judge Rewards for Generalizable Reasoning",
-      "summary": "We argue that decomposing reward into weighted, verifiable criteria and using an LLM judge to score them provides a partial-credit optimization signal: instead of a binary outcome or a single holistic",
-      "url": "https://arxiv.org/abs/2605.08061v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-09",
-      "title": "A recent experience with ChatGPT 5.5 Pro",
-      "summary": "via gowers.wordpress.com",
-      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 618
-    },
-    {
-      "date": "2026-05-09",
-      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/trq212/status/2052809885763747935",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 436
-    },
-    {
-      "date": "2026-05-09",
-      "title": "LLMs corrupt your documents when you delegate",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2604.15597",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 381
-    },
-    {
-      "date": "2026-05-09",
-      "title": "Meta's embrace of AI is making its employees miserable",
-      "summary": "via www.nytimes.com",
-      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 352
     }
   ]
 }
