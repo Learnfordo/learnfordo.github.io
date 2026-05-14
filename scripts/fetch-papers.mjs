@@ -74,7 +74,7 @@ async function fetchArxiv() {
   for (const q of ARXIV_QUERIES) {
     try {
       const url = `http://export.arxiv.org/api/query?search_query=${q.query}&sortBy=submittedDate&sortOrder=descending&max_results=5`;
-      const res = await fetch(url);
+      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
       const text = await res.text();
 
       const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
