@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-14T04:34:00.987Z",
+  "updatedAt": "2026-05-14T05:32:58.887Z",
   "items": [
+    {
+      "date": "2026-05-14",
+      "title": "Claude for Small Business",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 89
+    },
+    {
+      "date": "2026-05-14",
+      "title": "The other half of AI safety",
+      "summary": "via personalaisafety.com",
+      "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
     {
       "date": "2026-05-13",
       "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
@@ -90,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 530
+      "score": 539
+    },
+    {
+      "date": "2026-05-13",
+      "title": "The US is winning the AI race where it matters most: commercialization",
+      "summary": "via avkcode.github.io",
+      "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "via github.com",
+      "url": "https://github.com/cactus-compute/needle",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 657
     },
     {
       "date": "2026-05-13",
@@ -105,17 +149,6 @@
     },
     {
       "date": "2026-05-13",
-      "title": "The US is winning the AI race where it matters most: commercialization",
-      "summary": "via avkcode.github.io",
-      "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 174
-    },
-    {
-      "date": "2026-05-13",
       "title": "Meta won't let you block its AI account on Threads",
       "summary": "via www.theverge.com",
       "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
@@ -124,17 +157,6 @@
       ],
       "source": "HN",
       "score": 143
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "summary": "via github.com",
-      "url": "https://github.com/cactus-compute/needle",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 654
     },
     {
       "date": "2026-05-12",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 217
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
-      "summary": "via www.tomshardware.com",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-05-10",
-      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
-      "summary": "via kotaku.com",
-      "url": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 136
     }
   ]
 }
