@@ -1,5 +1,45 @@
 [
   {
+    "title": "Parameter-Efficient Neuroevolution for Diverse LLM Generation: Quality-Diversity Optimization via Prompt Embedding Evolution",
+    "vendor": "Mistral",
+    "date": "2026-05-10",
+    "arxivId": "2605.09781v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.09781v1",
+    "summary": "Large Language Models exhibit mode collapse, producing homogeneous outputs that fail to explore valid solution spaces. We present QD-LLM, a framework for parameter-efficient neuroevolution that evolves prompt embeddings, compact neural interfaces (~32K parameters) that steer generation in frozen LLM",
+    "tags": [],
+    "descriptionCn": "《Parameter-Efficient Neuroevolution for Diverse LLM Generation: Quality-Diversity》— Mistral 发布的最新研究论文。"
+  },
+  {
+    "title": "Evaluating LLM-Generated Code: A Benchmark and Developer Study",
+    "vendor": "Anthropic",
+    "date": "2026-05-09",
+    "arxivId": "2605.09059v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.09059v1",
+    "summary": "Code generation is one of the tasks for which the use of Large Language Models is widely adopted and highly successful. Given this popularity, there are many benchmarks dedicated to code generation that can help select the best model. However, they primarily focus on measuring solution correctness, ",
+    "tags": [],
+    "descriptionCn": "《Evaluating LLM-Generated Code: A Benchmark and Developer Study》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Illusion-Aware Visual Preprocessing and Anti-Illusion Prompting for Classic Illusion Understanding in Vision-Language Models",
+    "vendor": "Anthropic",
+    "date": "2026-05-09",
+    "arxivId": "2605.08841v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.08841v1",
+    "summary": "Vision-Language Models (VLMs) exhibit systematic bias toward visual illusions, recalling memorized facts rather than perceiving actual visual differences. This paper presents a training-free framework for the 5th DataCV Challenge Task 1 at CVPR 2026, addressing this perception-versus-memory conflict",
+    "tags": [],
+    "descriptionCn": "《Illusion-Aware Visual Preprocessing and Anti-Illusion Prompting for Classic Illu》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules",
+    "vendor": "Anthropic",
+    "date": "2026-05-09",
+    "arxivId": "2605.08614v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.08614v1",
+    "summary": "Monitoring complex industrial assets relies on engineer-authored symbolic rules that trigger based on sensor conditions and prompt technicians to perform corrective actions. The bottleneck is not detection but response: translating rules into maintenance steps requires asset-specific knowledge gaine",
+    "tags": [],
+    "descriptionCn": "《DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommenda》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "Irminsul: MLA-Native Position-Independent Caching for Agentic LLM Serving",
     "vendor": "Mistral",
     "date": "2026-05-07",
