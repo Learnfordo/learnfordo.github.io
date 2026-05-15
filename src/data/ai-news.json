@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-15T04:34:14.801Z",
+  "updatedAt": "2026-05-15T05:39:55.119Z",
   "items": [
+    {
+      "date": "2026-05-15",
+      "title": "How Claude Code works in large codebases",
+      "summary": "via claude.com",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "summary": "via writing.antonleicht.me",
+      "url": "https://writing.antonleicht.me/p/cut-off",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 60
+    },
     {
       "date": "2026-05-14",
       "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
@@ -90,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 521
+      "score": 538
     },
     {
       "date": "2026-05-14",
@@ -101,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 243
+      "score": 269
     },
     {
       "date": "2026-05-14",
@@ -112,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 167
+      "score": 182
     },
     {
       "date": "2026-05-14",
@@ -427,22 +449,6 @@
       "title": "DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices",
       "summary": "While Mixture-of-Experts (MoE) scales model capacity without proportionally increasing computation, its massive total parameter footprint creates significant storage and memory-access bottlenecks, whi",
       "url": "https://arxiv.org/abs/2605.10933v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime",
-      "summary": "Transformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens i",
-      "url": "https://arxiv.org/abs/2605.10931v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
-      "summary": "Large language model agents increasingly rely on external skills to solve complex tasks, where skills act as modular units that extend their capabilities beyond what parametric memory alone supports. ",
-      "url": "https://arxiv.org/abs/2605.10923v1",
       "tags": [],
       "source": "arXiv"
     }
