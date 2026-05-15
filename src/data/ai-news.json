@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-05-14T11:49:02.629Z",
+  "updatedAt": "2026-05-15T04:34:14.801Z",
   "items": [
+    {
+      "date": "2026-05-14",
+      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+      "summary": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long seque",
+      "url": "https://arxiv.org/abs/2605.15199v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models dur",
+      "url": "https://arxiv.org/abs/2605.15198v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "summary": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their dec",
+      "url": "https://arxiv.org/abs/2605.15196v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we",
+      "url": "https://arxiv.org/abs/2605.15188v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+      "summary": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite t",
+      "url": "https://arxiv.org/abs/2605.15186v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+      "summary": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video eva",
+      "url": "https://arxiv.org/abs/2605.15185v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks ",
+      "url": "https://arxiv.org/abs/2605.15184v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+      "summary": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either em",
+      "url": "https://arxiv.org/abs/2605.15183v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+      "summary": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regim",
+      "url": "https://arxiv.org/abs/2605.15179v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
+      "summary": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates i",
+      "url": "https://arxiv.org/abs/2605.15177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
+      "summary": "via scottjg.com",
+      "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 521
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Codex is now in the ChatGPT mobile app",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 243
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "summary": "via www.theregister.com",
+      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
+    },
     {
       "date": "2026-05-14",
       "title": "Claude for Small Business",
@@ -332,134 +445,6 @@
       "url": "https://arxiv.org/abs/2605.10923v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges",
-      "summary": "We consider anonymous multi-agent path finding (MAPF) where a set of robots is tasked to travel to a set of targets on a finite, connected graph. We show that MAPF can be cast as a special class of mu",
-      "url": "https://arxiv.org/abs/2605.10917v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Confidence-Guided Diffusion Augmentation for Enhanced Bangla Compound Character Recognition",
-      "summary": "Recognition of handwritten Bangla compound characters remains a challenging problem due to complex character structures, large intra-class variation, and limited availability of high-quality annotated",
-      "url": "https://arxiv.org/abs/2605.10916v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
-      "summary": "We introduce Shepherd, a functional programming model that formalizes meta-agent operations on target agents as functions, with core operations mechanized in Lean. Shepherd records every agent-environ",
-      "url": "https://arxiv.org/abs/2605.10913v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
-      "summary": "Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic s",
-      "url": "https://arxiv.org/abs/2605.10912v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Equivariant Reinforcement Learning for Clifford Quantum Circuit Synthesis",
-      "summary": "We consider the problem of synthesizing Clifford quantum circuits for devices with all-to-all qubit connectivity. We approach this task as a reinforcement learning problem in which an agent learns to ",
-      "url": "https://arxiv.org/abs/2605.10910v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Postmortem: TanStack NPM supply-chain compromise",
-      "summary": "via tanstack.com",
-      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 889
-    },
-    {
-      "date": "2026-05-11",
-      "title": "If AI writes your code, why use Python?",
-      "summary": "via medium.com",
-      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 561
-    },
-    {
-      "date": "2026-05-11",
-      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
-      "summary": "via stemcell.ucla.edu",
-      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 366
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Interaction Models",
-      "summary": "via thinkingmachines.ai",
-      "url": "https://thinkingmachines.ai/blog/interaction-models/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 237
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Google says criminal hackers used AI to find a major software flaw",
-      "summary": "via www.nytimes.com",
-      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 199
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "summary": "via www.cocoawithlove.com",
-      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Local AI needs to be the norm",
-      "summary": "via unix.foo",
-      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 839
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Task Paralysis and AI",
-      "summary": "via g5t.de",
-      "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 218
     }
   ]
 }
