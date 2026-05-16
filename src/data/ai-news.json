@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-05-16T05:00:18.678Z",
+  "updatedAt": "2026-05-16T15:58:45.360Z",
   "items": [
+    {
+      "date": "2026-05-16",
+      "title": "Frontier AI has broken the open CTF format",
+      "summary": "via kabir.au",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 250
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "summary": "via jvns.ca",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 153
+    },
     {
       "date": "2026-05-15",
       "title": "I believe there are entire companies right now under AI psychosis",
@@ -10,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1032
+      "score": 1606
     },
     {
       "date": "2026-05-15",
@@ -21,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 349
+      "score": 408
     },
     {
       "date": "2026-05-15",
@@ -32,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 86
+      "score": 162
     },
     {
       "date": "2026-05-14",
@@ -438,28 +460,6 @@
       "url": "https://arxiv.org/abs/2605.12477v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Why senior developers fail to communicate their expertise",
-      "summary": "via www.nair.sh",
-      "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 475
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Reimagining the mouse pointer for the AI era",
-      "summary": "via deepmind.google",
-      "url": "https://deepmind.google/blog/ai-pointer/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 174
     }
   ]
 }
