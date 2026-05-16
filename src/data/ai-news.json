@@ -1,60 +1,38 @@
 {
-  "updatedAt": "2026-05-15T11:48:54.311Z",
+  "updatedAt": "2026-05-16T05:00:18.678Z",
   "items": [
     {
       "date": "2026-05-15",
-      "title": "How Claude Code works in large codebases",
-      "summary": "via claude.com",
-      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "title": "I believe there are entire companies right now under AI psychosis",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 185
+      "score": 1032
     },
     {
       "date": "2026-05-15",
-      "title": "Access to frontier AI will soon be limited by economic and security constraints",
-      "summary": "via writing.antonleicht.me",
-      "url": "https://writing.antonleicht.me/p/cut-off",
+      "title": "A 0-click exploit chain for the Pixel 10",
+      "summary": "via projectzero.google",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 175
+      "score": 349
     },
     {
       "date": "2026-05-15",
-      "title": "Details of the Daring Airdrop at Tristan Da Cunha",
-      "summary": "via www.tristandc.com",
-      "url": "https://www.tristandc.com/government/news-2026-05-11-airdrop.php",
+      "title": "The main thing about P2P meth is that there's so much of it (2021)",
+      "summary": "via dynomight.net",
+      "url": "https://dynomight.net/p2p-meth/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 166
-    },
-    {
-      "date": "2026-05-14",
-      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
-      "summary": "via scottjg.com",
-      "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 613
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Codex is now in the ChatGPT mobile app",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
+      "score": 86
     },
     {
       "date": "2026-05-14",
@@ -135,6 +113,72 @@
       "url": "https://arxiv.org/abs/2605.15177v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Show HN: Watch a neural net learn to play Snake",
+      "summary": "via ppo.gradexp.xyz",
+      "url": "https://ppo.gradexp.xyz/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 130
+    },
+    {
+      "date": "2026-05-15",
+      "title": "How Claude Code works in large codebases",
+      "summary": "via claude.com",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 185
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "summary": "via writing.antonleicht.me",
+      "url": "https://writing.antonleicht.me/p/cut-off",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 175
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Details of the Daring Airdrop at Tristan Da Cunha",
+      "summary": "via www.tristandc.com",
+      "url": "https://www.tristandc.com/government/news-2026-05-11-airdrop.php",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 166
+    },
+    {
+      "date": "2026-05-14",
+      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
+      "summary": "via scottjg.com",
+      "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 613
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Codex is now in the ChatGPT mobile app",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 356
     },
     {
       "date": "2026-05-14",
@@ -416,44 +460,6 @@
       ],
       "source": "HN",
       "score": 174
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Agentic interface for mainframes and COBOL",
-      "summary": "via www.hypercubic.ai",
-      "url": "https://www.hypercubic.ai/hopper",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
-      "summary": "via github.com",
-      "url": "https://github.com/statewright/statewright",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 83
-    },
-    {
-      "date": "2026-05-11",
-      "title": "ELF: Embedded Language Flows",
-      "summary": "Diffusion and flow-based models have become the de facto approaches for generating continuous data, e.g., in domains such as images and videos. Their success has attracted growing interest in applying",
-      "url": "https://arxiv.org/abs/2605.10938v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
-      "summary": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide",
-      "url": "https://arxiv.org/abs/2605.10934v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
