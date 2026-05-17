@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-05-16T15:58:45.360Z",
+  "updatedAt": "2026-05-17T04:34:30.173Z",
   "items": [
-    {
-      "date": "2026-05-16",
-      "title": "Frontier AI has broken the open CTF format",
-      "summary": "via kabir.au",
-      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 250
-    },
     {
       "date": "2026-05-16",
       "title": "Moving away from Tailwind, and learning to structure my CSS",
@@ -21,7 +10,40 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 153
+      "score": 465
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Frontier AI has broken the open CTF format",
+      "summary": "via kabir.au",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 350
+    },
+    {
+      "date": "2026-05-16",
+      "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+      "summary": "via nvlabs.github.io",
+      "url": "https://nvlabs.github.io/Sana/WM/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 313
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "summary": "via crates.io",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
     },
     {
       "date": "2026-05-15",
@@ -32,29 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1606
-    },
-    {
-      "date": "2026-05-15",
-      "title": "A 0-click exploit chain for the Pixel 10",
-      "summary": "via projectzero.google",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 408
-    },
-    {
-      "date": "2026-05-15",
-      "title": "The main thing about P2P meth is that there's so much of it (2021)",
-      "summary": "via dynomight.net",
-      "url": "https://dynomight.net/p2p-meth/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
+      "score": 1917
     },
     {
       "date": "2026-05-14",
@@ -135,6 +135,28 @@
       "url": "https://arxiv.org/abs/2605.15177v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "A 0-click exploit chain for the Pixel 10",
+      "summary": "via projectzero.google",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 408
+    },
+    {
+      "date": "2026-05-15",
+      "title": "The main thing about P2P meth is that there's so much of it (2021)",
+      "summary": "via dynomight.net",
+      "url": "https://dynomight.net/p2p-meth/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 162
     },
     {
       "date": "2026-05-14",
@@ -442,22 +464,6 @@
       "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents",
       "summary": "Computer Use Agents (CUAs) can act through both atomic GUI actions, such as click and type, and high-level tool calls, such as API-based file operations, but this hybrid action space often leaves them",
       "url": "https://arxiv.org/abs/2605.12481v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "OmniNFT: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation",
-      "summary": "Recent advances in joint audio-video generation have been remarkable, yet real-world applications demand strong per-modality fidelity, cross-modal alignment, and fine-grained synchronization. Reinforc",
-      "url": "https://arxiv.org/abs/2605.12480v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "MEME: Multi-entity &amp; Evolving Memory Evaluation",
-      "summary": "LLM-based agents increasingly operate in persistent environments where they must store, update, and reason over information across many sessions. While prior benchmarks evaluate only single-entity upd",
-      "url": "https://arxiv.org/abs/2605.12477v1",
       "tags": [],
       "source": "arXiv"
     }
