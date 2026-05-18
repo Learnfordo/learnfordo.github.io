@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-05-17T05:34:02.742Z",
+  "updatedAt": "2026-05-18T04:40:46.217Z",
   "items": [
+    {
+      "date": "2026-05-17",
+      "title": "I don't think AI will make your processes go faster",
+      "summary": "via frederickvanbrabant.com",
+      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 521
+    },
+    {
+      "date": "2026-05-17",
+      "title": "AI is a technology not a product",
+      "summary": "via daringfireball.net",
+      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 361
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "summary": "via github.com",
+      "url": "https://github.com/MinishLab/semble",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 227
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+      "summary": "via idahonews.com",
+      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 143
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Prolog Basics Explained with Pokémon",
+      "summary": "via unplannedobsolescence.com",
+      "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 219
+    },
     {
       "date": "2026-05-16",
       "title": "Moving away from Tailwind, and learning to structure my CSS",
@@ -424,46 +479,6 @@
       "title": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
       "summary": "We introduce Pion, a spectrum-preserving optimizer for large language model (LLM) training based on orthogonal equivalence transformation. Unlike additive optimizers such as Adam and Muon, Pion update",
       "url": "https://arxiv.org/abs/2605.12492v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Elastic Attention Cores for Scalable Vision Transformers",
-      "summary": "Vision Transformers (ViTs) achieve strong data-driven scaling by leveraging all-to-all self-attention. However, this flexibility incurs a computational cost that scales quadratically with image resolu",
-      "url": "https://arxiv.org/abs/2605.12491v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Task-Adaptive Embedding Refinement via Test-time LLM Guidance",
-      "summary": "We explore the effectiveness of an LLM-guided query refinement paradigm for extending the usability of embedding models to challenging zero-shot search and classification tasks. Our approach refines t",
-      "url": "https://arxiv.org/abs/2605.12487v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
-      "summary": "Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can resul",
-      "url": "https://arxiv.org/abs/2605.12484v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
-      "summary": "In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that w",
-      "url": "https://arxiv.org/abs/2605.12483v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents",
-      "summary": "Computer Use Agents (CUAs) can act through both atomic GUI actions, such as click and type, and high-level tool calls, such as API-based file operations, but this hybrid action space often leaves them",
-      "url": "https://arxiv.org/abs/2605.12481v1",
       "tags": [],
       "source": "arXiv"
     }
