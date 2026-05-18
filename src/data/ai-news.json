@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T05:42:25.031Z",
+  "updatedAt": "2026-05-18T05:56:57.031Z",
   "items": [
     {
       "date": "2026-05-17",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 532
-    },
-    {
-      "date": "2026-05-17",
-      "title": "AI is a technology not a product",
-      "summary": "via daringfireball.net",
-      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 371
+      "score": 537
     },
     {
       "date": "2026-05-17",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 252
+      "score": 260
     },
     {
       "date": "2026-05-17",
@@ -43,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 157
+      "score": 163
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Trials on veterans suggest ibogaine could provide a new treatment for PTSD",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 89
     },
     {
       "date": "2026-05-15",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 228
+      "score": 229
+    },
+    {
+      "date": "2026-05-17",
+      "title": "AI is a technology not a product",
+      "summary": "via daringfireball.net",
+      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 371
     },
     {
       "date": "2026-05-16",
@@ -453,14 +464,6 @@
       "title": "Quantifying Sensitivity for Tree Ensembles: A symbolic and compositional approach",
       "summary": "Decision tree ensembles (DTE) are a popular model for a wide range of AI classification tasks, used in multiple safety critical domains, and hence verifying properties on these models has been an acti",
       "url": "https://arxiv.org/abs/2605.13830v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Negation Neglect: When models fail to learn negations in training",
-      "summary": "We introduce Negation Neglect, where finetuning LLMs on documents that flag a claim as false makes them believe the claim is true. For example, models are finetuned on documents that convey \"Ed Sheera",
-      "url": "https://arxiv.org/abs/2605.13829v1",
       "tags": [],
       "source": "arXiv"
     }
