@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T04:40:46.217Z",
+  "updatedAt": "2026-05-18T05:34:52.426Z",
   "items": [
     {
       "date": "2026-05-17",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 521
+      "score": 531
     },
     {
       "date": "2026-05-17",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 361
+      "score": 369
     },
     {
       "date": "2026-05-17",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 227
+      "score": 248
     },
     {
       "date": "2026-05-17",
@@ -43,7 +43,87 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 143
+      "score": 154
+    },
+    {
+      "date": "2026-05-15",
+      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+      "summary": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict e",
+      "url": "https://arxiv.org/abs/2605.16258v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Designing Datacenter Power Delivery Hierarchies for the AI Era",
+      "summary": "Demand for AI accelerators is rapidly increasing rack power density, with projections approaching 1MW per deployment by 2027. This poses a major challenge for datacenter power delivery designers. As p",
+      "url": "https://arxiv.org/abs/2605.16255v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
+      "summary": "Distribution utilities are now expected to deliver bills that customers can actually read attach a defensible carbon number to every kWh sold and schedule load against grid stress and emissions constr",
+      "url": "https://arxiv.org/abs/2605.16250v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "AI-Mediated Communication Can Steer Collective Opinion",
+      "summary": "Generative artificial intelligence (AI) is increasingly integrated into the online platforms where humans exchange opinions; large language models (LLMs) now polish users' posts on LinkedIn and provid",
+      "url": "https://arxiv.org/abs/2605.16245v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation",
+      "summary": "Billion-parameter Vision-Language-Action (VLA) policies have recently shown impressive performance in robotic manipulation, yet their size and inference cost remain major obstacles for real-time close",
+      "url": "https://arxiv.org/abs/2605.16241v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Dynamics-Level Watermarking of Flow Matching Models with Random Codes",
+      "summary": "We introduce a dynamics-level approach to watermarking generative models. Rather than embedding signals into model weights or outputs, we embed the watermark directly into the learned continuous dynam",
+      "url": "https://arxiv.org/abs/2605.16239v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
+      "summary": "Probabilistic forecasting of infectious diseases is crucial for public health but relies on labor-intensive manual model curation by expert modeling teams. This bespoke development bottlenecks scalabi",
+      "url": "https://arxiv.org/abs/2605.16238v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Layer Equivalence Is Not a Property of Layers Alone: How You Test Redundancy Changes What You Find",
+      "summary": "When researchers ask whether two transformer layers are \"equivalent\" for compression, they often conflate distinct tests. Replacement asks whether one layer's map can substitute for another's in place",
+      "url": "https://arxiv.org/abs/2605.16234v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+      "summary": "Can LLM agents improve decision-making through self-generated memory without gradient updates? We propose FORGE (Failure-Optimized Reflective Graduation and Evolution), a staged, population-based prot",
+      "url": "https://arxiv.org/abs/2605.16233v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "A Unified Generative-AI Framework for Smart Energy Infrastructure: Intelligent Gas Distribution, Utility Billing, Carbon Analytics, and Quantum-Inspired Optimisation",
+      "summary": "The accelerating convergence of smart metering, generative artificial intelligence, and quantum-inspired combinatorial optimisation is reshaping how energy utilities manage physical infrastructure, cu",
+      "url": "https://arxiv.org/abs/2605.16232v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-05-15",
@@ -54,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 219
+      "score": 227
     },
     {
       "date": "2026-05-16",
@@ -381,104 +461,6 @@
       "title": "Negation Neglect: When models fail to learn negations in training",
       "summary": "We introduce Negation Neglect, where finetuning LLMs on documents that flag a claim as false makes them believe the claim is true. For example, models are finetuned on documents that convey \"Ed Sheera",
       "url": "https://arxiv.org/abs/2605.13829v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Reducing cross-sample prediction churn in scientific machine learning",
-      "summary": "Scientific machine learning reports predictive performance. It does not report whether the same prediction would survive a different draw of training data. Across $9$ chemistry benchmarks, two classif",
-      "url": "https://arxiv.org/abs/2605.13826v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Setting up a free *.city.state.us locality domain (2025)",
-      "summary": "via fredchan.org",
-      "url": "https://fredchan.org/blog/locality-domains-guide/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 572
-    },
-    {
-      "date": "2026-05-13",
-      "title": "The US is winning the AI race where it matters most: commercialization",
-      "summary": "via avkcode.github.io",
-      "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 211
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "summary": "via github.com",
-      "url": "https://github.com/cactus-compute/needle",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 685
-    },
-    {
-      "date": "2026-05-14",
-      "title": "The other half of AI safety",
-      "summary": "via personalaisafety.com",
-      "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-      "summary": "I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I ",
-      "url": "https://news.ycombinator.com/item?id=48128003",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 228
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Meta won't let you block its AI account on Threads",
-      "summary": "via www.theverge.com",
-      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 143
-    },
-    {
-      "date": "2026-05-12",
-      "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward",
-      "summary": "In this paper, we propose AlphaGRPO, a novel framework that applies Group Relative Policy Optimization (GRPO) to AR-Diffusion Unified Multimodal Models (UMMs) to enhance multimodal generation capabili",
-      "url": "https://arxiv.org/abs/2605.12495v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
-      "summary": "Long-term memory is crucial for agents in specialized web environments, where success depends on recalling interface affordances, state dynamics, workflows, and recurring failure modes. However, exist",
-      "url": "https://arxiv.org/abs/2605.12493v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
-      "summary": "We introduce Pion, a spectrum-preserving optimizer for large language model (LLM) training based on orthogonal equivalence transformation. Unlike additive optimizers such as Adam and Muon, Pion update",
-      "url": "https://arxiv.org/abs/2605.12492v1",
       "tags": [],
       "source": "arXiv"
     }
