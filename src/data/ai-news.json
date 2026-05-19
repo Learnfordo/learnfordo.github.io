@@ -1,16 +1,85 @@
 {
-  "updatedAt": "2026-05-19T04:36:08.271Z",
+  "updatedAt": "2026-05-19T05:50:13.073Z",
   "items": [
     {
-      "date": "2026-05-19",
-      "title": "The last six months in LLMs in five minutes",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 98
+      "date": "2026-05-18",
+      "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
+      "summary": "Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention",
+      "url": "https://arxiv.org/abs/2605.18753v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability",
+      "summary": "Pipeline parallelism is a key technique for scaling large-model training, but modern workloads exhibit runtime variability in computation and communication. Existing pipeline systems typically consume",
+      "url": "https://arxiv.org/abs/2605.18750v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Code as Agent Harness",
+      "summary": "Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agent",
+      "url": "https://arxiv.org/abs/2605.18747v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
+      "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what",
+      "url": "https://arxiv.org/abs/2605.18746v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate",
+      "summary": "Diffusion-based generative models increasingly rely on inference-time guidance, adding a drift term or reweighting mixture of experts, to improve sample quality on task-specific objectives. However, m",
+      "url": "https://arxiv.org/abs/2605.18745v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Actionable World Representation",
+      "summary": "Inspired by the emergent behaviors in large language models that generalized human intelligence, the research community is pursuing similar emergent capabilities within world models, with a emphasis o",
+      "url": "https://arxiv.org/abs/2605.18743v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
+      "summary": "Multimodal Large Language Models (MLLMs) still struggle with fine-grained visual understanding, where answers often depend on small but decisive evidence in the full image. We observe a regional-to-gl",
+      "url": "https://arxiv.org/abs/2605.18740v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "What Does the AI Doctor Value? Auditing Pluralism in the Clinical Ethics of Language Models",
+      "summary": "Medicine is inherently pluralistic. Principles such as autonomy, beneficence, nonmaleficence, and justice routinely conflict, and such ethical dilemmas often sharply divide reasonable physicians. Good",
+      "url": "https://arxiv.org/abs/2605.18738v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "PIXLRelight: Controllable Relighting via Intrinsic Conditioning",
+      "summary": "We present PIXLRelight, a feed-forward approach for physically controllable single-image relighting. Existing methods either provide limited lighting control (e.g. through text or environment maps), a",
+      "url": "https://arxiv.org/abs/2605.18735v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Predictable Confabulations: Factual Recall by LLMs Scales with Model Size and Topic Frequency",
+      "summary": "While scaling laws govern aggregate large language model performance, no scaling law has linked factual recall to both model size and training-data composition. We evaluated 38 models on over 8,900 sc",
+      "url": "https://arxiv.org/abs/2605.18732v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-05-18",
@@ -21,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 852
+      "score": 889
     },
     {
       "date": "2026-05-18",
@@ -32,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 440
+      "score": 451
     },
     {
       "date": "2026-05-18",
@@ -43,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 393
+      "score": 408
     },
     {
       "date": "2026-05-18",
@@ -54,7 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 208
+      "score": 220
+    },
+    {
+      "date": "2026-05-18",
+      "title": "AI eats the world (Spring 26) [pdf]",
+      "summary": "via static1.squarespace.com",
+      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 192
+    },
+    {
+      "date": "2026-05-19",
+      "title": "The last six months in LLMs in five minutes",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 98
     },
     {
       "date": "2026-05-17",
@@ -369,118 +460,6 @@
       ],
       "source": "HN",
       "score": 130
-    },
-    {
-      "date": "2026-05-15",
-      "title": "How Claude Code works in large codebases",
-      "summary": "via claude.com",
-      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Access to frontier AI will soon be limited by economic and security constraints",
-      "summary": "via writing.antonleicht.me",
-      "url": "https://writing.antonleicht.me/p/cut-off",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 175
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Details of the Daring Airdrop at Tristan Da Cunha",
-      "summary": "via www.tristandc.com",
-      "url": "https://www.tristandc.com/government/news-2026-05-11-airdrop.php",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 166
-    },
-    {
-      "date": "2026-05-14",
-      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
-      "summary": "via scottjg.com",
-      "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 613
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Codex is now in the ChatGPT mobile app",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "summary": "via www.theregister.com",
-      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Claude for Small Business",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 307
-    },
-    {
-      "date": "2026-05-14",
-      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
-      "summary": "via github.com",
-      "url": "https://github.com/DrCatHicks/learning-opportunities",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 71
-    },
-    {
-      "date": "2026-05-13",
-      "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
-      "summary": "This paper introduces WARDEN, an early language model system capable of transcribing and translating Wardaman, an endangered Australian indigenous language into English. The significant challenge we f",
-      "url": "https://arxiv.org/abs/2605.13846v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
-      "summary": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addr",
-      "url": "https://arxiv.org/abs/2605.13841v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "What is Learnable in Valiant's Theory of the Learnable?",
-      "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue memb",
-      "url": "https://arxiv.org/abs/2605.13840v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
