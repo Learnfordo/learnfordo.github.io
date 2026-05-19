@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-05-18T05:56:57.031Z",
+  "updatedAt": "2026-05-19T04:36:08.271Z",
   "items": [
+    {
+      "date": "2026-05-19",
+      "title": "The last six months in LLMs in five minutes",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 98
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 852
+    },
+    {
+      "date": "2026-05-18",
+      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "summary": "via archestra.ai",
+      "url": "https://archestra.ai/blog/only-responsible-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 440
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Anthropic acquires Stainless",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 393
+    },
+    {
+      "date": "2026-05-18",
+      "title": "We let AIs run radio stations",
+      "summary": "via andonlabs.com",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 208
+    },
     {
       "date": "2026-05-17",
       "title": "I don't think AI will make your processes go faster",
@@ -424,46 +479,6 @@
       "title": "What is Learnable in Valiant's Theory of the Learnable?",
       "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue memb",
       "url": "https://arxiv.org/abs/2605.13840v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights",
-      "summary": "Multi-agent LLM systems usually collaborate by exchanging natural-language messages. This interface is simple and interpretable, but it forces each sender's intermediate computation to be serialized i",
-      "url": "https://arxiv.org/abs/2605.13839v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow",
-      "summary": "Video-guided 3D animation holds immense potential for content creation, offering intuitive and precise control over dynamic assets. However, practical deployment faces a critical yet frequently overlo",
-      "url": "https://arxiv.org/abs/2605.13838v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Topology-Preserving Neural Operator Learning via Hodge Decomposition",
-      "summary": "In this paper, we study solution operators of physical field equations on geometric meshes from a function-space perspective. We reveal that Hodge orthogonality fundamentally resolves spectral interfe",
-      "url": "https://arxiv.org/abs/2605.13834v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling",
-      "summary": "Modeling long-range dependencies in sequential data remains a central challenge in machine learning. Transformers address this challenge through attention mechanisms, but their quadratic complexity wi",
-      "url": "https://arxiv.org/abs/2605.13833v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "Quantifying Sensitivity for Tree Ensembles: A symbolic and compositional approach",
-      "summary": "Decision tree ensembles (DTE) are a popular model for a wide range of AI classification tasks, used in multiple safety critical domains, and hence verifying properties on these models has been an acti",
-      "url": "https://arxiv.org/abs/2605.13830v1",
       "tags": [],
       "source": "arXiv"
     }
