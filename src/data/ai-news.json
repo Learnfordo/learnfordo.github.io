@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-05-19T05:50:13.073Z",
+  "updatedAt": "2026-05-20T04:34:41.011Z",
   "items": [
+    {
+      "date": "2026-05-20",
+      "title": "Railway Blocked by Google Cloud",
+      "summary": "via status.railway.com",
+      "url": "https://status.railway.com/?date=20260519",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 309
+    },
+    {
+      "date": "2026-05-19",
+      "title": "I’ve joined Anthropic",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1230
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "summary": "via github.com",
+      "url": "https://github.com/antoinezambelli/forge",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 338
+    },
+    {
+      "date": "2026-05-19",
+      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 227
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Mistral AI acquires Emmi AI",
+      "summary": "via www.emmi.ai",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 196
+    },
     {
       "date": "2026-05-18",
       "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
@@ -411,55 +466,6 @@
       "url": "https://arxiv.org/abs/2605.15183v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
-      "summary": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regim",
-      "url": "https://arxiv.org/abs/2605.15179v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
-      "summary": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates i",
-      "url": "https://arxiv.org/abs/2605.15177v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "A 0-click exploit chain for the Pixel 10",
-      "summary": "via projectzero.google",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 408
-    },
-    {
-      "date": "2026-05-15",
-      "title": "The main thing about P2P meth is that there's so much of it (2021)",
-      "summary": "via dynomight.net",
-      "url": "https://dynomight.net/p2p-meth/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Show HN: Watch a neural net learn to play Snake",
-      "summary": "via ppo.gradexp.xyz",
-      "url": "https://ppo.gradexp.xyz/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 130
     }
   ]
 }
