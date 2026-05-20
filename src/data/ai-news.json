@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T05:51:25.648Z",
+  "updatedAt": "2026-05-20T05:56:39.514Z",
   "items": [
     {
       "date": "2026-05-20",
@@ -10,7 +10,87 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 373
+      "score": 374
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Atoms of Thought: Universal EEG Representation Learning with Microstates",
+      "summary": "Learning universal representations from electroencephalogram (EEG) signals is a cutting-edge approach in the field of neuroinformatics and brain-computer interfaces (BCIs). Conventionally, EEG is trea",
+      "url": "https://arxiv.org/abs/2605.20182v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+      "summary": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-l",
+      "url": "https://arxiv.org/abs/2605.20179v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+      "summary": "Recent advances in vision-language models (VLMs) emphasize long chain-of-thought reasoning; yet, we find that their performance on visual tasks is primarily limited by a lack of visual perception as o",
+      "url": "https://arxiv.org/abs/2605.20177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
+      "summary": "Large language models (LLMs) and agentic systems have shown promise for clinical decision support, but existing works largely assume that evidence has already been curated and handed to the model. Rea",
+      "url": "https://arxiv.org/abs/2605.20176v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Multi-axis Analysis of Image Manipulation Localization",
+      "summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated i",
+      "url": "https://arxiv.org/abs/2605.20174v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
+      "summary": "Production LLM agents combine stochastic model outputs with deterministic software systems, yet the boundary between the two is rarely treated as a first-class architectural object. This paper names t",
+      "url": "https://arxiv.org/abs/2605.20173v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Long-term Power Grid Planning via Answer Set Programming",
+      "summary": "The Power grid is a critical infrastructure underpinning all aspects of modern society and its services. Maintaining its effectiveness requires continuous adaptations. In particular, addressing sustai",
+      "url": "https://arxiv.org/abs/2605.20172v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+      "summary": "Modern Large Language Models (LLMs) have shown impressive performances in user-facing tasks such as question answering, as well as consistent improvements in reasoning capabilities. Still, the way the",
+      "url": "https://arxiv.org/abs/2605.20170v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands",
+      "summary": "Flash floods in Bangladesh's haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These b",
+      "url": "https://arxiv.org/abs/2605.20167v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
+      "summary": "Reinforcement learning with verifiable rewards has made post-training highly effective when correctness can be checked automatically. However, many important model behaviors require satisfying several",
+      "url": "https://arxiv.org/abs/2605.20164v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-05-19",
@@ -21,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1249
+      "score": 1251
     },
     {
       "date": "2026-05-19",
@@ -32,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 372
+      "score": 382
     },
     {
       "date": "2026-05-19",
@@ -43,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 244
+      "score": 245
     },
     {
       "date": "2026-05-19",
@@ -54,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 212
+      "score": 213
     },
     {
       "date": "2026-05-18",
@@ -380,92 +460,6 @@
       ],
       "source": "HN",
       "score": 319
-    },
-    {
-      "date": "2026-05-16",
-      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
-      "summary": "via crates.io",
-      "url": "https://crates.io/crates/zerostack/1.0.0",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 263
-    },
-    {
-      "date": "2026-05-15",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1927
-    },
-    {
-      "date": "2026-05-14",
-      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
-      "summary": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long seque",
-      "url": "https://arxiv.org/abs/2605.15199v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
-      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models dur",
-      "url": "https://arxiv.org/abs/2605.15198v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
-      "summary": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their dec",
-      "url": "https://arxiv.org/abs/2605.15196v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
-      "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we",
-      "url": "https://arxiv.org/abs/2605.15188v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
-      "summary": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite t",
-      "url": "https://arxiv.org/abs/2605.15186v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
-      "summary": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video eva",
-      "url": "https://arxiv.org/abs/2605.15185v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
-      "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks ",
-      "url": "https://arxiv.org/abs/2605.15184v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
-      "summary": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either em",
-      "url": "https://arxiv.org/abs/2605.15183v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
