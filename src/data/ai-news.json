@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T05:56:39.514Z",
+  "updatedAt": "2026-05-20T05:59:11.849Z",
   "items": [
     {
       "date": "2026-05-20",
@@ -10,7 +10,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 374
+      "score": 379
+    },
+    {
+      "date": "2026-05-19",
+      "title": "I’ve joined Anthropic",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1251
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "summary": "via github.com",
+      "url": "https://github.com/antoinezambelli/forge",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 383
+    },
+    {
+      "date": "2026-05-19",
+      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 245
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Mistral AI acquires Emmi AI",
+      "summary": "via www.emmi.ai",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 214
     },
     {
       "date": "2026-05-19",
@@ -91,50 +135,6 @@
       "url": "https://arxiv.org/abs/2605.20164v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "I’ve joined Anthropic",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/karpathy/status/2056753169888334312",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1251
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "summary": "via github.com",
-      "url": "https://github.com/antoinezambelli/forge",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 382
-    },
-    {
-      "date": "2026-05-19",
-      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/advancing-content-provenance/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 245
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Mistral AI acquires Emmi AI",
-      "summary": "via www.emmi.ai",
-      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 213
     },
     {
       "date": "2026-05-18",
