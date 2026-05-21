@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-20T05:59:11.849Z",
+  "updatedAt": "2026-05-21T04:09:15.316Z",
   "items": [
+    {
+      "date": "2026-05-21",
+      "title": "Intuit to lay off over 3k employees to refocus on AI",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 95
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Variance Reduction for Expectations with Diffusion Teachers",
+      "summary": "Pretrained diffusion models serve as frozen teachers feeding downstream pipelines such as text-to-3D, single-step distillation, and data attribution. The teacher gradients these pipelines consume are ",
+      "url": "https://arxiv.org/abs/2605.21489v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+      "summary": "Scaling test-time compute by iteratively updating a latent state has emerged as a powerful paradigm for reasoning. Yet the internal mechanisms that enable these iterative models to generalize beyond m",
+      "url": "https://arxiv.org/abs/2605.21488v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate",
+      "summary": "Hyperparameter transfer allows extrapolating optimal optimization hyperparameters from small to large scales, making it critical for training large language models (LLMs). This is done either by fitti",
+      "url": "https://arxiv.org/abs/2605.21486v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "EvoStruct: Bridging Evolutionary and Structural Priors for Antibody CDR Design via Protein Language Model Adaptation",
+      "summary": "Equivariant graph neural network (GNN) methods for antibody complementarity-determining region (CDR) design achieve the highest sequence recovery but suffer from severe vocabulary collapse. The curren",
+      "url": "https://arxiv.org/abs/2605.21485v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Velocityformer: Broken-Symmetry-Matched Equivariant Graph Transformers for Cosmological Velocity Reconstruction",
+      "summary": "Precise measurement of the kinematic Sunyaev-Zel'dovich (kSZ) effect - a probe of the large-scale distribution of baryonic matter, a key observable for cosmological inference - requires accurate recon",
+      "url": "https://arxiv.org/abs/2605.21483v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation",
+      "summary": "Deep research, in which an agent searches the open web, collects evidence, and derives an answer through extended reasoning, is a prominent use case for frontier language models. Frontier deep researc",
+      "url": "https://arxiv.org/abs/2605.21482v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+      "summary": "Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing syste",
+      "url": "https://arxiv.org/abs/2605.21481v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
+      "summary": "Visual Question Answering (VQA) benchmarks have largely emphasized perception-based tasks that can be solved from visual content alone. In contrast, many real-world scenarios require external knowledg",
+      "url": "https://arxiv.org/abs/2605.21479v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Is Fixing Schema Graphs Necessary? Full-Resolution Graph Structure Learning for Relational Deep Learning",
+      "summary": "Relational prediction tasks are fundamental in many real-world applications, where data are naturally stored in relational databases (RDBs). Relational Deep Learning (RDL) addresses this problem by mo",
+      "url": "https://arxiv.org/abs/2605.21475v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
+      "summary": "Computer-use agents (CUA) automate tasks specified with natural language such as \"order the cheapest item from Taco Bell\" by generating sequences of calls to tools such as click, type, and scroll on a",
+      "url": "https://arxiv.org/abs/2605.21470v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 846
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Qwen3.7-Max: The Agent Frontier",
+      "summary": "via qwen.ai",
+      "url": "https://qwen.ai/blog?id=qwen3.7",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 637
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 274
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Qian Xuesen: The missile genius America lost and China gained (2025)",
+      "summary": "via www.usni.org",
+      "url": "https://www.usni.org/magazines/naval-history/2025/december/missile-genius-america-lost-and-china-gained",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 139
+    },
     {
       "date": "2026-05-20",
       "title": "Railway Blocked by Google Cloud",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 89
-    },
-    {
-      "date": "2026-05-15",
-      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
-      "summary": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict e",
-      "url": "https://arxiv.org/abs/2605.16258v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Designing Datacenter Power Delivery Hierarchies for the AI Era",
-      "summary": "Demand for AI accelerators is rapidly increasing rack power density, with projections approaching 1MW per deployment by 2027. This poses a major challenge for datacenter power delivery designers. As p",
-      "url": "https://arxiv.org/abs/2605.16255v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
-      "summary": "Distribution utilities are now expected to deliver bills that customers can actually read attach a defensible carbon number to every kWh sold and schedule load against grid stress and emissions constr",
-      "url": "https://arxiv.org/abs/2605.16250v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "AI-Mediated Communication Can Steer Collective Opinion",
-      "summary": "Generative artificial intelligence (AI) is increasingly integrated into the online platforms where humans exchange opinions; large language models (LLMs) now polish users' posts on LinkedIn and provid",
-      "url": "https://arxiv.org/abs/2605.16245v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation",
-      "summary": "Billion-parameter Vision-Language-Action (VLA) policies have recently shown impressive performance in robotic manipulation, yet their size and inference cost remain major obstacles for real-time close",
-      "url": "https://arxiv.org/abs/2605.16241v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Dynamics-Level Watermarking of Flow Matching Models with Random Codes",
-      "summary": "We introduce a dynamics-level approach to watermarking generative models. Rather than embedding signals into model weights or outputs, we embed the watermark directly into the learned continuous dynam",
-      "url": "https://arxiv.org/abs/2605.16239v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
-      "summary": "Probabilistic forecasting of infectious diseases is crucial for public health but relies on labor-intensive manual model curation by expert modeling teams. This bespoke development bottlenecks scalabi",
-      "url": "https://arxiv.org/abs/2605.16238v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Layer Equivalence Is Not a Property of Layers Alone: How You Test Redundancy Changes What You Find",
-      "summary": "When researchers ask whether two transformer layers are \"equivalent\" for compression, they often conflate distinct tests. Replacement asks whether one layer's map can substitute for another's in place",
-      "url": "https://arxiv.org/abs/2605.16234v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
-      "summary": "Can LLM agents improve decision-making through self-generated memory without gradient updates? We propose FORGE (Failure-Optimized Reflective Graduation and Evolution), a staged, population-based prot",
-      "url": "https://arxiv.org/abs/2605.16233v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "A Unified Generative-AI Framework for Smart Energy Infrastructure: Intelligent Gas Distribution, Utility Billing, Carbon Analytics, and Quantum-Inspired Optimisation",
-      "summary": "The accelerating convergence of smart metering, generative artificial intelligence, and quantum-inspired combinatorial optimisation is reshaping how energy utilities manage physical infrastructure, cu",
-      "url": "https://arxiv.org/abs/2605.16232v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Prolog Basics Explained with Pokémon",
-      "summary": "via unplannedobsolescence.com",
-      "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 229
-    },
-    {
-      "date": "2026-05-17",
-      "title": "AI is a technology not a product",
-      "summary": "via daringfireball.net",
-      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 371
-    },
-    {
-      "date": "2026-05-16",
-      "title": "Moving away from Tailwind, and learning to structure my CSS",
-      "summary": "via jvns.ca",
-      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 478
-    },
-    {
-      "date": "2026-05-16",
-      "title": "Frontier AI has broken the open CTF format",
-      "summary": "via kabir.au",
-      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 353
-    },
-    {
-      "date": "2026-05-16",
-      "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
-      "summary": "via nvlabs.github.io",
-      "url": "https://nvlabs.github.io/Sana/WM/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 319
     }
   ]
 }
