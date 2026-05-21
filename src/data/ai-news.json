@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T04:34:01.768Z",
+  "updatedAt": "2026-05-21T05:53:07.426Z",
   "items": [
     {
       "date": "2026-05-21",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 108
-    },
-    {
-      "date": "2026-05-21",
-      "title": "OpenAI to confidentially file for IPO as soon as Friday",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 52
+      "score": 143
     },
     {
       "date": "2026-05-20",
@@ -112,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 867
+      "score": 952
     },
     {
       "date": "2026-05-20",
@@ -123,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 281
+      "score": 293
     },
     {
       "date": "2026-05-20",
@@ -134,7 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 145
+      "score": 153
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Learnings from 100K lines of Rust with AI (2025)",
+      "summary": "via zfhuang99.github.io",
+      "url": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-05-21",
+      "title": "OpenAI to confidentially file for IPO as soon as Friday",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
     },
     {
       "date": "2026-05-20",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 260
-    },
-    {
-      "date": "2026-05-17",
-      "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
-      "summary": "via idahonews.com",
-      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 163
     }
   ]
 }
