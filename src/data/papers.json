@@ -1,5 +1,15 @@
 [
   {
+    "title": "Qwen-Image-2.0 Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-05-11",
+    "arxivId": "2605.10730v1",
+    "pdfUrl": "https://arxiv.org/pdf/2605.10730v1",
+    "summary": "We present Qwen-Image-2.0, an omni-capable image generation foundation model that unifies high-fidelity generation and precise image editing within a single framework. Despite recent progress, existing models still struggle with ultra-long text rendering, multilingual typography, high-resolution pho",
+    "tags": [],
+    "descriptionCn": "《Qwen-Image-2.0 Technical Report》— 阿里 (Qwen) 发布的最新研究论文。"
+  },
+  {
     "title": "Parameter-Efficient Neuroevolution for Diverse LLM Generation: Quality-Diversity Optimization via Prompt Embedding Evolution",
     "vendor": "Mistral",
     "date": "2026-05-10",
@@ -242,6 +252,16 @@
     "descriptionCn": "《GPT-5 System Card》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "vendor": "Microsoft",
+    "date": "2026-03-04",
+    "arxivId": "2603.03975v1",
+    "pdfUrl": "https://arxiv.org/pdf/2603.03975v1",
+    "summary": "We present Phi-4-reasoning-vision-15B, a compact open-weight multimodal reasoning model, and share the motivations, design choices, experiments, and learnings that informed its development. Our goal is to contribute practical insight to the research community on building smaller, efficient multimoda",
+    "tags": [],
+    "descriptionCn": "《Phi-4-reasoning-vision-15B Technical Report》— 微软 Phi-4 推理模型，小参数量实现强大多步推理能力。"
+  },
+  {
     "title": "International AI Safety Report 2026",
     "vendor": "OpenAI",
     "date": "2026-02-24",
@@ -262,7 +282,27 @@
     "descriptionCn": "《[2602.15763] GLM-5: from Vibe Coding to Agentic Engineering – arxiv》— 智谱 AI 旗舰大语言模型，从辅助编码到智能体工程的全面能力升级。"
   },
   {
+    "title": "[2602.15763] GLM-5: from Vibe Coding to Agentic Engineering – arxiv",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-02-24",
+    "arxivId": "2602.15763",
+    "pdfUrl": "https://arxiv.org/pdf/2602.15763",
+    "summary": "Computer Science > Machine Learning\n\narXiv:2602.15763(cs)\n\n[Submitted on 17 Feb 2026 (v1), last revi",
+    "tags": [],
+    "descriptionCn": "《[2602.15763] GLM-5: from Vibe Coding to Agentic Engineering – arxiv》— 智谱 AI 旗舰大语言模型，从辅助编码到智能体工程的全面能力升级。"
+  },
+  {
     "title": "ERNIE 5.0 Technical Report",
+    "vendor": "百度",
+    "date": "2026-02-04",
+    "arxivId": "2602.04705",
+    "pdfUrl": "https://arxiv.org/pdf/2602.04705",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2602.04705(cs)\n\n[Submitted on 4 Feb 2026]\n\nTitle:",
+    "tags": [],
+    "descriptionCn": "《[2602.04705] ERNIE 5.0 Technical Report – arxiv》— 百度文心最新旗舰大语言模型，知识增强、推理和多模态全面升级。"
+  },
+  {
+    "title": "[2602.04705] ERNIE 5.0 Technical Report – arxiv",
     "vendor": "百度",
     "date": "2026-02-04",
     "arxivId": "2602.04705",
@@ -282,7 +322,27 @@
     "descriptionCn": "《[2601.21337] Qwen3-ASR Technical Report – arxiv》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
   },
   {
+    "title": "[2601.21337] Qwen3-ASR Technical Report – arxiv",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-01-30",
+    "arxivId": "2601.21337",
+    "pdfUrl": "https://arxiv.org/pdf/2601.21337",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2601.21337(cs)\n\n[Submitted on 29 Jan 2026 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2601.21337] Qwen3-ASR Technical Report – arxiv》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
+  },
+  {
     "title": "Qwen3-TTS Technical Report",
+    "vendor": "阿里 (Qwen)",
+    "date": "2026-01-22",
+    "arxivId": "2601.15621",
+    "pdfUrl": "https://arxiv.org/pdf/2601.15621",
+    "summary": "Computer Science > Sound\n\narXiv:2601.15621(cs)\n\n[Submitted on 22 Jan 2026]\n\nTitle: Qwen3-TTS Technic",
+    "tags": [],
+    "descriptionCn": "《[2601.15621] Qwen3-TTS Technical Report – arxiv》— 阿里通义千问系列大语言模型，开源 MoE 架构，性能与效率兼顾。"
+  },
+  {
+    "title": "[2601.15621] Qwen3-TTS Technical Report – arxiv",
     "vendor": "阿里 (Qwen)",
     "date": "2026-01-22",
     "arxivId": "2601.15621",
@@ -312,7 +372,27 @@
     "descriptionCn": "《[2601.09012] TranslateGemma Technical Report – arxiv》— Google DeepMind 发布的最新研究论文。"
   },
   {
+    "title": "[2601.09012] TranslateGemma Technical Report – arxiv",
+    "vendor": "Google DeepMind",
+    "date": "2026-01-19",
+    "arxivId": "2601.09012",
+    "pdfUrl": "https://arxiv.org/pdf/2601.09012",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2601.09012(cs)\n\n[Submitted on 13 Jan 2026 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2601.09012] TranslateGemma Technical Report – arxiv》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
     "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
+    "vendor": "Meta",
+    "date": "2026-01-15",
+    "arxivId": "2601.11659",
+    "pdfUrl": "https://arxiv.org/pdf/2601.11659",
+    "summary": "Computer Science > Software Engineering\n\narXiv:2601.11659(cs)\n\n[Submitted on 15 Jan 2026]\n\nTitle: Th",
+    "tags": [],
+    "descriptionCn": "《[2601.11659] The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes – arxiv》— Meta 最新开源旗舰模型，MoE 混合专家架构，推理、多语言和编码任务表现优异。"
+  },
+  {
+    "title": "[2601.11659] The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes – arxiv",
     "vendor": "Meta",
     "date": "2026-01-15",
     "arxivId": "2601.11659",
@@ -332,7 +412,27 @@
     "descriptionCn": "《[2601.07233] From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainabilit》— Microsoft 发布的最新研究论文。"
   },
   {
+    "title": "[2601.07233] From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainability with Professional Communication Standards – arxiv",
+    "vendor": "Microsoft",
+    "date": "2026-01-12",
+    "arxivId": "2601.07233",
+    "pdfUrl": "https://arxiv.org/pdf/2601.07233",
+    "summary": "Computer Science > Artificial Intelligence\n\narXiv:2601.07233(cs)\n\n[Submitted on 12 Jan 2026]\n\nTitle:",
+    "tags": [],
+    "descriptionCn": "《[2601.07233] From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainabilit》— Microsoft 发布的最新研究论文。"
+  },
+  {
     "title": "FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning",
+    "vendor": "Microsoft",
+    "date": "2026-01-08",
+    "arxivId": "2506.02515",
+    "pdfUrl": "https://arxiv.org/pdf/2506.02515",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2506.02515(cs)\n\n[Submitted on 3 Jun 2025 (v1), la",
+    "tags": [],
+    "descriptionCn": "《[2506.02515] FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Fina》— Microsoft 发布的最新研究论文。"
+  },
+  {
+    "title": "[2506.02515] FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning – arxiv",
     "vendor": "Microsoft",
     "date": "2026-01-08",
     "arxivId": "2506.02515",
@@ -390,6 +490,16 @@
     "summary": "This is the system card published alongside the OpenAI GPT-5 launch, August 2025. GPT-5 is a unified system with a smart and fast model that answers most questions, a deeper reasoning model for harder problems, and a real-time router that quickly decides which model to use based on conversation type",
     "tags": [],
     "descriptionCn": "《OpenAI GPT-5 System Card》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
+  },
+  {
+    "title": "[2601.03267] OpenAI GPT-5 System Card – arxiv",
+    "vendor": "OpenAI",
+    "date": "2025-12-19",
+    "arxivId": "2601.03267",
+    "pdfUrl": "https://arxiv.org/pdf/2601.03267",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2601.03267(cs)\n\n[Submitted on 19 Dec 2025]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2601.03267] OpenAI GPT-5 System Card – arxiv》— OpenAI 最新旗舰大语言模型，涵盖多模态理解、复杂推理、代码生成及安全性评测。"
   },
   {
     "title": "AI Transparency Atlas: Framework, Scoring, and Real-Time Model Card Evaluation Pipeline",
@@ -452,6 +562,16 @@
     "descriptionCn": "《[2510.14686] xLLM Technical Report – arxiv》— Mistral 发布的最新研究论文。"
   },
   {
+    "title": "[2510.14686] xLLM Technical Report – arxiv",
+    "vendor": "Mistral",
+    "date": "2025-10-16",
+    "arxivId": "2510.14686",
+    "pdfUrl": "https://arxiv.org/pdf/2510.14686",
+    "summary": "Computer Science > Distributed, Parallel, and Cluster Computing\n\narXiv:2510.14686(cs)\n\n[Submitted on",
+    "tags": [],
+    "descriptionCn": "《[2510.14686] xLLM Technical Report – arxiv》— Mistral 发布的最新研究论文。"
+  },
+  {
     "title": "Kimi K2: Open Agentic Intelligence",
     "vendor": "Moonshot (Kimi)",
     "date": "2025-07-24",
@@ -482,6 +602,16 @@
     "descriptionCn": "《Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition》— 华为盘古双系统推理器，融合 System 1 快速直觉与 System 2 深度思考。"
   },
   {
+    "title": "[2504.12285] BitNet b1.58 2B4T Technical Report – arxiv",
+    "vendor": "Microsoft",
+    "date": "2025-04-25",
+    "arxivId": "2504.12285",
+    "pdfUrl": "https://arxiv.org/pdf/2504.12285",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2504.12285(cs)\n\n[Submitted on 16 Apr 2025 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2504.12285] BitNet b1.58 2B4T Technical Report – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
     "title": "Phi-4-reasoning Technical Report",
     "vendor": "Microsoft",
     "date": "2025-04-21",
@@ -502,7 +632,7 @@
     "descriptionCn": "《[2503.19786] Gemma 3 Technical Report – arxiv》— Google 开源轻量级大语言模型，支持端侧部署与高效微调。"
   },
   {
-    "title": "DeepSeek-V3 Technical Report",
+    "title": "[2412.19437] DeepSeek-V3 Technical Report – arxiv",
     "vendor": "DeepSeek",
     "date": "2025-02-18",
     "arxivId": "2412.19437",
@@ -536,6 +666,14 @@
     "descriptionCn": "《MiniMax-01: Scaling Foundation Models with Lightning Attention》— MiniMax 发布的最新研究论文。"
   },
   {
+    "title": "DeepSeek-V3 Technical Report",
+    "vendor": "DeepSeek",
+    "date": "2024-12-26",
+    "pdfUrl": "https://arxiv.org/pdf/2412.19437",
+    "summary": "DeepSeek-V3 技术报告，MoE 架构、MLA 注意力机制、多 Token 预测。",
+    "descriptionCn": "《DeepSeek-V3 Technical Report》— 深度求索最新研究，持续推动开源高效模型边界。"
+  },
+  {
     "title": "EPT-1.5 Technical Report",
     "vendor": "华为",
     "date": "2024-10-19",
@@ -556,7 +694,37 @@
     "descriptionCn": "《[2410.07073] Pixtral 12B – arxiv》— Mistral AI 多模态视觉语言模型，整合文本与图像理解能力。"
   },
   {
+    "title": "[2410.07073] Pixtral 12B – arxiv",
+    "vendor": "Mistral",
+    "date": "2024-10-10",
+    "arxivId": "2410.07073",
+    "pdfUrl": "https://arxiv.org/pdf/2410.07073",
+    "summary": "Computer Science > Computer Vision and Pattern Recognition\n\narXiv:2410.07073(cs)\n\n[Submitted on 9 Oc",
+    "tags": [],
+    "descriptionCn": "《[2410.07073] Pixtral 12B – arxiv》— Mistral AI 多模态视觉语言模型，整合文本与图像理解能力。"
+  },
+  {
+    "title": "[2407.09527] BitNet b1.58 Reloaded: State-of-the-art Performance Also on Smaller Networks – arxiv",
+    "vendor": "Microsoft",
+    "date": "2024-06-24",
+    "arxivId": "2407.09527",
+    "pdfUrl": "https://arxiv.org/pdf/2407.09527",
+    "summary": "Computer Science > Computer Vision and Pattern Recognition\n\narXiv:2407.09527(cs)\n\n[Submitted on 24 J",
+    "tags": [],
+    "descriptionCn": "《[2407.09527] BitNet b1.58 Reloaded: State-of-the-art Performance Also on Smaller Networks – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
     "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "vendor": "DeepSeek",
+    "date": "2024-06-19",
+    "arxivId": "2405.04434",
+    "pdfUrl": "https://arxiv.org/pdf/2405.04434",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2405.04434(cs)\n\n[Submitted on 7 May 2024 (v1), la",
+    "tags": [],
+    "descriptionCn": "《[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model – arxiv》— 深度求索最新研究，持续推动开源高效模型边界。"
+  },
+  {
+    "title": "[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model – arxiv",
     "vendor": "DeepSeek",
     "date": "2024-06-19",
     "arxivId": "2405.04434",
