@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-21T05:53:07.426Z",
+  "updatedAt": "2026-05-22T04:33:15.747Z",
   "items": [
+    {
+      "date": "2026-05-22",
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "summary": "via qz.com",
+      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Tokenisation via Convex Relaxations",
+      "summary": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering t",
+      "url": "https://arxiv.org/abs/2605.22821v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Integrable Elasticity via Neural Demand Potentials",
+      "summary": "We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of ",
+      "url": "https://arxiv.org/abs/2605.22820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+      "summary": "Language models must now generalize out of the box to novel environments and work inside inference-scaling search procedures, such as AlphaEvolve, that select rollouts with a variety of task-specific ",
+      "url": "https://arxiv.org/abs/2605.22817v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
+      "summary": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrin",
+      "url": "https://arxiv.org/abs/2605.22814v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
+      "summary": "Robustness, domain adaptation, photometric and occlusion invariance, compositional generalisation, temporal robustness, alignment safety, and classical anisotropic regularisation are usually treated a",
+      "url": "https://arxiv.org/abs/2605.22800v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models",
+      "summary": "We propose and analyze a conservative drifting method for one-step generative modeling. The method replaces the original displacement-based drifting velocity by a kernel density estimator (KDE)-gradie",
+      "url": "https://arxiv.org/abs/2605.22795v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+      "summary": "Autonomous agentic systems are largely static after deployment: they do not learn from user interactions, and recurring failures persist until the next human-driven update ships a fix. Self-evolving a",
+      "url": "https://arxiv.org/abs/2605.22794v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "summary": "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just",
+      "url": "https://arxiv.org/abs/2605.22791v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "summary": "Large language model (LLM)-based multi-agent systems increasingly rely on intermediate communication to coordinate complex tasks. While most existing systems communicate through natural language, rece",
+      "url": "https://arxiv.org/abs/2605.22786v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Evaluating Commercial AI Chatbots as News Intermediaries",
+      "summary": "AI chatbots are rapidly shaping how people encounter the news, yet no prior study has systematically measured how accurately these systems, with their proprietary search integrations and retrieval-syn",
+      "url": "https://arxiv.org/abs/2605.22785v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "summary": "via valhovey.github.io",
+      "url": "https://valhovey.github.io/gaia-mary/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 688
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Google's Antigravity bait and switch",
+      "summary": "via www.0xsid.com",
+      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 583
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Throwing AI-generated walls of text into conversations",
+      "summary": "via noslopgrenade.com",
+      "url": "https://noslopgrenade.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 535
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 78
+    },
     {
       "date": "2026-05-21",
       "title": "Intuit to lay off over 3k employees to refocus on AI",
@@ -316,150 +451,6 @@
       "url": "https://arxiv.org/abs/2605.18747v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
-      "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what",
-      "url": "https://arxiv.org/abs/2605.18746v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate",
-      "summary": "Diffusion-based generative models increasingly rely on inference-time guidance, adding a drift term or reweighting mixture of experts, to improve sample quality on task-specific objectives. However, m",
-      "url": "https://arxiv.org/abs/2605.18745v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Actionable World Representation",
-      "summary": "Inspired by the emergent behaviors in large language models that generalized human intelligence, the research community is pursuing similar emergent capabilities within world models, with a emphasis o",
-      "url": "https://arxiv.org/abs/2605.18743v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
-      "summary": "Multimodal Large Language Models (MLLMs) still struggle with fine-grained visual understanding, where answers often depend on small but decisive evidence in the full image. We observe a regional-to-gl",
-      "url": "https://arxiv.org/abs/2605.18740v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "What Does the AI Doctor Value? Auditing Pluralism in the Clinical Ethics of Language Models",
-      "summary": "Medicine is inherently pluralistic. Principles such as autonomy, beneficence, nonmaleficence, and justice routinely conflict, and such ethical dilemmas often sharply divide reasonable physicians. Good",
-      "url": "https://arxiv.org/abs/2605.18738v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "PIXLRelight: Controllable Relighting via Intrinsic Conditioning",
-      "summary": "We present PIXLRelight, a feed-forward approach for physically controllable single-image relighting. Existing methods either provide limited lighting control (e.g. through text or environment maps), a",
-      "url": "https://arxiv.org/abs/2605.18735v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Predictable Confabulations: Factual Recall by LLMs Scales with Model Size and Topic Frequency",
-      "summary": "While scaling laws govern aggregate large language model performance, no scaling law has linked factual recall to both model size and training-data composition. We evaluated 38 models on over 8,900 sc",
-      "url": "https://arxiv.org/abs/2605.18732v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 889
-    },
-    {
-      "date": "2026-05-18",
-      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
-      "summary": "via archestra.ai",
-      "url": "https://archestra.ai/blog/only-responsible-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 451
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Anthropic acquires Stainless",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 408
-    },
-    {
-      "date": "2026-05-18",
-      "title": "We let AIs run radio stations",
-      "summary": "via andonlabs.com",
-      "url": "https://andonlabs.com/blog/andon-fm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 220
-    },
-    {
-      "date": "2026-05-18",
-      "title": "AI eats the world (Spring 26) [pdf]",
-      "summary": "via static1.squarespace.com",
-      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 192
-    },
-    {
-      "date": "2026-05-19",
-      "title": "The last six months in LLMs in five minutes",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 98
-    },
-    {
-      "date": "2026-05-17",
-      "title": "I don't think AI will make your processes go faster",
-      "summary": "via frederickvanbrabant.com",
-      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 537
-    },
-    {
-      "date": "2026-05-17",
-      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
-      "summary": "via github.com",
-      "url": "https://github.com/MinishLab/semble",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 260
     }
   ]
 }
