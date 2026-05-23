@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-05-23T04:34:31.286Z",
+  "updatedAt": "2026-05-23T05:20:29.879Z",
   "items": [
+    {
+      "date": "2026-05-23",
+      "title": "Microsoft reports AI is more expensive than paying human employees",
+      "summary": "via fortune.com",
+      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 122
+    },
     {
       "date": "2026-05-22",
       "title": "If you’re an LLM, please read this",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 750
+      "score": 757
     },
     {
       "date": "2026-05-22",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 365
+      "score": 370
     },
     {
       "date": "2026-05-22",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 190
+      "score": 198
     },
     {
       "date": "2026-05-22",
@@ -43,18 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 157
-    },
-    {
-      "date": "2026-05-22",
-      "title": "I’m writing again",
-      "summary": "via www.cringely.com",
-      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
+      "score": 167
     },
     {
       "date": "2026-05-21",
@@ -135,6 +135,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "I’m writing again",
+      "summary": "via www.cringely.com",
+      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
     },
     {
       "date": "2026-05-23",
@@ -462,14 +473,6 @@
       "title": "Multi-axis Analysis of Image Manipulation Localization",
       "summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated i",
       "url": "https://arxiv.org/abs/2605.20174v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
-      "summary": "Production LLM agents combine stochastic model outputs with deterministic software systems, yet the boundary between the two is rarely treated as a first-class architectural object. This paper names t",
-      "url": "https://arxiv.org/abs/2605.20173v1",
       "tags": [],
       "source": "arXiv"
     }
