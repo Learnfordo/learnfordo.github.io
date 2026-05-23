@@ -282,6 +282,22 @@ img { max-width: 100%; display: block; }
   margin-bottom: 20px; font-style: italic;
 }
 .prose img { border-radius: var(--radius-lg); margin: 24px 0; }
+.prose table {
+  width: 100%; border-collapse: collapse; margin-bottom: 20px;
+  font-size: 14px; overflow-x: auto; display: block;
+}
+.prose thead { background: var(--bg-subtle); }
+.prose th {
+  padding: 10px 14px; text-align: left; font-weight: 600;
+  color: var(--text-primary); border-bottom: 2px solid var(--border);
+}
+.prose td {
+  padding: 8px 14px; border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+.prose tr:hover td { background: var(--accent-soft); }
+.prose h4 { font-size: 16px; font-weight: 600; color: var(--text-primary); margin: 24px 0 8px; }
+.prose hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
 
 /* === Footer === */
 .site-footer {

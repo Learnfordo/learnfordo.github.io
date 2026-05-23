@@ -131,23 +131,13 @@ Pi Coding Agent (embedded) → 实际 LLM 交互
 
 **resolveReplyDirectives** — 解析用户消息中的 inline 指令：
 
-指令
-效果
-
-/think high
-切换 thinking level
-
-/reasoning on
-开启 reasoning
-
-/verbose
-开启 verbose 输出
-
-/model alibaba/glm-5.1
-切换模型
-
-/new or /reset
-重置会话
+| 指令 | 效果 |
+|------|------|
+| `/think high` | 切换 thinking level |
+| `/reasoning on` | 开启 reasoning |
+| `/verbose` | 开启 verbose 输出 |
+| `/model alibaba/glm-5.1` | 切换模型 |
+| `/new` or `/reset` | 重置会话 |
 
 ### 1.4 Bootstrap 上下文注入
 
@@ -788,36 +778,13 @@ resolveProviderStreamFn() 根据 provider 字段动态 require 对应模块。
 
 ### 各 Provider 关键差异
 
-特性
-anthropic
-alibaba（OpenAI-compat）
-openai
-
-cache_control
-✅ 原生支持
-❌ 忽略
-❌ 忽略
-
-thinking block
-✅ 原生
-❌ 模拟（<thinking> 标签）
-❌ 不支持
-
-context-pruning (cache-ttl)
-✅
-❌
-❌
-
-流式格式
-Anthropic SSE
-OpenAI SSE
-OpenAI SSE
-
-tool_call 格式
-tool_use block
-function_call
-function_call
-
+| 特性 | anthropic | alibaba（OpenAI-compat） | openai |
+|------|----------|---------------------------|--------|
+| cache_control | ✅ 原生支持 | ❌ 忽略 | ❌ 忽略 |
+| thinking block | ✅ 原生 | ❌ 模拟（`<thinking>` 标签） | ❌ 不支持 |
+| context-pruning (cache-ttl) | ✅ | ❌ | ❌ |
+| 流式格式 | Anthropic SSE | OpenAI SSE | OpenAI SSE |
+| tool_call 格式 | tool_use block | function_call | function_call |
 ### Anthropic 专属：cache_control 注入
 
 // SYSTEM_PROMPT_CACHE_BOUNDARY 被转换为:
@@ -868,124 +835,40 @@ Layer 3: Pi Hook（Pi Agent 内部）
 
 ### 插件 Hook 完整列表
 
-Hook 名称
-触发时机
-可阻断
-常见用途
-
-message_received
-消息到达、去重后
-✅
-消息过滤、指令拦截
-
-before_reply
-LLM 调用前
-✅
-注入额外 context、修改 prompt
-
-after_reply
-最终回复生成后
-❌
-日志、统计
-
-tool_before_exec
-tool 执行前
-✅
-权限检查、参数校验
-
-tool_after_exec
-tool 执行后
-❌
-结果审计
-
-session_reset
-/reset 触发后
-❌
-清理插件状态
-
-agent:bootstrap
-bootstrap 文件加载后
-✅
-修改/追加 bootstrap files
-
-compaction_before
-压缩开始前
-✅
-注入额外保留内容
-
-compaction_after
-压缩完成后
-❌
-触发外部同步
-
-heartbeat_tick
-心跳轮询触发时
-✅
-自定义心跳逻辑
-
-channel_send
-向 channel 推送消息前
-✅
-消息格式转换、富媒体注入
-
+| Hook 名称 | 触发时机 | 可阻断 | 常见用途 |
+|-----------|----------|--------|----------|
+| `message_received` | 消息到达、去重后 | ✅ | 消息过滤、指令拦截 |
+| `before_reply` | LLM 调用前 | ✅ | 注入额外 context、修改 prompt |
+| `after_reply` | 最终回复生成后 | ❌ | 日志、统计 |
+| `tool_before_exec` | tool 执行前 | ✅ | 权限检查、参数校验 |
+| `tool_after_exec` | tool 执行后 | ❌ | 结果审计 |
+| `session_reset` | /reset 触发后 | ❌ | 清理插件状态 |
+| `agent:bootstrap` | bootstrap 文件加载后 | ✅ | 修改/追加 bootstrap files |
+| `compaction_before` | 压缩开始前 | ✅ | 注入额外保留内容 |
+| `compaction_after` | 压缩完成后 | ❌ | 触发外部同步 |
+| `heartbeat_tick` | 心跳轮询触发时 | ✅ | 自定义心跳逻辑 |
+| `channel_send` | 向 channel 推送消息前 | ✅ | 消息格式转换、富媒体注入 |
 ### Internal Hook 完整列表
 
-Hook 名称
-触发位置
-说明
-
-session:before_write
-JSONL 写入前
-可修改写入内容
-
-session:after_write
-JSONL 写入后
-触发索引更新
-
-context:overflow
-PREEMPTIVE_CONTEXT_OVERFLOW 时
-触发强制压缩
-
-memory:before_write
-memory 条目写入前
-去重检查
-
-memory:after_index
-memory 索引更新后
-触发向量 embed
-
-skill:resolved
-skill 列表确定后
-debug/监控
-
-provider:request_built
-LLM 请求体构建完成
-最后修改机会
-
-provider:response_chunk
-流式响应每个 chunk
-实时处理
-
+| Hook 名称 | 触发位置 | 说明 |
+|-----------|----------|------|
+| `session:before_write` | JSONL 写入前 | 可修改写入内容 |
+| `session:after_write` | JSONL 写入后 | 触发索引更新 |
+| `context:overflow` | PREEMPTIVE_CONTEXT_OVERFLOW 时 | 触发强制压缩 |
+| `memory:before_write` | memory 条目写入前 | 去重检查 |
+| `memory:after_index` | memory 索引更新后 | 触发向量 embed |
+| `skill:resolved` | skill 列表确定后 | debug/监控 |
+| `provider:request_built` | LLM 请求体构建完成 | 最后修改机会 |
+| `provider:response_chunk` | 流式响应每个 chunk | 实时处理 |
 ### Pi Hook（OpenClaw 注入点）
 
-Pi Hook
-OpenClaw 注入内容
-
-transformContext
-Tool Result Context Guard（截断/溢出检测）
-
-session_before_compact
-Compaction Safeguard（接管压缩逻辑）
-
-onToolCall
-guardSessionManager（flush pending results）
-
-onAssistantMessage
-dropThinkingBlocks（thinking block 处理）
-
-onSessionEnd
-session JSONL 最终写入 + side effects
-
+| Pi Hook | OpenClaw 注入内容 |
+|---------|-------------------|
+| `transformContext` | Tool Result Context Guard（截断/溢出检测） |
+| `session_before_compact` | Compaction Safeguard（接管压缩逻辑） |
+| `onToolCall` | guardSessionManager（flush pending results） |
+| `onAssistantMessage` | dropThinkingBlocks（thinking block 处理） |
+| `onSessionEnd` | session JSONL 最终写入 + side effects |
 ## Fallback 链路详解
 
 OpenClaw 的 fallback 分布在六个独立层面，没有统一的 fallback 总线。
@@ -1045,26 +928,12 @@ API 失败/超时 → 静默 fallback 到全文检索
 
 ### Bootstrap 文件 Fallback
 
-情况
-处理方式
-用户可见
-
-文件不存在
-注入 [MISSING] Expected at: <path>
-⚠️ LLM 感知
-
-文件读取失败
-同上
-⚠️ LLM 感知
-
-文件存在但为空
-注入空内容
-❌
-
-HEARTBEAT.md 不存在
-注入默认心跳提示词
-❌
-
+| 情况 | 处理方式 | 用户可见 |
+|------|----------|----------|
+| 文件不存在 | 注入 `[MISSING] Expected at: <path>` | ⚠️ LLM 感知 |
+| 文件读取失败 | 同上 | ⚠️ LLM 感知 |
+| 文件存在但为空 | 注入空内容 | ❌ |
+| HEARTBEAT.md 不存在 | 注入默认心跳提示词 | ❌ |
 ### Tool Result 截断 Fallback（三级）
 
 Level 1（truncateToolResultText）:
@@ -1095,48 +964,14 @@ LLM 自主决策:
 
 ### Fallback 全景对比
 
-层级
-触发条件
-用户可见
-静默处理
-可配置
-
-Provider
-retry 耗尽
-✅ 报错
-❌
-✅ fallback_provider
-
-Compaction 摘要
-quality guard 失败
-❌
-✅
-❌（内置三级）
-
-Memory 向量检索
-embedding API 失败
-❌
-✅
-❌（自动降级）
-
-Bootstrap 文件
-文件缺失/读取失败
-⚠️ [MISSING]
-部分
-❌
-
-Tool Result 截断
-超过长度上限
-⚠️ truncated 标记
-部分
-✅ maxChars
-
-Skill
-底层 tool 失败
-视 LLM 决策
-视 LLM 决策
-⚠️ 靠描述引导
-
+| 层级 | 触发条件 | 用户可见 | 静默处理 | 可配置 |
+|------|----------|----------|----------|--------|
+| Provider | retry 耗尽 | ✅ 报错 | ❌ | ✅ `fallback_provider` |
+| Compaction 摘要 | quality guard 失败 | ❌ | ✅ | ❌（内置三级） |
+| Memory 向量检索 | embedding API 失败 | ❌ | ✅ | ❌（自动降级） |
+| Bootstrap 文件 | 文件缺失/读取失败 | ⚠️ `[MISSING]` | 部分 | ❌ |
+| Tool Result 截断 | 超过长度上限 | ⚠️ truncated 标记 | 部分 | ✅ `maxChars` |
+| Skill | 底层 tool 失败 | 视 LLM 决策 | 视 LLM 决策 | ⚠️ 靠描述引导 |
 ## 附录 A: 完整实例——&ldquo;帮我查一下杭州天气&rdquo;
 
 ### A.1 消息到达
@@ -1240,90 +1075,28 @@ LLM 再次调用（带 tool result）→ 生成回复:
 
 ## 附录 B: 关键源码文件映射
 
-功能
-源码文件
-关键函数
-
-消息调度
-dispatch-JNo_iJw5.js
-dispatchReplyFromConfig()
-
-Reply 配置
-get-reply-XW5nFnK2.js
-getReplyFromConfig(), runPreparedReply()
-
-嵌入式运行
-pi-embedded-runner-DN0VbqlW.js
-runEmbeddedAttempt()
-
-System Prompt 组装
-system-prompt-D8lixhp6.js
-buildAgentSystemPrompt()
-
-Bootstrap 文件
-bootstrap-files-ZYTN7n8L.js
-resolveBootstrapContextForRun()
-
-工作区扫描
-workspace-hhTlRYqM.js
-loadWorkspaceBootstrapFiles()
-
-Bootstrap 预算
-pi-embedded-helpers-6UMMUO8y.js
-buildBootstrapContextFiles()
-
-Skill 加载
-skill-loader.ts
-loadSkillsForAgent()
-
-Memory 检索
-memory-index.ts
-memory_search(), memory_get()
-
-压缩触发判断
-pi-embedded-runner-DN0VbqlW.js
-shouldPreemptivelyCompactBeforePrompt()
-
-压缩安全机制
-model-context-tokens-z5hvDVkk.js
-compactWithSafetyTimeout()
-
-Safeguard 摘要
-compaction-safeguard.ts
-summarizeViaLLM(), summarizeWithFallback()
-
-Pi 内置摘要
-compaction.js (Pi)
-generateSummary()
-
-Tool Result 截断
-model-context-tokens-z5hvDVkk.js
-truncateToolResultText()
-
-Context Guard
-model-context-tokens-z5hvDVkk.js
-installToolResultContextGuard()
-
-Post-Compaction
-model-context-tokens-z5hvDVkk.js
-readPostCompactionContext()
-
-Session 管理
-model-context-tokens-z5hvDVkk.js
-guardSessionManager()
-
-Post-Compaction 副作用
-model-context-tokens-z5hvDVkk.js
-runPostCompactionSideEffects()
-
-Memory 同步
-post-compaction-context.ts
-syncPostCompactionSessionMemory()
-
-常量定义
-pi-compaction-constants.ts
-MIN_PROMPT_BUDGET_TOKENS, SAFETY_MARGIN
-
+| 功能 | 源码文件 | 关键函数 |
+|------|----------|----------|
+| 消息调度 | `dispatch-JNo_iJw5.js` | `dispatchReplyFromConfig()` |
+| Reply 配置 | `get-reply-XW5nFnK2.js` | `getReplyFromConfig()`, `runPreparedReply()` |
+| 嵌入式运行 | `pi-embedded-runner-DN0VbqlW.js` | `runEmbeddedAttempt()` |
+| System Prompt 组装 | `system-prompt-D8lixhp6.js` | `buildAgentSystemPrompt()` |
+| Bootstrap 文件 | `bootstrap-files-ZYTN7n8L.js` | `resolveBootstrapContextForRun()` |
+| 工作区扫描 | `workspace-hhTlRYqM.js` | `loadWorkspaceBootstrapFiles()` |
+| Bootstrap 预算 | `pi-embedded-helpers-6UMMUO8y.js` | `buildBootstrapContextFiles()` |
+| Skill 加载 | `skill-loader.ts` | `loadSkillsForAgent()` |
+| Memory 检索 | `memory-index.ts` | `memory_search()`, `memory_get()` |
+| 压缩触发判断 | `pi-embedded-runner-DN0VbqlW.js` | `shouldPreemptivelyCompactBeforePrompt()` |
+| 压缩安全机制 | `model-context-tokens-z5hvDVkk.js` | `compactWithSafetyTimeout()` |
+| Safeguard 摘要 | `compaction-safeguard.ts` | `summarizeViaLLM()`, `summarizeWithFallback()` |
+| Pi 内置摘要 | `compaction.js (Pi)` | `generateSummary()` |
+| Tool Result 截断 | `model-context-tokens-z5hvDVkk.js` | `truncateToolResultText()` |
+| Context Guard | `model-context-tokens-z5hvDVkk.js` | `installToolResultContextGuard()` |
+| Post-Compaction | `model-context-tokens-z5hvDVkk.js` | `readPostCompactionContext()` |
+| Session 管理 | `model-context-tokens-z5hvDVkk.js` | `guardSessionManager()` |
+| Post-Compaction 副作用 | `model-context-tokens-z5hvDVkk.js` | `runPostCompactionSideEffects()` |
+| Memory 同步 | `post-compaction-context.ts` | `syncPostCompactionSessionMemory()` |
+| 常量定义 | `pi-compaction-constants.ts` | `MIN_PROMPT_BUDGET_TOKENS`, `SAFETY_MARGIN` |
 ## 附录 C: 你的实际配置快照
 
 {
