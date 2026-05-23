@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-05-23T03:20:10.051Z",
+  "updatedAt": "2026-05-23T03:24:31.940Z",
   "items": [
+    {
+      "date": "2026-05-23",
+      "title": "Is AI Profitable Yet?",
+      "summary": "via isaiprofitable.com",
+      "url": "https://isaiprofitable.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 110
+    },
     {
       "date": "2026-05-22",
       "title": "If you’re an LLM, please read this",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 743
+      "score": 744
     },
     {
       "date": "2026-05-22",
@@ -44,17 +55,6 @@
       ],
       "source": "HN",
       "score": 145
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "summary": "via github.com",
-      "url": "https://github.com/anomalyco/models.dev",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 110
     },
     {
       "date": "2026-05-21",
@@ -135,6 +135,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "summary": "via github.com",
+      "url": "https://github.com/anomalyco/models.dev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 110
     },
     {
       "date": "2026-05-22",
@@ -456,14 +467,6 @@
       "title": "Long-term Power Grid Planning via Answer Set Programming",
       "summary": "The Power grid is a critical infrastructure underpinning all aspects of modern society and its services. Maintaining its effectiveness requires continuous adaptations. In particular, addressing sustai",
       "url": "https://arxiv.org/abs/2605.20172v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "KoRe: Compact Knowledge Representations for Large Language Models",
-      "summary": "Modern Large Language Models (LLMs) have shown impressive performances in user-facing tasks such as question answering, as well as consistent improvements in reasoning capabilities. Still, the way the",
-      "url": "https://arxiv.org/abs/2605.20170v1",
       "tags": [],
       "source": "arXiv"
     }
