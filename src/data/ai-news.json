@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-05-23T04:08:39.003Z",
+  "updatedAt": "2026-05-23T04:34:31.286Z",
   "items": [
-    {
-      "date": "2026-05-23",
-      "title": "Is AI Profitable Yet?",
-      "summary": "via isaiprofitable.com",
-      "url": "https://isaiprofitable.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 186
-    },
     {
       "date": "2026-05-22",
       "title": "If you’re an LLM, please read this",
@@ -21,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 747
+      "score": 750
     },
     {
       "date": "2026-05-22",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 363
+      "score": 365
     },
     {
       "date": "2026-05-22",
@@ -43,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 188
+      "score": 190
     },
     {
       "date": "2026-05-22",
@@ -54,7 +43,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 152
+      "score": 157
+    },
+    {
+      "date": "2026-05-22",
+      "title": "I’m writing again",
+      "summary": "via www.cringely.com",
+      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
     },
     {
       "date": "2026-05-21",
@@ -135,6 +135,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Is AI Profitable Yet?",
+      "summary": "via isaiprofitable.com",
+      "url": "https://isaiprofitable.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 186
     },
     {
       "date": "2026-05-22",
@@ -459,14 +470,6 @@
       "title": "A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents",
       "summary": "Production LLM agents combine stochastic model outputs with deterministic software systems, yet the boundary between the two is rarely treated as a first-class architectural object. This paper names t",
       "url": "https://arxiv.org/abs/2605.20173v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Long-term Power Grid Planning via Answer Set Programming",
-      "summary": "The Power grid is a critical infrastructure underpinning all aspects of modern society and its services. Maintaining its effectiveness requires continuous adaptations. In particular, addressing sustai",
-      "url": "https://arxiv.org/abs/2605.20172v1",
       "tags": [],
       "source": "arXiv"
     }
