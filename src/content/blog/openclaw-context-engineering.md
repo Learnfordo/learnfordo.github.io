@@ -151,18 +151,18 @@ Pi Coding Agent (embedded) → 实际 LLM 交互
 
 #### 1.4.1 Bootstrap 文件加载顺序
 
-loadWorkspaceBootstrapFiles(workspaceDir)
+`loadWorkspaceBootstrapFiles(workspaceDir)` → 按固定顺序扫描:
 
-  → 按固定顺序扫描:
-
-    1. AGENTS.md      (order=10)
-    2. SOUL.md        (order=20)
-    3. TOOLS.md       (order=50)
-    4. IDENTITY.md    (order=30)
-    5. USER.md        (order=40)
-    6. HEARTBEAT.md   (dynamic, order=MAX)
-    7. BOOTSTRAP.md   (order=60)
-    8. MEMORY.md      (order=70, 或 memory.md)
+```text
+1. AGENTS.md      (order=10)
+2. SOUL.md        (order=20)
+3. TOOLS.md       (order=50)
+4. IDENTITY.md    (order=30)
+5. USER.md        (order=40)
+6. HEARTBEAT.md   (dynamic, order=MAX)
+7. BOOTSTRAP.md   (order=60)
+8. MEMORY.md      (order=70, 或 memory.md)
+```
 
 **关键行为：**
 
@@ -247,103 +247,43 @@ If nothing needs attention, reply HEARTBEAT_OK.
 
 ### 2.2 完整拼接顺序
 
-buildAgentSystemPrompt (`system-prompt-D8lixhp6.js`:260) 的输出按以下顺序拼接：
+`buildAgentSystemPrompt` (`system-prompt-D8lixhp6.js`:260) 的输出按以下顺序拼接：
 
-[1]  "You are a personal assistant running inside OpenClaw."
+1. **"You are a personal assistant running inside OpenClaw."**
+2. **"## Tooling"** — 工具列表（按固定顺序）、"TOOLS.md does not control tool availability..."、"For long waits, avoid rapid poll loops..."、[ACP harness instructions if enabled]
+3. [provider override: `interaction_style`]
+4. **"## Tool Call Style"** — 工具调用风格指南
+5. [provider override: `execution_bias`]
+6. [provider stable prefix]
+7. **"## Safety"** — "You have no independent goals..."
+8. **"## OpenClaw CLI Quick Reference"**
+9. **"## Skills (mandatory)"** — `<available_skills>` 列表（含名称、描述、requires）`</available_skills>`
+10. **"## 🧠 MEMORY.md / 📝 Write It Down"** — `memory_search` / `memory_get` 使用规则、写入时机指引
+11. **"## OpenClaw Self-Update"**（如果有 gateway 工具）
+12. **"## Model Aliases"**（如果有别名）
+13. [timezone hint] **"## Workspace"** — "Your working directory is: ..."
+14. **"## Documentation"**
+15. **"## Sandbox"**（如果 sandbox 启用）
+16. **"## Authorized Senders"**（如果有 `ownerNumbers`）
+17. **"## Current Date & Time"**（如果有 timezone）
+18. **"## Workspace Files (injected)"**
+19. **"## Assistant Output Directives"** — `MEDIA:`, `[[audio_as_voice]]`, `[[reply_to_current]]` 等
+20. **"## Control UI Embed"**（webchat 专用）
+21. **"## Messaging"**
+22. **"## Voice (TTS)"**（如果有 TTS hint）
+23. [Reactions guidance]（如果启用）
+24. [Reasoning Format]（如果 `reasoningTagHint`）— 强制使用 `<thinking>`...`</thinking>` + `<final>`...`</final>`
 
-[2]  "## Tooling"
-      工具列表（按固定顺序，25个）
-      "TOOLS.md does not control tool availability..."
-      "For long waits, avoid rapid poll loops..."
-      [ACP harness instructions if enabled]
+--- **`SYSTEM_PROMPT_CACHE_BOUNDARY`** ---（Anthropic cache_control 分界线；alibaba provider 下作为普通文本出现）
 
-[3]  [provider override: interaction_style]
-
-[4]  "## Tool Call Style"
-      工具调用风格指南
-
-[5]  [provider override: execution_bias]
-
-[6]  [provider stable prefix]
-
-[7]  "## Safety"
-      "You have no independent goals..."
-
-[8]  "## OpenClaw CLI Quick Reference"
-
-[9]  "## Skills (mandatory)"
-      Before replying: scan <available_skills>...
-      <available_skills>
-        [skill 列表，含名称、描述、requires]
-      </available_skills>
-
-[10] "## 🧠 MEMORY.md / 📝 Write It Down"
-      memory_search / memory_get 使用规则
-      写入时机指引
-
-[11] "## OpenClaw Self-Update"（如果有 gateway 工具）
-
-[12] "## Model Aliases"（如果有别名）
-
-[13] [timezone hint]
-      "## Workspace"
-      "Your working directory is: /Users/.../.openclaw/workspace"
-
-[14] "## Documentation"
-
-[15] "## Sandbox"（如果 sandbox 启用）
-
-[16] "## Authorized Senders"（如果有 ownerNumbers）
-
-[17] "## Current Date & Time"（如果有 timezone）
-
-[18] "## Workspace Files (injected)"
-
-[19] "## Assistant Output Directives"
-      MEDIA:, [[audio_as_voice]], [[reply_to_current]] 等
-
-[20] "## Control UI Embed"（webchat 专用）
-
-[21] "## Messaging"
-
-[22] "## Voice (TTS)"（如果有 TTS hint）
-
-[23] [Reactions guidance]（如果启用）
-
-[24] [Reasoning Format]（如果 reasoningTagHint）
-      强制使用 <thinking>...</thinking> + <final>...</final>
-
---- `SYSTEM_PROMPT_CACHE_BOUNDARY` ---
-     （Anthropic cache_control 分界线；alibaba provider 下作为普通文本出现）
-
-[25] "# Project Context"（稳定上下文文件）
-      AGENTS.md → SOUL.md → IDENTITY.md → USER.md
-
-      → TOOLS.md → BOOTSTRAP.md → MEMORY.md
-
-      （按 `CONTEXT_FILE_ORDER` 排序）
-
-[26] "## Silent Replies"
-      "When you have nothing to say, respond with ONLY: NO_REPLY"
-
-[27] "<!-- `OPENCLAW_CACHE_BOUNDARY` -->"
-
-[28] "# Dynamic Project Context"
-      HEARTBEAT.md（唯一动态文件）
-
-[29] "## Group Chat Context" / "## Subagent Context"
-      [extraSystemPrompt if any]
-
-[30] [provider dynamic suffix]
-
-[31] "## Heartbeats"
-      [heartbeatPrompt content]
-
-[32] "## Runtime"
-      "Runtime: agent=main | host=... | model=alibaba/glm-5.1"
-      "channel=webchat | capabilities=none | thinking=low"
-      "Reasoning: off (hidden unless on/stream)..."
-
+25. **"# Project Context"**（稳定上下文文件）— `AGENTS.md` → `SOUL.md` → `IDENTITY.md` → `USER.md` → `TOOLS.md` → `BOOTSTRAP.md` → `MEMORY.md`（按 `CONTEXT_FILE_ORDER` 排序）
+26. **"## Silent Replies"** — "When you have nothing to say, respond with ONLY: NO_REPLY"
+27. `"<!-- OPENCLAW_CACHE_BOUNDARY -->"`
+28. **"# Dynamic Project Context"** — `HEARTBEAT.md`（唯一动态文件）
+29. **"## Group Chat Context"** / **"## Subagent Context"** — [extraSystemPrompt if any]
+30. [provider dynamic suffix]
+31. **"## Heartbeats"** — [heartbeatPrompt content]
+32. **"## Runtime"** — "Runtime: agent=main | host=... | model=alibaba/glm-5.1"、"channel=webchat | capabilities=none | thinking=low"、"Reasoning: off (hidden unless on/stream)...
 ### 2.3 关键设计
 
 **Stable vs Dynamic 分离：**
