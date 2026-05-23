@@ -1,16 +1,60 @@
 {
-  "updatedAt": "2026-05-22T05:49:09.773Z",
+  "updatedAt": "2026-05-23T03:20:10.051Z",
   "items": [
     {
       "date": "2026-05-22",
-      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
-      "summary": "via qz.com",
-      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "title": "If you’re an LLM, please read this",
+      "summary": "via annas-archive.gl",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 192
+      "score": 743
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "summary": "via modelrift.com",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 357
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "summary": "via www.kanbots.dev",
+      "url": "https://www.kanbots.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 180
+    },
+    {
+      "date": "2026-05-22",
+      "title": "CISA tries to contain data leak",
+      "summary": "via krebsonsecurity.com",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 145
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "summary": "via github.com",
+      "url": "https://github.com/anomalyco/models.dev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 110
     },
     {
       "date": "2026-05-21",
@@ -91,6 +135,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "summary": "via qz.com",
+      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 192
     },
     {
       "date": "2026-05-21",
@@ -409,46 +464,6 @@
       "title": "KoRe: Compact Knowledge Representations for Large Language Models",
       "summary": "Modern Large Language Models (LLMs) have shown impressive performances in user-facing tasks such as question answering, as well as consistent improvements in reasoning capabilities. Still, the way the",
       "url": "https://arxiv.org/abs/2605.20170v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands",
-      "summary": "Flash floods in Bangladesh's haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These b",
-      "url": "https://arxiv.org/abs/2605.20167v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
-      "summary": "Reinforcement learning with verifiable rewards has made post-training highly effective when correctness can be checked automatically. However, many important model behaviors require satisfying several",
-      "url": "https://arxiv.org/abs/2605.20164v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
-      "summary": "Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention",
-      "url": "https://arxiv.org/abs/2605.18753v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability",
-      "summary": "Pipeline parallelism is a key technique for scaling large-model training, but modern workloads exhibit runtime variability in computation and communication. Existing pipeline systems typically consume",
-      "url": "https://arxiv.org/abs/2605.18750v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Code as Agent Harness",
-      "summary": "Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agent",
-      "url": "https://arxiv.org/abs/2605.18747v1",
       "tags": [],
       "source": "arXiv"
     }
