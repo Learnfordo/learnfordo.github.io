@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-05-23T05:26:18.622Z",
+  "updatedAt": "2026-05-23T07:23:16.533Z",
   "items": [
-    {
-      "date": "2026-05-23",
-      "title": "Microsoft reports AI is more expensive than paying human employees",
-      "summary": "via fortune.com",
-      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 128
-    },
     {
       "date": "2026-05-22",
       "title": "If you’re an LLM, please read this",
@@ -21,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 759
+      "score": 791
     },
     {
       "date": "2026-05-22",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 370
+      "score": 378
     },
     {
       "date": "2026-05-22",
@@ -43,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 198
+      "score": 208
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "summary": "via www.theverge.com",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 197
     },
     {
       "date": "2026-05-22",
@@ -54,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 168
+      "score": 184
     },
     {
       "date": "2026-05-21",
@@ -135,6 +135,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Microsoft reports AI is more expensive than paying human employees",
+      "summary": "via fortune.com",
+      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 128
     },
     {
       "date": "2026-05-22",
@@ -465,14 +476,6 @@
       "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
       "summary": "Large language models (LLMs) and agentic systems have shown promise for clinical decision support, but existing works largely assume that evidence has already been curated and handed to the model. Rea",
       "url": "https://arxiv.org/abs/2605.20176v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Multi-axis Analysis of Image Manipulation Localization",
-      "summary": "Advanced image editing software enables easy creation of highly convincing image manipulations, which has been made even more accessible in recent years due to advances in generative AI. Manipulated i",
-      "url": "https://arxiv.org/abs/2605.20174v1",
       "tags": [],
       "source": "arXiv"
     }
