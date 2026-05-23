@@ -282,9 +282,12 @@ img { max-width: 100%; display: block; }
   margin-bottom: 20px; font-style: italic;
 }
 .prose img { border-radius: var(--radius-lg); margin: 24px 0; }
+.prose .table-wrapper {
+  overflow-x: auto; margin-bottom: 20px;
+}
 .prose table {
   width: 100%; border-collapse: collapse; margin-bottom: 20px;
-  font-size: 14px; overflow-x: auto; display: block;
+  font-size: 14px;
 }
 .prose thead { background: var(--bg-subtle); }
 .prose th {
