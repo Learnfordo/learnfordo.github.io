@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T07:23:16.533Z",
+  "updatedAt": "2026-05-23T11:44:26.395Z",
   "items": [
     {
       "date": "2026-05-22",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 791
+      "score": 822
     },
     {
       "date": "2026-05-22",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 378
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Open source Kanban desktop app that runs parallel agents on every card",
-      "summary": "via www.kanbots.dev",
-      "url": "https://www.kanbots.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 208
+      "score": 390
     },
     {
       "date": "2026-05-22",
@@ -43,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 197
+      "score": 297
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "summary": "via www.kanbots.dev",
+      "url": "https://www.kanbots.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 226
     },
     {
       "date": "2026-05-22",
@@ -54,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 184
+      "score": 219
     },
     {
       "date": "2026-05-21",
