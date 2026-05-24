@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-24T05:46:23.144Z",
+  "updatedAt": "2026-05-24T15:59:07.670Z",
   "items": [
     {
-      "date": "2026-05-23",
-      "title": "Making deep learning go brrrr from first principles (2022)",
-      "summary": "via horace.io",
-      "url": "https://horace.io/brrr_intro.html",
+      "date": "2026-05-24",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "summary": "via esengine.github.io",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 162
+      "score": 84
     },
     {
       "date": "2026-05-21",
@@ -91,6 +91,17 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "summary": "via horace.io",
+      "url": "https://horace.io/brrr_intro.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 162
     },
     {
       "date": "2026-05-22",
@@ -471,14 +482,6 @@
       "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
       "summary": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-l",
       "url": "https://arxiv.org/abs/2605.20179v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
-      "summary": "Recent advances in vision-language models (VLMs) emphasize long chain-of-thought reasoning; yet, we find that their performance on visual tasks is primarily limited by a lack of visual perception as o",
-      "url": "https://arxiv.org/abs/2605.20177v1",
       "tags": [],
       "source": "arXiv"
     }
