@@ -1,60 +1,16 @@
 {
-  "updatedAt": "2026-05-23T11:44:26.395Z",
+  "updatedAt": "2026-05-24T05:46:23.144Z",
   "items": [
     {
-      "date": "2026-05-22",
-      "title": "If you’re an LLM, please read this",
-      "summary": "via annas-archive.gl",
-      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "date": "2026-05-23",
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "summary": "via horace.io",
+      "url": "https://horace.io/brrr_intro.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 822
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "summary": "via modelrift.com",
-      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 390
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "summary": "via www.theverge.com",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 297
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Open source Kanban desktop app that runs parallel agents on every card",
-      "summary": "via www.kanbots.dev",
-      "url": "https://www.kanbots.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-05-22",
-      "title": "CISA tries to contain data leak",
-      "summary": "via krebsonsecurity.com",
-      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 219
+      "score": 162
     },
     {
       "date": "2026-05-21",
@@ -135,6 +91,61 @@
       "url": "https://arxiv.org/abs/2605.22785v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "If you’re an LLM, please read this",
+      "summary": "via annas-archive.gl",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 822
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "summary": "via modelrift.com",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 390
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "summary": "via www.theverge.com",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 297
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "summary": "via www.kanbots.dev",
+      "url": "https://www.kanbots.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 226
+    },
+    {
+      "date": "2026-05-22",
+      "title": "CISA tries to contain data leak",
+      "summary": "via krebsonsecurity.com",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 219
     },
     {
       "date": "2026-05-23",
@@ -468,14 +479,6 @@
       "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
       "summary": "Recent advances in vision-language models (VLMs) emphasize long chain-of-thought reasoning; yet, we find that their performance on visual tasks is primarily limited by a lack of visual perception as o",
       "url": "https://arxiv.org/abs/2605.20177v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
-      "summary": "Large language models (LLMs) and agentic systems have shown promise for clinical decision support, but existing works largely assume that evidence has already been curated and handed to the model. Rea",
-      "url": "https://arxiv.org/abs/2605.20176v1",
       "tags": [],
       "source": "arXiv"
     }
