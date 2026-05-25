@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T16:41:28.920Z",
+  "updatedAt": "2026-05-25T16:53:46.772Z",
   "items": [
     {
       "date": "2026-05-25",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 123
+      "score": 131
     },
     {
       "date": "2026-05-24",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 635
+      "score": 637
     },
     {
       "date": "2026-05-22",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 75
+      "score": 76
     },
     {
       "date": "2026-05-25",
