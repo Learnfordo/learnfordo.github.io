@@ -103,27 +103,50 @@ img { max-width: 100%; display: block; }
   font-size: 15px; font-weight: 700; color: var(--text-primary);
   letter-spacing: -0.01em;
 }
-.nav-links {
-  display: flex; gap: 28px; align-items: center; position: relative;
+/* Pill-style tab switcher (Claude Code style) */
+.nav-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-subtle);
+  border-radius: 10px;
+  padding: 4px;
+  position: relative;
 }
-.nav-links a {
-  font-size: 13px; color: var(--text-secondary); font-weight: 500;
-  transition: color 0.2s; position: relative; z-index: 1;
-}
-.nav-links a:hover { color: var(--text-primary); opacity: 1; }
-.nav-links a.active { color: var(--text-primary); }
 
-/* Sliding tab indicator (Claude Code style) */
-.nav-indicator {
+.nav-tab {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: color 0.2s ease;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+.nav-tab.active {
+  color: var(--text-primary);
+}
+
+.tab-indicator {
   position: absolute;
-  bottom: -1px;
+  top: 4px;
+  bottom: 4px;
   left: 0;
-  height: 2px;
-  background: var(--accent);
-  border-radius: 1px;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-              width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  background: var(--bg-card);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              width 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
+  z-index: 0;
 }
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .theme-toggle {
@@ -337,8 +360,8 @@ img { max-width: 100%; display: block; }
   /* Nav */
   .nav-inner { padding: 0 12px; height: 50px; }
   .nav-brand { font-size: 13px; flex-shrink: 0; }
-  .nav-links { gap: 6px; flex-shrink: 1; min-width: 0; }
-  .nav-links a { font-size: 12px; padding: 3px 2px; white-space: nowrap; }
+  .nav-tabs { gap: 2px; padding: 3px; flex-shrink: 1; min-width: 0; border-radius: 8px; }
+  .nav-tab { font-size: 12px; padding: 5px 10px; border-radius: 6px; }
   .theme-toggle { width: 30px; height: 30px; flex-shrink: 0; }
 
   /* Hero */
@@ -392,8 +415,8 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 400px) {
   .nav-brand { font-size: 12px; }
-  .nav-links { gap: 4px; }
-  .nav-links a { font-size: 10px; padding: 3px 1px; }
+  .nav-tabs { gap: 1px; padding: 2px; }
+  .nav-tab { font-size: 10px; padding: 4px 7px; }
   .hero h1 { font-size: 24px; }
   .hero .subtitle { font-size: 14px; }
   .post-header h1 { font-size: 21px; }

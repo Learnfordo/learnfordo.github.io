@@ -6,13 +6,13 @@ const path = Astro.url.pathname;
 <nav class="site-nav">
   <div class="nav-inner">
     <a href="/" class="nav-brand">{SITE_TITLE}</a>
-    <div class="nav-links" id="nav-links">
-      <a href="/" class:active={path === '/'}>首页</a>
-      <a href="/blog/" class:active={path.startsWith('/blog/')}>文章</a>
-      <a href="/news/" class:active={path.startsWith('/news/')}>AI 快讯</a>
-      <a href="/papers/" class:active={path.startsWith('/papers/')}>论文库</a>
-      <a href="/about/" class:active={path.startsWith('/about/')}>关于我</a>
-      <span class="nav-indicator" id="nav-indicator"></span>
+    <div class="nav-tabs" id="nav-tabs">
+      <span class="tab-indicator" id="tab-indicator"></span>
+      <a href="/" class="nav-tab" class:active={path === '/'}>首页</a>
+      <a href="/blog/" class="nav-tab" class:active={path.startsWith('/blog/')}>文章</a>
+      <a href="/news/" class="nav-tab" class:active={path.startsWith('/news/')}>AI 快讯</a>
+      <a href="/papers/" class="nav-tab" class:active={path.startsWith('/papers/')}>论文库</a>
+      <a href="/about/" class="nav-tab" class:active={path.startsWith('/about/')}>关于我</a>
     </div>
     <div class="nav-right">
       <button id="theme-toggle" class="theme-toggle" aria-label="切换主题"></button>
@@ -22,47 +22,41 @@ const path = Astro.url.pathname;
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const navContainer = document.getElementById('nav-links');
-    const indicator = document.getElementById('nav-indicator');
-    const links = navContainer?.querySelectorAll('a');
-    if (!navContainer || !indicator || !links) return;
+    const tabs = document.getElementById('nav-tabs');
+    const indicator = document.getElementById('tab-indicator');
+    const links = tabs?.querySelectorAll('a.nav-tab');
+    if (!tabs || !indicator || !links) return;
 
     function moveIndicator(el: HTMLElement, instant = false) {
-      const containerRect = navContainer.getBoundingClientRect();
-      const elRect = el.getBoundingClientRect();
-      const left = elRect.left - containerRect.left;
+      const rect = el.getBoundingClientRect();
+      const parentRect = tabs.getBoundingClientRect();
+      const x = rect.left - parentRect.left;
 
       if (instant) {
         indicator.style.transition = 'none';
       }
-      indicator.style.width = elRect.width + 'px';
-      indicator.style.transform = `translateX(${left}px)`;
+      indicator.style.width = rect.width + 'px';
+      indicator.style.transform = `translateX(${x}px)`;
 
       if (instant) {
-        // Force reflow then restore transition
-        indicator.offsetHeight;
+        indicator.offsetHeight; // force reflow
         indicator.style.transition = '';
       }
     }
 
-    // Position on active tab on load
-    const activeLink = navContainer.querySelector('a.active') as HTMLElement;
+    const activeLink = tabs.querySelector('a.active') as HTMLElement;
     if (activeLink) {
       moveIndicator(activeLink, true);
     }
 
-    // Animate on hover
     links.forEach(link => {
       link.addEventListener('mouseenter', () => {
         moveIndicator(link as HTMLElement);
       });
     });
 
-    // Reset to active on mouse leave
-    navContainer.addEventListener('mouseleave', () => {
-      if (activeLink) {
-        moveIndicator(activeLink);
-      }
+    tabs.addEventListener('mouseleave', () => {
+      if (activeLink) moveIndicator(activeLink);
     });
   });
 </script>
