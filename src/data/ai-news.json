@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-05-25T06:09:43.984Z",
+  "updatedAt": "2026-05-25T15:58:53.292Z",
   "items": [
+    {
+      "date": "2026-05-25",
+      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
+      "summary": "via religionnews.com",
+      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 259
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
+      "summary": "via variety.com",
+      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 114
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "summary": "via krebsonsecurity.com",
+      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
+    },
     {
       "date": "2026-05-24",
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -10,29 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 510
-    },
-    {
-      "date": "2026-05-24",
-      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
-      "summary": "via epoch.ai",
-      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-05-24",
-      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2605.06445",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 211
+      "score": 627
     },
     {
       "date": "2026-05-22",
@@ -113,6 +124,39 @@
       "url": "https://arxiv.org/abs/2605.23883v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "AI errno(2) values",
+      "summary": "via www.netmeister.org",
+      "url": "https://www.netmeister.org/blog/ai-errno.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "summary": "via epoch.ai",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 356
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 211
     },
     {
       "date": "2026-05-21",
@@ -425,41 +469,6 @@
       "url": "https://arxiv.org/abs/2605.21481v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata",
-      "summary": "Visual Question Answering (VQA) benchmarks have largely emphasized perception-based tasks that can be solved from visual content alone. In contrast, many real-world scenarios require external knowledg",
-      "url": "https://arxiv.org/abs/2605.21479v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Is Fixing Schema Graphs Necessary? Full-Resolution Graph Structure Learning for Relational Deep Learning",
-      "summary": "Relational prediction tasks are fundamental in many real-world applications, where data are naturally stored in relational databases (RDBs). Relational Deep Learning (RDL) addresses this problem by mo",
-      "url": "https://arxiv.org/abs/2605.21475v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
-      "summary": "Computer-use agents (CUA) automate tasks specified with natural language such as \"order the cheapest item from Taco Bell\" by generating sequences of calls to tools such as click, type, and scroll on a",
-      "url": "https://arxiv.org/abs/2605.21470v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 952
     }
   ]
 }
