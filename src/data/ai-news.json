@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T16:01:25.286Z",
+  "updatedAt": "2026-05-25T06:09:43.984Z",
   "items": [
     {
       "date": "2026-05-24",
@@ -10,7 +10,109 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 86
+      "score": 510
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "summary": "via epoch.ai",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 356
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 211
+    },
+    {
+      "date": "2026-05-22",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reli",
+      "url": "https://arxiv.org/abs/2605.23904v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "summary": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced ",
+      "url": "https://arxiv.org/abs/2605.23901v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "summary": "Language agents increasingly improve by reusing \\emph{skills} -- structured procedural artifacts distilled from past experience. In particular, \\emph{domain-level} and \\emph{model-generated} skills ar",
+      "url": "https://arxiv.org/abs/2605.23899v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
+      "summary": "Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers ap",
+      "url": "https://arxiv.org/abs/2605.23898v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "summary": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The '",
+      "url": "https://arxiv.org/abs/2605.23897v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
+      "summary": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $μ$P (requires fixed a",
+      "url": "https://arxiv.org/abs/2605.23893v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+      "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computati",
+      "url": "https://arxiv.org/abs/2605.23892v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
+      "summary": "Temporal knowledge-graph data marketplaces face three coupled failures in static designs: stale hybrid index shortcuts reduce recall as edges evolve, stationary Shapley pricing misattributes value aft",
+      "url": "https://arxiv.org/abs/2605.23887v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge",
+      "url": "https://arxiv.org/abs/2605.23885v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "summary": "Despite remarkable progress in Multimodal Large Language Models (MLLMs), these models still struggle with fine-grained understanding tasks. In this work, we propose Procedurally Generated Tasks (PGT),",
+      "url": "https://arxiv.org/abs/2605.23883v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-05-21",
@@ -358,132 +460,6 @@
       ],
       "source": "HN",
       "score": 952
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
-      "summary": "via www.bbc.com",
-      "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 293
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Qian Xuesen: The missile genius America lost and China gained (2025)",
-      "summary": "via www.usni.org",
-      "url": "https://www.usni.org/magazines/naval-history/2025/december/missile-genius-america-lost-and-china-gained",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 153
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Learnings from 100K lines of Rust with AI (2025)",
-      "summary": "via zfhuang99.github.io",
-      "url": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 132
-    },
-    {
-      "date": "2026-05-21",
-      "title": "OpenAI to confidentially file for IPO as soon as Friday",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 52
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Qwen3.7-Max: The Agent Frontier",
-      "summary": "via qwen.ai",
-      "url": "https://qwen.ai/blog?id=qwen3.7",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 637
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Railway Blocked by Google Cloud",
-      "summary": "via status.railway.com",
-      "url": "https://status.railway.com/?date=20260519",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-05-19",
-      "title": "I’ve joined Anthropic",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/karpathy/status/2056753169888334312",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1251
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "summary": "via github.com",
-      "url": "https://github.com/antoinezambelli/forge",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 383
-    },
-    {
-      "date": "2026-05-19",
-      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/advancing-content-provenance/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 245
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Mistral AI acquires Emmi AI",
-      "summary": "via www.emmi.ai",
-      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 214
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Atoms of Thought: Universal EEG Representation Learning with Microstates",
-      "summary": "Learning universal representations from electroencephalogram (EEG) signals is a cutting-edge approach in the field of neuroinformatics and brain-computer interfaces (BCIs). Conventionally, EEG is trea",
-      "url": "https://arxiv.org/abs/2605.20182v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
-      "summary": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-l",
-      "url": "https://arxiv.org/abs/2605.20179v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
