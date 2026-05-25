@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-05-25T16:29:41.174Z",
+  "updatedAt": "2026-05-25T16:34:37.041Z",
   "items": [
-    {
-      "date": "2026-05-25",
-      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
-      "summary": "via religionnews.com",
-      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 320
-    },
     {
       "date": "2026-05-25",
       "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
@@ -21,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 149
+      "score": 152
     },
     {
       "date": "2026-05-25",
@@ -32,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 118
+      "score": 122
     },
     {
       "date": "2026-05-24",
@@ -43,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 633
+      "score": 635
     },
     {
       "date": "2026-05-22",
@@ -135,6 +124,17 @@
       ],
       "source": "HN",
       "score": 75
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
+      "summary": "via religionnews.com",
+      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 320
     },
     {
       "date": "2026-05-24",
