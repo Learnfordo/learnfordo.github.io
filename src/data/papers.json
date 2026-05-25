@@ -592,6 +592,16 @@
     "descriptionCn": "《[2510.14686] xLLM Technical Report – arxiv》— Mistral 发布的最新研究论文。"
   },
   {
+    "title": "[2510.13998] BitNet Distillation – arxiv",
+    "vendor": "Microsoft",
+    "date": "2025-10-15",
+    "arxivId": "2510.13998",
+    "pdfUrl": "https://arxiv.org/pdf/2510.13998",
+    "summary": "Computer Science > Machine Learning\n\narXiv:2510.13998(cs)\n\n[Submitted on 15 Oct 2025]\n\nTitle: BitNet",
+    "tags": [],
+    "descriptionCn": "《[2510.13998] BitNet Distillation – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
     "title": "Kimi K2: Open Agentic Intelligence",
     "vendor": "Moonshot (Kimi)",
     "date": "2025-07-24",
