@@ -56,7 +56,7 @@ const experiences = [
     <div class="wrap">
 
       <!-- About Hero -->
-      <div class="about-hero">
+      <div class="about-hero" data-reveal>
         <div class="about-avatar">
           <img src="/avatar.jpg" alt="高佳强" onerror="this.style.display='none'" />
         </div>
@@ -72,7 +72,7 @@ const experiences = [
       </div>
 
       <!-- About -->
-      <div class="resume-section">
+      <div class="resume-section" data-reveal>
         <h3>关于我</h3>
         <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px;">
           6+ 年 AI 产品经验，专注 LLM 大模型应用与 Agent 平台方向。兼具技术深度与商业落地能力——既理解 Transformer/LLM 底层原理，又能推动产品从 PoC 到规模化变现。
@@ -83,7 +83,7 @@ const experiences = [
       </div>
 
       <!-- Skills -->
-      <div class="resume-section">
+      <div class="resume-section" data-reveal>
         <h3>核心能力</h3>
         <ul style="list-style: none; padding: 0;">
           {skills.map((s) => (
@@ -96,7 +96,7 @@ const experiences = [
       </div>
 
       <!-- Experience -->
-      <div class="resume-section">
+      <div class="resume-section" data-reveal>
         <h3>工作经历</h3>
         {experiences.map((exp) => (
           <div class="exp-item">
@@ -111,7 +111,7 @@ const experiences = [
       </div>
 
       <!-- Links -->
-      <div class="resume-section">
+      <div class="resume-section" data-reveal>
         <h3>更多</h3>
         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
           <a href="https://github.com/Learnfordo" target="_blank" rel="noopener" class="card" style="padding: 14px 20px; display: inline-block; font-size: 14px; font-weight: 500;">
@@ -123,8 +123,66 @@ const experiences = [
         </div>
       </div>
 
+      <!-- FAQ -->
+      <div class="resume-section" data-reveal>
+        <h3>FAQ</h3>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-trigger">
+              你的研究方向是什么？
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>主要聚焦 LLM 应用层与 AI Agent 落地——包括 RAG、Function Call、MCP、Multi-Agent 编排等方向。我会持续输出前沿论文解读和工程实践经验。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger">
+              如何联系你？
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>可以通过邮件 gaojiaqiang_china@163.com 联系我，也可以在 GitHub (@Learnfordo) 或公众号「AI催晨箭」找到我。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger">
+              博客用的技术栈？
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>博客基于 Astro 框架构建，部署在 GitHub Pages。AI 快讯通过自动抓取 arXiv 和 Hacker News 生成，文章均为原创深度解读。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-trigger">
+              是否接受合作或约稿？
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>欢迎 AI 方向的合作与约稿，包括产品咨询、技术分享、论文合作研究等。请通过邮件联系，我会尽快回复。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.faq-trigger').forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const item = trigger.closest('.faq-item');
+          const wasOpen = item.classList.contains('open');
+          // Close all
+          document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+          // Toggle current
+          if (!wasOpen) item.classList.add('open');
+        });
+      });
+    });
+  </script>
 
   <Footer />
 <style is:global>

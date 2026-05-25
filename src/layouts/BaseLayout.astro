@@ -26,6 +26,34 @@ import '../styles/global.css';
     })();
   </script>
   <script>
+    // Scroll-triggered reveal animations + animated heading (Claude Code style)
+    document.addEventListener('DOMContentLoaded', () => {
+      // Split animated headings into word spans
+      document.querySelectorAll('.animated-heading').forEach(heading => {
+        const text = heading.textContent;
+        const words = text.split(/(\s+)/);
+        heading.innerHTML = words.map((w, i) => {
+          if (w.trim() === '') return w;
+          return `<span class="ah-word" style="transition-delay:${i * 0.06}s">${w}</span>`;
+        }).join('');
+      });
+
+      // IntersectionObserver for all reveal types
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('[data-reveal], [data-reveal-stagger], .animated-heading').forEach(el => {
+        observer.observe(el);
+      });
+    });
+  </script>
+  <script>
     const btn = document.getElementById('theme-toggle');
     if (btn) {
       function updateIcon() {
