@@ -103,16 +103,27 @@ img { max-width: 100%; display: block; }
   font-size: 15px; font-weight: 700; color: var(--text-primary);
   letter-spacing: -0.01em;
 }
-.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-links {
+  display: flex; gap: 28px; align-items: center; position: relative;
+}
 .nav-links a {
   font-size: 13px; color: var(--text-secondary); font-weight: 500;
-  transition: color 0.2s; position: relative;
+  transition: color 0.2s; position: relative; z-index: 1;
 }
 .nav-links a:hover { color: var(--text-primary); opacity: 1; }
 .nav-links a.active { color: var(--text-primary); }
-.nav-links a.active::after {
-  content: ''; position: absolute; bottom: -18px; left: 0; right: 0;
-  height: 2px; background: var(--accent); border-radius: 1px;
+
+/* Sliding tab indicator (Claude Code style) */
+.nav-indicator {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
 }
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .theme-toggle {
@@ -328,7 +339,6 @@ img { max-width: 100%; display: block; }
   .nav-brand { font-size: 13px; flex-shrink: 0; }
   .nav-links { gap: 6px; flex-shrink: 1; min-width: 0; }
   .nav-links a { font-size: 12px; padding: 3px 2px; white-space: nowrap; }
-  .nav-links a.active::after { bottom: -15px; }
   .theme-toggle { width: 30px; height: 30px; flex-shrink: 0; }
 
   /* Hero */
