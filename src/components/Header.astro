@@ -48,15 +48,5 @@ const path = Astro.url.pathname;
     if (activeLink) {
       moveIndicator(activeLink, true);
     }
-
-    links.forEach(link => {
-      link.addEventListener('mouseenter', () => {
-        moveIndicator(link as HTMLElement);
-      });
-    });
-
-    tabs.addEventListener('mouseleave', () => {
-      if (activeLink) moveIndicator(activeLink);
-    });
   });
 </script>
