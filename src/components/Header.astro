@@ -8,11 +8,11 @@ const path = Astro.url.pathname;
     <a href="/" class="nav-brand">{SITE_TITLE}</a>
     <div class="nav-tabs" id="nav-tabs">
       <span class="tab-indicator" id="tab-indicator"></span>
-      <a href="/" class="nav-tab" class:active={path === '/'}>首页</a>
-      <a href="/blog/" class="nav-tab" class:active={path.startsWith('/blog/')}>文章</a>
-      <a href="/news/" class="nav-tab" class:active={path.startsWith('/news/')}>AI 快讯</a>
-      <a href="/papers/" class="nav-tab" class:active={path.startsWith('/papers/')}>论文库</a>
-      <a href="/about/" class="nav-tab" class:active={path.startsWith('/about/')}>关于我</a>
+      <a href="/" class:list={['nav-tab', { active: path === '/' }]}>首页</a>
+      <a href="/blog/" class:list={['nav-tab', { active: path.startsWith('/blog/') }]}>文章</a>
+      <a href="/news/" class:list={['nav-tab', { active: path.startsWith('/news/') }]}>AI 快讯</a>
+      <a href="/papers/" class:list={['nav-tab', { active: path.startsWith('/papers/') }]}>论文库</a>
+      <a href="/about/" class:list={['nav-tab', { active: path.startsWith('/about/') }]}>关于我</a>
     </div>
     <div class="nav-right">
       <button id="theme-toggle" class="theme-toggle" aria-label="切换主题"></button>
