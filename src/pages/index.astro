@@ -30,7 +30,20 @@ try {
         <span class="dot"></span>
         <span>AI 产品经理 · 7年经验</span>
       </div>
-      <h1>你好，我是 <span class="gradient-text">高佳强</span></h1>
+      <h1 class="hero-title">
+        你好，我是
+        <span class="rotating-word-wrapper">
+          <span class="rotating-word gradient-text active">高佳强</span>
+          <span class="rotating-word gradient-text">AI产品经理</span>
+          <span class="rotating-word gradient-text">LLM研究者</span>
+          <span class="rotating-word gradient-text">Agent实践者</span>
+          <span class="rotating-word gradient-text">技术博主</span>
+          <span class="rotating-word gradient-text">代码探索者</span>
+        </span>
+        <svg class="hero-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </h1>
       <p class="subtitle">
         聚焦 LLM 应用与 AI Agent 落地，记录 AI 行业前沿思考与研究报告。
       </p>
@@ -120,3 +133,114 @@ try {
 
   <Footer />
 </BaseLayout>
+
+<style>
+  /* Rotating word carousel (Claude Code style) */
+  .hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .rotating-word-wrapper {
+    position: relative;
+    display: inline-block;
+    min-width: 4em;
+    height: 1.15em;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+
+  .rotating-word {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+                opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .rotating-word.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .rotating-word.exit-up {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  .hero-arrow {
+    width: 40px;
+    height: 40px;
+    color: var(--accent);
+    opacity: 0.6;
+    flex-shrink: 0;
+    transition: opacity 0.3s;
+  }
+
+  .hero-title:hover .hero-arrow {
+    opacity: 1;
+  }
+
+  @media (max-width: 700px) {
+    .hero-title {
+      gap: 10px;
+      font-size: 28px;
+    }
+    .hero-arrow {
+      width: 28px;
+      height: 28px;
+    }
+    .rotating-word-wrapper {
+      height: 1.2em;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const words = document.querySelectorAll('.rotating-word');
+    if (words.length <= 1) return;
+
+    let current = 0;
+    const total = words.length;
+    const INTERVAL = 2500;
+
+    function rotate() {
+      const currentWord = words[current];
+      const nextIdx = (current + 1) % total;
+      const nextWord = words[nextIdx];
+
+      // Exit current word upward
+      currentWord.classList.remove('active');
+      currentWord.classList.add('exit-up');
+
+      // Prepare next word below
+      nextWord.classList.remove('exit-up');
+      nextWord.style.transform = 'translateY(100%)';
+      nextWord.style.opacity = '0';
+
+      // Small delay then slide next word up
+      setTimeout(() => {
+        currentWord.classList.remove('exit-up');
+        currentWord.style.transform = 'translateY(100%)';
+        currentWord.style.opacity = '0';
+
+        nextWord.classList.add('active');
+        nextWord.style.transform = '';
+        nextWord.style.opacity = '';
+        current = nextIdx;
+      }, 80);
+    }
+
+    setInterval(rotate, INTERVAL);
+  });
+</script>
