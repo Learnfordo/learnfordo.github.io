@@ -147,10 +147,10 @@ try {
   .rotating-word-wrapper {
     position: relative;
     display: inline-block;
-    min-width: 4em;
     height: 1.15em;
     overflow: hidden;
     vertical-align: bottom;
+    transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .rotating-word {
@@ -207,8 +207,30 @@ try {
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const wrapper = document.querySelector('.rotating-word-wrapper');
     const words = document.querySelectorAll('.rotating-word');
-    if (words.length <= 1) return;
+    if (!wrapper || words.length <= 1) return;
+
+    // Measure each word's natural width and set wrapper to the widest
+    function updateWrapperWidth() {
+      let maxWidth = 0;
+      words.forEach(w => {
+        // Temporarily make visible to measure
+        const origDisplay = w.style.display;
+        const origPosition = w.style.position;
+        const origVisibility = w.style.visibility;
+        w.style.display = 'inline-block';
+        w.style.position = 'static';
+        w.style.visibility = 'hidden';
+        const width = w.offsetWidth;
+        w.style.display = origDisplay;
+        w.style.position = origPosition;
+        w.style.visibility = origVisibility;
+        if (width > maxWidth) maxWidth = width;
+      });
+      wrapper.style.width = maxWidth + 'px';
+    }
+    updateWrapperWidth();
 
     let current = 0;
     const total = words.length;
