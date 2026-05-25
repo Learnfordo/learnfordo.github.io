@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-05-25T16:34:37.041Z",
+  "updatedAt": "2026-05-25T16:38:36.216Z",
   "items": [
-    {
-      "date": "2026-05-25",
-      "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
-      "summary": "via variety.com",
-      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 152
-    },
     {
       "date": "2026-05-25",
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -124,6 +113,17 @@
       ],
       "source": "HN",
       "score": 75
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
+      "summary": "via variety.com",
+      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 152
     },
     {
       "date": "2026-05-25",
