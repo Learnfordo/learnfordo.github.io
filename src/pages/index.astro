@@ -160,7 +160,7 @@ try {
     width: 100%;
     text-align: left;
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateX(100%);
     transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
                 opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     white-space: nowrap;
@@ -169,12 +169,12 @@ try {
 
   .rotating-word.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 
-  .rotating-word.exit-up {
+  .rotating-word.exit-left {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
   }
 
   .hero-arrow {
@@ -219,19 +219,19 @@ try {
       const nextIdx = (current + 1) % total;
       const nextWord = words[nextIdx];
 
-      // Exit current word upward
+      // Exit current word to the left
       currentWord.classList.remove('active');
-      currentWord.classList.add('exit-up');
+      currentWord.classList.add('exit-left');
 
-      // Prepare next word below
-      nextWord.classList.remove('exit-up');
-      nextWord.style.transform = 'translateY(100%)';
+      // Prepare next word from the right
+      nextWord.classList.remove('exit-left');
+      nextWord.style.transform = 'translateX(100%)';
       nextWord.style.opacity = '0';
 
-      // Small delay then slide next word up
+      // Small delay then slide next word in from right
       setTimeout(() => {
-        currentWord.classList.remove('exit-up');
-        currentWord.style.transform = 'translateY(100%)';
+        currentWord.classList.remove('exit-left');
+        currentWord.style.transform = 'translateX(100%)';
         currentWord.style.opacity = '0';
 
         nextWord.classList.add('active');
