@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-05-27T04:12:17.983Z",
+  "updatedAt": "2026-05-27T06:01:46.563Z",
   "items": [
+    {
+      "date": "2026-05-26",
+      "title": "Algorithmic Monocultures in Hiring",
+      "summary": "Many employers screen job applicants with algorithms built by the same few algorithm vendors. We hypothesize that algorithmic monoculture leads to the same individuals and members of the same racial g",
+      "url": "https://arxiv.org/abs/2605.27371v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "summary": "Large language model (LLM) agents rely on reusable skills to solve complex tasks. However, existing skill creation approaches treat skills as isolated and static artifacts, limiting their reusability,",
+      "url": "https://arxiv.org/abs/2605.27366v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "summary": "Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded l",
+      "url": "https://arxiv.org/abs/2605.27365v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Natural Language Query to Configuration for Retrieval Agents",
+      "summary": "Modern retrieval agents expose many configuration choices -- LLM, retriever, number of documents, number of hops, and synthesis strategy -- each shaping both answer quality and serving cost. Today, th",
+      "url": "https://arxiv.org/abs/2605.27361v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+      "summary": "Cellular research and development (R&amp;D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or ",
+      "url": "https://arxiv.org/abs/2605.27360v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+      "summary": "Mixture-of-Experts (MoE) has become the de facto architecture for hundred-billion-parameter language models, yet its advantages at sub-billion scales for on-device deployment remain largely unexplored",
+      "url": "https://arxiv.org/abs/2605.27358v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "summary": "Reinforcement Learning from Human Feedback (RLHF) is the standard method to align Large Language Models (LLMs) with human preferences. In this work, we introduce alignment tampering, a potential vulne",
+      "url": "https://arxiv.org/abs/2605.27355v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "summary": "Model internals encode rich information about how a large language model (LLM) processes its training data; however, post-training data engineering largely relies on external signals and ignores rich ",
+      "url": "https://arxiv.org/abs/2605.27354v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "From Scores to Gibbs Correctors: Accelerating Uniform-Rate Discrete Diffusion Models",
+      "summary": "Discrete diffusion models have achieved strong empirical performance in text and other symbolic domains, but, especially for uniform-rate models, they often require many steps to generate a single sam",
+      "url": "https://arxiv.org/abs/2605.27352v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "When Eyes Betray AI: Social Gaze Consistency as a Semantic Cue for AI-Generated Image Detection",
+      "summary": "Recent generative models have largely closed the gap on low-level artifacts - pixel fingerprints, frequency anomalies, upsampling traces - particularly in person-centric and partial-edit settings wher",
+      "url": "https://arxiv.org/abs/2605.27348v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-05-26",
       "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
@@ -10,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 818
+      "score": 851
     },
     {
       "date": "2026-05-26",
@@ -21,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 262
+      "score": 270
     },
     {
       "date": "2026-05-22",
@@ -32,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 195
+      "score": 207
     },
     {
       "date": "2026-05-25",
@@ -362,104 +442,6 @@
       "url": "https://arxiv.org/abs/2605.22795v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
-      "summary": "Autonomous agentic systems are largely static after deployment: they do not learn from user interactions, and recurring failures persist until the next human-driven update ships a fix. Self-evolving a",
-      "url": "https://arxiv.org/abs/2605.22794v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
-      "summary": "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just",
-      "url": "https://arxiv.org/abs/2605.22791v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
-      "summary": "Large language model (LLM)-based multi-agent systems increasingly rely on intermediate communication to coordinate complex tasks. While most existing systems communicate through natural language, rece",
-      "url": "https://arxiv.org/abs/2605.22786v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Evaluating Commercial AI Chatbots as News Intermediaries",
-      "summary": "AI chatbots are rapidly shaping how people encounter the news, yet no prior study has systematically measured how accurately these systems, with their proprietary search integrations and retrieval-syn",
-      "url": "https://arxiv.org/abs/2605.22785v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-23",
-      "title": "Making deep learning go brrrr from first principles (2022)",
-      "summary": "via horace.io",
-      "url": "https://horace.io/brrr_intro.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
-    },
-    {
-      "date": "2026-05-22",
-      "title": "If you’re an LLM, please read this",
-      "summary": "via annas-archive.gl",
-      "url": "https://annas-archive.gl/blog/llms-txt.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 822
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "summary": "via modelrift.com",
-      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 390
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "summary": "via www.theverge.com",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 297
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Open source Kanban desktop app that runs parallel agents on every card",
-      "summary": "via www.kanbots.dev",
-      "url": "https://www.kanbots.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-05-22",
-      "title": "CISA tries to contain data leak",
-      "summary": "via krebsonsecurity.com",
-      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 219
     }
   ]
 }
