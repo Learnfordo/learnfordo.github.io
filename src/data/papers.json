@@ -672,6 +672,16 @@
     "descriptionCn": "《[2412.19437] DeepSeek-V3 Technical Report – arxiv》— 深度求索最新研究，持续推动开源高效模型边界。"
   },
   {
+    "title": "[2501.15368] Baichuan-Omni-1.5 Technical Report – arxiv",
+    "vendor": "Microsoft",
+    "date": "2025-01-26",
+    "arxivId": "2501.15368",
+    "pdfUrl": "https://arxiv.org/pdf/2501.15368",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2501.15368(cs)\n\n[Submitted on 26 Jan 2025]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2501.15368] Baichuan-Omni-1.5 Technical Report – arxiv》— Microsoft 发布的最新研究论文。"
+  },
+  {
     "title": "Qwen2.5 Technical Report",
     "vendor": "阿里 (Qwen)",
     "date": "2025-01-23",
