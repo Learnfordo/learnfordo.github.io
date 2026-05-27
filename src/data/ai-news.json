@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-05-26T05:50:02.312Z",
+  "updatedAt": "2026-05-27T04:12:17.983Z",
   "items": [
+    {
+      "date": "2026-05-26",
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 818
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
+      "summary": "via www.signalbloom.ai",
+      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 262
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Use boring languages with LLMs",
+      "summary": "via jry.io",
+      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 195
+    },
     {
       "date": "2026-05-25",
       "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 219
-    },
-    {
-      "date": "2026-05-23",
-      "title": "Microsoft reports AI is more expensive than paying human employees",
-      "summary": "via fortune.com",
-      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 128
-    },
-    {
-      "date": "2026-05-22",
-      "title": "I’m writing again",
-      "summary": "via www.cringely.com",
-      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-05-23",
-      "title": "Is AI Profitable Yet?",
-      "summary": "via isaiprofitable.com",
-      "url": "https://isaiprofitable.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 186
     }
   ]
 }
