@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-28T04:36:02.004Z",
+  "updatedAt": "2026-05-28T05:58:23.918Z",
   "items": [
     {
       "date": "2026-05-27",
@@ -83,17 +83,6 @@
     },
     {
       "date": "2026-05-27",
-      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
-      "summary": "via www.pcgamer.com",
-      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 723
-    },
-    {
-      "date": "2026-05-27",
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "summary": "via simonwillison.net",
       "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
@@ -101,7 +90,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 710
+      "score": 760
+    },
+    {
+      "date": "2026-05-27",
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "summary": "via www.pcgamer.com",
+      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 759
     },
     {
       "date": "2026-05-27",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 625
+      "score": 715
     },
     {
       "date": "2026-05-27",
@@ -123,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 119
+      "score": 132
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2510.04950",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
     },
     {
       "date": "2026-05-26",
@@ -429,14 +440,6 @@
       "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
       "summary": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $μ$P (requires fixed a",
       "url": "https://arxiv.org/abs/2605.23893v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
-      "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computati",
-      "url": "https://arxiv.org/abs/2605.23892v1",
       "tags": [],
       "source": "arXiv"
     }
