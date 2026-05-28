@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-05-27T07:29:41.636Z",
+  "updatedAt": "2026-05-28T04:36:02.004Z",
   "items": [
+    {
+      "date": "2026-05-27",
+      "title": "PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective",
+      "summary": "Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pret",
+      "url": "https://arxiv.org/abs/2605.28819v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+      "summary": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more ",
+      "url": "https://arxiv.org/abs/2605.28818v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "summary": "Search has been proposed as an effective method for self-improving language models and agentic systems, both for post-training sample generation and for inference. However, widely used methods such as",
+      "url": "https://arxiv.org/abs/2605.28814v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+      "summary": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prev",
+      "url": "https://arxiv.org/abs/2605.28812v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Affective Music Recommendation: A Rollout-Based World Model for Offline Preference Optimization",
+      "summary": "Functional music applications, from consumer focus and sleep aids to clinical interventions, share a distinctive recommendation problem: success is defined by the listener's affective state, but onlin",
+      "url": "https://arxiv.org/abs/2605.28810v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "AREA: Attribute Extraction and Aggregation for CLIP-Based Class-Incremental Learning",
+      "summary": "Class-Incremental Learning (CIL) is important in building real-world learning systems. In CLIP-based CIL, the model performs classification by comparing similarity between visual and textual embedding",
+      "url": "https://arxiv.org/abs/2605.28809v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Calibrating Conservatism for Scalable Oversight",
+      "summary": "Agentic AI systems capable of autonomous planning and extended environmental interaction pose a fundamental control problem: how can humans maintain meaningful oversight of systems that may exceed the",
+      "url": "https://arxiv.org/abs/2605.28807v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+      "summary": "Long-term memory is increasingly important for personalized AI agents, yet existing benchmarks and methods remain largely text-centric. Even when images are included, the user-specific information nee",
+      "url": "https://arxiv.org/abs/2605.28806v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "summary": "Visual outcomes are increasingly central to multimodal large language models, making reliable and fine-grained verification essential for scaling generalist foundation models. In this work, we investi",
+      "url": "https://arxiv.org/abs/2605.28805v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Ω-QVLA: Robust Quantization for Vision-Language-Action Models via Composite Rotation and Per-step Scaling",
+      "summary": "Vision-Language-Action (VLA) models unify perception, reasoning, and control within a single policy, yet their multi-billion-parameter backbones and diffusion-based action heads make on-device deploym",
+      "url": "https://arxiv.org/abs/2605.28803v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "summary": "via www.pcgamer.com",
+      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 723
+    },
+    {
+      "date": "2026-05-27",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 710
+    },
+    {
+      "date": "2026-05-27",
+      "title": "YouTube to automatically label AI-generated videos",
+      "summary": "via blog.youtube",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 625
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Rust (and Slint) on a Jailbroken Kindle",
+      "summary": "via sverre.me",
+      "url": "https://sverre.me/blog/rust-on-kindle/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
     {
       "date": "2026-05-26",
       "title": "Algorithmic Monocultures in Hiring",
@@ -313,133 +437,6 @@
       "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
       "summary": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computati",
       "url": "https://arxiv.org/abs/2605.23892v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
-      "summary": "Temporal knowledge-graph data marketplaces face three coupled failures in static designs: stale hybrid index shortcuts reduce recall as edges evolve, stationary Shapley pricing misattributes value aft",
-      "url": "https://arxiv.org/abs/2605.23887v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
-      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge",
-      "url": "https://arxiv.org/abs/2605.23885v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
-      "summary": "Despite remarkable progress in Multimodal Large Language Models (MLLMs), these models still struggle with fine-grained understanding tasks. In this work, we propose Procedurally Generated Tasks (PGT),",
-      "url": "https://arxiv.org/abs/2605.23883v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "AI errno(2) values",
-      "summary": "via www.netmeister.org",
-      "url": "https://www.netmeister.org/blog/ai-errno.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 76
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\"",
-      "summary": "via variety.com",
-      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 152
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
-      "summary": "via religionnews.com",
-      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 320
-    },
-    {
-      "date": "2026-05-24",
-      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
-      "summary": "via epoch.ai",
-      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-05-24",
-      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2605.06445",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 211
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Tokenisation via Convex Relaxations",
-      "summary": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering t",
-      "url": "https://arxiv.org/abs/2605.22821v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Integrable Elasticity via Neural Demand Potentials",
-      "summary": "We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of ",
-      "url": "https://arxiv.org/abs/2605.22820v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
-      "summary": "Language models must now generalize out of the box to novel environments and work inside inference-scaling search procedures, such as AlphaEvolve, that select rollouts with a variety of task-specific ",
-      "url": "https://arxiv.org/abs/2605.22817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
-      "summary": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrin",
-      "url": "https://arxiv.org/abs/2605.22814v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
-      "summary": "Robustness, domain adaptation, photometric and occlusion invariance, compositional generalisation, temporal robustness, alignment safety, and classical anisotropic regularisation are usually treated a",
-      "url": "https://arxiv.org/abs/2605.22800v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models",
-      "summary": "We propose and analyze a conservative drifting method for one-step generative modeling. The method replaces the original displacement-based drifting velocity by a kernel density estimator (KDE)-gradie",
-      "url": "https://arxiv.org/abs/2605.22795v1",
       "tags": [],
       "source": "arXiv"
     }
