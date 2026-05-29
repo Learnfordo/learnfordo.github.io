@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-28T05:58:23.918Z",
+  "updatedAt": "2026-05-29T04:34:34.389Z",
   "items": [
+    {
+      "date": "2026-05-28",
+      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 s",
+      "url": "https://arxiv.org/abs/2605.30353v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "summary": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their po",
+      "url": "https://arxiv.org/abs/2605.30351v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+      "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recog",
+      "url": "https://arxiv.org/abs/2605.30350v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making",
+      "url": "https://arxiv.org/abs/2605.30348v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+      "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB s",
+      "url": "https://arxiv.org/abs/2605.30345v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Tiny but Trusted: Efficient Vision-Language Reasoning for Time-Series Anomaly Detection",
+      "summary": "Recent advances in Vision-Language Models (VLMs) have achieved impressive performance across many tasks, yet prior studies report unsatisfactory performance when applying large language or multimodal ",
+      "url": "https://arxiv.org/abs/2605.30344v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
+      "summary": "To improve the reasoning capabilities of large language models, test-time compute is typically scaled by generating intermediate tokens before the final answer. However, this couples reasoning to auto",
+      "url": "https://arxiv.org/abs/2605.30343v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "GPIC: A Giant Permissive Image Corpus for Visual Generation",
+      "summary": "Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC c",
+      "url": "https://arxiv.org/abs/2605.30341v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
+      "summary": "Test-time finetuning (TTFT) is a rapidly evolving paradigm that adapts a language model to each prompt by retrieving related sequences, updating the model on them, and then evaluating the prompt. Howe",
+      "url": "https://arxiv.org/abs/2605.30337v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
+      "summary": "Federated learning is an emerging distributed paradigm that addresses the challenges posed by heterogeneous, privacy-sensitive data. It enables multiple clients to train a model collaboratively by agg",
+      "url": "https://arxiv.org/abs/2605.30336v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Claude Opus 4.8",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1324
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/series-h",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 295
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "summary": "via llmgame.scalex.dev",
+      "url": "https://llmgame.scalex.dev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 271
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Various LLM Smells",
+      "summary": "via shvbsle.in",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 262
+    },
+    {
+      "date": "2026-05-28",
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "summary": "via sfstandard.com",
+      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 138
+    },
     {
       "date": "2026-05-27",
       "title": "PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective",
@@ -302,144 +437,6 @@
       "title": "Language Models Need Sleep",
       "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consol",
       "url": "https://arxiv.org/abs/2605.26099v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Forgetting in Language Models: Capacity, Optimization, and Self-Generated Replay",
-      "summary": "Models trained on a new task typically degrade on prior tasks, a phenomenon known as forgetting. Traditionally, mitigating forgetting has required replaying stored exemplars from prior tasks, which is",
-      "url": "https://arxiv.org/abs/2605.26097v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Goal-driven Bayesian Optimal Experimental Design for Robust Decision-Making Under Model Uncertainty",
-      "summary": "Bayesian optimal experimental design (BOED) selects experiments to maximize information gain about model parameters. However, in decision-critical settings, reducing parameter uncertainty does not nec",
-      "url": "https://arxiv.org/abs/2605.26093v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "OrpQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
-      "summary": "The deployment of Large Language Models (LLMs) and Vision Transformers (ViTs) on edge devices is significantly constrained by memory limitations and the critical timing bottlenecks introduced by dense",
-      "url": "https://arxiv.org/abs/2605.26092v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Using AI to write better code more slowly",
-      "summary": "via nolanlawson.com",
-      "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 393
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
-      "summary": "via www.blocksandfiles.com",
-      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 222
-    },
-    {
-      "date": "2026-05-25",
-      "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
-      "summary": "via support.apple.com",
-      "url": "https://support.apple.com/en-us/127115",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Everyone Against Us (2023)",
-      "summary": "via www.chicagomag.com",
-      "url": "https://www.chicagomag.com/chicago-magazine/april-2023/everyone-against-us/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 61
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "summary": "via krebsonsecurity.com",
-      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 131
-    },
-    {
-      "date": "2026-05-24",
-      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
-      "summary": "via esengine.github.io",
-      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 637
-    },
-    {
-      "date": "2026-05-22",
-      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reli",
-      "url": "https://arxiv.org/abs/2605.23904v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
-      "summary": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced ",
-      "url": "https://arxiv.org/abs/2605.23901v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
-      "summary": "Language agents increasingly improve by reusing \\emph{skills} -- structured procedural artifacts distilled from past experience. In particular, \\emph{domain-level} and \\emph{model-generated} skills ar",
-      "url": "https://arxiv.org/abs/2605.23899v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
-      "summary": "Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers ap",
-      "url": "https://arxiv.org/abs/2605.23898v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
-      "summary": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The '",
-      "url": "https://arxiv.org/abs/2605.23897v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
-      "summary": "We propose Complete-muE, a framework which targets hyperparameter transfer across dense FFN and any Mixture-of-Experts (MoE) setups in transformer blocks. Existing tools such as $μ$P (requires fixed a",
-      "url": "https://arxiv.org/abs/2605.23893v1",
       "tags": [],
       "source": "arXiv"
     }
