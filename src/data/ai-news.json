@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-05-29T05:57:05.320Z",
+  "updatedAt": "2026-05-30T05:33:18.728Z",
   "items": [
+    {
+      "date": "2026-05-29",
+      "title": "Notes from the Mistral AI Now Summit",
+      "summary": "via koenvangilst.nl",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 329
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Is AI causing a repeat of frontend’s lost decade?",
+      "summary": "via mastrojs.github.io",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 312
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+      "summary": "via www.liquid.ai",
+      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 170
+    },
+    {
+      "date": "2026-05-29",
+      "title": "We should be more tired than the model",
+      "summary": "via vickiboykis.com",
+      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 165
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "summary": "via github.com",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
+    },
     {
       "date": "2026-05-28",
       "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
@@ -397,46 +452,6 @@
       "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
       "summary": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation model",
       "url": "https://arxiv.org/abs/2605.26112v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
-      "summary": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference ",
-      "url": "https://arxiv.org/abs/2605.26111v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
-      "summary": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requir",
-      "url": "https://arxiv.org/abs/2605.26110v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Looped Diffusion Language Models",
-      "summary": "Masked diffusion models (MDMs) have emerged as a promising alternative to autoregressive models for language modeling, yet the effective design of transformer architectures for MDMs remains underexplo",
-      "url": "https://arxiv.org/abs/2605.26106v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models",
-      "summary": "Code review is a critical practice in software engineering, yet the growing scale and frequency of code patches in modern projects, together with the widespread adoption of AI code assistants, make ma",
-      "url": "https://arxiv.org/abs/2605.26100v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Language Models Need Sleep",
-      "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consol",
-      "url": "https://arxiv.org/abs/2605.26099v1",
       "tags": [],
       "source": "arXiv"
     }
