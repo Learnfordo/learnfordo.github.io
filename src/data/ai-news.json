@@ -1,60 +1,27 @@
 {
-  "updatedAt": "2026-05-30T05:33:18.728Z",
+  "updatedAt": "2026-05-31T06:02:20.378Z",
   "items": [
     {
-      "date": "2026-05-29",
-      "title": "Notes from the Mistral AI Now Summit",
-      "summary": "via koenvangilst.nl",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "date": "2026-05-30",
+      "title": "Domain expertise has always been the real moat",
+      "summary": "via www.brethorsting.com",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 329
+      "score": 429
     },
     {
-      "date": "2026-05-29",
-      "title": "Is AI causing a repeat of frontend’s lost decade?",
-      "summary": "via mastrojs.github.io",
-      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "date": "2026-05-30",
+      "title": "OpenRouter raises $113M Series B",
+      "summary": "via openrouter.ai",
+      "url": "https://openrouter.ai/announcements/series-b",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 312
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
-      "summary": "via www.liquid.ai",
-      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 170
-    },
-    {
-      "date": "2026-05-29",
-      "title": "We should be more tired than the model",
-      "summary": "via vickiboykis.com",
-      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 165
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "summary": "via github.com",
-      "url": "https://github.com/jmaczan/tiny-vllm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
+      "score": 395
     },
     {
       "date": "2026-05-28",
@@ -135,6 +102,83 @@
       "url": "https://arxiv.org/abs/2605.30336v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Racket v9.2 is now available",
+      "summary": "via blog.racket-lang.org",
+      "url": "https://blog.racket-lang.org/2026/05/racket-v9-2.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Navier-Stokes fluid simulation explained with Godot game engine",
+      "summary": "via myzopotamia.dev",
+      "url": "https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 213
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Notes from the Mistral AI Now Summit",
+      "summary": "via koenvangilst.nl",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 329
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Is AI causing a repeat of frontend’s lost decade?",
+      "summary": "via mastrojs.github.io",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 312
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+      "summary": "via www.liquid.ai",
+      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 170
+    },
+    {
+      "date": "2026-05-29",
+      "title": "We should be more tired than the model",
+      "summary": "via vickiboykis.com",
+      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 165
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "summary": "via github.com",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
     },
     {
       "date": "2026-05-28",
@@ -416,44 +460,6 @@
       ],
       "source": "HN",
       "score": 882
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
-      "summary": "via www.signalbloom.ai",
-      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 277
-    },
-    {
-      "date": "2026-05-22",
-      "title": "Use boring languages with LLMs",
-      "summary": "via jry.io",
-      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 207
-    },
-    {
-      "date": "2026-05-25",
-      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
-      "summary": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two cap",
-      "url": "https://arxiv.org/abs/2605.26114v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
-      "summary": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation model",
-      "url": "https://arxiv.org/abs/2605.26112v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
