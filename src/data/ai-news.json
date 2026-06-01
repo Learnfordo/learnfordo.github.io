@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-05-31T11:19:22.739Z",
+  "updatedAt": "2026-06-01T04:19:42.677Z",
   "items": [
+    {
+      "date": "2026-05-31",
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "summary": "via prismml.com",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 318
+    },
+    {
+      "date": "2026-05-31",
+      "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+      "summary": "via simpleflying.com",
+      "url": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 302
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Odysseus – self-hosted AI workspace",
+      "summary": "via github.com",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
+      "date": "2026-05-31",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "summary": "via darylcecile.net",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
+      "summary": "Connector-based video unified models have demonstrated strong capability in instruction-grounded video synthesis, but integrating a large high-fidelity generator into the unified training loop is comp",
+      "url": "https://arxiv.org/abs/2605.31603v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems",
+      "summary": "Diffusion models have shown promising performance as data-driven priors for computational imaging, as well as some capacity to detect out-of-distribution (OOD) images. However, existing approaches to ",
+      "url": "https://arxiv.org/abs/2605.31596v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "A Tight Theory of Error Feedback Algorithms in Distributed Optimization",
+      "summary": "Communication costs are a major bottleneck in distributed learning and first-order optimization. A common approach to alleviate this issue is to compress the gradient information exchanged between age",
+      "url": "https://arxiv.org/abs/2605.31594v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
+      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, spl",
+      "url": "https://arxiv.org/abs/2605.31593v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation",
+      "summary": "Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video dif",
+      "url": "https://arxiv.org/abs/2605.31590v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
+      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if ",
+      "url": "https://arxiv.org/abs/2605.31586v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with ver",
+      "url": "https://arxiv.org/abs/2605.31584v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Choosing the Lens: Strategic Perspective Activation in Context-Dependent Argumentation",
+      "summary": "The same arguments often need to be evaluated under different external regimes. An agent with influence over the regime has a strategic lever that standard formalisms do not directly capture. We intro",
+      "url": "https://arxiv.org/abs/2605.31581v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Giving Sensors a Voice: Multimodal JEPA for Semantic Time-Series Embeddings",
+      "summary": "Transformer-based architectures have advanced sequence modeling in language and vision, yet general-purpose representation learning for heterogeneous multivariate time series remains underexplored. We",
+      "url": "https://arxiv.org/abs/2605.31580v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "SPECTRA: Synthetic IR Test Collections with Relevance Oracles and Controlled Distractor Diagnostics",
+      "summary": "Scalable information retrieval testing needs corpora that are large enough to stress index construction, ranking latency, query routing, and evaluation tooling, yet human-judged test collections remai",
+      "url": "https://arxiv.org/abs/2605.31575v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "What if remote working, not AI, is to blame for weak junior hiring?",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 117
+    },
     {
       "date": "2026-05-30",
       "title": "Domain expertise has always been the real moat",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 760
-    },
-    {
-      "date": "2026-05-27",
-      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
-      "summary": "via www.pcgamer.com",
-      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 759
-    },
-    {
-      "date": "2026-05-27",
-      "title": "YouTube to automatically label AI-generated videos",
-      "summary": "via blog.youtube",
-      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 715
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Rust (and Slint) on a Jailbroken Kindle",
-      "summary": "via sverre.me",
-      "url": "https://sverre.me/blog/rust-on-kindle/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 132
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2510.04950",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 56
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Algorithmic Monocultures in Hiring",
-      "summary": "Many employers screen job applicants with algorithms built by the same few algorithm vendors. We hypothesize that algorithmic monoculture leads to the same individuals and members of the same racial g",
-      "url": "https://arxiv.org/abs/2605.27371v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
-      "summary": "Large language model (LLM) agents rely on reusable skills to solve complex tasks. However, existing skill creation approaches treat skills as isolated and static artifacts, limiting their reusability,",
-      "url": "https://arxiv.org/abs/2605.27366v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
-      "summary": "Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded l",
-      "url": "https://arxiv.org/abs/2605.27365v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Natural Language Query to Configuration for Retrieval Agents",
-      "summary": "Modern retrieval agents expose many configuration choices -- LLM, retriever, number of documents, number of hops, and synthesis strategy -- each shaping both answer quality and serving cost. Today, th",
-      "url": "https://arxiv.org/abs/2605.27361v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
-      "summary": "Cellular research and development (R&amp;D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or ",
-      "url": "https://arxiv.org/abs/2605.27360v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
-      "summary": "Mixture-of-Experts (MoE) has become the de facto architecture for hundred-billion-parameter language models, yet its advantages at sub-billion scales for on-device deployment remain largely unexplored",
-      "url": "https://arxiv.org/abs/2605.27358v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
-      "summary": "Reinforcement Learning from Human Feedback (RLHF) is the standard method to align Large Language Models (LLMs) with human preferences. In this work, we introduce alignment tampering, a potential vulne",
-      "url": "https://arxiv.org/abs/2605.27355v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
-      "summary": "Model internals encode rich information about how a large language model (LLM) processes its training data; however, post-training data engineering largely relies on external signals and ignores rich ",
-      "url": "https://arxiv.org/abs/2605.27354v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "From Scores to Gibbs Correctors: Accelerating Uniform-Rate Discrete Diffusion Models",
-      "summary": "Discrete diffusion models have achieved strong empirical performance in text and other symbolic domains, but, especially for uniform-rate models, they often require many steps to generate a single sam",
-      "url": "https://arxiv.org/abs/2605.27352v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "When Eyes Betray AI: Social Gaze Consistency as a Semantic Cue for AI-Generated Image Detection",
-      "summary": "Recent generative models have largely closed the gap on low-level artifacts - pixel fingerprints, frequency anomalies, upsampling traces - particularly in person-centric and partial-edit settings wher",
-      "url": "https://arxiv.org/abs/2605.27348v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 882
     }
   ]
 }
