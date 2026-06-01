@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T04:19:42.677Z",
+  "updatedAt": "2026-06-01T06:32:39.784Z",
   "items": [
     {
       "date": "2026-05-31",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 318
+      "score": 346
     },
     {
       "date": "2026-05-31",
@@ -21,18 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 302
+      "score": 324
     },
     {
       "date": "2026-05-31",
-      "title": "Odysseus – self-hosted AI workspace",
-      "summary": "via github.com",
-      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "summary": "via www.promptarmor.com",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 133
+      "score": 167
     },
     {
       "date": "2026-05-31",
@@ -43,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 127
+      "score": 142
     },
     {
       "date": "2026-05-29",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 117
+      "score": 141
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Odysseus – self-hosted AI workspace",
+      "summary": "via github.com",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
     },
     {
       "date": "2026-05-30",
@@ -449,17 +460,6 @@
       "url": "https://arxiv.org/abs/2605.28803v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 760
     }
   ]
 }
