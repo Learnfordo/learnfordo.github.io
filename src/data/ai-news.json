@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-01T10:59:08.448Z",
+  "updatedAt": "2026-06-02T04:31:35.809Z",
   "items": [
+    {
+      "date": "2026-06-01",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "summary": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts",
+      "url": "https://arxiv.org/abs/2606.02578v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making ",
+      "url": "https://arxiv.org/abs/2606.02576v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "summary": "Video is temporally redundant: adjacent frames usually share most objects, background, and layout. Yet existing video multimodal large language models (video MLLMs) usually encode each sampled frame a",
+      "url": "https://arxiv.org/abs/2606.02569v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "summary": "Clinical practice is not the selection of an answer from enumerated options: a physician gathers heterogeneous information incrementally and commits to sequential, irreversible decisions under uncerta",
+      "url": "https://arxiv.org/abs/2606.02568v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "summary": "Heterogeneous Differential Privacy (HDP) in Federated Learning (FL) allows clients to select individual privacy budgets ($\\varepsilon_i$) according to institutional policies and data sensitivity. In p",
+      "url": "https://arxiv.org/abs/2606.02563v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
+      "summary": "Autonomous robots that interact with people must make safe and efficient decisions under human-induced uncertainty, such as their preferences, goals, competency, and willingness to cooperate. Safety f",
+      "url": "https://arxiv.org/abs/2606.02562v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "summary": "Post-training compression of Large Language Models (LLMs) removes entire architectural components, either deleting them or replacing them with fitted modules. Existing replacement-based methods share ",
+      "url": "https://arxiv.org/abs/2606.02559v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "HERO'S JOURNEY: Testing Complex Rule Induction with Text Games",
+      "summary": "We introduce HERO'S JOURNEY, a benchmark for rule induction in goal-directed episodic tasks, where agents must infer hidden rules from demonstrations and act on them through multi-step execution. HERO",
+      "url": "https://arxiv.org/abs/2606.02556v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+      "summary": "Despite advances in depth estimation, flying points remain a persistent failure mode: near object boundaries, depth estimators often predict spurious 3D points in the empty space between foreground an",
+      "url": "https://arxiv.org/abs/2606.02552v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
+      "summary": "Word Error Rate (WER) is the dominant metric for automatic speech recognition (ASR), but it can overestimate errors when references and hypotheses encode the same words in different scripts. This issu",
+      "url": "https://arxiv.org/abs/2606.02548v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "CS336: Language Modeling from Scratch",
+      "summary": "via cs336.stanford.edu",
+      "url": "https://cs336.stanford.edu/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 390
+    },
+    {
+      "date": "2026-06-01",
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "summary": "via github.com",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 352
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Florida sues OpenAI and Sam Altman over AI risks",
+      "summary": "via www.politico.com",
+      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 194
+    },
+    {
+      "date": "2026-06-01",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 187
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "summary": "via www.economist.com",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 164
+    },
     {
       "date": "2026-05-31",
       "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 116
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Claude Opus 4.8",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1363
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 310
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
-      "summary": "via llmgame.scalex.dev",
-      "url": "https://llmgame.scalex.dev",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 282
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Various LLM Smells",
-      "summary": "via shvbsle.in",
-      "url": "https://shvbsle.in/various-llm-smells/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 271
-    },
-    {
-      "date": "2026-05-28",
-      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
-      "summary": "via sfstandard.com",
-      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 166
-    },
-    {
-      "date": "2026-05-27",
-      "title": "PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective",
-      "summary": "Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pret",
-      "url": "https://arxiv.org/abs/2605.28819v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
-      "summary": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more ",
-      "url": "https://arxiv.org/abs/2605.28818v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
-      "summary": "Search has been proposed as an effective method for self-improving language models and agentic systems, both for post-training sample generation and for inference. However, widely used methods such as",
-      "url": "https://arxiv.org/abs/2605.28814v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
-      "summary": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prev",
-      "url": "https://arxiv.org/abs/2605.28812v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Affective Music Recommendation: A Rollout-Based World Model for Offline Preference Optimization",
-      "summary": "Functional music applications, from consumer focus and sleep aids to clinical interventions, share a distinctive recommendation problem: success is defined by the listener's affective state, but onlin",
-      "url": "https://arxiv.org/abs/2605.28810v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "AREA: Attribute Extraction and Aggregation for CLIP-Based Class-Incremental Learning",
-      "summary": "Class-Incremental Learning (CIL) is important in building real-world learning systems. In CLIP-based CIL, the model performs classification by comparing similarity between visual and textual embedding",
-      "url": "https://arxiv.org/abs/2605.28809v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Calibrating Conservatism for Scalable Oversight",
-      "summary": "Agentic AI systems capable of autonomous planning and extended environmental interaction pose a fundamental control problem: how can humans maintain meaningful oversight of systems that may exceed the",
-      "url": "https://arxiv.org/abs/2605.28807v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Personal Visual Memory from Explicit and Implicit Evidence",
-      "summary": "Long-term memory is increasingly important for personalized AI agents, yet existing benchmarks and methods remain largely text-centric. Even when images are included, the user-specific information nee",
-      "url": "https://arxiv.org/abs/2605.28806v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
-      "summary": "Visual outcomes are increasingly central to multimodal large language models, making reliable and fine-grained verification essential for scaling generalist foundation models. In this work, we investi",
-      "url": "https://arxiv.org/abs/2605.28805v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Ω-QVLA: Robust Quantization for Vision-Language-Action Models via Composite Rotation and Per-step Scaling",
-      "summary": "Vision-Language-Action (VLA) models unify perception, reasoning, and control within a single policy, yet their multi-billion-parameter backbones and diffusion-based action heads make on-device deploym",
-      "url": "https://arxiv.org/abs/2605.28803v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
