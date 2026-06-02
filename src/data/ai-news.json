@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T04:31:35.809Z",
+  "updatedAt": "2026-06-02T06:21:01.078Z",
   "items": [
     {
       "date": "2026-06-01",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 390
+      "score": 424
     },
     {
       "date": "2026-06-01",
@@ -101,29 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 352
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Florida sues OpenAI and Sam Altman over AI risks",
-      "summary": "via www.politico.com",
-      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 194
-    },
-    {
-      "date": "2026-06-01",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 187
+      "score": 379
     },
     {
       "date": "2026-06-01",
@@ -134,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 164
+      "score": 241
+    },
+    {
+      "date": "2026-06-01",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 220
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Florida sues OpenAI and Sam Altman over AI risks",
+      "summary": "via www.politico.com",
+      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 202
     },
     {
       "date": "2026-05-31",
