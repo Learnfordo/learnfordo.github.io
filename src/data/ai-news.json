@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-06-03T06:31:22.980Z",
+  "updatedAt": "2026-06-03T17:49:57.603Z",
   "items": [
+    {
+      "date": "2026-06-03",
+      "title": "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 257
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 245
+    },
+    {
+      "date": "2026-06-03",
+      "title": "U of T researchers demonstrate AI worm could target any online device",
+      "summary": "via www.utoronto.ca",
+      "url": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 125
+    },
+    {
+      "date": "2026-06-02",
+      "title": "MAI-Code-1-Flash",
+      "summary": "via microsoft.ai",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 519
+    },
     {
       "date": "2026-06-02",
       "title": "Neuron Populations Exhibit Divergent Selectivity with Scale",
@@ -91,17 +135,6 @@
       ],
       "source": "HN",
       "score": 801
-    },
-    {
-      "date": "2026-06-02",
-      "title": "MAI-Code-1-Flash",
-      "summary": "via microsoft.ai",
-      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 441
     },
     {
       "date": "2026-06-02",
@@ -427,33 +460,6 @@
       ],
       "source": "HN",
       "score": 628
-    },
-    {
-      "date": "2026-05-30",
-      "title": "OpenRouter raises $113M Series B",
-      "summary": "via openrouter.ai",
-      "url": "https://openrouter.ai/announcements/series-b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 422
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
-      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 s",
-      "url": "https://arxiv.org/abs/2605.30353v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
-      "summary": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their po",
-      "url": "https://arxiv.org/abs/2605.30351v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
