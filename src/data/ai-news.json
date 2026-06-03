@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-02T06:21:01.078Z",
+  "updatedAt": "2026-06-03T06:31:22.980Z",
   "items": [
+    {
+      "date": "2026-06-02",
+      "title": "Neuron Populations Exhibit Divergent Selectivity with Scale",
+      "summary": "We investigate whether neuron populations within neural networks evolve predictably with scale, extending scaling laws beyond macroscopic observables such as loss. To probe this question, we study Ros",
+      "url": "https://arxiv.org/abs/2606.03990v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models",
+      "summary": "Vision language models (VLMs) excel at many tasks but still struggle with spatial reasoning when critical information is not directly observable. Many such problems require imaginative perception: inf",
+      "url": "https://arxiv.org/abs/2606.03988v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "summary": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data a",
+      "url": "https://arxiv.org/abs/2606.03985v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Language Models Compare Quantities Using Number-specific and Unit-specific Heuristics",
+      "summary": "Quantities with measurement units, such as 110 cm and 1.2 m, require language models (LMs) to combine a numeral with a symbolic unit scale. Here, we study how LMs compare such quantities in controlled",
+      "url": "https://arxiv.org/abs/2606.03982v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
+      "summary": "Reward models (RMs) provide critical feedback signals for LLM post-training, notably in reinforced fine-tuning (RFT) and reinforcement learning (RL) pipelines. However, current reward evaluation relie",
+      "url": "https://arxiv.org/abs/2606.03980v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "summary": "The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LL",
+      "url": "https://arxiv.org/abs/2606.03979v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Formalizing the Binding Problem",
+      "summary": "Representations of the world, arguably, contain information about features (e.g. something is blue, something is a circle) but also information about which features are part of the same object (e.g. t",
+      "url": "https://arxiv.org/abs/2606.03976v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
+      "summary": "Reliable uncertainty communication is critical to the trustworthiness of LLMs, yet faithful calibration (FC)--the alignment between models' intrinsic and (linguistically) expressed confidence--is a pe",
+      "url": "https://arxiv.org/abs/2606.03969v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "QUBRIC: Co-Designing Queries and Rubrics for RL Beyond Verifiable Rewards",
+      "summary": "Rubric-based RL is a promising route for extending reinforcement learning beyond verifiable rewards, yet existing methods optimize rubrics while treating the query distribution as fixed. We identify a",
+      "url": "https://arxiv.org/abs/2606.03968v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
+      "summary": "We describe AlignAtt4LLM, an IWSLT 2026 simultaneous speech translation system for English to German, Italian, and Chinese. The system is a synchronous cascade: Qwen3-ASR with forced alignment produce",
+      "url": "https://arxiv.org/abs/2606.03967v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Gmail thinks I'm stupid, so I left",
+      "summary": "via moddedbear.com",
+      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 801
+    },
+    {
+      "date": "2026-06-02",
+      "title": "MAI-Code-1-Flash",
+      "summary": "via microsoft.ai",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 441
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Trump signs downsized AI order after weeks of reversals",
+      "summary": "via www.politico.com",
+      "url": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 201
+    },
+    {
+      "date": "2026-06-02",
+      "title": "AI outperforms law professors in Stanford Law study",
+      "summary": "via law.stanford.edu",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Open Repair Data Standard – Open Repair Alliance",
+      "summary": "via openrepair.org",
+      "url": "https://openrepair.org/open-data/open-standard/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 118
+    },
     {
       "date": "2026-06-01",
       "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
@@ -319,147 +454,6 @@
       "url": "https://arxiv.org/abs/2605.30351v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
-      "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recog",
-      "url": "https://arxiv.org/abs/2605.30350v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
-      "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making",
-      "url": "https://arxiv.org/abs/2605.30348v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
-      "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB s",
-      "url": "https://arxiv.org/abs/2605.30345v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Tiny but Trusted: Efficient Vision-Language Reasoning for Time-Series Anomaly Detection",
-      "summary": "Recent advances in Vision-Language Models (VLMs) have achieved impressive performance across many tasks, yet prior studies report unsatisfactory performance when applying large language or multimodal ",
-      "url": "https://arxiv.org/abs/2605.30344v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning",
-      "summary": "To improve the reasoning capabilities of large language models, test-time compute is typically scaled by generating intermediate tokens before the final answer. However, this couples reasoning to auto",
-      "url": "https://arxiv.org/abs/2605.30343v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "GPIC: A Giant Permissive Image Corpus for Visual Generation",
-      "summary": "Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC c",
-      "url": "https://arxiv.org/abs/2605.30341v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
-      "summary": "Test-time finetuning (TTFT) is a rapidly evolving paradigm that adapts a language model to each prompt by retrieving related sequences, updating the model on them, and then evaluating the prompt. Howe",
-      "url": "https://arxiv.org/abs/2605.30337v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
-      "summary": "Federated learning is an emerging distributed paradigm that addresses the challenges posed by heterogeneous, privacy-sensitive data. It enables multiple clients to train a model collaboratively by agg",
-      "url": "https://arxiv.org/abs/2605.30336v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Racket v9.2 is now available",
-      "summary": "via blog.racket-lang.org",
-      "url": "https://blog.racket-lang.org/2026/05/racket-v9-2.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Navier-Stokes fluid simulation explained with Godot game engine",
-      "summary": "via myzopotamia.dev",
-      "url": "https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 213
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Notes from the Mistral AI Now Summit",
-      "summary": "via koenvangilst.nl",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 329
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Is AI causing a repeat of frontend’s lost decade?",
-      "summary": "via mastrojs.github.io",
-      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 312
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
-      "summary": "via www.liquid.ai",
-      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 170
-    },
-    {
-      "date": "2026-05-29",
-      "title": "We should be more tired than the model",
-      "summary": "via vickiboykis.com",
-      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 165
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "summary": "via github.com",
-      "url": "https://github.com/jmaczan/tiny-vllm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
     }
   ]
 }
