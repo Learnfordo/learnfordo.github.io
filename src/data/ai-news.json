@@ -1,16 +1,107 @@
 {
-  "updatedAt": "2026-06-03T17:49:57.603Z",
+  "updatedAt": "2026-06-04T06:23:22.660Z",
   "items": [
     {
-      "date": "2026-06-03",
-      "title": "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building",
-      "summary": "via www.tomshardware.com",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "date": "2026-06-04",
+      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+      "summary": "via www.dailycal.org",
+      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 257
+      "score": 161
+    },
+    {
+      "date": "2026-06-04",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "summary": "via kasra.blog",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
+    },
+    {
+      "date": "2026-06-03",
+      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
+      "summary": "Training Data Attribution (TDA) seeks to trace a model's predictions back to its training data. The gold standard for TDA relies on causal interventions, observing how a model changes when data is add",
+      "url": "https://arxiv.org/abs/2606.05165v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Beyond Text Following: Repairable Arbitration Reversals in Audio-Language Models",
+      "summary": "Audio-language models (ALMs) often follow text that conflicts with audio, even when the audio evidence is clear. This raises a basic question: is the audio-supported answer unavailable, or is it repre",
+      "url": "https://arxiv.org/abs/2606.05161v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Streaming Communication in Multi-Agent Reasoning",
+      "summary": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that",
+      "url": "https://arxiv.org/abs/2606.05158v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Reinforcement Learning from Rich Feedback with Distributional DAgger",
+      "summary": "Reasoning models have advanced rapidly, but the dominant reinforcement learning from verifiable rewards (RLVR) recipe remains surprisingly narrow: sample many responses and reward each with a single b",
+      "url": "https://arxiv.org/abs/2606.05152v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Multi-Column RBF Neural Network Using Adaptive and Non-Adaptive Particle Swarm Optimization",
+      "summary": "The radial basis function neural network (RBFN) trained with a gradient descending algorithm provides an effective fully connected structure in both shallow and deep networks. The error correction (Er",
+      "url": "https://arxiv.org/abs/2606.05150v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "An Open-Source Two-Stage Computer Vision Pipeline for Fine-Grained Vehicle Classification using Vision Transformers",
+      "summary": "Vehicle body type is a significant determinant of cyclist injury severity in overtaking crashes, yet automated tools for classifying vehicles into injury-risk-relevant categories from naturalistic roa",
+      "url": "https://arxiv.org/abs/2606.05149v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Failed Reasoning Traces Tell You What Is Fixable (But Not by Reading Them)",
+      "summary": "When post-trained language models fail on reasoning problems, the common test-time-scaling response is to spend more compute on additional attempts, and the failed traces play no further role. We argu",
+      "url": "https://arxiv.org/abs/2606.05145v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "GeM-NR: Geometry-Aware Multi-View Editing for Nonrigid Scene Changes",
+      "summary": "Recent developments in multi-view image editing with generative models have brought us a step closer toward general 3D content generation and customization. Most existing works focus on rigid or appea",
+      "url": "https://arxiv.org/abs/2606.05142v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "BBOmix: A Tabular Benchmark for Hyperparameter Optimization of Unsupervised Biological Representation Learning",
+      "summary": "The rapid advancement of high-throughput sequencing has led to large, high-dimensional omics datasets. Deep unsupervised learning architectures, particularly Autoencoders (AEs), are increasingly used ",
+      "url": "https://arxiv.org/abs/2606.05139v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Generating Financial Time Series by Matching Random Convolutional Features",
+      "summary": "Generating realistic financial time series is challenging as training data is often limited to a single historical path. With such scarce data, overfitting is hard to avoid, especially under adversari",
+      "url": "https://arxiv.org/abs/2606.05138v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-06-03",
@@ -21,7 +112,40 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 245
+      "score": 784
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 441
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Mathematicians issue warning as AI rapidly gains ground",
+      "summary": "via www.science.org",
+      "url": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 211
+    },
+    {
+      "date": "2026-06-03",
+      "title": "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 257
     },
     {
       "date": "2026-06-03",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 230
-    },
-    {
-      "date": "2026-05-31",
-      "title": "The Speed of Prototyping in the Age of AI",
-      "summary": "via darylcecile.net",
-      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 169
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
-      "summary": "Connector-based video unified models have demonstrated strong capability in instruction-grounded video synthesis, but integrating a large high-fidelity generator into the unified training loop is comp",
-      "url": "https://arxiv.org/abs/2605.31603v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "KLIP: localized distribution shift detection via KL-divergence with diffusion priors in Inverse Problems",
-      "summary": "Diffusion models have shown promising performance as data-driven priors for computational imaging, as well as some capacity to detect out-of-distribution (OOD) images. However, existing approaches to ",
-      "url": "https://arxiv.org/abs/2605.31596v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "A Tight Theory of Error Feedback Algorithms in Distributed Optimization",
-      "summary": "Communication costs are a major bottleneck in distributed learning and first-order optimization. A common approach to alleviate this issue is to compress the gradient information exchanged between age",
-      "url": "https://arxiv.org/abs/2605.31594v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
-      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, spl",
-      "url": "https://arxiv.org/abs/2605.31593v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation",
-      "summary": "Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video dif",
-      "url": "https://arxiv.org/abs/2605.31590v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
-      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if ",
-      "url": "https://arxiv.org/abs/2605.31586v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
-      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with ver",
-      "url": "https://arxiv.org/abs/2605.31584v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Choosing the Lens: Strategic Perspective Activation in Context-Dependent Argumentation",
-      "summary": "The same arguments often need to be evaluated under different external regimes. An agent with influence over the regime has a strategic lever that standard formalisms do not directly capture. We intro",
-      "url": "https://arxiv.org/abs/2605.31581v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "Giving Sensors a Voice: Multimodal JEPA for Semantic Time-Series Embeddings",
-      "summary": "Transformer-based architectures have advanced sequence modeling in language and vision, yet general-purpose representation learning for heterogeneous multivariate time series remains underexplored. We",
-      "url": "https://arxiv.org/abs/2605.31580v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "SPECTRA: Synthetic IR Test Collections with Relevance Oracles and Controlled Distractor Diagnostics",
-      "summary": "Scalable information retrieval testing needs corpora that are large enough to stress index construction, ranking latency, query routing, and evaluation tooling, yet human-judged test collections remai",
-      "url": "https://arxiv.org/abs/2605.31575v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-05-29",
-      "title": "What if remote working, not AI, is to blame for weak junior hiring?",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 183
-    },
-    {
-      "date": "2026-05-31",
-      "title": "Odysseus – self-hosted AI workspace",
-      "summary": "via github.com",
-      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-05-30",
-      "title": "Domain expertise has always been the real moat",
-      "summary": "via www.brethorsting.com",
-      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 628
     }
   ]
 }
