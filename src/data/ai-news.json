@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-06-04T06:23:22.660Z",
+  "updatedAt": "2026-06-05T06:06:49.319Z",
   "items": [
+    {
+      "date": "2026-06-04",
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 411
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "summary": "via github.com",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 356
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2606.04032",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 137
+    },
+    {
+      "date": "2026-06-04",
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "summary": "via github.com",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Samurai City",
+      "summary": "via worksinprogress.co",
+      "url": "https://worksinprogress.co/issue/samurai-city/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 138
+    },
     {
       "date": "2026-06-04",
       "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
@@ -405,61 +460,6 @@
       ],
       "source": "HN",
       "score": 241
-    },
-    {
-      "date": "2026-06-01",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 220
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Florida sues OpenAI and Sam Altman over AI risks",
-      "summary": "via www.politico.com",
-      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 202
-    },
-    {
-      "date": "2026-05-31",
-      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
-      "summary": "via prismml.com",
-      "url": "https://prismml.com/news/bonsai-image-4b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 397
-    },
-    {
-      "date": "2026-05-31",
-      "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
-      "summary": "via simpleflying.com",
-      "url": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 365
-    },
-    {
-      "date": "2026-05-31",
-      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
-      "summary": "via www.promptarmor.com",
-      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 230
     }
   ]
 }
