@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-05T06:06:49.319Z",
+  "updatedAt": "2026-06-06T05:40:01.750Z",
   "items": [
+    {
+      "date": "2026-06-05",
+      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 376
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Did Claude increase bugs in rsync?",
+      "summary": "via alexispurslane.github.io",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 367
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 315
+    },
+    {
+      "date": "2026-06-04",
+      "title": "TailLoR: Protecting Principal Components in Parameter-Efficient Continual Learning",
+      "summary": "Parameter-efficient finetuning methods based on spectral decomposition have enabled progress in Continual Learning. In this paper we introduce TailLoR, which utilizes the singular bases U and V of the",
+      "url": "https://arxiv.org/abs/2606.06494v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+      "summary": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typica",
+      "url": "https://arxiv.org/abs/2606.06493v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "summary": "Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysi",
+      "url": "https://arxiv.org/abs/2606.06492v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies",
+      "summary": "Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VL",
+      "url": "https://arxiv.org/abs/2606.06491v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Regret Minimization with Adaptive Opponents in Repeated Games",
+      "summary": "In this paper, we study regret minimization in repeated games with \\emph{adaptive} opponents who can respond based on histories of play. The standard metric of \\emph{external regret} in online learnin",
+      "url": "https://arxiv.org/abs/2606.06486v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection",
+      "summary": "As AI writing assistants become increasingly integrated into real-world drafting and revision workflows, many documents are no longer purely human-written or AI-generated, but instead result from prog",
+      "url": "https://arxiv.org/abs/2606.06481v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "DNQ: Deep Nash Q-Network for Partially Observable n-Player Games",
+      "summary": "Many real-world competitive systems require multiple decision-makers to act simultaneously under shared constraints, limited information, and repeated interaction, as in auctions, resource allocation,",
+      "url": "https://arxiv.org/abs/2606.06480v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Pretraining Recurrent Networks without Recurrence",
+      "summary": "Training recurrent neural networks (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time (BPTT) addresses this problem poorly: it is sequential ",
+      "url": "https://arxiv.org/abs/2606.06479v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "RREDCoT: Segment-Level Reward Redistribution for Reasoning Models",
+      "summary": "Recent advancements in reasoning language models have been driven by Reinforcement Learning (RL) fine-tuning. Most often, these rely on the Group Relative Policy Optimization (GRPO) algorithm or modif",
+      "url": "https://arxiv.org/abs/2606.06475v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Self-Augmenting Retrieval for Diffusion Language Models",
+      "summary": "Discrete diffusion language models generate text by iteratively denoising an entire response in parallel. At each step, they predict tentative tokens for every masked position, committing the confiden",
+      "url": "https://arxiv.org/abs/2606.06474v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
+      "summary": "Most of us were amused when DALL-E and its peers went mainstream, and we were quick to point out the obvious flaws.Then ChatGPT hit the scene and a",
+      "url": "https://news.ycombinator.com/item?id=48406174",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 249
+    },
+    {
+      "date": "2026-06-04",
+      "title": "My Agent Skill for Test-Driven Development",
+      "summary": "via www.saturnci.com",
+      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 159
+    },
     {
       "date": "2026-06-04",
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 201
-    },
-    {
-      "date": "2026-06-02",
-      "title": "AI outperforms law professors in Stanford Law study",
-      "summary": "via law.stanford.edu",
-      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Open Repair Data Standard – Open Repair Alliance",
-      "summary": "via openrepair.org",
-      "url": "https://openrepair.org/open-data/open-standard/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 118
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
-      "summary": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts",
-      "url": "https://arxiv.org/abs/2606.02578v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
-      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making ",
-      "url": "https://arxiv.org/abs/2606.02576v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
-      "summary": "Video is temporally redundant: adjacent frames usually share most objects, background, and layout. Yet existing video multimodal large language models (video MLLMs) usually encode each sampled frame a",
-      "url": "https://arxiv.org/abs/2606.02569v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
-      "summary": "Clinical practice is not the selection of an answer from enumerated options: a physician gathers heterogeneous information incrementally and commits to sequential, irreversible decisions under uncerta",
-      "url": "https://arxiv.org/abs/2606.02568v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
-      "summary": "Heterogeneous Differential Privacy (HDP) in Federated Learning (FL) allows clients to select individual privacy budgets ($\\varepsilon_i$) according to institutional policies and data sensitivity. In p",
-      "url": "https://arxiv.org/abs/2606.02563v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
-      "summary": "Autonomous robots that interact with people must make safe and efficient decisions under human-induced uncertainty, such as their preferences, goals, competency, and willingness to cooperate. Safety f",
-      "url": "https://arxiv.org/abs/2606.02562v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
-      "summary": "Post-training compression of Large Language Models (LLMs) removes entire architectural components, either deleting them or replacing them with fitted modules. Existing replacement-based methods share ",
-      "url": "https://arxiv.org/abs/2606.02559v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "HERO'S JOURNEY: Testing Complex Rule Induction with Text Games",
-      "summary": "We introduce HERO'S JOURNEY, a benchmark for rule induction in goal-directed episodic tasks, where agents must infer hidden rules from demonstrations and act on them through multi-step execution. HERO",
-      "url": "https://arxiv.org/abs/2606.02556v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
-      "summary": "Despite advances in depth estimation, flying points remain a persistent failure mode: near object boundaries, depth estimators often predict spurious 3D points in the empty space between foreground an",
-      "url": "https://arxiv.org/abs/2606.02552v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
-      "summary": "Word Error Rate (WER) is the dominant metric for automatic speech recognition (ASR), but it can overestimate errors when references and hypotheses encode the same words in different scripts. This issu",
-      "url": "https://arxiv.org/abs/2606.02548v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "CS336: Language Modeling from Scratch",
-      "summary": "via cs336.stanford.edu",
-      "url": "https://cs336.stanford.edu/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 424
-    },
-    {
-      "date": "2026-06-01",
-      "title": "AI Agent Guidelines for CS336 at Stanford",
-      "summary": "via github.com",
-      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 241
     }
   ]
 }
