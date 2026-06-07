@@ -804,6 +804,16 @@
     "descriptionCn": "《[2303.08774] GPT-4 Technical Report – arxiv》— OpenAI 发布的最新研究论文。"
   },
   {
+    "title": "[2303.08774] GPT-4 Technical Report – arxiv",
+    "vendor": "OpenAI",
+    "date": "2024-03-04",
+    "arxivId": "2303.08774",
+    "pdfUrl": "https://arxiv.org/pdf/2303.08774",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2303.08774(cs)\n\n[Submitted on 15 Mar 2023 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2303.08774] GPT-4 Technical Report – arxiv》— OpenAI 发布的最新研究论文。"
+  },
+  {
     "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
     "vendor": "Microsoft",
     "date": "2024-02-27",
