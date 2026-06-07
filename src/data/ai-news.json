@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-07T04:32:07.098Z",
+  "updatedAt": "2026-06-07T06:06:43.738Z",
   "items": [
+    {
+      "date": "2026-06-07",
+      "title": "Public Domain Image Archive",
+      "summary": "via pdimagearchive.org",
+      "url": "https://pdimagearchive.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 76
+    },
     {
       "date": "2026-06-06",
       "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
@@ -10,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 486
-    },
-    {
-      "date": "2026-06-06",
-      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
-      "summary": "via www.nbcnews.com",
-      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 477
+      "score": 523
     },
     {
       "date": "2026-06-05",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 181
+      "score": 209
     },
     {
       "date": "2026-06-05",
@@ -43,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 123
+      "score": 149
     },
     {
       "date": "2026-06-04",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 576
+      "score": 586
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "summary": "via www.nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 477
     },
     {
       "date": "2026-06-05",
@@ -456,14 +467,6 @@
       "title": "Formalizing the Binding Problem",
       "summary": "Representations of the world, arguably, contain information about features (e.g. something is blue, something is a circle) but also information about which features are part of the same object (e.g. t",
       "url": "https://arxiv.org/abs/2606.03976v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
-      "summary": "Reliable uncertainty communication is critical to the trustworthiness of LLMs, yet faithful calibration (FC)--the alignment between models' intrinsic and (linguistically) expressed confidence--is a pe",
-      "url": "https://arxiv.org/abs/2606.03969v1",
       "tags": [],
       "source": "arXiv"
     }
