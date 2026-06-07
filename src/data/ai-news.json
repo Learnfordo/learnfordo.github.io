@@ -1,38 +1,49 @@
 {
-  "updatedAt": "2026-06-06T05:40:01.750Z",
+  "updatedAt": "2026-06-07T04:32:07.098Z",
   "items": [
     {
-      "date": "2026-06-05",
-      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
-      "summary": "via www.bbc.com",
-      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "date": "2026-06-06",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "summary": "via this.weekinsecurity.com",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 376
+      "score": 486
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "summary": "via www.nbcnews.com",
+      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 477
     },
     {
       "date": "2026-06-05",
-      "title": "Did Claude increase bugs in rsync?",
-      "summary": "via alexispurslane.github.io",
-      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 367
+      "score": 181
     },
     {
       "date": "2026-06-05",
-      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-      "summary": "via blog.google",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/harness-engineering/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 315
+      "score": 123
     },
     {
       "date": "2026-06-04",
@@ -123,7 +134,40 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 249
+      "score": 576
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 376
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Did Claude increase bugs in rsync?",
+      "summary": "via alexispurslane.github.io",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 367
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 315
     },
     {
       "date": "2026-06-04",
@@ -422,44 +466,6 @@
       "url": "https://arxiv.org/abs/2606.03969v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "QUBRIC: Co-Designing Queries and Rubrics for RL Beyond Verifiable Rewards",
-      "summary": "Rubric-based RL is a promising route for extending reinforcement learning beyond verifiable rewards, yet existing methods optimize rubrics while treating the query distribution as fixed. We identify a",
-      "url": "https://arxiv.org/abs/2606.03968v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
-      "summary": "We describe AlignAtt4LLM, an IWSLT 2026 simultaneous speech translation system for English to German, Italian, and Chinese. The system is a synchronous cascade: Qwen3-ASR with forced alignment produce",
-      "url": "https://arxiv.org/abs/2606.03967v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Gmail thinks I'm stupid, so I left",
-      "summary": "via moddedbear.com",
-      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 801
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Trump signs downsized AI order after weeks of reversals",
-      "summary": "via www.politico.com",
-      "url": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
     }
   ]
 }
