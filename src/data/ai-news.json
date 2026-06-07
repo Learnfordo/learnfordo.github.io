@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-06-07T06:06:43.738Z",
+  "updatedAt": "2026-06-07T17:36:12.610Z",
   "items": [
+    {
+      "date": "2026-06-07",
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "summary": "via human-in-the-loop.bearblog.dev",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 563
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "summary": "via github.com",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 255
+    },
     {
       "date": "2026-06-07",
       "title": "Public Domain Image Archive",
@@ -10,35 +32,13 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 76
+      "score": 203
     },
     {
-      "date": "2026-06-06",
-      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
-      "summary": "via this.weekinsecurity.com",
-      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 523
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Harness engineering: Leveraging Codex in an agent-first world",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/harness-engineering/",
+      "date": "2026-06-07",
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2601.14470",
       "tags": [
         "Hacker News"
       ],
@@ -124,6 +124,50 @@
       "url": "https://arxiv.org/abs/2606.06474v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Biohub releases a world model of protein biology",
+      "summary": "via biohub.org",
+      "url": "https://biohub.org/news/world-model-of-protein-biology/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "summary": "via this.weekinsecurity.com",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 523
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/harness-engineering/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 149
     },
     {
       "date": "2026-06-04",
@@ -435,38 +479,6 @@
       "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
       "summary": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data a",
       "url": "https://arxiv.org/abs/2606.03985v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Language Models Compare Quantities Using Number-specific and Unit-specific Heuristics",
-      "summary": "Quantities with measurement units, such as 110 cm and 1.2 m, require language models (LMs) to combine a numeral with a symbolic unit scale. Here, we study how LMs compare such quantities in controlled",
-      "url": "https://arxiv.org/abs/2606.03982v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
-      "summary": "Reward models (RMs) provide critical feedback signals for LLM post-training, notably in reinforced fine-tuning (RFT) and reinforcement learning (RL) pipelines. However, current reward evaluation relie",
-      "url": "https://arxiv.org/abs/2606.03980v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
-      "summary": "The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LL",
-      "url": "https://arxiv.org/abs/2606.03979v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Formalizing the Binding Problem",
-      "summary": "Representations of the world, arguably, contain information about features (e.g. something is blue, something is a circle) but also information about which features are part of the same object (e.g. t",
-      "url": "https://arxiv.org/abs/2606.03976v1",
       "tags": [],
       "source": "arXiv"
     }
