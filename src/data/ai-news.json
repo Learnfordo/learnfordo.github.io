@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T04:42:52.935Z",
+  "updatedAt": "2026-06-08T06:22:55.331Z",
   "items": [
     {
       "date": "2026-06-08",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 157
+      "score": 201
     },
     {
       "date": "2026-06-08",
@@ -21,7 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 108
+      "score": 150
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 70
     },
     {
       "date": "2026-06-07",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 861
+      "score": 891
     },
     {
       "date": "2026-06-07",
@@ -43,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 274
+      "score": 289
     },
     {
       "date": "2026-06-05",
@@ -462,14 +473,6 @@
       "title": "Multi-Column RBF Neural Network Using Adaptive and Non-Adaptive Particle Swarm Optimization",
       "summary": "The radial basis function neural network (RBFN) trained with a gradient descending algorithm provides an effective fully connected structure in both shallow and deep networks. The error correction (Er",
       "url": "https://arxiv.org/abs/2606.05150v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "An Open-Source Two-Stage Computer Vision Pipeline for Fine-Grained Vehicle Classification using Vision Transformers",
-      "summary": "Vehicle body type is a significant determinant of cyclist injury severity in overtaking crashes, yet automated tools for classifying vehicles into injury-risk-relevant categories from naturalistic roa",
-      "url": "https://arxiv.org/abs/2606.05149v1",
       "tags": [],
       "source": "arXiv"
     }
