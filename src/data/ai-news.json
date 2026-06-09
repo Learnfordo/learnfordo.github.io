@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-08T06:22:55.331Z",
+  "updatedAt": "2026-06-09T04:08:44.984Z",
   "items": [
+    {
+      "date": "2026-06-08",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "summary": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, ",
+      "url": "https://arxiv.org/abs/2606.09826v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
+      "summary": "Training reinforcement learning (RL) policies from scratch is costly: it requires careful reward and environment design, extensive tuning, and substantial computation. Yet many control problems alread",
+      "url": "https://arxiv.org/abs/2606.09825v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Causally Evaluating the Learnability of Formal Language Tasks",
+      "summary": "Language models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for na",
+      "url": "https://arxiv.org/abs/2606.09822v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "summary": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy stalenes",
+      "url": "https://arxiv.org/abs/2606.09821v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Weighted universal approximation of differentiable maps on infinite-dimensional manifolds",
+      "summary": "We generalize the universal approximation theorem for functional input neural networks (FNN) to differentiable maps by including the approximation of the derivatives. A FNN maps the input from a possi",
+      "url": "https://arxiv.org/abs/2606.09820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws",
+      "summary": "Standard diffusion models typically use a single time-homogeneous Gaussian terminal distribution as the reference law for generation. While this choice is analytically convenient and empirically power",
+      "url": "https://arxiv.org/abs/2606.09816v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing",
+      "summary": "World-action models have emerged as a promising paradigm for robot manipulation, jointly modeling visual scene dynamics and actions to inject physical priors into policy learning. However, existing wo",
+      "url": "https://arxiv.org/abs/2606.09811v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting",
+      "summary": "AI evaluation results are produced at scale but reported inconsistently across leaderboards, model cards, benchmark papers, and company blogs. The cost is interpretive: readers cannot reliably compare",
+      "url": "https://arxiv.org/abs/2606.09809v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Topological Neural Operators",
+      "summary": "We introduce Topological Neural Operators (TNOs), a principled framework for operator learning on cell complexes that lifts neural operators (NOs) from functions on points and/or edges to topological ",
+      "url": "https://arxiv.org/abs/2606.09806v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "summary": "We present \\textbf{Echo-Memory}, a controlled study of memory mechanisms in action-conditioned world models. These models generate multi-segment videos from a first frame, text prompt, and camera-acti",
+      "url": "https://arxiv.org/abs/2606.09803v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "summary": "via mimo.xiaomi.com",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 516
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Siri AI",
+      "summary": "via www.apple.com",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 467
+    },
+    {
+      "date": "2026-06-08",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "summary": "via martinalderson.com",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 460
+    },
+    {
+      "date": "2026-06-08",
+      "title": "AI is slowing down",
+      "summary": "via www.wheresyoured.at",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 447
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "summary": "via www.macrumors.com",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 423
+    },
     {
       "date": "2026-06-08",
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
@@ -325,156 +460,6 @@
       ],
       "source": "HN",
       "score": 376
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Did Claude increase bugs in rsync?",
-      "summary": "via alexispurslane.github.io",
-      "url": "https://alexispurslane.github.io/rsync-analysis/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 367
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-      "summary": "via blog.google",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 315
-    },
-    {
-      "date": "2026-06-04",
-      "title": "My Agent Skill for Test-Driven Development",
-      "summary": "via www.saturnci.com",
-      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 159
-    },
-    {
-      "date": "2026-06-04",
-      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 411
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
-      "summary": "via github.com",
-      "url": "https://github.com/anthropics/defending-code-reference-harness",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Do transformers need three projections? Systematic study of QKV variants",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2606.04032",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 137
-    },
-    {
-      "date": "2026-06-04",
-      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
-      "summary": "via github.com",
-      "url": "https://github.com/huawei-csl/KVarN",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 127
-    },
-    {
-      "date": "2026-06-02",
-      "title": "Samurai City",
-      "summary": "via worksinprogress.co",
-      "url": "https://worksinprogress.co/issue/samurai-city/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 138
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "summary": "via www.dailycal.org",
-      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 161
-    },
-    {
-      "date": "2026-06-04",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "summary": "via kasra.blog",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-06-03",
-      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
-      "summary": "Training Data Attribution (TDA) seeks to trace a model's predictions back to its training data. The gold standard for TDA relies on causal interventions, observing how a model changes when data is add",
-      "url": "https://arxiv.org/abs/2606.05165v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "Beyond Text Following: Repairable Arbitration Reversals in Audio-Language Models",
-      "summary": "Audio-language models (ALMs) often follow text that conflicts with audio, even when the audio evidence is clear. This raises a basic question: is the audio-supported answer unavailable, or is it repre",
-      "url": "https://arxiv.org/abs/2606.05161v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "Streaming Communication in Multi-Agent Reasoning",
-      "summary": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that",
-      "url": "https://arxiv.org/abs/2606.05158v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "Reinforcement Learning from Rich Feedback with Distributional DAgger",
-      "summary": "Reasoning models have advanced rapidly, but the dominant reinforcement learning from verifiable rewards (RLVR) recipe remains surprisingly narrow: sample many responses and reward each with a single b",
-      "url": "https://arxiv.org/abs/2606.05152v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "Multi-Column RBF Neural Network Using Adaptive and Non-Adaptive Particle Swarm Optimization",
-      "summary": "The radial basis function neural network (RBFN) trained with a gradient descending algorithm provides an effective fully connected structure in both shallow and deep networks. The error correction (Er",
-      "url": "https://arxiv.org/abs/2606.05150v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
