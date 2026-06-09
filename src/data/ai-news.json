@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T04:08:44.984Z",
+  "updatedAt": "2026-06-09T05:51:48.861Z",
   "items": [
     {
       "date": "2026-06-08",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 516
+      "score": 532
     },
     {
       "date": "2026-06-08",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 467
+      "score": 509
     },
     {
       "date": "2026-06-08",
@@ -112,18 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 460
-    },
-    {
-      "date": "2026-06-08",
-      "title": "AI is slowing down",
-      "summary": "via www.wheresyoured.at",
-      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 447
+      "score": 494
     },
     {
       "date": "2026-06-08",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 423
+      "score": 482
+    },
+    {
+      "date": "2026-06-08",
+      "title": "AI is slowing down",
+      "summary": "via www.wheresyoured.at",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 475
     },
     {
       "date": "2026-06-08",
