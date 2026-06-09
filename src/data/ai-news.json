@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-06-09T05:51:48.861Z",
+  "updatedAt": "2026-06-09T16:11:35.414Z",
   "items": [
+    {
+      "date": "2026-06-09",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Cleaning up after AI rockstar developers",
+      "summary": "via www.codingwithjesse.com",
+      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 293
+    },
     {
       "date": "2026-06-08",
       "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
@@ -83,25 +105,14 @@
     },
     {
       "date": "2026-06-08",
-      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-      "summary": "via mimo.xiaomi.com",
-      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "summary": "via www.macrumors.com",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 532
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Siri AI",
-      "summary": "via www.apple.com",
-      "url": "https://www.apple.com/apple-intelligence/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 509
+      "score": 683
     },
     {
       "date": "2026-06-08",
@@ -112,18 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 494
+      "score": 644
     },
     {
       "date": "2026-06-08",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "summary": "via www.macrumors.com",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "title": "Siri AI",
+      "summary": "via www.apple.com",
+      "url": "https://www.apple.com/apple-intelligence/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 482
+      "score": 641
+    },
+    {
+      "date": "2026-06-08",
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "summary": "via mimo.xiaomi.com",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 532
     },
     {
       "date": "2026-06-08",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 586
-    },
-    {
-      "date": "2026-06-06",
-      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
-      "summary": "via www.nbcnews.com",
-      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 477
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
-      "summary": "via www.bbc.com",
-      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 376
     }
   ]
 }
