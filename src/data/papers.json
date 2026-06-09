@@ -1,5 +1,15 @@
 [
   {
+    "title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+    "vendor": "DeepSeek",
+    "date": "2026-06-08",
+    "arxivId": "2606.09079v1",
+    "pdfUrl": "https://arxiv.org/pdf/2606.09079v1",
+    "summary": "Conventional LLMs keep the full KV cache loaded during decoding, causing a severe GPU memory bottleneck for ultra-long context serving. In this report, we propose Lookahead Sparse Attention (LSA), a novel inference paradigm powered by a Neural Memory Indexer built upon the DeepSeek-V4 architecture. ",
+    "tags": [],
+    "descriptionCn": "《FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention》— 深度求索最新旗舰模型，支持百万 Token 超长上下文，多 Token 预测与 MLA 注意力机制大幅提升推理效率。"
+  },
+  {
     "title": "A Simulation Methodology Testbed for Typhoon Sensitivity Analysis: Framework Development and Perturbation-Response Experiments with the Pangu Weather Model",
     "vendor": "华为",
     "date": "2026-05-21",
@@ -825,6 +835,16 @@
   },
   {
     "title": "BitNet: Scaling 1-bit Transformers for Large Language Models",
+    "vendor": "Microsoft",
+    "date": "2023-10-17",
+    "arxivId": "2310.11453",
+    "pdfUrl": "https://arxiv.org/pdf/2310.11453",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2310.11453(cs)\n\n[Submitted on 17 Oct 2023]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2310.11453] BitNet: Scaling 1-bit Transformers for Large Language Models – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
+    "title": "[2310.11453] BitNet: Scaling 1-bit Transformers for Large Language Models – arxiv",
     "vendor": "Microsoft",
     "date": "2023-10-17",
     "arxivId": "2310.11453",
