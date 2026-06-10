@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-09T16:11:35.414Z",
+  "updatedAt": "2026-06-10T04:08:54.413Z",
   "items": [
+    {
+      "date": "2026-06-10",
+      "title": "macOS Container Machines",
+      "summary": "via github.com",
+      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 355
+    },
+    {
+      "date": "2026-06-09",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each ",
+      "url": "https://arxiv.org/abs/2606.11190v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. St",
+      "url": "https://arxiv.org/abs/2606.11189v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "summary": "In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are larg",
+      "url": "https://arxiv.org/abs/2606.11182v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "summary": "Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for con",
+      "url": "https://arxiv.org/abs/2606.11176v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "The Role of Feedback Alignment in Self-Distillation",
+      "summary": "Conditioning a language model on additional context, such as feedback on a previous attempt, typically improves its response. Self-distillation trains the model to retain this improvement when the con",
+      "url": "https://arxiv.org/abs/2606.11173v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Predicting Future Behaviors in Reasoning Models Enables Better Steering",
+      "summary": "Deployed large reasoning models (LRMs) often behave unexpectedly. Test-time steering controls LRM outputs by intervening on their hidden representations, but it can degrade output quality. We argue th",
+      "url": "https://arxiv.org/abs/2606.11172v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Algorithmic and Minimax Complexities in Kernel Bandits",
+      "summary": "Gaussian-process upper confidence bound (GP-UCB) and decision-estimation-coefficient (DEC) methods may appear, at first sight, to belong to different theories. This paper places the two viewpoints in ",
+      "url": "https://arxiv.org/abs/2606.11171v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Piper: A Programmable Distributed Training System",
+      "summary": "Large-scale model training increasingly relies on composing multiple parallelism strategies, such as data, pipeline, and expert parallelism, together with memory-saving optimizations like ZeRO. Deploy",
+      "url": "https://arxiv.org/abs/2606.11169v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
+      "summary": "Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learni",
+      "url": "https://arxiv.org/abs/2606.11167v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Flaws in the LLM Automation Narrative",
+      "summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas",
+      "url": "https://arxiv.org/abs/2606.11166v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Claude Fable 5",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1903
+    },
+    {
+      "date": "2026-06-09",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "summary": "via jonready.com",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 607
+    },
+    {
+      "date": "2026-06-09",
+      "title": "CEOs who think AI replaces their employees are just bad CEOs",
+      "summary": "via www.techdirt.com",
+      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 497
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "summary": "via aarushgupta.io",
+      "url": "https://aarushgupta.io/posts/kan-fpga/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 178
+    },
     {
       "date": "2026-06-09",
       "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 149
-    },
-    {
-      "date": "2026-06-04",
-      "title": "TailLoR: Protecting Principal Components in Parameter-Efficient Continual Learning",
-      "summary": "Parameter-efficient finetuning methods based on spectral decomposition have enabled progress in Continual Learning. In this paper we introduce TailLoR, which utilizes the singular bases U and V of the",
-      "url": "https://arxiv.org/abs/2606.06494v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
-      "summary": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typica",
-      "url": "https://arxiv.org/abs/2606.06493v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
-      "summary": "Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysi",
-      "url": "https://arxiv.org/abs/2606.06492v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies",
-      "summary": "Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VL",
-      "url": "https://arxiv.org/abs/2606.06491v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Regret Minimization with Adaptive Opponents in Repeated Games",
-      "summary": "In this paper, we study regret minimization in repeated games with \\emph{adaptive} opponents who can respond based on histories of play. The standard metric of \\emph{external regret} in online learnin",
-      "url": "https://arxiv.org/abs/2606.06486v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection",
-      "summary": "As AI writing assistants become increasingly integrated into real-world drafting and revision workflows, many documents are no longer purely human-written or AI-generated, but instead result from prog",
-      "url": "https://arxiv.org/abs/2606.06481v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "DNQ: Deep Nash Q-Network for Partially Observable n-Player Games",
-      "summary": "Many real-world competitive systems require multiple decision-makers to act simultaneously under shared constraints, limited information, and repeated interaction, as in auctions, resource allocation,",
-      "url": "https://arxiv.org/abs/2606.06480v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Pretraining Recurrent Networks without Recurrence",
-      "summary": "Training recurrent neural networks (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time (BPTT) addresses this problem poorly: it is sequential ",
-      "url": "https://arxiv.org/abs/2606.06479v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "RREDCoT: Segment-Level Reward Redistribution for Reasoning Models",
-      "summary": "Recent advancements in reasoning language models have been driven by Reinforcement Learning (RL) fine-tuning. Most often, these rely on the Group Relative Policy Optimization (GRPO) algorithm or modif",
-      "url": "https://arxiv.org/abs/2606.06475v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Self-Augmenting Retrieval for Diffusion Language Models",
-      "summary": "Discrete diffusion language models generate text by iteratively denoising an entire response in parallel. At each step, they predict tentative tokens for every masked position, committing the confiden",
-      "url": "https://arxiv.org/abs/2606.06474v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Biohub releases a world model of protein biology",
-      "summary": "via biohub.org",
-      "url": "https://biohub.org/news/world-model-of-protein-biology/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-06-06",
-      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
-      "summary": "via this.weekinsecurity.com",
-      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 523
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Harness engineering: Leveraging Codex in an agent-first world",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/harness-engineering/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 149
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
-      "summary": "Most of us were amused when DALL-E and its peers went mainstream, and we were quick to point out the obvious flaws.Then ChatGPT hit the scene and a",
-      "url": "https://news.ycombinator.com/item?id=48406174",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 586
     }
   ]
 }
