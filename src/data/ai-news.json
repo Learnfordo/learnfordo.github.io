@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-11T06:24:22.975Z",
+  "updatedAt": "2026-06-11T16:05:50.858Z",
   "items": [
+    {
+      "date": "2026-06-11",
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+      "summary": "via dronexl.co",
+      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 566
+    },
     {
       "date": "2026-06-11",
       "title": "AI agent runs amok in Fedora and elsewhere",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 305
+      "score": 523
     },
     {
       "date": "2026-06-10",
@@ -94,6 +105,39 @@
     },
     {
       "date": "2026-06-10",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 552
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "summary": "via support.claude.com",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 570
+    },
+    {
+      "date": "2026-06-09",
+      "title": "L'Affaire Siloxane",
+      "summary": "via mceglowski.substack.com",
+      "url": "https://mceglowski.substack.com/p/laffaire-siloxane",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 275
+    },
+    {
+      "date": "2026-06-10",
       "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
       "summary": "via github.com",
       "url": "https://github.com/anthropics/claude-code/issues/29045",
@@ -105,17 +149,6 @@
     },
     {
       "date": "2026-06-10",
-      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 359
-    },
-    {
-      "date": "2026-06-10",
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
       "summary": "via jivx.com",
       "url": "https://jivx.com/eki",
@@ -124,17 +157,6 @@
       ],
       "source": "HN",
       "score": 225
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
-      "summary": "via support.claude.com",
-      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 329
     },
     {
       "date": "2026-06-10",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 475
-    },
-    {
-      "date": "2026-06-08",
-      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
-      "summary": "via runtimewire.com",
-      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
-    },
-    {
-      "date": "2026-06-08",
-      "title": "The Smallest Brain You Can Build: A Perceptron in Python",
-      "summary": "via ranpara.net",
-      "url": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 150
     }
   ]
 }
