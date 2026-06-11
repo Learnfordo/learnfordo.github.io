@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-10T06:06:01.994Z",
+  "updatedAt": "2026-06-11T04:12:14.875Z",
   "items": [
+    {
+      "date": "2026-06-11",
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "summary": "via lwn.net",
+      "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 199
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
+      "summary": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token re",
+      "url": "https://arxiv.org/abs/2606.12412v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+      "summary": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summar",
+      "url": "https://arxiv.org/abs/2606.12411v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+      "summary": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method",
+      "url": "https://arxiv.org/abs/2606.12406v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+      "summary": "Vision-Language Models (VLMs) are increasingly deployed as high-level planners for embodied agents, with an emerging strategy of scaling test-time compute to improve capability. However, we observe th",
+      "url": "https://arxiv.org/abs/2606.12402v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Doc-to-Atom: Learning to Compile and Compose Memory Atoms",
+      "summary": "Long input sequences are central to document understanding and multi-step reasoning in Large Language Models, yet the quadratic cost of attention makes inference both memory-intensive and slow. Contex",
+      "url": "https://arxiv.org/abs/2606.12400v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
+      "summary": "Router is the cornerstone component to the Mixture-of-Experts models. Serving as expert proxies, the rows of the router matrix compute their similarity to the MoE inputs to determine which subset of e",
+      "url": "https://arxiv.org/abs/2606.12397v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5",
+      "summary": "Recently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on prec",
+      "url": "https://arxiv.org/abs/2606.12392v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+      "summary": "Large Language Models (LLMs) have democratized database access through Text-to-SQL, but moving from prototypes to production remains difficult. Real deployments must handle strict SQL dialects, massiv",
+      "url": "https://arxiv.org/abs/2606.12387v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "ATLAS: Active Theory Learning for Automated Science",
+      "summary": "Advancing scientific understanding through mechanistic modeling requires posing the right experimental questions to yield maximally informative data. To automate this pursuit within cognitive science,",
+      "url": "https://arxiv.org/abs/2606.12386v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs",
+      "summary": "Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend o",
+      "url": "https://arxiv.org/abs/2606.12385v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "summary": "via github.com",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 366
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 289
+    },
+    {
+      "date": "2026-06-10",
+      "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
+      "summary": "via jivx.com",
+      "url": "https://jivx.com/eki",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "summary": "via support.claude.com",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 260
+    },
     {
       "date": "2026-06-10",
       "title": "macOS Container Machines",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 150
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 70
-    },
-    {
-      "date": "2026-06-07",
-      "title": "LLMs are eroding my software engineering career and I don't know what to do",
-      "summary": "via human-in-the-loop.bearblog.dev",
-      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 891
-    },
-    {
-      "date": "2026-06-07",
-      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
-      "summary": "via github.com",
-      "url": "https://github.com/devenjarvis/lathe",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 289
-    },
-    {
-      "date": "2026-06-05",
-      "title": "How reliable are LLMs when it comes to playing dice?",
-      "summary": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a s",
-      "url": "https://arxiv.org/abs/2606.07515v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
-      "summary": "Humans learn from social life. Simulating this process with LLM-powered agents represents a promising research direction, raising a natural question: whether LLMs can learn from such simulated social ",
-      "url": "https://arxiv.org/abs/2606.07513v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
-      "summary": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduc",
-      "url": "https://arxiv.org/abs/2606.07512v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings",
-      "summary": "Large language models exhibit impressive zero-shot capabilities across a wide range of downstream tasks. However, they struggle to function as off-the-shelf embedding models, leading to suboptimal per",
-      "url": "https://arxiv.org/abs/2606.07502v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning",
-      "summary": "Continual learning in Large Language Models (LLMs) is hindered by the plasticity-stability dilemma, where acquiring new capabilities often leads to catastrophic forgetting of previous knowledge. Exist",
-      "url": "https://arxiv.org/abs/2606.07500v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Accelerated Decentralized Stochastic Gradient Descent for Strongly Convex Optimization",
-      "summary": "Decentralized stochastic optimization is a fundamental paradigm for large-scale learning over networks, where agents communicate only with their neighbors and no central coordinator is required. For s",
-      "url": "https://arxiv.org/abs/2606.07496v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Second-Order Path Kernel Interpolation Formulas in Machine Learning",
-      "summary": "Understanding how training data shape neural network predictions is a central problem in modern learning theory. In 2020, Pedro Domingos proposed an interpolation formula valid for every model learned",
-      "url": "https://arxiv.org/abs/2606.07495v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Bradley-Terry Rankings for Recommender Systems Across Dataset Taxonomies",
-      "summary": "The ranking of recommendation algorithms is a challenging problem since model performance is sensitive to dataset characteristics such as sparsity, sequential structure, and scale. This drives a deman",
-      "url": "https://arxiv.org/abs/2606.07492v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Twelve quick tips for designing AI-driven HPC workflows",
-      "summary": "High-performance computing (HPC) clusters remain the backbone of large-scale scientific computation, traditionally executing deterministic, linear pipelines optimised for predictable performance. Howe",
-      "url": "https://arxiv.org/abs/2606.07491v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope",
-      "summary": "Frontier AI systems are bridging the gap between intelligence and utility by shifting from conversational assistants to autonomous agents that execute tasks end to end. Using production data from Perp",
-      "url": "https://arxiv.org/abs/2606.07489v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "Anthropic, please ship an official Claude Desktop for Linux",
-      "summary": "via github.com",
-      "url": "https://github.com/anthropics/claude-code/issues/65697",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 255
-    },
-    {
-      "date": "2026-06-07",
-      "title": "Public Domain Image Archive",
-      "summary": "via pdimagearchive.org",
-      "url": "https://pdimagearchive.org/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 203
     }
   ]
 }
