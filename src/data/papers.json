@@ -392,6 +392,16 @@
     "descriptionCn": "《[2601.09012] TranslateGemma Technical Report – arxiv》— Google DeepMind 发布的最新研究论文。"
   },
   {
+    "title": "[2601.09012] TranslateGemma Technical Report – arxiv",
+    "vendor": "Google DeepMind",
+    "date": "2026-01-19",
+    "arxivId": "2601.09012",
+    "pdfUrl": "https://arxiv.org/pdf/2601.09012",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2601.09012(cs)\n\n[Submitted on 13 Jan 2026 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2601.09012] TranslateGemma Technical Report – arxiv》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
     "title": "The Llama 4 Herd: Architecture, Training, Evaluation, and Deployment Notes",
     "vendor": "Meta",
     "date": "2026-01-15",
@@ -785,6 +795,16 @@
   },
   {
     "title": "GPT-4 Technical Report",
+    "vendor": "OpenAI",
+    "date": "2024-03-04",
+    "arxivId": "2303.08774",
+    "pdfUrl": "https://arxiv.org/pdf/2303.08774",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2303.08774(cs)\n\n[Submitted on 15 Mar 2023 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2303.08774] GPT-4 Technical Report – arxiv》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "[2303.08774] GPT-4 Technical Report – arxiv",
     "vendor": "OpenAI",
     "date": "2024-03-04",
     "arxivId": "2303.08774",
