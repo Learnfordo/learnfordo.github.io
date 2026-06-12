@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-11T16:05:50.858Z",
+  "updatedAt": "2026-06-12T06:18:24.112Z",
   "items": [
+    {
+      "date": "2026-06-12",
+      "title": "Claude Fable is relentlessly proactive",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 303
+    },
+    {
+      "date": "2026-06-11",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dyna",
+      "url": "https://arxiv.org/abs/2606.13681v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "summary": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly s",
+      "url": "https://arxiv.org/abs/2606.13680v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Mana: Dexterous Manipulation of Articulated Tools",
+      "summary": "Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focu",
+      "url": "https://arxiv.org/abs/2606.13677v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "summary": "Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attemp",
+      "url": "https://arxiv.org/abs/2606.13673v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Understanding Truncated Positional Encodings for Graph Neural Networks",
+      "summary": "Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effec",
+      "url": "https://arxiv.org/abs/2606.13671v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "summary": "Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. Howev",
+      "url": "https://arxiv.org/abs/2606.13670v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "summary": "Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions,",
+      "url": "https://arxiv.org/abs/2606.13669v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution",
+      "url": "https://arxiv.org/abs/2606.13668v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-g",
+      "url": "https://arxiv.org/abs/2606.13663v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific soluti",
+      "url": "https://arxiv.org/abs/2606.13662v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "summary": "via www.theverge.com",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Claude Fable 5: mid-tier results on coding tasks",
+      "summary": "via www.endorlabs.com",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 284
+    },
+    {
+      "date": "2026-06-11",
+      "title": "A jacket that harvests drinking water from the air",
+      "summary": "via news.utexas.edu",
+      "url": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 88
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Ear Training Practice",
+      "summary": "via tonedear.com",
+      "url": "https://tonedear.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 206
+    },
     {
       "date": "2026-06-11",
       "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 293
-    },
-    {
-      "date": "2026-06-08",
-      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
-      "summary": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, ",
-      "url": "https://arxiv.org/abs/2606.09826v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
-      "summary": "Training reinforcement learning (RL) policies from scratch is costly: it requires careful reward and environment design, extensive tuning, and substantial computation. Yet many control problems alread",
-      "url": "https://arxiv.org/abs/2606.09825v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Causally Evaluating the Learnability of Formal Language Tasks",
-      "summary": "Language models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for na",
-      "url": "https://arxiv.org/abs/2606.09822v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Rethinking the Divergence Regularization in LLM RL",
-      "summary": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy stalenes",
-      "url": "https://arxiv.org/abs/2606.09821v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Weighted universal approximation of differentiable maps on infinite-dimensional manifolds",
-      "summary": "We generalize the universal approximation theorem for functional input neural networks (FNN) to differentiable maps by including the approximation of the derivatives. A FNN maps the input from a possi",
-      "url": "https://arxiv.org/abs/2606.09820v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws",
-      "summary": "Standard diffusion models typically use a single time-homogeneous Gaussian terminal distribution as the reference law for generation. While this choice is analytically convenient and empirically power",
-      "url": "https://arxiv.org/abs/2606.09816v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing",
-      "summary": "World-action models have emerged as a promising paradigm for robot manipulation, jointly modeling visual scene dynamics and actions to inject physical priors into policy learning. However, existing wo",
-      "url": "https://arxiv.org/abs/2606.09811v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting",
-      "summary": "AI evaluation results are produced at scale but reported inconsistently across leaderboards, model cards, benchmark papers, and company blogs. The cost is interpretive: readers cannot reliably compare",
-      "url": "https://arxiv.org/abs/2606.09809v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Topological Neural Operators",
-      "summary": "We introduce Topological Neural Operators (TNOs), a principled framework for operator learning on cell complexes that lifts neural operators (NOs) from functions on points and/or edges to topological ",
-      "url": "https://arxiv.org/abs/2606.09806v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
-      "summary": "We present \\textbf{Echo-Memory}, a controlled study of memory mechanisms in action-conditioned world models. These models generate multi-segment videos from a first frame, text prompt, and camera-acti",
-      "url": "https://arxiv.org/abs/2606.09803v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "summary": "via www.macrumors.com",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 683
-    },
-    {
-      "date": "2026-06-08",
-      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
-      "summary": "via martinalderson.com",
-      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 644
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Siri AI",
-      "summary": "via www.apple.com",
-      "url": "https://www.apple.com/apple-intelligence/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 641
-    },
-    {
-      "date": "2026-06-08",
-      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-      "summary": "via mimo.xiaomi.com",
-      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 532
-    },
-    {
-      "date": "2026-06-08",
-      "title": "AI is slowing down",
-      "summary": "via www.wheresyoured.at",
-      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 475
     }
   ]
 }
