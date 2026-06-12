@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-06-12T06:18:24.112Z",
+  "updatedAt": "2026-06-12T17:50:17.504Z",
   "items": [
     {
       "date": "2026-06-12",
-      "title": "Claude Fable is relentlessly proactive",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "summary": "via lantian.pub",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 303
+      "score": 1276
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "summary": "via huggingface.co",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 311
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Slightly reducing the sloppiness of AI generated front end",
+      "summary": "via envs.net",
+      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
     },
     {
       "date": "2026-06-11",
@@ -94,6 +116,28 @@
     },
     {
       "date": "2026-06-11",
+      "title": "A jacket that harvests drinking water from the air",
+      "summary": "via news.utexas.edu",
+      "url": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Claude Fable is relentlessly proactive",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 303
+    },
+    {
+      "date": "2026-06-11",
       "title": "Anthropic apologizes for invisible Claude Fable guardrails",
       "summary": "via www.theverge.com",
       "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
@@ -113,17 +157,6 @@
       ],
       "source": "HN",
       "score": 284
-    },
-    {
-      "date": "2026-06-11",
-      "title": "A jacket that harvests drinking water from the air",
-      "summary": "via news.utexas.edu",
-      "url": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 88
     },
     {
       "date": "2026-06-08",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 567
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
-      "summary": "via aarushgupta.io",
-      "url": "https://aarushgupta.io/posts/kan-fpga/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 178
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Cleaning up after AI rockstar developers",
-      "summary": "via www.codingwithjesse.com",
-      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 293
     }
   ]
 }
