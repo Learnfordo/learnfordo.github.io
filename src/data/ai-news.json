@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-06-12T17:50:17.504Z",
+  "updatedAt": "2026-06-13T06:02:03.294Z",
   "items": [
     {
-      "date": "2026-06-12",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "summary": "via lantian.pub",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "date": "2026-06-13",
+      "title": "Open source AI must win",
+      "summary": "via opensourceaimustwin.com",
+      "url": "https://opensourceaimustwin.com/?share=v2",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1276
+      "score": 616
     },
     {
       "date": "2026-06-12",
-      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
-      "summary": "via huggingface.co",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "summary": "via correresmidestino.com",
+      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 311
+      "score": 380
+    },
+    {
+      "date": "2026-06-12",
+      "title": "How to setup a local coding agent on macOS",
+      "summary": "via ikyle.me",
+      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 330
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Palantir loses legal challenge against Swiss investigative magazine",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 262
     },
     {
       "date": "2026-06-12",
@@ -32,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 85
+      "score": 181
     },
     {
       "date": "2026-06-11",
@@ -113,6 +135,28 @@
       "url": "https://arxiv.org/abs/2606.13662v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "summary": "via lantian.pub",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1276
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "summary": "via huggingface.co",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 311
     },
     {
       "date": "2026-06-11",
@@ -419,47 +463,6 @@
       "url": "https://arxiv.org/abs/2606.11167v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Flaws in the LLM Automation Narrative",
-      "summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas",
-      "url": "https://arxiv.org/abs/2606.11166v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Claude Fable 5",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 2019
-    },
-    {
-      "date": "2026-06-09",
-      "title": "If Claude Fable stops helping you, you'll never know",
-      "summary": "via jonready.com",
-      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 691
-    },
-    {
-      "date": "2026-06-09",
-      "title": "CEOs who think AI replaces their employees are just bad CEOs",
-      "summary": "via www.techdirt.com",
-      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 567
     }
   ]
 }
