@@ -1,60 +1,27 @@
 {
-  "updatedAt": "2026-06-13T06:02:03.294Z",
+  "updatedAt": "2026-06-14T06:19:46.265Z",
   "items": [
     {
       "date": "2026-06-13",
-      "title": "Open source AI must win",
-      "summary": "via opensourceaimustwin.com",
-      "url": "https://opensourceaimustwin.com/?share=v2",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "summary": "via www.wsj.com",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 616
+      "score": 631
     },
     {
-      "date": "2026-06-12",
-      "title": "\"Don't You Just Upload It to ChatGPT?\"",
-      "summary": "via correresmidestino.com",
-      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "date": "2026-06-13",
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "summary": "via news.sky.com",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 380
-    },
-    {
-      "date": "2026-06-12",
-      "title": "How to setup a local coding agent on macOS",
-      "summary": "via ikyle.me",
-      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 330
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Palantir loses legal challenge against Swiss investigative magazine",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 262
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Slightly reducing the sloppiness of AI generated front end",
-      "summary": "via envs.net",
-      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
+      "score": 289
     },
     {
       "date": "2026-06-11",
@@ -135,6 +102,61 @@
       "url": "https://arxiv.org/abs/2606.13662v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Open source AI must win",
+      "summary": "via opensourceaimustwin.com",
+      "url": "https://opensourceaimustwin.com/?share=v2",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 616
+    },
+    {
+      "date": "2026-06-12",
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "summary": "via correresmidestino.com",
+      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 380
+    },
+    {
+      "date": "2026-06-12",
+      "title": "How to setup a local coding agent on macOS",
+      "summary": "via ikyle.me",
+      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 330
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Palantir loses legal challenge against Swiss investigative magazine",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 262
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Slightly reducing the sloppiness of AI generated front end",
+      "summary": "via envs.net",
+      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
     },
     {
       "date": "2026-06-12",
@@ -445,22 +467,6 @@
       "title": "Algorithmic and Minimax Complexities in Kernel Bandits",
       "summary": "Gaussian-process upper confidence bound (GP-UCB) and decision-estimation-coefficient (DEC) methods may appear, at first sight, to belong to different theories. This paper places the two viewpoints in ",
       "url": "https://arxiv.org/abs/2606.11171v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Piper: A Programmable Distributed Training System",
-      "summary": "Large-scale model training increasingly relies on composing multiple parallelism strategies, such as data, pipeline, and expert parallelism, together with memory-saving optimizations like ZeRO. Deploy",
-      "url": "https://arxiv.org/abs/2606.11169v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
-      "summary": "Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learni",
-      "url": "https://arxiv.org/abs/2606.11167v1",
       "tags": [],
       "source": "arXiv"
     }
