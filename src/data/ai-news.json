@@ -1,27 +1,38 @@
 {
-  "updatedAt": "2026-06-14T06:19:46.265Z",
+  "updatedAt": "2026-06-14T16:21:20.773Z",
   "items": [
     {
-      "date": "2026-06-13",
-      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-      "summary": "via www.wsj.com",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "date": "2026-06-14",
+      "title": "No, everyone is not using AI for everything",
+      "summary": "via gabrielweinberg.com",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 631
+      "score": 135
     },
     {
-      "date": "2026-06-13",
-      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
-      "summary": "via news.sky.com",
-      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "date": "2026-06-14",
+      "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/zenmagnets/status/2065796012820848699",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 289
+      "score": 77
+    },
+    {
+      "date": "2026-06-14",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
     },
     {
       "date": "2026-06-11",
@@ -102,6 +113,28 @@
       "url": "https://arxiv.org/abs/2606.13662v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "summary": "via www.wsj.com",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 631
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "summary": "via news.sky.com",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 289
     },
     {
       "date": "2026-06-13",
@@ -443,30 +476,6 @@
       "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
       "summary": "Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for con",
       "url": "https://arxiv.org/abs/2606.11176v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "The Role of Feedback Alignment in Self-Distillation",
-      "summary": "Conditioning a language model on additional context, such as feedback on a previous attempt, typically improves its response. Self-distillation trains the model to retain this improvement when the con",
-      "url": "https://arxiv.org/abs/2606.11173v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Predicting Future Behaviors in Reasoning Models Enables Better Steering",
-      "summary": "Deployed large reasoning models (LRMs) often behave unexpectedly. Test-time steering controls LRM outputs by intervening on their hidden representations, but it can degrade output quality. We argue th",
-      "url": "https://arxiv.org/abs/2606.11172v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Algorithmic and Minimax Complexities in Kernel Bandits",
-      "summary": "Gaussian-process upper confidence bound (GP-UCB) and decision-estimation-coefficient (DEC) methods may appear, at first sight, to belong to different theories. This paper places the two viewpoints in ",
-      "url": "https://arxiv.org/abs/2606.11171v1",
       "tags": [],
       "source": "arXiv"
     }
