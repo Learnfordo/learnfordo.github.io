@@ -322,6 +322,16 @@
     "descriptionCn": "《[2602.04705] ERNIE 5.0 Technical Report – arxiv》— 百度文心最新旗舰大语言模型，知识增强、推理和多模态全面升级。"
   },
   {
+    "title": "[2602.04705] ERNIE 5.0 Technical Report – arxiv",
+    "vendor": "百度",
+    "date": "2026-02-04",
+    "arxivId": "2602.04705",
+    "pdfUrl": "https://arxiv.org/pdf/2602.04705",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2602.04705(cs)\n\n[Submitted on 4 Feb 2026]\n\nTitle:",
+    "tags": [],
+    "descriptionCn": "《[2602.04705] ERNIE 5.0 Technical Report – arxiv》— 百度文心最新旗舰大语言模型，知识增强、推理和多模态全面升级。"
+  },
+  {
     "title": "Qwen3-ASR Technical Report",
     "vendor": "阿里 (Qwen)",
     "date": "2026-01-30",
@@ -413,6 +423,16 @@
   },
   {
     "title": "From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainability with Professional Communication Standards",
+    "vendor": "Microsoft",
+    "date": "2026-01-12",
+    "arxivId": "2601.07233",
+    "pdfUrl": "https://arxiv.org/pdf/2601.07233",
+    "summary": "Computer Science > Artificial Intelligence\n\narXiv:2601.07233(cs)\n\n[Submitted on 12 Jan 2026]\n\nTitle:",
+    "tags": [],
+    "descriptionCn": "《[2601.07233] From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainabilit》— Microsoft 发布的最新研究论文。"
+  },
+  {
+    "title": "[2601.07233] From \"Thinking\" to \"Justifying\": Aligning High-Stakes Explainability with Professional Communication Standards – arxiv",
     "vendor": "Microsoft",
     "date": "2026-01-12",
     "arxivId": "2601.07233",
@@ -734,6 +754,16 @@
     "descriptionCn": "《[2410.16144] 1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
   },
   {
+    "title": "[2410.16144] 1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs – arxiv",
+    "vendor": "Microsoft",
+    "date": "2024-10-23",
+    "arxivId": "2410.16144",
+    "pdfUrl": "https://arxiv.org/pdf/2410.16144",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2410.16144(cs)\n\n[Submitted on 21 Oct 2024 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2410.16144] 1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
     "title": "EPT-1.5 Technical Report",
     "vendor": "华为",
     "date": "2024-10-19",
@@ -805,6 +835,16 @@
   },
   {
     "title": "GPT-4 Technical Report",
+    "vendor": "OpenAI",
+    "date": "2024-03-04",
+    "arxivId": "2303.08774",
+    "pdfUrl": "https://arxiv.org/pdf/2303.08774",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2303.08774(cs)\n\n[Submitted on 15 Mar 2023 (v1), l",
+    "tags": [],
+    "descriptionCn": "《[2303.08774] GPT-4 Technical Report – arxiv》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "[2303.08774] GPT-4 Technical Report – arxiv",
     "vendor": "OpenAI",
     "date": "2024-03-04",
     "arxivId": "2303.08774",
