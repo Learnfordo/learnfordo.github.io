@@ -1,27 +1,38 @@
 {
-  "updatedAt": "2026-06-15T07:00:23.319Z",
+  "updatedAt": "2026-06-15T16:05:56.736Z",
   "items": [
     {
-      "date": "2026-06-14",
-      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
-      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locall",
-      "url": "https://news.ycombinator.com/item?id=48528029",
+      "date": "2026-06-15",
+      "title": "Apple Foundation Models",
+      "summary": "via platform.claude.com",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 347
+      "score": 360
     },
     {
-      "date": "2026-06-14",
-      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-      "summary": "via github.com",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "date": "2026-06-15",
+      "title": "CrankGPT",
+      "summary": "via crankgpt.com",
+      "url": "https://crankgpt.com",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 327
+      "score": 314
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "summary": "via github.com",
+      "url": "https://github.com/themartiano/luz",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 109
     },
     {
       "date": "2026-06-12",
@@ -102,6 +113,28 @@
       "url": "https://arxiv.org/abs/2606.14684v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locall",
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 347
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "summary": "via github.com",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
     },
     {
       "date": "2026-06-14",
@@ -437,30 +470,6 @@
       "title": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
       "summary": "Router is the cornerstone component to the Mixture-of-Experts models. Serving as expert proxies, the rows of the router matrix compute their similarity to the MoE inputs to determine which subset of e",
       "url": "https://arxiv.org/abs/2606.12397v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5",
-      "summary": "Recently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on prec",
-      "url": "https://arxiv.org/abs/2606.12392v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
-      "summary": "Large Language Models (LLMs) have democratized database access through Text-to-SQL, but moving from prototypes to production remains difficult. Real deployments must handle strict SQL dialects, massiv",
-      "url": "https://arxiv.org/abs/2606.12387v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "ATLAS: Active Theory Learning for Automated Science",
-      "summary": "Advancing scientific understanding through mechanistic modeling requires posing the right experimental questions to yield maximally informative data. To automate this pursuit within cognitive science,",
-      "url": "https://arxiv.org/abs/2606.12386v1",
       "tags": [],
       "source": "arXiv"
     }
