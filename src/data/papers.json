@@ -612,6 +612,16 @@
     "descriptionCn": "《[2510.13998] BitNet Distillation – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
   },
   {
+    "title": "[2510.13998] BitNet Distillation – arxiv",
+    "vendor": "Microsoft",
+    "date": "2025-10-15",
+    "arxivId": "2510.13998",
+    "pdfUrl": "https://arxiv.org/pdf/2510.13998",
+    "summary": "Computer Science > Machine Learning\n\narXiv:2510.13998(cs)\n\n[Submitted on 15 Oct 2025]\n\nTitle: BitNet",
+    "tags": [],
+    "descriptionCn": "《[2510.13998] BitNet Distillation – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
     "title": "Kimi K2: Open Agentic Intelligence",
     "vendor": "Moonshot (Kimi)",
     "date": "2025-07-24",
@@ -663,6 +673,16 @@
   },
   {
     "title": "Gemma 3 Technical Report",
+    "vendor": "Google DeepMind",
+    "date": "2025-03-25",
+    "arxivId": "2503.19786",
+    "pdfUrl": "https://arxiv.org/pdf/2503.19786",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2503.19786(cs)\n\n[Submitted on 25 Mar 2025]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2503.19786] Gemma 3 Technical Report – arxiv》— Google 开源轻量级大语言模型，支持端侧部署与高效微调。"
+  },
+  {
+    "title": "[2503.19786] Gemma 3 Technical Report – arxiv",
     "vendor": "Google DeepMind",
     "date": "2025-03-25",
     "arxivId": "2503.19786",
