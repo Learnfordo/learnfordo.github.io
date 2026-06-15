@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-06-14T16:21:20.773Z",
+  "updatedAt": "2026-06-15T07:00:23.319Z",
   "items": [
+    {
+      "date": "2026-06-14",
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locall",
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 347
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "summary": "via github.com",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Gaze Heads: How VLMs Look at What They Describe",
+      "summary": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its ",
+      "url": "https://arxiv.org/abs/2606.14703v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "summary": "Building trustworthy medical multimodal large language models (MLLMs) is critical for reliable clinical decision support. Existing medical hallucination benchmarks mainly focus on data collection, but",
+      "url": "https://arxiv.org/abs/2606.14697v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "summary": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applyin",
+      "url": "https://arxiv.org/abs/2606.14695v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization",
+      "summary": "Large reasoning models typically follow a read-then-think paradigm: they observe the complete input, reason over a static context, and then produce the answer. Yet many real-world scenarios are inhere",
+      "url": "https://arxiv.org/abs/2606.14694v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
+      "summary": "Cooperative multi-objective multi-agent reinforcement learning (MOMARL) models team decision making under multiple, potentially conflicting objectives. In this setting, conflicts arise not only across",
+      "url": "https://arxiv.org/abs/2606.14693v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has successfully elicited the reasoning capabilities of large language models, motivating its extension to multimodal scenarios. Existing methods ",
+      "url": "https://arxiv.org/abs/2606.14691v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "A Complexity Measure for Active Learning in Multi-group Mean Estimation",
+      "summary": "We study a \\emph{max-risk} objective for active learning in a multi-group mean estimation $d$-armed bandits: a learner adaptively allocates a budget of $T$ samples across $d$ groups to minimize the wo",
+      "url": "https://arxiv.org/abs/2606.14690v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
+      "summary": "AI systems coupled to proof assistants now generate formal mathematics at scale, and the gap between what a checker can verify and what a mathematician would value has become the binding constraint. W",
+      "url": "https://arxiv.org/abs/2606.14688v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification",
+      "summary": "Globally, cotton is a highly economically beneficial crop, as the textile industry heavily depends on it. So, the precise identification and detection of cotton leaf disease is crucial for economic st",
+      "url": "https://arxiv.org/abs/2606.14686v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "HumP-KD: A Hybrid Uncertainty-Aware Multi-Stage Progressive Knowledge Distillation Framework for Efficient Fire Classification",
+      "summary": "Real-time fire classification systems require models that are simultaneously accurate, computationally efficient, and deployable on resource-constrained hardware. This work proposes \\textbf{HumP-KD}, ",
+      "url": "https://arxiv.org/abs/2606.14684v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-06-14",
       "title": "No, everyone is not using AI for everything",
@@ -359,123 +461,6 @@
       "title": "ATLAS: Active Theory Learning for Automated Science",
       "summary": "Advancing scientific understanding through mechanistic modeling requires posing the right experimental questions to yield maximally informative data. To automate this pursuit within cognitive science,",
       "url": "https://arxiv.org/abs/2606.12386v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs",
-      "summary": "Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend o",
-      "url": "https://arxiv.org/abs/2606.12385v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 552
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
-      "summary": "via support.claude.com",
-      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 570
-    },
-    {
-      "date": "2026-06-09",
-      "title": "L'Affaire Siloxane",
-      "summary": "via mceglowski.substack.com",
-      "url": "https://mceglowski.substack.com/p/laffaire-siloxane",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 275
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-      "summary": "via github.com",
-      "url": "https://github.com/anthropics/claude-code/issues/29045",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 392
-    },
-    {
-      "date": "2026-06-10",
-      "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
-      "summary": "via jivx.com",
-      "url": "https://jivx.com/eki",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
-    },
-    {
-      "date": "2026-06-10",
-      "title": "macOS Container Machines",
-      "summary": "via github.com",
-      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 515
-    },
-    {
-      "date": "2026-06-10",
-      "title": "German ruling declares Google liable for false answers in AI Overviews",
-      "summary": "via the-decoder.com",
-      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 289
-    },
-    {
-      "date": "2026-06-09",
-      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
-      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each ",
-      "url": "https://arxiv.org/abs/2606.11190v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
-      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. St",
-      "url": "https://arxiv.org/abs/2606.11189v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
-      "summary": "In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are larg",
-      "url": "https://arxiv.org/abs/2606.11182v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
-      "summary": "Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for con",
-      "url": "https://arxiv.org/abs/2606.11176v1",
       "tags": [],
       "source": "arXiv"
     }
