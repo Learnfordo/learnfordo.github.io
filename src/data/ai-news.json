@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-06-16T04:32:11.766Z",
+  "updatedAt": "2026-06-16T07:05:35.033Z",
   "items": [
-    {
-      "date": "2026-06-16",
-      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
-      "summary": "via runtimewire.com",
-      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 112
-    },
     {
       "date": "2026-06-15",
       "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
@@ -101,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 775
+      "score": 890
     },
     {
       "date": "2026-06-15",
@@ -112,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 672
+      "score": 756
     },
     {
       "date": "2026-06-15",
@@ -123,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 269
+      "score": 293
     },
     {
       "date": "2026-06-15",
@@ -134,7 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 103
+      "score": 135
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Cohere's First Model for Developers",
+      "summary": "via cohere.com",
+      "url": "https://cohere.com/blog/north-mini-code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+      "summary": "via runtimewire.com",
+      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 112
     },
     {
       "date": "2026-06-15",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 262
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Slightly reducing the sloppiness of AI generated front end",
-      "summary": "via envs.net",
-      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
     }
   ]
 }
