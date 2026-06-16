@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-15T16:05:56.736Z",
+  "updatedAt": "2026-06-16T04:32:11.766Z",
   "items": [
+    {
+      "date": "2026-06-16",
+      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+      "summary": "via runtimewire.com",
+      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 112
+    },
+    {
+      "date": "2026-06-15",
+      "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
+      "summary": "We investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-conte",
+      "url": "https://arxiv.org/abs/2606.17056v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "summary": "Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle d",
+      "url": "https://arxiv.org/abs/2606.17053v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
+      "summary": "Diffusion and flow-based models learn powerful data priors by training a denoiser to reverse Gaussian corruption. To use this prior to solve a linear inverse problem, one needs to sample from the post",
+      "url": "https://arxiv.org/abs/2606.17048v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Geometric Action Model for Robot Policy Learning",
+      "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and",
+      "url": "https://arxiv.org/abs/2606.17046v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
+      "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision",
+      "url": "https://arxiv.org/abs/2606.17043v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+      "summary": "Meta-analysis is a demanding form of evidence synthesis that combines literature retrieval, PI/ECO-guided study selection, and statistical aggregation. Its structured, verifiable workflow makes it an ",
+      "url": "https://arxiv.org/abs/2606.17041v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
+      "summary": "Oppenheim and Lim (1981) showed that natural images stay recognizable when reconstructed from their Fourier phase alone, while the magnitude carries little of their identity. We ask whether trained im",
+      "url": "https://arxiv.org/abs/2606.17037v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning",
+      "summary": "Prior research suggests that differential privacy (DP) inherently enhances the robustness of federated learning (FL) against backdoor attacks. In this paper, we challenge this assumption. Through an e",
+      "url": "https://arxiv.org/abs/2606.17035v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing",
+      "summary": "Post-hoc context erasing over the KV cache is challenging because a local edit has a global consequence: once a span has been processed, its influence propagates into the cached states of all subseque",
+      "url": "https://arxiv.org/abs/2606.17034v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
+      "summary": "Deep research agents synthesize long-form reports by searching and reasoning over retrieved evidence. Reinforcement learning with rubric-based rewards improves these agents by optimizing them against ",
+      "url": "https://arxiv.org/abs/2606.17029v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "summary": "Has anyone here fully swapped Claude&#x2F;GPT for a local model as their main coding tool, not just for side experiments? If so, please share your set",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 775
+    },
+    {
+      "date": "2026-06-15",
+      "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "summary": "via tinywind.io",
+      "url": "https://tinywind.io",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 672
+    },
+    {
+      "date": "2026-06-15",
+      "title": "My Homelab AI Dev Platform",
+      "summary": "via rsgm.dev",
+      "url": "https://rsgm.dev/post/ai-dev-platform/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 269
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Why I email complete strangers",
+      "summary": "via www.goodinternetmagazine.com",
+      "url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 103
+    },
     {
       "date": "2026-06-15",
       "title": "Apple Foundation Models",
@@ -325,153 +460,6 @@
       ],
       "source": "HN",
       "score": 181
-    },
-    {
-      "date": "2026-06-12",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "summary": "via lantian.pub",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1276
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
-      "summary": "via huggingface.co",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 311
-    },
-    {
-      "date": "2026-06-11",
-      "title": "A jacket that harvests drinking water from the air",
-      "summary": "via news.utexas.edu",
-      "url": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Claude Fable is relentlessly proactive",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 303
-    },
-    {
-      "date": "2026-06-11",
-      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "summary": "via www.theverge.com",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-06-11",
-      "title": "Claude Fable 5: mid-tier results on coding tasks",
-      "summary": "via www.endorlabs.com",
-      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 284
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Ear Training Practice",
-      "summary": "via tonedear.com",
-      "url": "https://tonedear.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 206
-    },
-    {
-      "date": "2026-06-11",
-      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
-      "summary": "via dronexl.co",
-      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 566
-    },
-    {
-      "date": "2026-06-11",
-      "title": "AI agent runs amok in Fedora and elsewhere",
-      "summary": "via lwn.net",
-      "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 523
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
-      "summary": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token re",
-      "url": "https://arxiv.org/abs/2606.12412v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
-      "summary": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summar",
-      "url": "https://arxiv.org/abs/2606.12411v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
-      "summary": "Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method",
-      "url": "https://arxiv.org/abs/2606.12406v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
-      "summary": "Vision-Language Models (VLMs) are increasingly deployed as high-level planners for embodied agents, with an emerging strategy of scaling test-time compute to improve capability. However, we observe th",
-      "url": "https://arxiv.org/abs/2606.12402v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Doc-to-Atom: Learning to Compile and Compose Memory Atoms",
-      "summary": "Long input sequences are central to document understanding and multi-step reasoning in Large Language Models, yet the quadratic cost of attention makes inference both memory-intensive and slow. Contex",
-      "url": "https://arxiv.org/abs/2606.12400v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-10",
-      "title": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
-      "summary": "Router is the cornerstone component to the Mixture-of-Experts models. Serving as expert proxies, the rows of the router matrix compute their similarity to the MoE inputs to determine which subset of e",
-      "url": "https://arxiv.org/abs/2606.12397v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
