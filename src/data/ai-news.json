@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T04:32:31.147Z",
+  "updatedAt": "2026-06-17T06:49:33.351Z",
   "items": [
     {
       "date": "2026-06-16",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1114
+      "score": 1210
     },
     {
       "date": "2026-06-16",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 430
+      "score": 466
     },
     {
       "date": "2026-06-16",
@@ -112,18 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 204
-    },
-    {
-      "date": "2026-06-16",
-      "title": "GPT‑NL: a sovereign language model for the Netherlands",
-      "summary": "via www.tno.nl",
-      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 157
+      "score": 254
     },
     {
       "date": "2026-06-16",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 146
+      "score": 198
+    },
+    {
+      "date": "2026-06-16",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "summary": "via www.tno.nl",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 187
     },
     {
       "date": "2026-06-15",
