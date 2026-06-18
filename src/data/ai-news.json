@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T04:09:30.848Z",
+  "updatedAt": "2026-06-18T06:26:28.296Z",
   "items": [
     {
       "date": "2026-06-17",
@@ -90,7 +90,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 817
+      "score": 834
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "summary": "via github.com",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 174
     },
     {
       "date": "2026-06-17",
@@ -102,17 +113,6 @@
       ],
       "source": "HN",
       "score": 194
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
-      "summary": "via github.com",
-      "url": "https://github.com/Adam-CAD/CADAM",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
     },
     {
       "date": "2026-06-16",
