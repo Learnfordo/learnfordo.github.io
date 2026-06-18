@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-06-17T06:49:33.351Z",
+  "updatedAt": "2026-06-18T04:09:30.848Z",
   "items": [
+    {
+      "date": "2026-06-17",
+      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+      "summary": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video durat",
+      "url": "https://arxiv.org/abs/2606.19341v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Learning User Simulators with Turing Rewards",
+      "summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing appr",
+      "url": "https://arxiv.org/abs/2606.19336v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
+      "summary": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable",
+      "url": "https://arxiv.org/abs/2606.19334v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "The Chandra-Gaia Catalog of Counterparts: Resolving ambiguous Gaia matches to X-ray sources in the Chandra Source Catalog using Machine Learning",
+      "summary": "We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such ",
+      "url": "https://arxiv.org/abs/2606.19329v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
+      "summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on pa",
+      "url": "https://arxiv.org/abs/2606.19328v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
+      "summary": "Post-training of reasoning language models is commonly driven by supervised distillation and reinforcement learning with verifiable rewards. Distillation often relies on chain-of-thought annotations t",
+      "url": "https://arxiv.org/abs/2606.19327v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors",
+      "summary": "Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate w",
+      "url": "https://arxiv.org/abs/2606.19325v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents",
+      "summary": "Production data integration is bottlenecked by repeated, lossy handoffs between data owners, engineers, and analysts who must collaboratively discover, structure, and query enterprise data. We present",
+      "url": "https://arxiv.org/abs/2606.19319v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Explaining Attention with Program Synthesis",
+      "summary": "A longstanding goal of research on interpretable deep learning is to replace opaque neural computations with human-meaningful symbolic descriptions. In this paper, we propose an approach for approxima",
+      "url": "https://arxiv.org/abs/2606.19317v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
+      "summary": "Enhancing the formal math reasoning capabilities of Large Language Models (LLMs) has become a key focus in both mathematical and computer science communities in recent years. While significant progres",
+      "url": "https://arxiv.org/abs/2606.19315v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "summary": "via artificialanalysis.ai",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 817
+    },
+    {
+      "date": "2026-06-17",
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "summary": "via openrouter.ai",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 194
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "summary": "via github.com",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
+    },
     {
       "date": "2026-06-16",
       "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
@@ -336,125 +449,6 @@
       "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
       "summary": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applyin",
       "url": "https://arxiv.org/abs/2606.14695v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization",
-      "summary": "Large reasoning models typically follow a read-then-think paradigm: they observe the complete input, reason over a static context, and then produce the answer. Yet many real-world scenarios are inhere",
-      "url": "https://arxiv.org/abs/2606.14694v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
-      "summary": "Cooperative multi-objective multi-agent reinforcement learning (MOMARL) models team decision making under multiple, potentially conflicting objectives. In this setting, conflicts arise not only across",
-      "url": "https://arxiv.org/abs/2606.14693v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has successfully elicited the reasoning capabilities of large language models, motivating its extension to multimodal scenarios. Existing methods ",
-      "url": "https://arxiv.org/abs/2606.14691v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "A Complexity Measure for Active Learning in Multi-group Mean Estimation",
-      "summary": "We study a \\emph{max-risk} objective for active learning in a multi-group mean estimation $d$-armed bandits: a learner adaptively allocates a budget of $T$ samples across $d$ groups to minimize the wo",
-      "url": "https://arxiv.org/abs/2606.14690v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
-      "summary": "AI systems coupled to proof assistants now generate formal mathematics at scale, and the gap between what a checker can verify and what a mathematician would value has become the binding constraint. W",
-      "url": "https://arxiv.org/abs/2606.14688v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification",
-      "summary": "Globally, cotton is a highly economically beneficial crop, as the textile industry heavily depends on it. So, the precise identification and detection of cotton leaf disease is crucial for economic st",
-      "url": "https://arxiv.org/abs/2606.14686v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "HumP-KD: A Hybrid Uncertainty-Aware Multi-Stage Progressive Knowledge Distillation Framework for Efficient Fire Classification",
-      "summary": "Real-time fire classification systems require models that are simultaneously accurate, computationally efficient, and deployable on resource-constrained hardware. This work proposes \\textbf{HumP-KD}, ",
-      "url": "https://arxiv.org/abs/2606.14684v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-14",
-      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
-      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locall",
-      "url": "https://news.ycombinator.com/item?id=48528029",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 347
-    },
-    {
-      "date": "2026-06-14",
-      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
-      "summary": "via github.com",
-      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 327
-    },
-    {
-      "date": "2026-06-14",
-      "title": "No, everyone is not using AI for everything",
-      "summary": "via gabrielweinberg.com",
-      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 135
-    },
-    {
-      "date": "2026-06-14",
-      "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/zenmagnets/status/2065796012820848699",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 77
-    },
-    {
-      "date": "2026-06-14",
-      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 52
-    },
-    {
-      "date": "2026-06-11",
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
-      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dyna",
-      "url": "https://arxiv.org/abs/2606.13681v1",
       "tags": [],
       "source": "arXiv"
     }
