@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-06-18T06:26:28.296Z",
+  "updatedAt": "2026-06-19T06:50:02.996Z",
   "items": [
+    {
+      "date": "2026-06-18",
+      "title": "How Transparent is DiffusionGemma?",
+      "summary": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a ",
+      "url": "https://arxiv.org/abs/2606.20560v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+      "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human acti",
+      "url": "https://arxiv.org/abs/2606.20559v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Optimal Deterministic Multicalibration and Omniprediction",
+      "summary": "A model is multicalibrated on a collection of group weights $G$ if it is calibrated -- i.e. unbiased even conditional on its prediction -- not just overall, but also after reweighting contexts by each",
+      "url": "https://arxiv.org/abs/2606.20557v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation",
+      "summary": "Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users' next interactions from their historical behaviors. At the core o",
+      "url": "https://arxiv.org/abs/2606.20554v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "The Token Is a Group Element: On Lie-Algebra Attention over Matrix Lie Groups",
+      "summary": "We place the attention token on the group: a token is an element $g_i$ of a matrix Lie group $G$ -- a bare transformation, with no feature payload and no external action $ρ(g)$ carrying it. To our kno",
+      "url": "https://arxiv.org/abs/2606.20547v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Predictability as a Fine-Grained Measure for Privacy",
+      "summary": "Differential privacy (DP) ensures rigorous individual-level privacy guarantees against even the most knowledgeable attackers, but its worst-case nature can impose a costly privacy-accuracy tradeoff. W",
+      "url": "https://arxiv.org/abs/2606.20546v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
+      "summary": "Calibration aligns a model's predictive uncertainty with the frequencies of its empirical outcomes and is important for understanding and trusting reported probabilities. Recent work shows that enforc",
+      "url": "https://arxiv.org/abs/2606.20544v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Multi-Task Bayesian In-Context Learning",
+      "summary": "Bayesian predictive inference provides a principled framework for uncertainty quantification, data efficiency, and robust generalization. However, exact inference is often intractable, and scalable ap",
+      "url": "https://arxiv.org/abs/2606.20538v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+      "summary": "Mainstream LLM serving systems reuse prefix work mainly through paged or radix key-value (KV) caches. This is highly effective for high-throughput, high-concurrency serving, but it manages only one po",
+      "url": "https://arxiv.org/abs/2606.20537v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech",
+      "summary": "Style-captioned text-to-speech systems use natural language to control voice characteristics, but how individual words influence acoustic output remains unclear. Understanding this is critical for dia",
+      "url": "https://arxiv.org/abs/2606.20532v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Noam Shazeer Joins OpenAI",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 323
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "summary": "via tester.army",
+      "url": "https://tester.army",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 112
+    },
+    {
+      "date": "2026-06-17",
+      "title": "How Japan's railways stayed one while splitting apart",
+      "summary": "via arun.is",
+      "url": "https://arun.is/blog/jr-logo/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 80
+    },
     {
       "date": "2026-06-17",
       "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
@@ -318,137 +431,6 @@
       "title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing",
       "summary": "Post-hoc context erasing over the KV cache is challenging because a local edit has a global consequence: once a span has been processed, its influence propagates into the cached states of all subseque",
       "url": "https://arxiv.org/abs/2606.17034v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
-      "summary": "Deep research agents synthesize long-form reports by searching and reasoning over retrieved evidence. Reinforcement learning with rubric-based rewards improves these agents by optimizing them against ",
-      "url": "https://arxiv.org/abs/2606.17029v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-      "summary": "Has anyone here fully swapped Claude&#x2F;GPT for a local model as their main coding tool, not just for side experiments? If so, please share your set",
-      "url": "https://news.ycombinator.com/item?id=48542100",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 890
-    },
-    {
-      "date": "2026-06-15",
-      "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
-      "summary": "via tinywind.io",
-      "url": "https://tinywind.io",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 756
-    },
-    {
-      "date": "2026-06-15",
-      "title": "My Homelab AI Dev Platform",
-      "summary": "via rsgm.dev",
-      "url": "https://rsgm.dev/post/ai-dev-platform/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 293
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Why I email complete strangers",
-      "summary": "via www.goodinternetmagazine.com",
-      "url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 135
-    },
-    {
-      "date": "2026-06-11",
-      "title": "Cohere's First Model for Developers",
-      "summary": "via cohere.com",
-      "url": "https://cohere.com/blog/north-mini-code",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
-      "summary": "via runtimewire.com",
-      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 112
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Apple Foundation Models",
-      "summary": "via platform.claude.com",
-      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 360
-    },
-    {
-      "date": "2026-06-15",
-      "title": "CrankGPT",
-      "summary": "via crankgpt.com",
-      "url": "https://crankgpt.com",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 314
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
-      "summary": "via github.com",
-      "url": "https://github.com/themartiano/luz",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Gaze Heads: How VLMs Look at What They Describe",
-      "summary": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its ",
-      "url": "https://arxiv.org/abs/2606.14703v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
-      "summary": "Building trustworthy medical multimodal large language models (MLLMs) is critical for reliable clinical decision support. Existing medical hallucination benchmarks mainly focus on data collection, but",
-      "url": "https://arxiv.org/abs/2606.14697v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
-      "summary": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applyin",
-      "url": "https://arxiv.org/abs/2606.14695v1",
       "tags": [],
       "source": "arXiv"
     }
