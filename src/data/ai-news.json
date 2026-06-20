@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-06-19T06:50:02.996Z",
+  "updatedAt": "2026-06-20T06:01:54.289Z",
   "items": [
+    {
+      "date": "2026-06-19",
+      "title": "Hyundai buys Boston Dynamics",
+      "summary": "via startupfortune.com",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 737
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "summary": "via www.jvm-weekly.com",
+      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 567
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Norway imposes near ban on AI in elementary school",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 564
+    },
     {
       "date": "2026-06-18",
       "title": "How Transparent is DiffusionGemma?",
@@ -80,6 +113,28 @@
       "url": "https://arxiv.org/abs/2606.20532v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "The AirPods Effect",
+      "summary": "via www.theescapenewsletter.com",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 396
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Zen and the Art of Machine Learning Research",
+      "summary": "via blog.jxmo.io",
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 247
     },
     {
       "date": "2026-06-18",
@@ -391,46 +446,6 @@
       "title": "Geometric Action Model for Robot Policy Learning",
       "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and",
       "url": "https://arxiv.org/abs/2606.17046v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
-      "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision",
-      "url": "https://arxiv.org/abs/2606.17043v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
-      "summary": "Meta-analysis is a demanding form of evidence synthesis that combines literature retrieval, PI/ECO-guided study selection, and statistical aggregation. Its structured, verifiable workflow makes it an ",
-      "url": "https://arxiv.org/abs/2606.17041v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
-      "summary": "Oppenheim and Lim (1981) showed that natural images stay recognizable when reconstructed from their Fourier phase alone, while the magnitude carries little of their identity. We ask whether trained im",
-      "url": "https://arxiv.org/abs/2606.17037v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning",
-      "summary": "Prior research suggests that differential privacy (DP) inherently enhances the robustness of federated learning (FL) against backdoor attacks. In this paper, we challenge this assumption. Through an e",
-      "url": "https://arxiv.org/abs/2606.17035v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing",
-      "summary": "Post-hoc context erasing over the KV cache is challenging because a local edit has a global consequence: once a span has been processed, its influence propagates into the cached states of all subseque",
-      "url": "https://arxiv.org/abs/2606.17034v1",
       "tags": [],
       "source": "arXiv"
     }
