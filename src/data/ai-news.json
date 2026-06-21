@@ -1,38 +1,60 @@
 {
-  "updatedAt": "2026-06-20T06:01:54.289Z",
+  "updatedAt": "2026-06-21T06:30:43.758Z",
   "items": [
     {
-      "date": "2026-06-19",
-      "title": "Hyundai buys Boston Dynamics",
-      "summary": "via startupfortune.com",
-      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "date": "2026-06-21",
+      "title": "When I reject AI code even if it works",
+      "summary": "via vinibrasil.com",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 737
+      "score": 134
     },
     {
-      "date": "2026-06-19",
-      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
-      "summary": "via www.jvm-weekly.com",
-      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "date": "2026-06-21",
+      "title": "Your brain was never designed for this much bad news",
+      "summary": "via www.sciencedaily.com",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 567
+      "score": 88
     },
     {
-      "date": "2026-06-19",
-      "title": "Norway imposes near ban on AI in elementary school",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "date": "2026-06-20",
+      "title": "Temporary Cloudflare accounts for AI agents",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 564
+      "score": 199
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "summary": "via github.com",
+      "url": "https://github.com/mysk-research/loupe",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 190
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Slow breathing modulates brain function and risk behavior",
+      "summary": "via www.cell.com",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 140
     },
     {
       "date": "2026-06-18",
@@ -113,6 +135,39 @@
       "url": "https://arxiv.org/abs/2606.20532v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Hyundai buys Boston Dynamics",
+      "summary": "via startupfortune.com",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 737
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "summary": "via www.jvm-weekly.com",
+      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 567
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Norway imposes near ban on AI in elementary school",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 564
     },
     {
       "date": "2026-06-18",
@@ -405,49 +460,6 @@
       ],
       "source": "HN",
       "score": 198
-    },
-    {
-      "date": "2026-06-16",
-      "title": "GPT‑NL: a sovereign language model for the Netherlands",
-      "summary": "via www.tno.nl",
-      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 187
-    },
-    {
-      "date": "2026-06-15",
-      "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
-      "summary": "We investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-conte",
-      "url": "https://arxiv.org/abs/2606.17056v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
-      "summary": "Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle d",
-      "url": "https://arxiv.org/abs/2606.17053v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
-      "summary": "Diffusion and flow-based models learn powerful data priors by training a denoiser to reverse Gaussian corruption. To use this prior to solve a linear inverse problem, one needs to sample from the post",
-      "url": "https://arxiv.org/abs/2606.17048v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Geometric Action Model for Robot Policy Learning",
-      "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and",
-      "url": "https://arxiv.org/abs/2606.17046v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
