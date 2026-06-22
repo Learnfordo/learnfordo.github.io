@@ -1,60 +1,60 @@
 {
-  "updatedAt": "2026-06-21T06:30:43.758Z",
+  "updatedAt": "2026-06-22T07:03:09.079Z",
   "items": [
     {
-      "date": "2026-06-21",
-      "title": "When I reject AI code even if it works",
-      "summary": "via vinibrasil.com",
-      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "date": "2026-06-22",
+      "title": "Danish privacy activist Lars Andersen raided by police",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 134
+      "score": 148
     },
     {
       "date": "2026-06-21",
-      "title": "Your brain was never designed for this much bad news",
-      "summary": "via www.sciencedaily.com",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "title": "Identity verification on Claude",
+      "summary": "via support.claude.com",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 88
+      "score": 693
     },
     {
-      "date": "2026-06-20",
-      "title": "Temporary Cloudflare accounts for AI agents",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "date": "2026-06-21",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "summary": "via apertvs.ai",
+      "url": "https://apertvs.ai/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 199
+      "score": 331
     },
     {
-      "date": "2026-06-20",
-      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
-      "summary": "via github.com",
-      "url": "https://github.com/mysk-research/loupe",
+      "date": "2026-06-21",
+      "title": "JSON-LD explained for personal websites",
+      "summary": "via hawksley.dev",
+      "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 190
+      "score": 195
     },
     {
-      "date": "2026-06-20",
-      "title": "Slow breathing modulates brain function and risk behavior",
-      "summary": "via www.cell.com",
-      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "date": "2026-06-21",
+      "title": "There is minimal downside to switching to open models",
+      "summary": "via www.marble.onl",
+      "url": "https://www.marble.onl/posts/cancel_claude.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 140
+      "score": 168
     },
     {
       "date": "2026-06-18",
@@ -135,6 +135,61 @@
       "url": "https://arxiv.org/abs/2606.20532v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "When I reject AI code even if it works",
+      "summary": "via vinibrasil.com",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 134
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Your brain was never designed for this much bad news",
+      "summary": "via www.sciencedaily.com",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 88
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Temporary Cloudflare accounts for AI agents",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 199
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "summary": "via github.com",
+      "url": "https://github.com/mysk-research/loupe",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 190
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Slow breathing modulates brain function and risk behavior",
+      "summary": "via www.cell.com",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 140
     },
     {
       "date": "2026-06-19",
@@ -408,58 +463,6 @@
       "url": "https://arxiv.org/abs/2606.18218v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
-      "summary": "Knowledge distillation transfers a teacher's competence to a small student but is brittle in the small-student regime: forcing the student to imitate logits from a much larger teacher concentrates it ",
-      "url": "https://arxiv.org/abs/2606.18216v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Running local models is good now",
-      "summary": "via vickiboykis.com",
-      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1210
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Apple is about to make Hide My Email useless",
-      "summary": "via arseniyshestakov.com",
-      "url": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 466
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Has AI already killed self-help nonfiction books?",
-      "summary": "via tim.blog",
-      "url": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 254
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Humiliating IIS servers for fun and jail time",
-      "summary": "via mll.sh",
-      "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 198
     }
   ]
 }
