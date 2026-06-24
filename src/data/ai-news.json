@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-06-23T05:51:01.460Z",
+  "updatedAt": "2026-06-24T04:31:30.716Z",
   "items": [
+    {
+      "date": "2026-06-23",
+      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unloc",
+      "url": "https://arxiv.org/abs/2606.24884v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
+      "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We p",
+      "url": "https://arxiv.org/abs/2606.24879v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input i",
+      "url": "https://arxiv.org/abs/2606.24874v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, S",
+      "url": "https://arxiv.org/abs/2606.24855v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
+      "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be di",
+      "url": "https://arxiv.org/abs/2606.24854v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+      "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the comple",
+      "url": "https://arxiv.org/abs/2606.24851v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relation",
+      "url": "https://arxiv.org/abs/2606.24849v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "World Models in Pieces: Structural Certification for General Agents",
+      "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish ",
+      "url": "https://arxiv.org/abs/2606.24842v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+      "summary": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-tra",
+      "url": "https://arxiv.org/abs/2606.24841v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "summary": "Agentic data analysis systems produce rich outputs, including code, numerical results, and verbal diagnostics. This makes them more challenging to evaluate than single-turn LLM responses. It is theref",
+      "url": "https://arxiv.org/abs/2606.24839v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "FUTO Swipe – A new swipe typing model",
+      "summary": "via swipe.futo.tech",
+      "url": "https://swipe.futo.tech/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 364
+    },
+    {
+      "date": "2026-06-23",
+      "title": "The Low-Tech AI of Elden Ring",
+      "summary": "via nega.tv",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
     {
       "date": "2026-06-23",
       "title": "In praise of memcached",
@@ -358,117 +460,6 @@
       ],
       "source": "HN",
       "score": 564
-    },
-    {
-      "date": "2026-06-18",
-      "title": "The AirPods Effect",
-      "summary": "via www.theescapenewsletter.com",
-      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 396
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Zen and the Art of Machine Learning Research",
-      "summary": "via blog.jxmo.io",
-      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 247
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Noam Shazeer Joins OpenAI",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 323
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "summary": "via tester.army",
-      "url": "https://tester.army",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 112
-    },
-    {
-      "date": "2026-06-17",
-      "title": "How Japan's railways stayed one while splitting apart",
-      "summary": "via arun.is",
-      "url": "https://arun.is/blog/jr-logo/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 80
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
-      "summary": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video durat",
-      "url": "https://arxiv.org/abs/2606.19341v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Learning User Simulators with Turing Rewards",
-      "summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing appr",
-      "url": "https://arxiv.org/abs/2606.19336v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
-      "summary": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable",
-      "url": "https://arxiv.org/abs/2606.19334v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "The Chandra-Gaia Catalog of Counterparts: Resolving ambiguous Gaia matches to X-ray sources in the Chandra Source Catalog using Machine Learning",
-      "summary": "We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such ",
-      "url": "https://arxiv.org/abs/2606.19329v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
-      "summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on pa",
-      "url": "https://arxiv.org/abs/2606.19328v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
-      "summary": "Post-training of reasoning language models is commonly driven by supervised distillation and reinforcement learning with verifiable rewards. Distillation often relies on chain-of-thought annotations t",
-      "url": "https://arxiv.org/abs/2606.19327v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors",
-      "summary": "Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate w",
-      "url": "https://arxiv.org/abs/2606.19325v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
