@@ -902,5 +902,15 @@
     "summary": "Computer Science > Computation and Language\n\narXiv:2310.11453(cs)\n\n[Submitted on 17 Oct 2023]\n\nTitle",
     "tags": [],
     "descriptionCn": "《[2310.11453] BitNet: Scaling 1-bit Transformers for Large Language Models – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
+  },
+  {
+    "title": "[2310.11453] BitNet: Scaling 1-bit Transformers for Large Language Models – arxiv",
+    "vendor": "Microsoft",
+    "date": "2023-10-17",
+    "arxivId": "2310.11453",
+    "pdfUrl": "https://arxiv.org/pdf/2310.11453",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2310.11453(cs)\n\n[Submitted on 17 Oct 2023]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2310.11453] BitNet: Scaling 1-bit Transformers for Large Language Models – arxiv》— 微软 1-bit 量化大模型，突破传统精度限制，大幅降低推理成本。"
   }
 ]
