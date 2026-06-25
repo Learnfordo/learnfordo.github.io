@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-24T05:48:23.101Z",
+  "updatedAt": "2026-06-25T05:50:39.030Z",
   "items": [
+    {
+      "date": "2026-06-24",
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and li",
+      "url": "https://arxiv.org/abs/2606.26095v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+      "summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by t",
+      "url": "https://arxiv.org/abs/2606.26094v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+      "summary": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level fe",
+      "url": "https://arxiv.org/abs/2606.26091v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Real-Time Voice AI Hears but Does Not Listen",
+      "summary": "Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems-OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibaba's Qwen",
+      "url": "https://arxiv.org/abs/2606.26083v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and s",
+      "url": "https://arxiv.org/abs/2606.26080v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "summary": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability proper",
+      "url": "https://arxiv.org/abs/2606.26079v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
+      "summary": "Supervised deep learning has been widely used for weld penetration state classification; however, its performance often degrades significantly under domain shift, such as when transferring models betw",
+      "url": "https://arxiv.org/abs/2606.26078v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+      "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a c",
+      "url": "https://arxiv.org/abs/2606.26071v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "When Certainty Is an Artifact: Keyword Lexicon Blindness and the (Mis)Measurement of Rhetorical Stance",
+      "summary": "Can a statistically significant, large-effect-size finding in computational social science be entirely an artifact of the measurement instrument? We present a case where the answer appears to be yes. ",
+      "url": "https://arxiv.org/abs/2606.26062v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
+      "summary": "The laser welding full-penetration is of critical importance, as it constitutes one of the fundamental factors in achieving defect-free welded joints. Accurate prediction of the penetration state is t",
+      "url": "https://arxiv.org/abs/2606.26059v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 636
+    },
+    {
+      "date": "2026-06-24",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "summary": "via rubyllm.com",
+      "url": "https://rubyllm.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 368
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 261
+    },
+    {
+      "date": "2026-06-24",
+      "title": "PR spam today looks like email spam in the early 2000s",
+      "summary": "via www.greptile.com",
+      "url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 204
+    },
+    {
+      "date": "2026-06-23",
+      "title": "GLM-5.2 is a step change for open agents",
+      "summary": "via www.interconnects.ai",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 183
+    },
     {
       "date": "2026-06-23",
       "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
@@ -316,150 +451,6 @@
       "url": "https://arxiv.org/abs/2606.20557v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation",
-      "summary": "Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users' next interactions from their historical behaviors. At the core o",
-      "url": "https://arxiv.org/abs/2606.20554v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "The Token Is a Group Element: On Lie-Algebra Attention over Matrix Lie Groups",
-      "summary": "We place the attention token on the group: a token is an element $g_i$ of a matrix Lie group $G$ -- a bare transformation, with no feature payload and no external action $ρ(g)$ carrying it. To our kno",
-      "url": "https://arxiv.org/abs/2606.20547v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Predictability as a Fine-Grained Measure for Privacy",
-      "summary": "Differential privacy (DP) ensures rigorous individual-level privacy guarantees against even the most knowledgeable attackers, but its worst-case nature can impose a costly privacy-accuracy tradeoff. W",
-      "url": "https://arxiv.org/abs/2606.20546v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
-      "summary": "Calibration aligns a model's predictive uncertainty with the frequencies of its empirical outcomes and is important for understanding and trusting reported probabilities. Recent work shows that enforc",
-      "url": "https://arxiv.org/abs/2606.20544v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Multi-Task Bayesian In-Context Learning",
-      "summary": "Bayesian predictive inference provides a principled framework for uncertainty quantification, data efficiency, and robust generalization. However, exact inference is often intractable, and scalable ap",
-      "url": "https://arxiv.org/abs/2606.20538v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
-      "summary": "Mainstream LLM serving systems reuse prefix work mainly through paged or radix key-value (KV) caches. This is highly effective for high-throughput, high-concurrency serving, but it manages only one po",
-      "url": "https://arxiv.org/abs/2606.20537v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech",
-      "summary": "Style-captioned text-to-speech systems use natural language to control voice characteristics, but how individual words influence acoustic output remains unclear. Understanding this is critical for dia",
-      "url": "https://arxiv.org/abs/2606.20532v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-21",
-      "title": "When I reject AI code even if it works",
-      "summary": "via vinibrasil.com",
-      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 134
-    },
-    {
-      "date": "2026-06-21",
-      "title": "Your brain was never designed for this much bad news",
-      "summary": "via www.sciencedaily.com",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 88
-    },
-    {
-      "date": "2026-06-20",
-      "title": "Temporary Cloudflare accounts for AI agents",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/temporary-accounts/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 199
-    },
-    {
-      "date": "2026-06-20",
-      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
-      "summary": "via github.com",
-      "url": "https://github.com/mysk-research/loupe",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 190
-    },
-    {
-      "date": "2026-06-20",
-      "title": "Slow breathing modulates brain function and risk behavior",
-      "summary": "via www.cell.com",
-      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 140
-    },
-    {
-      "date": "2026-06-19",
-      "title": "Hyundai buys Boston Dynamics",
-      "summary": "via startupfortune.com",
-      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 737
-    },
-    {
-      "date": "2026-06-19",
-      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
-      "summary": "via www.jvm-weekly.com",
-      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 567
-    },
-    {
-      "date": "2026-06-19",
-      "title": "Norway imposes near ban on AI in elementary school",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 564
     }
   ]
 }
