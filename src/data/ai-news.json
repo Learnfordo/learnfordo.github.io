@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-25T05:50:39.030Z",
+  "updatedAt": "2026-06-25T16:05:52.899Z",
   "items": [
+    {
+      "date": "2026-06-25",
+      "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 216
+    },
     {
       "date": "2026-06-24",
       "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
@@ -90,18 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 636
-    },
-    {
-      "date": "2026-06-24",
-      "title": "RubyLLM: A Ruby framework for all major AI providers",
-      "summary": "via rubyllm.com",
-      "url": "https://rubyllm.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 368
+      "score": 772
     },
     {
       "date": "2026-06-24",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 261
+      "score": 654
+    },
+    {
+      "date": "2026-06-24",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "summary": "via rubyllm.com",
+      "url": "https://rubyllm.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 430
+    },
+    {
+      "date": "2026-06-23",
+      "title": "GLM-5.2 is a step change for open agents",
+      "summary": "via www.interconnects.ai",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 330
     },
     {
       "date": "2026-06-24",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 204
-    },
-    {
-      "date": "2026-06-23",
-      "title": "GLM-5.2 is a step change for open agents",
-      "summary": "via www.interconnects.ai",
-      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 183
     },
     {
       "date": "2026-06-23",
@@ -441,14 +452,6 @@
       "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
       "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human acti",
       "url": "https://arxiv.org/abs/2606.20559v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Optimal Deterministic Multicalibration and Omniprediction",
-      "summary": "A model is multicalibrated on a collection of group weights $G$ if it is calibrated -- i.e. unbiased even conditional on its prediction -- not just overall, but also after reweighting contexts by each",
-      "url": "https://arxiv.org/abs/2606.20557v1",
       "tags": [],
       "source": "arXiv"
     }
