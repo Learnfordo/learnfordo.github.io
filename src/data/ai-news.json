@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-26T04:34:17.453Z",
+  "updatedAt": "2026-06-26T05:55:07.826Z",
   "items": [
+    {
+      "date": "2026-06-26",
+      "title": "What happened after 2k people tried to hack my AI assistant",
+      "summary": "via www.fernandoi.cl",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
     {
       "date": "2026-06-25",
       "title": "DanceOPD: On-Policy Generative Field Distillation",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 667
+      "score": 681
     },
     {
       "date": "2026-06-25",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 228
+      "score": 244
     },
     {
       "date": "2026-06-25",
@@ -112,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 153
+      "score": 185
     },
     {
       "date": "2026-06-23",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 52
+      "score": 78
     },
     {
       "date": "2026-06-25",
@@ -429,14 +440,6 @@
       "title": "Open Problem: Is AdamW Effective Under Heavy-Tailed Noise?",
       "summary": "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes. This is increasingly unsatisfying, as empirical evide",
       "url": "https://arxiv.org/abs/2606.23676v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "PsyBridge: A Hybrid Intelligent Framework for Multi-Dimensional Mental Health Assessment and Decision Support",
-      "summary": "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration. Existing approaches frequently focu",
-      "url": "https://arxiv.org/abs/2606.23673v1",
       "tags": [],
       "source": "arXiv"
     }
