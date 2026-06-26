@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-06-25T16:05:52.899Z",
+  "updatedAt": "2026-06-26T04:34:17.453Z",
   "items": [
+    {
+      "date": "2026-06-25",
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "summary": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally ali",
+      "url": "https://arxiv.org/abs/2606.27377v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution ",
+      "url": "https://arxiv.org/abs/2606.27369v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Autoregressive Boltzmann Generators",
+      "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allo",
+      "url": "https://arxiv.org/abs/2606.27361v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the",
+      "url": "https://arxiv.org/abs/2606.27359v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Error-Conditioned Neural Solvers",
+      "summary": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their ow",
+      "url": "https://arxiv.org/abs/2606.27354v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
+      "summary": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing thes",
+      "url": "https://arxiv.org/abs/2606.27347v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
+      "summary": "Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work ",
+      "url": "https://arxiv.org/abs/2606.27342v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive",
+      "url": "https://arxiv.org/abs/2606.27334v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLL",
+      "url": "https://arxiv.org/abs/2606.27330v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Hallucination in World Models is Predictable and Preventable",
+      "summary": "Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics",
+      "url": "https://arxiv.org/abs/2606.27326v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Apple raises prices of MacBooks, iPads",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 667
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "summary": "via github.com",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 228
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 153
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "summary": "I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.Instead of training the model to gener",
+      "url": "https://news.ycombinator.com/item?id=48644463",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
+    },
     {
       "date": "2026-06-25",
       "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
@@ -313,145 +437,6 @@
       "title": "PsyBridge: A Hybrid Intelligent Framework for Multi-Dimensional Mental Health Assessment and Decision Support",
       "summary": "Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration. Existing approaches frequently focu",
       "url": "https://arxiv.org/abs/2606.23673v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Teaching LLMs String Matching, Backtracking, and Error Recovery to Deduce Bases and Truth Tables for the Combinatorially Exploding Bit Manipulation Puzzles",
-      "summary": "This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles. In this task, the objective is to discover a hidden logical rul",
-      "url": "https://arxiv.org/abs/2606.23672v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
-      "summary": "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its o",
-      "url": "https://arxiv.org/abs/2606.23671v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Tapered Language Models",
-      "summary": "Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth. This ",
-      "url": "https://arxiv.org/abs/2606.23670v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
-      "summary": "via www.cbc.ca",
-      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 408
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
-      "summary": "via hustvl.github.io",
-      "url": "https://hustvl.github.io/Moebius/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 263
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Show HN: Oak – Git alternative designed for agents",
-      "summary": "via oak.space",
-      "url": "https://oak.space/oak/oak",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 171
-    },
-    {
-      "date": "2026-06-21",
-      "title": "Polymarket has flooded social media with deceptive videos by paid creators",
-      "summary": "via www.wsj.com",
-      "url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Danish privacy activist Lars Andersen raided by police",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 148
-    },
-    {
-      "date": "2026-06-21",
-      "title": "Identity verification on Claude",
-      "summary": "via support.claude.com",
-      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 693
-    },
-    {
-      "date": "2026-06-21",
-      "title": "Apertus – Open Foundation Model for Sovereign AI",
-      "summary": "via apertvs.ai",
-      "url": "https://apertvs.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 331
-    },
-    {
-      "date": "2026-06-21",
-      "title": "JSON-LD explained for personal websites",
-      "summary": "via hawksley.dev",
-      "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 195
-    },
-    {
-      "date": "2026-06-21",
-      "title": "There is minimal downside to switching to open models",
-      "summary": "via www.marble.onl",
-      "url": "https://www.marble.onl/posts/cancel_claude.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 168
-    },
-    {
-      "date": "2026-06-18",
-      "title": "How Transparent is DiffusionGemma?",
-      "summary": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a ",
-      "url": "https://arxiv.org/abs/2606.20560v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
-      "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human acti",
-      "url": "https://arxiv.org/abs/2606.20559v1",
       "tags": [],
       "source": "arXiv"
     }
