@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-06-27T05:37:43.967Z",
+  "updatedAt": "2026-06-27T16:08:54.316Z",
   "items": [
     {
-      "date": "2026-06-26",
-      "title": "U.S. government will decide who gets to use GPT-5.6",
-      "summary": "via www.washingtonpost.com",
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "date": "2026-06-27",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "summary": "via github.com",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 930
+      "score": 605
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "summary": "via grack.com",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 109
     },
     {
       "date": "2026-06-26",
@@ -21,29 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 920
-    },
-    {
-      "date": "2026-06-26",
-      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
-      "summary": "via www.semafor.com",
-      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 329
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Ultrasound imaging of the brain",
-      "summary": "via alephneuro.com",
-      "url": "https://alephneuro.com/blog/ultrasound-brain",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 260
+      "score": 1069
     },
     {
       "date": "2026-06-26",
@@ -54,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 171
+      "score": 275
     },
     {
       "date": "2026-06-25",
@@ -135,6 +124,39 @@
       "url": "https://arxiv.org/abs/2606.27326v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "summary": "via www.washingtonpost.com",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 930
+    },
+    {
+      "date": "2026-06-26",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+      "summary": "via www.semafor.com",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 329
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Ultrasound imaging of the brain",
+      "summary": "via alephneuro.com",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 260
     },
     {
       "date": "2026-06-26",
@@ -438,25 +460,6 @@
       ],
       "source": "HN",
       "score": 132
-    },
-    {
-      "date": "2026-06-23",
-      "title": "In praise of memcached",
-      "summary": "via jchri.st",
-      "url": "https://jchri.st/blog/in-praise-of-memcached/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 99
-    },
-    {
-      "date": "2026-06-22",
-      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
-      "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but",
-      "url": "https://arxiv.org/abs/2606.23689v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
