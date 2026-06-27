@@ -1,16 +1,60 @@
 {
-  "updatedAt": "2026-06-26T05:55:07.826Z",
+  "updatedAt": "2026-06-27T05:37:43.967Z",
   "items": [
     {
       "date": "2026-06-26",
-      "title": "What happened after 2k people tried to hack my AI assistant",
-      "summary": "via www.fernandoi.cl",
-      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "summary": "via www.washingtonpost.com",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 64
+      "score": 930
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 920
+    },
+    {
+      "date": "2026-06-26",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+      "summary": "via www.semafor.com",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 329
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Ultrasound imaging of the brain",
+      "summary": "via alephneuro.com",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 260
+    },
+    {
+      "date": "2026-06-26",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "summary": "via blog.doubleword.ai",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 171
     },
     {
       "date": "2026-06-25",
@@ -91,6 +135,17 @@
       "url": "https://arxiv.org/abs/2606.27326v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "What happened after 2k people tried to hack my AI assistant",
+      "summary": "via www.fernandoi.cl",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
     },
     {
       "date": "2026-06-25",
@@ -400,46 +455,6 @@
       "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
       "summary": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but",
       "url": "https://arxiv.org/abs/2606.23689v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
-      "summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize",
-      "url": "https://arxiv.org/abs/2606.23687v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
-      "summary": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freed",
-      "url": "https://arxiv.org/abs/2606.23680v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Semantic Browsing: Controllable Diversity for Image Generation",
-      "summary": "Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interp",
-      "url": "https://arxiv.org/abs/2606.23679v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "AIR: Adaptive Interleaved Reasoning with Code in MLLMs",
-      "summary": "Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier. The existing literature",
-      "url": "https://arxiv.org/abs/2606.23678v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Open Problem: Is AdamW Effective Under Heavy-Tailed Noise?",
-      "summary": "AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes. This is increasingly unsatisfying, as empirical evide",
-      "url": "https://arxiv.org/abs/2606.23676v1",
       "tags": [],
       "source": "arXiv"
     }
