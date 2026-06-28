@@ -1,38 +1,27 @@
 {
-  "updatedAt": "2026-06-28T06:01:48.894Z",
+  "updatedAt": "2026-06-28T15:06:25.260Z",
   "items": [
     {
       "date": "2026-06-28",
-      "title": "Response to AI slop is from Robin Williams",
-      "summary": "via jayacunzo.com",
-      "url": "https://jayacunzo.com/blog/your-move-chief",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 147
-    },
-    {
-      "date": "2026-06-27",
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
       "summary": "via github.com",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "url": "https://github.com/itsthelore/wayfinder-router",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 749
+      "score": 91
     },
     {
-      "date": "2026-06-27",
-      "title": "Asian AI startups launch Mythos-like models",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "date": "2026-06-28",
+      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "summary": "via github.com",
+      "url": "https://github.com/openai/codex/issues/2847",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 201
+      "score": 79
     },
     {
       "date": "2026-06-25",
@@ -113,6 +102,39 @@
       "url": "https://arxiv.org/abs/2606.27326v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Response to AI slop is from Robin Williams",
+      "summary": "via jayacunzo.com",
+      "url": "https://jayacunzo.com/blog/your-move-chief",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 147
+    },
+    {
+      "date": "2026-06-27",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "summary": "via github.com",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 749
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Asian AI startups launch Mythos-like models",
+      "summary": "via techcrunch.com",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 201
     },
     {
       "date": "2026-06-24",
@@ -448,22 +470,6 @@
       "title": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
       "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the comple",
       "url": "https://arxiv.org/abs/2606.24851v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
-      "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relation",
-      "url": "https://arxiv.org/abs/2606.24849v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "World Models in Pieces: Structural Certification for General Agents",
-      "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish ",
-      "url": "https://arxiv.org/abs/2606.24842v1",
       "tags": [],
       "source": "arXiv"
     }
