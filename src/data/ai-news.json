@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-28T15:06:25.260Z",
+  "updatedAt": "2026-06-29T06:22:27.487Z",
   "items": [
+    {
+      "date": "2026-06-29",
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "summary": "via danunparsed.com",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 200
+    },
+    {
+      "date": "2026-06-28",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "summary": "via semgrep.dev",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 678
+    },
+    {
+      "date": "2026-06-28",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "summary": "via antoine.fi",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 396
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "summary": "via english.elpais.com",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 354
+    },
+    {
+      "date": "2026-06-28",
+      "title": "Librepods: AirPods liberated",
+      "summary": "via github.com",
+      "url": "https://github.com/librepods-org/librepods",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 343
+    },
+    {
+      "date": "2026-06-26",
+      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+      "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation s",
+      "url": "https://arxiv.org/abs/2606.28323v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Surprises in Proper Positive-Only Learning",
+      "summary": "Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under",
+      "url": "https://arxiv.org/abs/2606.28309v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes",
+      "summary": "Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solv",
+      "url": "https://arxiv.org/abs/2606.28308v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Second-Order KKT Guarantees for Bregman ADMM in Nonconvex and Non-Lipschitz Optimization",
+      "summary": "We analyze Bregman ADMM for nonconvex linearly constrained problems under two-sided relative smoothness, a condition that replaces the standard Lipschitz gradient assumption with a Hessian comparison ",
+      "url": "https://arxiv.org/abs/2606.28307v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
+      "summary": "Inference-time scaling is a promising paradigm to improve generative models, especially when outputs must satisfy structural constraints or optimize downstream rewards. We consider Masked Diffusion Mo",
+      "url": "https://arxiv.org/abs/2606.28301v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
+      "summary": "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final ch",
+      "url": "https://arxiv.org/abs/2606.28294v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Bridging Ab Initio Symmetries and Global Nuclear Masses with Interpretable Neural Networks",
+      "summary": "Ab initio modeling has established Wigner's SU(4) and Elliott's SU(3) as dominant symmetries of the nuclear force in light and intermediate-mass nuclei. We ask whether they also govern nuclear binding",
+      "url": "https://arxiv.org/abs/2606.28287v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "PAC-Bayesian Certificates for Quadratic Closed-Loop Control",
+      "summary": "PAC-Bayesian bounds provide finite-sample guarantees for data-dependent randomized predictors, but applying them to learning-based control is difficult because the natural objective is a quadratic tra",
+      "url": "https://arxiv.org/abs/2606.28281v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Agentic Hardware Design as Repository-Level Code Evolution",
+      "summary": "We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an e",
+      "url": "https://arxiv.org/abs/2606.28279v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creatin",
+      "url": "https://arxiv.org/abs/2606.28277v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-06-28",
       "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
@@ -335,141 +470,6 @@
       "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
       "summary": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability proper",
       "url": "https://arxiv.org/abs/2606.26079v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
-      "summary": "Supervised deep learning has been widely used for weld penetration state classification; however, its performance often degrades significantly under domain shift, such as when transferring models betw",
-      "url": "https://arxiv.org/abs/2606.26078v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
-      "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a c",
-      "url": "https://arxiv.org/abs/2606.26071v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "When Certainty Is an Artifact: Keyword Lexicon Blindness and the (Mis)Measurement of Rhetorical Stance",
-      "summary": "Can a statistically significant, large-effect-size finding in computational social science be entirely an artifact of the measurement instrument? We present a case where the answer appears to be yes. ",
-      "url": "https://arxiv.org/abs/2606.26062v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
-      "summary": "The laser welding full-penetration is of critical importance, as it constitutes one of the fundamental factors in achieving defect-free welded joints. Accurate prediction of the penetration state is t",
-      "url": "https://arxiv.org/abs/2606.26059v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "OpenAI unveils its first custom chip, built by Broadcom",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 772
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 654
-    },
-    {
-      "date": "2026-06-24",
-      "title": "RubyLLM: A Ruby framework for all major AI providers",
-      "summary": "via rubyllm.com",
-      "url": "https://rubyllm.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 430
-    },
-    {
-      "date": "2026-06-23",
-      "title": "GLM-5.2 is a step change for open agents",
-      "summary": "via www.interconnects.ai",
-      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 330
-    },
-    {
-      "date": "2026-06-24",
-      "title": "PR spam today looks like email spam in the early 2000s",
-      "summary": "via www.greptile.com",
-      "url": "https://www.greptile.com/blog/prs-on-openclaw",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 204
-    },
-    {
-      "date": "2026-06-23",
-      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
-      "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unloc",
-      "url": "https://arxiv.org/abs/2606.24884v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "New Bounds for the Last Iterate of the Stochastic subGradient Method",
-      "summary": "We study the last iterate of the stochastic subgradient method for one-dimensional convex Lipschitz objectives. For a fixed horizon $n$, we consider the standard fixed stepsizes $η=Θ(1/\\sqrt n)$. We p",
-      "url": "https://arxiv.org/abs/2606.24879v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
-      "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input i",
-      "url": "https://arxiv.org/abs/2606.24874v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
-      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, S",
-      "url": "https://arxiv.org/abs/2606.24855v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
-      "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be di",
-      "url": "https://arxiv.org/abs/2606.24854v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-23",
-      "title": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
-      "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the comple",
-      "url": "https://arxiv.org/abs/2606.24851v1",
       "tags": [],
       "source": "arXiv"
     }
