@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T05:54:48.315Z",
+  "updatedAt": "2026-06-30T09:12:58.891Z",
   "items": [
     {
       "date": "2026-06-30",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 79
+      "score": 138
     },
     {
       "date": "2026-06-29",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 414
+      "score": 502
     },
     {
       "date": "2026-06-29",
@@ -112,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 186
+      "score": 209
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
     },
     {
       "date": "2026-06-29",
@@ -124,17 +135,6 @@
       ],
       "source": "HN",
       "score": 124
-    },
-    {
-      "date": "2026-06-27",
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 147
     },
     {
       "date": "2026-06-29",
