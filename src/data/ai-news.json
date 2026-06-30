@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T04:35:30.452Z",
+  "updatedAt": "2026-06-30T05:54:48.315Z",
   "items": [
     {
       "date": "2026-06-30",
@@ -10,7 +10,131 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 56
+      "score": 79
+    },
+    {
+      "date": "2026-06-29",
+      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "summary": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, langu",
+      "url": "https://arxiv.org/abs/2606.30645v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
+      "summary": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a struc",
+      "url": "https://arxiv.org/abs/2606.30642v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even",
+      "url": "https://arxiv.org/abs/2606.30639v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
+      "summary": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchro",
+      "url": "https://arxiv.org/abs/2606.30634v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challeng",
+      "url": "https://arxiv.org/abs/2606.30632v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+      "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to ex",
+      "url": "https://arxiv.org/abs/2606.30627v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "DOPD: Dual On-policy Distillation",
+      "summary": "On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby eleva",
+      "url": "https://arxiv.org/abs/2606.30626v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms",
+      "summary": "Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, em",
+      "url": "https://arxiv.org/abs/2606.30625v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspective",
+      "url": "https://arxiv.org/abs/2606.30616v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders",
+      "summary": "Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundament",
+      "url": "https://arxiv.org/abs/2606.30609v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "summary": "via hccf.onmy.cloud",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 414
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "summary": "via github.com",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 186
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Working With AI: A concrete example",
+      "summary": "via htmx.org",
+      "url": "https://htmx.org/essays/working-with-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 147
     },
     {
       "date": "2026-06-29",
@@ -91,50 +215,6 @@
       "url": "https://arxiv.org/abs/2606.30296v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": ".self: A new top-level domain designed to support self-hosting",
-      "summary": "via hccf.onmy.cloud",
-      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 390
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
-      "summary": "via github.com",
-      "url": "https://github.com/deepreinforce-ai/Ornith-1",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 175
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Working With AI: A concrete example",
-      "summary": "via htmx.org",
-      "url": "https://htmx.org/essays/working-with-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
-    },
-    {
-      "date": "2026-06-27",
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 138
     },
     {
       "date": "2026-06-29",
@@ -356,110 +436,6 @@
       "url": "https://arxiv.org/abs/2606.27334v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
-      "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLL",
-      "url": "https://arxiv.org/abs/2606.27330v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Hallucination in World Models is Predictable and Preventable",
-      "summary": "Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics",
-      "url": "https://arxiv.org/abs/2606.27326v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-28",
-      "title": "Response to AI slop is from Robin Williams",
-      "summary": "via jayacunzo.com",
-      "url": "https://jayacunzo.com/blog/your-move-chief",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 147
-    },
-    {
-      "date": "2026-06-27",
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "summary": "via github.com",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 749
-    },
-    {
-      "date": "2026-06-27",
-      "title": "Asian AI startups launch Mythos-like models",
-      "summary": "via techcrunch.com",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
-    },
-    {
-      "date": "2026-06-24",
-      "title": "AI learns the “dark art” of RFIC design",
-      "summary": "via spectrum.ieee.org",
-      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 218
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Reducing tick density along recreational trails in Ottawa, Canada",
-      "summary": "via www.sciencedirect.com",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 179
-    },
-    {
-      "date": "2026-06-27",
-      "title": "Anatomy of a Failed (Nation-State?) Attack",
-      "summary": "via grack.com",
-      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1069
-    },
-    {
-      "date": "2026-06-26",
-      "title": "The gap between open weights LLMs and closed source LLMs",
-      "summary": "via blog.doubleword.ai",
-      "url": "https://blog.doubleword.ai/frontier-os-llm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 275
     }
   ]
 }
