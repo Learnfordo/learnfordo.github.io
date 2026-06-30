@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-29T06:22:27.487Z",
+  "updatedAt": "2026-06-30T04:35:30.452Z",
   "items": [
+    {
+      "date": "2026-06-30",
+      "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+      "summary": "via longcat.chat",
+      "url": "https://longcat.chat/blog/longcat-2.0/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Hybrid Active-Online Learning Framework for Label-Efficient Concept Drift Adaptation in Optical Network Failure Detection",
+      "summary": "We propose a hybrid active-online learning framework for label-efficient concept drift adaptation in optical network failure detection. Using margin-based selective labeling, our method achieves nearc",
+      "url": "https://arxiv.org/abs/2606.30322v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
+      "summary": "Modeling the bidirectional correspondence between external sensory stimuli and internal neural activity has emerged as a critical frontier in neuroscience. However, existing approaches predominantly t",
+      "url": "https://arxiv.org/abs/2606.30319v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
+      "summary": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024, defines a standardized interface for connecting large language models (LLMs) to external tools, data sources, and services. ",
+      "url": "https://arxiv.org/abs/2606.30317v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Toward an Energy-Optimized Operation of Data Centers Located in Wind Farms Using Reinforcement Learning",
+      "summary": "This paper studies Reinforcement Learning as an online controller for curtailment-aware workload shifting in wind-turbine-integrated high-performance computing (HPC) data centers. We introduce a repro",
+      "url": "https://arxiv.org/abs/2606.30316v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "TRACE: A Concept Bottleneck Model for Longitudinal 3D Glioblastoma Response Assessment",
+      "summary": "Longitudinal glioblastoma response assessment requires comparing subtle tumor changes across MRI time points using structured clinical criteria such as RANO. However, most deep learning methods predic",
+      "url": "https://arxiv.org/abs/2606.30313v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information",
+      "summary": "Conversational data collected in domains such as healthcare or social sciences is a valuable resource for research and automated analysis. However, responsible data sharing requires the detection and ",
+      "url": "https://arxiv.org/abs/2606.30312v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Highly Data Parallelizable Estimation of the Sliced-Wasserstein Distance Using Cumulative Distribution Functions",
+      "summary": "The Sliced Wasserstein (SW) distance has emerged as a computationally attractive alternative to the Wasserstein distance by leveraging one-dimensional optimal transport along random projections. Stand",
+      "url": "https://arxiv.org/abs/2606.30310v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Always-OnAgents:A Survey of Persistent Memory, State, and Governance in LLMAgents",
+      "summary": "Always-on agents are systems whose future behavior depends on durable state accumulated across earlier interactions. We treat them as persistent-state systems: the operative system includes retrievabl",
+      "url": "https://arxiv.org/abs/2606.30306v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Research Entity Extraction and Topic Detection from UKRI Grant Proposals",
+      "summary": "This paper presents preliminary findings from a UKRI-funded Metascience project comparing three LLM-based approaches, GPT-4o, Mistral, and a bespoke algorithm, DSIT-Taxonomies, for extracting and clas",
+      "url": "https://arxiv.org/abs/2606.30304v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "ManimAgent: Self-Evolving Multimodal Agents for Visual Education",
+      "summary": "Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds o",
+      "url": "https://arxiv.org/abs/2606.30296v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-29",
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "summary": "via hccf.onmy.cloud",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 390
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "summary": "via github.com",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 175
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Working With AI: A concrete example",
+      "summary": "via htmx.org",
+      "url": "https://htmx.org/essays/working-with-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 138
+    },
     {
       "date": "2026-06-29",
       "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
@@ -325,153 +460,6 @@
       ],
       "source": "HN",
       "score": 275
-    },
-    {
-      "date": "2026-06-26",
-      "title": "U.S. government will decide who gets to use GPT-5.6",
-      "summary": "via www.washingtonpost.com",
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 930
-    },
-    {
-      "date": "2026-06-26",
-      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
-      "summary": "via www.semafor.com",
-      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 329
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Ultrasound imaging of the brain",
-      "summary": "via alephneuro.com",
-      "url": "https://alephneuro.com/blog/ultrasound-brain",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 260
-    },
-    {
-      "date": "2026-06-26",
-      "title": "What happened after 2k people tried to hack my AI assistant",
-      "summary": "via www.fernandoi.cl",
-      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Apple raises prices of MacBooks, iPads",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 681
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
-      "summary": "via github.com",
-      "url": "https://github.com/inkeep/open-knowledge",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 244
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
-    },
-    {
-      "date": "2026-06-23",
-      "title": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
-      "summary": "I built an experiment that uses an overfitted transformer and arithmetic coding to compress individual files.Instead of training the model to gener",
-      "url": "https://news.ycombinator.com/item?id=48644463",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 78
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 216
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
-      "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and li",
-      "url": "https://arxiv.org/abs/2606.26095v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
-      "summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by t",
-      "url": "https://arxiv.org/abs/2606.26094v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-      "summary": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level fe",
-      "url": "https://arxiv.org/abs/2606.26091v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Real-Time Voice AI Hears but Does Not Listen",
-      "summary": "Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems-OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibaba's Qwen",
-      "url": "https://arxiv.org/abs/2606.26083v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
-      "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and s",
-      "url": "https://arxiv.org/abs/2606.26080v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
-      "summary": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability proper",
-      "url": "https://arxiv.org/abs/2606.26079v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
