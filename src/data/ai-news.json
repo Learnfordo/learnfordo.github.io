@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-06-30T09:12:58.891Z",
+  "updatedAt": "2026-07-01T05:01:42.647Z",
   "items": [
+    {
+      "date": "2026-06-30",
+      "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+      "summary": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features o",
+      "url": "https://arxiv.org/abs/2606.32038v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to ",
+      "url": "https://arxiv.org/abs/2606.32034v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive facu",
+      "url": "https://arxiv.org/abs/2606.32032v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table struc",
+      "url": "https://arxiv.org/abs/2606.32029v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Freeform Preference Learning for Robotic Manipulation",
+      "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary prefe",
+      "url": "https://arxiv.org/abs/2606.32027v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "summary": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their p",
+      "url": "https://arxiv.org/abs/2606.32026v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Generative Skill Composition for LLM Agents",
+      "summary": "Recent LLM agents benefit from skills for solving complex tasks. Skills encapsulate modular packages of procedural knowledge and instructions for performing specialized tasks, such as setting up a san",
+      "url": "https://arxiv.org/abs/2606.32025v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data",
+      "summary": "Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest",
+      "url": "https://arxiv.org/abs/2606.32023v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "SemRF: A Semantic Reference Frame for Residual-Stream Dynamics in Language Models",
+      "summary": "Residual-stream analysis asks how language-model computation evolves across depth, but intermediate decoding requires comparable readout coordinates across layers. If embedding anchors and unembedding",
+      "url": "https://arxiv.org/abs/2606.32022v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Automated Background Swapping for Robustness against Spurious Backgrounds",
+      "summary": "Classifiers based on Deep Neural Networks exhibit strong performance across domains, yet can fail catastrophically if they rely on spurious correlations, i.e., features that are predictive of the targ",
+      "url": "https://arxiv.org/abs/2606.32018v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Claude Code is steganographically marking requests",
+      "summary": "via thereallo.dev",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1593
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Claude Sonnet 5",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 990
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 448
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Claude Science",
+      "summary": "via claude.com",
+      "url": "https://claude.com/product/claude-science",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 408
+    },
+    {
+      "date": "2026-06-30",
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "summary": "via ai.meta.com",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
     {
       "date": "2026-06-30",
       "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
@@ -308,132 +443,6 @@
       "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
       "summary": "Inference-time scaling is a promising paradigm to improve generative models, especially when outputs must satisfy structural constraints or optimize downstream rewards. We consider Masked Diffusion Mo",
       "url": "https://arxiv.org/abs/2606.28301v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
-      "summary": "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final ch",
-      "url": "https://arxiv.org/abs/2606.28294v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Bridging Ab Initio Symmetries and Global Nuclear Masses with Interpretable Neural Networks",
-      "summary": "Ab initio modeling has established Wigner's SU(4) and Elliott's SU(3) as dominant symmetries of the nuclear force in light and intermediate-mass nuclei. We ask whether they also govern nuclear binding",
-      "url": "https://arxiv.org/abs/2606.28287v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "PAC-Bayesian Certificates for Quadratic Closed-Loop Control",
-      "summary": "PAC-Bayesian bounds provide finite-sample guarantees for data-dependent randomized predictors, but applying them to learning-based control is difficult because the natural objective is a quadratic tra",
-      "url": "https://arxiv.org/abs/2606.28281v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Agentic Hardware Design as Repository-Level Code Evolution",
-      "summary": "We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an e",
-      "url": "https://arxiv.org/abs/2606.28279v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
-      "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creatin",
-      "url": "https://arxiv.org/abs/2606.28277v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-28",
-      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "summary": "via github.com",
-      "url": "https://github.com/itsthelore/wayfinder-router",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 91
-    },
-    {
-      "date": "2026-06-28",
-      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-      "summary": "via github.com",
-      "url": "https://github.com/openai/codex/issues/2847",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-06-25",
-      "title": "DanceOPD: On-Policy Generative Field Distillation",
-      "summary": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally ali",
-      "url": "https://arxiv.org/abs/2606.27377v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution ",
-      "url": "https://arxiv.org/abs/2606.27369v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Autoregressive Boltzmann Generators",
-      "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allo",
-      "url": "https://arxiv.org/abs/2606.27361v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
-      "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the",
-      "url": "https://arxiv.org/abs/2606.27359v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Error-Conditioned Neural Solvers",
-      "summary": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their ow",
-      "url": "https://arxiv.org/abs/2606.27354v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
-      "summary": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing thes",
-      "url": "https://arxiv.org/abs/2606.27347v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
-      "summary": "Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work ",
-      "url": "https://arxiv.org/abs/2606.27342v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
-      "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive",
-      "url": "https://arxiv.org/abs/2606.27334v1",
       "tags": [],
       "source": "arXiv"
     }
