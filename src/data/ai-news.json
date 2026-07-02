@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-07-01T06:10:02.919Z",
+  "updatedAt": "2026-07-02T04:12:14.046Z",
   "items": [
+    {
+      "date": "2026-07-01",
+      "title": "Measuring the Gap Between Human and LLM Research Ideas",
+      "summary": "LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-g",
+      "url": "https://arxiv.org/abs/2607.01233v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+      "summary": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Exi",
+      "url": "https://arxiv.org/abs/2607.01232v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Language-Critique Imitation Learning from Suboptimal Demonstrations",
+      "summary": "Prior work on imitation learning from suboptimal demonstrations typically relies on compressed supervision signals such as confidence estimates, discriminator scores, or importance weights. These scal",
+      "url": "https://arxiv.org/abs/2607.01225v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "summary": "Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by ",
+      "url": "https://arxiv.org/abs/2607.01224v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Theoria: Rewrite-Acceptability Verification over Informal Reasoning States",
+      "summary": "When should an AI system's answer be trusted? Formal proof assistants offer certainty but cannot reach most of the problem distribution; scalar LLM judges offer coverage but produce opaque scores that",
+      "url": "https://arxiv.org/abs/2607.01223v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "The State-Prediction Separation Hypothesis",
+      "summary": "Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the \\emph{state-prediction separation hypothesis}:",
+      "url": "https://arxiv.org/abs/2607.01218v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model",
+      "summary": "Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembl",
+      "url": "https://arxiv.org/abs/2607.01212v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
+      "summary": "Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized b",
+      "url": "https://arxiv.org/abs/2607.01211v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation",
+      "summary": "Language models deployed in high-stakes roles can potentially favor certain entities, brands, or viewpoints, steering user decisions at scale. Such preferential biases can be introduced by any actor i",
+      "url": "https://arxiv.org/abs/2607.01208v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+      "summary": "We introduce TiRex-2, a recurrent xLSTM-based time series foundation model that generalizes the univariate TiRex to multivariate forecasting with both past and future covariates. Real-world forecastin",
+      "url": "https://arxiv.org/abs/2607.01204v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-06-30",
       "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
@@ -348,101 +428,6 @@
       "title": "ManimAgent: Self-Evolving Multimodal Agents for Visual Education",
       "summary": "Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds o",
       "url": "https://arxiv.org/abs/2606.30296v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "summary": "via danunparsed.com",
-      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 200
-    },
-    {
-      "date": "2026-06-28",
-      "title": "GLM 5.2 beats Claude in our benchmarks",
-      "summary": "via semgrep.dev",
-      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 678
-    },
-    {
-      "date": "2026-06-28",
-      "title": "I used Claude Code to get a second opinion on my MRI",
-      "summary": "via antoine.fi",
-      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 396
-    },
-    {
-      "date": "2026-06-28",
-      "title": "Professor denounces mass AI fraud on an exam at Brown",
-      "summary": "via english.elpais.com",
-      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 354
-    },
-    {
-      "date": "2026-06-28",
-      "title": "Librepods: AirPods liberated",
-      "summary": "via github.com",
-      "url": "https://github.com/librepods-org/librepods",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 343
-    },
-    {
-      "date": "2026-06-26",
-      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
-      "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation s",
-      "url": "https://arxiv.org/abs/2606.28323v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Surprises in Proper Positive-Only Learning",
-      "summary": "Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under",
-      "url": "https://arxiv.org/abs/2606.28309v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes",
-      "summary": "Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solv",
-      "url": "https://arxiv.org/abs/2606.28308v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "Second-Order KKT Guarantees for Bregman ADMM in Nonconvex and Non-Lipschitz Optimization",
-      "summary": "We analyze Bregman ADMM for nonconvex linearly constrained problems under two-sided relative smoothness, a condition that replaces the standard Lipschitz gradient assumption with a Hessian comparison ",
-      "url": "https://arxiv.org/abs/2606.28307v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-26",
-      "title": "VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing",
-      "summary": "Inference-time scaling is a promising paradigm to improve generative models, especially when outputs must satisfy structural constraints or optimize downstream rewards. We consider Masked Diffusion Mo",
-      "url": "https://arxiv.org/abs/2606.28301v1",
       "tags": [],
       "source": "arXiv"
     }
