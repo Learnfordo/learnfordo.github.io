@@ -784,6 +784,16 @@
     "descriptionCn": "《DeepSeek-V3 Technical Report》— 深度求索最新研究，持续推动开源高效模型边界。"
   },
   {
+    "title": "[2410.21276] GPT-4o System Card – arxiv",
+    "vendor": "OpenAI",
+    "date": "2024-10-25",
+    "arxivId": "2410.21276",
+    "pdfUrl": "https://arxiv.org/pdf/2410.21276",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2410.21276(cs)\n\n[Submitted on 25 Oct 2024]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2410.21276] GPT-4o System Card – arxiv》— OpenAI 发布的最新研究论文。"
+  },
+  {
     "title": "1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUsi",
     "vendor": "Microsoft",
     "date": "2024-10-23",
