@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-07-03T05:35:01.556Z",
+  "updatedAt": "2026-07-04T04:32:08.173Z",
   "items": [
+    {
+      "date": "2026-07-03",
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "summary": "via github.com",
+      "url": "https://github.com/jamesob/local-llm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 302
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Espionage Against the European Parliament",
+      "summary": "via citizenlab.ca",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 302
+    },
+    {
+      "date": "2026-07-03",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "summary": "via epoch.ai",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
+    },
+    {
+      "date": "2026-07-03",
+      "title": "The circuit that lets your brain think and see",
+      "summary": "via www.engineering.columbia.edu",
+      "url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 62
+    },
     {
       "date": "2026-07-02",
       "title": "Distributed Attacks in Persistent-State AI Control",
@@ -395,41 +439,6 @@
       "url": "https://arxiv.org/abs/2606.30626v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms",
-      "summary": "Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, em",
-      "url": "https://arxiv.org/abs/2606.30625v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
-      "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspective",
-      "url": "https://arxiv.org/abs/2606.30616v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders",
-      "summary": "Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundament",
-      "url": "https://arxiv.org/abs/2606.30609v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": ".self: A new top-level domain designed to support self-hosting",
-      "summary": "via hccf.onmy.cloud",
-      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 502
     }
   ]
 }
