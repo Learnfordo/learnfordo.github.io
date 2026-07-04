@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-04T04:32:08.173Z",
+  "updatedAt": "2026-07-04T05:28:08.352Z",
   "items": [
     {
-      "date": "2026-07-03",
-      "title": "Jamesob's guide to running SOTA LLMs locally",
-      "summary": "via github.com",
-      "url": "https://github.com/jamesob/local-llm",
+      "date": "2026-07-04",
+      "title": "MSI Center – How to gain SYSTEM privileges in seconds",
+      "summary": "via mrbruh.com",
+      "url": "https://mrbruh.com/msicenter/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 302
+      "score": 59
     },
     {
       "date": "2026-07-03",
@@ -21,7 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 302
+      "score": 313
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "summary": "via github.com",
+      "url": "https://github.com/jamesob/local-llm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 312
     },
     {
       "date": "2026-07-03",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 68
+      "score": 76
     },
     {
       "date": "2026-07-03",
@@ -43,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 62
+      "score": 66
     },
     {
       "date": "2026-07-02",
@@ -429,14 +440,6 @@
       "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
       "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to ex",
       "url": "https://arxiv.org/abs/2606.30627v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "DOPD: Dual On-policy Distillation",
-      "summary": "On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby eleva",
-      "url": "https://arxiv.org/abs/2606.30626v1",
       "tags": [],
       "source": "arXiv"
     }
