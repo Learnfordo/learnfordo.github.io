@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-05T05:47:01.310Z",
+  "updatedAt": "2026-07-05T11:19:50.987Z",
   "items": [
+    {
+      "date": "2026-07-05",
+      "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+      "summary": "via www.hawaiinewsnow.com",
+      "url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
+    },
     {
       "date": "2026-07-04",
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 211
+      "score": 291
     },
     {
       "date": "2026-07-04",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 138
+      "score": 181
     },
     {
       "date": "2026-07-02",
@@ -102,6 +113,17 @@
       "url": "https://arxiv.org/abs/2607.02496v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Atomic Force Microscope high-speed video, stainless etching, bacteria, and more",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=DyIQkqBXhS0",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
     },
     {
       "date": "2026-07-04",
@@ -430,22 +452,6 @@
       "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
       "summary": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a struc",
       "url": "https://arxiv.org/abs/2606.30642v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Self-Evolving World Models for LLM Agent Planning",
-      "summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even",
-      "url": "https://arxiv.org/abs/2606.30639v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
-      "summary": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchro",
-      "url": "https://arxiv.org/abs/2606.30634v1",
       "tags": [],
       "source": "arXiv"
     }
