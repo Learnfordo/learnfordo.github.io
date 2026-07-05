@@ -1,60 +1,27 @@
 {
-  "updatedAt": "2026-07-04T05:28:08.352Z",
+  "updatedAt": "2026-07-05T05:47:01.310Z",
   "items": [
     {
       "date": "2026-07-04",
-      "title": "MSI Center – How to gain SYSTEM privileges in seconds",
-      "summary": "via mrbruh.com",
-      "url": "https://mrbruh.com/msicenter/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
-    },
-    {
-      "date": "2026-07-03",
-      "title": "Espionage Against the European Parliament",
-      "summary": "via citizenlab.ca",
-      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 313
-    },
-    {
-      "date": "2026-07-03",
-      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
       "summary": "via github.com",
-      "url": "https://github.com/jamesob/local-llm",
+      "url": "https://github.com/openai/codex/issues/30364",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 312
+      "score": 211
     },
     {
-      "date": "2026-07-03",
-      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
-      "summary": "via epoch.ai",
-      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "date": "2026-07-04",
+      "title": "Better Models: Worse Tools",
+      "summary": "via lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 76
-    },
-    {
-      "date": "2026-07-03",
-      "title": "The circuit that lets your brain think and see",
-      "summary": "via www.engineering.columbia.edu",
-      "url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 66
+      "score": 138
     },
     {
       "date": "2026-07-02",
@@ -135,6 +102,61 @@
       "url": "https://arxiv.org/abs/2607.02496v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-04",
+      "title": "MSI Center – How to gain SYSTEM privileges in seconds",
+      "summary": "via mrbruh.com",
+      "url": "https://mrbruh.com/msicenter/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Espionage Against the European Parliament",
+      "summary": "via citizenlab.ca",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 313
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "summary": "via github.com",
+      "url": "https://github.com/jamesob/local-llm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 312
+    },
+    {
+      "date": "2026-07-03",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "summary": "via epoch.ai",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 76
+    },
+    {
+      "date": "2026-07-03",
+      "title": "The circuit that lets your brain think and see",
+      "summary": "via www.engineering.columbia.edu",
+      "url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 66
     },
     {
       "date": "2026-07-02",
@@ -424,22 +446,6 @@
       "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
       "summary": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchro",
       "url": "https://arxiv.org/abs/2606.30634v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
-      "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challeng",
-      "url": "https://arxiv.org/abs/2606.30632v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
-      "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to ex",
-      "url": "https://arxiv.org/abs/2606.30627v1",
       "tags": [],
       "source": "arXiv"
     }
