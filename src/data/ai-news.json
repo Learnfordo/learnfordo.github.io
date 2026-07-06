@@ -1,38 +1,49 @@
 {
-  "updatedAt": "2026-07-05T11:19:50.987Z",
+  "updatedAt": "2026-07-06T06:09:20.249Z",
   "items": [
     {
+      "date": "2026-07-06",
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 183
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
+      "summary": "via www.readtheline.ca",
+      "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
       "date": "2026-07-05",
-      "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
-      "summary": "via www.hawaiinewsnow.com",
-      "url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii/",
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "summary": "via intextbooks.science.uu.nl",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 54
+      "score": 150
     },
     {
-      "date": "2026-07-04",
-      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
-      "summary": "via github.com",
-      "url": "https://github.com/openai/codex/issues/30364",
+      "date": "2026-07-03",
+      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
+      "summary": "via tekstien-marginaalien-keskus.aalto.fi",
+      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 291
-    },
-    {
-      "date": "2026-07-04",
-      "title": "Better Models: Worse Tools",
-      "summary": "via lucumr.pocoo.org",
-      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
+      "score": 147
     },
     {
       "date": "2026-07-02",
@@ -113,6 +124,50 @@
       "url": "https://arxiv.org/abs/2607.02496v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Zuckerberg says AI agent development going slower than expected",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 157
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+      "summary": "via www.hawaiinewsnow.com",
+      "url": "https://www.hawaiinewsnow.com/2026/07/04/record-breaking-solo-rower-kelsey-pfendler-arrives-hawaii/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
+    },
+    {
+      "date": "2026-07-04",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "summary": "via github.com",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 291
+    },
+    {
+      "date": "2026-07-04",
+      "title": "Better Models: Worse Tools",
+      "summary": "via lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
     },
     {
       "date": "2026-07-02",
@@ -405,55 +460,6 @@
       ],
       "source": "HN",
       "score": 528
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Claude Science",
-      "summary": "via claude.com",
-      "url": "https://claude.com/product/claude-science",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 439
-    },
-    {
-      "date": "2026-06-30",
-      "title": "From brain waves to words: a new path to communication without surgery",
-      "summary": "via ai.meta.com",
-      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 139
-    },
-    {
-      "date": "2026-06-30",
-      "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
-      "summary": "via longcat.chat",
-      "url": "https://longcat.chat/blog/longcat-2.0/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 138
-    },
-    {
-      "date": "2026-06-29",
-      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
-      "summary": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, langu",
-      "url": "https://arxiv.org/abs/2606.30645v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
-      "summary": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a struc",
-      "url": "https://arxiv.org/abs/2606.30642v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
