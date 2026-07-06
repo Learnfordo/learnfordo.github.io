@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T06:09:20.249Z",
+  "updatedAt": "2026-07-06T11:57:55.837Z",
   "items": [
     {
       "date": "2026-07-06",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 183
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
-      "summary": "via www.readtheline.ca",
-      "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
+      "score": 320
     },
     {
       "date": "2026-07-05",
@@ -32,7 +21,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 150
+      "score": 167
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2605.20049",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 149
     },
     {
       "date": "2026-07-03",
@@ -43,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 147
+      "score": 190
     },
     {
       "date": "2026-07-02",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 157
+      "score": 261
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
+      "summary": "via www.readtheline.ca",
+      "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
     },
     {
       "date": "2026-07-05",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 1027
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 528
     }
   ]
 }
