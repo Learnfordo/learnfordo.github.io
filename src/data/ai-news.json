@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-06T11:57:55.837Z",
+  "updatedAt": "2026-07-07T04:09:56.664Z",
   "items": [
+    {
+      "date": "2026-07-06",
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Lang",
+      "url": "https://arxiv.org/abs/2607.05396v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must",
+      "url": "https://arxiv.org/abs/2607.05394v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
+      "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noi",
+      "url": "https://arxiv.org/abs/2607.05393v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine th",
+      "url": "https://arxiv.org/abs/2607.05391v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutof",
+      "url": "https://arxiv.org/abs/2607.05382v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "What Does a Discrete Diffusion Model Learn?",
+      "summary": "What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural ne",
+      "url": "https://arxiv.org/abs/2607.05381v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning",
+      "summary": "In deep learning for tabular data, efficient ensembles of multilayer perceptrons (MLPs) have recently emerged as effective and practical architectures. Existing methods of this kind use the same hyper",
+      "url": "https://arxiv.org/abs/2607.05380v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+      "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction ",
+      "url": "https://arxiv.org/abs/2607.05378v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
+      "summary": "While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current obs",
+      "url": "https://arxiv.org/abs/2607.05377v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Fitted Occupancy-Ratio Evaluation without Bellman Completeness",
+      "summary": "Occupancy ratios correct distribution shift in offline reinforcement learning and are central to off-policy evaluation. Existing primal-dual and minimax methods typically estimate these ratios by enfo",
+      "url": "https://arxiv.org/abs/2607.05375v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "A global workspace in language models",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 301
+    },
+    {
+      "date": "2026-07-06",
+      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+      "summary": "via www.lttlabs.com",
+      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 292
+    },
+    {
+      "date": "2026-07-06",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "summary": "via martinalderson.com",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 228
+    },
+    {
+      "date": "2026-07-06",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "summary": "via github.com",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 142
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Kani: A Model Checker for Rust",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 131
+    },
     {
       "date": "2026-07-06",
       "title": "GPT-5.6 Sol Ultra will be in Codex",
@@ -334,132 +469,6 @@
       "url": "https://arxiv.org/abs/2607.01212v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
-      "summary": "Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized b",
-      "url": "https://arxiv.org/abs/2607.01211v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation",
-      "summary": "Language models deployed in high-stakes roles can potentially favor certain entities, brands, or viewpoints, steering user decisions at scale. Such preferential biases can be introduced by any actor i",
-      "url": "https://arxiv.org/abs/2607.01208v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
-      "summary": "We introduce TiRex-2, a recurrent xLSTM-based time series foundation model that generalizes the univariate TiRex to multivariate forecasting with both past and future covariates. Real-world forecastin",
-      "url": "https://arxiv.org/abs/2607.01204v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
-      "summary": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features o",
-      "url": "https://arxiv.org/abs/2606.32038v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
-      "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to ",
-      "url": "https://arxiv.org/abs/2606.32034v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
-      "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive facu",
-      "url": "https://arxiv.org/abs/2606.32032v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
-      "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table struc",
-      "url": "https://arxiv.org/abs/2606.32029v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Freeform Preference Learning for Robotic Manipulation",
-      "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary prefe",
-      "url": "https://arxiv.org/abs/2606.32027v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "AdaJEPA: An Adaptive Latent World Model",
-      "summary": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their p",
-      "url": "https://arxiv.org/abs/2606.32026v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Generative Skill Composition for LLM Agents",
-      "summary": "Recent LLM agents benefit from skills for solving complex tasks. Skills encapsulate modular packages of procedural knowledge and instructions for performing specialized tasks, such as setting up a san",
-      "url": "https://arxiv.org/abs/2606.32025v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data",
-      "summary": "Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest",
-      "url": "https://arxiv.org/abs/2606.32023v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "SemRF: A Semantic Reference Frame for Residual-Stream Dynamics in Language Models",
-      "summary": "Residual-stream analysis asks how language-model computation evolves across depth, but intermediate decoding requires comparable readout coordinates across layers. If embedding anchors and unembedding",
-      "url": "https://arxiv.org/abs/2606.32022v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Automated Background Swapping for Robustness against Spurious Backgrounds",
-      "summary": "Classifiers based on Deep Neural Networks exhibit strong performance across domains, yet can fail catastrophically if they rely on spurious correlations, i.e., features that are predictive of the targ",
-      "url": "https://arxiv.org/abs/2606.32018v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Claude Code is steganographically marking requests",
-      "summary": "via thereallo.dev",
-      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1669
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Claude Sonnet 5",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1027
     }
   ]
 }
