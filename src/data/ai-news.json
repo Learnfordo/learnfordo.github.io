@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T05:13:02.183Z",
+  "updatedAt": "2026-07-07T05:49:55.965Z",
   "items": [
     {
       "date": "2026-07-06",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 319
+      "score": 324
     },
     {
       "date": "2026-07-06",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 300
+      "score": 303
     },
     {
       "date": "2026-07-06",
@@ -112,18 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 260
-    },
-    {
-      "date": "2026-07-06",
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "summary": "via github.com",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 149
+      "score": 283
     },
     {
       "date": "2026-07-06",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 144
+      "score": 157
+    },
+    {
+      "date": "2026-07-06",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "summary": "via github.com",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 152
     },
     {
       "date": "2026-07-06",
