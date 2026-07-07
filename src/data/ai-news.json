@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T04:09:56.664Z",
+  "updatedAt": "2026-07-07T05:13:02.183Z",
   "items": [
     {
       "date": "2026-07-06",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 301
+      "score": 319
     },
     {
       "date": "2026-07-06",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 292
+      "score": 300
     },
     {
       "date": "2026-07-06",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 228
+      "score": 260
     },
     {
       "date": "2026-07-06",
@@ -123,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 142
+      "score": 149
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "summary": "via ternlight-demo.vercel.app",
+      "url": "https://ternlight-demo.vercel.app/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 144
     },
     {
       "date": "2026-07-06",
@@ -459,14 +470,6 @@
       "title": "The State-Prediction Separation Hypothesis",
       "summary": "Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the \\emph{state-prediction separation hypothesis}:",
       "url": "https://arxiv.org/abs/2607.01218v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model",
-      "summary": "Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembl",
-      "url": "https://arxiv.org/abs/2607.01212v1",
       "tags": [],
       "source": "arXiv"
     }
