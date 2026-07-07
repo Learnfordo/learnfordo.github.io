@@ -149,6 +149,16 @@
     "descriptionCn": "《When Roles Fail: Epistemic Constraints on Advocate Role Fidelity in LLM-Based Po》— Mistral 发布的最新研究论文。"
   },
   {
+    "title": "GLM-5 Serving Parameter Tuning for OpenClaw: Single-Deployment MaaS Inference Optimization for Long-Context Agent Workloads",
+    "vendor": "智谱 (GLM)",
+    "date": "2026-04-27",
+    "arxivId": "2607.02518v1",
+    "pdfUrl": "https://arxiv.org/pdf/2607.02518v1",
+    "summary": "OpenClaw requests are dominated by long, tool-augmented prefixes, including system prompts, conversation history, and tool outputs fed back into the context window. For this workload, with about 28k-30k input tokens and 500 output tokens per request, serving quality is governed by throughput, TTFT, ",
+    "tags": [],
+    "descriptionCn": "《GLM-5 Serving Parameter Tuning for OpenClaw: Single-Deployment MaaS Inference Optimization for Long-Context Agent Workloads》— 智谱 AI 旗舰大语言模型，从辅助编码到智能体工程的全面能力升级。"
+  },
+  {
     "title": "GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs",
     "vendor": "Anthropic",
     "date": "2026-04-25",
