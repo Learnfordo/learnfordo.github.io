@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-09T05:52:35.009Z",
+  "updatedAt": "2026-07-10T05:45:20.004Z",
   "items": [
+    {
+      "date": "2026-07-10",
+      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
+    },
+    {
+      "date": "2026-07-09",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-wo",
+      "url": "https://arxiv.org/abs/2607.08768v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct f",
+      "url": "https://arxiv.org/abs/2607.08763v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say lit",
+      "url": "https://arxiv.org/abs/2607.08758v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+      "summary": "Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal erro",
+      "url": "https://arxiv.org/abs/2607.08757v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
+      "summary": "We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of pop",
+      "url": "https://arxiv.org/abs/2607.08756v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+      "summary": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-t",
+      "url": "https://arxiv.org/abs/2607.08754v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
+      "summary": "In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on objective log data from 77,543 students enrolled in dis",
+      "url": "https://arxiv.org/abs/2607.08748v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP's kNN Graph",
+      "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constru",
+      "url": "https://arxiv.org/abs/2607.08746v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory p",
+      "url": "https://arxiv.org/abs/2607.08745v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "summary": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer prec",
+      "url": "https://arxiv.org/abs/2607.08741v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "GPT-5.6",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1166
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Building a real-time AI tutor for 5-year-olds",
+      "summary": "via www.ello.com",
+      "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 70
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Girls just wanna have fast MPMC queues with bounded waiting",
+      "summary": "via nahla.dev",
+      "url": "https://nahla.dev/blog/waitfree_queue/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 147
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Train sim created by just one person is being called the best ever made",
+      "summary": "via kotaku.com",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 416
+    },
     {
       "date": "2026-07-09",
       "title": "I think I have LLM burnout",
@@ -310,156 +445,6 @@
       "url": "https://arxiv.org/abs/2607.05382v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "What Does a Discrete Diffusion Model Learn?",
-      "summary": "What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural ne",
-      "url": "https://arxiv.org/abs/2607.05381v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning",
-      "summary": "In deep learning for tabular data, efficient ensembles of multilayer perceptrons (MLPs) have recently emerged as effective and practical architectures. Existing methods of this kind use the same hyper",
-      "url": "https://arxiv.org/abs/2607.05380v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
-      "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction ",
-      "url": "https://arxiv.org/abs/2607.05378v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
-      "summary": "While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current obs",
-      "url": "https://arxiv.org/abs/2607.05377v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Fitted Occupancy-Ratio Evaluation without Bellman Completeness",
-      "summary": "Occupancy ratios correct distribution shift in offline reinforcement learning and are central to off-policy evaluation. Existing primal-dual and minimax methods typically estimate these ratios by enfo",
-      "url": "https://arxiv.org/abs/2607.05375v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "A global workspace in language models",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 324
-    },
-    {
-      "date": "2026-07-06",
-      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-      "summary": "via www.lttlabs.com",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 303
-    },
-    {
-      "date": "2026-07-06",
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "summary": "via martinalderson.com",
-      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 283
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
-      "summary": "via ternlight-demo.vercel.app",
-      "url": "https://ternlight-demo.vercel.app/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 157
-    },
-    {
-      "date": "2026-07-06",
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "summary": "via github.com",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 152
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Kani: A Model Checker for Rust",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2607.01504",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 131
-    },
-    {
-      "date": "2026-07-06",
-      "title": "GPT-5.6 Sol Ultra will be in Codex",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 320
-    },
-    {
-      "date": "2026-07-05",
-      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
-      "summary": "via intextbooks.science.uu.nl",
-      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
-    },
-    {
-      "date": "2026-07-05",
-      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2605.20049",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 149
-    },
-    {
-      "date": "2026-07-03",
-      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
-      "summary": "via tekstien-marginaalien-keskus.aalto.fi",
-      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 190
     }
   ]
 }
