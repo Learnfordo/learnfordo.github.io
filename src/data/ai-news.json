@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-07-10T05:45:20.004Z",
+  "updatedAt": "2026-07-11T04:47:07.325Z",
   "items": [
     {
       "date": "2026-07-10",
-      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "summary": "via 9to5mac.com",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 54
+      "score": 759
+    },
+    {
+      "date": "2026-07-10",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "summary": "via cdn.openai.com",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 396
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Snails' teeth beats spider silk as nature's strongest material (2015)",
+      "summary": "via www.smithsonianmag.com",
+      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
     },
     {
       "date": "2026-07-09",
@@ -91,6 +113,28 @@
       "url": "https://arxiv.org/abs/2607.08741v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "AI 2040: Plan A",
+      "summary": "via ai-2040.com",
+      "url": "https://ai-2040.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 186
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
     },
     {
       "date": "2026-07-09",
@@ -411,38 +455,6 @@
       "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
       "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Lang",
       "url": "https://arxiv.org/abs/2607.05396v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must",
-      "url": "https://arxiv.org/abs/2607.05394v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
-      "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noi",
-      "url": "https://arxiv.org/abs/2607.05393v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine th",
-      "url": "https://arxiv.org/abs/2607.05391v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
-      "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutof",
-      "url": "https://arxiv.org/abs/2607.05382v1",
       "tags": [],
       "source": "arXiv"
     }
