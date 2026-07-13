@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-12T04:58:43.948Z",
+  "updatedAt": "2026-07-13T04:33:19.141Z",
   "items": [
+    {
+      "date": "2026-07-13",
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "summary": "Should HN add the ability to flag articles as AI-generated? This doesn&#x27;t have to act as a regular flag, i.e., it won&#x27;t de-rank the article; ",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 214
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "summary": "via systima.ai",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 503
+    },
+    {
+      "date": "2026-07-12",
+      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "summary": "via gist.github.com",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 424
+    },
+    {
+      "date": "2026-07-12",
+      "title": "I love LLMs, I hate hype",
+      "summary": "via geohot.github.io",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 366
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "summary": "via ploy.ai",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 160
+    },
+    {
+      "date": "2026-07-10",
+      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
+      "summary": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating charac",
+      "url": "https://arxiv.org/abs/2607.09662v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, wh",
+      "url": "https://arxiv.org/abs/2607.09657v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
+      "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactio",
+      "url": "https://arxiv.org/abs/2607.09654v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testi",
+      "url": "https://arxiv.org/abs/2607.09653v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
+      "summary": "Concept-based explainable artificial intelligence (AI) can make model reasoning more human-understandable, but concept-level outputs are not automatically trustworthy. We introduce ConceptSMILE, a mod",
+      "url": "https://arxiv.org/abs/2607.09649v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
+      "summary": "Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to m",
+      "url": "https://arxiv.org/abs/2607.09645v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
+      "summary": "Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance",
+      "url": "https://arxiv.org/abs/2607.09641v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory",
+      "summary": "Quantum information theory (QIT) characterizes the capabilities and fundamental limits of quantum information processing, underpinning quantum communication, computation, and error correction. Formali",
+      "url": "https://arxiv.org/abs/2607.09632v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception",
+      "summary": "Reliable autonomous driving requires full-scene perception that couples foreground objects with dense semantic layout. Recently, 4D millimeter-wave radar has emerged as a robust and affordable sensor,",
+      "url": "https://arxiv.org/abs/2607.09629v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
+      "summary": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyr",
+      "url": "https://arxiv.org/abs/2607.09623v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-07-12",
       "title": "What xAI's Grok Build CLI Actually Sends to xAI",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 585
-    },
-    {
-      "date": "2026-07-08",
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "summary": "via mistral.ai",
-      "url": "https://mistral.ai/news/robostral-navigate/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 453
-    },
-    {
-      "date": "2026-07-08",
-      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
-      "summary": "via microsoft.github.io",
-      "url": "https://microsoft.github.io/flint-chart/#/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 244
-    },
-    {
-      "date": "2026-07-07",
-      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
-      "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatena",
-      "url": "https://arxiv.org/abs/2607.06565v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
-      "summary": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoi",
-      "url": "https://arxiv.org/abs/2607.06546v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
-      "summary": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this ",
-      "url": "https://arxiv.org/abs/2607.06544v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
-      "summary": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human lan",
-      "url": "https://arxiv.org/abs/2607.06542v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
-      "summary": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community. Despite notabl",
-      "url": "https://arxiv.org/abs/2607.06540v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
-      "summary": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure th",
-      "url": "https://arxiv.org/abs/2607.06532v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
-      "summary": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. T",
-      "url": "https://arxiv.org/abs/2607.06531v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Life Style Levels: Neighborhood Delineation using Geospatial Data",
-      "summary": "Fine-scale socioeconomic information is often unavailable across rapidly ur-banizing regions of the developing world, like India, limiting the ability to delineate intra-urban variations in affluence ",
-      "url": "https://arxiv.org/abs/2607.06529v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
-      "summary": "Multi-hop Question Answering over Knowledge Graphs faces a critical challenge: traditional retrieve-then-read pipelines break differentiability, preventing the retriever from learning to bridge the se",
-      "url": "https://arxiv.org/abs/2607.06527v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
-      "summary": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets acro",
-      "url": "https://arxiv.org/abs/2607.06523v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Chat Control 1.0 and 2.0 Explained",
-      "summary": "via fightchatcontrol.eu",
-      "url": "https://fightchatcontrol.eu/chat-control-overview",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 506
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Show HN: Davit, a Apple Containers UI",
-      "summary": "via davit.app",
-      "url": "https://davit.app",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 245
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Why skilled workers come to Germany and then leave again",
-      "summary": "via www.dw.com",
-      "url": "https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 210
     }
   ]
 }
