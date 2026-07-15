@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-14T04:33:38.390Z",
+  "updatedAt": "2026-07-15T04:33:35.085Z",
   "items": [
+    {
+      "date": "2026-07-14",
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-cont",
+      "url": "https://arxiv.org/abs/2607.13034v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "The Seriality Gap in Video Diffusion Models",
+      "summary": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of ",
+      "url": "https://arxiv.org/abs/2607.13031v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse eno",
+      "url": "https://arxiv.org/abs/2607.13028v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "summary": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent sys",
+      "url": "https://arxiv.org/abs/2607.13027v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
+      "summary": "Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of pri",
+      "url": "https://arxiv.org/abs/2607.13022v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+      "summary": "Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole t",
+      "url": "https://arxiv.org/abs/2607.13013v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+      "summary": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, sever",
+      "url": "https://arxiv.org/abs/2607.13007v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
+      "summary": "A growing family of indices scores how predictable a series is from its spectrum. Practitioners increasingly read these scores as answering a different question: whether \\emph{adding context}, a longe",
+      "url": "https://arxiv.org/abs/2607.13006v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
+      "summary": "A watermark in a generative model's output is usually asked only whether a text is machine-made. The same mark can do more: attribute it to the user who produced it, extract a hidden payload, or local",
+      "url": "https://arxiv.org/abs/2607.13003v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation",
+      "summary": "Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the scor",
+      "url": "https://arxiv.org/abs/2607.12986v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "summary": "via prismml.com",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 491
+    },
+    {
+      "date": "2026-07-14",
+      "title": "How to stop Claude from saying load-bearing",
+      "summary": "via jola.dev",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 463
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Are we offloading too much of our thinking to AI?",
+      "summary": "via www.artfish.ai",
+      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 405
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "summary": "via github.com",
+      "url": "https://github.com/juggler-ai/juggler",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 202
+    },
+    {
+      "date": "2026-07-11",
+      "title": "The largest available Minecraft world, totalling 15 TB",
+      "summary": "via 2b2t.place",
+      "url": "https://2b2t.place/1million",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 180
+    },
     {
       "date": "2026-07-13",
       "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
@@ -310,156 +445,6 @@
       "url": "https://arxiv.org/abs/2607.08756v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
-      "summary": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-t",
-      "url": "https://arxiv.org/abs/2607.08754v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
-      "summary": "In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on objective log data from 77,543 students enrolled in dis",
-      "url": "https://arxiv.org/abs/2607.08748v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP's kNN Graph",
-      "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constru",
-      "url": "https://arxiv.org/abs/2607.08746v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
-      "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory p",
-      "url": "https://arxiv.org/abs/2607.08745v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
-      "summary": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer prec",
-      "url": "https://arxiv.org/abs/2607.08741v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "An agent in 100 lines of Lisp",
-      "summary": "via thebeach.dev",
-      "url": "https://thebeach.dev/posts/lisp-agent/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 70
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "summary": "via 9to5mac.com",
-      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 759
-    },
-    {
-      "date": "2026-07-10",
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "summary": "via cdn.openai.com",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 396
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Snails' teeth beats spider silk as nature's strongest material (2015)",
-      "summary": "via www.smithsonianmag.com",
-      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
-    },
-    {
-      "date": "2026-07-09",
-      "title": "AI 2040: Plan A",
-      "summary": "via ai-2040.com",
-      "url": "https://ai-2040.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 186
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 54
-    },
-    {
-      "date": "2026-07-09",
-      "title": "GPT-5.6",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1166
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Building a real-time AI tutor for 5-year-olds",
-      "summary": "via www.ello.com",
-      "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 70
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Girls just wanna have fast MPMC queues with bounded waiting",
-      "summary": "via nahla.dev",
-      "url": "https://nahla.dev/blog/waitfree_queue/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 147
-    },
-    {
-      "date": "2026-07-05",
-      "title": "Train sim created by just one person is being called the best ever made",
-      "summary": "via kotaku.com",
-      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 416
     }
   ]
 }
