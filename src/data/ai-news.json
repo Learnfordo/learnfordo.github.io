@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-16T04:32:11.820Z",
+  "updatedAt": "2026-07-16T04:43:39.430Z",
   "items": [
+    {
+      "date": "2026-07-16",
+      "title": "Guerrilla London Bus Ads Mock Kylie Jenner's Meta Glasses Campaign",
+      "summary": "via hyperallergic.com",
+      "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
     {
       "date": "2026-07-15",
       "title": "Leveraging unlabelled data for generalizable neural population decoding",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 802
+      "score": 814
     },
     {
       "date": "2026-07-15",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 124
+      "score": 125
     },
     {
       "date": "2026-07-15",
@@ -112,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 114
+      "score": 115
     },
     {
       "date": "2026-07-15",
@@ -441,14 +452,6 @@
       "title": "Scalable Visual Pretraining for Language Intelligence",
       "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, wh",
       "url": "https://arxiv.org/abs/2607.09657v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
-      "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactio",
-      "url": "https://arxiv.org/abs/2607.09654v1",
       "tags": [],
       "source": "arXiv"
     }
