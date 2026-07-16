@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-07-15T04:33:35.085Z",
+  "updatedAt": "2026-07-16T04:32:11.820Z",
   "items": [
+    {
+      "date": "2026-07-15",
+      "title": "Leveraging unlabelled data for generalizable neural population decoding",
+      "summary": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike leve",
+      "url": "https://arxiv.org/abs/2607.14086v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Linear Independent Component Analysis via Optimal Transport",
+      "summary": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measu",
+      "url": "https://arxiv.org/abs/2607.14081v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
+      "summary": "Bioacoustic foundation models rely on large-scale citizen science platforms like Xeno-Canto for geographically and ecologically diverse data. Recent work has shown that supervision alone can produce S",
+      "url": "https://arxiv.org/abs/2607.14072v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+      "summary": "Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly ac",
+      "url": "https://arxiv.org/abs/2607.14070v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+      "summary": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answe",
+      "url": "https://arxiv.org/abs/2607.14051v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current intera",
+      "url": "https://arxiv.org/abs/2607.14049v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
+      "summary": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-A",
+      "url": "https://arxiv.org/abs/2607.14046v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
+      "summary": "By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks",
+      "url": "https://arxiv.org/abs/2607.14044v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
+      "summary": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited ",
+      "url": "https://arxiv.org/abs/2607.14041v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
+      "summary": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-docume",
+      "url": "https://arxiv.org/abs/2607.14040v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Inkling: Our Open-Weights Model",
+      "summary": "via thinkingmachines.ai",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 802
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "summary": "via www.siegelendowment.org",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "summary": "via brainless.swerdlow.dev",
+      "url": "https://brainless.swerdlow.dev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 114
+    },
+    {
+      "date": "2026-07-15",
+      "title": "LLM Networking with MikroTik",
+      "summary": "via blog.greg.technology",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 66
+    },
     {
       "date": "2026-07-14",
       "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
@@ -325,124 +449,6 @@
       "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
       "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactio",
       "url": "https://arxiv.org/abs/2607.09654v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
-      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testi",
-      "url": "https://arxiv.org/abs/2607.09653v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
-      "summary": "Concept-based explainable artificial intelligence (AI) can make model reasoning more human-understandable, but concept-level outputs are not automatically trustworthy. We introduce ConceptSMILE, a mod",
-      "url": "https://arxiv.org/abs/2607.09649v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
-      "summary": "Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to m",
-      "url": "https://arxiv.org/abs/2607.09645v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
-      "summary": "Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance",
-      "url": "https://arxiv.org/abs/2607.09641v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory",
-      "summary": "Quantum information theory (QIT) characterizes the capabilities and fundamental limits of quantum information processing, underpinning quantum communication, computation, and error correction. Formali",
-      "url": "https://arxiv.org/abs/2607.09632v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception",
-      "summary": "Reliable autonomous driving requires full-scene perception that couples foreground objects with dense semantic layout. Recently, 4D millimeter-wave radar has emerged as a robust and affordable sensor,",
-      "url": "https://arxiv.org/abs/2607.09629v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
-      "summary": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyr",
-      "url": "https://arxiv.org/abs/2607.09623v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-12",
-      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
-      "summary": "via gist.github.com",
-      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 145
-    },
-    {
-      "date": "2026-07-11",
-      "title": "Mesh LLM: distributed AI computing on iroh",
-      "summary": "via www.iroh.computer",
-      "url": "https://www.iroh.computer/blog/mesh-llm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 169
-    },
-    {
-      "date": "2026-07-09",
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-wo",
-      "url": "https://arxiv.org/abs/2607.08768v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "OpenCoF: Learning to Reason Through Video Generation",
-      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct f",
-      "url": "https://arxiv.org/abs/2607.08763v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
-      "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say lit",
-      "url": "https://arxiv.org/abs/2607.08758v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
-      "summary": "Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal erro",
-      "url": "https://arxiv.org/abs/2607.08757v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-09",
-      "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
-      "summary": "We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of pop",
-      "url": "https://arxiv.org/abs/2607.08756v1",
       "tags": [],
       "source": "arXiv"
     }
