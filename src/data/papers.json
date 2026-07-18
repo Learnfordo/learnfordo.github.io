@@ -894,6 +894,16 @@
     "descriptionCn": "《[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model – arxiv》— 深度求索最新研究，持续推动开源高效模型边界。"
   },
   {
+    "title": "[2404.15702] Nyonic Technical Report – arxiv",
+    "vendor": "Mistral",
+    "date": "2024-04-24",
+    "arxivId": "2404.15702",
+    "pdfUrl": "https://arxiv.org/pdf/2404.15702",
+    "summary": "Computer Science > Computation and Language\n\narXiv:2404.15702(cs)\n\n[Submitted on 24 Apr 2024]\n\nTitle",
+    "tags": [],
+    "descriptionCn": "《[2404.15702] Nyonic Technical Report – arxiv》— Mistral 发布的最新研究论文。"
+  },
+  {
     "title": "GPT-4 Technical Report",
     "vendor": "OpenAI",
     "date": "2024-03-04",
