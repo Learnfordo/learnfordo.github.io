@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-07-17T04:46:47.424Z",
+  "updatedAt": "2026-07-18T04:08:53.118Z",
   "items": [
+    {
+      "date": "2026-07-17",
+      "title": "The state of open source AI",
+      "summary": "via stateofopensource.ai",
+      "url": "https://stateofopensource.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 395
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "summary": "via localnewsmatters.org",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 373
+    },
+    {
+      "date": "2026-07-17",
+      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 143
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Painting the sides of railroad rails white to reduce derailment",
+      "summary": "via www.up.com",
+      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
     {
       "date": "2026-07-16",
       "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
@@ -408,38 +452,6 @@
       "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
       "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recogni",
       "url": "https://arxiv.org/abs/2607.11881v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
-      "summary": "We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been most",
-      "url": "https://arxiv.org/abs/2607.11875v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
-      "summary": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track the",
-      "url": "https://arxiv.org/abs/2607.11874v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
-      "summary": "Institutions collect far more open-ended teaching-evaluation feedback than they read. A prior study introduced a validated protocol for classifying such comments by thematic category and sentiment, bu",
-      "url": "https://arxiv.org/abs/2607.11873v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
-      "summary": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same bias",
-      "url": "https://arxiv.org/abs/2607.11871v1",
       "tags": [],
       "source": "arXiv"
     }
