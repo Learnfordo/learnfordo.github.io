@@ -1,49 +1,60 @@
 {
-  "updatedAt": "2026-07-18T04:32:05.166Z",
+  "updatedAt": "2026-07-19T04:54:14.307Z",
   "items": [
     {
-      "date": "2026-07-17",
-      "title": "The state of open source AI",
-      "summary": "via stateofopensource.ai",
-      "url": "https://stateofopensource.ai/",
+      "date": "2026-07-19",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "summary": "via ludic.mataroa.blog",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 398
+      "score": 97
     },
     {
-      "date": "2026-07-17",
-      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
-      "summary": "via localnewsmatters.org",
-      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "date": "2026-07-18",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "summary": "via old.reddit.com",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 379
+      "score": 529
     },
     {
-      "date": "2026-07-17",
-      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "date": "2026-07-18",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "summary": "via petapixel.com",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 148
+      "score": 351
     },
     {
-      "date": "2026-07-17",
-      "title": "Painting the sides of railroad rails white to reduce derailment",
-      "summary": "via www.up.com",
-      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+      "date": "2026-07-18",
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+      "summary": "via charlesazam.com",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 65
+      "score": 227
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "summary": "via ykdojo.github.io",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 205
     },
     {
       "date": "2026-07-16",
@@ -124,6 +135,50 @@
       "url": "https://arxiv.org/abs/2607.15257v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "The state of open source AI",
+      "summary": "via stateofopensource.ai",
+      "url": "https://stateofopensource.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 398
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "summary": "via localnewsmatters.org",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 379
+    },
+    {
+      "date": "2026-07-17",
+      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 148
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Painting the sides of railroad rails white to reduce derailment",
+      "summary": "via www.up.com",
+      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 65
     },
     {
       "date": "2026-07-16",
@@ -405,55 +460,6 @@
       ],
       "source": "HN",
       "score": 463
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Are we offloading too much of our thinking to AI?",
-      "summary": "via www.artfish.ai",
-      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 405
-    },
-    {
-      "date": "2026-07-12",
-      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-      "summary": "via github.com",
-      "url": "https://github.com/juggler-ai/juggler",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 202
-    },
-    {
-      "date": "2026-07-11",
-      "title": "The largest available Minecraft world, totalling 15 TB",
-      "summary": "via 2b2t.place",
-      "url": "https://2b2t.place/1million",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 180
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
-      "summary": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functio",
-      "url": "https://arxiv.org/abs/2607.11883v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recogni",
-      "url": "https://arxiv.org/abs/2607.11881v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
