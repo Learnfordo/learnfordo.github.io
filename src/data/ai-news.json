@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-07-19T04:54:14.307Z",
+  "updatedAt": "2026-07-20T04:32:46.682Z",
   "items": [
+    {
+      "date": "2026-07-20",
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "summary": "via xcancel.com",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 115
+    },
+    {
+      "date": "2026-07-19",
+      "title": "Claude Code uses Bun written in Rust now",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 431
+    },
+    {
+      "date": "2026-07-19",
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "summary": "via thenextweb.com",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 306
+    },
+    {
+      "date": "2026-07-19",
+      "title": "Ollama: All Aboard Open Models",
+      "summary": "via ollama.com",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 126
+    },
+    {
+      "date": "2026-07-17",
+      "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+      "summary": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension betwe",
+      "url": "https://arxiv.org/abs/2607.16184v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
+      "summary": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic an",
+      "url": "https://arxiv.org/abs/2607.16183v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Cluster-Aware Matching via Laplacian Optimal Transport",
+      "summary": "In many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as",
+      "url": "https://arxiv.org/abs/2607.16178v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems",
+      "summary": "Reinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large",
+      "url": "https://arxiv.org/abs/2607.16177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
+      "summary": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, wh",
+      "url": "https://arxiv.org/abs/2607.16175v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "When Does Muon Help Agentic Reinforcement Learning?",
+      "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through match",
+      "url": "https://arxiv.org/abs/2607.16169v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Behaviour-Conditioned Neural Processes for Adaptive Residential Short-Term Load Forecasting",
+      "summary": "Residential short-term load forecasting (STLF) is challenging because household demand is heterogeneous, temporally variable, and shaped by diverse behavioural routines. This work investigates whether",
+      "url": "https://arxiv.org/abs/2607.16168v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "An Exam for Active Observers",
+      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active obs",
+      "url": "https://arxiv.org/abs/2607.16165v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment",
+      "summary": "Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of m",
+      "url": "https://arxiv.org/abs/2607.16156v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Learning Standard Model structure from LHC data with Riemannian flow matching",
+      "summary": "In this work we demonstrate that a single transformer-based generative model can capture Standard Model structure spanning five decades of invariant mass, from the sub-GeV regime to the TeV continuum,",
+      "url": "https://arxiv.org/abs/2607.16144v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-07-19",
       "title": "AI Mania Is Eviscerating Global Decision-Making",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 125
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
-      "summary": "via brainless.swerdlow.dev",
-      "url": "https://brainless.swerdlow.dev",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 115
-    },
-    {
-      "date": "2026-07-15",
-      "title": "LLM Networking with MikroTik",
-      "summary": "via blog.greg.technology",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 66
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
-      "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-cont",
-      "url": "https://arxiv.org/abs/2607.13034v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "The Seriality Gap in Video Diffusion Models",
-      "summary": "When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of ",
-      "url": "https://arxiv.org/abs/2607.13031v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-      "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse eno",
-      "url": "https://arxiv.org/abs/2607.13028v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
-      "summary": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent sys",
-      "url": "https://arxiv.org/abs/2607.13027v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
-      "summary": "Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of pri",
-      "url": "https://arxiv.org/abs/2607.13022v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
-      "summary": "Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole t",
-      "url": "https://arxiv.org/abs/2607.13013v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
-      "summary": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, sever",
-      "url": "https://arxiv.org/abs/2607.13007v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
-      "summary": "A growing family of indices scores how predictable a series is from its spectrum. Practitioners increasingly read these scores as answering a different question: whether \\emph{adding context}, a longe",
-      "url": "https://arxiv.org/abs/2607.13006v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
-      "summary": "A watermark in a generative model's output is usually asked only whether a text is machine-made. The same mark can do more: attribute it to the user who produced it, extract a hidden payload, or local",
-      "url": "https://arxiv.org/abs/2607.13003v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation",
-      "summary": "Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the scor",
-      "url": "https://arxiv.org/abs/2607.12986v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "summary": "via prismml.com",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 491
-    },
-    {
-      "date": "2026-07-14",
-      "title": "How to stop Claude from saying load-bearing",
-      "summary": "via jola.dev",
-      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 463
     }
   ]
 }
