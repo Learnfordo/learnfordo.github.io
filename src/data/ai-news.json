@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T04:32:46.682Z",
+  "updatedAt": "2026-07-20T05:21:34.390Z",
   "items": [
     {
       "date": "2026-07-20",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 115
+      "score": 167
     },
     {
       "date": "2026-07-19",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 431
-    },
-    {
-      "date": "2026-07-19",
-      "title": "AI advice made people less accurate but more confident – sudy",
-      "summary": "via thenextweb.com",
-      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 306
+      "score": 444
     },
     {
       "date": "2026-07-19",
@@ -43,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 126
+      "score": 129
     },
     {
       "date": "2026-07-17",
@@ -124,6 +113,17 @@
       "url": "https://arxiv.org/abs/2607.16144v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-19",
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "summary": "via thenextweb.com",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 306
     },
     {
       "date": "2026-07-19",
