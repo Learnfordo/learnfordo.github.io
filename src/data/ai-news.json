@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-20T05:21:34.390Z",
+  "updatedAt": "2026-07-21T04:32:01.192Z",
   "items": [
+    {
+      "date": "2026-07-20",
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances ",
+      "url": "https://arxiv.org/abs/2607.18237v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global",
+      "url": "https://arxiv.org/abs/2607.18236v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about ar",
+      "url": "https://arxiv.org/abs/2607.18235v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledg",
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cr",
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
+      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque",
+      "url": "https://arxiv.org/abs/2607.18228v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Causal Discovery on Irregular Time Series",
+      "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. Howe",
+      "url": "https://arxiv.org/abs/2607.18226v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+      "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step m",
+      "url": "https://arxiv.org/abs/2607.18225v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representati",
+      "url": "https://arxiv.org/abs/2607.18218v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code",
+      "url": "https://arxiv.org/abs/2607.18213v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "China’s open-weights AI strategy is winning",
+      "summary": "via werd.io",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1018
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Who's afraid of Chinese models?",
+      "summary": "via stratechery.com",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 416
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "summary": "via blaizzy.github.io",
+      "url": "https://blaizzy.github.io/nativ/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 220
+    },
+    {
+      "date": "2026-07-20",
+      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "summary": "via unslop.run",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 201
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Agent swarms and the new model economics",
+      "summary": "via cursor.com",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 152
+    },
     {
       "date": "2026-07-20",
       "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 187
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-      "summary": "via blog.lyc8503.net",
-      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 170
-    },
-    {
-      "date": "2026-07-16",
-      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "summary": "via www.zhinit.dev",
-      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 110
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Guerrilla London Bus Ads Mock Kylie Jenner's Meta Glasses Campaign",
-      "summary": "via hyperallergic.com",
-      "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Leveraging unlabelled data for generalizable neural population decoding",
-      "summary": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike leve",
-      "url": "https://arxiv.org/abs/2607.14086v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Linear Independent Component Analysis via Optimal Transport",
-      "summary": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measu",
-      "url": "https://arxiv.org/abs/2607.14081v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
-      "summary": "Bioacoustic foundation models rely on large-scale citizen science platforms like Xeno-Canto for geographically and ecologically diverse data. Recent work has shown that supervision alone can produce S",
-      "url": "https://arxiv.org/abs/2607.14072v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
-      "summary": "Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly ac",
-      "url": "https://arxiv.org/abs/2607.14070v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
-      "summary": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answe",
-      "url": "https://arxiv.org/abs/2607.14051v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
-      "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current intera",
-      "url": "https://arxiv.org/abs/2607.14049v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
-      "summary": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-A",
-      "url": "https://arxiv.org/abs/2607.14046v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
-      "summary": "By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks",
-      "url": "https://arxiv.org/abs/2607.14044v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
-      "summary": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited ",
-      "url": "https://arxiv.org/abs/2607.14041v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
-      "summary": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-docume",
-      "url": "https://arxiv.org/abs/2607.14040v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Inkling: Our Open-Weights Model",
-      "summary": "via thinkingmachines.ai",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 814
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-      "summary": "via www.siegelendowment.org",
-      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 125
     }
   ]
 }
