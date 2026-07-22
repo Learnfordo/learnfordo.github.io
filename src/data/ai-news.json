@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-21T04:51:41.112Z",
+  "updatedAt": "2026-07-22T04:34:37.823Z",
   "items": [
+    {
+      "date": "2026-07-21",
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. H",
+      "url": "https://arxiv.org/abs/2607.19345v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reli",
+      "url": "https://arxiv.org/abs/2607.19344v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+      "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat su",
+      "url": "https://arxiv.org/abs/2607.19338v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes t",
+      "url": "https://arxiv.org/abs/2607.19336v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "1-Lipschitz Neural Networks on Hadamard Manifolds",
+      "summary": "Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we ",
+      "url": "https://arxiv.org/abs/2607.19335v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Fundamental limits of distributed multiclass classification from simple binary decisions",
+      "summary": "We consider the problem of constructing a $K$-class classifier from the combination of $O(\\log K)$ simple binary classifiers -- this is a natural paradigm to construct a sophisticated classifier in a ",
+      "url": "https://arxiv.org/abs/2607.19334v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
+      "summary": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substanti",
+      "url": "https://arxiv.org/abs/2607.19333v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
+      "summary": "Generative models have undergone many generations of evolution, from VAEs/GANs to diffusion/flow matching. Along the way, the underlying techniques have become more complicated and various beliefs abo",
+      "url": "https://arxiv.org/abs/2607.19332v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "ISO: An RLVR-Native Optimization Stack",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space upd",
+      "url": "https://arxiv.org/abs/2607.19331v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Associative Emotional Learning in Convolutional Neural Networks",
+      "summary": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner mode",
+      "url": "https://arxiv.org/abs/2607.19327v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 862
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Advertise in ChatGPT",
+      "summary": "via ads.openai.com",
+      "url": "https://ads.openai.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 505
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "summary": "via runtimewire.com",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 276
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "summary": "via apnews.com",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 198
+    },
+    {
+      "date": "2026-07-21",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "summary": "via www.tryai.dev",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 145
+    },
     {
       "date": "2026-07-20",
       "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
@@ -322,144 +457,6 @@
       "url": "https://arxiv.org/abs/2607.15277v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "RoboTTT: Context Scaling for Robot Policies",
-      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visu",
-      "url": "https://arxiv.org/abs/2607.15275v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
-      "summary": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a power",
-      "url": "https://arxiv.org/abs/2607.15273v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
-      "summary": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manus",
-      "url": "https://arxiv.org/abs/2607.15272v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
-      "summary": "Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating un",
-      "url": "https://arxiv.org/abs/2607.15271v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
-      "summary": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources suc",
-      "url": "https://arxiv.org/abs/2607.15267v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
-      "summary": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instanc",
-      "url": "https://arxiv.org/abs/2607.15265v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
-      "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completio",
-      "url": "https://arxiv.org/abs/2607.15263v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier",
-      "summary": "The growing use of Bitcoin as a decentralized digital asset and investment tool has sparked strong interest in understanding its market behavior. This study presents a new approach to analyze Bitcoin ",
-      "url": "https://arxiv.org/abs/2607.15258v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
-      "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to t",
-      "url": "https://arxiv.org/abs/2607.15257v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "The state of open source AI",
-      "summary": "via stateofopensource.ai",
-      "url": "https://stateofopensource.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 398
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
-      "summary": "via localnewsmatters.org",
-      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 379
-    },
-    {
-      "date": "2026-07-17",
-      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 148
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Painting the sides of railroad rails white to reduce derailment",
-      "summary": "via www.up.com",
-      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 65
-    },
-    {
-      "date": "2026-07-16",
-      "title": "LM Studio Bionic: the AI agent for open models",
-      "summary": "via lmstudio.ai",
-      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 192
-    },
-    {
-      "date": "2026-07-16",
-      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-      "summary": "via www.tryai.dev",
-      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 187
     }
   ]
 }
