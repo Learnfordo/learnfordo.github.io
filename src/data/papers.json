@@ -1,5 +1,15 @@
 [
   {
+    "title": "PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model",
+    "vendor": "华为",
+    "date": "2026-07-20",
+    "arxivId": "2607.17806v1",
+    "pdfUrl": "https://arxiv.org/pdf/2607.17806v1",
+    "summary": "Vision-Language Navigation (VLN) requires an embodied agent to interpret a natural-language instruction and predict actions from temporally ordered visual observations. Adapting a multimodal large language model to VLN requires visual-language alignment, compact temporal inputs, action-space groundi",
+    "tags": [],
+    "descriptionCn": "《PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model》— 华为盘古系列大语言模型，自研架构赋能多场景 AI 应用。"
+  },
+  {
     "title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
     "vendor": "DeepSeek",
     "date": "2026-06-08",
