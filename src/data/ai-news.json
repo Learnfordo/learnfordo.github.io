@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-22T04:51:28.784Z",
+  "updatedAt": "2026-07-23T04:34:08.982Z",
   "items": [
+    {
+      "date": "2026-07-22",
+      "title": "Lipschitzian SLLNs for random functions",
+      "summary": "We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompa",
+      "url": "https://arxiv.org/abs/2607.20411v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+      "summary": "Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka",
+      "url": "https://arxiv.org/abs/2607.20410v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+      "summary": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evi",
+      "url": "https://arxiv.org/abs/2607.20402v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
+      "summary": "Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilize",
+      "url": "https://arxiv.org/abs/2607.20399v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
+      "summary": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries",
+      "url": "https://arxiv.org/abs/2607.20385v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
+      "summary": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limi",
+      "url": "https://arxiv.org/abs/2607.20382v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insen",
+      "url": "https://arxiv.org/abs/2607.20379v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs",
+      "summary": "Physics-informed learning of partial differential equations (PDEs) has been dominated by multilayer perceptrons (MLPs), whose spectral bias and dense parameterization limit both accuracy and interpret",
+      "url": "https://arxiv.org/abs/2607.20378v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Statevector-Referenced Geometry Survival of a Four-Qubit ZZ Quantum Kernel on IBM Quantum Hardware: A Fixed-Subset Diagnostic Across Three Execution Configurations",
+      "summary": "Quantum-kernel methods encode a dataset's geometry in a Gram matrix, so learning claims on hardware kernels assume the intended geometry survives execution. We measure that survival for one frozen fou",
+      "url": "https://arxiv.org/abs/2607.20377v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Online Variance Reduction for Domain Adaptation on Streaming Data",
+      "summary": "This paper studies the problem of stochastic variance reduction (SVR) for the maximum mean discrepancy (MMD) and correlation alignment (CORAL) loss functions. Although various offline SVR algorithms f",
+      "url": "https://arxiv.org/abs/2607.20374v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "summary": "via chatgpt.com",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 699
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Are AI labs pelicanmaxxing?",
+      "summary": "via dylancastillo.co",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 430
+    },
+    {
+      "date": "2026-07-22",
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "summary": "via github.com",
+      "url": "https://github.com/marcelroed/gigatoken/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 411
+    },
+    {
+      "date": "2026-07-22",
+      "title": "So Reddit has decided that plain HTML is unsafe",
+      "summary": "via www.cole-k.com",
+      "url": "https://www.cole-k.com/2026/07/21/reddit/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 336
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Quality non-fiction books are the antithesis of AI slop",
+      "summary": "via resobscura.substack.com",
+      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 228
+    },
     {
       "date": "2026-07-21",
       "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
@@ -317,144 +452,6 @@
       "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
       "summary": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic an",
       "url": "https://arxiv.org/abs/2607.16183v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Cluster-Aware Matching via Laplacian Optimal Transport",
-      "summary": "In many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as",
-      "url": "https://arxiv.org/abs/2607.16178v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems",
-      "summary": "Reinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large",
-      "url": "https://arxiv.org/abs/2607.16177v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
-      "summary": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, wh",
-      "url": "https://arxiv.org/abs/2607.16175v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "When Does Muon Help Agentic Reinforcement Learning?",
-      "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through match",
-      "url": "https://arxiv.org/abs/2607.16169v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Behaviour-Conditioned Neural Processes for Adaptive Residential Short-Term Load Forecasting",
-      "summary": "Residential short-term load forecasting (STLF) is challenging because household demand is heterogeneous, temporally variable, and shaped by diverse behavioural routines. This work investigates whether",
-      "url": "https://arxiv.org/abs/2607.16168v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "An Exam for Active Observers",
-      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active obs",
-      "url": "https://arxiv.org/abs/2607.16165v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment",
-      "summary": "Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of m",
-      "url": "https://arxiv.org/abs/2607.16156v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Learning Standard Model structure from LHC data with Riemannian flow matching",
-      "summary": "In this work we demonstrate that a single transformer-based generative model can capture Standard Model structure spanning five decades of invariant mass, from the sub-GeV regime to the TeV continuum,",
-      "url": "https://arxiv.org/abs/2607.16144v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-19",
-      "title": "AI advice made people less accurate but more confident – sudy",
-      "summary": "via thenextweb.com",
-      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 306
-    },
-    {
-      "date": "2026-07-19",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "summary": "via ludic.mataroa.blog",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 97
-    },
-    {
-      "date": "2026-07-18",
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "summary": "via old.reddit.com",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 529
-    },
-    {
-      "date": "2026-07-18",
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
-      "summary": "via petapixel.com",
-      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 351
-    },
-    {
-      "date": "2026-07-18",
-      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
-      "summary": "via charlesazam.com",
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 227
-    },
-    {
-      "date": "2026-07-18",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "summary": "via ykdojo.github.io",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 205
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
-      "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditiona",
-      "url": "https://arxiv.org/abs/2607.15277v1",
       "tags": [],
       "source": "arXiv"
     }
