@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-07-24T04:53:14.672Z",
+  "updatedAt": "2026-07-25T04:35:12.170Z",
   "items": [
+    {
+      "date": "2026-07-24",
+      "title": "Claude Opus 5",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1389
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 556
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 460
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Half-Life 2 running natively on HaikuOS",
+      "summary": "via discuss.haiku-os.org",
+      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 285
+    },
+    {
+      "date": "2026-07-24",
+      "title": "IRGC claims it destroyed Amazon's Bahrain data center",
+      "summary": "via houseofsaud.com",
+      "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 267
+    },
     {
       "date": "2026-07-23",
       "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
@@ -405,46 +460,6 @@
       ],
       "source": "HN",
       "score": 146
-    },
-    {
-      "date": "2026-07-20",
-      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
-      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances ",
-      "url": "https://arxiv.org/abs/2607.18237v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
-      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global",
-      "url": "https://arxiv.org/abs/2607.18236v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Automated Discovery Has No Universally Superior Harness",
-      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about ar",
-      "url": "https://arxiv.org/abs/2607.18235v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
-      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledg",
-      "url": "https://arxiv.org/abs/2607.18232v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cr",
-      "url": "https://arxiv.org/abs/2607.18230v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
