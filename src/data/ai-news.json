@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T04:32:21.053Z",
+  "updatedAt": "2026-07-26T05:03:31.412Z",
   "items": [
     {
       "date": "2026-07-25",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 338
+      "score": 343
     },
     {
       "date": "2026-07-25",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 217
+      "score": 230
     },
     {
       "date": "2026-07-25",
@@ -32,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 149
+      "score": 157
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "summary": "via github.com",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 117
     },
     {
       "date": "2026-07-25",
@@ -43,18 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 112
-    },
-    {
-      "date": "2026-07-25",
-      "title": "LLM Usage in Debian: Three Proposals",
-      "summary": "via www.debian.org",
-      "url": "https://www.debian.org/vote/2026/vote_002",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
+      "score": 116
     },
     {
       "date": "2026-07-23",
@@ -138,14 +138,14 @@
     },
     {
       "date": "2026-07-25",
-      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-      "summary": "via github.com",
-      "url": "https://github.com/slvDev/esp32-ai",
+      "title": "LLM Usage in Debian: Three Proposals",
+      "summary": "via www.debian.org",
+      "url": "https://www.debian.org/vote/2026/vote_002",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 106
+      "score": 109
     },
     {
       "date": "2026-07-24",
