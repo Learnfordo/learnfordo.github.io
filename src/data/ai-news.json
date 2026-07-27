@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-26T05:03:31.412Z",
+  "updatedAt": "2026-07-27T04:33:18.090Z",
   "items": [
+    {
+      "date": "2026-07-26",
+      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+      "summary": "via www.techspot.com",
+      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 382
+    },
+    {
+      "date": "2026-07-26",
+      "title": "The New AI Superpowers: Focus and Followthrough",
+      "summary": "via www.rickmanelius.com",
+      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 174
+    },
+    {
+      "date": "2026-07-24",
+      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+      "summary": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing moti",
+      "url": "https://arxiv.org/abs/2607.22534v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verif",
+      "url": "https://arxiv.org/abs/2607.22529v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collab",
+      "url": "https://arxiv.org/abs/2607.22525v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "summary": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both",
+      "url": "https://arxiv.org/abs/2607.22520v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "PinEqualizer: Full Funnel Content Exploration and Debiasing System at Pinterest",
+      "summary": "In this paper, we propose a new solution for addressing the content cold-start problem in industry-scale search and recommender systems. Compared to prior approaches, we have made the following new co",
+      "url": "https://arxiv.org/abs/2607.22518v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+      "summary": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-l",
+      "url": "https://arxiv.org/abs/2607.22516v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Dysphagia Risk Stratification in Head and Neck Cancer via Two-Stage PRO-Clinical Stacking",
+      "summary": "Dysphagia is a debilitating late effect of head and neck cancer (HNC) treatment, yet timely identification of at-risk patients remains challenging in survivorship care. Definitive assessment relies on",
+      "url": "https://arxiv.org/abs/2607.22514v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+      "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families",
+      "url": "https://arxiv.org/abs/2607.22513v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+      "summary": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large lang",
+      "url": "https://arxiv.org/abs/2607.22511v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
+      "summary": "Electroencephalography (EEG) is widely used to diagnose neurological conditions, but its analysis usually relies on either predefined spectral features or deep neural networks. Predefined features car",
+      "url": "https://arxiv.org/abs/2607.22508v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-07-25",
       "title": "Open-weight AI is having its Kubernetes moment",
@@ -358,111 +460,6 @@
       ],
       "source": "HN",
       "score": 435
-    },
-    {
-      "date": "2026-07-22",
-      "title": "GigaToken: ~1000x faster Language model tokenization",
-      "summary": "via github.com",
-      "url": "https://github.com/marcelroed/gigatoken/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 417
-    },
-    {
-      "date": "2026-07-22",
-      "title": "So Reddit has decided that plain HTML is unsafe",
-      "summary": "via www.cole-k.com",
-      "url": "https://www.cole-k.com/2026/07/21/reddit/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 347
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Quality non-fiction books are the antithesis of AI slop",
-      "summary": "via resobscura.substack.com",
-      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 239
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
-      "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. H",
-      "url": "https://arxiv.org/abs/2607.19345v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-      "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reli",
-      "url": "https://arxiv.org/abs/2607.19344v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
-      "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat su",
-      "url": "https://arxiv.org/abs/2607.19338v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Agents in the Wild: Where Research Meets Deployment",
-      "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes t",
-      "url": "https://arxiv.org/abs/2607.19336v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "1-Lipschitz Neural Networks on Hadamard Manifolds",
-      "summary": "Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we ",
-      "url": "https://arxiv.org/abs/2607.19335v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Fundamental limits of distributed multiclass classification from simple binary decisions",
-      "summary": "We consider the problem of constructing a $K$-class classifier from the combination of $O(\\log K)$ simple binary classifiers -- this is a natural paradigm to construct a sophisticated classifier in a ",
-      "url": "https://arxiv.org/abs/2607.19334v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
-      "summary": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substanti",
-      "url": "https://arxiv.org/abs/2607.19333v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
-      "summary": "Generative models have undergone many generations of evolution, from VAEs/GANs to diffusion/flow matching. Along the way, the underlying techniques have become more complicated and various beliefs abo",
-      "url": "https://arxiv.org/abs/2607.19332v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "ISO: An RLVR-Native Optimization Stack",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space upd",
-      "url": "https://arxiv.org/abs/2607.19331v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
