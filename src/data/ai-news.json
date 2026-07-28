@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T04:31:53.649Z",
+  "updatedAt": "2026-07-28T04:47:01.551Z",
   "items": [
     {
       "date": "2026-07-28",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 94
+      "score": 105
     },
     {
       "date": "2026-07-27",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 616
+      "score": 628
     },
     {
       "date": "2026-07-27",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 215
+      "score": 226
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Self-contained highly-portable Python distributions",
+      "summary": "via gregoryszorc.com",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
+    },
+    {
+      "date": "2026-07-23",
+      "title": "Securing Services with Rootless Containers",
+      "summary": "via blog.coderspirit.xyz",
+      "url": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 76
     },
     {
       "date": "2026-07-27",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 144
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Self-contained highly-portable Python distributions",
-      "summary": "via gregoryszorc.com",
-      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 125
     },
     {
       "date": "2026-07-26",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 1095
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-      "summary": "via www.politico.com",
-      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 807
     }
   ]
 }
