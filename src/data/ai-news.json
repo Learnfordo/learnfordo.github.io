@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-28T04:47:01.551Z",
+  "updatedAt": "2026-07-29T04:32:20.426Z",
   "items": [
+    {
+      "date": "2026-07-29",
+      "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+      "summary": "via learnvector.ai",
+      "url": "https://learnvector.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 87
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Hubble: Open-source notetaking app for you and your agents",
+      "summary": "via www.hubble.md",
+      "url": "https://www.hubble.md/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 69
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+      "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent g",
+      "url": "https://arxiv.org/abs/2607.26057v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+      "summary": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input",
+      "url": "https://arxiv.org/abs/2607.26055v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Spend Experts Where You Are Unsure: Confidence-Adaptive Routing for Mixture-of-Experts LoRA",
+      "summary": "Mixture-of-Experts (MoE) variants of Low-Rank Adaptation (LoRA) route every token to a fixed number of experts $k$. Tokens differ in how uncertain the model is about them, so a single k over-spends on",
+      "url": "https://arxiv.org/abs/2607.26052v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Re-thinking Mammography Transfer Learning: The Dataset-Informed Transfer Learning (DITL) Framework for Breast Cancer Screening and Lesion Diagnosis",
+      "summary": "Enhancing classification performance in mammography remains a persistent challenge across both small curated datasets and large-scale clinical cohorts. Conventional transfer learning approaches often ",
+      "url": "https://arxiv.org/abs/2607.26043v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+      "summary": "We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with opti",
+      "url": "https://arxiv.org/abs/2607.26042v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
+      "summary": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates wheth",
+      "url": "https://arxiv.org/abs/2607.26041v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
+      "summary": "Much like humans benefit from guidance while learning, reinforcement learning algorithms may benefit from additional supervision beyond rewards. Leveraging additional information during training to le",
+      "url": "https://arxiv.org/abs/2607.26040v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
+      "summary": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial in",
+      "url": "https://arxiv.org/abs/2607.26034v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+      "summary": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities",
+      "url": "https://arxiv.org/abs/2607.26023v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+      "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a",
+      "url": "https://arxiv.org/abs/2607.26017v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 192
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Una GPS smart watch – Repairable, USB-C charging, developer-friendly",
+      "summary": "via unawatch.com",
+      "url": "https://unawatch.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 157
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Now is the time to give LLMs access to the ACM digital library",
+      "summary": "via cacm.acm.org",
+      "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 131
+    },
     {
       "date": "2026-07-28",
       "title": "Using an open model feels surprisingly good",
@@ -319,147 +454,6 @@
       "url": "https://arxiv.org/abs/2607.21585v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
-      "summary": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movem",
-      "url": "https://arxiv.org/abs/2607.21580v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\\geq 4$",
-      "summary": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is",
-      "url": "https://arxiv.org/abs/2607.21579v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Synthetic data generation framework for quality control automation in gravure printing",
-      "summary": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-",
-      "url": "https://arxiv.org/abs/2607.21577v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Surprisal Theory is Tautological (without Rational Grounding)",
-      "summary": "Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without ",
-      "url": "https://arxiv.org/abs/2607.21574v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
-      "summary": "Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, e",
-      "url": "https://arxiv.org/abs/2607.21573v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
-      "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an",
-      "url": "https://arxiv.org/abs/2607.21570v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling",
-      "summary": "Molecular property prediction from structure often uses a single representative conformation, even though many molecules exist as conformational ensembles in solution. We introduce EnsembleEGNN, a mol",
-      "url": "https://arxiv.org/abs/2607.21561v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Unsupervised Consensus-Based Anomaly Detection for Spatiotemporal Malaria Incidence in Ghana",
-      "summary": "A consensus anomaly detection framework was applied to monthly malaria surveillance data from Ghana (2014-2023) to identify atypical transmission patterns. Anomalies were highly structured in space an",
-      "url": "https://arxiv.org/abs/2607.21559v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-25",
-      "title": "LLM Usage in Debian: Three Proposals",
-      "summary": "via www.debian.org",
-      "url": "https://www.debian.org/vote/2026/vote_002",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Claude Opus 5",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1396
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 558
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 463
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "summary": "via discuss.haiku-os.org",
-      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 285
-    },
-    {
-      "date": "2026-07-24",
-      "title": "IRGC claims it destroyed Amazon's Bahrain data center",
-      "summary": "via houseofsaud.com",
-      "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 268
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Writing by hand is good for your brain",
-      "summary": "via nealstephenson.substack.com",
-      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1095
     }
   ]
 }
