@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-29T04:51:50.436Z",
+  "updatedAt": "2026-07-30T04:34:33.450Z",
   "items": [
+    {
+      "date": "2026-07-29",
+      "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
+      "summary": "Pre-training followed by fine-tuning has become the dominant recipe for learning performant policies, and in value-based reinforcement learning (RL) this raises a natural question: given a pretrained ",
+      "url": "https://arxiv.org/abs/2607.27203v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Mental World Modeling",
+      "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is d",
+      "url": "https://arxiv.org/abs/2607.27201v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "From Classification to Regression: Using a Fruitfly to Solve Equations",
+      "summary": "We present a novel approach to regression tasks using classification which is motivated by the mechanism used by fruitflies to sense their environment. Specifically, we formulate a general framework f",
+      "url": "https://arxiv.org/abs/2607.27196v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "summary": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on nar",
+      "url": "https://arxiv.org/abs/2607.27191v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "APEX-Accounting",
+      "summary": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing ",
+      "url": "https://arxiv.org/abs/2607.27189v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
+      "summary": "Accurate option prices do not imply accurate recovery of the latent risk-neutral density. We study this distinction with two complementary benchmarks. A controlled benchmark exposes simulator-truth de",
+      "url": "https://arxiv.org/abs/2607.27188v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Pangram 4 Technical Report",
+      "summary": "We present Pangram 4, the latest deep-learning-based AI-text classification model from Pangram Labs. We achieve an AUROC of 0.9916 with a false positive rate of 0.0041% and a false negative rate of 0.",
+      "url": "https://arxiv.org/abs/2607.27183v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
+      "summary": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive",
+      "url": "https://arxiv.org/abs/2607.27179v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "DenseOn with the LateOn: Fully Open Dense and Late-Interaction Models for Multilingual, Long-Context, and Code Search",
+      "summary": "State-of-the-art retrieval models increasingly rely on closed training data, creating a reproducibility gap. We present an open end-to-end recipe for training retrieval models and study how English su",
+      "url": "https://arxiv.org/abs/2607.27178v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+      "summary": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed t",
+      "url": "https://arxiv.org/abs/2607.27177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Handbook.md shows that long policy documents do not reliably govern agents",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2607.25398",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 309
+    },
+    {
+      "date": "2026-07-29",
+      "title": "AI's top startups are barely publishing their research",
+      "summary": "via www.science.org",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 300
+    },
+    {
+      "date": "2026-07-29",
+      "title": "The Cold Email",
+      "summary": "via zachholman.com",
+      "url": "https://zachholman.com/posts/cold-email",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 131
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Some thoughts about Anthropic's new cryptanalysis results",
+      "summary": "via blog.cryptographyengineering.com",
+      "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "summary": "via huggingface.co",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 324
+    },
     {
       "date": "2026-07-29",
       "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
@@ -317,141 +452,6 @@
       "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
       "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verif",
       "url": "https://arxiv.org/abs/2607.22529v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-      "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collab",
-      "url": "https://arxiv.org/abs/2607.22525v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
-      "summary": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both",
-      "url": "https://arxiv.org/abs/2607.22520v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "PinEqualizer: Full Funnel Content Exploration and Debiasing System at Pinterest",
-      "summary": "In this paper, we propose a new solution for addressing the content cold-start problem in industry-scale search and recommender systems. Compared to prior approaches, we have made the following new co",
-      "url": "https://arxiv.org/abs/2607.22518v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
-      "summary": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-l",
-      "url": "https://arxiv.org/abs/2607.22516v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Dysphagia Risk Stratification in Head and Neck Cancer via Two-Stage PRO-Clinical Stacking",
-      "summary": "Dysphagia is a debilitating late effect of head and neck cancer (HNC) treatment, yet timely identification of at-risk patients remains challenging in survivorship care. Definitive assessment relies on",
-      "url": "https://arxiv.org/abs/2607.22514v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
-      "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families",
-      "url": "https://arxiv.org/abs/2607.22513v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
-      "summary": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large lang",
-      "url": "https://arxiv.org/abs/2607.22511v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
-      "summary": "Electroencephalography (EEG) is widely used to diagnose neurological conditions, but its analysis usually relies on either predefined spectral features or deep neural networks. Predefined features car",
-      "url": "https://arxiv.org/abs/2607.22508v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-25",
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "summary": "via tobi.knaup.me",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 343
-    },
-    {
-      "date": "2026-07-25",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "summary": "via claude.com",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 230
-    },
-    {
-      "date": "2026-07-25",
-      "title": "Show HN: Brolly, a plain-text weather forecast site",
-      "summary": "via brolly.sh",
-      "url": "https://brolly.sh/forecast/RWFP2qW8",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 157
-    },
-    {
-      "date": "2026-07-25",
-      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-      "summary": "via github.com",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 117
-    },
-    {
-      "date": "2026-07-25",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "summary": "via github.com",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-07-23",
-      "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
-      "summary": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reason",
-      "url": "https://arxiv.org/abs/2607.21595v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Expanding Flow Maps",
-      "summary": "Flow-based generative models have enabled remarkable progress in fast and controllable generation across continuous and discrete state spaces, yet existing parameterizations are constrained to fixed d",
-      "url": "https://arxiv.org/abs/2607.21585v1",
       "tags": [],
       "source": "arXiv"
     }
