@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-07-30T04:39:45.821Z",
+  "updatedAt": "2026-07-31T04:32:07.857Z",
   "items": [
+    {
+      "date": "2026-07-30",
+      "title": "Learning to Trace Seiberg Dualities",
+      "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establ",
+      "url": "https://arxiv.org/abs/2607.28628v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU mem",
+      "url": "https://arxiv.org/abs/2607.28627v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+      "summary": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ba",
+      "url": "https://arxiv.org/abs/2607.28623v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a resul",
+      "url": "https://arxiv.org/abs/2607.28618v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to t",
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is",
+      "url": "https://arxiv.org/abs/2607.28609v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "KAISEN: Reproducible Subgroup Fairness Auditing for Clinical Risk Models",
+      "summary": "Clinical risk models routinely achieve strong aggregate performance while producing materially different error rates across patient subgroups. Audit pipelines have been proposed to catch this, but the",
+      "url": "https://arxiv.org/abs/2607.28608v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "summary": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We",
+      "url": "https://arxiv.org/abs/2607.28607v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "summary": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, deve",
+      "url": "https://arxiv.org/abs/2607.28591v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+      "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-",
+      "url": "https://arxiv.org/abs/2607.28590v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 528
+    },
+    {
+      "date": "2026-07-30",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "summary": "via www.bottlenecklabs.com",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
+    },
+    {
+      "date": "2026-07-30",
+      "title": "GCC steering committee announces AI policy",
+      "summary": "via lwn.net",
+      "url": "https://lwn.net/Articles/1086041/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 259
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+      "summary": "via github.com",
+      "url": "https://github.com/AminBlg/SimpleEnglish",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 245
+    },
+    {
+      "date": "2026-07-25",
+      "title": "2x, not 10x: coding with LLMs in 2026",
+      "summary": "via obryant.dev",
+      "url": "https://obryant.dev/p/2x-not-10x/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
+    },
     {
       "date": "2026-07-29",
       "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
@@ -311,147 +446,6 @@
       "title": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
       "summary": "On-policy distillation (OPD) adapts diffusion models by querying a teacher along trajectories generated by the current student, but how it should behave under classifier-free guidance (CFG), a default",
       "url": "https://arxiv.org/abs/2607.24731v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
-      "summary": "Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are incr",
-      "url": "https://arxiv.org/abs/2607.24730v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
-      "summary": "The Deep Galerkin Method (DGM) and Physics Informed Neural Networks (PINNs) have become widely-used methods for solving partial differential equations (PDEs) in the rapidly growing field of scientific",
-      "url": "https://arxiv.org/abs/2607.24726v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-      "summary": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, m",
-      "url": "https://arxiv.org/abs/2607.24720v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
-      "summary": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain leve",
-      "url": "https://arxiv.org/abs/2607.24717v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
-      "summary": "Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a singl",
-      "url": "https://arxiv.org/abs/2607.24714v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams",
-      "summary": "Entity-Relationship Diagrams (ERDs) are central to conceptual database design, yet they are typically available only as rendered images rather than machine-readable schemas, limiting AI-assisted datab",
-      "url": "https://arxiv.org/abs/2607.24707v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Our position on open-weights models",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 628
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
-      "summary": "via nypost.com",
-      "url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Self-contained highly-portable Python distributions",
-      "summary": "via gregoryszorc.com",
-      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 127
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Securing Services with Rootless Containers",
-      "summary": "via blog.coderspirit.xyz",
-      "url": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 76
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-      "summary": "via eaton-works.com",
-      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 144
-    },
-    {
-      "date": "2026-07-26",
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-      "summary": "via www.techspot.com",
-      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 436
-    },
-    {
-      "date": "2026-07-26",
-      "title": "The New AI Superpowers: Focus and Followthrough",
-      "summary": "via www.rickmanelius.com",
-      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 180
-    },
-    {
-      "date": "2026-07-24",
-      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
-      "summary": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing moti",
-      "url": "https://arxiv.org/abs/2607.22534v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-24",
-      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
-      "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verif",
-      "url": "https://arxiv.org/abs/2607.22529v1",
       "tags": [],
       "source": "arXiv"
     }
