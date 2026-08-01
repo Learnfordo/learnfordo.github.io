@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-07-31T05:05:45.931Z",
+  "updatedAt": "2026-08-01T05:02:17.037Z",
   "items": [
+    {
+      "date": "2026-07-31",
+      "title": "qm – Multiplayer agent harness for work",
+      "summary": "via github.com",
+      "url": "https://github.com/yc-software/qm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 518
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 500
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Golang proposal: container/: generic collection types",
+      "summary": "via github.com",
+      "url": "https://github.com/golang/go/issues/80590",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Is AI reasoning right for the wrong reasons?",
+      "summary": "via www.quantamagazine.org",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 136
+    },
     {
       "date": "2026-07-30",
       "title": "Learning to Trace Seiberg Dualities",
@@ -80,6 +124,17 @@
       "url": "https://arxiv.org/abs/2607.28590v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Twenty-five years ago it was cryptography, today it's model weights",
+      "summary": "via weeraman.com",
+      "url": "https://weeraman.com/because-we-can/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 212
     },
     {
       "date": "2026-07-30",
@@ -405,52 +460,6 @@
       ],
       "source": "HN",
       "score": 161
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Now is the time to give LLMs access to the ACM digital library",
-      "summary": "via cacm.acm.org",
-      "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Using an open model feels surprisingly good",
-      "summary": "via matthewsaltz.com",
-      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 105
-    },
-    {
-      "date": "2026-07-27",
-      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
-      "summary": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must ab",
-      "url": "https://arxiv.org/abs/2607.24743v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Certified Parallel-in-Time Sinkhorn for Dynamic Entropic Optimal Transport",
-      "summary": "Dynamic applications, including optimal-transport Flow Matching, repeatedly solve related entropic optimal transport problems, yet conventional distributed Sinkhorn processes frames sequentially and s",
-      "url": "https://arxiv.org/abs/2607.24741v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-27",
-      "title": "Learning Distributions from Multiple Data Providers",
-      "summary": "Motivated by learning from heterogeneous and overlapping data providers, we study a stylized model of distribution learning from restricted conditional samples. The goal is to learn an unknown distrib",
-      "url": "https://arxiv.org/abs/2607.24732v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
