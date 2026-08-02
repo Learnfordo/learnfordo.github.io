@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-08-01T05:02:17.037Z",
+  "updatedAt": "2026-08-02T04:31:44.382Z",
   "items": [
     {
-      "date": "2026-07-31",
-      "title": "qm – Multiplayer agent harness for work",
-      "summary": "via github.com",
-      "url": "https://github.com/yc-software/qm",
+      "date": "2026-08-01",
+      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "summary": "via mitsloan.mit.edu",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 518
+      "score": 222
     },
     {
-      "date": "2026-07-31",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "date": "2026-08-01",
+      "title": "Explorative modeling: Train on the best of K guesses",
+      "summary": "via alexiglad.github.io",
+      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 500
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Golang proposal: container/: generic collection types",
-      "summary": "via github.com",
-      "url": "https://github.com/golang/go/issues/80590",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Is AI reasoning right for the wrong reasons?",
-      "summary": "via www.quantamagazine.org",
-      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 136
+      "score": 88
     },
     {
       "date": "2026-07-30",
@@ -124,6 +102,50 @@
       "url": "https://arxiv.org/abs/2607.28590v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "qm – Multiplayer agent harness for work",
+      "summary": "via github.com",
+      "url": "https://github.com/yc-software/qm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 518
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 500
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Golang proposal: container/: generic collection types",
+      "summary": "via github.com",
+      "url": "https://github.com/golang/go/issues/80590",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Is AI reasoning right for the wrong reasons?",
+      "summary": "via www.quantamagazine.org",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 136
     },
     {
       "date": "2026-07-28",
@@ -438,28 +460,6 @@
       "url": "https://arxiv.org/abs/2607.26017v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Discovering Cryptographic Weaknesses with Claude",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 193
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Una GPS smart watch – Repairable, USB-C charging, developer-friendly",
-      "summary": "via unawatch.com",
-      "url": "https://unawatch.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 161
     }
   ]
 }
