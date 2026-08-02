@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T04:31:44.382Z",
+  "updatedAt": "2026-08-02T04:59:16.258Z",
   "items": [
     {
       "date": "2026-08-01",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 222
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Explorative modeling: Train on the best of K guesses",
-      "summary": "via alexiglad.github.io",
-      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 88
+      "score": 227
     },
     {
       "date": "2026-07-30",
@@ -102,6 +91,17 @@
       "url": "https://arxiv.org/abs/2607.28590v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Explorative modeling: Train on the best of K guesses",
+      "summary": "via alexiglad.github.io",
+      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 88
     },
     {
       "date": "2026-07-31",
