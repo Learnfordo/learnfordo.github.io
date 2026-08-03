@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-08-02T04:59:16.258Z",
+  "updatedAt": "2026-08-03T05:21:51.191Z",
   "items": [
+    {
+      "date": "2026-08-03",
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "summary": "via www.modelrepublic.org",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
+    {
+      "date": "2026-08-02",
+      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+      "summary": "via frogs.vaguespac.es",
+      "url": "https://frogs.vaguespac.es/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
+    },
+    {
+      "date": "2026-07-31",
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "summary": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small",
+      "url": "https://arxiv.org/abs/2607.29678v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "summary": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output ",
+      "url": "https://arxiv.org/abs/2607.29677v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering",
+      "summary": "Density modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study diffe",
+      "url": "https://arxiv.org/abs/2607.29675v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
+      "summary": "SignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. ",
+      "url": "https://arxiv.org/abs/2607.29674v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Freeze, Then Select: Structured Field Adapters and Stability-Validated Weak Selection for PDE Discovery from Sparse Observations",
+      "summary": "PDE discovery from sparse observations requires reconstructing a continuous field and selecting the correct differential terms. Our analysis of optimization paths in coupled neural PDE discovery revea",
+      "url": "https://arxiv.org/abs/2607.29665v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "GQ-FSL: Green Quantized Federated Split Learning",
+      "summary": "Deploying state-of-the-art deep neural networks (DNNs) at the wireless edge is severely bottlenecked by the strict energy and resource constraints of mobile devices. While federated split learning (FS",
+      "url": "https://arxiv.org/abs/2607.29659v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics",
+      "summary": "Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in b",
+      "url": "https://arxiv.org/abs/2607.29657v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Evolving language compositionality in a frequency-structured meaning space",
+      "summary": "The iterated learning model was introduced to investigate language evolution: the way in which the characteristic properties of human languages have been shaped, at least partly, by repeated transmiss",
+      "url": "https://arxiv.org/abs/2607.29642v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+      "summary": "As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on",
+      "url": "https://arxiv.org/abs/2607.29626v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+      "summary": "Traditional static assessments rely on a subtractive, deficit-based grading model that often penalizes ambition and obscures diagnostic feedback. Conversely, traditional face-to-face oral examinations",
+      "url": "https://arxiv.org/abs/2607.29624v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Autoregressive Language Model on the 6502 Processor",
+      "summary": "via mattbeton.com",
+      "url": "https://mattbeton.com/blog/bitnet-6502.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 83
+    },
     {
       "date": "2026-08-01",
       "title": "AI financial advice is surprisingly good, especially if you ask right questions",
@@ -347,119 +460,6 @@
       ],
       "source": "HN",
       "score": 119
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-      "summary": "via huggingface.co",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 324
-    },
-    {
-      "date": "2026-07-29",
-      "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
-      "summary": "via learnvector.ai",
-      "url": "https://learnvector.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 95
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Hubble: Open-source notetaking app for you and your agents",
-      "summary": "via www.hubble.md",
-      "url": "https://www.hubble.md/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 72
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
-      "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent g",
-      "url": "https://arxiv.org/abs/2607.26057v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
-      "summary": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input",
-      "url": "https://arxiv.org/abs/2607.26055v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Spend Experts Where You Are Unsure: Confidence-Adaptive Routing for Mixture-of-Experts LoRA",
-      "summary": "Mixture-of-Experts (MoE) variants of Low-Rank Adaptation (LoRA) route every token to a fixed number of experts $k$. Tokens differ in how uncertain the model is about them, so a single k over-spends on",
-      "url": "https://arxiv.org/abs/2607.26052v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Re-thinking Mammography Transfer Learning: The Dataset-Informed Transfer Learning (DITL) Framework for Breast Cancer Screening and Lesion Diagnosis",
-      "summary": "Enhancing classification performance in mammography remains a persistent challenge across both small curated datasets and large-scale clinical cohorts. Conventional transfer learning approaches often ",
-      "url": "https://arxiv.org/abs/2607.26043v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
-      "summary": "We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with opti",
-      "url": "https://arxiv.org/abs/2607.26042v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
-      "summary": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates wheth",
-      "url": "https://arxiv.org/abs/2607.26041v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
-      "summary": "Much like humans benefit from guidance while learning, reinforcement learning algorithms may benefit from additional supervision beyond rewards. Leveraging additional information during training to le",
-      "url": "https://arxiv.org/abs/2607.26040v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
-      "summary": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial in",
-      "url": "https://arxiv.org/abs/2607.26034v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
-      "summary": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities",
-      "url": "https://arxiv.org/abs/2607.26023v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-28",
-      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
-      "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a",
-      "url": "https://arxiv.org/abs/2607.26017v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
