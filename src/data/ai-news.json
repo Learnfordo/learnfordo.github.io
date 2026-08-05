@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-04T04:48:04.877Z",
+  "updatedAt": "2026-08-05T04:31:49.248Z",
   "items": [
+    {
+      "date": "2026-08-04",
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "summary": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead.",
+      "url": "https://arxiv.org/abs/2608.04010v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "summary": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ab",
+      "url": "https://arxiv.org/abs/2608.04009v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "summary": "Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend its",
+      "url": "https://arxiv.org/abs/2608.04008v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "summary": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, li",
+      "url": "https://arxiv.org/abs/2608.04007v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain pref",
+      "url": "https://arxiv.org/abs/2608.04003v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "summary": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend del",
+      "url": "https://arxiv.org/abs/2608.04001v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation",
+      "summary": "Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. W",
+      "url": "https://arxiv.org/abs/2608.03999v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
+      "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and r",
+      "url": "https://arxiv.org/abs/2608.03994v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
+      "summary": "Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data",
+      "url": "https://arxiv.org/abs/2608.03990v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms",
+      "summary": "We present string2string Studio, an interactive in-browser platform for string-to-string analysis across natural language processing, computational biology, and the digital humanities. The system inte",
+      "url": "https://arxiv.org/abs/2608.03984v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "summary": "via mistral.ai",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 343
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "summary": "via www.sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 223
+    },
+    {
+      "date": "2026-08-04",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "summary": "via www.africanews.com",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 168
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "summary": "via queue.acm.org",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
+    {
+      "date": "2026-08-03",
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "summary": "via users.wpi.edu",
+      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 363
+    },
     {
       "date": "2026-08-03",
       "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
@@ -124,17 +259,6 @@
       ],
       "source": "HN",
       "score": 203
-    },
-    {
-      "date": "2026-08-03",
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "summary": "via users.wpi.edu",
-      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
     },
     {
       "date": "2026-08-03",
@@ -315,151 +439,6 @@
       "url": "https://arxiv.org/abs/2607.28608v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
-      "summary": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We",
-      "url": "https://arxiv.org/abs/2607.28607v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
-      "summary": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, deve",
-      "url": "https://arxiv.org/abs/2607.28591v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
-      "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-",
-      "url": "https://arxiv.org/abs/2607.28590v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Explorative modeling: Train on the best of K guesses",
-      "summary": "via alexiglad.github.io",
-      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 88
-    },
-    {
-      "date": "2026-07-31",
-      "title": "qm – Multiplayer agent harness for work",
-      "summary": "via github.com",
-      "url": "https://github.com/yc-software/qm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 518
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 500
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Golang proposal: container/: generic collection types",
-      "summary": "via github.com",
-      "url": "https://github.com/golang/go/issues/80590",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Is AI reasoning right for the wrong reasons?",
-      "summary": "via www.quantamagazine.org",
-      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 136
-    },
-    {
-      "date": "2026-07-28",
-      "title": "Twenty-five years ago it was cryptography, today it's model weights",
-      "summary": "via weeraman.com",
-      "url": "https://weeraman.com/because-we-can/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 532
-    },
-    {
-      "date": "2026-07-30",
-      "title": "GCC steering committee announces AI policy",
-      "summary": "via lwn.net",
-      "url": "https://lwn.net/Articles/1086041/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 261
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-      "summary": "via github.com",
-      "url": "https://github.com/AminBlg/SimpleEnglish",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 252
-    },
-    {
-      "date": "2026-07-30",
-      "title": "The AI Aesthetic",
-      "summary": "via blog.jim-nielsen.com",
-      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 221
-    },
-    {
-      "date": "2026-07-25",
-      "title": "2x, not 10x: coding with LLMs in 2026",
-      "summary": "via obryant.dev",
-      "url": "https://obryant.dev/p/2x-not-10x/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 239
     }
   ]
 }
