@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-06T04:48:07.627Z",
+  "updatedAt": "2026-08-07T04:14:08.701Z",
   "items": [
+    {
+      "date": "2026-08-06",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides",
+      "url": "https://arxiv.org/abs/2608.06377v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "The Bitter Lesson of Tool Calling",
+      "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that ch",
+      "url": "https://arxiv.org/abs/2608.06370v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure",
+      "url": "https://arxiv.org/abs/2608.06366v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+      "summary": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about dig",
+      "url": "https://arxiv.org/abs/2608.06364v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "An Optimal Agnostic PAC Algorithm",
+      "summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk boun",
+      "url": "https://arxiv.org/abs/2608.06363v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed",
+      "url": "https://arxiv.org/abs/2608.06362v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "summary": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic",
+      "url": "https://arxiv.org/abs/2608.06361v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through r",
+      "url": "https://arxiv.org/abs/2608.06353v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not ",
+      "url": "https://arxiv.org/abs/2608.06352v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+      "summary": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias de",
+      "url": "https://arxiv.org/abs/2608.06351v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "summary": "via www.theregister.com",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 464
+    },
+    {
+      "date": "2026-08-06",
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "summary": "via www.githubstatus.com",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 352
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "summary": "via scalex.dev",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 267
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 176
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+      "summary": "via github.com",
+      "url": "https://github.com/CopilotKit/channels-sdk",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 94
+    },
     {
       "date": "2026-08-05",
       "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
@@ -308,144 +443,6 @@
       "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
       "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, howeve",
       "url": "https://arxiv.org/abs/2608.02585v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
-      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching t",
-      "url": "https://arxiv.org/abs/2608.02583v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
-      "summary": "World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We ",
-      "url": "https://arxiv.org/abs/2608.02578v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Smooth Reparameterizations of Functions on Simplicial Product Spaces: Applications to Probabilistic Tensor Decomposition and Functional Data Registration",
-      "summary": "We consider optimization problems defined on product spaces of simplices. Examples of this class of problems include learning low-rank discrete multivariate probability distributions via simplex const",
-      "url": "https://arxiv.org/abs/2608.02576v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
-      "summary": "Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the \"randomness\" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible or",
-      "url": "https://arxiv.org/abs/2608.02575v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
-      "summary": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, ",
-      "url": "https://arxiv.org/abs/2608.02569v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "LLMs reward expertise",
-      "summary": "via www.seangoedecke.com",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 629
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "summary": "via ankursethi.com",
-      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 420
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Bonsai: Janestreet's UI Library",
-      "summary": "via github.com",
-      "url": "https://github.com/janestreet/bonsai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 319
-    },
-    {
-      "date": "2026-08-03",
-      "title": "AirLLM 70B inference with single 4GB GPU",
-      "summary": "via github.com",
-      "url": "https://github.com/lyogavin/airllm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 203
-    },
-    {
-      "date": "2026-08-03",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "summary": "via www.modelrepublic.org",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
-    },
-    {
-      "date": "2026-08-02",
-      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-      "summary": "via frogs.vaguespac.es",
-      "url": "https://frogs.vaguespac.es/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 127
-    },
-    {
-      "date": "2026-07-31",
-      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-      "summary": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small",
-      "url": "https://arxiv.org/abs/2607.29678v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
-      "summary": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output ",
-      "url": "https://arxiv.org/abs/2607.29677v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering",
-      "summary": "Density modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study diffe",
-      "url": "https://arxiv.org/abs/2607.29675v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
-      "summary": "SignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. ",
-      "url": "https://arxiv.org/abs/2607.29674v1",
       "tags": [],
       "source": "arXiv"
     }
