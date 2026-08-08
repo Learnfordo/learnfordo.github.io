@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-07T04:32:13.667Z",
+  "updatedAt": "2026-08-08T03:12:42.909Z",
   "items": [
+    {
+      "date": "2026-08-07",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "summary": "via www.noemamag.com",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 462
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "summary": "via app.dealroom.co",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 404
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Managing AI Coding Costs at Scale",
+      "summary": "via www.databricks.com",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 177
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 172
+    },
     {
       "date": "2026-08-06",
       "title": "Learning When to Trust via Selective Context Preference Optimization",
@@ -90,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 471
+      "score": 892
     },
     {
       "date": "2026-08-06",
@@ -411,38 +455,6 @@
       "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
       "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. ",
       "url": "https://arxiv.org/abs/2608.02602v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
-      "summary": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized application",
-      "url": "https://arxiv.org/abs/2608.02599v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
-      "summary": "Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abi",
-      "url": "https://arxiv.org/abs/2608.02595v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "The Condition-Number Barrier in Sparse Least Squares",
-      "summary": "In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establis",
-      "url": "https://arxiv.org/abs/2608.02588v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, howeve",
-      "url": "https://arxiv.org/abs/2608.02585v1",
       "tags": [],
       "source": "arXiv"
     }
