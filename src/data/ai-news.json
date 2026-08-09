@@ -1,49 +1,60 @@
 {
-  "updatedAt": "2026-08-08T03:12:42.909Z",
+  "updatedAt": "2026-08-09T03:20:16.328Z",
   "items": [
     {
-      "date": "2026-08-07",
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "summary": "via www.noemamag.com",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "date": "2026-08-08",
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "summary": "via deepmind.google",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 462
+      "score": 395
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 358
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Fastmail offers EU data region",
+      "summary": "via www.fastmail.com",
+      "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 333
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Message your other Claude Code sessions",
+      "summary": "via code.claude.com",
+      "url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 71
     },
     {
       "date": "2026-08-07",
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "summary": "via app.dealroom.co",
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 404
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Managing AI Coding Costs at Scale",
-      "summary": "via www.databricks.com",
-      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 177
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/kitesurf/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 172
+      "score": 232
     },
     {
       "date": "2026-08-06",
@@ -124,6 +135,50 @@
       "url": "https://arxiv.org/abs/2608.06351v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "summary": "via www.noemamag.com",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 462
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "summary": "via app.dealroom.co",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 404
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Managing AI Coding Costs at Scale",
+      "summary": "via www.databricks.com",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 177
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 172
     },
     {
       "date": "2026-08-06",
@@ -405,58 +460,6 @@
       ],
       "source": "HN",
       "score": 346
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Oxide Computer raises $445M (SEC Form D)",
-      "summary": "via www.sec.gov",
-      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-08-04",
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
-      "summary": "via www.africanews.com",
-      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 172
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "summary": "via queue.acm.org",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 132
-    },
-    {
-      "date": "2026-08-03",
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "summary": "via users.wpi.edu",
-      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 364
-    },
-    {
-      "date": "2026-08-03",
-      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
-      "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. ",
-      "url": "https://arxiv.org/abs/2608.02602v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
