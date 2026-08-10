@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T03:29:41.208Z",
+  "updatedAt": "2026-08-10T04:32:31.353Z",
   "items": [
     {
       "date": "2026-08-09",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 476
+      "score": 502
     },
     {
       "date": "2026-08-09",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 117
-    },
-    {
-      "date": "2026-08-09",
-      "title": "The Hacker's Renaissance (2025)",
-      "summary": "via phrack.org",
-      "url": "https://phrack.org/issues/72/19#article",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 104
+      "score": 123
     },
     {
       "date": "2026-08-09",
@@ -43,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 85
+      "score": 89
     },
     {
       "date": "2026-08-09",
@@ -54,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 55
+      "score": 68
     },
     {
       "date": "2026-08-07",
@@ -135,6 +124,17 @@
       "url": "https://arxiv.org/abs/2608.07439v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "The Hacker's Renaissance (2025)",
+      "summary": "via phrack.org",
+      "url": "https://phrack.org/issues/72/19#article",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 104
     },
     {
       "date": "2026-08-08",
