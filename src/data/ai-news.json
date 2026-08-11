@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-10T04:32:31.353Z",
+  "updatedAt": "2026-08-11T03:22:13.528Z",
   "items": [
+    {
+      "date": "2026-08-10",
+      "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
+      "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose ",
+      "url": "https://arxiv.org/abs/2608.09779v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "AirFlow: Context Preserving and Multi-Rate State Modeling for Air Quality Forecasting",
+      "summary": "Accurate air quality forecasting is essential for public health and urban environmental management, but remains challenging because pollutant channels differ in periodicity and distribution drift, whi",
+      "url": "https://arxiv.org/abs/2608.09775v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "C$^2$A: Coupling Spatial Evidence with Clinical Priors via Co-occurrence Aware Class Attention for Multi-Label Chest X-Ray Classification",
+      "summary": "Thoracic pathologies rarely occur in isolation, yet standard multi-label classifiers rely on shared global descriptors, discarding \\emph{where} findings lie and \\emph{how} they co-occur. We propose \\t",
+      "url": "https://arxiv.org/abs/2608.09774v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "PragMatch: Separating Pragmatic Incongruity from Cross-Modal Mismatch in Large Vision-Language Models",
+      "summary": "Large Vision-Language Models (LVLMs) have demonstrated strong performance on multimodal benchmarks, yet it remains unclear whether they genuinely reason about relationships between images and text or ",
+      "url": "https://arxiv.org/abs/2608.09772v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning",
+      "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM",
+      "url": "https://arxiv.org/abs/2608.09768v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Structured Phonological Representations for Audio-Articulatory rtMRI Speech Classification",
+      "summary": "Real-time MRI makes it possible to observe vocal-tract articulation during speech, but mapping these articulatory patterns to phonetic and phonological categories remains challenging. We investigate w",
+      "url": "https://arxiv.org/abs/2608.09767v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
+      "summary": "Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of evaluation---a design that is prone to contamination ov",
+      "url": "https://arxiv.org/abs/2608.09766v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "REFRAMED: Towards Realistic Audio Description Generation for Movies",
+      "summary": "Audio Description (AD) is a verbal narration of key visual content in videos, enabling access for visually impaired audiences. Unlike standard video captioning, AD is a structured editorial task: desc",
+      "url": "https://arxiv.org/abs/2608.09765v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "MoNo: Multiscale Optimal Transport Neural Operator for Solving PDEs on General Geometries",
+      "summary": "Transformer-based neural operators have achieved substantial progress in solving Partial Differential Equations (PDEs) by projecting spatial observations into compact latent tokens and learning physic",
+      "url": "https://arxiv.org/abs/2608.09764v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Second-Order Muon Done Right: A Principled Marriage of Spectral Geometry and Curvature",
+      "summary": "Muon's polar update is exact for an unweighted spectral geometry. We introduce GO-MUON, which uses a matched data-dependent geometry and reuses it across several optimization steps. Conditioned on any",
+      "url": "https://arxiv.org/abs/2608.09763v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "summary": "via research.meta.ai",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1058
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 405
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "summary": "via cactuscompute.com",
+      "url": "https://cactuscompute.com/needle",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Humanising LLM Outputs Is Dumb",
+      "summary": "via kuber.studio",
+      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 169
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
+      "summary": "via blog.sshh.io",
+      "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 114
+    },
     {
       "date": "2026-08-09",
       "title": "How I use LLMs to learn complex topics",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 892
-    },
-    {
-      "date": "2026-08-06",
-      "title": "GitHub Actions and Pages are experiencing degraded availability",
-      "summary": "via www.githubstatus.com",
-      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 354
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "summary": "via scalex.dev",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 268
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
-      "summary": "via github.com",
-      "url": "https://github.com/CopilotKit/channels-sdk",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 94
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
-      "summary": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection o",
-      "url": "https://arxiv.org/abs/2608.05148v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
-      "summary": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified object",
-      "url": "https://arxiv.org/abs/2608.05144v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
-      "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora",
-      "url": "https://arxiv.org/abs/2608.05141v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-      "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. W",
-      "url": "https://arxiv.org/abs/2608.05139v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
-      "summary": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, fina",
-      "url": "https://arxiv.org/abs/2608.05138v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "The Loss Does Not See the Basis, but Adam Does",
-      "summary": "Gradient descent on a factored model $W = UV^\\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge",
-      "url": "https://arxiv.org/abs/2608.05136v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings",
-      "summary": "Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape ",
-      "url": "https://arxiv.org/abs/2608.05132v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
-      "summary": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information",
-      "url": "https://arxiv.org/abs/2608.05131v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
-      "summary": "Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional",
-      "url": "https://arxiv.org/abs/2608.05127v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
-      "summary": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extr",
-      "url": "https://arxiv.org/abs/2608.05126v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-05",
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "summary": "via blog.google",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 550
     }
   ]
 }
