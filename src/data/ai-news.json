@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-08-11T03:22:13.528Z",
+  "updatedAt": "2026-08-12T03:49:55.177Z",
   "items": [
+    {
+      "date": "2026-08-11",
+      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+      "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics ar",
+      "url": "https://arxiv.org/abs/2608.11204v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
+      "summary": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or",
+      "url": "https://arxiv.org/abs/2608.11200v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+      "summary": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dens",
+      "url": "https://arxiv.org/abs/2608.11197v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+      "summary": "AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on t",
+      "url": "https://arxiv.org/abs/2608.11195v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation",
+      "summary": "GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although rece",
+      "url": "https://arxiv.org/abs/2608.11191v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "How to Verify Consistency of Probabilistic Claims",
+      "summary": "When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety, wh",
+      "url": "https://arxiv.org/abs/2608.11181v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex",
+      "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simp",
+      "url": "https://arxiv.org/abs/2608.11173v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop",
+      "summary": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-w",
+      "url": "https://arxiv.org/abs/2608.11171v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
+      "summary": "Existing Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However,",
+      "url": "https://arxiv.org/abs/2608.11167v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Hierarchical Empirical-Bayes Naive Bayes: Minimax Smoothing and Calibration with AODE Extension",
+      "summary": "The Naive Bayes (NB) classifier remains a standard choice for categorical data, yet its widely used smoothing rules, such as Laplace, Lidstone, Krichevsky-Trofimov, and the $m$-estimate, all prescribe",
+      "url": "https://arxiv.org/abs/2608.11162v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "summary": "via stolen-thoughts.com",
+      "url": "https://stolen-thoughts.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 534
+    },
+    {
+      "date": "2026-08-11",
+      "title": "OpenAI’s head of ethics leaves less than a year after joining",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Go is an ideal language for AI-assisted software engineering",
+      "summary": "via developers.googleblog.com",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 305
+    },
+    {
+      "date": "2026-08-11",
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "summary": "via tencent-hunyuan.github.io",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 155
+    },
     {
       "date": "2026-08-10",
       "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
@@ -333,133 +457,6 @@
       "url": "https://arxiv.org/abs/2608.06377v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "The Bitter Lesson of Tool Calling",
-      "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that ch",
-      "url": "https://arxiv.org/abs/2608.06370v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
-      "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure",
-      "url": "https://arxiv.org/abs/2608.06366v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
-      "summary": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about dig",
-      "url": "https://arxiv.org/abs/2608.06364v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "An Optimal Agnostic PAC Algorithm",
-      "summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk boun",
-      "url": "https://arxiv.org/abs/2608.06363v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
-      "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed",
-      "url": "https://arxiv.org/abs/2608.06362v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
-      "summary": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic",
-      "url": "https://arxiv.org/abs/2608.06361v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
-      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through r",
-      "url": "https://arxiv.org/abs/2608.06353v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
-      "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not ",
-      "url": "https://arxiv.org/abs/2608.06352v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
-      "summary": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias de",
-      "url": "https://arxiv.org/abs/2608.06351v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "summary": "via www.noemamag.com",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 462
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "summary": "via app.dealroom.co",
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 404
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Managing AI Coding Costs at Scale",
-      "summary": "via www.databricks.com",
-      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 177
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/kitesurf/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 172
-    },
-    {
-      "date": "2026-08-06",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "summary": "via www.theregister.com",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 892
     }
   ]
 }
