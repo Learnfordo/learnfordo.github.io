@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-12T03:49:55.177Z",
+  "updatedAt": "2026-08-12T04:31:58.677Z",
   "items": [
+    {
+      "date": "2026-08-12",
+      "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+      "summary": "via www.404media.co",
+      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 70
+    },
     {
       "date": "2026-08-11",
       "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 534
+      "score": 551
     },
     {
       "date": "2026-08-11",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 327
+      "score": 339
     },
     {
       "date": "2026-08-11",
@@ -112,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 305
+      "score": 308
     },
     {
       "date": "2026-08-11",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 155
+      "score": 164
     },
     {
       "date": "2026-08-10",
@@ -449,14 +460,6 @@
       ],
       "source": "HN",
       "score": 232
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Learning When to Trust via Selective Context Preference Optimization",
-      "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides",
-      "url": "https://arxiv.org/abs/2608.06377v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
