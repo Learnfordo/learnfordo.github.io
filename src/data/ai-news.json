@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-13T04:32:02.993Z",
+  "updatedAt": "2026-08-14T03:50:33.331Z",
   "items": [
+    {
+      "date": "2026-08-14",
+      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 104
+    },
+    {
+      "date": "2026-08-13",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal har",
+      "url": "https://arxiv.org/abs/2608.13560v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workf",
+      "url": "https://arxiv.org/abs/2608.13558v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences b",
+      "url": "https://arxiv.org/abs/2608.13555v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Defensive Boosting for Online Probabilistic Forecasting",
+      "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain tw",
+      "url": "https://arxiv.org/abs/2608.13554v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
+      "summary": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Un",
+      "url": "https://arxiv.org/abs/2608.13549v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures i",
+      "url": "https://arxiv.org/abs/2608.13547v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to charact",
+      "url": "https://arxiv.org/abs/2608.13545v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+      "summary": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This",
+      "url": "https://arxiv.org/abs/2608.13538v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+      "summary": "Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an ent",
+      "url": "https://arxiv.org/abs/2608.13524v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and ",
+      "url": "https://arxiv.org/abs/2608.13522v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "summary": "via www.cerebras.ai",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 467
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
+      "summary": "via current.org",
+      "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 264
+    },
+    {
+      "date": "2026-08-13",
+      "title": "AI At Home Part 1: A Box Of Scraps",
+      "summary": "via jdagostino.github.io",
+      "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 101
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+      "summary": "via www.codewithbullet.com",
+      "url": "https://www.codewithbullet.com",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 88
+    },
     {
       "date": "2026-08-12",
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
@@ -308,153 +443,6 @@
       "title": "ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning",
       "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM",
       "url": "https://arxiv.org/abs/2608.09768v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Structured Phonological Representations for Audio-Articulatory rtMRI Speech Classification",
-      "summary": "Real-time MRI makes it possible to observe vocal-tract articulation during speech, but mapping these articulatory patterns to phonetic and phonological categories remains challenging. We investigate w",
-      "url": "https://arxiv.org/abs/2608.09767v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
-      "summary": "Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of evaluation---a design that is prone to contamination ov",
-      "url": "https://arxiv.org/abs/2608.09766v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "REFRAMED: Towards Realistic Audio Description Generation for Movies",
-      "summary": "Audio Description (AD) is a verbal narration of key visual content in videos, enabling access for visually impaired audiences. Unlike standard video captioning, AD is a structured editorial task: desc",
-      "url": "https://arxiv.org/abs/2608.09765v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "MoNo: Multiscale Optimal Transport Neural Operator for Solving PDEs on General Geometries",
-      "summary": "Transformer-based neural operators have achieved substantial progress in solving Partial Differential Equations (PDEs) by projecting spatial observations into compact latent tokens and learning physic",
-      "url": "https://arxiv.org/abs/2608.09764v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Second-Order Muon Done Right: A Principled Marriage of Spectral Geometry and Curvature",
-      "summary": "Muon's polar update is exact for an unweighted spectral geometry. We introduce GO-MUON, which uses a matched data-dependent geometry and reuses it across several optimization steps. Conditioned on any",
-      "url": "https://arxiv.org/abs/2608.09763v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "summary": "via research.meta.ai",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1058
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 405
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "summary": "via cactuscompute.com",
-      "url": "https://cactuscompute.com/needle",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Humanising LLM Outputs Is Dumb",
-      "summary": "via kuber.studio",
-      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 169
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
-      "summary": "via blog.sshh.io",
-      "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 114
-    },
-    {
-      "date": "2026-08-09",
-      "title": "How I use LLMs to learn complex topics",
-      "summary": "via laurentiugabriel.github.io",
-      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 502
-    },
-    {
-      "date": "2026-08-09",
-      "title": "OpenChamber: An Agentic Development Environment",
-      "summary": "via openchamber.dev",
-      "url": "https://openchamber.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 123
-    },
-    {
-      "date": "2026-08-09",
-      "title": "The tragedy of the commons, AI edition",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 89
-    },
-    {
-      "date": "2026-08-09",
-      "title": "Tuxedo No. 2 – Cocktail recipes",
-      "summary": "via tuxedono2.com",
-      "url": "https://tuxedono2.com",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 68
-    },
-    {
-      "date": "2026-08-07",
-      "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
-      "summary": "Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain ",
-      "url": "https://arxiv.org/abs/2608.07463v1",
       "tags": [],
       "source": "arXiv"
     }
