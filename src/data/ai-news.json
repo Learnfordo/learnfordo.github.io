@@ -1,16 +1,49 @@
 {
-  "updatedAt": "2026-08-14T04:32:14.374Z",
+  "updatedAt": "2026-08-15T02:37:36.077Z",
   "items": [
     {
       "date": "2026-08-14",
-      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
-      "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "summary": "via blog.google",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 141
+      "score": 293
+    },
+    {
+      "date": "2026-08-14",
+      "title": "AI by Hand",
+      "summary": "via www.byhand.ai",
+      "url": "https://www.byhand.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 215
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "summary": "via claude.com",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 139
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "summary": "via github.com",
+      "url": "https://github.com/lajosdeme/mole",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
     },
     {
       "date": "2026-08-13",
@@ -91,6 +124,17 @@
       "url": "https://arxiv.org/abs/2608.13522v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
     },
     {
       "date": "2026-08-13",
@@ -411,38 +455,6 @@
       "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
       "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose ",
       "url": "https://arxiv.org/abs/2608.09779v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "AirFlow: Context Preserving and Multi-Rate State Modeling for Air Quality Forecasting",
-      "summary": "Accurate air quality forecasting is essential for public health and urban environmental management, but remains challenging because pollutant channels differ in periodicity and distribution drift, whi",
-      "url": "https://arxiv.org/abs/2608.09775v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "C$^2$A: Coupling Spatial Evidence with Clinical Priors via Co-occurrence Aware Class Attention for Multi-Label Chest X-Ray Classification",
-      "summary": "Thoracic pathologies rarely occur in isolation, yet standard multi-label classifiers rely on shared global descriptors, discarding \\emph{where} findings lie and \\emph{how} they co-occur. We propose \\t",
-      "url": "https://arxiv.org/abs/2608.09774v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "PragMatch: Separating Pragmatic Incongruity from Cross-Modal Mismatch in Large Vision-Language Models",
-      "summary": "Large Vision-Language Models (LVLMs) have demonstrated strong performance on multimodal benchmarks, yet it remains unclear whether they genuinely reason about relationships between images and text or ",
-      "url": "https://arxiv.org/abs/2608.09772v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning",
-      "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM",
-      "url": "https://arxiv.org/abs/2608.09768v1",
       "tags": [],
       "source": "arXiv"
     }
