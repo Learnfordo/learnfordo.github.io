@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T02:37:36.077Z",
+  "updatedAt": "2026-08-15T11:09:47.864Z",
   "items": [
     {
       "date": "2026-08-14",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 293
+      "score": 404
     },
     {
       "date": "2026-08-14",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 215
+      "score": 314
     },
     {
       "date": "2026-08-14",
@@ -32,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 139
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Show HN: Mole – Deep research agent for your terminal",
-      "summary": "via github.com",
-      "url": "https://github.com/lajosdeme/mole",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 52
+      "score": 236
     },
     {
       "date": "2026-08-13",
@@ -124,6 +113,17 @@
       "url": "https://arxiv.org/abs/2608.13522v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "summary": "via github.com",
+      "url": "https://github.com/lajosdeme/mole",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
     },
     {
       "date": "2026-08-14",
