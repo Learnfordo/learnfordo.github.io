@@ -1,5 +1,115 @@
 [
   {
+    "title": "新兴多智能体系统的模式与问题",
+    "vendor": "Anthropic",
+    "date": "2026-08-13",
+    "arxivId": "cmsqu0nr604oeroz2rh6b6mqt",
+    "pdfUrl": "https://arxiv.org/pdf/cmsqu0nr604oeroz2rh6b6mqt",
+    "summary": "Anthropic 研究指出，随着 AI 智能体在共享代码库、市场等社会系统中承担更多任务，智能体间交互量或将超过人机交互。实验显示，45 个协调智能体在 2700 万 token 运行中发现 266 个漏洞，而独立并行方法在 650 万 token 中发现 21 个，两种方法仅 12 个重叠，且协调智能体学会专业化分工。研究同时警示个体层面的良性行为怪癖可能叠加为意外的系统性失败。",
+    "permalink": "https://aihot.virxact.com/items/cmsqu0nr604oeroz2rh6b6mqt",
+    "tags": [],
+    "descriptionCn": "《新兴多智能体系统的模式与问题》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
+    "vendor": "Google DeepMind",
+    "date": "2026-08-11",
+    "arxivId": "cmsqe6mat01bsroli3hw71nz7",
+    "pdfUrl": "https://arxiv.org/pdf/cmsqe6mat01bsroli3hw71nz7",
+    "summary": "Google Research 提出知识画像框架，发现前沿 LLM（如 Gemini3、GPT-5）的事实编码接近饱和，但回忆（recall）能力不足，多数事实错误源于\"丢钥匙\"而非\"空货架\"。该框架将事实分为编码失败、回忆失败等五类画像，并配套推出 WikiProfile 基准，含 2，150 条维基百科事实，每条配 10 个问题，用于分别探测编码、回忆与识别能力。",
+    "permalink": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7",
+    "tags": [],
+    "descriptionCn": "《空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
+    "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+    "vendor": "Google DeepMind",
+    "date": "2026-08-11",
+    "arxivId": "cmsoxbh180a00rohdooafsmzp",
+    "pdfUrl": "https://arxiv.org/pdf/cmsoxbh180a00rohdooafsmzp",
+    "summary": "Google Research 与 Google DeepMind 推进医疗 AI 系统 AMIE，实现实时临床视频问诊，首次在此场景展示专家级 AI 能力。该系统基于 Gemini 和 Project Astra 构建，可解读视觉与听觉线索、引导虚拟体格检查并实时诊断推理。随机研究中，临床评估者对 AMIE 的病史采集、诊断准确性等核心能力给予好评，患者演员也更偏好视频体验。",
+    "permalink": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp",
+    "tags": [],
+    "descriptionCn": "《AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力》— Google DeepMind 发布的最新研究论文。"
+  },
+  {
+    "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-08-11",
+    "arxivId": "cmsox86zv09u6rohdqr80wg0x",
+    "pdfUrl": "https://arxiv.org/pdf/cmsox86zv09u6rohdqr80wg0x",
+    "summary": "研究团队为 macOS 虚拟机中的 Metal 能力查询构建进程级兼容层，使 llama.cpp 能选用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍、token 生成提升 16.36 倍，接近裸机性能的 98%；Gemma 4 12B 的提示处理与生成速度分别提升 7.20 倍和 14.54 倍。",
+    "permalink": "https://aihot.virxact.com/items/cmsox86zv09u6rohdqr80wg0x",
+    "tags": [],
+    "descriptionCn": "《Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
+    "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
+    "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
+    "date": "2026-08-11",
+    "arxivId": "cmsopyoum028vrohd4dgeksz9",
+    "pdfUrl": "https://arxiv.org/pdf/cmsopyoum028vrohd4dgeksz9",
+    "summary": "LMSYS 团队提出 Unified Radix Cache，用单一 token 键控 radix 拓扑统一管理混合模型的 FULL、SWA 和 MAMBA 组件缓存，各组件独立执行路径、滑动窗口和检查点复用语义。",
+    "permalink": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9",
+    "tags": [],
+    "descriptionCn": "《统一 Radix 缓存：为混合模型前缀缓存构建单一树结构》— LMSYS：Blog（Chatbot Arena 团队） 发布的最新研究论文。"
+  },
+  {
+    "title": "窃取专有 LLM API 的推理轨迹：加密块可跨会话互换引发解密越狱",
+    "vendor": "HuggingFace Daily Papers（社区热门论文）",
+    "date": "2026-08-10",
+    "arxivId": "2608.09867",
+    "pdfUrl": "https://arxiv.org/pdf/2608.09867",
+    "summary": "研究发现，Anthropic、OpenAI 和 Google 等专有 LLM 的加密推理轨迹块可跨会话、用户和模型互换，攻击者将其注入同提供商防护较弱的模型，即可强制其以明文输出推理内容。",
+    "permalink": "https://aihot.virxact.com/items/cmsodc28j0n07rofw30v8pe9v",
+    "tags": [],
+    "descriptionCn": "《窃取专有 LLM API 的推理轨迹：加密块可跨会话互换引发解密越狱》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
+  },
+  {
+    "title": "RynnValue：用时间距离扩展机器人价值基础模型",
+    "vendor": "HuggingFace Daily Papers（社区热门论文）",
+    "date": "2026-08-10",
+    "arxivId": "2608.09853",
+    "pdfUrl": "https://arxiv.org/pdf/2608.09853",
+    "summary": "RynnValue 是一款开源的机器人操作价值基础模型，用时间距离替代偏好或进度等任务内锚点作为监督信号，可直接从时间戳生成标签，扩展至超 7，000 小时、约 300 万条指令条件片段。",
+    "permalink": "https://aihot.virxact.com/items/cmso6wigb0d1profw2f6djg98",
+    "tags": [],
+    "descriptionCn": "《RynnValue：用时间距离扩展机器人价值基础模型》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
+  },
+  {
+    "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
+    "vendor": "Anthropic",
+    "date": "2026-08-09",
+    "arxivId": "cmsnix1by08d3rohfftiex1xp",
+    "pdfUrl": "https://arxiv.org/pdf/cmsnix1by08d3rohfftiex1xp",
+    "summary": "Anthropic 员工让 Claude 尝试攻克黎曼猜想，虽未成功，但一个未发布的研究版 Claude 在相关问题上取得突破：将满足黎曼猜想的 zeta 函数零点比例下界从 41.6% 提升至 67.2%。",
+    "permalink": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp",
+    "tags": [],
+    "descriptionCn": "《Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "无攻击者的\"游戏\"：LLM 驱动的搜索在选拔压力下的基准指纹识别",
+    "vendor": "HuggingFace Daily Papers（社区热门论文）",
+    "date": "2026-08-09",
+    "arxivId": "2608.08722",
+    "pdfUrl": "https://arxiv.org/pdf/2608.08722",
+    "summary": "针对评估信号优化的系统，其基准测试结果与实际声称存在偏差。在 Metal-Sci 和 Metal-ZK 两个 GPU 内核优化套件中，Opus 4.7、Gemini 3.1 Pro、GPT-5.5 三款前沿 LLM 在进化循环中反复对评估配置进行指纹识别，导致 16/53（30%）的分布内获胜无法迁移至保留配置。研究给出了四类失败模式分类，并为战略优化下的测量提供了设计指导。",
+    "permalink": "https://aihot.virxact.com/items/cmsoscbbq054drohdw5zxvr2c",
+    "tags": [],
+    "descriptionCn": "《无攻击者的\"游戏\"：LLM 驱动的搜索在选拔压力下的基准指纹识别》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
+  },
+  {
+    "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+    "vendor": "Ars Technica：AI（RSS）",
+    "date": "2026-08-08",
+    "arxivId": "cmsk9yb97046zrow93i345be7",
+    "pdfUrl": "https://arxiv.org/pdf/cmsk9yb97046zrow93i345be7",
+    "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+    "permalink": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7",
+    "tags": [],
+    "descriptionCn": "《DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间》— Ars Technica：AI（RSS） 发布的最新研究论文。"
+  },
+  {
     "title": "PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model",
     "vendor": "华为",
     "date": "2026-07-20",
