@@ -98,7 +98,7 @@ function parseDaily(data) {
       summary: item.summary || '',
       source: item.sourceName || '',
       url: item.sourceUrl || '',
-      permalink: item.permalink || item.sourceUrl || '',
+      permalink: item.sourceUrl || item.permalink || '', // 优先原帖链接
     }));
   }
   // 快讯
@@ -107,7 +107,7 @@ function parseDaily(data) {
     summary: '',
     source: f.sourceName || '',
     url: f.sourceUrl || '',
-    permalink: f.permalink || f.sourceUrl || '',
+    permalink: f.sourceUrl || f.permalink || '', // 优先原帖链接
     isFlash: true,
   }));
   if (flashes.length > 0) {
@@ -127,7 +127,7 @@ function parseItems(data) {
       summary: item.summary || '',
       source: item.source?.name || '',
       url: item.links?.original || '',
-      permalink: item.links?.aihot || item.links?.original || '',
+      permalink: item.links?.original || item.links?.aihot || '', // 优先原帖链接
     });
   }
   return sections;
