@@ -28,11 +28,9 @@ try {
     <div class="wrap">
       <div class="hero-badge">
         <span class="dot"></span>
-        <span class="badge-text" id="badge-text">AI 产品经理 · 7年经验</span>
+        <span>AI 产品经理 · 7年经验</span>
       </div>
-      <h1 class="hero-title">
-        你好，我是 <span class="typewriter-text gradient-text" id="typewriter-text"></span><span class="typewriter-cursor">|</span>
-      </h1>
+      <h1>你好，我是 <span class="rotating-wrapper"><span class="gradient-text rotating-word" id="rotating-word">高佳强</span></span></h1>
       <p class="subtitle">
         聚焦 LLM 应用与 AI Agent 落地，记录 AI 行业前沿思考与研究报告。
       </p>
@@ -41,12 +39,12 @@ try {
 
   <!-- AI News -->
   {newsItems.length > 0 && (
-  <section class="section" data-reveal>
+  <section class="section">
     <div class="wrap">
       <div class="section-label">AI 快讯</div>
-      <h2 class="section-title animated-heading">今日 AI 动态</h2>
+      <h2 class="section-title">今日 AI 动态</h2>
       <p class="section-desc">每日自动抓取 arXiv 与 Hacker News 最新 AI 资讯</p>
-      <div class="news-list" data-reveal-stagger>
+      <div class="news-list">
         {newsItems.slice(0, 5).map((item: any) => (
           <div class="news-item">
             <span class="news-date">{item.date}</span>
@@ -71,12 +69,12 @@ try {
   )}
 
   <!-- Articles -->
-  <section class="section" data-reveal>
+  <section class="section">
     <div class="wrap">
       <div class="section-label">研究报告</div>
-      <h2 class="section-title animated-heading">最新文章</h2>
+      <h2 class="section-title">最新文章</h2>
       <p class="section-desc">深度解读 AI 前沿论文与行业动态</p>
-      <div class="articles-grid" data-reveal-stagger>
+      <div class="articles-grid">
         {recentPosts.map((post) => (
           <a class="article-card" href={`/blog/${post.id}/`}>
             <div class="card">
@@ -96,43 +94,11 @@ try {
     </div>
   </section>
 
-  <!-- Tech Stack Marquee -->
-  <section class="marquee-section" data-reveal>
-    <div class="marquee-label">技术栈与工具</div>
-    <div class="marquee-track">
-      <div class="marquee-item"><span>🤖</span> LLM</div>
-      <div class="marquee-item"><span>🧠</span> Transformer</div>
-      <div class="marquee-item"><span>🔗</span> RAG</div>
-      <div class="marquee-item"><span>🎯</span> Function Call</div>
-      <div class="marquee-item"><span>🔌</span> MCP</div>
-      <div class="marquee-item"><span>🤝</span> Multi-Agent</div>
-      <div class="marquee-item"><span>🐍</span> Python</div>
-      <div class="marquee-item"><span>⚛️</span> React</div>
-      <div class="marquee-item"><span>🚀</span> Astro</div>
-      <div class="marquee-item"><span>📦</span> TypeScript</div>
-      <div class="marquee-item"><span>🔍</span> Embedding</div>
-      <div class="marquee-item"><span>🛠️</span> Cursor</div>
-      <!-- Duplicate for seamless loop -->
-      <div class="marquee-item"><span>🤖</span> LLM</div>
-      <div class="marquee-item"><span>🧠</span> Transformer</div>
-      <div class="marquee-item"><span>🔗</span> RAG</div>
-      <div class="marquee-item"><span>🎯</span> Function Call</div>
-      <div class="marquee-item"><span>🔌</span> MCP</div>
-      <div class="marquee-item"><span>🤝</span> Multi-Agent</div>
-      <div class="marquee-item"><span>🐍</span> Python</div>
-      <div class="marquee-item"><span>⚛️</span> React</div>
-      <div class="marquee-item"><span>🚀</span> Astro</div>
-      <div class="marquee-item"><span>📦</span> TypeScript</div>
-      <div class="marquee-item"><span>🔍</span> Embedding</div>
-      <div class="marquee-item"><span>🛠️</span> Cursor</div>
-    </div>
-  </section>
-
   <!-- About teaser -->
-  <section class="section" data-reveal>
+  <section class="section">
     <div class="wrap">
       <div class="section-label">关于我</div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;" data-reveal-stagger>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;">
         <div class="card" style="text-align: center; padding: 32px 24px;">
           <div style="font-size: 36px; font-weight: 700;" class="gradient-text">6+年</div>
           <div style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">AI 产品经验</div>
@@ -153,108 +119,37 @@ try {
   </section>
 
   <Footer />
-</BaseLayout>
 
-<style>
-  /* Rotating word carousel (Claude Code style) */
-  .hero-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
+  <script>
+    (function() {
+      const words = ['高佳强', 'AI产品经理', 'LLM研究者', 'Agent实践者', '技术博主', '代码探索者'];
+      let currentIndex = 0;
+      const el = document.getElementById('rotating-word');
+      if (!el) return;
 
-  .typewriter-text {
-    display: inline-block;
-    min-width: 2em;
-  }
+      function rotate() {
+        // Slide out current word
+        el.classList.add('slide-out');
 
-  .typewriter-cursor {
-    display: inline-block;
-    font-weight: 300;
-    color: var(--accent);
-    animation: blink 1s infinite;
-  }
+        setTimeout(() => {
+          // Update text
+          currentIndex = (currentIndex + 1) % words.length;
+          el.textContent = words[currentIndex];
 
-  @keyframes blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
-  }
+          // Prepare slide in from below
+          el.classList.remove('slide-out');
+          el.classList.add('slide-in');
 
-  @media (max-width: 700px) {
-    .hero-title {
-      gap: 6px;
-      font-size: 28px;
-    }
-  }
-</style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const el = document.getElementById('typewriter-text');
-    if (!el) return;
-
-    const wordList = ['高佳强', 'AI产品经理', 'LLM研究者', 'Agent实践者', '技术博主', '代码探索者'];
-    const TYPE_SPEED = 120;   // ms per character (typing)
-    const DELETE_SPEED = 80;  // ms per character (deleting)
-    const PAUSE_AFTER = 1800; // pause after full word
-    const PAUSE_BEFORE = 400; // pause before next word
-
-    let wordIdx = 0;
-    let charIdx = 0;
-    let isDeleting = false;
-
-    function tick() {
-      const word = wordList[wordIdx];
-
-      if (!isDeleting) {
-        // Typing
-        charIdx++;
-        el.textContent = word.substring(0, charIdx);
-        if (charIdx === word.length) {
-          isDeleting = true;
-          setTimeout(tick, PAUSE_AFTER);
-          return;
-        }
-        setTimeout(tick, TYPE_SPEED);
-      } else {
-        // Deleting
-        charIdx--;
-        el.textContent = word.substring(0, charIdx);
-        if (charIdx === 0) {
-          isDeleting = false;
-          wordIdx = (wordIdx + 1) % wordList.length;
-          setTimeout(tick, PAUSE_BEFORE);
-          return;
-        }
-        setTimeout(tick, DELETE_SPEED);
+          // Force reflow then animate in
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              el.classList.remove('slide-in');
+            });
+          });
+        }, 500);
       }
-    }
 
-    // Start after a short delay
-    setTimeout(tick, 600);
-  });
-
-  // Hero badge rotation (Claude Code status style)
-  document.addEventListener('DOMContentLoaded', () => {
-    const badgeEl = document.getElementById('badge-text');
-    if (!badgeEl) return;
-    const badges = [
-      'AI 产品经理 · 7年经验',
-      'LLM 应用 · 深度研究',
-      'Agent 平台 · 从0到1',
-      'AI 产品 · 3W+用户',
-      '技术博主 · 公众号作者',
-    ];
-    let idx = 0;
-    setInterval(() => {
-      badgeEl.classList.add('fading');
-      setTimeout(() => {
-        idx = (idx + 1) % badges.length;
-        badgeEl.textContent = badges[idx];
-        badgeEl.classList.remove('fading');
-      }, 400);
-    }, 4000);
-  });
-</script>
+      setInterval(rotate, 3000);
+    })();
+  </script>
+</BaseLayout>

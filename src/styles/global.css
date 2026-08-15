@@ -180,6 +180,29 @@ img { max-width: 100%; display: block; }
   margin: 0 auto; line-height: 1.7;
 }
 
+/* === Rotating Word Animation === */
+.rotating-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+  height: 1.15em;
+  min-width: 4ch;
+}
+.rotating-word {
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  white-space: nowrap;
+}
+.rotating-word.slide-out {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.rotating-word.slide-in {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
 /* === Section === */
 .section { padding: 64px 0; }
 .section-label {
