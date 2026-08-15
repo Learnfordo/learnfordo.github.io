@@ -173,13 +173,13 @@ function formatBlog(sections, sourceType) {
       counter++;
       if (item.isFlash) {
         // 快讯格式：简短一行
-        md += `- **${item.title}** — ${item.source}（<a href="${item.permalink}" target="_blank" rel="noopener noreferrer">链接</a>）\n`;
+        md += `- **${item.title}** — ${item.source}（[${item.permalink}](${item.permalink})）\n`;
       } else {
         md += `### ${counter}. **${item.title}** — ${item.source}\n\n`;
         if (item.summary) {
           md += `${item.summary}\n\n`;
         }
-        md += `<a href="${item.permalink}" target="_blank" rel="noopener noreferrer">阅读全文</a>\n\n`;
+        md += `[阅读全文](${item.permalink})\n\n`;
       }
     }
     md += `---\n\n`;
