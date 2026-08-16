@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T02:46:04.112Z",
+  "updatedAt": "2026-08-16T04:33:02.175Z",
   "items": [
     {
       "date": "2026-08-15",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 424
+      "score": 448
     },
     {
       "date": "2026-08-15",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 273
+      "score": 286
     },
     {
       "date": "2026-08-15",
@@ -32,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 103
-    },
-    {
-      "date": "2026-08-15",
-      "title": "I Remain a Skeptic",
-      "summary": "via blog.jsbarretto.com",
-      "url": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 83
+      "score": 116
     },
     {
       "date": "2026-08-13",
@@ -124,6 +113,17 @@
       "url": "https://arxiv.org/abs/2608.13522v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "I Remain a Skeptic",
+      "summary": "via blog.jsbarretto.com",
+      "url": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 83
     },
     {
       "date": "2026-08-14",
