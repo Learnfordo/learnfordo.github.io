@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-16T04:33:02.175Z",
+  "updatedAt": "2026-08-17T02:45:57.935Z",
   "items": [
+    {
+      "date": "2026-08-16",
+      "title": "Claude: System Prompts",
+      "summary": "via platform.claude.com",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 559
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Models Are Getting Dumber on Purpose",
+      "summary": "via w4g1.dev",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 278
+    },
+    {
+      "date": "2026-08-16",
+      "title": "The AI Credit Resale Economy",
+      "summary": "via vectoral.com",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 214
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+      "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contempor",
+      "url": "https://arxiv.org/abs/2608.14539v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintain",
+      "url": "https://arxiv.org/abs/2608.14530v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Handover of In-Context Learning State Across Session Boundaries",
+      "summary": "This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches ",
+      "url": "https://arxiv.org/abs/2608.14528v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
+      "summary": "As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use th",
+      "url": "https://arxiv.org/abs/2608.14522v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
+      "summary": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper devel",
+      "url": "https://arxiv.org/abs/2608.14511v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+      "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rew",
+      "url": "https://arxiv.org/abs/2608.14509v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
+      "summary": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogen",
+      "url": "https://arxiv.org/abs/2608.14505v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+      "summary": "Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We int",
+      "url": "https://arxiv.org/abs/2608.14502v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+      "summary": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using t",
+      "url": "https://arxiv.org/abs/2608.14498v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+      "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generatio",
+      "url": "https://arxiv.org/abs/2608.14496v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-08-15",
       "title": "AI has access to a vastly larger working memory than the human brain",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 780
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "summary": "via knownagents.com",
-      "url": "https://knownagents.com/insights",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 248
-    },
-    {
-      "date": "2026-08-12",
-      "title": "What sort of maths are LLMs good at?",
-      "summary": "via gowers.wordpress.com",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 245
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
-      "summary": "via discoveredmaterials.com",
-      "url": "https://discoveredmaterials.com/research/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 126
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "summary": "via www.404media.co",
-      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 70
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-      "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics ar",
-      "url": "https://arxiv.org/abs/2608.11204v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
-      "summary": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or",
-      "url": "https://arxiv.org/abs/2608.11200v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
-      "summary": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dens",
-      "url": "https://arxiv.org/abs/2608.11197v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
-      "summary": "AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on t",
-      "url": "https://arxiv.org/abs/2608.11195v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation",
-      "summary": "GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although rece",
-      "url": "https://arxiv.org/abs/2608.11191v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "How to Verify Consistency of Probabilistic Claims",
-      "summary": "When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety, wh",
-      "url": "https://arxiv.org/abs/2608.11181v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex",
-      "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simp",
-      "url": "https://arxiv.org/abs/2608.11173v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop",
-      "summary": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-w",
-      "url": "https://arxiv.org/abs/2608.11171v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
-      "summary": "Existing Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However,",
-      "url": "https://arxiv.org/abs/2608.11167v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Hierarchical Empirical-Bayes Naive Bayes: Minimax Smoothing and Calibration with AODE Extension",
-      "summary": "The Naive Bayes (NB) classifier remains a standard choice for categorical data, yet its widely used smoothing rules, such as Laplace, Lidstone, Krichevsky-Trofimov, and the $m$-estimate, all prescribe",
-      "url": "https://arxiv.org/abs/2608.11162v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "summary": "via stolen-thoughts.com",
-      "url": "https://stolen-thoughts.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 551
     }
   ]
 }
