@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-17T02:45:57.935Z",
+  "updatedAt": "2026-08-18T02:40:49.316Z",
   "items": [
+    {
+      "date": "2026-08-17",
+      "title": "AI;DR (AI; Didn't Read)",
+      "summary": "via www.rickmanelius.com",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 627
+    },
+    {
+      "date": "2026-08-17",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "summary": "via www.wiz.io",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 320
+    },
+    {
+      "date": "2026-08-17",
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "summary": "via blog.roboflow.com",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 305
+    },
+    {
+      "date": "2026-08-17",
+      "title": "How to disable or avoid intrusive AI",
+      "summary": "via www.librarian.net",
+      "url": "https://www.librarian.net/notoai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 261
+    },
+    {
+      "date": "2026-08-17",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "summary": "via openrouter.ai",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 161
+    },
+    {
+      "date": "2026-08-16",
+      "title": "The Authority Resolution Framework: A Five-Domain Ontology for Governing Who and What Decides, at Scale",
+      "summary": "As AI systems become increasingly capable of autonomous action, determining whether an agent is technically capable of performing an action is insufficient: the system must also determine whether the ",
+      "url": "https://arxiv.org/abs/2608.15832v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
+      "summary": "Remote photoplethysmography (rPPG) enables non-contact heart rate (HR) monitoring from facial videos, but RGB-only methods are vulnerable to illumination changes, motion artifacts, and skin-tone-depen",
+      "url": "https://arxiv.org/abs/2608.15831v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "A Cognitively Motivated Multidimensional Framework for Evaluating Metaphor Explanations",
+      "summary": "Current evaluation of metaphor explanations relies mainly on holistic quality ratings, revealing little about how explanation quality is structured or where human judgments agree and diverge. We intro",
+      "url": "https://arxiv.org/abs/2608.15828v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Second-Moment Memory in Coordinatewise Adam",
+      "summary": "Adam retains a moving average of past squared gradients in its denominator, but the optimization cost of this memory is not well understood. We show that second-moment memory can itself suppress progr",
+      "url": "https://arxiv.org/abs/2608.15824v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "QuantumPhaseNet: A Gauge-Covariant Geometric and Quantum-Spectral Theory of Semantic Concept Hierarchies with Prototype Validation of a Classical Quantum-Inspired Model",
+      "summary": "We present QuantumPhaseNet, a gauge-covariant geometric and quantum-spectral extension of Transformer representations. Context-dependent semantic states are modeled as complex amplitudes; a covariant ",
+      "url": "https://arxiv.org/abs/2608.15820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "RLCascadeRouter: Quality-Estimator-Free Cascade Routing via Reinforcement Learning",
+      "summary": "The growing ecosystem of large language models (LLMs) offers huge potential to optimize performance-cost trade-offs. However, their heterogeneous capabilities and inference costs make efficiently rout",
+      "url": "https://arxiv.org/abs/2608.15817v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "KOALA: Koopman Operator Learning for WiFi-Based Anticipatory Hum",
+      "summary": "WiFi Channel State Information (CSI) has emerged as a privacy-preserving alternative to cameras for human pose estimation. However, existing approaches treat pose inference as an instantaneous regress",
+      "url": "https://arxiv.org/abs/2608.15815v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State",
+      "summary": "Runtime compression of serving state trades quality for capacity with no priced guarantee: systems adapt precision on load signals with no soundness statement, and certified approaches budget request-",
+      "url": "https://arxiv.org/abs/2608.15810v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "A Pre-Specified Construction-Confirmation Test of Operation-Level Causal Transfer Across Finite Isomorphic Symbolic Domains",
+      "summary": "Behavioral accuracy, linear decodability, and successful activation interventions do not by themselves show that a model carries an operation-level structure from one symbolic domain to another. We as",
+      "url": "https://arxiv.org/abs/2608.15809v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Hallucination Span Detection with Input-Side Evidence Alignment",
+      "summary": "Hallucinations remain a major obstacle to the reliable use of large language models (LLMs) in conditional text generation. Existing methods primarily assess the factuality of an entire generated text,",
+      "url": "https://arxiv.org/abs/2608.15804v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-08-16",
       "title": "Claude: System Prompts",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 488
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
-      "summary": "via current.org",
-      "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 270
-    },
-    {
-      "date": "2026-08-13",
-      "title": "AI At Home Part 1: A Box Of Scraps",
-      "summary": "via jdagostino.github.io",
-      "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 105
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-      "summary": "via www.codewithbullet.com",
-      "url": "https://www.codewithbullet.com",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 90
-    },
-    {
-      "date": "2026-08-12",
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video repre",
-      "url": "https://arxiv.org/abs/2608.12313v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
-      "summary": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observ",
-      "url": "https://arxiv.org/abs/2608.12308v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
-      "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-",
-      "url": "https://arxiv.org/abs/2608.12307v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
-      "summary": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, wi",
-      "url": "https://arxiv.org/abs/2608.12306v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
-      "summary": "Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically re",
-      "url": "https://arxiv.org/abs/2608.12304v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
-      "summary": "We present a formal process to enable non-experts to instantiate and iterate on human-aligned reward functions, i.e. reward functions that adhere to a given preference ordering over trajectories. Give",
-      "url": "https://arxiv.org/abs/2608.12302v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
-      "summary": "Class activation mapping (CAM) is one of the most widely used visual explanation families in explainable artificial intelligence. Its purpose is intuitive: it converts internal model evidence into a h",
-      "url": "https://arxiv.org/abs/2608.12299v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
-      "summary": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in profes",
-      "url": "https://arxiv.org/abs/2608.12290v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
-      "summary": "Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertain",
-      "url": "https://arxiv.org/abs/2608.12283v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies",
-      "summary": "Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e\\textbf{V}alu",
-      "url": "https://arxiv.org/abs/2608.12282v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 880
-    },
-    {
-      "date": "2026-08-12",
-      "title": "AI is removing the middle class of software engineering?",
-      "summary": "via blog.florianherrengt.com",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 780
     }
   ]
 }
