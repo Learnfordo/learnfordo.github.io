@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-18T02:40:49.316Z",
+  "updatedAt": "2026-08-18T04:30:43.608Z",
   "items": [
+    {
+      "date": "2026-08-17",
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: err",
+      "url": "https://arxiv.org/abs/2608.16889v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Q-based Variational Inverse Reinforcement Learning",
+      "summary": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. In",
+      "url": "https://arxiv.org/abs/2608.16888v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alma",
+      "url": "https://arxiv.org/abs/2608.16884v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+      "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincaré constant of the ",
+      "url": "https://arxiv.org/abs/2608.16878v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolate",
+      "url": "https://arxiv.org/abs/2608.16876v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "An Analytical-Prior Framework for Data-Efficient Prediction of Sound-Reduction Frequencies in Rectangular Side-Branch Helmholtz Resonators",
+      "summary": "High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogate",
+      "url": "https://arxiv.org/abs/2608.16873v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
+      "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle ",
+      "url": "https://arxiv.org/abs/2608.16870v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+      "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable",
+      "url": "https://arxiv.org/abs/2608.16868v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+      "summary": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single numbe",
+      "url": "https://arxiv.org/abs/2608.16864v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "The canonical facets of multi-separator polytopes",
+      "summary": "We initiate a polyhedral study of the graph multi-separator problem proposed by Irmai et al. (2024) as an alternative to the lifted multicut problem for application to the task of image segmentation. ",
+      "url": "https://arxiv.org/abs/2608.16861v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-08-17",
       "title": "AI;DR (AI; Didn't Read)",
@@ -10,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 627
+      "score": 696
     },
     {
       "date": "2026-08-17",
@@ -21,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 320
+      "score": 334
     },
     {
       "date": "2026-08-17",
@@ -32,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 305
+      "score": 313
     },
     {
       "date": "2026-08-17",
@@ -43,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 261
+      "score": 265
     },
     {
       "date": "2026-08-17",
@@ -54,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 161
+      "score": 235
     },
     {
       "date": "2026-08-16",
@@ -359,107 +439,6 @@
       "url": "https://arxiv.org/abs/2608.13545v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
-      "summary": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This",
-      "url": "https://arxiv.org/abs/2608.13538v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
-      "summary": "Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an ent",
-      "url": "https://arxiv.org/abs/2608.13524v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-      "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and ",
-      "url": "https://arxiv.org/abs/2608.13522v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-15",
-      "title": "I Remain a Skeptic",
-      "summary": "via blog.jsbarretto.com",
-      "url": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 83
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "summary": "via blog.google",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 417
-    },
-    {
-      "date": "2026-08-14",
-      "title": "AI by Hand",
-      "summary": "via www.byhand.ai",
-      "url": "https://www.byhand.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 320
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Maximizing the value of your Claude Code sessions",
-      "summary": "via claude.com",
-      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 246
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Show HN: Mole – Deep research agent for your terminal",
-      "summary": "via github.com",
-      "url": "https://github.com/lajosdeme/mole",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 52
-    },
-    {
-      "date": "2026-08-14",
-      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
-      "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "summary": "via www.cerebras.ai",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 488
     }
   ]
 }
