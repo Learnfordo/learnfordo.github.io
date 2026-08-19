@@ -1,6 +1,97 @@
 {
-  "updatedAt": "2026-08-18T04:30:43.608Z",
+  "updatedAt": "2026-08-19T02:43:01.334Z",
   "items": [
+    {
+      "date": "2026-08-18",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A cen",
+      "url": "https://arxiv.org/abs/2608.18076v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology",
+      "url": "https://arxiv.org/abs/2608.18072v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, ",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited unde",
+      "url": "https://arxiv.org/abs/2608.18062v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "The concentration game: Bayesian updating, regret, and information",
+      "summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies th",
+      "url": "https://arxiv.org/abs/2608.18061v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only dele",
+      "url": "https://arxiv.org/abs/2608.18058v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
+      "summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that ess",
+      "url": "https://arxiv.org/abs/2608.18056v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+      "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor",
+      "url": "https://arxiv.org/abs/2608.18055v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they sea",
+      "url": "https://arxiv.org/abs/2608.18050v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+      "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every wri",
+      "url": "https://arxiv.org/abs/2608.18041v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Using the railway network as a flatbed scanner",
+      "summary": "via philo.gay",
+      "url": "https://philo.gay/linecam/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 410
+    },
     {
       "date": "2026-08-17",
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
@@ -340,103 +431,6 @@
       "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
       "summary": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using t",
       "url": "https://arxiv.org/abs/2608.14498v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
-      "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generatio",
-      "url": "https://arxiv.org/abs/2608.14496v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-15",
-      "title": "AI has access to a vastly larger working memory than the human brain",
-      "summary": "via davidepiffer.com",
-      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 448
-    },
-    {
-      "date": "2026-08-15",
-      "title": "Working with AI feels more like leadership than coding",
-      "summary": "via allen.bargi.org",
-      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 286
-    },
-    {
-      "date": "2026-08-15",
-      "title": "AI in drug discovery – what it is, where we stand and the path forward",
-      "summary": "via www.science.org",
-      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-08-13",
-      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal har",
-      "url": "https://arxiv.org/abs/2608.13560v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workf",
-      "url": "https://arxiv.org/abs/2608.13558v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
-      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences b",
-      "url": "https://arxiv.org/abs/2608.13555v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Defensive Boosting for Online Probabilistic Forecasting",
-      "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain tw",
-      "url": "https://arxiv.org/abs/2608.13554v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
-      "summary": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Un",
-      "url": "https://arxiv.org/abs/2608.13549v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures i",
-      "url": "https://arxiv.org/abs/2608.13547v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
-      "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to charact",
-      "url": "https://arxiv.org/abs/2608.13545v1",
       "tags": [],
       "source": "arXiv"
     }
