@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T04:08:37.567Z",
+  "updatedAt": "2026-08-19T04:30:40.514Z",
   "items": [
     {
       "date": "2026-08-18",
@@ -83,17 +83,6 @@
     },
     {
       "date": "2026-08-18",
-      "title": "Using the railway network as a flatbed scanner",
-      "summary": "via philo.gay",
-      "url": "https://philo.gay/linecam/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 416
-    },
-    {
-      "date": "2026-08-18",
       "title": "AI usage patterns in software teams",
       "summary": "via linear.app",
       "url": "https://linear.app/data",
@@ -101,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 71
+      "score": 78
     },
     {
       "date": "2026-08-18",
@@ -112,7 +101,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 51
+      "score": 57
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Using the railway network as a flatbed scanner",
+      "summary": "via philo.gay",
+      "url": "https://philo.gay/linecam/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 416
     },
     {
       "date": "2026-08-17",
