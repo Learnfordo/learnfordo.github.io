@@ -1,5 +1,38 @@
 [
   {
+    "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+    "vendor": "HuggingFace Daily Papers（社区热门论文）",
+    "date": "2026-08-18",
+    "arxivId": "2608.17800",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17800",
+    "summary": "StartupBench 是一个基于市场验证的 AI 初创公司产品构建的端到端智能体基准，从真实采用的产品工作流中提炼任务，而非研究者预设任务。在统一智能体框架下，最强模型也仅能完成约 30% 的任务，复杂指令遵循和领域专业知识是主要失败来源。该基准揭示了当前通用智能体在真实用户任务上的能力边界。",
+    "permalink": "https://aihot.virxact.com/items/cmszieman0euzrodptihyllom",
+    "tags": [],
+    "descriptionCn": "《StartupBench：面向市场验证端到端工作流的通用智能体基准测试》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
+  },
+  {
+    "title": "Claude 如何加速蛋白质设计与分析化学研究",
+    "vendor": "Anthropic",
+    "date": "2026-08-18",
+    "arxivId": "cmsz8gh3n06e4rodpl8l2syek",
+    "pdfUrl": "https://arxiv.org/pdf/cmsz8gh3n06e4rodpl8l2syek",
+    "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+    "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+    "tags": [],
+    "descriptionCn": "《Claude 如何加速蛋白质设计与分析化学研究》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+    "vendor": "Hugging Face：Blog（RSS）",
+    "date": "2026-08-18",
+    "arxivId": "cmsz1974l06hbro20gosn5d78",
+    "pdfUrl": "https://arxiv.org/pdf/cmsz1974l06hbro20gosn5d78",
+    "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+    "permalink": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78",
+    "tags": [],
+    "descriptionCn": "《智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准》— Hugging Face：Blog（RSS） 发布的最新研究论文。"
+  },
+  {
     "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
     "vendor": "The Decoder：AI News（RSS）",
     "date": "2026-08-15",
