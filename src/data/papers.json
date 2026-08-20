@@ -1,5 +1,16 @@
 [
   {
+    "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+    "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
+    "date": "2026-08-19",
+    "arxivId": "cmt0e7sxo01eiro2o4l4y9jmh",
+    "pdfUrl": "https://arxiv.org/pdf/cmt0e7sxo01eiro2o4l4y9jmh",
+    "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
+    "permalink": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh",
+    "tags": [],
+    "descriptionCn": "《突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法》— LMSYS：Blog（Chatbot Arena 团队） 发布的最新研究论文。"
+  },
+  {
     "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
     "vendor": "HuggingFace Daily Papers（社区热门论文）",
     "date": "2026-08-18",
