@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-19T04:30:40.514Z",
+  "updatedAt": "2026-08-20T02:41:53.478Z",
   "items": [
+    {
+      "date": "2026-08-19",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, ",
+      "url": "https://arxiv.org/abs/2608.19197v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) ro",
+      "url": "https://arxiv.org/abs/2608.19182v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor local",
+      "url": "https://arxiv.org/abs/2608.19181v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+      "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastiv",
+      "url": "https://arxiv.org/abs/2608.19174v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "summary": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself ca",
+      "url": "https://arxiv.org/abs/2608.19171v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+      "summary": "A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one b",
+      "url": "https://arxiv.org/abs/2608.19168v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+      "summary": "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted ",
+      "url": "https://arxiv.org/abs/2608.19165v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+      "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning mo",
+      "url": "https://arxiv.org/abs/2608.19163v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "summary": "Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent ",
+      "url": "https://arxiv.org/abs/2608.19161v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+      "summary": "We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the",
+      "url": "https://arxiv.org/abs/2608.19151v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "summary": "via sprocketfox.io",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 777
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+      "summary": "via grapheneos.social",
+      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 317
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Air Theremin – A browser theremin you play by waving at your webcam",
+      "summary": "via theremin.bizibah.com",
+      "url": "https://theremin.bizibah.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 251
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Feature Request: Support AGENTS.md",
+      "summary": "via github.com",
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 140
+    },
+    {
+      "date": "2026-08-18",
+      "title": "fx :Tiny, open, native coding agent.",
+      "summary": "via fx.sh",
+      "url": "https://fx.sh",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 187
+    },
     {
       "date": "2026-08-18",
       "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
@@ -302,141 +437,6 @@
       "title": "KOALA: Koopman Operator Learning for WiFi-Based Anticipatory Hum",
       "summary": "WiFi Channel State Information (CSI) has emerged as a privacy-preserving alternative to cameras for human pose estimation. However, existing approaches treat pose inference as an instantaneous regress",
       "url": "https://arxiv.org/abs/2608.15815v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State",
-      "summary": "Runtime compression of serving state trades quality for capacity with no priced guarantee: systems adapt precision on load signals with no soundness statement, and certified approaches budget request-",
-      "url": "https://arxiv.org/abs/2608.15810v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "A Pre-Specified Construction-Confirmation Test of Operation-Level Causal Transfer Across Finite Isomorphic Symbolic Domains",
-      "summary": "Behavioral accuracy, linear decodability, and successful activation interventions do not by themselves show that a model carries an operation-level structure from one symbolic domain to another. We as",
-      "url": "https://arxiv.org/abs/2608.15809v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Hallucination Span Detection with Input-Side Evidence Alignment",
-      "summary": "Hallucinations remain a major obstacle to the reliable use of large language models (LLMs) in conditional text generation. Existing methods primarily assess the factuality of an entire generated text,",
-      "url": "https://arxiv.org/abs/2608.15804v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Claude: System Prompts",
-      "summary": "via platform.claude.com",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 559
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Models Are Getting Dumber on Purpose",
-      "summary": "via w4g1.dev",
-      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 278
-    },
-    {
-      "date": "2026-08-16",
-      "title": "The AI Credit Resale Economy",
-      "summary": "via vectoral.com",
-      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 235
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 214
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
-      "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contempor",
-      "url": "https://arxiv.org/abs/2608.14539v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
-      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintain",
-      "url": "https://arxiv.org/abs/2608.14530v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Handover of In-Context Learning State Across Session Boundaries",
-      "summary": "This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches ",
-      "url": "https://arxiv.org/abs/2608.14528v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
-      "summary": "As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use th",
-      "url": "https://arxiv.org/abs/2608.14522v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
-      "summary": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper devel",
-      "url": "https://arxiv.org/abs/2608.14511v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
-      "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rew",
-      "url": "https://arxiv.org/abs/2608.14509v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
-      "summary": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogen",
-      "url": "https://arxiv.org/abs/2608.14505v1",
       "tags": [],
       "source": "arXiv"
     }
