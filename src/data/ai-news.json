@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-21T02:48:23.907Z",
+  "updatedAt": "2026-08-21T04:31:09.411Z",
   "items": [
     {
       "date": "2026-08-21",
-      "title": "Copyright does not protect AI-generated content in EU",
-      "summary": "via mathstodon.xyz",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "summary": "via annas-archive.gl",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 137
+      "score": 141
     },
     {
       "date": "2026-08-20",
@@ -94,17 +94,6 @@
     },
     {
       "date": "2026-08-20",
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "summary": "via simedw.com",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 525
-    },
-    {
-      "date": "2026-08-20",
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
       "summary": "via www.danielvaughn.dev",
       "url": "https://www.danielvaughn.dev/posts/huzzah/",
@@ -112,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 227
+      "score": 243
     },
     {
       "date": "2026-08-20",
@@ -123,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 195
+      "score": 207
     },
     {
       "date": "2026-08-20",
@@ -134,7 +123,40 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 119
+      "score": 131
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Every Model Cheats",
+      "summary": "via dreadnode.io",
+      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Copyright does not protect AI-generated content in EU",
+      "summary": "via mathstodon.xyz",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 137
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "summary": "via simedw.com",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 525
     },
     {
       "date": "2026-08-19",
@@ -421,22 +443,6 @@
       "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
       "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolate",
       "url": "https://arxiv.org/abs/2608.16876v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "An Analytical-Prior Framework for Data-Efficient Prediction of Sound-Reduction Frequencies in Rectangular Side-Branch Helmholtz Resonators",
-      "summary": "High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogate",
-      "url": "https://arxiv.org/abs/2608.16873v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
-      "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle ",
-      "url": "https://arxiv.org/abs/2608.16870v1",
       "tags": [],
       "source": "arXiv"
     }
