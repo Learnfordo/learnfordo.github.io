@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-20T04:30:45.300Z",
+  "updatedAt": "2026-08-21T02:48:23.907Z",
   "items": [
+    {
+      "date": "2026-08-21",
+      "title": "Copyright does not protect AI-generated content in EU",
+      "summary": "via mathstodon.xyz",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 137
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Information on trajectories: martingales and random times",
+      "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used ",
+      "url": "https://arxiv.org/abs/2608.20337v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completel",
+      "url": "https://arxiv.org/abs/2608.20338v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-depende",
+      "url": "https://arxiv.org/abs/2608.20331v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "summary": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-ho",
+      "url": "https://arxiv.org/abs/2608.20326v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio",
+      "url": "https://arxiv.org/abs/2608.20322v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workfl",
+      "url": "https://arxiv.org/abs/2608.20320v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is do",
+      "url": "https://arxiv.org/abs/2608.20319v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most e",
+      "url": "https://arxiv.org/abs/2608.20316v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+      "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpreta",
+      "url": "https://arxiv.org/abs/2608.20315v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "summary": "via simedw.com",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 525
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "summary": "via www.danielvaughn.dev",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 227
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "summary": "via github.com",
+      "url": "https://github.com/zachahn/vomit",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 195
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Anti-AI fonts are useless and harmful",
+      "summary": "via blog.yaros.ae",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
     {
       "date": "2026-08-19",
       "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
@@ -302,141 +437,6 @@
       "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
       "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle ",
       "url": "https://arxiv.org/abs/2608.16870v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
-      "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable",
-      "url": "https://arxiv.org/abs/2608.16868v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
-      "summary": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single numbe",
-      "url": "https://arxiv.org/abs/2608.16864v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "The canonical facets of multi-separator polytopes",
-      "summary": "We initiate a polyhedral study of the graph multi-separator problem proposed by Irmai et al. (2024) as an alternative to the lifted multicut problem for application to the task of image segmentation. ",
-      "url": "https://arxiv.org/abs/2608.16861v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "AI;DR (AI; Didn't Read)",
-      "summary": "via www.rickmanelius.com",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 696
-    },
-    {
-      "date": "2026-08-17",
-      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-      "summary": "via www.wiz.io",
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 334
-    },
-    {
-      "date": "2026-08-17",
-      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-      "summary": "via blog.roboflow.com",
-      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 313
-    },
-    {
-      "date": "2026-08-17",
-      "title": "How to disable or avoid intrusive AI",
-      "summary": "via www.librarian.net",
-      "url": "https://www.librarian.net/notoai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 265
-    },
-    {
-      "date": "2026-08-17",
-      "title": "GPT-5.6 Sol Pricing Cut by 50%",
-      "summary": "via openrouter.ai",
-      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 235
-    },
-    {
-      "date": "2026-08-16",
-      "title": "The Authority Resolution Framework: A Five-Domain Ontology for Governing Who and What Decides, at Scale",
-      "summary": "As AI systems become increasingly capable of autonomous action, determining whether an agent is technically capable of performing an action is insufficient: the system must also determine whether the ",
-      "url": "https://arxiv.org/abs/2608.15832v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
-      "summary": "Remote photoplethysmography (rPPG) enables non-contact heart rate (HR) monitoring from facial videos, but RGB-only methods are vulnerable to illumination changes, motion artifacts, and skin-tone-depen",
-      "url": "https://arxiv.org/abs/2608.15831v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "A Cognitively Motivated Multidimensional Framework for Evaluating Metaphor Explanations",
-      "summary": "Current evaluation of metaphor explanations relies mainly on holistic quality ratings, revealing little about how explanation quality is structured or where human judgments agree and diverge. We intro",
-      "url": "https://arxiv.org/abs/2608.15828v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Second-Moment Memory in Coordinatewise Adam",
-      "summary": "Adam retains a moving average of past squared gradients in its denominator, but the optimization cost of this memory is not well understood. We show that second-moment memory can itself suppress progr",
-      "url": "https://arxiv.org/abs/2608.15824v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "QuantumPhaseNet: A Gauge-Covariant Geometric and Quantum-Spectral Theory of Semantic Concept Hierarchies with Prototype Validation of a Classical Quantum-Inspired Model",
-      "summary": "We present QuantumPhaseNet, a gauge-covariant geometric and quantum-spectral extension of Transformer representations. Context-dependent semantic states are modeled as complex amplitudes; a covariant ",
-      "url": "https://arxiv.org/abs/2608.15820v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "RLCascadeRouter: Quality-Estimator-Free Cascade Routing via Reinforcement Learning",
-      "summary": "The growing ecosystem of large language models (LLMs) offers huge potential to optimize performance-cost trade-offs. However, their heterogeneous capabilities and inference costs make efficiently rout",
-      "url": "https://arxiv.org/abs/2608.15817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "KOALA: Koopman Operator Learning for WiFi-Based Anticipatory Hum",
-      "summary": "WiFi Channel State Information (CSI) has emerged as a privacy-preserving alternative to cameras for human pose estimation. However, existing approaches treat pose inference as an instantaneous regress",
-      "url": "https://arxiv.org/abs/2608.15815v1",
       "tags": [],
       "source": "arXiv"
     }
