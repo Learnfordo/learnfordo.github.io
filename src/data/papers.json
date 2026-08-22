@@ -1,5 +1,38 @@
 [
   {
+    "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
+    "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
+    "date": "2026-08-21",
+    "arxivId": "cmt393qov0kfhro6tuwhxhubl",
+    "pdfUrl": "https://arxiv.org/pdf/cmt393qov0kfhro6tuwhxhubl",
+    "summary": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。",
+    "permalink": "https://aihot.virxact.com/items/cmt393qov0kfhro6tuwhxhubl",
+    "tags": [],
+    "descriptionCn": "《Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%》— LMSYS：Blog（Chatbot Arena 团队） 发布的最新研究论文。"
+  },
+  {
+    "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
+    "vendor": "Hugging Face：Blog（RSS）",
+    "date": "2026-08-21",
+    "arxivId": "cmt30vskr0e0wro6t19q13yic",
+    "pdfUrl": "https://arxiv.org/pdf/cmt30vskr0e0wro6t19q13yic",
+    "summary": "Hugging Face 最新研究引入三项测试量化语音识别中的基准优化（benchmaxxing）现象。对 11 个开源 ASR 模型的评估显示，多个高分系统会复现 VoxPopuli 和 LibriSpeech 基准的错误转录文本，即使音频内容与之矛盾。部分模型甚至依赖声学线索识别基准来源，导致其得分高估了真实转录能力。",
+    "permalink": "https://aihot.virxact.com/items/cmt30vskr0e0wro6t19q13yic",
+    "tags": [],
+    "descriptionCn": "《测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象》— Hugging Face：Blog（RSS） 发布的最新研究论文。"
+  },
+  {
+    "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-08-21",
+    "arxivId": "cmt2ry1sl04ywro6t5znttdrs",
+    "pdfUrl": "https://arxiv.org/pdf/cmt2ry1sl04ywro6t5znttdrs",
+    "summary": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。",
+    "permalink": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs",
+    "tags": [],
+    "descriptionCn": "《每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
     "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
     "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
     "date": "2026-08-19",
