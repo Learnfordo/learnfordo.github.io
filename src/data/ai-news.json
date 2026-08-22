@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-08-21T04:31:09.411Z",
+  "updatedAt": "2026-08-22T02:39:40.569Z",
   "items": [
     {
       "date": "2026-08-21",
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "summary": "via annas-archive.gl",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "title": "I'm becoming AI-blind",
+      "summary": "via cymerys.com",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 141
+      "score": 281
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "summary": "via github.com",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
+    },
+    {
+      "date": "2026-08-21",
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "summary": "via nari-labs.com",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 109
     },
     {
       "date": "2026-08-20",
@@ -91,6 +113,39 @@
       "url": "https://arxiv.org/abs/2608.20315v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Early-life stress leaves a 'scar' inside brain cells in mice",
+      "summary": "via medicine.washu.edu",
+      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 52
+    },
+    {
+      "date": "2026-08-19",
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "summary": "via www.economist.com",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 244
+    },
+    {
+      "date": "2026-08-21",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "summary": "via annas-archive.gl",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
     },
     {
       "date": "2026-08-20",
@@ -405,46 +460,6 @@
       ],
       "source": "HN",
       "score": 416
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
-      "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: err",
-      "url": "https://arxiv.org/abs/2608.16889v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Q-based Variational Inverse Reinforcement Learning",
-      "summary": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. In",
-      "url": "https://arxiv.org/abs/2608.16888v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-      "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alma",
-      "url": "https://arxiv.org/abs/2608.16884v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
-      "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincaré constant of the ",
-      "url": "https://arxiv.org/abs/2608.16878v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-17",
-      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
-      "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolate",
-      "url": "https://arxiv.org/abs/2608.16876v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
