@@ -1,38 +1,49 @@
 {
-  "updatedAt": "2026-08-22T04:32:47.865Z",
+  "updatedAt": "2026-08-23T02:48:37.151Z",
   "items": [
     {
-      "date": "2026-08-21",
-      "title": "I'm becoming AI-blind",
-      "summary": "via cymerys.com",
-      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "date": "2026-08-22",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "summary": "via munderdiffl.in",
+      "url": "https://munderdiffl.in/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 306
+      "score": 258
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Why your local LLM feels dumber than it is",
+      "summary": "via forum.level1techs.com",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 200
     },
     {
       "date": "2026-08-21",
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "summary": "via github.com",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "title": "A week of using Codex more than Claude",
+      "summary": "via allaboutcoding.ghinda.com",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 225
+      "score": 139
     },
     {
       "date": "2026-08-21",
-      "title": "How we made a text-to-speech model respond in sub-50 ms",
-      "summary": "via nari-labs.com",
-      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 121
+      "score": 115
     },
     {
       "date": "2026-08-20",
@@ -113,6 +124,50 @@
       "url": "https://arxiv.org/abs/2608.20315v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Autolith: A programming agent with a live runtime",
+      "summary": "via www.lambda-symbolics.com",
+      "url": "https://www.lambda-symbolics.com/autolith",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 115
+    },
+    {
+      "date": "2026-08-21",
+      "title": "I'm becoming AI-blind",
+      "summary": "via cymerys.com",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 306
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "summary": "via github.com",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 225
+    },
+    {
+      "date": "2026-08-21",
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "summary": "via nari-labs.com",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
     },
     {
       "date": "2026-08-20",
@@ -411,55 +466,6 @@
       "url": "https://arxiv.org/abs/2608.18055v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
-      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they sea",
-      "url": "https://arxiv.org/abs/2608.18050v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
-      "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every wri",
-      "url": "https://arxiv.org/abs/2608.18041v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "AI usage patterns in software teams",
-      "summary": "via linear.app",
-      "url": "https://linear.app/data",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 78
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
-      "summary": "via modelmap.cc",
-      "url": "https://modelmap.cc",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 57
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Using the railway network as a flatbed scanner",
-      "summary": "via philo.gay",
-      "url": "https://philo.gay/linecam/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 416
     }
   ]
 }
