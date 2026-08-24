@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-23T02:48:37.151Z",
+  "updatedAt": "2026-08-24T02:49:07.850Z",
   "items": [
+    {
+      "date": "2026-08-23",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 261
+    },
+    {
+      "date": "2026-08-23",
+      "title": "How Complex Systems Fail (1998)",
+      "summary": "via how.complexsystems.fail",
+      "url": "https://how.complexsystems.fail/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 249
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "summary": "via blog.elis.cc",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 191
+    },
+    {
+      "date": "2026-08-23",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "summary": "via fabiensanglard.net",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 180
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Explain it to me like I'm ten",
+      "summary": "via timharford.com",
+      "url": "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Primal Acceleration of Newton's Method",
+      "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per ite",
+      "url": "https://arxiv.org/abs/2608.21359v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform researc",
+      "url": "https://arxiv.org/abs/2608.21357v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "AI with Authority, from Application to Silicon",
+      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verif",
+      "url": "https://arxiv.org/abs/2608.21356v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, withou",
+      "url": "https://arxiv.org/abs/2608.21349v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Truthful Calibration Measures for Sequential Prediction",
+      "summary": "Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab e",
+      "url": "https://arxiv.org/abs/2608.21348v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the thre",
+      "url": "https://arxiv.org/abs/2608.21345v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many cont",
+      "url": "https://arxiv.org/abs/2608.21343v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories",
+      "summary": "Short observational pricing panels can contain many observations while offering only a small number of distinct price movements. This paper studies the inferential consequences of that distinction in ",
+      "url": "https://arxiv.org/abs/2608.21334v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in whic",
+      "url": "https://arxiv.org/abs/2608.21332v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "summary": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therape",
+      "url": "https://arxiv.org/abs/2608.21325v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-08-22",
       "title": "Munder Difflin – Agent harness to run an office of your clones",
@@ -329,141 +464,6 @@
       "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
       "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning mo",
       "url": "https://arxiv.org/abs/2608.19163v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
-      "summary": "Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent ",
-      "url": "https://arxiv.org/abs/2608.19161v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
-      "summary": "We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the",
-      "url": "https://arxiv.org/abs/2608.19151v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "summary": "via sprocketfox.io",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 803
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
-      "summary": "via grapheneos.social",
-      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 362
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Air Theremin – A browser theremin you play by waving at your webcam",
-      "summary": "via theremin.bizibah.com",
-      "url": "https://theremin.bizibah.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 264
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Feature Request: Support AGENTS.md",
-      "summary": "via github.com",
-      "url": "https://github.com/anthropics/claude-code/issues/6235",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 164
-    },
-    {
-      "date": "2026-08-18",
-      "title": "fx :Tiny, open, native coding agent.",
-      "summary": "via fx.sh",
-      "url": "https://fx.sh",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 204
-    },
-    {
-      "date": "2026-08-18",
-      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
-      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A cen",
-      "url": "https://arxiv.org/abs/2608.18076v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
-      "summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology",
-      "url": "https://arxiv.org/abs/2608.18072v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, ",
-      "url": "https://arxiv.org/abs/2608.18066v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "TokEval: A Tokenizer Evaluation Suite",
-      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited unde",
-      "url": "https://arxiv.org/abs/2608.18062v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "The concentration game: Bayesian updating, regret, and information",
-      "summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies th",
-      "url": "https://arxiv.org/abs/2608.18061v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
-      "summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only dele",
-      "url": "https://arxiv.org/abs/2608.18058v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
-      "summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that ess",
-      "url": "https://arxiv.org/abs/2608.18056v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
-      "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor",
-      "url": "https://arxiv.org/abs/2608.18055v1",
       "tags": [],
       "source": "arXiv"
     }
