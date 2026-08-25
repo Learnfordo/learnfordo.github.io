@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-08-24T02:49:07.850Z",
+  "updatedAt": "2026-08-25T02:43:43.036Z",
   "items": [
+    {
+      "date": "2026-08-24",
+      "title": "How to Train a Critic Stably and Efficiently",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token",
+      "url": "https://arxiv.org/abs/2608.23566v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounde",
+      "url": "https://arxiv.org/abs/2608.23565v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they ",
+      "url": "https://arxiv.org/abs/2608.23564v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
+      "summary": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and th",
+      "url": "https://arxiv.org/abs/2608.23563v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
+      "summary": "Ballistocardiography (BCG) is promising for unobtrusive long-term blood pressure (BP) monitoring in laboratory settings, but traditional BCG signals are vulnerable to the variations in body-bed intera",
+      "url": "https://arxiv.org/abs/2608.23562v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+      "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward proces",
+      "url": "https://arxiv.org/abs/2608.23554v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long",
+      "url": "https://arxiv.org/abs/2608.23552v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
+      "summary": "Recent advances in continuous diffusion and flow-based language models (LMs) have achieved performance competitive with discrete LMs. However, existing continuous frameworks still rely on decoders sup",
+      "url": "https://arxiv.org/abs/2608.23551v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
+      "summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be",
+      "url": "https://arxiv.org/abs/2608.23547v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Inertial Manifold Neural Operator for Dissipative Time-Dependent Partial Differential Equations",
+      "summary": "In this paper, we introduce the Inertial Manifold Neural Operator (IMNO) for solving dissipative time-dependent partial differential equations (PDEs). The long-time dynamics of such systems often exhi",
+      "url": "https://arxiv.org/abs/2608.23546v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "summary": "via xusheng.dev",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 575
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Coding expertise is going to collapse from AI reliance",
+      "summary": "via larsfaye.com",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 478
+    },
+    {
+      "date": "2026-08-24",
+      "title": "IPFS Maintainers Winding Down",
+      "summary": "via ipshipyard.com",
+      "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 333
+    },
+    {
+      "date": "2026-08-24",
+      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+      "summary": "via developers.openai.com",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 303
+    },
+    {
+      "date": "2026-08-23",
+      "title": "I were 17, I'd learn how to build LLMs from scratch",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/paulg/status/2091544343589060625",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 517
+    },
     {
       "date": "2026-08-23",
       "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
@@ -325,147 +460,6 @@
       ],
       "source": "HN",
       "score": 260
-    },
-    {
-      "date": "2026-08-21",
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "summary": "via annas-archive.gl",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Show HN: Huzzah – a novel approach to coding with AI",
-      "summary": "via www.danielvaughn.dev",
-      "url": "https://www.danielvaughn.dev/posts/huzzah/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 243
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-      "summary": "via github.com",
-      "url": "https://github.com/zachahn/vomit",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 207
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Anti-AI fonts are useless and harmful",
-      "summary": "via blog.yaros.ae",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 131
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Every Model Cheats",
-      "summary": "via dreadnode.io",
-      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 85
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Copyright does not protect AI-generated content in EU",
-      "summary": "via mathstodon.xyz",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 137
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "summary": "via simedw.com",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 525
-    },
-    {
-      "date": "2026-08-19",
-      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
-      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, ",
-      "url": "https://arxiv.org/abs/2608.19197v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) ro",
-      "url": "https://arxiv.org/abs/2608.19182v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
-      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor local",
-      "url": "https://arxiv.org/abs/2608.19181v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
-      "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastiv",
-      "url": "https://arxiv.org/abs/2608.19174v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
-      "summary": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself ca",
-      "url": "https://arxiv.org/abs/2608.19171v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
-      "summary": "A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one b",
-      "url": "https://arxiv.org/abs/2608.19168v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
-      "summary": "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted ",
-      "url": "https://arxiv.org/abs/2608.19165v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
-      "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning mo",
-      "url": "https://arxiv.org/abs/2608.19163v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
