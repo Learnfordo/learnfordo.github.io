@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T02:43:43.036Z",
+  "updatedAt": "2026-08-25T04:30:39.130Z",
   "items": [
     {
       "date": "2026-08-24",
@@ -90,7 +90,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 575
+      "score": 613
+    },
+    {
+      "date": "2026-08-24",
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "summary": "via developer.apple.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 313
+    },
+    {
+      "date": "2026-08-24",
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "summary": "via boydkane.com",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 111
     },
     {
       "date": "2026-08-24",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 121
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Early-life stress leaves a 'scar' inside brain cells in mice",
-      "summary": "via medicine.washu.edu",
-      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 63
-    },
-    {
-      "date": "2026-08-19",
-      "title": "AI boosted homework scores, then exam scores dropped: study",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 260
     }
   ]
 }
