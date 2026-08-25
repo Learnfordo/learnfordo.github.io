@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-25T04:30:39.130Z",
+  "updatedAt": "2026-08-25T16:04:38.106Z",
   "items": [
+    {
+      "date": "2026-08-25",
+      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "summary": "via www.apple.com",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 422
+    },
+    {
+      "date": "2026-08-25",
+      "title": "How much of HN is AI?",
+      "summary": "via blog.coredump.cx",
+      "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 98
+    },
     {
       "date": "2026-08-24",
       "title": "How to Train a Critic Stably and Efficiently",
@@ -90,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 613
+      "score": 808
     },
     {
       "date": "2026-08-24",
@@ -101,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 313
+      "score": 566
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Training AI to Paint with Code",
+      "summary": "via surya.website",
+      "url": "https://surya.website/rling-qwen-to-paint-with-code",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 164
     },
     {
       "date": "2026-08-24",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 115
-    },
-    {
-      "date": "2026-08-21",
-      "title": "I'm becoming AI-blind",
-      "summary": "via cymerys.com",
-      "url": "https://cymerys.com/w/im-becoming-ai-blind",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 306
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "summary": "via github.com",
-      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
-    },
-    {
-      "date": "2026-08-21",
-      "title": "How we made a text-to-speech model respond in sub-50 ms",
-      "summary": "via nari-labs.com",
-      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
     }
   ]
 }
