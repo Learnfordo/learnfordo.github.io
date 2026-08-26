@@ -1,5 +1,16 @@
 [
   {
+    "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-08-26",
+    "arxivId": "cmta6v56y03ytroj25ggn7rlo",
+    "pdfUrl": "https://arxiv.org/pdf/cmta6v56y03ytroj25ggn7rlo",
+    "summary": "安全研究员David Buchanan指出，C2PA相机认证在Android平台上可被攻破。通过root权限提升漏洞（如CVE-2026-43499），攻击者可利用StrongBox硬件签名任意数据，伪造C2PA签名图像和视频，且无需硬件攻击。该问题无法通过常规补丁修复，已提前90天向相关方报告。",
+    "permalink": "https://aihot.virxact.com/items/cmta6v56y03ytroj25ggn7rlo",
+    "tags": [],
+    "descriptionCn": "《C2PA相机经不起现实的考验：Android端可被root攻击伪造签名》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
     "title": "单个污染页面即可影响LLM推荐：FORGE基准揭示检索增强推荐系统的脆弱性",
     "vendor": "HuggingFace Daily Papers（社区热门论文）",
     "date": "2026-08-24",
