@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-26T04:31:20.897Z",
+  "updatedAt": "2026-08-26T16:31:47.765Z",
   "items": [
     {
       "date": "2026-08-26",
-      "title": "The brain may be about to have its Ozempic moment",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 64
+      "score": 369
     },
     {
       "date": "2026-08-25",
@@ -91,6 +91,17 @@
       "url": "https://arxiv.org/abs/2608.24842v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "The brain may be about to have its Ozempic moment",
+      "summary": "via www.economist.com",
+      "url": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
     },
     {
       "date": "2026-08-25",
@@ -449,17 +460,6 @@
       "url": "https://arxiv.org/abs/2608.21325v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Munder Difflin – Agent harness to run an office of your clones",
-      "summary": "via munderdiffl.in",
-      "url": "https://munderdiffl.in/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 258
     }
   ]
 }
