@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-08-25T16:04:38.106Z",
+  "updatedAt": "2026-08-26T02:51:15.245Z",
   "items": [
+    {
+      "date": "2026-08-25",
+      "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+      "summary": "Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported sc",
+      "url": "https://arxiv.org/abs/2608.24881v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Workin",
+      "url": "https://arxiv.org/abs/2608.24876v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "summary": "Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this d",
+      "url": "https://arxiv.org/abs/2608.24870v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+      "summary": "Lipschitz constants are a standard way to quantify the sensitivity of neural networks to small input perturbations, but computing them is difficult even for shallow ReLU networks. We study this proble",
+      "url": "https://arxiv.org/abs/2608.24865v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+      "summary": "Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP variants within a single unified model, avoiding the need to train a separate model for every variant. In spite of recent p",
+      "url": "https://arxiv.org/abs/2608.24859v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "summary": "Marginalized importance weighting evaluates a target policy by reweighting offline state-action samples with its discounted occupancy ratio, characterized by an adjoint Bellman equation. Existing mini",
+      "url": "https://arxiv.org/abs/2608.24858v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction",
+      "url": "https://arxiv.org/abs/2608.24848v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+      "summary": "Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they can",
+      "url": "https://arxiv.org/abs/2608.24846v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a t",
+      "url": "https://arxiv.org/abs/2608.24845v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they",
+      "url": "https://arxiv.org/abs/2608.24842v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "summary": "via newsletter.semianalysis.com",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "summary": "via github.com",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 111
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "summary": "via github.com",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 54
+    },
     {
       "date": "2026-08-25",
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
@@ -347,119 +460,6 @@
       ],
       "source": "HN",
       "score": 200
-    },
-    {
-      "date": "2026-08-21",
-      "title": "A week of using Codex more than Claude",
-      "summary": "via allaboutcoding.ghinda.com",
-      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 139
-    },
-    {
-      "date": "2026-08-21",
-      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 115
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Information on trajectories: martingales and random times",
-      "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used ",
-      "url": "https://arxiv.org/abs/2608.20337v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-      "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completel",
-      "url": "https://arxiv.org/abs/2608.20338v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-depende",
-      "url": "https://arxiv.org/abs/2608.20331v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
-      "summary": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-ho",
-      "url": "https://arxiv.org/abs/2608.20326v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
-      "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio",
-      "url": "https://arxiv.org/abs/2608.20322v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
-      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workfl",
-      "url": "https://arxiv.org/abs/2608.20320v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Inducing Task Models from Computer-Use Traces",
-      "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is do",
-      "url": "https://arxiv.org/abs/2608.20319v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a",
-      "url": "https://arxiv.org/abs/2608.20318v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
-      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most e",
-      "url": "https://arxiv.org/abs/2608.20316v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
-      "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpreta",
-      "url": "https://arxiv.org/abs/2608.20315v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Autolith: A programming agent with a live runtime",
-      "summary": "via www.lambda-symbolics.com",
-      "url": "https://www.lambda-symbolics.com/autolith",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 115
     }
   ]
 }
