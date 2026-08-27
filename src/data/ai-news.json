@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-08-26T16:31:47.765Z",
+  "updatedAt": "2026-08-27T04:08:24.566Z",
   "items": [
+    {
+      "date": "2026-08-27",
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "summary": "via github.com",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 176
+    },
+    {
+      "date": "2026-08-26",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-c",
+      "url": "https://arxiv.org/abs/2608.26105v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised p",
+      "url": "https://arxiv.org/abs/2608.26095v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actio",
+      "url": "https://arxiv.org/abs/2608.26094v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
+      "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that t",
+      "url": "https://arxiv.org/abs/2608.26093v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
+      "summary": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting the",
+      "url": "https://arxiv.org/abs/2608.26091v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
+      "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for directio",
+      "url": "https://arxiv.org/abs/2608.26090v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predicti",
+      "url": "https://arxiv.org/abs/2608.26088v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over ",
+      "url": "https://arxiv.org/abs/2608.26086v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
+      "summary": "Deep neural networks often exploit spurious associations in their training data, a failure known as shortcut learning. Concept-based explainability methods screen for shortcuts by testing whether conc",
+      "url": "https://arxiv.org/abs/2608.26083v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "summary": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new su",
+      "url": "https://arxiv.org/abs/2608.26081v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "summary": "via github.com",
+      "url": "https://github.com/tailscale/tailcat",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 505
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "summary": "via acceptmarkdown.com",
+      "url": "https://acceptmarkdown.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 103
+    },
     {
       "date": "2026-08-26",
       "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
@@ -347,119 +460,6 @@
       ],
       "source": "HN",
       "score": 249
-    },
-    {
-      "date": "2026-08-23",
-      "title": "Google Workspace thinks my domain is an email provider (2025)",
-      "summary": "via blog.elis.cc",
-      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 191
-    },
-    {
-      "date": "2026-08-23",
-      "title": "My agent.md to improve LLM-assisted code quality",
-      "summary": "via fabiensanglard.net",
-      "url": "https://fabiensanglard.net/agent.md/index.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 180
-    },
-    {
-      "date": "2026-08-23",
-      "title": "Explain it to me like I'm ten",
-      "summary": "via timharford.com",
-      "url": "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 85
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Primal Acceleration of Newton's Method",
-      "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per ite",
-      "url": "https://arxiv.org/abs/2608.21359v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
-      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform researc",
-      "url": "https://arxiv.org/abs/2608.21357v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "AI with Authority, from Application to Silicon",
-      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verif",
-      "url": "https://arxiv.org/abs/2608.21356v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
-      "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, withou",
-      "url": "https://arxiv.org/abs/2608.21349v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Truthful Calibration Measures for Sequential Prediction",
-      "summary": "Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab e",
-      "url": "https://arxiv.org/abs/2608.21348v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
-      "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the thre",
-      "url": "https://arxiv.org/abs/2608.21345v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
-      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many cont",
-      "url": "https://arxiv.org/abs/2608.21343v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories",
-      "summary": "Short observational pricing panels can contain many observations while offering only a small number of distinct price movements. This paper studies the inferential consequences of that distinction in ",
-      "url": "https://arxiv.org/abs/2608.21334v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
-      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in whic",
-      "url": "https://arxiv.org/abs/2608.21332v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
-      "summary": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therape",
-      "url": "https://arxiv.org/abs/2608.21325v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
