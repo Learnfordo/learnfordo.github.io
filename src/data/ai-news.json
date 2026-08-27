@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T04:31:11.369Z",
+  "updatedAt": "2026-08-27T12:00:51.863Z",
   "items": [
     {
       "date": "2026-08-27",
@@ -10,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 210
+      "score": 686
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Laion Big Video Dataset",
+      "summary": "via projects.laion.ai",
+      "url": "https://projects.laion.ai/bvd/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
     },
     {
       "date": "2026-08-26",
@@ -101,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 506
+      "score": 594
+    },
+    {
+      "date": "2026-08-26",
+      "title": "The turbulent AI era is here",
+      "summary": "via www.gatesnotes.com",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 283
     },
     {
       "date": "2026-08-26",
@@ -112,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 106
+      "score": 152
     },
     {
       "date": "2026-08-26",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 517
-    },
-    {
-      "date": "2026-08-23",
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 261
-    },
-    {
-      "date": "2026-08-23",
-      "title": "How Complex Systems Fail (1998)",
-      "summary": "via how.complexsystems.fail",
-      "url": "https://how.complexsystems.fail/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 249
     }
   ]
 }
