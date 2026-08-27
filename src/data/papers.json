@@ -11,6 +11,17 @@
     "descriptionCn": "《C2PA相机经不起现实的考验：Android端可被root攻击伪造签名》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
   },
   {
+    "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+    "vendor": "Anthropic",
+    "date": "2026-08-26",
+    "arxivId": "cmtaddncd0aq0roj2xmay0scj",
+    "pdfUrl": "https://arxiv.org/pdf/cmtaddncd0aq0roj2xmay0scj",
+    "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+    "permalink": "https://aihot.virxact.com/items/cmtaddncd0aq0roj2xmay0scj",
+    "tags": [],
+    "descriptionCn": "《Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "单个污染页面即可影响LLM推荐：FORGE基准揭示检索增强推荐系统的脆弱性",
     "vendor": "HuggingFace Daily Papers（社区热门论文）",
     "date": "2026-08-24",
@@ -20,6 +31,17 @@
     "permalink": "https://aihot.virxact.com/items/cmt8bo2db30oaro735zu90tig",
     "tags": [],
     "descriptionCn": "《单个污染页面即可影响LLM推荐：FORGE基准揭示检索增强推荐系统的脆弱性》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
+  },
+  {
+    "title": "开放世界多智能体环境中的自主数学发现",
+    "vendor": "HuggingFace Daily Papers（社区热门论文）",
+    "date": "2026-08-24",
+    "arxivId": "2608.23691",
+    "pdfUrl": "https://arxiv.org/pdf/2608.23691",
+    "summary": "一项研究在开放世界多智能体环境Station中，让来自不同模型家族的AI智能体在无中央协调或脚本化流程下自主开展数学研究。在AlphaEvolve目录的12个构造问题及两个额外案例中，智能体在五个问题上取得了超越现有文献的新结果，包括有限域Kakeya集的新无限族、11维604点亲吻构型等，并生成了定理与分析使结果更具可解释性。所有原始智能体对话、证明和验证代码均已公开。",
+    "permalink": "https://aihot.virxact.com/items/cmtacjvfj0a9qroj2efx3z1xo",
+    "tags": [],
+    "descriptionCn": "《开放世界多智能体环境中的自主数学发现》— HuggingFace Daily Papers（社区热门论文） 发布的最新研究论文。"
   },
   {
     "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
