@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T13:21:12.673Z",
+  "updatedAt": "2026-08-28T16:05:39.308Z",
   "items": [
     {
       "date": "2026-08-28",
@@ -10,7 +10,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 116
+      "score": 297
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "summary": "via blog.luanti.org",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 231
+    },
+    {
+      "date": "2026-08-28",
+      "title": "OpenAI: Migrating to HTTPX2",
+      "summary": "via github.com",
+      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 130
+    },
+    {
+      "date": "2026-08-28",
+      "title": "I Used AWS Cognito for a Startup. I Wouldn't Do It Again",
+      "summary": "via joshkaramuth.com",
+      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 97
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
+      "summary": "via mastodon.bida.im",
+      "url": "https://mastodon.bida.im/@cavallette/117172989300228024",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 93
     },
     {
       "date": "2026-08-27",
@@ -416,41 +460,6 @@
       ],
       "source": "HN",
       "score": 422
-    },
-    {
-      "date": "2026-08-25",
-      "title": "How much of HN is AI?",
-      "summary": "via blog.coredump.cx",
-      "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 98
-    },
-    {
-      "date": "2026-08-24",
-      "title": "How to Train a Critic Stably and Efficiently",
-      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token",
-      "url": "https://arxiv.org/abs/2608.23566v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounde",
-      "url": "https://arxiv.org/abs/2608.23565v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
-      "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they ",
-      "url": "https://arxiv.org/abs/2608.23564v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
