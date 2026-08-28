@@ -1,5 +1,16 @@
 [
   {
+    "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
+    "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
+    "date": "2026-08-27",
+    "arxivId": "cmtbtrn8j0222ro2kb7opgppz",
+    "pdfUrl": "https://arxiv.org/pdf/cmtbtrn8j0222ro2kb7opgppz",
+    "summary": "SGLang Diffusion 团队在 8×NVIDIA H200 上对 MiniMax-H3 视频生成进行基准测试，其密集无损路径较 Diffusers 快 1.85-1.95×，无近似损失。",
+    "permalink": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz",
+    "tags": [],
+    "descriptionCn": "《MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）》— LMSYS：Blog（Chatbot Arena 团队） 发布的最新研究论文。"
+  },
+  {
     "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-08-26",
