@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-28T04:30:40.773Z",
+  "updatedAt": "2026-08-28T13:21:12.673Z",
   "items": [
     {
       "date": "2026-08-28",
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "summary": "via www.nytimes.com",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 141
+      "score": 116
     },
     {
       "date": "2026-08-27",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 534
+      "score": 706
     },
     {
       "date": "2026-08-27",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 401
+      "score": 594
     },
     {
       "date": "2026-08-27",
@@ -123,18 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 137
+      "score": 196
     },
     {
       "date": "2026-08-26",
       "title": "The turbulent AI era is here",
       "summary": "via www.gatesnotes.com",
-      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 244
+      "score": 330
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+      "summary": "via www.nytimes.com",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 141
     },
     {
       "date": "2026-08-27",
@@ -438,14 +449,6 @@
       "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
       "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they ",
       "url": "https://arxiv.org/abs/2608.23564v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
-      "summary": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and th",
-      "url": "https://arxiv.org/abs/2608.23563v1",
       "tags": [],
       "source": "arXiv"
     }
