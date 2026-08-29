@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-29T04:41:44.032Z",
+  "updatedAt": "2026-08-29T08:17:52.450Z",
   "items": [
+    {
+      "date": "2026-08-29",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "summary": "via github.com",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 82
+    },
     {
       "date": "2026-08-28",
       "title": "U.S. sanctions against the A/I Collective",
@@ -10,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 525
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 89
+      "score": 570
     },
     {
       "date": "2026-08-28",
@@ -32,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 69
+      "score": 119
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
     },
     {
       "date": "2026-08-27",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 64
-    },
-    {
-      "date": "2026-08-25",
-      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
-      "summary": "via newsletter.semianalysis.com",
-      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 386
     }
   ]
 }
