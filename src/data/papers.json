@@ -11,6 +11,17 @@
     "descriptionCn": "《Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
   },
   {
+    "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+    "vendor": "Anthropic",
+    "date": "2026-08-28",
+    "arxivId": "cmtd83hb4018fro667i1tbc34",
+    "pdfUrl": "https://arxiv.org/pdf/cmtd83hb4018fro667i1tbc34",
+    "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+    "permalink": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+    "tags": [],
+    "descriptionCn": "《Anthropic 让 Claude 自主训练模型以缓解对齐失败》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
     "vendor": "LMSYS：Blog（Chatbot Arena 团队）",
     "date": "2026-08-27",
