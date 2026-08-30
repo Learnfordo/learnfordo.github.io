@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T04:44:54.728Z",
+  "updatedAt": "2026-08-30T07:23:39.619Z",
   "items": [
     {
       "date": "2026-08-29",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 300
+      "score": 356
     },
     {
       "date": "2026-08-29",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 196
+      "score": 258
     },
     {
       "date": "2026-08-29",
@@ -32,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 69
+      "score": 74
+    },
+    {
+      "date": "2026-08-29",
+      "title": "The Rise and Fall of Agent Civilizations",
+      "summary": "via www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
     },
     {
       "date": "2026-08-27",
@@ -456,14 +467,6 @@
       "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
       "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction",
       "url": "https://arxiv.org/abs/2608.24848v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
-      "summary": "Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they can",
-      "url": "https://arxiv.org/abs/2608.24846v1",
       "tags": [],
       "source": "arXiv"
     }
