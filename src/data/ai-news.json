@@ -1,49 +1,38 @@
 {
-  "updatedAt": "2026-08-29T08:17:52.450Z",
+  "updatedAt": "2026-08-30T04:44:54.728Z",
   "items": [
     {
       "date": "2026-08-29",
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "summary": "via github.com",
-      "url": "https://github.com/stemdeckapp/stemdeck",
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "summary": "via newsletter.eng-leadership.com",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 82
+      "score": 300
     },
     {
-      "date": "2026-08-28",
-      "title": "U.S. sanctions against the A/I Collective",
-      "summary": "via www.inventati.org",
-      "url": "https://www.inventati.org/",
+      "date": "2026-08-29",
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "summary": "via www.texastribune.org",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 570
+      "score": 196
     },
     {
-      "date": "2026-08-28",
-      "title": "I accidentally turned LLM memory into program analysis",
-      "summary": "via pwning.systems",
-      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "date": "2026-08-29",
+      "title": "Domain-Driven Agents",
+      "summary": "via coldtake.dev",
+      "url": "https://coldtake.dev/blog/domain-driven-agents",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 119
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 100
+      "score": 69
     },
     {
       "date": "2026-08-27",
@@ -124,6 +113,50 @@
       "url": "https://arxiv.org/abs/2608.27424v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "summary": "via github.com",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 82
+    },
+    {
+      "date": "2026-08-28",
+      "title": "U.S. sanctions against the A/I Collective",
+      "summary": "via www.inventati.org",
+      "url": "https://www.inventati.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 570
+    },
+    {
+      "date": "2026-08-28",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "summary": "via pwning.systems",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
     },
     {
       "date": "2026-08-28",
@@ -433,33 +466,6 @@
       "url": "https://arxiv.org/abs/2608.24846v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
-      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a t",
-      "url": "https://arxiv.org/abs/2608.24845v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
-      "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they",
-      "url": "https://arxiv.org/abs/2608.24842v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "The brain may be about to have its Ozempic moment",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
     }
   ]
 }
