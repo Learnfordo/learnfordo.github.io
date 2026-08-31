@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T04:30:47.529Z",
+  "updatedAt": "2026-08-31T07:38:47.571Z",
   "items": [
     {
       "date": "2026-08-31",
@@ -10,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 87
+      "score": 144
+    },
+    {
+      "date": "2026-08-31",
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "summary": "via ruurtjan.com",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 77
     },
     {
       "date": "2026-08-30",
@@ -21,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 270
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 198
+      "score": 304
     },
     {
       "date": "2026-08-30",
@@ -43,7 +43,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 69
+      "score": 89
+    },
+    {
+      "date": "2026-08-30",
+      "title": "How to build a diffusion language model",
+      "summary": "via kuleshov-group.github.io",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 62
     },
     {
       "date": "2026-08-28",
@@ -124,6 +135,17 @@
       "url": "https://arxiv.org/abs/2608.28549v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 198
     },
     {
       "date": "2026-08-29",
@@ -454,22 +476,6 @@
       "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
       "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that t",
       "url": "https://arxiv.org/abs/2608.26093v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
-      "summary": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting the",
-      "url": "https://arxiv.org/abs/2608.26091v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
-      "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for directio",
-      "url": "https://arxiv.org/abs/2608.26090v1",
       "tags": [],
       "source": "arXiv"
     }
