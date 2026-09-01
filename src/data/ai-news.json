@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-08-31T07:38:47.571Z",
+  "updatedAt": "2026-09-01T04:08:10.879Z",
   "items": [
+    {
+      "date": "2026-08-31",
+      "title": "Context-Aware Interleaved Batching for WhisperX",
+      "summary": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conve",
+      "url": "https://arxiv.org/abs/2608.31170v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Constant Individual Regret in General Games",
+      "summary": "Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for ",
+      "url": "https://arxiv.org/abs/2608.31166v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+      "summary": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reacti",
+      "url": "https://arxiv.org/abs/2608.31167v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
+      "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsy",
+      "url": "https://arxiv.org/abs/2608.31157v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "summary": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, sup",
+      "url": "https://arxiv.org/abs/2608.31142v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+      "summary": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. W",
+      "url": "https://arxiv.org/abs/2608.31139v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+      "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language ",
+      "url": "https://arxiv.org/abs/2608.31137v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
+      "summary": "Neural network mixed-effects models (NMMs) have gained traction by combining the strong representation and predictive power of artificial neural networks with the capacity of mixed-effects modeling to",
+      "url": "https://arxiv.org/abs/2608.31133v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on",
+      "url": "https://arxiv.org/abs/2608.31128v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions",
+      "summary": "The motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional pro",
+      "url": "https://arxiv.org/abs/2608.31120v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "summary": "via www.macrumors.com",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 335
+    },
+    {
+      "date": "2026-08-31",
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "summary": "via codex-tool-reference.simonw.chatgpt.site",
+      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 197
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Terence Tao explains 6 essential mathematical concepts [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 277
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Smartphone LED detects hidden cameras with AI",
+      "summary": "via www.chosun.com",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 171
+    },
     {
       "date": "2026-08-31",
       "title": "Understanding ChatGPT Work",
@@ -336,148 +460,6 @@
       ],
       "source": "HN",
       "score": 231
-    },
-    {
-      "date": "2026-08-28",
-      "title": "OpenAI: Migrating to HTTPX2",
-      "summary": "via github.com",
-      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 130
-    },
-    {
-      "date": "2026-08-28",
-      "title": "I Used AWS Cognito for a Startup. I Wouldn't Do It Again",
-      "summary": "via joshkaramuth.com",
-      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 97
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
-      "summary": "via mastodon.bida.im",
-      "url": "https://mastodon.bida.im/@cavallette/117172989300228024",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 93
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Small Models Have Arrived",
-      "summary": "via calv.info",
-      "url": "https://calv.info/small-models-have-arrived",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 706
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Show HN: The load-bearing vocabulary of Claude",
-      "summary": "via louisabraham.github.io",
-      "url": "https://louisabraham.github.io/load-bearing/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 594
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Show HN: We built open OpenRouter that turns usage into a better model",
-      "summary": "via github.com",
-      "url": "https://github.com/experientiallabs/experiential",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 196
-    },
-    {
-      "date": "2026-08-26",
-      "title": "The turbulent AI era is here",
-      "summary": "via www.gatesnotes.com",
-      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 330
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "summary": "via www.nytimes.com",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-08-27",
-      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "summary": "via github.com",
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 686
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Laion Big Video Dataset",
-      "summary": "via projects.laion.ai",
-      "url": "https://projects.laion.ai/bvd/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 68
-    },
-    {
-      "date": "2026-08-26",
-      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-c",
-      "url": "https://arxiv.org/abs/2608.26105v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
-      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised p",
-      "url": "https://arxiv.org/abs/2608.26095v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actio",
-      "url": "https://arxiv.org/abs/2608.26094v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
-      "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that t",
-      "url": "https://arxiv.org/abs/2608.26093v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
