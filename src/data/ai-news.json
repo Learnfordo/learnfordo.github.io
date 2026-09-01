@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-01T04:08:10.879Z",
+  "updatedAt": "2026-09-01T04:30:51.470Z",
   "items": [
+    {
+      "date": "2026-09-01",
+      "title": "Tailcat: Tailscale Without Tailscale, by Tailscale",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/blog/tailcat",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 51
+    },
     {
       "date": "2026-08-31",
       "title": "Context-Aware Interleaved Batching for WhisperX",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 335
+      "score": 342
     },
     {
       "date": "2026-08-31",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 197
+      "score": 200
     },
     {
       "date": "2026-08-30",
@@ -112,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 277
+      "score": 289
     },
     {
       "date": "2026-08-30",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 171
+      "score": 174
     },
     {
       "date": "2026-08-31",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 297
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "summary": "via blog.luanti.org",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 231
     }
   ]
 }
