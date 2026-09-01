@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-09-01T04:30:51.470Z",
+  "updatedAt": "2026-09-01T06:45:45.814Z",
   "items": [
-    {
-      "date": "2026-09-01",
-      "title": "Tailcat: Tailscale Without Tailscale, by Tailscale",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/tailcat",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 51
-    },
     {
       "date": "2026-08-31",
       "title": "Context-Aware Interleaved Batching for WhisperX",
@@ -101,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 342
+      "score": 383
     },
     {
       "date": "2026-08-31",
@@ -112,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 200
+      "score": 208
     },
     {
       "date": "2026-08-30",
@@ -123,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 289
+      "score": 363
     },
     {
       "date": "2026-08-30",
@@ -134,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 174
+      "score": 194
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Tailcat: Tailscale Without Tailscale, by Tailscale",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/blog/tailcat",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 51
     },
     {
       "date": "2026-08-31",
