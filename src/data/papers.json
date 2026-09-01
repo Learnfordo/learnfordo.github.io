@@ -1,5 +1,16 @@
 [
   {
+    "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+    "vendor": "Anthropic",
+    "date": "2026-09-01",
+    "arxivId": "cmthxigqm04c1rofqqmk7pkqi",
+    "pdfUrl": "https://arxiv.org/pdf/cmthxigqm04c1rofqqmk7pkqi",
+    "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
+    "permalink": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+    "tags": [],
+    "descriptionCn": "《Anthropic 研究：训练一个错位的奖励寻求者模型》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-08-28",
