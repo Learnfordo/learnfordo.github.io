@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-03T06:28:57.896Z",
+  "updatedAt": "2026-09-03T16:04:43.475Z",
   "items": [
+    {
+      "date": "2026-09-03",
+      "title": "ChatGPT Is Throwing 404",
+      "summary": "via chatgpt.com",
+      "url": "https://chatgpt.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 322
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Elevated Errors for Multiple Models",
+      "summary": "via status.claude.com",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
+    },
     {
       "date": "2026-09-02",
       "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
@@ -83,17 +105,6 @@
     },
     {
       "date": "2026-09-02",
-      "title": "Can I opt out of my input or output data being used for training?",
-      "summary": "via help.mistral.ai",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 415
-    },
-    {
-      "date": "2026-09-02",
       "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
       "summary": "via trellner.com",
       "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
@@ -101,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 367
+      "score": 490
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Can I opt out of my input or output data being used for training?",
+      "summary": "via help.mistral.ai",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 480
+    },
+    {
+      "date": "2026-09-01",
+      "title": "The Browser's Main Thread Is Expensive",
+      "summary": "via kciter.so",
+      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 281
     },
     {
       "date": "2026-09-02",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 144
-    },
-    {
-      "date": "2026-08-31",
-      "title": "P99 0 ms* autocomplete for 240M domain names",
-      "summary": "via ruurtjan.com",
-      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 77
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Haiku R1/beta6 has been released",
-      "summary": "via www.haiku-os.org",
-      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 304
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "via sander.ai",
-      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 89
     }
   ]
 }
