@@ -1,5 +1,16 @@
 [
   {
+    "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-09-03",
+    "arxivId": "cmtl25m9c0e89roalh6qci0r5",
+    "pdfUrl": "https://arxiv.org/pdf/cmtl25m9c0e89roalh6qci0r5",
+    "summary": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
+    "permalink": "https://aihot.virxact.com/items/cmtl25m9c0e89roalh6qci0r5",
+    "tags": [],
+    "descriptionCn": "《METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
     "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
     "vendor": "Berkeley RDI：Blog（AI 安全与评测）",
     "date": "2026-09-02",
