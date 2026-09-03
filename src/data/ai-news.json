@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-02T06:24:56.372Z",
+  "updatedAt": "2026-09-03T04:30:42.829Z",
   "items": [
+    {
+      "date": "2026-09-02",
+      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+      "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natu",
+      "url": "https://arxiv.org/abs/2609.02887v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Discriminative World Models for Web Agents",
+      "summary": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PR",
+      "url": "https://arxiv.org/abs/2609.02885v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Graph Machine: Towards Better Pretraining via Edges",
+      "summary": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static ro",
+      "url": "https://arxiv.org/abs/2609.02881v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "summary": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajec",
+      "url": "https://arxiv.org/abs/2609.02876v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents",
+      "url": "https://arxiv.org/abs/2609.02861v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+      "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy an",
+      "url": "https://arxiv.org/abs/2609.02859v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Improved Gradient Descent Lower Bounds Beyond Nesterov",
+      "summary": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^{-2})$ first-order oracle lower bound of Nemirovsky ",
+      "url": "https://arxiv.org/abs/2609.02855v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "summary": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an u",
+      "url": "https://arxiv.org/abs/2609.02852v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-e",
+      "url": "https://arxiv.org/abs/2609.02849v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+      "summary": "Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \\nv{} recipe addresses this with current-t",
+      "url": "https://arxiv.org/abs/2609.02846v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Can I opt out of my input or output data being used for training?",
+      "summary": "via help.mistral.ai",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 397
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "summary": "via trellner.com",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 338
+    },
+    {
+      "date": "2026-09-02",
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 281
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Aging brains blend memories together instead of just forgetting them",
+      "summary": "via studyfinds.com",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 233
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Whistleblower warns Postal Service mail ballot system has catastrophic problems",
+      "summary": "via www.cbsnews.com",
+      "url": "https://www.cbsnews.com/news/whistleblower-postal-service-new-mail-ballot-system/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 178
+    },
     {
       "date": "2026-09-01",
       "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 62
-    },
-    {
-      "date": "2026-08-28",
-      "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
-      "summary": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a gen",
-      "url": "https://arxiv.org/abs/2608.28589v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a c",
-      "url": "https://arxiv.org/abs/2608.28578v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
-      "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a genera",
-      "url": "https://arxiv.org/abs/2608.28576v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
-      "summary": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variat",
-      "url": "https://arxiv.org/abs/2608.28566v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
-      "summary": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $α\\geq 0$ for polynomial inner-product kernels. We derive asymptoticall",
-      "url": "https://arxiv.org/abs/2608.28564v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
-      "summary": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hi",
-      "url": "https://arxiv.org/abs/2608.28560v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Blog: Survey of Optimizers",
-      "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training ho",
-      "url": "https://arxiv.org/abs/2608.28557v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Logos: An Agent Harness on a Cross-Process Bus",
-      "summary": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capabili",
-      "url": "https://arxiv.org/abs/2608.28553v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining",
-      "summary": "As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. Ho",
-      "url": "https://arxiv.org/abs/2608.28552v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Video Generative Models as Geometry Learner",
-      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they ei",
-      "url": "https://arxiv.org/abs/2608.28549v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 198
-    },
-    {
-      "date": "2026-08-29",
-      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-      "summary": "via newsletter.eng-leadership.com",
-      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 356
-    },
-    {
-      "date": "2026-08-29",
-      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
-      "summary": "via www.texastribune.org",
-      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 258
-    },
-    {
-      "date": "2026-08-29",
-      "title": "Domain-Driven Agents",
-      "summary": "via coldtake.dev",
-      "url": "https://coldtake.dev/blog/domain-driven-agents",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 74
-    },
-    {
-      "date": "2026-08-29",
-      "title": "The Rise and Fall of Agent Civilizations",
-      "summary": "via www.dwarkesh.com",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 56
     }
   ]
 }
