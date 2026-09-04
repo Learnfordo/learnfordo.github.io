@@ -1,5 +1,16 @@
 [
   {
+    "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-09-04",
+    "arxivId": "cmtm7yl5s01d5robnsn25onbz",
+    "pdfUrl": "https://arxiv.org/pdf/cmtm7yl5s01d5robnsn25onbz",
+    "summary": "OpenAI 的 GPT-6 Astra 在 ARC-AGI-3 Semi-Private 上，Standard harness 得分 62.7%（成本 $26K），Provider Adapter harness 得分 99.9%（成本 $19K），均为 SOTA。",
+    "permalink": "https://aihot.virxact.com/items/cmtm7yl5s01d5robnsn25onbz",
+    "tags": [],
+    "descriptionCn": "《OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
     "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-03",
