@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-03T16:04:43.475Z",
+  "updatedAt": "2026-09-04T06:35:22.253Z",
   "items": [
+    {
+      "date": "2026-09-03",
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a prov",
+      "url": "https://arxiv.org/abs/2609.04199v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "summary": "Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to ",
+      "url": "https://arxiv.org/abs/2609.04198v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+      "summary": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three de",
+      "url": "https://arxiv.org/abs/2609.04197v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+      "summary": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, ",
+      "url": "https://arxiv.org/abs/2609.04194v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+      "summary": "Video editing spans diverse editing paradigms, yet achieving high-quality instruction-guided and subject-guided editing within a single unified framework remains challenging. We introduce EditVid, a t",
+      "url": "https://arxiv.org/abs/2609.04190v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Robust PAC Learning of Concurrent Stochastic Games",
+      "summary": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash eq",
+      "url": "https://arxiv.org/abs/2609.04189v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+      "summary": "Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliar",
+      "url": "https://arxiv.org/abs/2609.04183v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learnin",
+      "url": "https://arxiv.org/abs/2609.04180v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "A Computationally Feasible Framework for Causal Probabilistic Explanation",
+      "summary": "Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory ",
+      "url": "https://arxiv.org/abs/2609.04177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Last Translation Benchmark",
+      "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for ",
+      "url": "https://arxiv.org/abs/2609.04173v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "GPT-6 Astra",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1615
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "summary": "via inference-docs.cerebras.ai",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 514
+    },
+    {
+      "date": "2026-09-03",
+      "title": "K2 Horizon: A connected fleet of six open models",
+      "summary": "via ifm.ai",
+      "url": "https://ifm.ai/blog/k2/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 285
+    },
+    {
+      "date": "2026-09-01",
+      "title": "The browser's main thread is expensive",
+      "summary": "via kciter.so",
+      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 390
+    },
+    {
+      "date": "2026-09-01",
+      "title": "The largest electric aircraft just flew [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 259
+    },
     {
       "date": "2026-09-03",
       "title": "ChatGPT Is Throwing 404",
@@ -124,17 +259,6 @@
       ],
       "source": "HN",
       "score": 480
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The Browser's Main Thread Is Expensive",
-      "summary": "via kciter.so",
-      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 281
     },
     {
       "date": "2026-09-02",
@@ -330,136 +454,6 @@
       "url": "https://arxiv.org/abs/2608.31166v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
-      "summary": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reacti",
-      "url": "https://arxiv.org/abs/2608.31167v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
-      "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsy",
-      "url": "https://arxiv.org/abs/2608.31157v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
-      "summary": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, sup",
-      "url": "https://arxiv.org/abs/2608.31142v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
-      "summary": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. W",
-      "url": "https://arxiv.org/abs/2608.31139v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
-      "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language ",
-      "url": "https://arxiv.org/abs/2608.31137v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
-      "summary": "Neural network mixed-effects models (NMMs) have gained traction by combining the strong representation and predictive power of artificial neural networks with the capacity of mixed-effects modeling to",
-      "url": "https://arxiv.org/abs/2608.31133v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on",
-      "url": "https://arxiv.org/abs/2608.31128v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions",
-      "summary": "The motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional pro",
-      "url": "https://arxiv.org/abs/2608.31120v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-      "summary": "via www.macrumors.com",
-      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 383
-    },
-    {
-      "date": "2026-08-31",
-      "title": "ChatGPT Work Tool and Skill Reference",
-      "summary": "via codex-tool-reference.simonw.chatgpt.site",
-      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 208
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Terence Tao explains 6 essential mathematical concepts [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 363
-    },
-    {
-      "date": "2026-08-30",
-      "title": "Smartphone LED detects hidden cameras with AI",
-      "summary": "via www.chosun.com",
-      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 194
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Tailcat: Tailscale Without Tailscale, by Tailscale",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/tailcat",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 51
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Understanding ChatGPT Work",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 144
     }
   ]
 }
