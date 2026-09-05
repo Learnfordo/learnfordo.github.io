@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:16:02.370Z",
+  "updatedAt": "2026-09-05T04:07:35.993Z",
   "items": [
     {
       "date": "2026-09-04",
@@ -10,7 +10,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 711
+      "score": 1544
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Can AI design circuit boards yet?",
+      "summary": "via eebench.org",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 188
+    },
+    {
+      "date": "2026-09-04",
+      "title": "GPT-6 Astra on OpenRouter",
+      "summary": "via openrouter.ai",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 149
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "summary": "via github.com",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Government Rails Site Hit Hours After CVE Patch",
+      "summary": "via rietta.com",
+      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
     },
     {
       "date": "2026-09-03",
@@ -416,50 +460,6 @@
       ],
       "source": "HN",
       "score": 1104
-    },
-    {
-      "date": "2026-09-01",
-      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "summary": "via danluu.com",
-      "url": "https://danluu.com/zitron/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 588
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 336
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Atlas: A World Model for Spatial Intelligence",
-      "summary": "via www.worldlabs.ai",
-      "url": "https://www.worldlabs.ai/blog/atlas",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 195
-    },
-    {
-      "date": "2026-09-01",
-      "title": "My local model setup on an M4 Pro Mac Mini",
-      "summary": "via lws.io",
-      "url": "https://lws.io/blog/my-local-model-setup/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 138
     }
   ]
 }
