@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T04:30:37.738Z",
+  "updatedAt": "2026-09-05T06:18:28.600Z",
   "items": [
     {
       "date": "2026-09-04",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1557
+      "score": 1605
     },
     {
       "date": "2026-09-04",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 199
+      "score": 222
     },
     {
       "date": "2026-09-04",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 157
+      "score": 182
     },
     {
       "date": "2026-09-04",
@@ -43,18 +43,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 103
+      "score": 111
     },
     {
       "date": "2026-09-04",
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "summary": "via rietta.com",
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "summary": "via engineering.atspotify.com",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 82
+      "score": 85
     },
     {
       "date": "2026-09-03",
@@ -135,6 +135,17 @@
       "url": "https://arxiv.org/abs/2609.04173v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Government Rails Site Hit Hours After CVE Patch",
+      "summary": "via rietta.com",
+      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 82
     },
     {
       "date": "2026-09-03",
@@ -449,17 +460,6 @@
       "url": "https://arxiv.org/abs/2609.01587v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1104
     }
   ]
 }
