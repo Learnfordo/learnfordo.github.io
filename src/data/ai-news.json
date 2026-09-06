@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-09-06T04:39:33.516Z",
+  "updatedAt": "2026-09-06T06:29:41.212Z",
   "items": [
-    {
-      "date": "2026-09-05",
-      "title": "LLMs as a Cognitive Virus",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 216
-    },
     {
       "date": "2026-09-05",
       "title": "Chrome again exempts Google from user site data settings",
@@ -21,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 186
+      "score": 268
+    },
+    {
+      "date": "2026-09-05",
+      "title": "LLMs as a Cognitive Virus",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 245
     },
     {
       "date": "2026-09-05",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 148
+      "score": 159
     },
     {
       "date": "2026-09-04",
@@ -43,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 2147
+      "score": 2159
     },
     {
       "date": "2026-09-04",
@@ -54,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 395
+      "score": 401
     },
     {
       "date": "2026-09-03",
