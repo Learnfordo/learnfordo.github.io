@@ -22,6 +22,28 @@
     "descriptionCn": "《Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明》— Anthropic 发布的最新研究论文。"
   },
   {
+    "title": "Claude 完成 Fermat 大定理的首个全机器校验形式化证明",
+    "vendor": "X：Kim (@kimmonismus)",
+    "date": "2026-09-04",
+    "arxivId": "cmtnkhh70034droqs3fevneuh",
+    "pdfUrl": "https://arxiv.org/pdf/cmtnkhh70034droqs3fevneuh",
+    "summary": "Anthropic 宣布 Claude 完成费马大定理的首个形式化证明，耗时 11 天，总计超过 1300 万行 Lean 代码，是迄今最大的 Lean 证明。",
+    "permalink": "https://aihot.virxact.com/items/cmtnkhh70034droqs3fevneuh",
+    "tags": [],
+    "descriptionCn": "《Claude 完成 Fermat 大定理的首个全机器校验形式化证明》— X：Kim (@kimmonismus) 发布的最新研究论文。"
+  },
+  {
+    "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
+    "vendor": "Anthropic",
+    "date": "2026-09-04",
+    "arxivId": "cmtnbhhu902perog1dmrla299",
+    "pdfUrl": "https://arxiv.org/pdf/cmtnbhhu902perog1dmrla299",
+    "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
+    "permalink": "https://aihot.virxact.com/items/cmtnbhhu902perog1dmrla299",
+    "tags": [],
+    "descriptionCn": "《Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-03",
@@ -31,6 +53,17 @@
     "permalink": "https://aihot.virxact.com/items/cmtl25m9c0e89roalh6qci0r5",
     "tags": [],
     "descriptionCn": "《METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
+    "title": "Claude 用 11 天完成费马大定理的首个完整机器验证证明",
+    "vendor": "Anthropic",
+    "date": "2026-09-03",
+    "arxivId": "cmtnapudv01zbrog16o6dxgoi",
+    "pdfUrl": "https://arxiv.org/pdf/cmtnapudv01zbrog16o6dxgoi",
+    "summary": "Anthropic 发布首个完整机器验证的费马大定理证明，Claude 在 11 天内基本自主完成，写出 1300 万行 Lean 代码并证明 29，500 个中间定理。",
+    "permalink": "https://aihot.virxact.com/items/cmtnapudv01zbrog16o6dxgoi",
+    "tags": [],
+    "descriptionCn": "《Claude 用 11 天完成费马大定理的首个完整机器验证证明》— Anthropic 发布的最新研究论文。"
   },
   {
     "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
