@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-05T06:18:28.600Z",
+  "updatedAt": "2026-09-06T04:07:43.780Z",
   "items": [
+    {
+      "date": "2026-09-05",
+      "title": "LLMs as a Cognitive Virus",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 209
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Chrome again exempts Google from user site data settings",
+      "summary": "via lapcatsoftware.com",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 160
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "summary": "via sofiabelen.github.io",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 144
+    },
     {
       "date": "2026-09-04",
       "title": "Discovery of a new OpenAI agent message board",
@@ -10,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1605
+      "score": 2142
     },
     {
       "date": "2026-09-04",
@@ -21,40 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 222
-    },
-    {
-      "date": "2026-09-04",
-      "title": "GPT-6 Astra on OpenRouter",
-      "summary": "via openrouter.ai",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "summary": "via github.com",
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 111
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "summary": "via engineering.atspotify.com",
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 85
+      "score": 393
     },
     {
       "date": "2026-09-03",
@@ -135,6 +135,39 @@
       "url": "https://arxiv.org/abs/2609.04173v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "GPT-6 Astra on OpenRouter",
+      "summary": "via openrouter.ai",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "summary": "via github.com",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 111
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "summary": "via engineering.atspotify.com",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
     },
     {
       "date": "2026-09-04",
@@ -434,30 +467,6 @@
       "title": "Mechanism Design for Alignment and Control",
       "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so me",
       "url": "https://arxiv.org/abs/2609.01595v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "StudentSim: Training LLM-based Student Simulators",
-      "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to coll",
-      "url": "https://arxiv.org/abs/2609.01591v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Designing Proactive Thought Partners for Writing",
-      "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, ",
-      "url": "https://arxiv.org/abs/2609.01588v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
-      "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization da",
-      "url": "https://arxiv.org/abs/2609.01587v1",
       "tags": [],
       "source": "arXiv"
     }
