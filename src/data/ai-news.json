@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-09-07T04:31:00.778Z",
+  "updatedAt": "2026-09-07T06:37:34.160Z",
   "items": [
-    {
-      "date": "2026-09-06",
-      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-      "summary": "via bcantrill.dtrace.org",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 594
-    },
     {
       "date": "2026-09-06",
       "title": "Research acceleration: The view inside OpenAI",
@@ -21,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 133
+      "score": 152
     },
     {
       "date": "2026-09-04",
@@ -102,6 +91,17 @@
       "url": "https://arxiv.org/abs/2609.05381v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "summary": "via bcantrill.dtrace.org",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 594
     },
     {
       "date": "2026-09-05",
