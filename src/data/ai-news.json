@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-09-06T06:29:41.212Z",
+  "updatedAt": "2026-09-07T04:31:00.778Z",
   "items": [
+    {
+      "date": "2026-09-06",
+      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "summary": "via bcantrill.dtrace.org",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 594
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
+      "date": "2026-09-04",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: ",
+      "url": "https://arxiv.org/abs/2609.05415v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+      "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longi",
+      "url": "https://arxiv.org/abs/2609.05405v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+      "summary": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences ",
+      "url": "https://arxiv.org/abs/2609.05404v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+      "summary": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserv",
+      "url": "https://arxiv.org/abs/2609.05403v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantical",
+      "url": "https://arxiv.org/abs/2609.05401v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+      "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenge",
+      "url": "https://arxiv.org/abs/2609.05396v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+      "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source mode",
+      "url": "https://arxiv.org/abs/2609.05395v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+      "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a",
+      "url": "https://arxiv.org/abs/2609.05385v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Reflection-aware Generative Novel View Synthesis",
+      "summary": "We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in th",
+      "url": "https://arxiv.org/abs/2609.05382v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+      "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. W",
+      "url": "https://arxiv.org/abs/2609.05381v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-05",
       "title": "Chrome again exempts Google from user site data settings",
@@ -358,117 +460,6 @@
       ],
       "source": "HN",
       "score": 490
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Can I opt out of my input or output data being used for training?",
-      "summary": "via help.mistral.ai",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 480
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Aging brains blend memories together instead of just forgetting them",
-      "summary": "via studyfinds.com",
-      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 251
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Fable 5.1 World Modeling",
-      "summary": "via github.com",
-      "url": "https://github.com/PhiloLabs/fable51-worlds",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 197
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Whistleblower warns Postal Service mail ballot system has catastrophic problems",
-      "summary": "via www.cbsnews.com",
-      "url": "https://www.cbsnews.com/news/whistleblower-postal-service-new-mail-ballot-system/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-09-02",
-      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2608.29530",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 281
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
-      "summary": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remai",
-      "url": "https://arxiv.org/abs/2609.01604v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-      "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation metho",
-      "url": "https://arxiv.org/abs/2609.01603v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-      "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often",
-      "url": "https://arxiv.org/abs/2609.01601v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
-      "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencie",
-      "url": "https://arxiv.org/abs/2609.01600v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The Rise of Verbal Reinforcement Learning",
-      "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and moder",
-      "url": "https://arxiv.org/abs/2609.01597v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
-      "summary": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predi",
-      "url": "https://arxiv.org/abs/2609.01596v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Mechanism Design for Alignment and Control",
-      "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so me",
-      "url": "https://arxiv.org/abs/2609.01595v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
