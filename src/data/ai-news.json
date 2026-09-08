@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-09-07T06:37:34.160Z",
+  "updatedAt": "2026-09-08T04:30:44.324Z",
   "items": [
     {
-      "date": "2026-09-06",
-      "title": "Research acceleration: The view inside OpenAI",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "date": "2026-09-05",
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2607.24888",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 152
+      "score": 177
     },
     {
       "date": "2026-09-04",
@@ -91,6 +91,28 @@
       "url": "https://arxiv.org/abs/2609.05381v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Show HN: Jigsaw Haiku",
+      "summary": "via jigsawhaiku.com",
+      "url": "https://jigsawhaiku.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 72
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 152
     },
     {
       "date": "2026-09-06",
@@ -441,25 +463,6 @@
       "url": "https://arxiv.org/abs/2609.02849v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
-      "summary": "Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \\nv{} recipe addresses this with current-t",
-      "url": "https://arxiv.org/abs/2609.02846v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "summary": "via trellner.com",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 490
     }
   ]
 }
