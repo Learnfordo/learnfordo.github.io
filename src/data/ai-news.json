@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T04:07:44.905Z",
+  "updatedAt": "2026-09-09T04:30:43.289Z",
   "items": [
     {
       "date": "2026-09-09",
@@ -10,7 +10,87 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 152
+      "score": 185
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Curriculum Learning as Transport: Understanding Curricula with Wasserstein Geodesics",
+      "summary": "Curriculum learning is governed by several coupled design choices---how difficulty is defined, how examples are ordered, how much exposure each level receives, and how quickly training moves across le",
+      "url": "https://arxiv.org/abs/2609.09099v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
+      "summary": "Combining search with function approximation has driven major advances in game-playing programs, making self-play algorithms more competitive than ever. Still, the computational overhead of the most p",
+      "url": "https://arxiv.org/abs/2609.09094v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+      "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations an",
+      "url": "https://arxiv.org/abs/2609.09090v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
+      "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of a sequence. These phenomena frequently co-occur, and MAs ca",
+      "url": "https://arxiv.org/abs/2609.09085v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+      "summary": "Open vocabulary 3D semantic segmentation methods typically lift CLIP features into 3D. This embeds points in a joint vision-language space known to behave like a bag-of-words on compositional tasks. F",
+      "url": "https://arxiv.org/abs/2609.09082v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
+      "summary": "Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decisio",
+      "url": "https://arxiv.org/abs/2609.09081v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this ",
+      "url": "https://arxiv.org/abs/2609.09076v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR",
+      "summary": "In reinforcement learning with verifiable rewards (RLVR) trained with group relative policy optimization (GRPO), the KL-free reward-advantage term studied here depends on within-group reward variation",
+      "url": "https://arxiv.org/abs/2609.09075v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback",
+      "summary": "High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm",
+      "url": "https://arxiv.org/abs/2609.09072v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+      "summary": "Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synth",
+      "url": "https://arxiv.org/abs/2609.09070v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-09-08",
@@ -21,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 368
+      "score": 381
     },
     {
       "date": "2026-09-08",
@@ -32,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 350
+      "score": 360
     },
     {
       "date": "2026-09-08",
@@ -43,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 277
+      "score": 285
     },
     {
       "date": "2026-09-08",
@@ -54,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 222
+      "score": 239
     },
     {
       "date": "2026-09-07",
@@ -365,101 +445,6 @@
       "url": "https://arxiv.org/abs/2609.04190v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Robust PAC Learning of Concurrent Stochastic Games",
-      "summary": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash eq",
-      "url": "https://arxiv.org/abs/2609.04189v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
-      "summary": "Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliar",
-      "url": "https://arxiv.org/abs/2609.04183v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
-      "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learnin",
-      "url": "https://arxiv.org/abs/2609.04180v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "A Computationally Feasible Framework for Causal Probabilistic Explanation",
-      "summary": "Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory ",
-      "url": "https://arxiv.org/abs/2609.04177v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Last Translation Benchmark",
-      "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for ",
-      "url": "https://arxiv.org/abs/2609.04173v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "GPT-6 Astra on OpenRouter",
-      "summary": "via openrouter.ai",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "summary": "via github.com",
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 111
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "summary": "via engineering.atspotify.com",
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 85
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "summary": "via rietta.com",
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 82
-    },
-    {
-      "date": "2026-09-03",
-      "title": "GPT-6 Astra",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 2024
     }
   ]
 }
