@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-08T06:31:33.964Z",
+  "updatedAt": "2026-09-09T04:07:44.905Z",
   "items": [
+    {
+      "date": "2026-09-09",
+      "title": "I resigned from Anthropic today",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 152
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Muse – Meta’s personal AI agent",
+      "summary": "via ai.meta.com",
+      "url": "https://ai.meta.com/muse/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 368
+    },
+    {
+      "date": "2026-09-08",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "summary": "via github.com",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 350
+    },
+    {
+      "date": "2026-09-08",
+      "title": "ChatGPT Images 2.5",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 277
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "summary": "via mathstodon.xyz",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 222
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Foundation Models for Generalizable Semantic and Goal-Oriented Communication",
+      "summary": "Semantic and goal-oriented communication is increasingly studied for 6G, but generalization beyond seen data remains a key weakness under tight rate budgets. Many existing systems overfit their traini",
+      "url": "https://arxiv.org/abs/2609.07853v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
+      "summary": "Machine learning has shown its largest gains in the band below 10 ms inside a 3GPP new radio (NR) 5G distributed unit (DU): link adaptation, per-slot scheduling, channel estimation, and the receiver i",
+      "url": "https://arxiv.org/abs/2609.07843v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs",
+      "summary": "Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to ",
+      "url": "https://arxiv.org/abs/2609.07823v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
+      "summary": "Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (LLMs) but incurs substantial computation and context costs. Existing methods either lose intermediate information throug",
+      "url": "https://arxiv.org/abs/2609.07821v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+      "summary": "Linear attention is increasingly used in frontier language models for efficient long-context inference and constant-memory decoding. Its fixed-size recurrent memory, however, requires an online decisi",
+      "url": "https://arxiv.org/abs/2609.07816v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "VoT: Vision-of-Thought for Unified Multimodal Representation Alignment",
+      "summary": "Current text-to-image systems typically employ a \"text encoder plus diffusion decoder\" paradigm, in which text semantics directly modulate continuous latent noise. Despite their success, these methods",
+      "url": "https://arxiv.org/abs/2609.07815v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Latent-MoE: Domain-Aware Mixture-of-Experts for PDEs with Multi-Regime Physics",
+      "summary": "Physics-informed neural networks (PINNs) struggle on PDEs whose governing physics varies across the domain. We trace this to a structural property of standard coordinate networks: their neural tangent",
+      "url": "https://arxiv.org/abs/2609.07814v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "You Can't Prefer Emotions You Don't Sample: Intensity Undershoot in DPO-Tuned LLMs",
+      "summary": "Ask a language model to respond \"very excitedly,\" and its output is typically only mildly more energetic. We quantify this effect. We condition an instruction-tuned LLM on a continuous Valence-Arousal",
+      "url": "https://arxiv.org/abs/2609.07808v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Understanding the Impact of Model Pruning on Long-Tail Forgetting and Explanation Reliability in Medical Imaging",
+      "summary": "Model pruning is widely used to compress deep neural networks, reducing memory and computational requirements with minimal impact on aggregate performance. However, its effect on model behavior remain",
+      "url": "https://arxiv.org/abs/2609.07803v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Climate-ModernBERT: Revisiting Corpus Composition for Domain-Adaptive Continued Pretraining",
+      "summary": "Natural Language Processing (NLP) in the climate domain requires models to process heterogeneous text sources, including scientific literature, policy disclosures, and synthetic reports. However, how ",
+      "url": "https://arxiv.org/abs/2609.07798v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-08",
       "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
@@ -325,147 +460,6 @@
       ],
       "source": "HN",
       "score": 2024
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-      "summary": "via inference-docs.cerebras.ai",
-      "url": "https://inference-docs.cerebras.ai/models/overview",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 643
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
-      "summary": "via www.kedglobal.com",
-      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 423
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The largest electric aircraft just flew [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 417
-    },
-    {
-      "date": "2026-09-03",
-      "title": "K2 Horizon: A connected fleet of six open models",
-      "summary": "via ifm.ai",
-      "url": "https://ifm.ai/blog/k2/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 287
-    },
-    {
-      "date": "2026-09-01",
-      "title": "The browser's main thread is expensive",
-      "summary": "via kciter.so",
-      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 390
-    },
-    {
-      "date": "2026-09-03",
-      "title": "ChatGPT Is Throwing 404",
-      "summary": "via chatgpt.com",
-      "url": "https://chatgpt.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 322
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Elevated Errors for Multiple Models",
-      "summary": "via status.claude.com",
-      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-09-02",
-      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-      "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natu",
-      "url": "https://arxiv.org/abs/2609.02887v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Discriminative World Models for Web Agents",
-      "summary": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PR",
-      "url": "https://arxiv.org/abs/2609.02885v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Graph Machine: Towards Better Pretraining via Edges",
-      "summary": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static ro",
-      "url": "https://arxiv.org/abs/2609.02881v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
-      "summary": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajec",
-      "url": "https://arxiv.org/abs/2609.02876v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
-      "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents",
-      "url": "https://arxiv.org/abs/2609.02861v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
-      "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy an",
-      "url": "https://arxiv.org/abs/2609.02859v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Improved Gradient Descent Lower Bounds Beyond Nesterov",
-      "summary": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^{-2})$ first-order oracle lower bound of Nemirovsky ",
-      "url": "https://arxiv.org/abs/2609.02855v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "The Implications of Linguistic Illegibility for LLM Security",
-      "summary": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an u",
-      "url": "https://arxiv.org/abs/2609.02852v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
