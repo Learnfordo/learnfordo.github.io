@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-09T06:41:27.784Z",
+  "updatedAt": "2026-09-10T04:07:41.737Z",
   "items": [
+    {
+      "date": "2026-09-09",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of im",
+      "url": "https://arxiv.org/abs/2609.10539v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
+      "summary": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sa",
+      "url": "https://arxiv.org/abs/2609.10534v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "A positive resolution of the gap-entropy conjecture",
+      "summary": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, ",
+      "url": "https://arxiv.org/abs/2609.10529v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
+      "summary": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language. We characterize this task for arbitrary families over a cou",
+      "url": "https://arxiv.org/abs/2609.10525v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harn",
+      "url": "https://arxiv.org/abs/2609.10522v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements",
+      "summary": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknow",
+      "url": "https://arxiv.org/abs/2609.10514v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Quantum Feature Engineering for Credit Default Prediction: When and Why IQP Circuits Help Linear Classifiers",
+      "summary": "Credit default prediction is a tabular classification problem in which modest gains in F1 translate directly into reduced financial exposure. We ask whether Instantaneous Quantum Polynomial-time (IQP)",
+      "url": "https://arxiv.org/abs/2609.10505v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation",
+      "summary": "In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free fr",
+      "url": "https://arxiv.org/abs/2609.10495v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
+      "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model ",
+      "url": "https://arxiv.org/abs/2609.10494v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
+      "summary": "This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covarianc",
+      "url": "https://arxiv.org/abs/2609.10490v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Claude, change the “Add to Cart” button to blue",
+      "summary": "via opusfived.dev",
+      "url": "https://opusfived.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1057
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Shopify acquires Tailwind",
+      "summary": "via tailwindcss.com",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 932
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "summary": "via desertant.com",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 414
+    },
+    {
+      "date": "2026-09-09",
+      "title": "AirPods 5",
+      "summary": "via www.apple.com",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 401
+    },
+    {
+      "date": "2026-09-09",
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "summary": "via magazine.sebastianraschka.com",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 370
+    },
     {
       "date": "2026-09-09",
       "title": "I resigned from Anthropic today",
@@ -295,141 +430,6 @@
       "url": "https://arxiv.org/abs/2609.07798v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "summary": "via mistral.ai",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 82
-    },
-    {
-      "date": "2026-09-05",
-      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2607.24888",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 190
-    },
-    {
-      "date": "2026-09-04",
-      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
-      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: ",
-      "url": "https://arxiv.org/abs/2609.05415v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
-      "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longi",
-      "url": "https://arxiv.org/abs/2609.05405v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
-      "summary": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences ",
-      "url": "https://arxiv.org/abs/2609.05404v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
-      "summary": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserv",
-      "url": "https://arxiv.org/abs/2609.05403v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
-      "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantical",
-      "url": "https://arxiv.org/abs/2609.05401v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
-      "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenge",
-      "url": "https://arxiv.org/abs/2609.05396v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
-      "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source mode",
-      "url": "https://arxiv.org/abs/2609.05395v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
-      "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a",
-      "url": "https://arxiv.org/abs/2609.05385v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Reflection-aware Generative Novel View Synthesis",
-      "summary": "We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in th",
-      "url": "https://arxiv.org/abs/2609.05382v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
-      "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. W",
-      "url": "https://arxiv.org/abs/2609.05381v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Show HN: Jigsaw Haiku",
-      "summary": "via jigsawhaiku.com",
-      "url": "https://jigsawhaiku.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Research acceleration: The view inside OpenAI",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 152
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-      "summary": "via bcantrill.dtrace.org",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 594
     }
   ]
 }
