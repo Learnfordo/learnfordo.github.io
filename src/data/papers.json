@@ -44,6 +44,28 @@
     "descriptionCn": "《Dwarkesh Patel 研究：预训练进步主要来自数据改进》— Dwarkesh Patel：Podcast & Blog（RSS） 发布的最新研究论文。"
   },
   {
+    "title": "OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明",
+    "vendor": "X：Emad Mostaque (@EMostaque)",
+    "date": "2026-09-08",
+    "arxivId": "cmtt5xmpl029krocpiv1aq1je",
+    "pdfUrl": "https://arxiv.org/pdf/cmtt5xmpl029krocpiv1aq1je",
+    "summary": "OpenAI 宣布给出 Navier-Stokes 千禧年大奖难题的一个解，证明由一组智能体使用比 GPT-6 Astra 能力强得多的 OpenAI 下一代模型产出。该问题关乎 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，约 90 年未解；论文截图显示其构造了对每个正粘性从静止出发、在有限时间内发展出无界速度且动能有界的解，建立了 Fefferman 表述中的备选情形 （C） 与 （D）。",
+    "permalink": "https://aihot.news/items/cmtt5xmpl029krocpiv1aq1je",
+    "tags": [],
+    "descriptionCn": "《OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明》— X：Emad Mostaque (@EMostaque) 发布的最新研究论文。"
+  },
+  {
+    "title": "OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解",
+    "vendor": "X：Eric Mitchell (@ericmitchellai)",
+    "date": "2026-09-08",
+    "arxivId": "cmtsz20uq02c7ro5wspf2ah93",
+    "pdfUrl": "https://arxiv.org/pdf/cmtsz20uq02c7ro5wspf2ah93",
+    "summary": "OpenAI 宣布给出数学前沿难题之一的 Navier-Stokes 千禧年大奖难题的解，该证明由一组智能体使用一个能力显著强于 GPT-6 Astra 的 OpenAI 新一代模型产出。该问题关注 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，已悬置约 90 年。",
+    "permalink": "https://aihot.news/items/cmtsz20uq02c7ro5wspf2ah93",
+    "tags": [],
+    "descriptionCn": "《OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解》— X：Eric Mitchell (@ericmitchellai) 发布的最新研究论文。"
+  },
+  {
     "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-04",
