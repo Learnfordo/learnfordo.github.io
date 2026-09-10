@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T04:07:41.737Z",
+  "updatedAt": "2026-09-10T06:37:58.907Z",
   "items": [
     {
       "date": "2026-09-09",
@@ -83,17 +83,6 @@
     },
     {
       "date": "2026-09-09",
-      "title": "Claude, change the “Add to Cart” button to blue",
-      "summary": "via opusfived.dev",
-      "url": "https://opusfived.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1057
-    },
-    {
-      "date": "2026-09-09",
       "title": "Shopify acquires Tailwind",
       "summary": "via tailwindcss.com",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
@@ -101,18 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 932
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Desert Ant Labs: local, fast models that run on device",
-      "summary": "via desertant.com",
-      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 414
+      "score": 984
     },
     {
       "date": "2026-09-09",
@@ -123,7 +101,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 401
+      "score": 435
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "summary": "via desertant.com",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 429
     },
     {
       "date": "2026-09-09",
@@ -134,7 +123,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 370
+      "score": 391
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "summary": "via gist.github.com",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 201
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Claude, change the “Add to Cart” button to blue",
+      "summary": "via opusfived.dev",
+      "url": "https://opusfived.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1057
     },
     {
       "date": "2026-09-09",
@@ -420,14 +431,6 @@
       "title": "Understanding the Impact of Model Pruning on Long-Tail Forgetting and Explanation Reliability in Medical Imaging",
       "summary": "Model pruning is widely used to compress deep neural networks, reducing memory and computational requirements with minimal impact on aggregate performance. However, its effect on model behavior remain",
       "url": "https://arxiv.org/abs/2609.07803v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Climate-ModernBERT: Revisiting Corpus Composition for Domain-Adaptive Continued Pretraining",
-      "summary": "Natural Language Processing (NLP) in the climate domain requires models to process heterogeneous text sources, including scientific literature, policy disclosures, and synthetic reports. However, how ",
-      "url": "https://arxiv.org/abs/2609.07798v1",
       "tags": [],
       "source": "arXiv"
     }
