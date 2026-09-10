@@ -1,5 +1,16 @@
 [
   {
+    "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+    "vendor": "Anthropic",
+    "date": "2026-09-09",
+    "arxivId": "cmtuhr1gr1dmxrofp90rc4c6u",
+    "pdfUrl": "https://arxiv.org/pdf/cmtuhr1gr1dmxrofp90rc4c6u",
+    "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
+    "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+    "tags": [],
+    "descriptionCn": "《Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
     "vendor": "OpenAI",
     "date": "2026-09-08",
