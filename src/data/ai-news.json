@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-10T06:37:58.907Z",
+  "updatedAt": "2026-09-10T14:58:31.485Z",
   "items": [
+    {
+      "date": "2026-09-10",
+      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "summary": "I&#x27;ve reset this more than once and the last time I made a careful note of when I did it and to my surprise I found it re-enabled when I checked j",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 183
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+      "summary": "via bsky.app",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 166
+    },
     {
       "date": "2026-09-09",
       "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
@@ -90,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 984
+      "score": 1097
     },
     {
       "date": "2026-09-09",
@@ -101,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 435
+      "score": 493
+    },
+    {
+      "date": "2026-09-09",
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "summary": "via magazine.sebastianraschka.com",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 482
     },
     {
       "date": "2026-09-09",
@@ -113,17 +146,6 @@
       ],
       "source": "HN",
       "score": 429
-    },
-    {
-      "date": "2026-09-09",
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "summary": "via magazine.sebastianraschka.com",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 391
     },
     {
       "date": "2026-09-09",
@@ -415,22 +437,6 @@
       "title": "Latent-MoE: Domain-Aware Mixture-of-Experts for PDEs with Multi-Regime Physics",
       "summary": "Physics-informed neural networks (PINNs) struggle on PDEs whose governing physics varies across the domain. We trace this to a structural property of standard coordinate networks: their neural tangent",
       "url": "https://arxiv.org/abs/2609.07814v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "You Can't Prefer Emotions You Don't Sample: Intensity Undershoot in DPO-Tuned LLMs",
-      "summary": "Ask a language model to respond \"very excitedly,\" and its output is typically only mildly more energetic. We quantify this effect. We condition an instruction-tuned LLM on a continuous Valence-Arousal",
-      "url": "https://arxiv.org/abs/2609.07808v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Understanding the Impact of Model Pruning on Long-Tail Forgetting and Explanation Reliability in Medical Imaging",
-      "summary": "Model pruning is widely used to compress deep neural networks, reducing memory and computational requirements with minimal impact on aggregate performance. However, its effect on model behavior remain",
-      "url": "https://arxiv.org/abs/2609.07803v1",
       "tags": [],
       "source": "arXiv"
     }
