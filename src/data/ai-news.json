@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T14:58:31.485Z",
+  "updatedAt": "2026-09-10T16:16:39.513Z",
   "items": [
     {
       "date": "2026-09-10",
@@ -10,18 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 183
+      "score": 339
     },
     {
       "date": "2026-09-10",
-      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-      "summary": "via bsky.app",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "title": "Amazon pilots ad services in ChatGPT",
+      "summary": "via www.marketingdive.com",
+      "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 166
+      "score": 79
     },
     {
       "date": "2026-09-09",
@@ -102,6 +102,17 @@
       "url": "https://arxiv.org/abs/2609.10490v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+      "summary": "via bsky.app",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 166
     },
     {
       "date": "2026-09-09",
@@ -429,14 +440,6 @@
       "title": "VoT: Vision-of-Thought for Unified Multimodal Representation Alignment",
       "summary": "Current text-to-image systems typically employ a \"text encoder plus diffusion decoder\" paradigm, in which text semantics directly modulate continuous latent noise. Despite their success, these methods",
       "url": "https://arxiv.org/abs/2609.07815v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Latent-MoE: Domain-Aware Mixture-of-Experts for PDEs with Multi-Regime Physics",
-      "summary": "Physics-informed neural networks (PINNs) struggle on PDEs whose governing physics varies across the domain. We trace this to a structural property of standard coordinate networks: their neural tangent",
-      "url": "https://arxiv.org/abs/2609.07814v1",
       "tags": [],
       "source": "arXiv"
     }
