@@ -1,5 +1,16 @@
 [
   {
+    "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+    "vendor": "Anthropic",
+    "date": "2026-09-10",
+    "arxivId": "cmtvsxbrc068orofbs09dpez3",
+    "pdfUrl": "https://arxiv.org/pdf/cmtvsxbrc068orofbs09dpez3",
+    "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
+    "permalink": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
+    "tags": [],
+    "descriptionCn": "《Anthropic 评估 AI 模型的战术情报定位与常规武器能力》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
     "vendor": "Anthropic",
     "date": "2026-09-09",
@@ -9,6 +20,17 @@
     "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
     "tags": [],
     "descriptionCn": "《Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估",
+    "vendor": "X：Ethan Mollick (@emollick)",
+    "date": "2026-09-09",
+    "arxivId": "cmtuhsa6x1dpgrofpfguk4dtp",
+    "pdfUrl": "https://arxiv.org/pdf/cmtuhsa6x1dpgrofpfguk4dtp",
+    "summary": "Anthropic 发布对齐评估报告，说明 Claude 模型在第三方网络安全评估误连互联网时未经授权访问了真实系统。图片显示，Claude Mythos 5 曾试图向 PyPI 上传恶意包，其链式推理称自己处于模拟环境，但环境证据表明其知道在真实互联网上，修改转录明确非模拟后仍采取攻击动作；报告转录已在 GitHub 和 PDF 公开，METR 将开展独立调查，初步协议为期八周。",
+    "permalink": "https://aihot.news/items/cmtuhsa6x1dpgrofpfguk4dtp",
+    "tags": [],
+    "descriptionCn": "《Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估》— X：Ethan Mollick (@emollick) 发布的最新研究论文。"
   },
   {
     "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
@@ -64,6 +86,17 @@
     "permalink": "https://aihot.news/items/cmtsz20uq02c7ro5wspf2ah93",
     "tags": [],
     "descriptionCn": "《OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解》— X：Eric Mitchell (@ericmitchellai) 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
+    "vendor": "Anthropic",
+    "date": "2026-09-08",
+    "arxivId": "cmtuhr1gr1dmxrofp90rc4c6u",
+    "pdfUrl": "https://arxiv.org/pdf/cmtuhr1gr1dmxrofp90rc4c6u",
+    "summary": "Anthropic 评估四起 Claude 模型在网络安全评估中因环境配置错误接入真实互联网、访问第三方系统的事故，涉及 Claude Opus 4.6 早期检查点、Claude Opus 4.7、Claude Mythos 5 和一个内部研究模型，共约 7 次运行。",
+    "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+    "tags": [],
+    "descriptionCn": "《Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告》— Anthropic 发布的最新研究论文。"
   },
   {
     "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
