@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-10T16:16:39.513Z",
+  "updatedAt": "2026-09-11T04:08:38.059Z",
   "items": [
+    {
+      "date": "2026-09-10",
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "summary": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in mil",
+      "url": "https://arxiv.org/abs/2609.11923v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "General Quantification of Covariate and Concept Shifts",
+      "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from sampl",
+      "url": "https://arxiv.org/abs/2609.11918v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "summary": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but",
+      "url": "https://arxiv.org/abs/2609.11917v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+      "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relev",
+      "url": "https://arxiv.org/abs/2609.11916v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+      "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative",
+      "url": "https://arxiv.org/abs/2609.11915v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Distance generalization in transformers: why bother with positional encoding?",
+      "summary": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which pro",
+      "url": "https://arxiv.org/abs/2609.11913v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "summary": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current ",
+      "url": "https://arxiv.org/abs/2609.11911v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
+      "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deplo",
+      "url": "https://arxiv.org/abs/2609.11910v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
+      "summary": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often ",
+      "url": "https://arxiv.org/abs/2609.11904v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+      "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science iden",
+      "url": "https://arxiv.org/abs/2609.11900v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "summary": "via mathstodon.xyz",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 739
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "summary": "via cognition.com",
+      "url": "https://cognition.com/blog/swe-2",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 367
+    },
+    {
+      "date": "2026-09-10",
+      "title": "OpenAI Agents API",
+      "summary": "via developers.openai.com",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 177
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "summary": "via system76.com",
+      "url": "https://system76.com/workstations/thelio-mira-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
     {
       "date": "2026-09-10",
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
@@ -320,126 +455,6 @@
       "title": "Curriculum Learning as Transport: Understanding Curricula with Wasserstein Geodesics",
       "summary": "Curriculum learning is governed by several coupled design choices---how difficulty is defined, how examples are ordered, how much exposure each level receives, and how quickly training moves across le",
       "url": "https://arxiv.org/abs/2609.09099v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
-      "summary": "Combining search with function approximation has driven major advances in game-playing programs, making self-play algorithms more competitive than ever. Still, the computational overhead of the most p",
-      "url": "https://arxiv.org/abs/2609.09094v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
-      "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations an",
-      "url": "https://arxiv.org/abs/2609.09090v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
-      "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of a sequence. These phenomena frequently co-occur, and MAs ca",
-      "url": "https://arxiv.org/abs/2609.09085v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
-      "summary": "Open vocabulary 3D semantic segmentation methods typically lift CLIP features into 3D. This embeds points in a joint vision-language space known to behave like a bag-of-words on compositional tasks. F",
-      "url": "https://arxiv.org/abs/2609.09082v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
-      "summary": "Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decisio",
-      "url": "https://arxiv.org/abs/2609.09081v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-      "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this ",
-      "url": "https://arxiv.org/abs/2609.09076v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR",
-      "summary": "In reinforcement learning with verifiable rewards (RLVR) trained with group relative policy optimization (GRPO), the KL-free reward-advantage term studied here depends on within-group reward variation",
-      "url": "https://arxiv.org/abs/2609.09075v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback",
-      "summary": "High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm",
-      "url": "https://arxiv.org/abs/2609.09072v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
-      "summary": "Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synth",
-      "url": "https://arxiv.org/abs/2609.09070v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Foundation Models for Generalizable Semantic and Goal-Oriented Communication",
-      "summary": "Semantic and goal-oriented communication is increasingly studied for 6G, but generalization beyond seen data remains a key weakness under tight rate budgets. Many existing systems overfit their traini",
-      "url": "https://arxiv.org/abs/2609.07853v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
-      "summary": "Machine learning has shown its largest gains in the band below 10 ms inside a 3GPP new radio (NR) 5G distributed unit (DU): link adaptation, per-slot scheduling, channel estimation, and the receiver i",
-      "url": "https://arxiv.org/abs/2609.07843v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs",
-      "summary": "Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to ",
-      "url": "https://arxiv.org/abs/2609.07823v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
-      "summary": "Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (LLMs) but incurs substantial computation and context costs. Existing methods either lose intermediate information throug",
-      "url": "https://arxiv.org/abs/2609.07821v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
-      "summary": "Linear attention is increasingly used in frontier language models for efficient long-context inference and constant-memory decoding. Its fixed-size recurrent memory, however, requires an online decisi",
-      "url": "https://arxiv.org/abs/2609.07816v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "VoT: Vision-of-Thought for Unified Multimodal Representation Alignment",
-      "summary": "Current text-to-image systems typically employ a \"text encoder plus diffusion decoder\" paradigm, in which text semantics directly modulate continuous latent noise. Despite their success, these methods",
-      "url": "https://arxiv.org/abs/2609.07815v1",
       "tags": [],
       "source": "arXiv"
     }
