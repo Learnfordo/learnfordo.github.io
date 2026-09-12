@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-11T06:37:35.635Z",
+  "updatedAt": "2026-09-12T06:30:28.144Z",
   "items": [
+    {
+      "date": "2026-09-11",
+      "title": "A misalignment of AI in mathematics",
+      "summary": "via mathandai.org",
+      "url": "https://mathandai.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 814
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Claude is only available to people over 18 years",
+      "summary": "via support.claude.com",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 619
+    },
+    {
+      "date": "2026-09-11",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "summary": "via www.rubyhack.ai",
+      "url": "https://www.rubyhack.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 577
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "summary": "via github.com",
+      "url": "https://github.com/kennethwolters/litelm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
+    },
     {
       "date": "2026-09-10",
       "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
@@ -80,6 +124,17 @@
       "url": "https://arxiv.org/abs/2609.11900v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "A Design Space Exploration of Async/Await",
+      "summary": "via cel.cs.brown.edu",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 228
     },
     {
       "date": "2026-09-10",
@@ -403,58 +458,6 @@
       "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
       "summary": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation ",
       "url": "https://arxiv.org/abs/2609.09135v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Muse – Meta’s personal AI agent",
-      "summary": "via ai.meta.com",
-      "url": "https://ai.meta.com/muse/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 461
-    },
-    {
-      "date": "2026-09-08",
-      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-      "summary": "via github.com",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 401
-    },
-    {
-      "date": "2026-09-08",
-      "title": "ChatGPT Images 2.5",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 318
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Tao: Open math problems being non-renewably mined by AI",
-      "summary": "via mathstodon.xyz",
-      "url": "https://mathstodon.xyz/@tao/117237320796901560",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 308
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Curriculum Learning as Transport: Understanding Curricula with Wasserstein Geodesics",
-      "summary": "Curriculum learning is governed by several coupled design choices---how difficulty is defined, how examples are ordered, how much exposure each level receives, and how quickly training moves across le",
-      "url": "https://arxiv.org/abs/2609.09099v1",
       "tags": [],
       "source": "arXiv"
     }
