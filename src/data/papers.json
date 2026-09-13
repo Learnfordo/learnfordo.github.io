@@ -1,5 +1,27 @@
 [
   {
+    "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-09-12",
+    "arxivId": "cmtxnd7fw06wcroi31psxg2c6",
+    "pdfUrl": "https://arxiv.org/pdf/cmtxnd7fw06wcroi31psxg2c6",
+    "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+    "permalink": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
+    "tags": [],
+    "descriptionCn": "《OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+    "vendor": "The Decoder：AI News（RSS）",
+    "date": "2026-09-11",
+    "arxivId": "cmtx0v3dg030mroedwvkdfyvw",
+    "pdfUrl": "https://arxiv.org/pdf/cmtx0v3dg030mroedwvkdfyvw",
+    "summary": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
+    "permalink": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
+    "tags": [],
+    "descriptionCn": "《Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据》— The Decoder：AI News（RSS） 发布的最新研究论文。"
+  },
+  {
     "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
     "vendor": "Anthropic",
     "date": "2026-09-10",
@@ -31,6 +53,17 @@
     "permalink": "https://aihot.news/items/cmtuhsa6x1dpgrofpfguk4dtp",
     "tags": [],
     "descriptionCn": "《Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估》— X：Ethan Mollick (@emollick) 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 红队评测 AI 模型的战术情报定位与常规武器开发能力",
+    "vendor": "Anthropic",
+    "date": "2026-09-09",
+    "arxivId": "cmtvsxbrc068orofbs09dpez3",
+    "pdfUrl": "https://arxiv.org/pdf/cmtvsxbrc068orofbs09dpez3",
+    "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账号关联、照片与文本地理定位）和常规武器开发（无人机末制导、投放、GPS 拒止导航）上的能力，发现模型在模拟任务上持续进步，部分任务接近或超过人类专家基线。",
+    "permalink": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
+    "tags": [],
+    "descriptionCn": "《Anthropic 红队评测 AI 模型的战术情报定位与常规武器开发能力》— Anthropic 发布的最新研究论文。"
   },
   {
     "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
@@ -97,6 +130,28 @@
     "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
     "tags": [],
     "descriptionCn": "《Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Cognition 团队用 Devin 完成 RSA-260 分解，刷新公开 RSA 挑战纪录",
+    "vendor": "Cognition 模型 / Devin 博客（网页）",
+    "date": "2026-09-08",
+    "arxivId": "cmtym40hx0005roskspizl2a2",
+    "pdfUrl": "https://arxiv.org/pdf/cmtym40hx0005roskspizl2a2",
+    "summary": "Cognition 研究团队驱动多个 Devin 智能体构建 GPU 格子筛，用约 4，900 GPU 天（约 40 万美元）完成 260 位 RSA-260 分解，创下公开 RSA 分解挑战新纪录，超越 2020 年 2 月的 RSA-250。",
+    "permalink": "https://aihot.news/items/cmtym40hx0005roskspizl2a2",
+    "tags": [],
+    "descriptionCn": "《Cognition 团队用 Devin 完成 RSA-260 分解，刷新公开 RSA 挑战纪录》— Cognition 模型 / Devin 博客（网页） 发布的最新研究论文。"
+  },
+  {
+    "title": "Epoch AI 实测 GPT-5.6 与 Claude 5 长上下文延迟缩放差异",
+    "vendor": "Epoch AI：研究、数据与评测",
+    "date": "2026-09-08",
+    "arxivId": "cmtym46co0003robxz9gapbnc",
+    "pdfUrl": "https://arxiv.org/pdf/cmtym46co0003robxz9gapbnc",
+    "summary": "Epoch AI 测量四款模型的首 token 延迟（TTFT）随上下文长度的缩放，发现 GPT-5.6 Terra 和 Sol 呈明显二次曲线，Claude Sonnet 5 接近线性，Opus 5 噪声较大但仍接近线性。",
+    "permalink": "https://aihot.news/items/cmtym46co0003robxz9gapbnc",
+    "tags": [],
+    "descriptionCn": "《Epoch AI 实测 GPT-5.6 与 Claude 5 长上下文延迟缩放差异》— Epoch AI：研究、数据与评测 发布的最新研究论文。"
   },
   {
     "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
