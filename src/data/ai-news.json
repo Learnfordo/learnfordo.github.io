@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T06:45:43.530Z",
+  "updatedAt": "2026-09-13T14:52:55.789Z",
   "items": [
     {
       "date": "2026-09-13",
@@ -10,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 354
+      "score": 630
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "summary": "via yoshuabengio.org",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 400
     },
     {
       "date": "2026-09-12",
@@ -21,7 +32,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 447
+      "score": 522
+    },
+    {
+      "date": "2026-09-10",
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 581
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "summary": "via eiln.github.io",
+      "url": "https://eiln.github.io/posts/ane-dma.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 188
     },
     {
       "date": "2026-09-12",
@@ -113,28 +146,6 @@
       "url": "https://arxiv.org/abs/2609.11900v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
-      "summary": "via www.tomshardware.com",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 491
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
-      "summary": "via eiln.github.io",
-      "url": "https://eiln.github.io/posts/ane-dma.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 123
     },
     {
       "date": "2026-09-11",
@@ -465,14 +476,6 @@
       "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
       "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating ",
       "url": "https://arxiv.org/abs/2609.09153v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
-      "summary": "We study how far gradient descent (GD) can be accelerated by predetermined nonnegative stepsizes in smooth convex optimization. Writing $p_{\\mathrm{sil}}=\\log_2(1+\\sqrt{2})$, we prove an $Ω\\left(n^{-p",
-      "url": "https://arxiv.org/abs/2609.09152v1",
       "tags": [],
       "source": "arXiv"
     }
