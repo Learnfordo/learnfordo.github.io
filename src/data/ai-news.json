@@ -1,49 +1,38 @@
 {
-  "updatedAt": "2026-09-12T06:30:28.144Z",
+  "updatedAt": "2026-09-13T06:45:43.530Z",
   "items": [
     {
-      "date": "2026-09-11",
-      "title": "A misalignment of AI in mathematics",
-      "summary": "via mathandai.org",
-      "url": "https://mathandai.org/",
+      "date": "2026-09-13",
+      "title": "Everyone should slow down AI development except for me",
+      "summary": "via xeiaso.net",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 814
+      "score": 354
     },
     {
-      "date": "2026-09-11",
-      "title": "Claude is only available to people over 18 years",
-      "summary": "via support.claude.com",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "date": "2026-09-12",
+      "title": "Nvidia is the central bank of AI",
+      "summary": "via www.economist.com",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 619
+      "score": 447
     },
     {
-      "date": "2026-09-11",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "summary": "via www.rubyhack.ai",
-      "url": "https://www.rubyhack.ai/",
+      "date": "2026-09-12",
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "summary": "via withspecific.com",
+      "url": "https://withspecific.com/benchmarks/real-swe",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 577
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Litelm: LiteLLM Without the Bloat",
-      "summary": "via github.com",
-      "url": "https://github.com/kennethwolters/litelm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
+      "score": 207
     },
     {
       "date": "2026-09-10",
@@ -124,6 +113,72 @@
       "url": "https://arxiv.org/abs/2609.11900v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "summary": "via www.tomshardware.com",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 491
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "summary": "via eiln.github.io",
+      "url": "https://eiln.github.io/posts/ane-dma.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 123
+    },
+    {
+      "date": "2026-09-11",
+      "title": "A misalignment of AI in mathematics",
+      "summary": "via mathandai.org",
+      "url": "https://mathandai.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 814
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Claude is only available to people over 18 years",
+      "summary": "via support.claude.com",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 619
+    },
+    {
+      "date": "2026-09-11",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "summary": "via www.rubyhack.ai",
+      "url": "https://www.rubyhack.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 577
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "summary": "via github.com",
+      "url": "https://github.com/kennethwolters/litelm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
     },
     {
       "date": "2026-09-09",
@@ -418,46 +473,6 @@
       "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
       "summary": "We study how far gradient descent (GD) can be accelerated by predetermined nonnegative stepsizes in smooth convex optimization. Writing $p_{\\mathrm{sil}}=\\log_2(1+\\sqrt{2})$, we prove an $Ω\\left(n^{-p",
       "url": "https://arxiv.org/abs/2609.09152v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Copying explains the collective behavior of AI agents in the wild",
-      "summary": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for abo",
-      "url": "https://arxiv.org/abs/2609.09150v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
-      "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not ",
-      "url": "https://arxiv.org/abs/2609.09143v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
-      "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories rem",
-      "url": "https://arxiv.org/abs/2609.09140v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
-      "summary": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected infor",
-      "url": "https://arxiv.org/abs/2609.09137v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
-      "summary": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation ",
-      "url": "https://arxiv.org/abs/2609.09135v1",
       "tags": [],
       "source": "arXiv"
     }
