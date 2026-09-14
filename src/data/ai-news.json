@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-13T14:52:55.789Z",
+  "updatedAt": "2026-09-14T04:30:59.898Z",
   "items": [
+    {
+      "date": "2026-09-14",
+      "title": "Open-Source AI and Open Models Reading List",
+      "summary": "via www.interconnects.ai",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 51
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "summary": "via aprilnea.me",
+      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
     {
       "date": "2026-09-13",
       "title": "Everyone should slow down AI development except for me",
@@ -460,22 +482,6 @@
       "title": "Learning Length-Extrapolatable Recurrent Models",
       "summary": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gra",
       "url": "https://arxiv.org/abs/2609.09157v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "summary": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is incr",
-      "url": "https://arxiv.org/abs/2609.09156v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating ",
-      "url": "https://arxiv.org/abs/2609.09153v1",
       "tags": [],
       "source": "arXiv"
     }
