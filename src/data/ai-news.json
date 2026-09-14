@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-09-14T04:30:59.898Z",
+  "updatedAt": "2026-09-14T07:05:31.637Z",
   "items": [
     {
       "date": "2026-09-14",
-      "title": "Open-Source AI and Open Models Reading List",
+      "title": "The case against JPEG XL",
+      "summary": "via giannirosato.com",
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 108
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Open-source AI and open models reading list",
       "summary": "via www.interconnects.ai",
       "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 51
+      "score": 89
     },
     {
       "date": "2026-09-11",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 67
+      "score": 77
     },
     {
       "date": "2026-09-13",
@@ -474,14 +485,6 @@
       "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
       "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered",
       "url": "https://arxiv.org/abs/2609.09158v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Learning Length-Extrapolatable Recurrent Models",
-      "summary": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gra",
-      "url": "https://arxiv.org/abs/2609.09157v1",
       "tags": [],
       "source": "arXiv"
     }
