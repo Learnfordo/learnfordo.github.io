@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:07:56.885Z",
+  "updatedAt": "2026-09-15T04:31:45.311Z",
   "items": [
     {
       "date": "2026-09-15",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 71
+      "score": 87
     },
     {
       "date": "2026-09-14",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 399
+      "score": 407
     },
     {
       "date": "2026-09-14",
@@ -32,18 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 319
-    },
-    {
-      "date": "2026-09-14",
-      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
-      "summary": "via entelligence.ai",
-      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 129
+      "score": 326
     },
     {
       "date": "2026-09-14",
@@ -55,6 +44,28 @@
       ],
       "source": "HN",
       "score": 112
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "summary": "via nathannaveen.dev",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
+    {
+      "date": "2026-09-14",
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "summary": "via entelligence.ai",
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 129
     },
     {
       "date": "2026-09-14",
@@ -479,17 +490,6 @@
       ],
       "source": "HN",
       "score": 493
-    },
-    {
-      "date": "2026-09-09",
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "summary": "via magazine.sebastianraschka.com",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 482
     }
   ]
 }
