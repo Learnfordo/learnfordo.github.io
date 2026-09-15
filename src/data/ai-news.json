@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-09-14T07:05:31.637Z",
+  "updatedAt": "2026-09-15T04:07:56.885Z",
   "items": [
+    {
+      "date": "2026-09-15",
+      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "summary": "via www.theregister.com",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 71
+    },
+    {
+      "date": "2026-09-14",
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "summary": "via tenderlovemaking.com",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 399
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Pion, an agent designed to run any company autonomously",
+      "summary": "via andonlabs.com",
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 319
+    },
+    {
+      "date": "2026-09-14",
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "summary": "via entelligence.ai",
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 129
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Why don't machine learning research agents overfit?",
+      "summary": "via www.amazon.science",
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 112
+    },
     {
       "date": "2026-09-14",
       "title": "The case against JPEG XL",
@@ -435,58 +490,6 @@
       ],
       "source": "HN",
       "score": 482
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Desert Ant Labs: local, fast models that run on device",
-      "summary": "via desertant.com",
-      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 429
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "summary": "via gist.github.com",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Claude, change the “Add to Cart” button to blue",
-      "summary": "via opusfived.dev",
-      "url": "https://opusfived.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1057
-    },
-    {
-      "date": "2026-09-09",
-      "title": "I resigned from Anthropic today",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 385
-    },
-    {
-      "date": "2026-09-08",
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered",
-      "url": "https://arxiv.org/abs/2609.09158v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
