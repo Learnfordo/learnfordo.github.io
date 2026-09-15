@@ -1,5 +1,16 @@
 [
   {
+    "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+    "vendor": "X：Arena (@arena)",
+    "date": "2026-09-14",
+    "arxivId": "cmu1jhejj0njbrocn5llfnktp",
+    "pdfUrl": "https://arxiv.org/pdf/cmu1jhejj0njbrocn5llfnktp",
+    "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+    "permalink": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp",
+    "tags": [],
+    "descriptionCn": "《DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名》— X：Arena (@arena) 发布的最新研究论文。"
+  },
+  {
     "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-12",
