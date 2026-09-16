@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T04:30:44.702Z",
+  "updatedAt": "2026-09-16T06:45:12.446Z",
   "items": [
     {
       "date": "2026-09-15",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 959
+      "score": 1157
     },
     {
       "date": "2026-09-15",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 452
+      "score": 466
     },
     {
       "date": "2026-09-15",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 343
+      "score": 362
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "summary": "via dank.systems",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 167
+    },
+    {
+      "date": "2026-09-14",
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "summary": "via www.effort.news",
+      "url": "https://www.effort.news/irregular",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 585
     },
     {
       "date": "2026-09-15",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 59
-    },
-    {
-      "date": "2026-09-14",
-      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "summary": "via www.effort.news",
-      "url": "https://www.effort.news/irregular",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 533
     },
     {
       "date": "2026-09-15",
@@ -479,17 +490,6 @@
       ],
       "source": "HN",
       "score": 112
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
-      "summary": "via system76.com",
-      "url": "https://system76.com/workstations/thelio-mira-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
     }
   ]
 }
