@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-15T06:41:42.093Z",
+  "updatedAt": "2026-09-16T04:30:44.702Z",
   "items": [
+    {
+      "date": "2026-09-15",
+      "title": "Agentic Societies Need a Social Harness",
+      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentall",
+      "url": "https://arxiv.org/abs/2609.17527v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports rese",
+      "url": "https://arxiv.org/abs/2609.17523v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the f",
+      "url": "https://arxiv.org/abs/2609.17521v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment condit",
+      "url": "https://arxiv.org/abs/2609.17516v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation i",
+      "url": "https://arxiv.org/abs/2609.17515v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+      "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate t",
+      "url": "https://arxiv.org/abs/2609.17509v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decision",
+      "url": "https://arxiv.org/abs/2609.17499v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns ",
+      "url": "https://arxiv.org/abs/2609.17496v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+      "summary": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency ",
+      "url": "https://arxiv.org/abs/2609.17491v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMN",
+      "url": "https://arxiv.org/abs/2609.17488v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Introducing System One Models and Jev",
+      "summary": "via typesafe.ai",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 959
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 452
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Let's make quality the norm again",
+      "summary": "via www.forbrukerradet.no",
+      "url": "https://www.forbrukerradet.no/short-life/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 343
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "summary": "via mnoukhov.github.io",
+      "url": "https://mnoukhov.github.io/posts/ngu/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
+    {
+      "date": "2026-09-14",
+      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "summary": "via www.effort.news",
+      "url": "https://www.effort.news/irregular",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 533
+    },
     {
       "date": "2026-09-15",
       "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
@@ -355,141 +490,6 @@
       ],
       "source": "HN",
       "score": 79
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-      "summary": "I&#x27;ve reset this more than once and the last time I made a careful note of when I did it and to my surprise I found it re-enabled when I checked j",
-      "url": "https://news.ycombinator.com/item?id=49643556",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 339
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Amazon pilots ad services in ChatGPT",
-      "summary": "via www.marketingdive.com",
-      "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-09-09",
-      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of im",
-      "url": "https://arxiv.org/abs/2609.10539v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
-      "summary": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sa",
-      "url": "https://arxiv.org/abs/2609.10534v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "A positive resolution of the gap-entropy conjecture",
-      "summary": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, ",
-      "url": "https://arxiv.org/abs/2609.10529v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
-      "summary": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language. We characterize this task for arbitrary families over a cou",
-      "url": "https://arxiv.org/abs/2609.10525v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harn",
-      "url": "https://arxiv.org/abs/2609.10522v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements",
-      "summary": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknow",
-      "url": "https://arxiv.org/abs/2609.10514v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Quantum Feature Engineering for Credit Default Prediction: When and Why IQP Circuits Help Linear Classifiers",
-      "summary": "Credit default prediction is a tabular classification problem in which modest gains in F1 translate directly into reduced financial exposure. We ask whether Instantaneous Quantum Polynomial-time (IQP)",
-      "url": "https://arxiv.org/abs/2609.10505v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation",
-      "summary": "In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free fr",
-      "url": "https://arxiv.org/abs/2609.10495v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
-      "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model ",
-      "url": "https://arxiv.org/abs/2609.10494v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
-      "summary": "This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covarianc",
-      "url": "https://arxiv.org/abs/2609.10490v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-      "summary": "via bsky.app",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 166
-    },
-    {
-      "date": "2026-09-09",
-      "title": "Shopify acquires Tailwind",
-      "summary": "via tailwindcss.com",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1097
-    },
-    {
-      "date": "2026-09-09",
-      "title": "AirPods 5",
-      "summary": "via www.apple.com",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 493
     }
   ]
 }
