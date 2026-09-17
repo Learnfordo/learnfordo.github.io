@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-16T06:45:12.446Z",
+  "updatedAt": "2026-09-17T04:30:41.862Z",
   "items": [
+    {
+      "date": "2026-09-16",
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. l",
+      "url": "https://arxiv.org/abs/2609.19145v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement ",
+      "url": "https://arxiv.org/abs/2609.19144v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image ca",
+      "url": "https://arxiv.org/abs/2609.19143v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, ",
+      "url": "https://arxiv.org/abs/2609.19137v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "summary": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horiz",
+      "url": "https://arxiv.org/abs/2609.19135v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria ma",
+      "url": "https://arxiv.org/abs/2609.19134v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "summary": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-proc",
+      "url": "https://arxiv.org/abs/2609.19128v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Affora: A Design System for Agent-Friendly Interfaces",
+      "summary": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports bot",
+      "url": "https://arxiv.org/abs/2609.19125v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "summary": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and me",
+      "url": "https://arxiv.org/abs/2609.19124v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
+      "summary": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ ",
+      "url": "https://arxiv.org/abs/2609.19113v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "summary": "via rohanbansal.com",
+      "url": "https://rohanbansal.com/qorl",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 451
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "summary": "via mimo.xiaomi.com",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 321
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 163
+    },
+    {
+      "date": "2026-09-16",
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "summary": "via openspec.dev",
+      "url": "https://openspec.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 98
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Reverse-engineered Jev-like model",
+      "summary": "via github.com",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 94
+    },
     {
       "date": "2026-09-15",
       "title": "Agentic Societies Need a Social Harness",
@@ -343,153 +478,6 @@
       "url": "https://arxiv.org/abs/2609.11916v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
-      "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative",
-      "url": "https://arxiv.org/abs/2609.11915v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Distance generalization in transformers: why bother with positional encoding?",
-      "summary": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which pro",
-      "url": "https://arxiv.org/abs/2609.11913v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "summary": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current ",
-      "url": "https://arxiv.org/abs/2609.11911v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
-      "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deplo",
-      "url": "https://arxiv.org/abs/2609.11910v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
-      "summary": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often ",
-      "url": "https://arxiv.org/abs/2609.11904v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-      "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science iden",
-      "url": "https://arxiv.org/abs/2609.11900v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-11",
-      "title": "A misalignment of AI in mathematics",
-      "summary": "via mathandai.org",
-      "url": "https://mathandai.org/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 814
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Claude is only available to people over 18 years",
-      "summary": "via support.claude.com",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 619
-    },
-    {
-      "date": "2026-09-11",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "summary": "via www.rubyhack.ai",
-      "url": "https://www.rubyhack.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 577
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Litelm: LiteLLM Without the Bloat",
-      "summary": "via github.com",
-      "url": "https://github.com/kennethwolters/litelm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-09-09",
-      "title": "A Design Space Exploration of Async/Await",
-      "summary": "via cel.cs.brown.edu",
-      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 228
-    },
-    {
-      "date": "2026-09-10",
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "summary": "via mathstodon.xyz",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 773
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "summary": "via cognition.com",
-      "url": "https://cognition.com/blog/swe-2",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 400
-    },
-    {
-      "date": "2026-09-10",
-      "title": "OpenAI Agents API",
-      "summary": "via developers.openai.com",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 217
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Detecting and countering misuse of AI: September 2026",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 112
     }
   ]
 }
