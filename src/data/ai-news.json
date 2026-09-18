@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-18T04:08:52.290Z",
+  "updatedAt": "2026-09-18T04:30:53.757Z",
   "items": [
+    {
+      "date": "2026-09-18",
+      "title": "Hacking OpenAI",
+      "summary": "via www.hacktron.ai",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 85
+    },
     {
       "date": "2026-09-17",
       "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 353
+      "score": 360
     },
     {
       "date": "2026-09-17",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 297
+      "score": 310
     },
     {
       "date": "2026-09-17",
@@ -112,18 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 122
-    },
-    {
-      "date": "2026-09-17",
-      "title": "How Uber Protects Against Retry Storms",
-      "summary": "via www.uber.com",
-      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
+      "score": 123
     },
     {
       "date": "2026-09-15",
@@ -135,6 +135,17 @@
       ],
       "source": "HN",
       "score": 102
+    },
+    {
+      "date": "2026-09-17",
+      "title": "How Uber Protects Against Retry Storms",
+      "summary": "via www.uber.com",
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
     },
     {
       "date": "2026-09-16",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 361
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Why don't machine learning research agents overfit?",
-      "summary": "via www.amazon.science",
-      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 119
     }
   ]
 }
