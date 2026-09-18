@@ -1,5 +1,38 @@
 [
   {
+    "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+    "vendor": "Anthropic",
+    "date": "2026-09-17",
+    "arxivId": "cmu5y1dkt069qroiqnnhxz778",
+    "pdfUrl": "https://arxiv.org/pdf/cmu5y1dkt069qroiqnnhxz778",
+    "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
+    "permalink": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778",
+    "tags": [],
+    "descriptionCn": "《Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
+    "vendor": "Epoch AI：研究、数据与评测",
+    "date": "2026-09-17",
+    "arxivId": "cmu5xn9rv05yfroiqd91x2qk7",
+    "pdfUrl": "https://arxiv.org/pdf/cmu5xn9rv05yfroiqd91x2qk7",
+    "summary": "Epoch AI 分析海关数据发现，2024 年 4 月至 2025 年 6 月中国记录了 37.5 亿美元、均价约 10.6 万美元/台的马来西亚原产服务器进口，价格水平更符合 AI 服务器而非普通服务器。",
+    "permalink": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7",
+    "tags": [],
+    "descriptionCn": "《Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致》— Epoch AI：研究、数据与评测 发布的最新研究论文。"
+  },
+  {
+    "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
+    "vendor": "Goodfire Research（网页）",
+    "date": "2026-09-17",
+    "arxivId": "cmu5r7kl30h35roqonpk4qypn",
+    "pdfUrl": "https://arxiv.org/pdf/cmu5r7kl30h35roqonpk4qypn",
+    "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
+    "permalink": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
+    "tags": [],
+    "descriptionCn": "《Goodfire Research 发现模型内部信号可规模化检测奖励作弊》— Goodfire Research（网页） 发布的最新研究论文。"
+  },
+  {
     "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
     "vendor": "X：Arena (@arena)",
     "date": "2026-09-14",
