@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T04:30:53.757Z",
+  "updatedAt": "2026-09-18T06:38:48.730Z",
   "items": [
     {
       "date": "2026-09-18",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 85
+      "score": 235
     },
     {
       "date": "2026-09-17",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 360
+      "score": 405
     },
     {
       "date": "2026-09-17",
@@ -112,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 310
+      "score": 364
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Sex, AI, and the Apocalypse",
+      "summary": "via www.iankduncan.com",
+      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 185
     },
     {
       "date": "2026-09-17",
@@ -123,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 123
+      "score": 134
     },
     {
       "date": "2026-09-15",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 426
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Pion, an agent designed to run any company autonomously",
-      "summary": "via andonlabs.com",
-      "url": "https://andonlabs.com/blog/why-we-built-pion",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 361
     }
   ]
 }
