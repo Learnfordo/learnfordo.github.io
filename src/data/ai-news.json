@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-17T06:38:33.713Z",
+  "updatedAt": "2026-09-18T04:08:52.290Z",
   "items": [
+    {
+      "date": "2026-09-17",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-spec",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "summary": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective",
+      "url": "https://arxiv.org/abs/2609.20821v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades perf",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a ",
+      "url": "https://arxiv.org/abs/2609.20817v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, ed",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+      "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these ",
+      "url": "https://arxiv.org/abs/2609.20815v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
+      "summary": "Pretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift aff",
+      "url": "https://arxiv.org/abs/2609.20814v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of f",
+      "url": "https://arxiv.org/abs/2609.20812v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
+      "summary": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in onl",
+      "url": "https://arxiv.org/abs/2609.20808v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+      "summary": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). H",
+      "url": "https://arxiv.org/abs/2609.20807v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "summary": "via bend-lang.com",
+      "url": "https://bend-lang.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "summary": "via prismml.com",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 297
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 122
+    },
+    {
+      "date": "2026-09-17",
+      "title": "How Uber Protects Against Retry Storms",
+      "summary": "via www.uber.com",
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 67
+    },
+    {
+      "date": "2026-09-15",
+      "title": "TSMC revealing details about next gen A14 node",
+      "summary": "via iedm26.mapyourshow.com",
+      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 102
+    },
     {
       "date": "2026-09-16",
       "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
@@ -325,159 +460,6 @@
       ],
       "source": "HN",
       "score": 119
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "summary": "via nathannaveen.dev",
-      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 89
-    },
-    {
-      "date": "2026-09-14",
-      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
-      "summary": "via entelligence.ai",
-      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 129
-    },
-    {
-      "date": "2026-09-14",
-      "title": "The case against JPEG XL",
-      "summary": "via giannirosato.com",
-      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 108
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Open-source AI and open models reading list",
-      "summary": "via www.interconnects.ai",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 89
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-      "summary": "via aprilnea.me",
-      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 77
-    },
-    {
-      "date": "2026-09-13",
-      "title": "Everyone should slow down AI development except for me",
-      "summary": "via xeiaso.net",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 630
-    },
-    {
-      "date": "2026-09-13",
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "summary": "via yoshuabengio.org",
-      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 400
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Nvidia is the central bank of AI",
-      "summary": "via www.economist.com",
-      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 522
-    },
-    {
-      "date": "2026-09-10",
-      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
-      "summary": "via www.tomshardware.com",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 581
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
-      "summary": "via eiln.github.io",
-      "url": "https://eiln.github.io/posts/ane-dma.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 188
-    },
-    {
-      "date": "2026-09-12",
-      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
-      "summary": "via withspecific.com",
-      "url": "https://withspecific.com/benchmarks/real-swe",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 207
-    },
-    {
-      "date": "2026-09-10",
-      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-      "summary": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in mil",
-      "url": "https://arxiv.org/abs/2609.11923v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "General Quantification of Covariate and Concept Shifts",
-      "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from sampl",
-      "url": "https://arxiv.org/abs/2609.11918v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-      "summary": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but",
-      "url": "https://arxiv.org/abs/2609.11917v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-      "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relev",
-      "url": "https://arxiv.org/abs/2609.11916v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
