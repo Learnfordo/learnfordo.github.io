@@ -1,16 +1,49 @@
 {
-  "updatedAt": "2026-09-18T06:38:48.730Z",
+  "updatedAt": "2026-09-19T04:11:08.461Z",
   "items": [
     {
       "date": "2026-09-18",
-      "title": "Hacking OpenAI",
-      "summary": "via www.hacktron.ai",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "summary": "via code.claude.com",
+      "url": "https://code.claude.com/docs/en/changelog",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 235
+      "score": 562
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "summary": "via cactuscompute.com",
+      "url": "https://cactuscompute.com/needle",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 175
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "summary": "via www.newscientist.com",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
+    {
+      "date": "2026-09-18",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "summary": "via spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 72
     },
     {
       "date": "2026-09-17",
@@ -91,6 +124,28 @@
       "url": "https://arxiv.org/abs/2609.20807v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "How to Write with an LLM",
+      "summary": "via sockpuppet.org",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 426
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Hacking OpenAI",
+      "summary": "via www.hacktron.ai",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
     },
     {
       "date": "2026-09-17",
@@ -405,61 +460,6 @@
       ],
       "source": "HN",
       "score": 362
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
-      "summary": "via dank.systems",
-      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
-    },
-    {
-      "date": "2026-09-14",
-      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "summary": "via www.effort.news",
-      "url": "https://www.effort.news/irregular",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 585
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
-      "summary": "via mnoukhov.github.io",
-      "url": "https://mnoukhov.github.io/posts/ngu/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
-      "summary": "via www.theregister.com",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 134
-    },
-    {
-      "date": "2026-09-14",
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "summary": "via tenderlovemaking.com",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 426
     }
   ]
 }
