@@ -33,6 +33,28 @@
     "descriptionCn": "《Goodfire Research 发现模型内部信号可规模化检测奖励作弊》— Goodfire Research（网页） 发布的最新研究论文。"
   },
   {
+    "title": "Anthropic：Claude 四周优化 30 多个开源生物分子模型，平均提速约 4 倍并开源代码",
+    "vendor": "Anthropic",
+    "date": "2026-09-16",
+    "arxivId": "cmu5y1dkt069qroiqnnhxz778",
+    "pdfUrl": "https://arxiv.org/pdf/cmu5y1dkt069qroiqnnhxz778",
+    "summary": "Anthropic 让 Claude 在不到四周内优化了超过 30 个开源生物分子模型，平均提速约 4 倍、精度损失极小，输出完全一致时也有近 2 倍加速。优化代码全部开源，还推出低内存 Big 模式，可在单张 NVIDIA GPU 节点上对超过 10，000 token 的生物分子系统做准确预测。",
+    "permalink": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778",
+    "tags": [],
+    "descriptionCn": "《Anthropic：Claude 四周优化 30 多个开源生物分子模型，平均提速约 4 倍并开源代码》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Goodfire 发现模型内部存在奖励作弊信号，用激活探针可规模化实时检测",
+    "vendor": "Goodfire Research（网页）",
+    "date": "2026-09-16",
+    "arxivId": "cmu5r7kl30h35roqonpk4qypn",
+    "pdfUrl": "https://arxiv.org/pdf/cmu5r7kl30h35roqonpk4qypn",
+    "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，并用简单的 difference-of-means 探针检测它，效果接近甚至部分超过基于 LLM 思维链的监控。",
+    "permalink": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
+    "tags": [],
+    "descriptionCn": "《Goodfire 发现模型内部存在奖励作弊信号，用激活探针可规模化实时检测》— Goodfire Research（网页） 发布的最新研究论文。"
+  },
+  {
     "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
     "vendor": "X：Arena (@arena)",
     "date": "2026-09-14",
