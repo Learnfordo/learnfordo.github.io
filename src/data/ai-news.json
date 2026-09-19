@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T04:30:42.111Z",
+  "updatedAt": "2026-09-19T06:37:07.603Z",
   "items": [
     {
       "date": "2026-09-18",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 571
+      "score": 617
     },
     {
       "date": "2026-09-18",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 175
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-      "summary": "via www.newscientist.com",
-      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 108
+      "score": 192
     },
     {
       "date": "2026-09-18",
@@ -43,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 79
+      "score": 103
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+      "summary": "via www.scmp.com",
+      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 100
     },
     {
       "date": "2026-09-17",
@@ -134,7 +134,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 432
+      "score": 462
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "summary": "via www.newscientist.com",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 108
     },
     {
       "date": "2026-09-18",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 466
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Let's make quality the norm again",
-      "summary": "via www.forbrukerradet.no",
-      "url": "https://www.forbrukerradet.no/short-life/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 362
     }
   ]
 }
