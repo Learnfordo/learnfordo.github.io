@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T04:30:43.222Z",
+  "updatedAt": "2026-09-20T07:00:16.200Z",
   "items": [
     {
       "date": "2026-09-19",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1451
+      "score": 1526
     },
     {
       "date": "2026-09-19",
@@ -21,29 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1144
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-      "summary": "via github.com",
-      "url": "https://github.com/trycua/cua",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 69
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Can you tell which images are AI-generated?",
-      "summary": "via slop-sense.labtoagi.com",
-      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
+      "score": 1180
     },
     {
       "date": "2026-09-17",
@@ -124,6 +102,28 @@
       "url": "https://arxiv.org/abs/2609.20807v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "summary": "via github.com",
+      "url": "https://github.com/trycua/cua",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 69
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Can you tell which images are AI-generated?",
+      "summary": "via slop-sense.labtoagi.com",
+      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
     },
     {
       "date": "2026-09-17",
