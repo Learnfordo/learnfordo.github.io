@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-20T07:00:16.200Z",
+  "updatedAt": "2026-09-21T07:09:44.563Z",
   "items": [
+    {
+      "date": "2026-09-20",
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "summary": "via pirateface.co",
+      "url": "https://pirateface.co/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 527
+    },
+    {
+      "date": "2026-09-20",
+      "title": "AX – Google’s Open Agentic Orchestrator",
+      "summary": "via agentexecutor.io",
+      "url": "https://agentexecutor.io",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 414
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "summary": "via reclaimthenet.org",
+      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
+    {
+      "date": "2026-09-20",
+      "title": "The LLMentalist Effect (2023)",
+      "summary": "via softwarecrisis.dev",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 178
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Amiga Unix, Again",
+      "summary": "via amigaux.org",
+      "url": "https://amigaux.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We intro",
+      "url": "https://arxiv.org/abs/2609.22086v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+      "summary": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can fa",
+      "url": "https://arxiv.org/abs/2609.22081v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically",
+      "url": "https://arxiv.org/abs/2609.22068v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+      "summary": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM",
+      "url": "https://arxiv.org/abs/2609.22067v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+      "summary": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn g",
+      "url": "https://arxiv.org/abs/2609.22064v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+      "summary": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducib",
+      "url": "https://arxiv.org/abs/2609.22056v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
+      "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to",
+      "url": "https://arxiv.org/abs/2609.22055v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise",
+      "summary": "Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GC",
+      "url": "https://arxiv.org/abs/2609.22053v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
+      "summary": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a targ",
+      "url": "https://arxiv.org/abs/2609.22048v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+      "summary": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little atten",
+      "url": "https://arxiv.org/abs/2609.22043v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-19",
       "title": "AI-generated posters don’t have to be horrible",
@@ -329,141 +464,6 @@
       "title": "Affora: A Design System for Agent-Friendly Interfaces",
       "summary": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports bot",
       "url": "https://arxiv.org/abs/2609.19125v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
-      "summary": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and me",
-      "url": "https://arxiv.org/abs/2609.19124v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
-      "summary": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ ",
-      "url": "https://arxiv.org/abs/2609.19113v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-      "summary": "via rohanbansal.com",
-      "url": "https://rohanbansal.com/qorl",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 493
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-      "summary": "via mimo.xiaomi.com",
-      "url": "https://mimo.xiaomi.com/rl/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 385
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2609.16338",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 183
-    },
-    {
-      "date": "2026-09-16",
-      "title": "OpenSpec – A lightweight and configurable AI spec framework",
-      "summary": "via openspec.dev",
-      "url": "https://openspec.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Reverse-engineered Jev-like model",
-      "summary": "via github.com",
-      "url": "https://github.com/vinnylarouge/jevlike",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 111
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Agentic Societies Need a Social Harness",
-      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentall",
-      "url": "https://arxiv.org/abs/2609.17527v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports rese",
-      "url": "https://arxiv.org/abs/2609.17523v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the f",
-      "url": "https://arxiv.org/abs/2609.17521v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment condit",
-      "url": "https://arxiv.org/abs/2609.17516v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
-      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation i",
-      "url": "https://arxiv.org/abs/2609.17515v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
-      "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate t",
-      "url": "https://arxiv.org/abs/2609.17509v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decision",
-      "url": "https://arxiv.org/abs/2609.17499v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns ",
-      "url": "https://arxiv.org/abs/2609.17496v1",
       "tags": [],
       "source": "arXiv"
     }
