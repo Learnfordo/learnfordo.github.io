@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-21T07:09:44.563Z",
+  "updatedAt": "2026-09-22T06:46:44.521Z",
   "items": [
+    {
+      "date": "2026-09-21",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal ",
+      "url": "https://arxiv.org/abs/2609.25001v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their varia",
+      "url": "https://arxiv.org/abs/2609.24985v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world m",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model respo",
+      "url": "https://arxiv.org/abs/2609.24983v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+      "summary": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and ",
+      "url": "https://arxiv.org/abs/2609.24979v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation",
+      "url": "https://arxiv.org/abs/2609.24976v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the bes",
+      "url": "https://arxiv.org/abs/2609.24974v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasin",
+      "url": "https://arxiv.org/abs/2609.24972v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+      "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, ",
+      "url": "https://arxiv.org/abs/2609.24971v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Rare Event Estimation via Iterative Unalignment",
+      "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whe",
+      "url": "https://arxiv.org/abs/2609.24969v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Transformers Explained Visually",
+      "summary": "via poloclub.github.io",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 335
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Python Workers are now generally available",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 210
+    },
+    {
+      "date": "2026-09-21",
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "summary": "via linear.app",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 206
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Frontier AI on Your Own Hardware",
+      "summary": "via timdettmers.com",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 139
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Why does mathmain need an encrypted loader?",
+      "summary": "via safedep.io",
+      "url": "https://safedep.io/mathmain-encrypted-loader/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 124
+    },
     {
       "date": "2026-09-20",
       "title": "Pirate Face Rescues LLM Models from Deletion",
@@ -325,147 +460,6 @@
       ],
       "source": "HN",
       "score": 108
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Hacking OpenAI",
-      "summary": "via www.hacktron.ai",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 235
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
-      "summary": "via bend-lang.com",
-      "url": "https://bend-lang.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 405
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
-      "summary": "via prismml.com",
-      "url": "https://prismml.com/news/bonsai-2-27b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 364
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Sex, AI, and the Apocalypse",
-      "summary": "via www.iankduncan.com",
-      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2609.18842",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 134
-    },
-    {
-      "date": "2026-09-15",
-      "title": "TSMC revealing details about next gen A14 node",
-      "summary": "via iedm26.mapyourshow.com",
-      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 102
-    },
-    {
-      "date": "2026-09-17",
-      "title": "How Uber Protects Against Retry Storms",
-      "summary": "via www.uber.com",
-      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-      "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. l",
-      "url": "https://arxiv.org/abs/2609.19145v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement ",
-      "url": "https://arxiv.org/abs/2609.19144v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image ca",
-      "url": "https://arxiv.org/abs/2609.19143v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, ",
-      "url": "https://arxiv.org/abs/2609.19137v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
-      "summary": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horiz",
-      "url": "https://arxiv.org/abs/2609.19135v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
-      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria ma",
-      "url": "https://arxiv.org/abs/2609.19134v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
-      "summary": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-proc",
-      "url": "https://arxiv.org/abs/2609.19128v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Affora: A Design System for Agent-Friendly Interfaces",
-      "summary": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports bot",
-      "url": "https://arxiv.org/abs/2609.19125v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
