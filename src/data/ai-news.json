@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-22T06:46:44.521Z",
+  "updatedAt": "2026-09-23T06:38:54.151Z",
   "items": [
+    {
+      "date": "2026-09-22",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment rema",
+      "url": "https://arxiv.org/abs/2609.26796v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
+      "summary": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank mod",
+      "url": "https://arxiv.org/abs/2609.26783v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-ag",
+      "url": "https://arxiv.org/abs/2609.26781v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, ho",
+      "url": "https://arxiv.org/abs/2609.26780v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompa",
+      "url": "https://arxiv.org/abs/2609.26779v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "summary": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stac",
+      "url": "https://arxiv.org/abs/2609.26777v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "summary": "Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs",
+      "url": "https://arxiv.org/abs/2609.26761v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study ",
+      "url": "https://arxiv.org/abs/2609.26760v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "summary": "Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By co",
+      "url": "https://arxiv.org/abs/2609.26758v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
+      "summary": "X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing s",
+      "url": "https://arxiv.org/abs/2609.26756v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Claude Opus 5.5",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1422
+    },
+    {
+      "date": "2026-09-22",
+      "title": "GPT-6 Sol and Luna",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1406
+    },
+    {
+      "date": "2026-09-22",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "summary": "via www.cryptocellar.org",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 634
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 577
+    },
+    {
+      "date": "2026-09-22",
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "summary": "via arcturus-labs.com",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 282
+    },
     {
       "date": "2026-09-21",
       "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
@@ -316,150 +451,6 @@
       "url": "https://arxiv.org/abs/2609.20820v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a ",
-      "url": "https://arxiv.org/abs/2609.20817v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, ed",
-      "url": "https://arxiv.org/abs/2609.20816v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
-      "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these ",
-      "url": "https://arxiv.org/abs/2609.20815v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
-      "summary": "Pretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift aff",
-      "url": "https://arxiv.org/abs/2609.20814v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-      "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of f",
-      "url": "https://arxiv.org/abs/2609.20812v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
-      "summary": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in onl",
-      "url": "https://arxiv.org/abs/2609.20808v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
-      "summary": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). H",
-      "url": "https://arxiv.org/abs/2609.20807v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-      "summary": "via github.com",
-      "url": "https://github.com/trycua/cua",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 69
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Can you tell which images are AI-generated?",
-      "summary": "via slop-sense.labtoagi.com",
-      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
-    },
-    {
-      "date": "2026-09-17",
-      "title": "How to Write with an LLM",
-      "summary": "via sockpuppet.org",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 645
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-      "summary": "via code.claude.com",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 617
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
-      "summary": "via cactuscompute.com",
-      "url": "https://cactuscompute.com/needle",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 192
-    },
-    {
-      "date": "2026-09-18",
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "summary": "via spectrum.ieee.org",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 103
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
-      "summary": "via www.scmp.com",
-      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 100
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-      "summary": "via www.newscientist.com",
-      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 108
     }
   ]
 }
