@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-23T06:38:54.151Z",
+  "updatedAt": "2026-09-24T06:44:38.744Z",
   "items": [
+    {
+      "date": "2026-09-24",
+      "title": "Feds Target AI Critics as \"Foreign Agents\"",
+      "summary": "via www.kenklippenstein.com",
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 237
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Australia says OpenAI agent hacked into government website",
+      "summary": "via www.channelnewsasia.com",
+      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
+    },
+    {
+      "date": "2026-09-23",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstru",
+      "url": "https://arxiv.org/abs/2609.28473v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Contrastive Learning for Authorship Verification",
+      "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, p",
+      "url": "https://arxiv.org/abs/2609.28471v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench",
+      "url": "https://arxiv.org/abs/2609.28470v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's ",
+      "url": "https://arxiv.org/abs/2609.28467v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
+      "summary": "We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-",
+      "url": "https://arxiv.org/abs/2609.28459v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static cod",
+      "url": "https://arxiv.org/abs/2609.28449v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
+      "summary": "We study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations,",
+      "url": "https://arxiv.org/abs/2609.28448v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+      "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question usi",
+      "url": "https://arxiv.org/abs/2609.28442v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+      "summary": "We study minimal-norm interpolation and $\\ell_2$-regularized logistic-loss minimization for binary classification by univariate two-layer ReLU networks. We give complete geometric characterizations of",
+      "url": "https://arxiv.org/abs/2609.28438v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Cross-Scale Transfer Learning for Depression Severity Prediction: From PHQ-8 to HAMD-17 Across Languages and Clinical Paradigms",
+      "summary": "This work addresses continuous depression-severity score prediction from clinical interview transcripts under data scarcity. We propose a sequential low-rank adaptation (LoRA) protocol for cross-scale",
+      "url": "https://arxiv.org/abs/2609.28430v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 601
+    },
+    {
+      "date": "2026-09-23",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "summary": "via fly.io",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 194
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Making Tailscale Faster",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/blog/making-tailscale-faster",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 140
+    },
     {
       "date": "2026-09-22",
       "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
@@ -325,132 +460,6 @@
       ],
       "source": "HN",
       "score": 64
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-      "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We intro",
-      "url": "https://arxiv.org/abs/2609.22086v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
-      "summary": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can fa",
-      "url": "https://arxiv.org/abs/2609.22081v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically",
-      "url": "https://arxiv.org/abs/2609.22068v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
-      "summary": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM",
-      "url": "https://arxiv.org/abs/2609.22067v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
-      "summary": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn g",
-      "url": "https://arxiv.org/abs/2609.22064v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-      "summary": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducib",
-      "url": "https://arxiv.org/abs/2609.22056v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
-      "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to",
-      "url": "https://arxiv.org/abs/2609.22055v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise",
-      "summary": "Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GC",
-      "url": "https://arxiv.org/abs/2609.22053v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
-      "summary": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a targ",
-      "url": "https://arxiv.org/abs/2609.22048v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
-      "summary": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little atten",
-      "url": "https://arxiv.org/abs/2609.22043v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "AI-generated posters don’t have to be horrible",
-      "summary": "via john.hartnup.uk",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1526
-    },
-    {
-      "date": "2026-09-19",
-      "title": "I built non-autoregressive decision models with RL a year ago",
-      "summary": "via laya.convaiinnovations.com",
-      "url": "https://laya.convaiinnovations.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1180
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-spec",
-      "url": "https://arxiv.org/abs/2609.20822v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Embedding Models Measure in Peculiar Ways",
-      "summary": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective",
-      "url": "https://arxiv.org/abs/2609.20821v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
-      "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades perf",
-      "url": "https://arxiv.org/abs/2609.20820v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
