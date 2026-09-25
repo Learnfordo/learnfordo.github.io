@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-24T06:44:38.744Z",
+  "updatedAt": "2026-09-25T02:22:03.438Z",
   "items": [
+    {
+      "date": "2026-09-24",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own ",
+      "url": "https://arxiv.org/abs/2609.30266v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low",
+      "url": "https://arxiv.org/abs/2609.30264v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+      "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal stru",
+      "url": "https://arxiv.org/abs/2609.30258v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Agentic Detection of Online Conspiracies",
+      "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, sa",
+      "url": "https://arxiv.org/abs/2609.30250v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrati",
+      "url": "https://arxiv.org/abs/2609.30249v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs",
+      "url": "https://arxiv.org/abs/2609.30247v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "JevOut: Natural Context Can Flip Decision Models",
+      "summary": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. ",
+      "url": "https://arxiv.org/abs/2609.30243v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+      "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically comp",
+      "url": "https://arxiv.org/abs/2609.30238v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic con",
+      "url": "https://arxiv.org/abs/2609.30233v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+      "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can v",
+      "url": "https://arxiv.org/abs/2609.30227v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "summary": "via transluce.org",
+      "url": "https://transluce.org/agent-activity",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 246
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
+      "summary": "via koi.rest",
+      "url": "https://koi.rest",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 135
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "summary": "via www.afr.com",
+      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 84
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "summary": "via resobscura.substack.com",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 81
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Rails World 2026 Opening Keynote [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 245
+    },
     {
       "date": "2026-09-24",
       "title": "Feds Target AI Critics as \"Foreign Agents\"",
@@ -310,156 +445,6 @@
       "url": "https://arxiv.org/abs/2609.24979v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
-      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation",
-      "url": "https://arxiv.org/abs/2609.24976v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
-      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the bes",
-      "url": "https://arxiv.org/abs/2609.24974v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasin",
-      "url": "https://arxiv.org/abs/2609.24972v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
-      "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, ",
-      "url": "https://arxiv.org/abs/2609.24971v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Rare Event Estimation via Iterative Unalignment",
-      "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whe",
-      "url": "https://arxiv.org/abs/2609.24969v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Transformers Explained Visually",
-      "summary": "via poloclub.github.io",
-      "url": "https://poloclub.github.io/transformer-explainer/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 335
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Python Workers are now generally available",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 210
-    },
-    {
-      "date": "2026-09-21",
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "summary": "via linear.app",
-      "url": "https://linear.app/now/ci-bottleneck-reworked",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 206
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Frontier AI on Your Own Hardware",
-      "summary": "via timdettmers.com",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 139
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Why does mathmain need an encrypted loader?",
-      "summary": "via safedep.io",
-      "url": "https://safedep.io/mathmain-encrypted-loader/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 124
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
-      "summary": "via pirateface.co",
-      "url": "https://pirateface.co/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 527
-    },
-    {
-      "date": "2026-09-20",
-      "title": "AX – Google’s Open Agentic Orchestrator",
-      "summary": "via agentexecutor.io",
-      "url": "https://agentexecutor.io",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 414
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
-      "summary": "via reclaimthenet.org",
-      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 353
-    },
-    {
-      "date": "2026-09-20",
-      "title": "The LLMentalist Effect (2023)",
-      "summary": "via softwarecrisis.dev",
-      "url": "https://softwarecrisis.dev/letters/llmentalist/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 178
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Amiga Unix, Again",
-      "summary": "via amigaux.org",
-      "url": "https://amigaux.org/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
     }
   ]
 }
