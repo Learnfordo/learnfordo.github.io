@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T04:42:24.917Z",
+  "updatedAt": "2026-09-25T06:36:03.041Z",
   "items": [
     {
       "date": "2026-09-24",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 174
+      "score": 209
     },
     {
       "date": "2026-09-24",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 152
+      "score": 167
     },
     {
       "date": "2026-09-24",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 101
+      "score": 109
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Rails World 2026 Opening Keynote [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 300
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Security auditing in the age of (good enough) AI",
+      "summary": "via blog.trailofbits.com",
+      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 84
     },
     {
       "date": "2026-09-24",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 96
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Rails World 2026 Opening Keynote [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 287
     },
     {
       "date": "2026-09-24",
@@ -438,14 +449,6 @@
       "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world m",
       "url": "https://arxiv.org/abs/2609.24984v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
-      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model respo",
-      "url": "https://arxiv.org/abs/2609.24983v1",
       "tags": [],
       "source": "arXiv"
     }
