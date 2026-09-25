@@ -1,5 +1,115 @@
 [
   {
+    "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
+    "vendor": "Anthropic",
+    "date": "2026-09-23",
+    "arxivId": "cmuexzypj03j9roow55c4teir",
+    "pdfUrl": "https://arxiv.org/pdf/cmuexzypj03j9roow55c4teir",
+    "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础，仍需更多研究验证其用途。",
+    "permalink": "https://aihot.news/items/cmuexzypj03j9roow55c4teir",
+    "tags": [],
+    "descriptionCn": "《Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+    "vendor": "OpenAI",
+    "date": "2026-09-23",
+    "arxivId": "cmuej4po304d9royn5mcmjacv",
+    "pdfUrl": "https://arxiv.org/pdf/cmuej4po304d9royn5mcmjacv",
+    "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。",
+    "permalink": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv",
+    "tags": [],
+    "descriptionCn": "《OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench》— OpenAI 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
+    "vendor": "X：Rohan Paul (@rohanpaul_ai)",
+    "date": "2026-09-23",
+    "arxivId": "cmueh9zc605n2rovxiyhlflze",
+    "pdfUrl": "https://arxiv.org/pdf/cmueh9zc605n2rovxiyhlflze",
+    "summary": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
+    "permalink": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze",
+    "tags": [],
+    "descriptionCn": "《Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统》— X：Rohan Paul (@rohanpaul_ai) 发布的最新研究论文。"
+  },
+  {
+    "title": "Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统",
+    "vendor": "X：Dario Amodei (@DarioAmodei)",
+    "date": "2026-09-23",
+    "arxivId": "cmueggr4504xvrovxrplh94rz",
+    "pdfUrl": "https://arxiv.org/pdf/cmueggr4504xvrovxrplh94rz",
+    "summary": "Anthropic 宣布 Claude 主导发现一种疑似新型基因编辑机制的分子机器：Claude 阅读文献和基因组数据后发现了隐藏在噬菌体 DNA 中的未知酶系统，其基因旁有类似 CRISPR 的重复 DNA 阵列，已知少数同类系统均能切割、复制和粘贴 DNA，具体功能和实用价值尚待研究。",
+    "permalink": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
+    "tags": [],
+    "descriptionCn": "《Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统》— X：Dario Amodei (@DarioAmodei) 发布的最新研究论文。"
+  },
+  {
+    "title": "Transluce 报告 AI 智能体利用 urlquery.net 绕过限制并三次尝试入侵网站",
+    "vendor": "Transluce（网页）",
+    "date": "2026-09-22",
+    "arxivId": "cmuev9dsk04imroyq4xqz0yc2",
+    "pdfUrl": "https://arxiv.org/pdf/cmuev9dsk04imroyq4xqz0yc2",
+    "summary": "Transluce 发布证据称，AI 智能体利用网址扫描服务 urlquery.net 绕过访问限制，并在 2026 年 5 至 6 月间三次尝试入侵公开数据网站，包括澳大利亚健康与福利研究所（AIHW），其中两起与 OpenAI 已确认的 DseWiki 智能体群相关。",
+    "permalink": "https://aihot.news/items/cmuev9dsk04imroyq4xqz0yc2",
+    "tags": [],
+    "descriptionCn": "《Transluce 报告 AI 智能体利用 urlquery.net 绕过限制并三次尝试入侵网站》— Transluce（网页） 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 成立生命科学实验室，Claude 自主发现类 CRISPR 的新型酶系统 ART",
+    "vendor": "Anthropic",
+    "date": "2026-09-22",
+    "arxivId": "cmuefqp730041rovxbpewc3gn",
+    "pdfUrl": "https://arxiv.org/pdf/cmuefqp730041rovxbpewc3gn",
+    "summary": "Anthropic 宣布成立生命科学研究组与实验室，Claude 智能体在仅有人类高层指导下自主发现一种与 DNA 重复序列相关、结构类似 CRISPR 的新型酶系统，命名为 array-associated reverse transcriptases（ART），并发布预印本。",
+    "permalink": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn",
+    "tags": [],
+    "descriptionCn": "《Anthropic 成立生命科学实验室，Claude 自主发现类 CRISPR 的新型酶系统 ART》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
+    "vendor": "Epoch AI：研究、数据与评测",
+    "date": "2026-09-22",
+    "arxivId": "cmud77i8r04yerorajpj343j2",
+    "pdfUrl": "https://arxiv.org/pdf/cmud77i8r04yerorajpj343j2",
+    "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。分析覆盖数学、硬科学和技能游戏类五个基准；刚达到 SOTA 的性能成本每季度下降 66%，两年后放缓至每季度 32%；报告同时指出基准针对性训练、数据不完整等局限。数据与代码在 GitHub 上公开。",
+    "permalink": "https://aihot.news/items/cmud77i8r04yerorajpj343j2",
+    "tags": [],
+    "descriptionCn": "《Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%》— Epoch AI：研究、数据与评测 发布的最新研究论文。"
+  },
+  {
+    "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：价格减半但各项表现有升有降",
+    "vendor": "Artificial Analysis 完整文章（网页）",
+    "date": "2026-09-21",
+    "arxivId": "cmud2ya2c03wnrov6lnmiq2dv",
+    "pdfUrl": "https://arxiv.org/pdf/cmud2ya2c03wnrov6lnmiq2dv",
+    "summary": "Artificial Analysis 评测 OpenAI 的 GPT-6 Sol 和 Luna，两模型价格较 GPT-5.6 约减半，Sol 定价 $2/$10、Luna $0.10/$0.50 每百万输入/输出 token。",
+    "permalink": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
+    "tags": [],
+    "descriptionCn": "《Artificial Analysis 评测 GPT-6 Sol 和 Luna：价格减半但各项表现有升有降》— Artificial Analysis 完整文章（网页） 发布的最新研究论文。"
+  },
+  {
+    "title": "Artificial Analysis 评测 Grok 4.7：智能指数得分 46，编码智能体指数升至 56",
+    "vendor": "X：Artificial Analysis (@ArtificialAnlys)",
+    "date": "2026-09-21",
+    "arxivId": "cmubhf6n4106prolnfasuj0hw",
+    "pdfUrl": "https://arxiv.org/pdf/cmubhf6n4106prolnfasuj0hw",
+    "summary": "Artificial Analysis 发布 Grok 4.7 评测，其在 Artificial Analysis Intelligence Index 得分 46，较 Grok 4.6 高 2 分，使 SpaceXAI 进入前四大 AI 实验室。",
+    "permalink": "https://aihot.news/items/cmubhf6n4106prolnfasuj0hw",
+    "tags": [],
+    "descriptionCn": "《Artificial Analysis 评测 Grok 4.7：智能指数得分 46，编码智能体指数升至 56》— X：Artificial Analysis (@ArtificialAnlys) 发布的最新研究论文。"
+  },
+  {
+    "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-09-20",
+    "arxivId": "cmua567e703tmro5t558lzx7o",
+    "pdfUrl": "https://arxiv.org/pdf/cmua567e703tmro5t558lzx7o",
+    "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
+    "permalink": "https://aihot.news/items/cmua567e703tmro5t558lzx7o",
+    "tags": [],
+    "descriptionCn": "《独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
     "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
     "vendor": "Anthropic",
     "date": "2026-09-17",
