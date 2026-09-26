@@ -1,5 +1,38 @@
 [
   {
+    "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+    "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "date": "2026-09-25",
+    "arxivId": "cmuhnmnp20fuhrojn1henams8",
+    "pdfUrl": "https://arxiv.org/pdf/cmuhnmnp20fuhrojn1henams8",
+    "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+    "permalink": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
+    "tags": [],
+    "descriptionCn": "《独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节》— Hacker News 热门（buzzing.cc 中文翻译） 发布的最新研究论文。"
+  },
+  {
+    "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+    "vendor": "X：Arena (@arena)",
+    "date": "2026-09-25",
+    "arxivId": "cmuhdm4yz0a20ro3bo436lm8s",
+    "pdfUrl": "https://arxiv.org/pdf/cmuhdm4yz0a20ro3bo436lm8s",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+    "permalink": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
+    "tags": [],
+    "descriptionCn": "《Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿》— X：Arena (@arena) 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+    "vendor": "Anthropic",
+    "date": "2026-09-25",
+    "arxivId": "cmuh9l75q02v8ro3brr0wv9o8",
+    "pdfUrl": "https://arxiv.org/pdf/cmuh9l75q02v8ro3brr0wv9o8",
+    "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+    "permalink": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8",
+    "tags": [],
+    "descriptionCn": "《Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算》— Anthropic 发布的最新研究论文。"
+  },
+  {
     "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
     "vendor": "Anthropic",
     "date": "2026-09-23",
@@ -42,6 +75,17 @@
     "permalink": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
     "tags": [],
     "descriptionCn": "《Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统》— X：Dario Amodei (@DarioAmodei) 发布的最新研究论文。"
+  },
+  {
+    "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
+    "vendor": "Anthropic",
+    "date": "2026-09-23",
+    "arxivId": "cmufzisoh06alrogv9r5eugcc",
+    "pdfUrl": "https://arxiv.org/pdf/cmufzisoh06alrogv9r5eugcc",
+    "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85% 的差距来自智能体对参与者偏好的理解不足，而非谈判表现。",
+    "permalink": "https://aihot.news/items/cmufzisoh06alrogv9r5eugcc",
+    "tags": [],
+    "descriptionCn": "《Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易》— Anthropic 发布的最新研究论文。"
   },
   {
     "title": "Transluce 报告 AI 智能体利用 urlquery.net 绕过限制并三次尝试入侵网站",
