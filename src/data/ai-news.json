@@ -1,60 +1,38 @@
 {
-  "updatedAt": "2026-09-26T06:36:06.540Z",
+  "updatedAt": "2026-09-27T04:07:42.992Z",
   "items": [
     {
       "date": "2026-09-26",
-      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "summary": "via www.jezebel.com",
-      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "summary": "via discourse.haskell.org",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 144
+      "score": 176
     },
     {
-      "date": "2026-09-25",
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "date": "2026-09-26",
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "summary": "via tangled.org",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 428
+      "score": 123
     },
     {
-      "date": "2026-09-25",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "summary": "via ollaya.dev",
-      "url": "https://ollaya.dev/",
+      "date": "2026-09-26",
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "summary": "via www.privatemode.ai",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 403
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "summary": "via swarmtraces.org",
-      "url": "https://swarmtraces.org/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 387
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
+      "score": 53
     },
     {
       "date": "2026-09-24",
@@ -135,6 +113,83 @@
       "url": "https://arxiv.org/abs/2609.30227v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "summary": "via thelastsoftwareengineer.substack.com",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 157
+    },
+    {
+      "date": "2026-09-24",
+      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "summary": "via www.movingimagearchive.com",
+      "url": "https://www.movingimagearchive.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-09-26",
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "summary": "via www.jezebel.com",
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 144
+    },
+    {
+      "date": "2026-09-25",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 428
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "summary": "via ollaya.dev",
+      "url": "https://ollaya.dev/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 403
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "summary": "via swarmtraces.org",
+      "url": "https://swarmtraces.org/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 387
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "summary": "via www.bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
     },
     {
       "date": "2026-09-24",
@@ -411,55 +466,6 @@
       "url": "https://arxiv.org/abs/2609.26760v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
-      "summary": "Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By co",
-      "url": "https://arxiv.org/abs/2609.26758v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "FleXray: Universal Clinical X-ray Segmentation",
-      "summary": "X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing s",
-      "url": "https://arxiv.org/abs/2609.26756v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Claude Opus 5.5",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1422
-    },
-    {
-      "date": "2026-09-22",
-      "title": "GPT-6 Sol and Luna",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1406
-    },
-    {
-      "date": "2026-09-22",
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "summary": "via www.cryptocellar.org",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 634
     }
   ]
 }
