@@ -1,5 +1,16 @@
 [
   {
+    "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+    "vendor": "IT之家（RSS）",
+    "date": "2026-09-26",
+    "arxivId": "cmuiltkdf0qrarov0lo96tucy",
+    "pdfUrl": "https://arxiv.org/pdf/cmuiltkdf0qrarov0lo96tucy",
+    "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+    "permalink": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
+    "tags": [],
+    "descriptionCn": "《Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录》— IT之家（RSS） 发布的最新研究论文。"
+  },
+  {
     "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-25",
