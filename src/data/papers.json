@@ -1,5 +1,16 @@
 [
   {
+    "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
+    "vendor": "MIT News（RSS）",
+    "date": "2026-09-28",
+    "arxivId": "usolnb7i6x3qmicwmoza9dpvl",
+    "pdfUrl": "https://arxiv.org/pdf/usolnb7i6x3qmicwmoza9dpvl",
+    "summary": "MIT研究人员借助AI算法优化脂质纳米颗粒（LNP）的辅料配比，成功开发出耐热性更强的RNA疫苗配方。该配方使疫苗在室温下可稳定保存一年，或在37摄氏度下保存两个月，且在小鼠实验中产生的免疫反应与Moderna类似。AI算法通过少量实验数据快速收敛至最优解，将原本需数月的筛选过程缩短至几周。相关成果发表于《Nature Biotechnology》。",
+    "permalink": "https://aihot.news/items/usolnb7i6x3qmicwmoza9dpvl",
+    "tags": [],
+    "descriptionCn": "《MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年》— MIT News（RSS） 发布的最新研究论文。"
+  },
+  {
     "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
     "vendor": "IT之家（RSS）",
     "date": "2026-09-26",
@@ -53,6 +64,17 @@
     "permalink": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8",
     "tags": [],
     "descriptionCn": "《Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算》— Anthropic 发布的最新研究论文。"
+  },
+  {
+    "title": "Arena：GPT-6 Sol (Max) 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+    "vendor": "X：Arena (@arena)",
+    "date": "2026-09-25",
+    "arxivId": "cmuhdm4yz0a20ro3bo436lm8s",
+    "pdfUrl": "https://arxiv.org/pdf/cmuhdm4yz0a20ro3bo436lm8s",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol (Max) 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+    "permalink": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
+    "tags": [],
+    "descriptionCn": "《Arena：GPT-6 Sol (Max) 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿》— X：Arena (@arena) 发布的最新研究论文。"
   },
   {
     "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
