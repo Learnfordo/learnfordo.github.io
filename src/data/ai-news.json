@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-27T07:04:58.572Z",
+  "updatedAt": "2026-09-28T04:07:40.794Z",
   "items": [
+    {
+      "date": "2026-09-25",
+      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping me",
+      "url": "https://arxiv.org/abs/2609.31619v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Gap-free Differentially Private PCA for Gaussian Data",
+      "summary": "We give a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data.",
+      "url": "https://arxiv.org/abs/2609.31614v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "First-Order Stationarity of Reverse Diffusions",
+      "summary": "Recent literature has shown a strong connection between optimization and sampling. We develop the corresponding first-order theory for diffusion models. First, the SDE-based reverse-time flows of over",
+      "url": "https://arxiv.org/abs/2609.31612v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+      "summary": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-gener",
+      "url": "https://arxiv.org/abs/2609.31607v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "User Model Extraction via Belief Self-Distillation",
+      "summary": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief",
+      "url": "https://arxiv.org/abs/2609.31603v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "New LoRA Skills Should Read but Never Write",
+      "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: merging the updates in ",
+      "url": "https://arxiv.org/abs/2609.31600v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Common-Mode Collapse and Recovery in Direct Feedback Alignment",
+      "summary": "Direct feedback alignment (DFA) trains hidden layers through fixed random projections of output error. With tanh hidden units and independent sigmoid outputs, plain stochastic gradient descent can sta",
+      "url": "https://arxiv.org/abs/2609.31589v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores c",
+      "url": "https://arxiv.org/abs/2609.31587v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Trust Guided Decision Transformer",
+      "summary": "Decision Transformer performance degrades on long rollouts because the conditioning context drifts out of the training distribution. We show that this drift is visible through the model's own next sta",
+      "url": "https://arxiv.org/abs/2609.31586v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+      "summary": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while ma",
+      "url": "https://arxiv.org/abs/2609.31572v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-26",
       "title": "How to keep enjoying programming in a world of LLMs",
@@ -380,92 +460,6 @@
       ],
       "source": "HN",
       "score": 601
-    },
-    {
-      "date": "2026-09-23",
-      "title": "VSCode's SSH Agent Is Bananas (2025)",
-      "summary": "via fly.io",
-      "url": "https://fly.io/blog/vscode-ssh-wtf/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 194
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Making Tailscale Faster",
-      "summary": "via tailscale.com",
-      "url": "https://tailscale.com/blog/making-tailscale-faster",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 140
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment rema",
-      "url": "https://arxiv.org/abs/2609.26796v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
-      "summary": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank mod",
-      "url": "https://arxiv.org/abs/2609.26783v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-ag",
-      "url": "https://arxiv.org/abs/2609.26781v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, ho",
-      "url": "https://arxiv.org/abs/2609.26780v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-      "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompa",
-      "url": "https://arxiv.org/abs/2609.26779v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
-      "summary": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stac",
-      "url": "https://arxiv.org/abs/2609.26777v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
-      "summary": "Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs",
-      "url": "https://arxiv.org/abs/2609.26761v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
-      "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study ",
-      "url": "https://arxiv.org/abs/2609.26760v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
