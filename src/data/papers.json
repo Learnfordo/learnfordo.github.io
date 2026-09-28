@@ -11,6 +11,17 @@
     "descriptionCn": "《Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录》— IT之家（RSS） 发布的最新研究论文。"
   },
   {
+    "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+    "vendor": "小米 MiMo：官网发布与博客",
+    "date": "2026-09-26",
+    "arxivId": "cmuk25h00156vro9h173e1zjz",
+    "pdfUrl": "https://arxiv.org/pdf/cmuk25h00156vro9h173e1zjz",
+    "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3.83%。",
+    "permalink": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
+    "tags": [],
+    "descriptionCn": "《小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%》— 小米 MiMo：官网发布与博客 发布的最新研究论文。"
+  },
+  {
     "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
     "vendor": "Hacker News 热门（buzzing.cc 中文翻译）",
     "date": "2026-09-25",
