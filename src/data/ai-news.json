@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-28T04:30:40.064Z",
+  "updatedAt": "2026-09-28T07:37:54.471Z",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 73
+    },
     {
       "date": "2026-09-25",
       "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
@@ -449,17 +460,6 @@
       "url": "https://arxiv.org/abs/2609.28430v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 601
     }
   ]
 }
