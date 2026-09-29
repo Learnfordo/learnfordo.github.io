@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-09-28T16:06:03.213Z",
+  "updatedAt": "2026-09-29T04:08:26.262Z",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "Steering Language Model Goals with Value Transplant",
+      "summary": "Reasoning models often act as if they pursue goals, but their efforts are not always directed toward what users intend, sometimes leading them to pursue unintended outcomes. Previous work has examined",
+      "url": "https://arxiv.org/abs/2609.34056v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
+      "summary": "Multi-LoRA agent systems enable efficient role specialization by sharing a common backbone model. However, each agent repeatedly processes the growing shared trajectory and constructs its own KV cache",
+      "url": "https://arxiv.org/abs/2609.34054v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "The Statistical Cost of Causal Discovery with Feedback",
+      "summary": "What determines the unavoidable sample cost of learning cyclic causal structure? For cyclic linear non-Gaussian models, we study exact condensation recovery from observational data: identifying the st",
+      "url": "https://arxiv.org/abs/2609.34050v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference",
+      "summary": "Sliding-window KV inference refers to processing a sequence incrementally while retaining only a fixed-size cache of recent key and value states. It can be applied to pretrained causal transformers at",
+      "url": "https://arxiv.org/abs/2609.34049v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark",
+      "summary": "Multimodal models increasingly interpret visual environments, but their ability to recognize the same building across photographs, floor plans, elevations, sections, and renderings remains poorly char",
+      "url": "https://arxiv.org/abs/2609.34047v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Kafila: Serving Large Language Models on a Trusted Set of Heterogeneous Commodity Machines",
+      "summary": "Between them, the members of a research group or a circle of friends own several consumer computers, none large enough to run a capable large language model. Existing systems pool such capacity across",
+      "url": "https://arxiv.org/abs/2609.34045v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Singularities of Non-negative Matrix Factorization and their application to Bayesian inference",
+      "summary": "Non-negative matrix factorization (NMF) is a singular statistical model whose Bayesian asymptotics are governed by the real log canonical threshold (RLCT). We study the local geometry of the factoriza",
+      "url": "https://arxiv.org/abs/2609.34043v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Vision--Language Signals in Constrained RL: Safety Gains Without Anticipation",
+      "summary": "Safe reinforcement learning seeks policies that maximise task performance while satisfying safety constraints. In driving benchmarks, however, collision costs typically appear only at the time of coll",
+      "url": "https://arxiv.org/abs/2609.34041v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
+      "summary": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independent validation. Meth",
+      "url": "https://arxiv.org/abs/2609.34039v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "summary": "via github.com",
+      "url": "https://github.com/firelex/jeff",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 360
+    },
+    {
+      "date": "2026-09-28",
+      "title": "It's Time to Investigate the AI Labs",
+      "summary": "via calnewport.com",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
+    {
+      "date": "2026-09-28",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "summary": "via stateofutopia.com",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 168
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 123
+    },
+    {
+      "date": "2026-09-27",
+      "title": "UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents",
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts using dense supervision from a teacher. In multi-turn environments, a mistake at a critical decision step can redirect the subsequent ",
+      "url": "https://arxiv.org/abs/2609.34036v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-28",
       "title": "Parley: Federated, decentralised chat that speaks plain IRC",
@@ -325,147 +460,6 @@
       ],
       "source": "HN",
       "score": 167
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "summary": "via resobscura.substack.com",
-      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Rails World 2026 Opening Keynote [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 300
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Security auditing in the age of (good enough) AI",
-      "summary": "via blog.trailofbits.com",
-      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 84
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-      "summary": "via www.afr.com",
-      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 96
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "summary": "via transluce.org",
-      "url": "https://transluce.org/agent-activity",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 246
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "summary": "via www.kenklippenstein.com",
-      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 237
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Australia says OpenAI agent hacked into government website",
-      "summary": "via www.channelnewsasia.com",
-      "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
-    },
-    {
-      "date": "2026-09-23",
-      "title": "On the Diffusibility of High-Dimensional Latents",
-      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstru",
-      "url": "https://arxiv.org/abs/2609.28473v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Contrastive Learning for Authorship Verification",
-      "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, p",
-      "url": "https://arxiv.org/abs/2609.28471v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench",
-      "url": "https://arxiv.org/abs/2609.28470v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
-      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's ",
-      "url": "https://arxiv.org/abs/2609.28467v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
-      "summary": "We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-",
-      "url": "https://arxiv.org/abs/2609.28459v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static cod",
-      "url": "https://arxiv.org/abs/2609.28449v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
-      "summary": "We study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations,",
-      "url": "https://arxiv.org/abs/2609.28448v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
-      "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question usi",
-      "url": "https://arxiv.org/abs/2609.28442v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
