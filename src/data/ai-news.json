@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-09-29T04:08:26.262Z",
+  "updatedAt": "2026-09-29T04:30:42.243Z",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "summary": "via github.com",
+      "url": "https://github.com/firelex/jeff",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 369
+    },
+    {
+      "date": "2026-09-28",
+      "title": "It's Time to Investigate the AI Labs",
+      "summary": "via calnewport.com",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 359
+    },
+    {
+      "date": "2026-09-28",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "summary": "via stateofutopia.com",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 171
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 134
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 128
+    },
     {
       "date": "2026-09-28",
       "title": "Steering Language Model Goals with Value Transplant",
@@ -72,61 +127,6 @@
       "url": "https://arxiv.org/abs/2609.34039v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
-      "summary": "via github.com",
-      "url": "https://github.com/firelex/jeff",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 360
-    },
-    {
-      "date": "2026-09-28",
-      "title": "It's Time to Investigate the AI Labs",
-      "summary": "via calnewport.com",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 353
-    },
-    {
-      "date": "2026-09-28",
-      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
-      "summary": "via stateofutopia.com",
-      "url": "https://stateofutopia.com/experiments/microllmlab/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 168
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Cf: The Agentic CLI for the Cloudflare API",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 132
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 123
     },
     {
       "date": "2026-09-27",
