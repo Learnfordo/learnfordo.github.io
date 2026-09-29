@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-29T04:30:42.243Z",
+  "updatedAt": "2026-09-29T07:30:19.884Z",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets",
+      "url": "https://arxiv.org/abs/2609.35770v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Telescopic Language Models",
+      "summary": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to b",
+      "url": "https://arxiv.org/abs/2609.35769v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "summary": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) ",
+      "url": "https://arxiv.org/abs/2609.35768v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+      "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose agai",
+      "url": "https://arxiv.org/abs/2609.35767v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
+      "summary": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and transla",
+      "url": "https://arxiv.org/abs/2609.35765v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Unifying Distributional Training for One-Step Visual Generation",
+      "summary": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theo",
+      "url": "https://arxiv.org/abs/2609.35763v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Ex",
+      "url": "https://arxiv.org/abs/2609.35759v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and interm",
+      "url": "https://arxiv.org/abs/2609.35760v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
+      "summary": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) ",
+      "url": "https://arxiv.org/abs/2609.35758v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Neural Harmonic Measure Operator",
+      "summary": "We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution tha",
+      "url": "https://arxiv.org/abs/2609.35752v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-09-28",
       "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
@@ -10,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 369
+      "score": 461
     },
     {
       "date": "2026-09-28",
@@ -21,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 359
+      "score": 444
     },
     {
       "date": "2026-09-28",
@@ -32,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 171
+      "score": 217
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "summary": "via www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 157
+    },
+    {
+      "date": "2026-09-26",
+      "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
+      "summary": "via archaeologymag.com",
+      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 127
     },
     {
       "date": "2026-09-28",
@@ -44,17 +146,6 @@
       ],
       "source": "HN",
       "score": 134
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 128
     },
     {
       "date": "2026-09-28",
@@ -345,121 +436,6 @@
       "url": "https://arxiv.org/abs/2609.30238v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic con",
-      "url": "https://arxiv.org/abs/2609.30233v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-      "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can v",
-      "url": "https://arxiv.org/abs/2609.30227v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "How I changed teaching after AI managed to do all my homework assignments",
-      "summary": "via thelastsoftwareengineer.substack.com",
-      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-09-24",
-      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
-      "summary": "via www.movingimagearchive.com",
-      "url": "https://www.movingimagearchive.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 153
-    },
-    {
-      "date": "2026-09-26",
-      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "summary": "via www.jezebel.com",
-      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 144
-    },
-    {
-      "date": "2026-09-25",
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 428
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "summary": "via ollaya.dev",
-      "url": "https://ollaya.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 403
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "summary": "via swarmtraces.org",
-      "url": "https://swarmtraces.org/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 387
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
-      "summary": "via www.bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Opus 5.5 is good at explainer videos",
-      "summary": "via launchvideo.io",
-      "url": "https://launchvideo.io",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
-      "summary": "via koi.rest",
-      "url": "https://koi.rest",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
     }
   ]
 }
