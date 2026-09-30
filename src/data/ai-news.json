@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-09-29T07:30:19.884Z",
+  "updatedAt": "2026-09-30T07:27:27.142Z",
   "items": [
+    {
+      "date": "2026-09-30",
+      "title": "PSSA: A non-transformer language model written from scratch in Rust",
+      "summary": "via github.com",
+      "url": "https://github.com/Sparticle62ops/pssa",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 72
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+      "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effe",
+      "url": "https://arxiv.org/abs/2609.38178v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they strugg",
+      "url": "https://arxiv.org/abs/2609.38177v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Breakdown of Local Denoising as Semantic Speciation",
+      "summary": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context",
+      "url": "https://arxiv.org/abs/2609.38176v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+      "summary": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recur",
+      "url": "https://arxiv.org/abs/2609.38169v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+      "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context int",
+      "url": "https://arxiv.org/abs/2609.38166v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
+      "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being misse",
+      "url": "https://arxiv.org/abs/2609.38165v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization",
+      "summary": "Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between",
+      "url": "https://arxiv.org/abs/2609.38161v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
+      "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-label",
+      "url": "https://arxiv.org/abs/2609.38157v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+      "summary": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity",
+      "url": "https://arxiv.org/abs/2609.38155v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Pretraining Latent Information Feedback Transformers with Teacher Supervision",
+      "summary": "Transformer language models (LMs) are feed-forward: deep-layer representations are never fed back to shallower layers, and the only pathway for information to flow downward across generation steps is ",
+      "url": "https://arxiv.org/abs/2609.38149v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 893
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Dots: Always-on agents",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-dots/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 569
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Language models for text classification: From bag-of-words to Jev",
+      "summary": "via magazine.sebastianraschka.com",
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 87
+    },
     {
       "date": "2026-09-28",
       "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
@@ -313,127 +437,6 @@
       "title": "Common-Mode Collapse and Recovery in Direct Feedback Alignment",
       "summary": "Direct feedback alignment (DFA) trains hidden layers through fixed random projections of output error. With tanh hidden units and independent sigmoid outputs, plain stochastic gradient descent can sta",
       "url": "https://arxiv.org/abs/2609.31589v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
-      "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores c",
-      "url": "https://arxiv.org/abs/2609.31587v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Trust Guided Decision Transformer",
-      "summary": "Decision Transformer performance degrades on long rollouts because the conditioning context drifts out of the training distribution. We show that this drift is visible through the model's own next sta",
-      "url": "https://arxiv.org/abs/2609.31586v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-25",
-      "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
-      "summary": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while ma",
-      "url": "https://arxiv.org/abs/2609.31572v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-26",
-      "title": "How to keep enjoying programming in a world of LLMs",
-      "summary": "via discourse.haskell.org",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 208
-    },
-    {
-      "date": "2026-09-26",
-      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "summary": "via tangled.org",
-      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 141
-    },
-    {
-      "date": "2026-09-26",
-      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
-      "summary": "via www.privatemode.ai",
-      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 82
-    },
-    {
-      "date": "2026-09-24",
-      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-      "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own ",
-      "url": "https://arxiv.org/abs/2609.30266v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low",
-      "url": "https://arxiv.org/abs/2609.30264v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-      "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal stru",
-      "url": "https://arxiv.org/abs/2609.30258v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Agentic Detection of Online Conspiracies",
-      "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, sa",
-      "url": "https://arxiv.org/abs/2609.30250v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "RAPID: Robot Agentic Programming from Demonstrations",
-      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrati",
-      "url": "https://arxiv.org/abs/2609.30249v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs",
-      "url": "https://arxiv.org/abs/2609.30247v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "JevOut: Natural Context Can Flip Decision Models",
-      "summary": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. ",
-      "url": "https://arxiv.org/abs/2609.30243v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
-      "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically comp",
-      "url": "https://arxiv.org/abs/2609.30238v1",
       "tags": [],
       "source": "arXiv"
     }
