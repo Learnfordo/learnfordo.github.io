@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-10-01T07:47:34.240Z",
+  "updatedAt": "2026-10-02T07:30:51.232Z",
   "items": [
+    {
+      "date": "2026-10-01",
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained ",
+      "url": "https://arxiv.org/abs/2610.02207v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessment",
+      "url": "https://arxiv.org/abs/2610.02206v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruc",
+      "url": "https://arxiv.org/abs/2610.02204v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Embedding Prediction Helps Image Generation",
+      "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition in",
+      "url": "https://arxiv.org/abs/2610.02203v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of res",
+      "url": "https://arxiv.org/abs/2610.02202v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
+      "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragme",
+      "url": "https://arxiv.org/abs/2610.02201v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+      "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA,",
+      "url": "https://arxiv.org/abs/2610.02200v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+      "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress opt",
+      "url": "https://arxiv.org/abs/2610.02199v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+      "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict ",
+      "url": "https://arxiv.org/abs/2610.02198v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
+      "summary": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous",
+      "url": "https://arxiv.org/abs/2610.02195v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 486
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Context Language Models",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 139
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "summary": "via stoppels.ch",
+      "url": "https://stoppels.ch/goalposts/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 132
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+      "summary": "via github.com",
+      "url": "https://github.com/Vibra-Ingenn/Janus",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 68
+    },
     {
       "date": "2026-09-30",
       "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
@@ -313,136 +437,6 @@
       "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
       "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Ex",
       "url": "https://arxiv.org/abs/2609.35759v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
-      "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and interm",
-      "url": "https://arxiv.org/abs/2609.35760v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
-      "summary": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) ",
-      "url": "https://arxiv.org/abs/2609.35758v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Neural Harmonic Measure Operator",
-      "summary": "We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution tha",
-      "url": "https://arxiv.org/abs/2609.35752v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
-      "summary": "via github.com",
-      "url": "https://github.com/firelex/jeff",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 461
-    },
-    {
-      "date": "2026-09-28",
-      "title": "It's Time to Investigate the AI Labs",
-      "summary": "via calnewport.com",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 444
-    },
-    {
-      "date": "2026-09-28",
-      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
-      "summary": "via stateofutopia.com",
-      "url": "https://stateofutopia.com/experiments/microllmlab/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 217
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
-      "summary": "via www.cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 157
-    },
-    {
-      "date": "2026-09-26",
-      "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
-      "summary": "via archaeologymag.com",
-      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 127
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Cf: The Agentic CLI for the Cloudflare API",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 134
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Steering Language Model Goals with Value Transplant",
-      "summary": "Reasoning models often act as if they pursue goals, but their efforts are not always directed toward what users intend, sometimes leading them to pursue unintended outcomes. Previous work has examined",
-      "url": "https://arxiv.org/abs/2609.34056v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
-      "summary": "Multi-LoRA agent systems enable efficient role specialization by sharing a common backbone model. However, each agent repeatedly processes the growing shared trajectory and constructs its own KV cache",
-      "url": "https://arxiv.org/abs/2609.34054v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "The Statistical Cost of Causal Discovery with Feedback",
-      "summary": "What determines the unavoidable sample cost of learning cyclic causal structure? For cyclic linear non-Gaussian models, we study exact condensation recovery from observational data: identifying the st",
-      "url": "https://arxiv.org/abs/2609.34050v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference",
-      "summary": "Sliding-window KV inference refers to processing a sequence incrementally while retaining only a fixed-size cache of recent key and value states. It can be applied to pretrained causal transformers at",
-      "url": "https://arxiv.org/abs/2609.34049v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark",
-      "summary": "Multimodal models increasingly interpret visual environments, but their ability to recognize the same building across photographs, floor plans, elevations, sections, and renderings remains poorly char",
-      "url": "https://arxiv.org/abs/2609.34047v1",
       "tags": [],
       "source": "arXiv"
     }
