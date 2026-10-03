@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-02T07:30:51.232Z",
+  "updatedAt": "2026-10-03T07:04:53.069Z",
   "items": [
+    {
+      "date": "2026-10-02",
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "summary": "via stillwet.art",
+      "url": "https://stillwet.art/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 261
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 224
+    },
+    {
+      "date": "2026-10-02",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "summary": "via dwarfstar.sh",
+      "url": "https://dwarfstar.sh/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 212
+    },
+    {
+      "date": "2026-10-02",
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "summary": "via arstechnica.com",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 206
+    },
     {
       "date": "2026-10-01",
       "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
@@ -80,6 +124,17 @@
       "url": "https://arxiv.org/abs/2610.02195v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Sites in ChatGPT",
+      "summary": "via chatgpt.com",
+      "url": "https://chatgpt.com/features/sites/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 250
     },
     {
       "date": "2026-10-01",
@@ -397,46 +452,6 @@
       "title": "Telescopic Language Models",
       "summary": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to b",
       "url": "https://arxiv.org/abs/2609.35769v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-      "summary": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) ",
-      "url": "https://arxiv.org/abs/2609.35768v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
-      "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose agai",
-      "url": "https://arxiv.org/abs/2609.35767v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
-      "summary": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and transla",
-      "url": "https://arxiv.org/abs/2609.35765v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Unifying Distributional Training for One-Step Visual Generation",
-      "summary": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theo",
-      "url": "https://arxiv.org/abs/2609.35763v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
-      "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Ex",
-      "url": "https://arxiv.org/abs/2609.35759v1",
       "tags": [],
       "source": "arXiv"
     }
