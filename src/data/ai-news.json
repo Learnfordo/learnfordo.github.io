@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-10-04T07:22:39.717Z",
+  "updatedAt": "2026-10-05T07:40:49.222Z",
   "items": [
+    {
+      "date": "2026-10-05",
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "summary": "via www.motorsport.com",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
+    },
+    {
+      "date": "2026-10-04",
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
+    },
+    {
+      "date": "2026-10-04",
+      "title": "All I wanted was a custom domain email",
+      "summary": "via jacobg.co",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 66
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+      "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geom",
+      "url": "https://arxiv.org/abs/2610.03717v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents",
+      "url": "https://arxiv.org/abs/2610.03715v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+      "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct in",
+      "url": "https://arxiv.org/abs/2610.03713v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+      "summary": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing appro",
+      "url": "https://arxiv.org/abs/2610.03712v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation poi",
+      "url": "https://arxiv.org/abs/2610.03710v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing",
+      "summary": "We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing dece",
+      "url": "https://arxiv.org/abs/2610.03709v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+      "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their ",
+      "url": "https://arxiv.org/abs/2610.03702v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Language Models that Play Chess and Explain Their Moves",
+      "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explana",
+      "url": "https://arxiv.org/abs/2610.03695v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
+      "summary": "Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast ca",
+      "url": "https://arxiv.org/abs/2610.03693v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+      "summary": "The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumpt",
+      "url": "https://arxiv.org/abs/2610.03679v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-10-03",
       "title": "Kolibri: A Sovereign Open-Weight Model",
@@ -347,119 +460,6 @@
       ],
       "source": "HN",
       "score": 119
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Responsible Release of AI-Generated Mathematics",
-      "summary": "via agmai.org",
-      "url": "https://agmai.org/general-sep29/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 91
-    },
-    {
-      "date": "2026-09-30",
-      "title": "PSSA: A non-transformer language model written from scratch in Rust",
-      "summary": "via github.com",
-      "url": "https://github.com/Sparticle62ops/pssa",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 72
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-      "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effe",
-      "url": "https://arxiv.org/abs/2609.38178v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
-      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they strugg",
-      "url": "https://arxiv.org/abs/2609.38177v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Breakdown of Local Denoising as Semantic Speciation",
-      "summary": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context",
-      "url": "https://arxiv.org/abs/2609.38176v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-      "summary": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recur",
-      "url": "https://arxiv.org/abs/2609.38169v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-      "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context int",
-      "url": "https://arxiv.org/abs/2609.38166v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
-      "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being misse",
-      "url": "https://arxiv.org/abs/2609.38165v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization",
-      "summary": "Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between",
-      "url": "https://arxiv.org/abs/2609.38161v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
-      "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-label",
-      "url": "https://arxiv.org/abs/2609.38157v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
-      "summary": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity",
-      "url": "https://arxiv.org/abs/2609.38155v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "Pretraining Latent Information Feedback Transformers with Teacher Supervision",
-      "summary": "Transformer language models (LMs) are feed-forward: deep-layer representations are never fed back to shallower layers, and the only pathway for information to flow downward across generation steps is ",
-      "url": "https://arxiv.org/abs/2609.38149v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 893
     }
   ]
 }
