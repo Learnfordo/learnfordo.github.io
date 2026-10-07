@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-06T08:07:33.166Z",
+  "updatedAt": "2026-10-07T07:42:31.691Z",
   "items": [
+    {
+      "date": "2026-10-06",
+      "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+      "summary": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning the",
+      "url": "https://arxiv.org/abs/2610.08789v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+      "summary": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic mea",
+      "url": "https://arxiv.org/abs/2610.08785v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+      "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to un",
+      "url": "https://arxiv.org/abs/2610.08782v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "summary": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-",
+      "url": "https://arxiv.org/abs/2610.08781v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D ge",
+      "url": "https://arxiv.org/abs/2610.08780v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teac",
+      "url": "https://arxiv.org/abs/2610.08778v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solu",
+      "url": "https://arxiv.org/abs/2610.08775v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+      "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply",
+      "url": "https://arxiv.org/abs/2610.08773v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+      "summary": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fred",
+      "url": "https://arxiv.org/abs/2610.08764v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+      "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery",
+      "url": "https://arxiv.org/abs/2610.08761v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Sharing AI progress in mathematics",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 809
+    },
+    {
+      "date": "2026-10-06",
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 301
+    },
+    {
+      "date": "2026-10-06",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "summary": "via github.com",
+      "url": "https://github.com/FeSens/openTPU",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 277
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "summary": "via www.zohaib.cc",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "summary": "via penguin-mail.com",
+      "url": "https://penguin-mail.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 154
+    },
     {
       "date": "2026-10-05",
       "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
@@ -316,150 +451,6 @@
       "url": "https://arxiv.org/abs/2610.02204v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Embedding Prediction Helps Image Generation",
-      "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition in",
-      "url": "https://arxiv.org/abs/2610.02203v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of res",
-      "url": "https://arxiv.org/abs/2610.02202v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-      "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragme",
-      "url": "https://arxiv.org/abs/2610.02201v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
-      "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA,",
-      "url": "https://arxiv.org/abs/2610.02200v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-      "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress opt",
-      "url": "https://arxiv.org/abs/2610.02199v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-      "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict ",
-      "url": "https://arxiv.org/abs/2610.02198v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
-      "summary": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous",
-      "url": "https://arxiv.org/abs/2610.02195v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-      "summary": "via stillwet.art",
-      "url": "https://stillwet.art/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 261
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 224
-    },
-    {
-      "date": "2026-10-02",
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "summary": "via dwarfstar.sh",
-      "url": "https://dwarfstar.sh/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
-    },
-    {
-      "date": "2026-10-02",
-      "title": "With most information hidden, the game Stratego had stumped AI until now",
-      "summary": "via arstechnica.com",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 206
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Sites in ChatGPT",
-      "summary": "via chatgpt.com",
-      "url": "https://chatgpt.com/features/sites/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 250
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 486
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Context Language Models",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2609.37725",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 139
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Vote on which of Hacker News' challenges for AI have been met",
-      "summary": "via stoppels.ch",
-      "url": "https://stoppels.ch/goalposts/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 132
     }
   ]
 }
