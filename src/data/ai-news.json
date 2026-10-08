@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-10-07T07:42:31.691Z",
+  "updatedAt": "2026-10-08T07:58:27.401Z",
   "items": [
+    {
+      "date": "2026-10-07",
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container,",
+      "url": "https://arxiv.org/abs/2610.10538v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Decoupling Exploration from Optimization in RLVR",
+      "summary": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In princ",
+      "url": "https://arxiv.org/abs/2610.10536v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Be",
+      "url": "https://arxiv.org/abs/2610.10533v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the con",
+      "url": "https://arxiv.org/abs/2610.10528v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+      "summary": "Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized s",
+      "url": "https://arxiv.org/abs/2610.10527v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+      "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can mo",
+      "url": "https://arxiv.org/abs/2610.10526v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Distilling Graph Geometry: Knowledge Gap from GNNs to MLPs",
+      "summary": "GNN-to-MLP distillation aims to retain the predictive accuracy of a message-passing teacher while deploying a graph-free MLP at inference. Existing methods mainly transfer node-wise predictions or use",
+      "url": "https://arxiv.org/abs/2610.10520v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Why Forget-Only Unlearning Needs Memorization",
+      "summary": "Machine unlearning asks for a deletion algorithm whose output is close to retraining from scratch without the selected forget examples. In this work, we study forget-only unlearning, where the deletio",
+      "url": "https://arxiv.org/abs/2610.10519v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with",
+      "url": "https://arxiv.org/abs/2610.10515v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+      "summary": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of w",
+      "url": "https://arxiv.org/abs/2610.10513v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Claude Haiku 5.5",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 841
+    },
+    {
+      "date": "2026-10-07",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 603
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Docker Agent",
+      "summary": "via github.com",
+      "url": "https://github.com/docker/docker-agent",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 222
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Sharing AI progress in mathematics",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1274
+    },
     {
       "date": "2026-10-06",
       "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
@@ -80,17 +204,6 @@
       "url": "https://arxiv.org/abs/2610.08761v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Sharing AI progress in mathematics",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 809
     },
     {
       "date": "2026-10-06",
@@ -333,122 +446,6 @@
       "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
       "summary": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing appro",
       "url": "https://arxiv.org/abs/2610.03712v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation poi",
-      "url": "https://arxiv.org/abs/2610.03710v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing",
-      "summary": "We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing dece",
-      "url": "https://arxiv.org/abs/2610.03709v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
-      "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their ",
-      "url": "https://arxiv.org/abs/2610.03702v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Language Models that Play Chess and Explain Their Moves",
-      "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explana",
-      "url": "https://arxiv.org/abs/2610.03695v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
-      "summary": "Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast ca",
-      "url": "https://arxiv.org/abs/2610.03693v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
-      "summary": "The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumpt",
-      "url": "https://arxiv.org/abs/2610.03679v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-03",
-      "title": "Kolibri: A Sovereign Open-Weight Model",
-      "summary": "via aleph-alpha.com",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 589
-    },
-    {
-      "date": "2026-10-03",
-      "title": "I quit OpenAI because its culture is broken",
-      "summary": "via www.theatlantic.com",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
-    },
-    {
-      "date": "2026-10-03",
-      "title": "Agents don't need memory, they need documentation",
-      "summary": "via liao.gg",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 137
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "summary": "via pipod.dev",
-      "url": "https://pipod.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 90
-    },
-    {
-      "date": "2026-10-01",
-      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-      "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained ",
-      "url": "https://arxiv.org/abs/2610.02207v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessment",
-      "url": "https://arxiv.org/abs/2610.02206v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruc",
-      "url": "https://arxiv.org/abs/2610.02204v1",
       "tags": [],
       "source": "arXiv"
     }
