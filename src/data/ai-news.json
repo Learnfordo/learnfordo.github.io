@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-10-08T07:58:27.401Z",
+  "updatedAt": "2026-10-09T08:00:03.478Z",
   "items": [
+    {
+      "date": "2026-10-08",
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either ",
+      "url": "https://arxiv.org/abs/2610.12467v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and",
+      "url": "https://arxiv.org/abs/2610.12466v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, c",
+      "url": "https://arxiv.org/abs/2610.12465v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research i",
+      "url": "https://arxiv.org/abs/2610.12463v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "BrickBench: Evaluating Agentic Brick Design",
+      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but",
+      "url": "https://arxiv.org/abs/2610.12452v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillatio",
+      "url": "https://arxiv.org/abs/2610.12448v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a sing",
+      "url": "https://arxiv.org/abs/2610.12449v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier m",
+      "url": "https://arxiv.org/abs/2610.12445v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+      "summary": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-st",
+      "url": "https://arxiv.org/abs/2610.12444v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Density Ratio Estimation with Stein Displacement Fields",
+      "summary": "Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another",
+      "url": "https://arxiv.org/abs/2610.12437v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "OpenAI withdraws three mathematical results",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 298
+    },
+    {
+      "date": "2026-10-08",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "summary": "via biohub.org",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 118
+    },
+    {
+      "date": "2026-10-08",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "summary": "via karagila.org",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
     {
       "date": "2026-10-07",
       "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
@@ -318,134 +431,6 @@
       "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
       "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic ",
       "url": "https://arxiv.org/abs/2610.06830v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
-      "summary": "Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for ",
-      "url": "https://arxiv.org/abs/2610.06829v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Beam: Reflection's 501B open-weight model",
-      "summary": "via reflection.ai",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 430
-    },
-    {
-      "date": "2026-10-05",
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "summary": "via www.niemanlab.org",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 406
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "summary": "via www.vals.ai",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 334
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Dust: Pretraining Transformers Without Backpropagation",
-      "summary": "via qlabs.sh",
-      "url": "https://qlabs.sh/research/dust",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 167
-    },
-    {
-      "date": "2026-10-03",
-      "title": "An algorithmic failure beneath the secret ballot",
-      "summary": "via blog.citp.princeton.edu",
-      "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 75
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-      "summary": "via www.motorsport.com",
-      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-10-04",
-      "title": "How to scale intent, quality, and artistry with AI [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 79
-    },
-    {
-      "date": "2026-10-04",
-      "title": "All I wanted was a custom domain email",
-      "summary": "via jacobg.co",
-      "url": "https://jacobg.co/emails-at-jacobg-co/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 66
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-      "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geom",
-      "url": "https://arxiv.org/abs/2610.03717v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents",
-      "url": "https://arxiv.org/abs/2610.03715v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
-      "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct in",
-      "url": "https://arxiv.org/abs/2610.03713v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
-      "summary": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing appro",
-      "url": "https://arxiv.org/abs/2610.03712v1",
       "tags": [],
       "source": "arXiv"
     }
