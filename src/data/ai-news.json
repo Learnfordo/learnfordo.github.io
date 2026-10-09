@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T08:00:03.478Z",
+  "updatedAt": "2026-10-09T09:47:23.458Z",
   "items": [
     {
       "date": "2026-10-08",
@@ -90,7 +90,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 298
+      "score": 312
+    },
+    {
+      "date": "2026-10-08",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "summary": "via www.reddit.com",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 176
     },
     {
       "date": "2026-10-08",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 118
+      "score": 123
     },
     {
       "date": "2026-10-08",
@@ -112,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 107
+      "score": 121
     },
     {
       "date": "2026-10-07",
@@ -423,14 +434,6 @@
       "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
       "summary": "Sliders provide an intuitive interface for continuous image editing. In current generative approaches, however, the slider is simply a rescaling of the method's strength parameter, such as an adapter ",
       "url": "https://arxiv.org/abs/2610.06831v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-      "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic ",
-      "url": "https://arxiv.org/abs/2610.06830v1",
       "tags": [],
       "source": "arXiv"
     }
