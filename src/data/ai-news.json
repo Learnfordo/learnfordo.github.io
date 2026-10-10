@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T04:30:39.362Z",
+  "updatedAt": "2026-10-10T07:44:21.767Z",
   "items": [
     {
       "date": "2026-10-09",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 305
+      "score": 349
     },
     {
       "date": "2026-10-09",
@@ -21,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 126
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-      "summary": "via www.nbcphiladelphia.com",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 107
+      "score": 138
     },
     {
       "date": "2026-10-09",
@@ -43,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 59
+      "score": 93
     },
     {
       "date": "2026-10-08",
@@ -124,6 +113,17 @@
       "url": "https://arxiv.org/abs/2610.12437v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "summary": "via www.nbcphiladelphia.com",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
     },
     {
       "date": "2026-10-08",
