@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-09T09:47:23.458Z",
+  "updatedAt": "2026-10-10T04:30:39.362Z",
   "items": [
+    {
+      "date": "2026-10-09",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "summary": "via typesafe.ai",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 305
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "summary": "via jessewaites.com",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 126
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "summary": "via www.nbcphiladelphia.com",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
+    {
+      "date": "2026-10-09",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "summary": "via terrytao.wordpress.com",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
     {
       "date": "2026-10-08",
       "title": "CSF: Contextual Safety Filtering for Motion Generators",
@@ -402,38 +446,6 @@
       "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
       "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, formi",
       "url": "https://arxiv.org/abs/2610.06844v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Recursive Video In-Context Learning for Agentic Robot",
-      "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration vid",
-      "url": "https://arxiv.org/abs/2610.06843v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Direct Intermediate Initialization for Tilted Diffusion Samplers",
-      "summary": "Some diffusion posterior samplers construct Gaussian-tilted intermediate distributions along the reverse process. We observe that these targets can be pulled back to clean-space posteriors with weaker",
-      "url": "https://arxiv.org/abs/2610.06834v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
-      "summary": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matter",
-      "url": "https://arxiv.org/abs/2610.06833v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
-      "summary": "Sliders provide an intuitive interface for continuous image editing. In current generative approaches, however, the slider is simply a rescaling of the method's strength parameter, such as an adapter ",
-      "url": "https://arxiv.org/abs/2610.06831v1",
       "tags": [],
       "source": "arXiv"
     }
