@@ -1,38 +1,49 @@
 {
-  "updatedAt": "2026-10-10T07:44:21.767Z",
+  "updatedAt": "2026-10-11T07:48:19.434Z",
   "items": [
     {
-      "date": "2026-10-09",
-      "title": "Typesafe AI raises $870M at $7.5B",
-      "summary": "via typesafe.ai",
-      "url": "https://typesafe.ai/blog/series-ai",
+      "date": "2026-10-10",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "summary": "via github.com",
+      "url": "https://github.com/rociiu/talorys",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 349
+      "score": 282
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Build your own decision model",
+      "summary": "via nishtahir.com",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 246
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "summary": "via www.ft.com",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 162
     },
     {
       "date": "2026-10-09",
-      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-      "summary": "via jessewaites.com",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "summary": "via blogs.windows.com",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 138
-    },
-    {
-      "date": "2026-10-09",
-      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-      "summary": "via terrytao.wordpress.com",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 93
+      "score": 184
     },
     {
       "date": "2026-10-08",
@@ -113,6 +124,50 @@
       "url": "https://arxiv.org/abs/2610.12437v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Grieving the loss of details",
+      "summary": "via purplesyringa.moe",
+      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 420
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "summary": "via typesafe.ai",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 349
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "summary": "via jessewaites.com",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 138
+    },
+    {
+      "date": "2026-10-09",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "summary": "via terrytao.wordpress.com",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 93
     },
     {
       "date": "2026-10-09",
@@ -405,49 +460,6 @@
       ],
       "source": "HN",
       "score": 181
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "summary": "via penguin-mail.com",
-      "url": "https://penguin-mail.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 154
-    },
-    {
-      "date": "2026-10-05",
-      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
-      "summary": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different ",
-      "url": "https://arxiv.org/abs/2610.06852v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Base Models Can Reason By Taking a Cue From Training Data",
-      "summary": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing par",
-      "url": "https://arxiv.org/abs/2610.06851v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
-      "summary": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitorin",
-      "url": "https://arxiv.org/abs/2610.06846v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-      "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, formi",
-      "url": "https://arxiv.org/abs/2610.06844v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
