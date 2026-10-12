@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T04:30:31.016Z",
+  "updatedAt": "2026-10-12T07:58:11.398Z",
   "items": [
     {
       "date": "2026-10-11",
@@ -10,18 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 325
-    },
-    {
-      "date": "2026-10-11",
-      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "summary": "via momo5502.com",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
+      "score": 428
     },
     {
       "date": "2026-10-09",
@@ -102,6 +91,17 @@
       "url": "https://arxiv.org/abs/2610.13910v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "summary": "via momo5502.com",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 185
     },
     {
       "date": "2026-10-10",
