@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-10-11T07:48:19.434Z",
+  "updatedAt": "2026-10-12T04:30:31.016Z",
   "items": [
+    {
+      "date": "2026-10-11",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 325
+    },
+    {
+      "date": "2026-10-11",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "summary": "via momo5502.com",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 185
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowled",
+      "url": "https://arxiv.org/abs/2610.13948v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts",
+      "url": "https://arxiv.org/abs/2610.13935v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+      "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand",
+      "url": "https://arxiv.org/abs/2610.13931v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption doe",
+      "url": "https://arxiv.org/abs/2610.13928v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
+      "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averag",
+      "url": "https://arxiv.org/abs/2610.13924v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+      "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communicati",
+      "url": "https://arxiv.org/abs/2610.13923v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
+      "summary": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical in",
+      "url": "https://arxiv.org/abs/2610.13918v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Designing Protein Structures from Natural Language",
+      "summary": "A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a dedicated input representation for ea",
+      "url": "https://arxiv.org/abs/2610.13917v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies ev",
+      "url": "https://arxiv.org/abs/2610.13912v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+      "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such r",
+      "url": "https://arxiv.org/abs/2610.13910v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-10-10",
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -355,111 +457,6 @@
       "url": "https://arxiv.org/abs/2610.08789v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
-      "summary": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic mea",
-      "url": "https://arxiv.org/abs/2610.08785v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-      "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to un",
-      "url": "https://arxiv.org/abs/2610.08782v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
-      "summary": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-",
-      "url": "https://arxiv.org/abs/2610.08781v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "DepthWorld: 3D World Model for Robot Manipulation",
-      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D ge",
-      "url": "https://arxiv.org/abs/2610.08780v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-      "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teac",
-      "url": "https://arxiv.org/abs/2610.08778v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
-      "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solu",
-      "url": "https://arxiv.org/abs/2610.08775v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
-      "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply",
-      "url": "https://arxiv.org/abs/2610.08773v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
-      "summary": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fred",
-      "url": "https://arxiv.org/abs/2610.08764v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
-      "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery",
-      "url": "https://arxiv.org/abs/2610.08761v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "summary": "via blog.google",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 301
-    },
-    {
-      "date": "2026-10-06",
-      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
-      "summary": "via github.com",
-      "url": "https://github.com/FeSens/openTPU",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 277
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "summary": "via www.zohaib.cc",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
     }
   ]
 }
