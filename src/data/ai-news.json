@@ -1,16 +1,60 @@
 {
-  "updatedAt": "2026-10-12T07:58:11.398Z",
+  "updatedAt": "2026-10-13T04:30:37.240Z",
   "items": [
     {
-      "date": "2026-10-11",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "date": "2026-10-12",
+      "title": "AI is a tool and using it well takes skill",
+      "summary": "via yyhh.org",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 428
+      "score": 281
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "summary": "via taylor.town",
+      "url": "https://taylor.town/kk-ai-2026",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 155
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "summary": "Hey HN, I’m Vishnu from Agent37 (https:&#x2F;&#x2F;agent37.com). We build sandboxes for running AI agents ",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 121
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "summary": "via www.intel.com",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 118
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "summary": "via github.com",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 86
     },
     {
       "date": "2026-10-09",
@@ -91,6 +135,17 @@
       "url": "https://arxiv.org/abs/2610.13910v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 428
     },
     {
       "date": "2026-10-11",
@@ -403,58 +458,6 @@
       "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
       "summary": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of w",
       "url": "https://arxiv.org/abs/2610.10513v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Claude Haiku 5.5",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 841
-    },
-    {
-      "date": "2026-10-07",
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 603
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Docker Agent",
-      "summary": "via github.com",
-      "url": "https://github.com/docker/docker-agent",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 222
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Sharing AI progress in mathematics",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1274
-    },
-    {
-      "date": "2026-10-06",
-      "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
-      "summary": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning the",
-      "url": "https://arxiv.org/abs/2610.08789v1",
       "tags": [],
       "source": "arXiv"
     }
