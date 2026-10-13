@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T04:30:37.240Z",
+  "updatedAt": "2026-10-13T08:25:42.516Z",
   "items": [
     {
       "date": "2026-10-12",
@@ -10,29 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 281
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "summary": "via taylor.town",
-      "url": "https://taylor.town/kk-ai-2026",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 155
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "summary": "Hey HN, I’m Vishnu from Agent37 (https:&#x2F;&#x2F;agent37.com). We build sandboxes for running AI agents ",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
+      "score": 384
     },
     {
       "date": "2026-10-12",
@@ -43,18 +21,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 118
+      "score": 187
     },
     {
       "date": "2026-10-12",
-      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-      "summary": "via github.com",
-      "url": "https://github.com/SaarthurR/atticus-mac",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "summary": "via taylor.town",
+      "url": "https://taylor.town/kk-ai-2026",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 86
+      "score": 181
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "summary": "Hey HN, I’m Vishnu from Agent37 (https:&#x2F;&#x2F;agent37.com). We build sandboxes for running AI agents ",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 130
     },
     {
       "date": "2026-10-09",
@@ -135,6 +124,17 @@
       "url": "https://arxiv.org/abs/2610.13910v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "summary": "via github.com",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 86
     },
     {
       "date": "2026-10-11",
