@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-14T04:30:36.128Z",
+  "updatedAt": "2026-10-14T06:42:04.905Z",
   "items": [
+    {
+      "date": "2026-10-13",
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and th",
+      "url": "https://arxiv.org/abs/2610.18874v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+      "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension ",
+      "url": "https://arxiv.org/abs/2610.18871v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across ",
+      "url": "https://arxiv.org/abs/2610.18869v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recur",
+      "url": "https://arxiv.org/abs/2610.18868v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Data Free Training of Diffusion Models for Lattice Field Theories",
+      "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configuration",
+      "url": "https://arxiv.org/abs/2610.18863v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+      "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional traini",
+      "url": "https://arxiv.org/abs/2610.18862v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how t",
+      "url": "https://arxiv.org/abs/2610.18860v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Hybrid Reasoning Agents",
+      "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning off",
+      "url": "https://arxiv.org/abs/2610.18861v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
+      "summary": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing ",
+      "url": "https://arxiv.org/abs/2610.18856v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately pre",
+      "url": "https://arxiv.org/abs/2610.18853v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 701
+    },
+    {
+      "date": "2026-10-13",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "summary": "via sfstandard.com",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 519
+    },
+    {
+      "date": "2026-10-13",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "summary": "via www.sammystraus.com",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 312
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "summary": "via 9to5mac.com",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 247
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "summary": "via pulseos.finance",
+      "url": "https://pulseos.finance",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 99
+    },
     {
       "date": "2026-10-13",
       "title": "Retrieval Disagreement as a Signal: Diagnosing and Steering Multilingual Dense Embedders",
@@ -80,61 +215,6 @@
       "url": "https://arxiv.org/abs/2610.18508v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Redesigning source control at Anthropic",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 619
-    },
-    {
-      "date": "2026-10-13",
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "summary": "via sfstandard.com",
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 476
-    },
-    {
-      "date": "2026-10-13",
-      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "summary": "via www.sammystraus.com",
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 286
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
-      "summary": "via 9to5mac.com",
-      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 226
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-      "summary": "via pulseos.finance",
-      "url": "https://pulseos.finance",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 80
     },
     {
       "date": "2026-10-12",
@@ -368,98 +448,6 @@
       "url": "https://arxiv.org/abs/2610.12463v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "BrickBench: Evaluating Agentic Brick Design",
-      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but",
-      "url": "https://arxiv.org/abs/2610.12452v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-      "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillatio",
-      "url": "https://arxiv.org/abs/2610.12448v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-      "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a sing",
-      "url": "https://arxiv.org/abs/2610.12449v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier m",
-      "url": "https://arxiv.org/abs/2610.12445v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
-      "summary": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-st",
-      "url": "https://arxiv.org/abs/2610.12444v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "Density Ratio Estimation with Stein Displacement Fields",
-      "summary": "Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another",
-      "url": "https://arxiv.org/abs/2610.12437v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Grieving the loss of details",
-      "summary": "via purplesyringa.moe",
-      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 420
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Typesafe AI raises $870M at $7.5B",
-      "summary": "via typesafe.ai",
-      "url": "https://typesafe.ai/blog/series-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 349
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-      "summary": "via jessewaites.com",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 138
-    },
-    {
-      "date": "2026-10-09",
-      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-      "summary": "via terrytao.wordpress.com",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 93
     }
   ]
 }
