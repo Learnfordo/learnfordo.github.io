@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-13T08:25:42.516Z",
+  "updatedAt": "2026-10-14T04:30:36.128Z",
   "items": [
+    {
+      "date": "2026-10-13",
+      "title": "Retrieval Disagreement as a Signal: Diagnosing and Steering Multilingual Dense Embedders",
+      "summary": "Multilingual dense retrievers place all languages in one shared space so that a question finds relevant documents, regardless of which language they are written in. We show that the same question, ask",
+      "url": "https://arxiv.org/abs/2610.18526v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "APTree: Extended Behavior Trees for Adaptive and Scalable Automated Robotic Task Planning in Construction",
+      "summary": "Task planning for robots in off-site construction prefabrication is primarily manual, leading to planning inefficiencies and reluctance to adopt robotic solutions. Existing approaches provide limited ",
+      "url": "https://arxiv.org/abs/2610.18523v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
+      "summary": "Reusable skills let LLM agents load task-specific instructions on demand, but they make execution depend on implicit routing over skill metadata. We test whether this design scales by holding SkillsBe",
+      "url": "https://arxiv.org/abs/2610.18522v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Geometry of Language Model Logits: Generic Structure and Learned Departures",
+      "summary": "Autoregressive language models produce, at every prediction step, a vocabulary-sized logit vector whose structure determines the conditional next-token distribution. We empirically identify that the o",
+      "url": "https://arxiv.org/abs/2610.18520v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Imprinting: Knowledge Distillation Can Shift Student Behavior",
+      "summary": "Knowledge distillation trains student models on teacher-generated responses to transfer task capability, but those responses may also carry behavioral tendencies of their source. We investigate whethe",
+      "url": "https://arxiv.org/abs/2610.18517v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
+      "summary": "Post-training pruning enables efficient deployment, but conventional methods do not explicitly preserve internal-gradient alignment between sparse and dense models. We study novel connections between ",
+      "url": "https://arxiv.org/abs/2610.18516v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "A Global View of How LLMs Value Human Time",
+      "summary": "Large language models (LLMs) increasingly act as personal assistants; however, little is known about how they capture national-level preferences on a global scale. Given that \"time\" is a universal and",
+      "url": "https://arxiv.org/abs/2610.18515v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Approximating Optimal Policies in Heterogeneous Asynchronous Multi-player Bandits",
+      "summary": "Motivated by applications to cognitive radio networks, multi-player multi-armed bandits (MMAB) have attracted considerable attention in recent years. The asynchronous variant, in which players are act",
+      "url": "https://arxiv.org/abs/2610.18514v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization at Scale",
+      "summary": "Buildings cause nearly 40\\% of carbon emissions in the US. Of total building emissions, HVAC systems are responsible for approximately 40-60\\% and account for 15\\% of global energy consumption. Despit",
+      "url": "https://arxiv.org/abs/2610.18511v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Towards Safe Autonomy for Computer Use",
+      "summary": "The safety of LLM-based agents currently rests on alignment training and safety classifiers, neither of which can rule out that a sophisticated indirect prompt injection (IPI) goes through and causes ",
+      "url": "https://arxiv.org/abs/2610.18508v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 619
+    },
+    {
+      "date": "2026-10-13",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "summary": "via sfstandard.com",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 476
+    },
+    {
+      "date": "2026-10-13",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "summary": "via www.sammystraus.com",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 286
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "summary": "via 9to5mac.com",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 226
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "summary": "via pulseos.finance",
+      "url": "https://pulseos.finance",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 80
+    },
     {
       "date": "2026-10-12",
       "title": "AI is a tool and using it well takes skill",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 93
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-      "summary": "via www.nbcphiladelphia.com",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 107
-    },
-    {
-      "date": "2026-10-08",
-      "title": "OpenAI withdraws three mathematical results",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 312
-    },
-    {
-      "date": "2026-10-08",
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "summary": "via www.reddit.com",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 176
-    },
-    {
-      "date": "2026-10-08",
-      "title": "AI-ready biological data: $1.8B global commitment",
-      "summary": "via biohub.org",
-      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 123
-    },
-    {
-      "date": "2026-10-08",
-      "title": "OpenAI, the Partition Principle, and Mathematics",
-      "summary": "via karagila.org",
-      "url": "https://karagila.org/2026/openai-pp/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 121
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
-      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container,",
-      "url": "https://arxiv.org/abs/2610.10538v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Decoupling Exploration from Optimization in RLVR",
-      "summary": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In princ",
-      "url": "https://arxiv.org/abs/2610.10536v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Be",
-      "url": "https://arxiv.org/abs/2610.10533v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Long-WAM: Scaling the Context of World-Action Models",
-      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the con",
-      "url": "https://arxiv.org/abs/2610.10528v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
-      "summary": "Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized s",
-      "url": "https://arxiv.org/abs/2610.10527v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
-      "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can mo",
-      "url": "https://arxiv.org/abs/2610.10526v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Distilling Graph Geometry: Knowledge Gap from GNNs to MLPs",
-      "summary": "GNN-to-MLP distillation aims to retain the predictive accuracy of a message-passing teacher while deploying a graph-free MLP at inference. Existing methods mainly transfer node-wise predictions or use",
-      "url": "https://arxiv.org/abs/2610.10520v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Why Forget-Only Unlearning Needs Memorization",
-      "summary": "Machine unlearning asks for a deletion algorithm whose output is close to retraining from scratch without the selected forget examples. In this work, we study forget-only unlearning, where the deletio",
-      "url": "https://arxiv.org/abs/2610.10519v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "RoboJEPA: Scaling Robotic Latent World Models",
-      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with",
-      "url": "https://arxiv.org/abs/2610.10515v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
-      "summary": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of w",
-      "url": "https://arxiv.org/abs/2610.10513v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
