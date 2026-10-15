@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T04:30:34.057Z",
+  "updatedAt": "2026-10-15T06:26:28.744Z",
   "items": [
     {
       "date": "2026-10-14",
@@ -90,7 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 854
+      "score": 868
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "summary": "via sunshowers.io",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 341
+    },
+    {
+      "date": "2026-10-14",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "summary": "via www.liquid.ai",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 156
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Has AI tells",
+      "summary": "via theconsensus.dev",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 107
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "summary": "I’m a hobbyist woodworker. I manually design simple things in Shapr3d with a lot of patience when I build things. I wonder in the time of LLMs if ther",
+      "url": "https://news.ycombinator.com/item?id=50067325",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 57
     },
     {
       "date": "2026-10-14",
@@ -102,39 +146,6 @@
       ],
       "source": "HN",
       "score": 337
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "summary": "via sunshowers.io",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 311
-    },
-    {
-      "date": "2026-10-14",
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "summary": "via www.liquid.ai",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 113
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Has AI tells",
-      "summary": "via theconsensus.dev",
-      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 95
     },
     {
       "date": "2026-10-13",
@@ -432,14 +443,6 @@
       "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
       "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averag",
       "url": "https://arxiv.org/abs/2610.13924v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
-      "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communicati",
-      "url": "https://arxiv.org/abs/2610.13923v1",
       "tags": [],
       "source": "arXiv"
     }
