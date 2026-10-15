@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-14T06:42:04.905Z",
+  "updatedAt": "2026-10-15T04:30:34.057Z",
   "items": [
+    {
+      "date": "2026-10-14",
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained thr",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling be",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Co-Evolving Acting and Forecasting for Language Agents",
+      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision ",
+      "url": "https://arxiv.org/abs/2610.20597v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Your Transformer Is Secretly Elastic",
+      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L),",
+      "url": "https://arxiv.org/abs/2610.20588v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the re",
+      "url": "https://arxiv.org/abs/2610.20587v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Continuum Attention",
+      "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query",
+      "url": "https://arxiv.org/abs/2610.20586v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Learnable Hodge-Laplacian Driven Mixture of Experts for Steady-PDE Surrogates on Coarse Unstructured Meshes",
+      "summary": "Current approaches for steady partial differential equations surrogate models on unstructured meshes apply a single mixing mechanism to the whole solution. This paper proposes an architecture that par",
+      "url": "https://arxiv.org/abs/2610.20585v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remai",
+      "url": "https://arxiv.org/abs/2610.20584v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Latent Compaction with Test-Time Training",
+      "summary": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Laten",
+      "url": "https://arxiv.org/abs/2610.20582v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave ",
+      "url": "https://arxiv.org/abs/2610.20576v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "summary": "via www.csoonline.com",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 854
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "summary": "via startupfortune.com",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 337
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "summary": "via sunshowers.io",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 311
+    },
+    {
+      "date": "2026-10-14",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "summary": "via www.liquid.ai",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 113
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Has AI tells",
+      "summary": "via theconsensus.dev",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 95
+    },
     {
       "date": "2026-10-13",
       "title": "ChunkAct: Action Chunking for Agentic Robotics",
@@ -305,147 +440,6 @@
       "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
       "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communicati",
       "url": "https://arxiv.org/abs/2610.13923v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
-      "summary": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical in",
-      "url": "https://arxiv.org/abs/2610.13918v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Designing Protein Structures from Natural Language",
-      "summary": "A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a dedicated input representation for ea",
-      "url": "https://arxiv.org/abs/2610.13917v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
-      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies ev",
-      "url": "https://arxiv.org/abs/2610.13912v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
-      "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such r",
-      "url": "https://arxiv.org/abs/2610.13910v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-      "summary": "via github.com",
-      "url": "https://github.com/SaarthurR/atticus-mac",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 86
-    },
-    {
-      "date": "2026-10-11",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 428
-    },
-    {
-      "date": "2026-10-11",
-      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "summary": "via momo5502.com",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 185
-    },
-    {
-      "date": "2026-10-10",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "summary": "via github.com",
-      "url": "https://github.com/rociiu/talorys",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 282
-    },
-    {
-      "date": "2026-10-10",
-      "title": "Build your own decision model",
-      "summary": "via nishtahir.com",
-      "url": "https://nishtahir.com/build-your-own-decision-model/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 246
-    },
-    {
-      "date": "2026-10-10",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "summary": "via www.ft.com",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 162
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "summary": "via blogs.windows.com",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 184
-    },
-    {
-      "date": "2026-10-08",
-      "title": "CSF: Contextual Safety Filtering for Motion Generators",
-      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either ",
-      "url": "https://arxiv.org/abs/2610.12467v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-      "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and",
-      "url": "https://arxiv.org/abs/2610.12466v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-      "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, c",
-      "url": "https://arxiv.org/abs/2610.12465v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research i",
-      "url": "https://arxiv.org/abs/2610.12463v1",
       "tags": [],
       "source": "arXiv"
     }
