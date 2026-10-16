@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-10-15T06:26:28.744Z",
+  "updatedAt": "2026-10-16T04:30:31.650Z",
   "items": [
+    {
+      "date": "2026-10-15",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, person",
+      "url": "https://arxiv.org/abs/2610.22372v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of effici",
+      "url": "https://arxiv.org/abs/2610.22367v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from ph",
+      "url": "https://arxiv.org/abs/2610.22364v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a p",
+      "url": "https://arxiv.org/abs/2610.22362v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future tra",
+      "url": "https://arxiv.org/abs/2610.22358v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements",
+      "url": "https://arxiv.org/abs/2610.22355v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and s",
+      "url": "https://arxiv.org/abs/2610.22353v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engin",
+      "url": "https://arxiv.org/abs/2610.22350v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recur",
+      "url": "https://arxiv.org/abs/2610.22344v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these f",
+      "url": "https://arxiv.org/abs/2610.22343v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Neural networks are clean",
+      "summary": "via already-clean.goodfire.com",
+      "url": "https://already-clean.goodfire.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 562
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Krea 3 – An image model built for editing at scale",
+      "summary": "via www.krea.ai",
+      "url": "https://www.krea.ai/krea-3",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 278
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Using AI to reverse engineer hardware",
+      "summary": "via blogs.gnome.org",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 142
+    },
     {
       "date": "2026-10-14",
       "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
@@ -327,122 +440,6 @@
       "title": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
       "summary": "Post-training pruning enables efficient deployment, but conventional methods do not explicitly preserve internal-gradient alignment between sparse and dense models. We study novel connections between ",
       "url": "https://arxiv.org/abs/2610.18516v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "A Global View of How LLMs Value Human Time",
-      "summary": "Large language models (LLMs) increasingly act as personal assistants; however, little is known about how they capture national-level preferences on a global scale. Given that \"time\" is a universal and",
-      "url": "https://arxiv.org/abs/2610.18515v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Approximating Optimal Policies in Heterogeneous Asynchronous Multi-player Bandits",
-      "summary": "Motivated by applications to cognitive radio networks, multi-player multi-armed bandits (MMAB) have attracted considerable attention in recent years. The asynchronous variant, in which players are act",
-      "url": "https://arxiv.org/abs/2610.18514v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization at Scale",
-      "summary": "Buildings cause nearly 40\\% of carbon emissions in the US. Of total building emissions, HVAC systems are responsible for approximately 40-60\\% and account for 15\\% of global energy consumption. Despit",
-      "url": "https://arxiv.org/abs/2610.18511v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Towards Safe Autonomy for Computer Use",
-      "summary": "The safety of LLM-based agents currently rests on alignment training and safety classifiers, neither of which can rule out that a sophisticated indirect prompt injection (IPI) goes through and causes ",
-      "url": "https://arxiv.org/abs/2610.18508v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "AI is a tool and using it well takes skill",
-      "summary": "via yyhh.org",
-      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 384
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "summary": "via www.intel.com",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 187
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "summary": "via taylor.town",
-      "url": "https://taylor.town/kk-ai-2026",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "summary": "Hey HN, I’m Vishnu from Agent37 (https:&#x2F;&#x2F;agent37.com). We build sandboxes for running AI agents ",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 130
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Can Language Models Play the Wikipedia Game?",
-      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowled",
-      "url": "https://arxiv.org/abs/2610.13948v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts",
-      "url": "https://arxiv.org/abs/2610.13935v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
-      "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand",
-      "url": "https://arxiv.org/abs/2610.13931v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
-      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption doe",
-      "url": "https://arxiv.org/abs/2610.13928v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
-      "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averag",
-      "url": "https://arxiv.org/abs/2610.13924v1",
       "tags": [],
       "source": "arXiv"
     }
