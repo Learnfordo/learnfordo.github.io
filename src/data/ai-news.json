@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-16T06:21:42.465Z",
+  "updatedAt": "2026-10-17T06:11:36.339Z",
   "items": [
+    {
+      "date": "2026-10-16",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 795
+    },
+    {
+      "date": "2026-10-16",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summary": "via www.mercor.com",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 458
+    },
+    {
+      "date": "2026-10-16",
+      "title": "How the Claude Code team does code review",
+      "summary": "via claude.dev",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 301
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "summary": "via github.com",
+      "url": "https://github.com/cobanov/PS5LM",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 251
+    },
+    {
+      "date": "2026-10-16",
+      "title": "You could have invented transformers from memory",
+      "summary": "via alexwang.ai",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 229
+    },
     {
       "date": "2026-10-15",
       "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
@@ -400,46 +455,6 @@
       "title": "Retrieval Disagreement as a Signal: Diagnosing and Steering Multilingual Dense Embedders",
       "summary": "Multilingual dense retrievers place all languages in one shared space so that a question finds relevant documents, regardless of which language they are written in. We show that the same question, ask",
       "url": "https://arxiv.org/abs/2610.18526v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "APTree: Extended Behavior Trees for Adaptive and Scalable Automated Robotic Task Planning in Construction",
-      "summary": "Task planning for robots in off-site construction prefabrication is primarily manual, leading to planning inefficiencies and reluctance to adopt robotic solutions. Existing approaches provide limited ",
-      "url": "https://arxiv.org/abs/2610.18523v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
-      "summary": "Reusable skills let LLM agents load task-specific instructions on demand, but they make execution depend on implicit routing over skill metadata. We test whether this design scales by holding SkillsBe",
-      "url": "https://arxiv.org/abs/2610.18522v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "The Geometry of Language Model Logits: Generic Structure and Learned Departures",
-      "summary": "Autoregressive language models produce, at every prediction step, a vocabulary-sized logit vector whose structure determines the conditional next-token distribution. We empirically identify that the o",
-      "url": "https://arxiv.org/abs/2610.18520v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Imprinting: Knowledge Distillation Can Shift Student Behavior",
-      "summary": "Knowledge distillation trains student models on teacher-generated responses to transfer task capability, but those responses may also carry behavioral tendencies of their source. We investigate whethe",
-      "url": "https://arxiv.org/abs/2610.18517v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
-      "summary": "Post-training pruning enables efficient deployment, but conventional methods do not explicitly preserve internal-gradient alignment between sparse and dense models. We study novel connections between ",
-      "url": "https://arxiv.org/abs/2610.18516v1",
       "tags": [],
       "source": "arXiv"
     }
