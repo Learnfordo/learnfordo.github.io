@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-18T04:40:39.911Z",
+  "updatedAt": "2026-10-18T06:35:06.319Z",
   "items": [
+    {
+      "date": "2026-10-18",
+      "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+      "summary": "via sphinx-six-theta.vercel.app",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 59
+    },
     {
       "date": "2026-10-17",
       "title": "Pele – Mermaid diagrams as themeable SVG",
@@ -10,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 322
+      "score": 370
     },
     {
       "date": "2026-10-17",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 267
+      "score": 273
     },
     {
       "date": "2026-10-16",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 526
+      "score": 537
     },
     {
       "date": "2026-10-15",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 312
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
-      "summary": "via 9to5mac.com",
-      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 247
     }
   ]
 }
