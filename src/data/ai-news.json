@@ -1,49 +1,27 @@
 {
-  "updatedAt": "2026-10-17T06:11:36.339Z",
+  "updatedAt": "2026-10-18T04:40:39.911Z",
   "items": [
     {
-      "date": "2026-10-16",
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "date": "2026-10-17",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "summary": "via pele.run",
+      "url": "https://pele.run/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 795
+      "score": 322
     },
     {
-      "date": "2026-10-16",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "summary": "via www.mercor.com",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "date": "2026-10-17",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "summary": "via llmspeed.dev",
+      "url": "https://llmspeed.dev/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 458
-    },
-    {
-      "date": "2026-10-16",
-      "title": "How the Claude Code team does code review",
-      "summary": "via claude.dev",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 301
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "summary": "via github.com",
-      "url": "https://github.com/cobanov/PS5LM",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 251
+      "score": 267
     },
     {
       "date": "2026-10-16",
@@ -54,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 229
+      "score": 526
     },
     {
       "date": "2026-10-15",
@@ -135,6 +113,50 @@
       "url": "https://arxiv.org/abs/2610.22343v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 795
+    },
+    {
+      "date": "2026-10-16",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summary": "via www.mercor.com",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 458
+    },
+    {
+      "date": "2026-10-16",
+      "title": "How the Claude Code team does code review",
+      "summary": "via claude.dev",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 301
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "summary": "via github.com",
+      "url": "https://github.com/cobanov/PS5LM",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 251
     },
     {
       "date": "2026-10-15",
@@ -438,25 +460,6 @@
       ],
       "source": "HN",
       "score": 247
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-      "summary": "via pulseos.finance",
-      "url": "https://pulseos.finance",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 99
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Retrieval Disagreement as a Signal: Diagnosing and Steering Multilingual Dense Embedders",
-      "summary": "Multilingual dense retrievers place all languages in one shared space so that a question finds relevant documents, regardless of which language they are written in. We show that the same question, ask",
-      "url": "https://arxiv.org/abs/2610.18526v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
