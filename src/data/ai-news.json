@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-10-18T06:35:06.319Z",
+  "updatedAt": "2026-10-19T04:30:31.220Z",
   "items": [
+    {
+      "date": "2026-10-18",
+      "title": "Namecheap just seized and disabled all my domains",
+      "summary": "via www.reddit.com",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 501
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 280
+    },
+    {
+      "date": "2026-10-18",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "summary": "via jrdsgl.com",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 79
+    },
+    {
+      "date": "2026-10-17",
+      "title": "I built a programming language that LLMs can't use",
+      "summary": "via blog.picheta.me",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 114
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla",
+      "url": "https://arxiv.org/abs/2610.23854v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to wr",
+      "url": "https://arxiv.org/abs/2610.23847v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents ",
+      "url": "https://arxiv.org/abs/2610.23845v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definiti",
+      "url": "https://arxiv.org/abs/2610.23839v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuplo",
+      "url": "https://arxiv.org/abs/2610.23834v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision",
+      "url": "https://arxiv.org/abs/2610.23831v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
+      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize ",
+      "url": "https://arxiv.org/abs/2610.23830v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable",
+      "url": "https://arxiv.org/abs/2610.23827v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Self-Building Labs",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only r",
+      "url": "https://arxiv.org/abs/2610.23826v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and good",
+      "url": "https://arxiv.org/abs/2610.23825v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-10-18",
       "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 57
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-      "summary": "via startupfortune.com",
-      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 337
-    },
-    {
-      "date": "2026-10-13",
-      "title": "ChunkAct: Action Chunking for Agentic Robotics",
-      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and th",
-      "url": "https://arxiv.org/abs/2610.18874v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
-      "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension ",
-      "url": "https://arxiv.org/abs/2610.18871v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-      "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across ",
-      "url": "https://arxiv.org/abs/2610.18869v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recur",
-      "url": "https://arxiv.org/abs/2610.18868v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Data Free Training of Diffusion Models for Lattice Field Theories",
-      "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configuration",
-      "url": "https://arxiv.org/abs/2610.18863v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-      "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional traini",
-      "url": "https://arxiv.org/abs/2610.18862v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how t",
-      "url": "https://arxiv.org/abs/2610.18860v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Hybrid Reasoning Agents",
-      "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning off",
-      "url": "https://arxiv.org/abs/2610.18861v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
-      "summary": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing ",
-      "url": "https://arxiv.org/abs/2610.18856v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately pre",
-      "url": "https://arxiv.org/abs/2610.18853v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Redesigning source control at Anthropic",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 701
-    },
-    {
-      "date": "2026-10-13",
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "summary": "via sfstandard.com",
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 519
-    },
-    {
-      "date": "2026-10-13",
-      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "summary": "via www.sammystraus.com",
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 312
     }
   ]
 }
