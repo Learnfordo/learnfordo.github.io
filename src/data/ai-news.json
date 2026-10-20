@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-19T06:48:57.461Z",
+  "updatedAt": "2026-10-20T06:36:03.220Z",
   "items": [
+    {
+      "date": "2026-10-19",
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introdu",
+      "url": "https://arxiv.org/abs/2610.26863v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled stud",
+      "url": "https://arxiv.org/abs/2610.26860v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret",
+      "url": "https://arxiv.org/abs/2610.26861v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distill",
+      "url": "https://arxiv.org/abs/2610.26856v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "summary": "Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot",
+      "url": "https://arxiv.org/abs/2610.26852v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a f",
+      "url": "https://arxiv.org/abs/2610.26848v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+      "summary": "Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastr",
+      "url": "https://arxiv.org/abs/2610.26847v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Train An Imaginative Agent",
+      "summary": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback fro",
+      "url": "https://arxiv.org/abs/2610.26845v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For the",
+      "url": "https://arxiv.org/abs/2610.26844v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
+      "summary": "Systems that combine several large language models (LLMs) often use one context for many questions. When the context is passed between models as text, the receiving model processes all of its tokens a",
+      "url": "https://arxiv.org/abs/2610.26840v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me:<a href=\"https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 373
+    },
+    {
+      "date": "2026-10-19",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "summary": "via redact.dev",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 260
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Ukraine claims first drone evacuation of wounded soldier",
+      "summary": "via www.nbcnews.com",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 219
+    },
+    {
+      "date": "2026-10-17",
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 182
+    },
+    {
+      "date": "2026-10-17",
+      "title": "The fire retardant in the seafood chain",
+      "summary": "via insideclimatenews.org",
+      "url": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
     {
       "date": "2026-10-18",
       "title": "Namecheap just seized and disabled all my domains",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 161
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained thr",
-      "url": "https://arxiv.org/abs/2610.20606v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling be",
-      "url": "https://arxiv.org/abs/2610.20607v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Co-Evolving Acting and Forecasting for Language Agents",
-      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision ",
-      "url": "https://arxiv.org/abs/2610.20597v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L),",
-      "url": "https://arxiv.org/abs/2610.20588v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
-      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the re",
-      "url": "https://arxiv.org/abs/2610.20587v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Continuum Attention",
-      "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query",
-      "url": "https://arxiv.org/abs/2610.20586v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Learnable Hodge-Laplacian Driven Mixture of Experts for Steady-PDE Surrogates on Coarse Unstructured Meshes",
-      "summary": "Current approaches for steady partial differential equations surrogate models on unstructured meshes apply a single mixing mechanism to the whole solution. This paper proposes an architecture that par",
-      "url": "https://arxiv.org/abs/2610.20585v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Player-1: Learning to Play from Synthetic Experience",
-      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remai",
-      "url": "https://arxiv.org/abs/2610.20584v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Latent Compaction with Test-Time Training",
-      "summary": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Laten",
-      "url": "https://arxiv.org/abs/2610.20582v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave ",
-      "url": "https://arxiv.org/abs/2610.20576v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-      "summary": "via www.csoonline.com",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 868
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "summary": "via sunshowers.io",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 341
-    },
-    {
-      "date": "2026-10-14",
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "summary": "via www.liquid.ai",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 156
-    },
-    {
-      "date": "2026-10-14",
-      "title": "Has AI tells",
-      "summary": "via theconsensus.dev",
-      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 107
-    },
-    {
-      "date": "2026-10-13",
-      "title": "Ask HN: CAD for wood working with LLM support?",
-      "summary": "I’m a hobbyist woodworker. I manually design simple things in Shapr3d with a lot of patience when I build things. I wonder in the time of LLMs if ther",
-      "url": "https://news.ycombinator.com/item?id=50067325",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 57
     }
   ]
 }
