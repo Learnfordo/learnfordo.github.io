@@ -1,6 +1,97 @@
 {
-  "updatedAt": "2026-10-20T06:36:03.220Z",
+  "updatedAt": "2026-10-21T04:30:34.979Z",
   "items": [
+    {
+      "date": "2026-10-20",
+      "title": "Near-Duplicate Image Selection Transfers Preferences in Vision-Language Models",
+      "summary": "Subliminal learning is the phenomenon in which a model transmits its preferences to another model through data that do not explicitly express them. As models increasingly curate training data for othe",
+      "url": "https://arxiv.org/abs/2610.27943v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "APRIL: Ambiguity-Aware Expert Routing for Respiratory Sound Domain-Incremental Learning",
+      "summary": "Automated respiratory sound classification enables continuous, non-invasive respiratory assessment, yet long-term deployment remains challenging due to domain shifts from evolving recording devices an",
+      "url": "https://arxiv.org/abs/2610.27942v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "HypTI: Hyperbolic Geometry-Aware Multimodal Feature Fusion Framework for Dementia Detection Based on Tabular-Image Data",
+      "summary": "AI-assisted dementia detection usually requires multimodal fusion of diverse data, such as clinical tabular assessments and neuroimaging data. However, most existing approaches perform feature fusion ",
+      "url": "https://arxiv.org/abs/2610.27941v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "From DQI to C-DQI: Automatic Codebook Generation and Evaluation for Measuring Computational Discourse Quality Index",
+      "summary": "Effective democratic deliberation is vital for civic engagement and the health of legislative institutions. However, assessing parliamentary discourse quality is traditionally done using expert-scored",
+      "url": "https://arxiv.org/abs/2610.27937v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "From Comparison to Selection: Enhancing Cross-Scale Generalization of Pointer Networks Trained with Reinforcement Learning for Capacitated Drone Delivery Routing",
+      "summary": "Unmanned aerial vehicles (UAVs) enable fast, flexible last-mile and emergency delivery, but their routing remains challenging as the number of clients varies. Classical approaches based on mixed-integ",
+      "url": "https://arxiv.org/abs/2610.27936v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Why Do LLMs Accept Generics? Explaining Acceptability using Psycholinguistic and Model-Derived Factors",
+      "summary": "Psycholinguistic studies explore why humans accept some generic statements but reject others by showing that these judgments depend on more than how common a property is. People consider several other",
+      "url": "https://arxiv.org/abs/2610.27928v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models",
+      "summary": "A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Q",
+      "url": "https://arxiv.org/abs/2610.27921v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
+      "summary": "Model compression makes large language models deployable, but today's evaluation tells an incomplete story. Standard practice measures retained task performance and stops there. This misses a critical",
+      "url": "https://arxiv.org/abs/2610.27913v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
+      "summary": "Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versio",
+      "url": "https://arxiv.org/abs/2610.27911v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Polarity Blindness in LLM Safety: A Systematic Study of Negation, Antonym Substitution, and Adversarial Framing",
+      "summary": "Negation remains a persistent challenge for language models across NLP tasks and modalities. We show that this weakness can undermine LLM safety guardrails through a structural vulnerability we term p",
+      "url": "https://arxiv.org/abs/2610.27908v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "summary": "via github.com",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 2180
+    },
     {
       "date": "2026-10-19",
       "title": "Text-to-Image Generative Modeling Without Language Pretraining",
@@ -351,115 +442,6 @@
       "url": "https://arxiv.org/abs/2610.22355v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
-      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and s",
-      "url": "https://arxiv.org/abs/2610.22353v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engin",
-      "url": "https://arxiv.org/abs/2610.22350v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-      "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recur",
-      "url": "https://arxiv.org/abs/2610.22344v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
-      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these f",
-      "url": "https://arxiv.org/abs/2610.22343v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 795
-    },
-    {
-      "date": "2026-10-16",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "summary": "via www.mercor.com",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 458
-    },
-    {
-      "date": "2026-10-16",
-      "title": "How the Claude Code team does code review",
-      "summary": "via claude.dev",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 301
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "summary": "via github.com",
-      "url": "https://github.com/cobanov/PS5LM",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 251
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Neural networks are clean",
-      "summary": "via already-clean.goodfire.com",
-      "url": "https://already-clean.goodfire.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 613
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Krea 3 – An image model built for editing at scale",
-      "summary": "via www.krea.ai",
-      "url": "https://www.krea.ai/krea-3",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 288
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Using AI to reverse engineer hardware",
-      "summary": "via blogs.gnome.org",
-      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 161
     }
   ]
 }
