@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-10-21T04:30:34.979Z",
+  "updatedAt": "2026-10-21T06:34:07.899Z",
   "items": [
+    {
+      "date": "2026-10-21",
+      "title": "Good type against all odds",
+      "summary": "via unsung.aresluna.org",
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 80
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For",
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "summary": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigation",
+      "url": "https://arxiv.org/abs/2610.28629v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+      "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning reci",
+      "url": "https://arxiv.org/abs/2610.28628v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a",
+      "url": "https://arxiv.org/abs/2610.28626v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "summary": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For ",
+      "url": "https://arxiv.org/abs/2610.28624v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Planning under Noise with Neural Operators",
+      "summary": "Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware val",
+      "url": "https://arxiv.org/abs/2610.28623v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "MindView: Benchmarking Generative Multi-View Spatial Intelligence",
+      "summary": "Spatial intelligence has recently been assessed through generative tasks such as spatially grounded image editing, yet language-guided generation of spatially consistent views from partial multi-view ",
+      "url": "https://arxiv.org/abs/2610.28622v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "summary": "Multi-token prediction (MTP) can accelerate language-model decoding by drafting several tokens and verifying them in a single target-model pass. However, the best speculation horizon changes with cont",
+      "url": "https://arxiv.org/abs/2610.28619v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Efficient Edge-aware Attention Network for Graph Generation",
+      "summary": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware ",
+      "url": "https://arxiv.org/abs/2610.28618v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
+      "summary": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and s",
+      "url": "https://arxiv.org/abs/2610.28616v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "summary": "via github.com",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 2206
+    },
     {
       "date": "2026-10-20",
       "title": "Near-Duplicate Image Selection Transfers Preferences in Vision-Language Models",
@@ -80,17 +182,6 @@
       "url": "https://arxiv.org/abs/2610.27908v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "summary": "via github.com",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 2180
     },
     {
       "date": "2026-10-19",
@@ -340,106 +431,6 @@
       "title": "Self-Building Labs",
       "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only r",
       "url": "https://arxiv.org/abs/2610.23826v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
-      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and good",
-      "url": "https://arxiv.org/abs/2610.23825v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-18",
-      "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
-      "summary": "via sphinx-six-theta.vercel.app",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 59
-    },
-    {
-      "date": "2026-10-17",
-      "title": "Pele – Mermaid diagrams as themeable SVG",
-      "summary": "via pele.run",
-      "url": "https://pele.run/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 370
-    },
-    {
-      "date": "2026-10-17",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "summary": "via llmspeed.dev",
-      "url": "https://llmspeed.dev/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 273
-    },
-    {
-      "date": "2026-10-16",
-      "title": "You could have invented transformers from memory",
-      "summary": "via alexwang.ai",
-      "url": "https://alexwang.ai/posts/associative-memory/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 537
-    },
-    {
-      "date": "2026-10-15",
-      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, person",
-      "url": "https://arxiv.org/abs/2610.22372v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of effici",
-      "url": "https://arxiv.org/abs/2610.22367v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from ph",
-      "url": "https://arxiv.org/abs/2610.22364v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
-      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a p",
-      "url": "https://arxiv.org/abs/2610.22362v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future tra",
-      "url": "https://arxiv.org/abs/2610.22358v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-15",
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements",
-      "url": "https://arxiv.org/abs/2610.22355v1",
       "tags": [],
       "source": "arXiv"
     }
