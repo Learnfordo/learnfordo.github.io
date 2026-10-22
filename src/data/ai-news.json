@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-21T06:34:07.899Z",
+  "updatedAt": "2026-10-22T04:31:13.312Z",
   "items": [
+    {
+      "date": "2026-10-21",
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable",
+      "url": "https://arxiv.org/abs/2610.30132v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challeng",
+      "url": "https://arxiv.org/abs/2610.30128v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+      "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dy",
+      "url": "https://arxiv.org/abs/2610.30125v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
+      "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our m",
+      "url": "https://arxiv.org/abs/2610.30122v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
+      "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed c",
+      "url": "https://arxiv.org/abs/2610.30119v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "The role of locality and weight sharing in convolutional neural networks",
+      "summary": "The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatia",
+      "url": "https://arxiv.org/abs/2610.30118v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each m",
+      "url": "https://arxiv.org/abs/2610.30116v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "The End of Consensus Research?",
+      "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to",
+      "url": "https://arxiv.org/abs/2610.30114v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks",
+      "url": "https://arxiv.org/abs/2610.30113v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
+      "summary": "We analyze the problem of estimating univariate Gaussian mixture densities using the nonparametric maximum likelihood estimator (NPMLE) based on $n$ independent and identically distributed samples. We",
+      "url": "https://arxiv.org/abs/2610.30109v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "summary": "via safedep.io",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 462
+    },
+    {
+      "date": "2026-10-21",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 259
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 243
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "summary": "via alterauth.com",
+      "url": "https://alterauth.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Chain of Thought for Humans",
+      "summary": "via www.boristhebrave.com",
+      "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
+    },
     {
       "date": "2026-10-21",
       "title": "Good type against all odds",
@@ -295,144 +430,6 @@
       ],
       "source": "HN",
       "score": 219
-    },
-    {
-      "date": "2026-10-17",
-      "title": "RuneScape Bench: MMOs for Agents [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 182
-    },
-    {
-      "date": "2026-10-17",
-      "title": "The fire retardant in the seafood chain",
-      "summary": "via insideclimatenews.org",
-      "url": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-10-18",
-      "title": "Namecheap just seized and disabled all my domains",
-      "summary": "via www.reddit.com",
-      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 537
-    },
-    {
-      "date": "2026-10-18",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 339
-    },
-    {
-      "date": "2026-10-18",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "summary": "via jrdsgl.com",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 110
-    },
-    {
-      "date": "2026-10-17",
-      "title": "I built a programming language that LLMs can't use",
-      "summary": "via blog.picheta.me",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 145
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
-      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla",
-      "url": "https://arxiv.org/abs/2610.23854v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
-      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to wr",
-      "url": "https://arxiv.org/abs/2610.23847v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
-      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents ",
-      "url": "https://arxiv.org/abs/2610.23845v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
-      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definiti",
-      "url": "https://arxiv.org/abs/2610.23839v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
-      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuplo",
-      "url": "https://arxiv.org/abs/2610.23834v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
-      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision",
-      "url": "https://arxiv.org/abs/2610.23831v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
-      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize ",
-      "url": "https://arxiv.org/abs/2610.23830v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
-      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable",
-      "url": "https://arxiv.org/abs/2610.23827v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Self-Building Labs",
-      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only r",
-      "url": "https://arxiv.org/abs/2610.23826v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
