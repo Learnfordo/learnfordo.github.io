@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-22T04:31:13.312Z",
+  "updatedAt": "2026-10-22T06:34:16.874Z",
   "items": [
+    {
+      "date": "2026-10-22",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "summary": "via simedw.com",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
     {
       "date": "2026-10-21",
       "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 462
+      "score": 477
     },
     {
       "date": "2026-10-21",
@@ -101,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 259
+      "score": 276
     },
     {
       "date": "2026-10-21",
@@ -112,24 +123,24 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 243
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "summary": "via alterauth.com",
-      "url": "https://alterauth.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 56
+      "score": 250
     },
     {
       "date": "2026-10-19",
       "title": "Chain of Thought for Humans",
       "summary": "via www.boristhebrave.com",
       "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 80
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "summary": "via alterauth.com",
+      "url": "https://alterauth.com/",
       "tags": [
         "Hacker News"
       ],
@@ -419,17 +430,6 @@
       ],
       "source": "HN",
       "score": 260
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Ukraine claims first drone evacuation of wounded soldier",
-      "summary": "via www.nbcnews.com",
-      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 219
     }
   ]
 }
