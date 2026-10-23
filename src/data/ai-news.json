@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T04:30:37.530Z",
+  "updatedAt": "2026-10-23T06:28:03.713Z",
   "items": [
     {
       "date": "2026-10-22",
@@ -83,6 +83,50 @@
     },
     {
       "date": "2026-10-22",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "summary": "via simedw.com",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 519
+    },
+    {
+      "date": "2026-10-22",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summary": "via github.com",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 358
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "summary": "via www.modelcompare.ai",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 332
+    },
+    {
+      "date": "2026-10-22",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 260
+    },
+    {
+      "date": "2026-10-22",
       "title": "Jailbreaking the Switch 2",
       "summary": "via pepsipu.com",
       "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
@@ -94,39 +138,6 @@
     },
     {
       "date": "2026-10-22",
-      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "summary": "via github.com",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 336
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Every AI model has the same \"controversial\" take on humans",
-      "summary": "via www.modelcompare.ai",
-      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 292
-    },
-    {
-      "date": "2026-10-22",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 202
-    },
-    {
-      "date": "2026-10-22",
       "title": "AI and the Enclosure of the Scientific Commons",
       "summary": "via arxiv.org",
       "url": "https://arxiv.org/abs/2610.27251",
@@ -135,17 +146,6 @@
       ],
       "source": "HN",
       "score": 123
-    },
-    {
-      "date": "2026-10-22",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "summary": "via simedw.com",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 64
     },
     {
       "date": "2026-10-21",
