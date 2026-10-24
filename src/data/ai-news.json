@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-23T06:28:03.713Z",
+  "updatedAt": "2026-10-24T04:36:02.173Z",
   "items": [
+    {
+      "date": "2026-10-23",
+      "title": "Dessa: Conversation Model trained only on speech",
+      "summary": "via block.xyz",
+      "url": "https://block.xyz/dessa",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 296
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Securing our frontier model training environment",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 92
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Air Purifiers as White Noise Machines",
+      "summary": "via www.jefftk.com",
+      "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 90
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "summary": "via corgi.computer",
+      "url": "https://corgi.computer/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
+    },
     {
       "date": "2026-10-22",
       "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
@@ -405,38 +449,6 @@
       "title": "HypTI: Hyperbolic Geometry-Aware Multimodal Feature Fusion Framework for Dementia Detection Based on Tabular-Image Data",
       "summary": "AI-assisted dementia detection usually requires multimodal fusion of diverse data, such as clinical tabular assessments and neuroimaging data. However, most existing approaches perform feature fusion ",
       "url": "https://arxiv.org/abs/2610.27941v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "From DQI to C-DQI: Automatic Codebook Generation and Evaluation for Measuring Computational Discourse Quality Index",
-      "summary": "Effective democratic deliberation is vital for civic engagement and the health of legislative institutions. However, assessing parliamentary discourse quality is traditionally done using expert-scored",
-      "url": "https://arxiv.org/abs/2610.27937v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "From Comparison to Selection: Enhancing Cross-Scale Generalization of Pointer Networks Trained with Reinforcement Learning for Capacitated Drone Delivery Routing",
-      "summary": "Unmanned aerial vehicles (UAVs) enable fast, flexible last-mile and emergency delivery, but their routing remains challenging as the number of clients varies. Classical approaches based on mixed-integ",
-      "url": "https://arxiv.org/abs/2610.27936v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Why Do LLMs Accept Generics? Explaining Acceptability using Psycholinguistic and Model-Derived Factors",
-      "summary": "Psycholinguistic studies explore why humans accept some generic statements but reject others by showing that these judgments depend on more than how common a property is. People consider several other",
-      "url": "https://arxiv.org/abs/2610.27928v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models",
-      "summary": "A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Q",
-      "url": "https://arxiv.org/abs/2610.27921v1",
       "tags": [],
       "source": "arXiv"
     }
