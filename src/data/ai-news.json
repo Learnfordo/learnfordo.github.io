@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-24T04:36:02.173Z",
+  "updatedAt": "2026-10-24T06:27:20.674Z",
   "items": [
+    {
+      "date": "2026-10-24",
+      "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+      "summary": "via www.sciencedaily.com",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 74
+    },
     {
       "date": "2026-10-23",
       "title": "Dessa: Conversation Model trained only on speech",
@@ -10,18 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 296
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Securing our frontier model training environment",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 92
+      "score": 337
     },
     {
       "date": "2026-10-23",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 90
+      "score": 104
     },
     {
       "date": "2026-10-23",
@@ -43,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 56
+      "score": 67
     },
     {
       "date": "2026-10-22",
@@ -124,6 +124,17 @@
       "url": "https://arxiv.org/abs/2610.31642v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Securing our frontier model training environment",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 92
     },
     {
       "date": "2026-10-22",
@@ -441,14 +452,6 @@
       "title": "APRIL: Ambiguity-Aware Expert Routing for Respiratory Sound Domain-Incremental Learning",
       "summary": "Automated respiratory sound classification enables continuous, non-invasive respiratory assessment, yet long-term deployment remains challenging due to domain shifts from evolving recording devices an",
       "url": "https://arxiv.org/abs/2610.27942v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "HypTI: Hyperbolic Geometry-Aware Multimodal Feature Fusion Framework for Dementia Detection Based on Tabular-Image Data",
-      "summary": "AI-assisted dementia detection usually requires multimodal fusion of diverse data, such as clinical tabular assessments and neuroimaging data. However, most existing approaches perform feature fusion ",
-      "url": "https://arxiv.org/abs/2610.27941v1",
       "tags": [],
       "source": "arXiv"
     }
