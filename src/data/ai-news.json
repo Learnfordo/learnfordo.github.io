@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-25T04:41:56.876Z",
+  "updatedAt": "2026-10-25T06:51:25.774Z",
   "items": [
+    {
+      "date": "2026-10-25",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "summary": "via github.com",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 133
+    },
+    {
+      "date": "2026-10-25",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary": "via www.cerebras.ai",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 97
+    },
     {
       "date": "2026-10-24",
       "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
@@ -10,7 +32,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 246
+      "score": 297
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Neural chip decodes interactions between brain regions",
+      "summary": "via actu.epfl.ch",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 102
     },
     {
       "date": "2026-10-22",
@@ -428,33 +461,6 @@
       "title": "Efficient Edge-aware Attention Network for Graph Generation",
       "summary": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware ",
       "url": "https://arxiv.org/abs/2610.28618v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
-      "summary": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and s",
-      "url": "https://arxiv.org/abs/2610.28616v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "summary": "via github.com",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 2206
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Near-Duplicate Image Selection Transfers Preferences in Vision-Language Models",
-      "summary": "Subliminal learning is the phenomenon in which a model transmits its preferences to another model through data that do not explicitly express them. As models increasingly curate training data for othe",
-      "url": "https://arxiv.org/abs/2610.27943v1",
       "tags": [],
       "source": "arXiv"
     }
