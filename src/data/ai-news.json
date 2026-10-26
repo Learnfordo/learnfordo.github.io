@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-10-25T06:51:25.774Z",
+  "updatedAt": "2026-10-26T06:57:32.944Z",
   "items": [
+    {
+      "date": "2026-10-26",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "summary": "via www.theregister.com",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 158
+    },
+    {
+      "date": "2026-10-25",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "summary": "via lynchlab.net",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 514
+    },
+    {
+      "date": "2026-10-25",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "summary": "via minimaxir.com",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 249
+    },
+    {
+      "date": "2026-10-23",
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation ",
+      "url": "https://arxiv.org/abs/2610.32982v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise s",
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mecha",
+      "url": "https://arxiv.org/abs/2610.32971v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and plac",
+      "url": "https://arxiv.org/abs/2610.32969v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+      "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear ",
+      "url": "https://arxiv.org/abs/2610.32964v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were wr",
+      "url": "https://arxiv.org/abs/2610.32955v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended o",
+      "url": "https://arxiv.org/abs/2610.32951v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-b",
+      "url": "https://arxiv.org/abs/2610.32948v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jo",
+      "url": "https://arxiv.org/abs/2610.32945v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+      "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing",
+      "url": "https://arxiv.org/abs/2610.32943v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-10-25",
       "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
@@ -347,122 +460,6 @@
       ],
       "source": "HN",
       "score": 276
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 250
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Chain of Thought for Humans",
-      "summary": "via www.boristhebrave.com",
-      "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 80
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "summary": "via alterauth.com",
-      "url": "https://alterauth.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 56
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Good type against all odds",
-      "summary": "via unsung.aresluna.org",
-      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 80
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For",
-      "url": "https://arxiv.org/abs/2610.28632v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
-      "summary": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigation",
-      "url": "https://arxiv.org/abs/2610.28629v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-      "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning reci",
-      "url": "https://arxiv.org/abs/2610.28628v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
-      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a",
-      "url": "https://arxiv.org/abs/2610.28626v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
-      "summary": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For ",
-      "url": "https://arxiv.org/abs/2610.28624v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Planning under Noise with Neural Operators",
-      "summary": "Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware val",
-      "url": "https://arxiv.org/abs/2610.28623v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "MindView: Benchmarking Generative Multi-View Spatial Intelligence",
-      "summary": "Spatial intelligence has recently been assessed through generative tasks such as spatially grounded image editing, yet language-guided generation of spatially consistent views from partial multi-view ",
-      "url": "https://arxiv.org/abs/2610.28622v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Adaptive Multi-Token Prediction: How far should we go?",
-      "summary": "Multi-token prediction (MTP) can accelerate language-model decoding by drafting several tokens and verifying them in a single target-model pass. However, the best speculation horizon changes with cont",
-      "url": "https://arxiv.org/abs/2610.28619v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Efficient Edge-aware Attention Network for Graph Generation",
-      "summary": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware ",
-      "url": "https://arxiv.org/abs/2610.28618v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
