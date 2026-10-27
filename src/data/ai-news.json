@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:30:36.122Z",
+  "updatedAt": "2026-10-27T06:49:40.554Z",
   "items": [
     {
       "date": "2026-10-26",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1529
+      "score": 1568
     },
     {
       "date": "2026-10-26",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 616
+      "score": 654
     },
     {
       "date": "2026-10-26",
@@ -112,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 547
+      "score": 571
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "summary": "via blog.cloudflare.com",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Blaise Pascal invented fixed route public transport (2024)",
+      "summary": "via humantransit.org",
+      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 278
     },
     {
       "date": "2026-10-26",
@@ -124,17 +146,6 @@
       ],
       "source": "HN",
       "score": 154
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Blaise Pascal invented fixed route public transport (2024)",
-      "summary": "via humantransit.org",
-      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 273
     },
     {
       "date": "2026-10-26",
@@ -449,17 +460,6 @@
       ],
       "source": "HN",
       "score": 358
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Every AI model has the same \"controversial\" take on humans",
-      "summary": "via www.modelcompare.ai",
-      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 332
     }
   ]
 }
