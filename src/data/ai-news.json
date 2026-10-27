@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-26T06:57:32.944Z",
+  "updatedAt": "2026-10-27T04:30:36.122Z",
   "items": [
+    {
+      "date": "2026-10-26",
+      "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+      "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the r",
+      "url": "https://arxiv.org/abs/2610.35868v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Center-of-Mass Interpretation of Evolution Strategies",
+      "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presen",
+      "url": "https://arxiv.org/abs/2610.35865v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+      "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark",
+      "url": "https://arxiv.org/abs/2610.35866v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic ",
+      "url": "https://arxiv.org/abs/2610.35862v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "On the stability of learning",
+      "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for e",
+      "url": "https://arxiv.org/abs/2610.35856v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+      "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across",
+      "url": "https://arxiv.org/abs/2610.35847v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+      "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem i",
+      "url": "https://arxiv.org/abs/2610.35846v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, exist",
+      "url": "https://arxiv.org/abs/2610.35845v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "I-HITL: Inalienable Human-in-the-Loop",
+      "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, th",
+      "url": "https://arxiv.org/abs/2610.35835v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+      "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the serve",
+      "url": "https://arxiv.org/abs/2610.35833v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Anthropic S-1",
+      "summary": "via www.sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1529
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "summary": "via magazine.sebastianraschka.com",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 616
+    },
+    {
+      "date": "2026-10-26",
+      "title": "GPT-6.1 Terra",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 547
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Fixing Tool-Call Accuracy in vLLM",
+      "summary": "via www.ubicloud.com",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 154
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Blaise Pascal invented fixed route public transport (2024)",
+      "summary": "via humantransit.org",
+      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 273
+    },
     {
       "date": "2026-10-26",
       "title": "IBM CEO says open weight models are now good and cheap on-prem",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 332
-    },
-    {
-      "date": "2026-10-22",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 260
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Jailbreaking the Switch 2",
-      "summary": "via pepsipu.com",
-      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 754
-    },
-    {
-      "date": "2026-10-22",
-      "title": "AI and the Enclosure of the Scientific Commons",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2610.27251",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 123
-    },
-    {
-      "date": "2026-10-21",
-      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-      "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable",
-      "url": "https://arxiv.org/abs/2610.30132v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-      "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challeng",
-      "url": "https://arxiv.org/abs/2610.30128v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dy",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
-      "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our m",
-      "url": "https://arxiv.org/abs/2610.30122v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
-      "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed c",
-      "url": "https://arxiv.org/abs/2610.30119v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The role of locality and weight sharing in convolutional neural networks",
-      "summary": "The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatia",
-      "url": "https://arxiv.org/abs/2610.30118v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-      "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each m",
-      "url": "https://arxiv.org/abs/2610.30116v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "The End of Consensus Research?",
-      "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to",
-      "url": "https://arxiv.org/abs/2610.30114v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks",
-      "url": "https://arxiv.org/abs/2610.30113v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
-      "summary": "We analyze the problem of estimating univariate Gaussian mixture densities using the nonparametric maximum likelihood estimator (NPMLE) based on $n$ independent and identically distributed samples. We",
-      "url": "https://arxiv.org/abs/2610.30109v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "summary": "via safedep.io",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 477
-    },
-    {
-      "date": "2026-10-21",
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 276
     }
   ]
 }
