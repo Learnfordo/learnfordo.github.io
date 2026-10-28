@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-27T06:49:40.554Z",
+  "updatedAt": "2026-10-28T07:23:43.152Z",
   "items": [
+    {
+      "date": "2026-10-27",
+      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+      "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We int",
+      "url": "https://arxiv.org/abs/2610.37668v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstra",
+      "url": "https://arxiv.org/abs/2610.37666v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "When Should We Intervene at Test Time?",
+      "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve ",
+      "url": "https://arxiv.org/abs/2610.37658v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistri",
+      "url": "https://arxiv.org/abs/2610.37657v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+      "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's fa",
+      "url": "https://arxiv.org/abs/2610.37656v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+      "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable program",
+      "url": "https://arxiv.org/abs/2610.37655v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+      "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As rob",
+      "url": "https://arxiv.org/abs/2610.37652v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA lear",
+      "url": "https://arxiv.org/abs/2610.37651v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+      "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavio",
+      "url": "https://arxiv.org/abs/2610.37649v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+      "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use e",
+      "url": "https://arxiv.org/abs/2610.37648v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "summary": "via www.brangus.io",
+      "url": "https://www.brangus.io/survival-llm",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 296
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "summary": "via tailscale.com",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 259
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Early progress on accelerating drug development with Claude",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 205
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "summary": "via bret.dk",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 145
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Hex Raises $100M",
+      "summary": "via hex.tech",
+      "url": "https://hex.tech/blog/hex-new-era/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 64
+    },
     {
       "date": "2026-10-26",
       "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
@@ -319,147 +454,6 @@
       "url": "https://arxiv.org/abs/2610.31667v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Phase Transition from Random Features to Fully Trainable Networks",
-      "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adapt",
-      "url": "https://arxiv.org/abs/2610.31663v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-      "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthine",
-      "url": "https://arxiv.org/abs/2610.31662v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training image",
-      "url": "https://arxiv.org/abs/2610.31659v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-      "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on cali",
-      "url": "https://arxiv.org/abs/2610.31657v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-      "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical re",
-      "url": "https://arxiv.org/abs/2610.31656v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action eve",
-      "url": "https://arxiv.org/abs/2610.31650v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Low-Bit N-Gram Embeddings for Language Models",
-      "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive",
-      "url": "https://arxiv.org/abs/2610.31646v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "A Fix for Softmax and Cross-Entropy",
-      "summary": "Standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much large",
-      "url": "https://arxiv.org/abs/2610.31642v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
-      "summary": "via www.sciencedaily.com",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 74
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Dessa: Conversation Model trained only on speech",
-      "summary": "via block.xyz",
-      "url": "https://block.xyz/dessa",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 337
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Air Purifiers as White Noise Machines",
-      "summary": "via www.jefftk.com",
-      "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 104
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-      "summary": "via corgi.computer",
-      "url": "https://corgi.computer/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 67
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Securing our frontier model training environment",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 92
-    },
-    {
-      "date": "2026-10-22",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "summary": "via simedw.com",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 519
-    },
-    {
-      "date": "2026-10-22",
-      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "summary": "via github.com",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 358
     }
   ]
 }
