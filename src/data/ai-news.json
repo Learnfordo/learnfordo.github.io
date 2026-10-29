@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-29T04:30:38.243Z",
+  "updatedAt": "2026-10-29T07:39:48.128Z",
   "items": [
     {
       "date": "2026-10-29",
-      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "summary": "via gist.github.com",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 89
+      "score": 289
     },
     {
       "date": "2026-10-28",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 217
+      "score": 225
     },
     {
       "date": "2026-10-28",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 109
+      "score": 118
     },
     {
       "date": "2026-10-27",
@@ -113,6 +113,28 @@
       "url": "https://arxiv.org/abs/2610.37648v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "summary": "via the-decoder.com",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 77
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "summary": "via gist.github.com",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 89
     },
     {
       "date": "2026-10-27",
@@ -438,28 +460,6 @@
       ],
       "source": "HN",
       "score": 133
-    },
-    {
-      "date": "2026-10-25",
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "summary": "via www.cerebras.ai",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 97
-    },
-    {
-      "date": "2026-10-24",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "summary": "via www.apricitas.io",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 297
     }
   ]
 }
