@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-10-29T07:39:48.128Z",
+  "updatedAt": "2026-10-30T07:43:24.094Z",
   "items": [
+    {
+      "date": "2026-10-30",
+      "title": "Pico CSS is no longer maintained",
+      "summary": "via github.com",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 108
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, ma",
+      "url": "https://arxiv.org/abs/2610.40655v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+      "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single r",
+      "url": "https://arxiv.org/abs/2610.40654v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce",
+      "url": "https://arxiv.org/abs/2610.40649v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer det",
+      "url": "https://arxiv.org/abs/2610.40647v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+      "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how ",
+      "url": "https://arxiv.org/abs/2610.40644v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (los",
+      "url": "https://arxiv.org/abs/2610.40643v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and ",
+      "url": "https://arxiv.org/abs/2610.40641v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. ",
+      "url": "https://arxiv.org/abs/2610.40637v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Probing Spatial State Representations in Visual Foundation Models",
+      "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls f",
+      "url": "https://arxiv.org/abs/2610.40636v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This br",
+      "url": "https://arxiv.org/abs/2610.40627v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "LLM Voice",
+      "summary": "via martinfowler.com",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 441
+    },
+    {
+      "date": "2026-10-29",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "summary": "via labs.ycombinator.com",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 257
+    },
+    {
+      "date": "2026-10-29",
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "summary": "via github.com",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 192
+    },
+    {
+      "date": "2026-10-29",
+      "title": "What we know so far about Spain train crash",
+      "summary": "via www.bbc.com",
+      "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 181
+    },
     {
       "date": "2026-10-29",
       "title": "Claude Code regularly sends each background agent’s transcript to its model",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 278
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Fixing Tool-Call Accuracy in vLLM",
-      "summary": "via www.ubicloud.com",
-      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 154
-    },
-    {
-      "date": "2026-10-26",
-      "title": "IBM CEO says open weight models are now good and cheap on-prem",
-      "summary": "via www.theregister.com",
-      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 158
-    },
-    {
-      "date": "2026-10-25",
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "summary": "via lynchlab.net",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 514
-    },
-    {
-      "date": "2026-10-25",
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "summary": "via minimaxir.com",
-      "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 249
-    },
-    {
-      "date": "2026-10-23",
-      "title": "The Language of Instruction: Genre and Generative AI",
-      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation ",
-      "url": "https://arxiv.org/abs/2610.32982v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise s",
-      "url": "https://arxiv.org/abs/2610.32978v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-      "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mecha",
-      "url": "https://arxiv.org/abs/2610.32971v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-      "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and plac",
-      "url": "https://arxiv.org/abs/2610.32969v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
-      "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear ",
-      "url": "https://arxiv.org/abs/2610.32964v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-      "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were wr",
-      "url": "https://arxiv.org/abs/2610.32955v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
-      "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended o",
-      "url": "https://arxiv.org/abs/2610.32951v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
-      "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-b",
-      "url": "https://arxiv.org/abs/2610.32948v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
-      "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jo",
-      "url": "https://arxiv.org/abs/2610.32945v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
-      "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing",
-      "url": "https://arxiv.org/abs/2610.32943v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-25",
-      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "summary": "via github.com",
-      "url": "https://github.com/slee-persis/GVS5H",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
     }
   ]
 }
