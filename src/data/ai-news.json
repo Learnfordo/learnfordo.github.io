@@ -1,16 +1,49 @@
 {
-  "updatedAt": "2026-10-30T07:43:24.094Z",
+  "updatedAt": "2026-10-31T07:29:41.101Z",
   "items": [
     {
       "date": "2026-10-30",
-      "title": "Pico CSS is no longer maintained",
-      "summary": "via github.com",
-      "url": "https://github.com/picocss/pico/discussions/754",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summary": "via phorion.io",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 108
+      "score": 872
+    },
+    {
+      "date": "2026-10-30",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "summary": "via newsletter.signoz.io",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 569
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "summary": "via www.bostonglobe.com",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 288
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "summary": "via fortune.com",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 165
     },
     {
       "date": "2026-10-29",
@@ -91,6 +124,28 @@
       "url": "https://arxiv.org/abs/2610.40627v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "summary": "via research.google",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 217
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Pico CSS is no longer maintained",
+      "summary": "via github.com",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 108
     },
     {
       "date": "2026-10-29",
@@ -405,61 +460,6 @@
       "url": "https://arxiv.org/abs/2610.35833v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Anthropic S-1",
-      "summary": "via www.sec.gov",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1568
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
-      "summary": "via magazine.sebastianraschka.com",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 654
-    },
-    {
-      "date": "2026-10-26",
-      "title": "GPT-6.1 Terra",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 571
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "summary": "via blog.cloudflare.com",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 119
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Blaise Pascal invented fixed route public transport (2024)",
-      "summary": "via humantransit.org",
-      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 278
     }
   ]
 }
