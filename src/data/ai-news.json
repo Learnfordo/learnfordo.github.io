@@ -1,49 +1,60 @@
 {
-  "updatedAt": "2026-10-31T07:29:41.101Z",
+  "updatedAt": "2026-11-01T08:08:12.403Z",
   "items": [
     {
-      "date": "2026-10-30",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "summary": "via phorion.io",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "date": "2026-11-01",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2409.02292",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 872
+      "score": 72
     },
     {
-      "date": "2026-10-30",
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "summary": "via newsletter.signoz.io",
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "date": "2026-10-31",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 569
+      "score": 328
     },
     {
-      "date": "2026-10-30",
-      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-      "summary": "via www.bostonglobe.com",
-      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "date": "2026-10-31",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "summary": "via www.parameter.ai",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 288
+      "score": 324
     },
     {
-      "date": "2026-10-30",
-      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "summary": "via fortune.com",
-      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "date": "2026-10-31",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "summary": "via github.com",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 165
+      "score": 200
+    },
+    {
+      "date": "2026-10-31",
+      "title": "ChatGPT and Codex usage limits merging",
+      "summary": "via help.openai.com",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 90
     },
     {
       "date": "2026-10-29",
@@ -124,6 +135,50 @@
       "url": "https://arxiv.org/abs/2610.40627v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summary": "via phorion.io",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 872
+    },
+    {
+      "date": "2026-10-30",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "summary": "via newsletter.signoz.io",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 569
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "summary": "via www.bostonglobe.com",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 288
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "summary": "via fortune.com",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 165
     },
     {
       "date": "2026-10-28",
@@ -418,46 +473,6 @@
       "title": "On the stability of learning",
       "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for e",
       "url": "https://arxiv.org/abs/2610.35856v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
-      "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across",
-      "url": "https://arxiv.org/abs/2610.35847v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-      "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem i",
-      "url": "https://arxiv.org/abs/2610.35846v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Work Agents: Systems, Capabilities, and Optimization",
-      "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, exist",
-      "url": "https://arxiv.org/abs/2610.35845v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "I-HITL: Inalienable Human-in-the-Loop",
-      "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, th",
-      "url": "https://arxiv.org/abs/2610.35835v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
-      "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the serve",
-      "url": "https://arxiv.org/abs/2610.35833v1",
       "tags": [],
       "source": "arXiv"
     }
