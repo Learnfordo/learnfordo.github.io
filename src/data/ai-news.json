@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-11-02T08:18:24.584Z",
+  "updatedAt": "2026-11-03T08:33:02.106Z",
   "items": [
+    {
+      "date": "2026-11-02",
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whol",
+      "url": "https://arxiv.org/abs/2611.03647v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these compone",
+      "url": "https://arxiv.org/abs/2611.03648v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+      "summary": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style questi",
+      "url": "https://arxiv.org/abs/2611.03641v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and li",
+      "url": "https://arxiv.org/abs/2611.03634v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
+      "summary": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advan",
+      "url": "https://arxiv.org/abs/2611.03633v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reaso",
+      "url": "https://arxiv.org/abs/2611.03627v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
+      "summary": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn gen",
+      "url": "https://arxiv.org/abs/2611.03625v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
+      "summary": "Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer ",
+      "url": "https://arxiv.org/abs/2611.03623v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "D&amp;A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+      "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in f",
+      "url": "https://arxiv.org/abs/2611.03622v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Strategist: Evolving Reasoning with Agents",
+      "summary": "A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the",
+      "url": "https://arxiv.org/abs/2611.03618v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "summary": "via www.techpolicy.press",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 327
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Scaling Git at OpenAI",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 203
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Egoless Mathematics in the AI Era",
+      "summary": "via terrytao.wordpress.com",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 156
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "summary": "via momentic.ai",
+      "url": "https://momentic.ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 143
+    },
     {
       "date": "2026-11-01",
       "title": "The AI cost of JavaScript frameworks",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 192
-    },
-    {
-      "date": "2026-10-29",
-      "title": "What we know so far about Spain train crash",
-      "summary": "via www.bbc.com",
-      "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 181
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "summary": "via gist.github.com",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 289
-    },
-    {
-      "date": "2026-10-28",
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "summary": "via surgehq.ai",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
-    },
-    {
-      "date": "2026-10-28",
-      "title": "The Agent SDK",
-      "summary": "via cursor.com",
-      "url": "https://cursor.com/blog/agent-sdk",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 118
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-      "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We int",
-      "url": "https://arxiv.org/abs/2610.37668v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstra",
-      "url": "https://arxiv.org/abs/2610.37666v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "When Should We Intervene at Test Time?",
-      "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve ",
-      "url": "https://arxiv.org/abs/2610.37658v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-      "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistri",
-      "url": "https://arxiv.org/abs/2610.37657v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-      "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's fa",
-      "url": "https://arxiv.org/abs/2610.37656v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
-      "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable program",
-      "url": "https://arxiv.org/abs/2610.37655v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-      "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As rob",
-      "url": "https://arxiv.org/abs/2610.37652v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA lear",
-      "url": "https://arxiv.org/abs/2610.37651v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-      "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavio",
-      "url": "https://arxiv.org/abs/2610.37649v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-      "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use e",
-      "url": "https://arxiv.org/abs/2610.37648v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
