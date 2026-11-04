@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-03T08:33:02.106Z",
+  "updatedAt": "2026-11-04T08:00:08.974Z",
   "items": [
+    {
+      "date": "2026-11-03",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearanc",
+      "url": "https://arxiv.org/abs/2611.05377v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on ",
+      "url": "https://arxiv.org/abs/2611.05376v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates",
+      "url": "https://arxiv.org/abs/2611.05373v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Preci",
+      "url": "https://arxiv.org/abs/2611.05372v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuiti",
+      "url": "https://arxiv.org/abs/2611.05368v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--languag",
+      "url": "https://arxiv.org/abs/2611.05358v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+      "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measu",
+      "url": "https://arxiv.org/abs/2611.05355v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Agnostic Learning by Imitating",
+      "summary": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive an",
+      "url": "https://arxiv.org/abs/2611.05346v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train be",
+      "url": "https://arxiv.org/abs/2611.05345v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "A Circuit for In-Context Learning",
+      "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping i",
+      "url": "https://arxiv.org/abs/2611.05344v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "via github.com",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1205
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "summary": "via simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 589
+    },
+    {
+      "date": "2026-11-03",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 325
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "summary": "via blog.nns.ee",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 755
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "summary": "via arstechnica.com",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 454
+    },
     {
       "date": "2026-11-02",
       "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
@@ -313,153 +448,6 @@
       "url": "https://arxiv.org/abs/2610.40647v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
-      "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how ",
-      "url": "https://arxiv.org/abs/2610.40644v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Luggage re-identification: A study of strategies towards a real-world application",
-      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (los",
-      "url": "https://arxiv.org/abs/2610.40643v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "From extreme weather to agricultural consequences with agentic AI",
-      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and ",
-      "url": "https://arxiv.org/abs/2610.40641v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "world2vec: Mechanistic world models through latent dynamics learning",
-      "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. ",
-      "url": "https://arxiv.org/abs/2610.40637v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Probing Spatial State Representations in Visual Foundation Models",
-      "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls f",
-      "url": "https://arxiv.org/abs/2610.40636v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
-      "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This br",
-      "url": "https://arxiv.org/abs/2610.40627v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "summary": "via phorion.io",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 872
-    },
-    {
-      "date": "2026-10-30",
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "summary": "via newsletter.signoz.io",
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 569
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-      "summary": "via www.bostonglobe.com",
-      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 288
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "summary": "via fortune.com",
-      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 165
-    },
-    {
-      "date": "2026-10-28",
-      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "summary": "via research.google",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 217
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Pico CSS is no longer maintained",
-      "summary": "via github.com",
-      "url": "https://github.com/picocss/pico/discussions/754",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 108
-    },
-    {
-      "date": "2026-10-29",
-      "title": "LLM Voice",
-      "summary": "via martinfowler.com",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 441
-    },
-    {
-      "date": "2026-10-29",
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "summary": "via labs.ycombinator.com",
-      "url": "https://labs.ycombinator.com/projects/games/index.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 257
-    },
-    {
-      "date": "2026-10-29",
-      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
-      "summary": "via github.com",
-      "url": "https://github.com/SheepSeb/tinyworldformer",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 192
     }
   ]
 }
