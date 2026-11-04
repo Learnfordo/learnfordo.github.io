@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-04T08:00:08.974Z",
+  "updatedAt": "2026-11-04T13:50:55.021Z",
   "items": [
+    {
+      "date": "2026-11-04",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "summary": "via spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 244
+    },
     {
       "date": "2026-11-03",
       "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
@@ -90,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1205
+      "score": 1380
     },
     {
       "date": "2026-11-03",
@@ -101,7 +112,29 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 589
+      "score": 668
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "summary": "via blog.nns.ee",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 878
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "summary": "via arstechnica.com",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 497
     },
     {
       "date": "2026-11-03",
@@ -113,28 +146,6 @@
       ],
       "source": "HN",
       "score": 325
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "summary": "via blog.nns.ee",
-      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 755
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "summary": "via arstechnica.com",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 454
     },
     {
       "date": "2026-11-02",
@@ -438,14 +449,6 @@
       "title": "Rethinking Neural Thickets Without Weight Perturbations",
       "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce",
       "url": "https://arxiv.org/abs/2610.40649v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer det",
-      "url": "https://arxiv.org/abs/2610.40647v1",
       "tags": [],
       "source": "arXiv"
     }
