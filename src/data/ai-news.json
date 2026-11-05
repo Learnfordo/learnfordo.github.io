@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T12:03:09.746Z",
+  "updatedAt": "2026-11-05T13:23:23.623Z",
   "items": [
     {
       "date": "2026-11-04",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1207
+      "score": 1217
     },
     {
       "date": "2026-11-04",
@@ -101,7 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 551
+      "score": 566
     },
     {
       "date": "2026-11-04",
@@ -112,7 +112,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 364
+      "score": 401
     },
     {
       "date": "2026-11-04",
@@ -123,7 +123,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 306
+      "score": 310
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Progress on provable inference for large language models",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 231
     },
     {
       "date": "2026-11-04",
@@ -438,14 +449,6 @@
       "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
       "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tok",
       "url": "https://arxiv.org/abs/2610.42147v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Hierarchical World Models with Implicit Dynamics",
-      "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative err",
-      "url": "https://arxiv.org/abs/2610.42146v1",
       "tags": [],
       "source": "arXiv"
     }
