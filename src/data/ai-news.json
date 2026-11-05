@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:02:27.915Z",
+  "updatedAt": "2026-11-05T08:30:01.895Z",
   "items": [
     {
       "date": "2026-11-04",
@@ -90,7 +90,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1139
+      "score": 1167
     },
     {
       "date": "2026-11-04",
@@ -101,18 +101,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 450
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "summary": "via www.ricursive.com",
-      "url": "https://www.ricursive.com/ripple",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 269
+      "score": 510
     },
     {
       "date": "2026-11-04",
@@ -123,7 +112,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 235
+      "score": 298
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "summary": "via www.ricursive.com",
+      "url": "https://www.ricursive.com/ripple",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 284
     },
     {
       "date": "2026-11-04",
@@ -134,7 +134,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 219
+      "score": 232
     },
     {
       "date": "2026-11-03",
