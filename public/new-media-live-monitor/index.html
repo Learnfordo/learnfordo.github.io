@@ -619,10 +619,10 @@
       <section class="panel" id="panel-latest" role="tabpanel" aria-labelledby="tab-latest">
         <div class="feed-head">
           <div class="update-state"><span class="live-dot"></span><span id="updateText">内容持续更新</span></div>
-          <span class="demo-tag">DEMO · 演示数据</span>
+          <span class="demo-tag" id="demoTag">DEMO · 演示数据</span>
         </div>
         <div class="timeline" id="timeline"></div>
-        <div class="demo-note">大会内容将持续在这里更新</div>
+        <div class="demo-note" id="latestNote">大会内容将持续在这里更新</div>
       </section>
 
       <section class="panel" id="panel-photos" role="tabpanel" aria-labelledby="tab-photos" hidden>
@@ -672,16 +672,18 @@
     (() => {
       "use strict";
 
-      const data = window.CONFERENCE_DATA;
-      if (!data) {
-        document.getElementById("timeline").innerHTML = "<p>演示数据加载失败，请确认 mock-data.js 与本文件位于同一目录。</p>";
-        return;
-      }
+      let data = window.CONFERENCE_DATA;
+      let fullData = null;
+      let photoMap = new Map();
+      let videoMap = new Map();
+      let replayTimer = null;
+      let replayTick = null;
+      let replaySignature = "";
+      let pollInFlight = false;
+      const replayRequested = new URLSearchParams(location.search).get("replay") === "1";
 
       const $ = (selector) => document.querySelector(selector);
       const $$ = (selector) => [...document.querySelectorAll(selector)];
-      const photoMap = new Map(data.photos.map((item) => [item.id, item]));
-      const videoMap = new Map(data.videos.map((item) => [item.id, item]));
       const icons = {
         play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z"/></svg>',
         image: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="9" r="1.5" fill="currentColor"/><path d="m4 17 5-4 3 2 3-4 5 5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
@@ -692,6 +694,16 @@
         return String(value ?? "").replace(/[&<>'"]/g, (char) => ({
           "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
         })[char]);
+      }
+
+      function mediaUrl(value) {
+        const url = String(value || "");
+        return /^(assets|media)\/[A-Za-z0-9/_-]+\.(?:jpe?g|png|webp|mp4)$/i.test(url)
+          && !url.includes("..") ? url : "";
+      }
+
+      function timeLabel(value) {
+        return `${data.meta.mode === "replay" ? "片内" : "今天"} ${esc(value)}`;
       }
 
       function playOverlay() {
@@ -706,7 +718,7 @@
             const photo = photoMap.get(item.id);
             if (!photo) return "";
             return `<button class="media-button" type="button" data-photo-id="${esc(photo.id)}" aria-label="预览图片：${esc(photo.title)}">
-              <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">
+              <img src="${esc(mediaUrl(photo.src))}" alt="${esc(photo.alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">
               <span class="media-corner">${icons.image}高光图片</span>
             </button>`;
           }).join("")}</div>`;
@@ -715,7 +727,7 @@
           const video = videoMap.get(item.id);
           if (!video) return "";
           return `<button class="video-poster" type="button" data-video-id="${esc(video.id)}" aria-label="播放视频：${esc(video.title)}">
-            <img src="${esc(video.poster)}" alt="${esc(video.title)}视频封面示意图" loading="${eager ? "eager" : "lazy"}" decoding="async">
+            <img src="${esc(mediaUrl(video.poster))}" alt="${esc(video.title)}视频封面示意图" loading="${eager ? "eager" : "lazy"}" decoding="async">
             ${playOverlay()}<span class="video-kind">高光视频</span><span class="duration">${esc(video.duration)}</span>
           </button>`;
         }).join("");
@@ -738,11 +750,11 @@
         $("#photoCount").textContent = `共 ${data.photos.length} 张`;
         $("#photoGrid").innerHTML = data.photos.map((photo) => `
           <button class="photo-card" type="button" data-photo-id="${esc(photo.id)}" aria-label="预览图片：${esc(photo.title)}">
-            <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" loading="lazy" decoding="async">
+            <img src="${esc(mediaUrl(photo.src))}" alt="${esc(photo.alt)}" loading="lazy" decoding="async">
             <span class="photo-card-body">
               <span class="photo-category">${esc(photo.category)}</span>
               <span class="photo-title">${esc(photo.title)}</span>
-              <span class="card-meta"><span>今天 ${esc(photo.time)}</span>${icons.arrow}</span>
+              <span class="card-meta"><span>${timeLabel(photo.time)}</span>${icons.arrow}</span>
             </span>
           </button>`).join("");
       }
@@ -752,13 +764,13 @@
         $("#videoList").innerHTML = data.videos.map((video) => `
           <article class="video-card">
             <button class="video-poster" type="button" data-video-id="${esc(video.id)}" aria-label="播放视频：${esc(video.title)}">
-              <img src="${esc(video.poster)}" alt="${esc(video.title)}视频封面示意图" loading="lazy" decoding="async">
+              <img src="${esc(mediaUrl(video.poster))}" alt="${esc(video.title)}视频封面示意图" loading="lazy" decoding="async">
               ${playOverlay()}<span class="duration">${esc(video.duration)}</span>
             </button>
             <div class="video-card-body">
               <h3 class="video-title">${esc(video.title)}</h3>
               <p class="video-summary">${esc(video.summary)}</p>
-              <div class="card-meta"><span>今天 ${esc(video.time)}</span><span class="quality">高光剪辑 · 1080P</span></div>
+              <div class="card-meta"><span>${timeLabel(video.time)}</span><span class="quality">${esc(video.quality || "高光剪辑")}</span></div>
             </div>
           </article>`).join("");
       }
@@ -817,8 +829,8 @@
         const photo = data.photos[index];
         $("#dialogLabel").textContent = `高光图片 · ${index + 1}/${data.photos.length}`;
         $("#dialogTitle").textContent = photo.title;
-        $("#dialogMeta").textContent = `${photo.category} · 今天 ${photo.time} · 演示示意图`;
-        dialogStage.innerHTML = `<img src="${esc(photo.src)}" alt="${esc(photo.alt)}">`;
+        $("#dialogMeta").textContent = `${photo.category} · ${timeLabel(photo.time)}${data.meta.mode === "replay" ? " · 模拟直播抽帧" : " · 演示示意图"}`;
+        dialogStage.innerHTML = `<img src="${esc(mediaUrl(photo.src))}" alt="${esc(photo.alt)}">`;
         $("#photoNav").hidden = false;
         $("#prevPhoto").disabled = index === 0;
         $("#nextPhoto").disabled = index === data.photos.length - 1;
@@ -830,8 +842,10 @@
         if (!video) return;
         $("#dialogLabel").textContent = "高光视频";
         $("#dialogTitle").textContent = video.title;
-        $("#dialogMeta").innerHTML = `今天 ${esc(video.time)} · 原片 ${esc(video.duration)} <span class="dialog-demo">· 当前播放 8 秒演示片</span>`;
-        dialogStage.innerHTML = `<video id="dialogVideo" controls playsinline preload="metadata" poster="${esc(video.poster)}" aria-label="${esc(video.title)}演示视频"><source src="${esc(video.src)}" type="video/mp4">当前浏览器不支持视频播放。</video>`;
+        $("#dialogMeta").innerHTML = data.meta.mode === "replay"
+          ? `${timeLabel(video.time)} · 时长 ${esc(video.duration)} <span class="dialog-demo">· ${esc(video.source_range || "模拟直播高光切片")}</span>`
+          : `今天 ${esc(video.time)} · 原片 ${esc(video.duration)} <span class="dialog-demo">· 当前播放 8 秒演示片</span>`;
+        dialogStage.innerHTML = `<video id="dialogVideo" controls playsinline preload="metadata" poster="${esc(mediaUrl(video.poster))}" aria-label="${esc(video.title)}演示视频"><source src="${esc(mediaUrl(video.src))}" type="video/mp4">当前浏览器不支持视频播放。</video>`;
         $("#photoNav").hidden = true;
         showDialog();
         const player = $("#dialogVideo");
@@ -894,18 +908,141 @@
         }
       });
 
-      $("#heroKicker").textContent = data.meta.englishTitle;
-      $("#heroTitle").textContent = data.meta.title;
-      $("#heroSubtitle").textContent = data.meta.subtitle;
-      $("#heroLiveText").textContent = data.meta.isLive ? "LIVE · 内容持续更新" : "大会高光集锦";
-      $("#updateText").textContent = `${data.meta.updateText} · 内容持续更新`;
-      document.title = `大会集锦 · ${data.meta.title}`;
+      function updateMeta() {
+        const replaying = Boolean(fullData);
+        $("#heroKicker").textContent = data.meta.englishTitle;
+        $("#heroTitle").textContent = data.meta.title;
+        $("#heroSubtitle").textContent = data.meta.subtitle;
+        $("#heroLiveText").textContent = replaying
+          ? `REPLAY · ${data.meta.isLive ? "模拟直播中" : "模拟已结束"}`
+          : data.meta.mode === "replay" ? "REPLAY · 模拟直播成片" : data.meta.isLive ? "LIVE · 内容持续更新" : "大会高光集锦";
+        $("#updateText").textContent = replaying
+          ? `${Number(fullData.meta.replaySpeed || 30)} 倍速模拟 · ${data.timeline.length}/${fullData.timeline.length} 条动态`
+          : `${data.meta.updateText}${data.meta.mode === "replay" ? ` · 共 ${data.timeline.length} 条` : " · 内容持续更新"}`;
+        $("#demoTag").textContent = data.meta.mode === "replay" ? "SIMULATION · 模拟直播" : "DEMO · 演示数据";
+        if (data.meta.source) {
+          const start = Number(data.meta.source.startSeconds || 0);
+          const clock = [Math.floor(start / 3600), Math.floor(start / 60) % 60, Math.floor(start) % 60]
+            .map((value) => String(value).padStart(2, "0")).join(":");
+          $("#latestNote").textContent = `测试片源：${data.meta.source.title} · 从 ${clock} 开始 · 页面仅发布摘要、抽帧和短切片`;
+        }
+        document.title = `大会集锦 · ${data.meta.title}`;
+      }
 
-      renderTimeline();
-      renderPhotos();
-      renderVideos();
-      const initialTab = location.hash.slice(1);
-      setTab(["latest", "photos", "videos"].includes(initialTab) ? initialTab : "latest", false);
+      function renderAll() {
+        photoMap = new Map(data.photos.map((item) => [item.id, item]));
+        videoMap = new Map(data.videos.map((item) => [item.id, item]));
+        renderTimeline();
+        renderPhotos();
+        renderVideos();
+        updateMeta();
+      }
+
+      async function fetchFeed() {
+        if (location.protocol === "file:") return null;
+        try {
+          const response = await fetch(`data/content.json?t=${Date.now()}`, { cache: "no-store" });
+          if (!response.ok) return null;
+          const value = await response.json();
+          return value && value.meta && Array.isArray(value.timeline)
+            && Array.isArray(value.photos) && Array.isArray(value.videos)
+            && value.photos.every((item) => mediaUrl(item.src))
+            && value.videos.every((item) => mediaUrl(item.src) && mediaUrl(item.poster)) ? value : null;
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function signature(value) {
+        return JSON.stringify([value.meta, value.timeline, value.photos, value.videos]);
+      }
+
+      function ensureReplayTimer() {
+        if (!replayTimer && replayTick) {
+          replayTimer = setInterval(() => replayTick && replayTick(), 500);
+        }
+      }
+
+      function startReplay(source) {
+        fullData = source;
+        const startedAt = Date.now();
+        replayTick = () => {
+          if ($("#mediaDialog").open) return;
+          const current = fullData;
+          const speed = Math.max(1, Number(current.meta.replaySpeed || 30));
+          const elapsed = (Date.now() - startedAt) * speed;
+          const finished = current.meta.status === "ready"
+            && elapsed >= Number(current.meta.durationMs || 0);
+          const visible = (items) => items.filter((item) => Number(item.reveal_ms ?? item.at_ms ?? 0) <= elapsed);
+          data = {
+            ...current,
+            meta: { ...current.meta, isLive: !finished },
+            timeline: visible(current.timeline),
+            photos: visible(current.photos),
+            videos: visible(current.videos),
+          };
+          const nextSignature = signature(data);
+          if (nextSignature !== replaySignature) {
+            replaySignature = nextSignature;
+            renderAll();
+          } else {
+            updateMeta();
+          }
+          if (finished && replayTimer) {
+            clearInterval(replayTimer);
+            replayTimer = null;
+          }
+        };
+        replayTick();
+        ensureReplayTimer();
+      }
+
+      async function refreshFeed() {
+        if (pollInFlight || $("#mediaDialog").open) return;
+        pollInFlight = true;
+        try {
+          const next = await fetchFeed();
+          if (!next) return;
+          if (replayRequested && next.meta.mode === "replay") {
+            if (!fullData) {
+              startReplay(next);
+            } else if (signature(next) !== signature(fullData)) {
+              fullData = next;
+              if (replayTick) replayTick();
+              ensureReplayTimer();
+            }
+          } else if (signature(next) !== signature(data)) {
+            fullData = null;
+            if (replayTimer) clearInterval(replayTimer);
+            replayTimer = null;
+            data = next;
+            renderAll();
+          }
+        } finally {
+          pollInFlight = false;
+        }
+      }
+
+      async function boot() {
+        const remote = await fetchFeed();
+        data = remote || window.CONFERENCE_DATA;
+        if (!data) {
+          $("#timeline").innerHTML = "<p>内容数据加载失败，请确认 mock-data.js 或 data/content.json 可用。</p>";
+          return;
+        }
+        const initialTab = location.hash.slice(1);
+        if (remote && replayRequested && data.meta.mode === "replay") {
+          startReplay(remote);
+        } else {
+          renderAll();
+        }
+        setTab(["latest", "photos", "videos"].includes(initialTab) ? initialTab : "latest", false);
+        if (location.protocol !== "file:") {
+          setInterval(refreshFeed, replayRequested ? 5000 : 20000);
+        }
+      }
+
+      boot();
     })();
   </script>
 </body>
