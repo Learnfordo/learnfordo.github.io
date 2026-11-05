@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="中国新媒体大会直播监控 H5 Demo：最新动态、高光图片、高光视频。">
+  <title>大会集锦 · 中国新媒体大会</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --blue: #1768f2;
+      --blue-dark: #0747c8;
+      --blue-soft: #edf4ff;
+      --ink: #171b26;
+      --text: #303746;
+      --muted: #8a93a3;
+      --line: #edf0f5;
+      --surface: #ffffff;
+      --page: #eef1f5;
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--page); scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+    button, video { font: inherit; }
+    button { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    button:focus-visible, video:focus-visible {
+      outline: 3px solid rgba(23, 104, 242, .28);
+      outline-offset: 3px;
+    }
+    img { display: block; max-width: 100%; }
+    [hidden] { display: none !important; }
+
+    .app {
+      position: relative;
+      width: min(100%, 480px);
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0 auto;
+      overflow: clip;
+      background: var(--surface);
+      box-shadow: 0 0 40px rgba(29, 42, 68, .07);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: grid;
+      grid-template-columns: 48px 1fr 48px;
+      align-items: end;
+      height: calc(54px + var(--safe-top));
+      padding: var(--safe-top) 8px 0;
+      background: rgba(255, 255, 255, .94);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+    .topbar h1 {
+      align-self: center;
+      margin: 0;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 750;
+      letter-spacing: .04em;
+    }
+    .icon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 54px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    .icon-button svg { width: 23px; height: 23px; }
+    .icon-button:active { opacity: .5; }
+
+    .hero {
+      position: relative;
+      isolation: isolate;
+      min-height: 142px;
+      margin: 12px 14px 0;
+      padding: 20px 22px;
+      overflow: hidden;
+      border-radius: 16px;
+      background:
+        radial-gradient(circle at 86% 10%, rgba(62, 209, 255, .48), transparent 34%),
+        radial-gradient(circle at 12% 110%, rgba(0, 225, 255, .42), transparent 45%),
+        linear-gradient(118deg, #0639bc 0%, #075cf4 48%, #008fea 100%);
+      box-shadow: 0 10px 28px rgba(16, 94, 222, .18);
+      color: #fff;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 290px;
+      height: 290px;
+      right: -160px;
+      top: -158px;
+      border: 1px solid rgba(255, 255, 255, .24);
+      border-radius: 50%;
+      box-shadow: 0 0 0 32px rgba(255, 255, 255, .035), 0 0 0 70px rgba(255, 255, 255, .025);
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: -12%;
+      right: -12%;
+      bottom: -52px;
+      height: 104px;
+      border-radius: 50%;
+      border-top: 1px solid rgba(139, 236, 255, .52);
+      background: linear-gradient(180deg, rgba(66, 218, 255, .12), transparent);
+      transform: rotate(-7deg);
+    }
+    .hero-kicker {
+      margin: 0 0 9px;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: .19em;
+      opacity: .76;
+    }
+    .hero-title {
+      margin: 0;
+      font-size: clamp(25px, 6.2vw, 29px);
+      line-height: 1.25;
+      font-weight: 760;
+      letter-spacing: .07em;
+      text-shadow: 0 2px 12px rgba(0, 40, 140, .18);
+    }
+    .hero-subtitle {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin: 10px 0 0;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .24em;
+      opacity: .96;
+    }
+    .hero-subtitle::before {
+      content: "";
+      width: 18px;
+      height: 1px;
+      background: rgba(255, 255, 255, .72);
+    }
+    .hero-live {
+      position: absolute;
+      right: 14px;
+      bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 8px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 999px;
+      background: rgba(0, 37, 136, .18);
+      backdrop-filter: blur(6px);
+      font-size: 10px;
+      letter-spacing: .04em;
+    }
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #6dffb1;
+      box-shadow: 0 0 0 3px rgba(109, 255, 177, .14);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: .45; transform: scale(.85); } }
+
+    .tabs {
+      position: sticky;
+      top: calc(54px + var(--safe-top));
+      z-index: 20;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      height: 62px;
+      margin-top: 3px;
+      padding: 0 8px;
+      border-bottom: 1px solid #f2f4f7;
+      background: rgba(255, 255, 255, .96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .tab {
+      position: relative;
+      border: 0;
+      background: transparent;
+      color: #858d9a;
+      font-size: 16px;
+      font-weight: 550;
+      cursor: pointer;
+      transition: color .2s ease;
+    }
+    .tab::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 6px;
+      width: 26px;
+      height: 3px;
+      border-radius: 4px;
+      background: var(--blue);
+      opacity: 0;
+      transform: translateX(-50%) scaleX(.5);
+      transition: opacity .2s ease, transform .2s ease;
+    }
+    .tab[aria-selected="true"] { color: var(--blue); font-weight: 720; }
+    .tab[aria-selected="true"]::after { opacity: 1; transform: translateX(-50%) scaleX(1); }
+
+    main { padding: 0 16px calc(28px + var(--safe-bottom)); }
+    .panel { animation: panel-in .26s ease both; }
+    @keyframes panel-in { from { opacity: 0; transform: translateY(4px); } }
+    .feed-head, .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .feed-head { margin: 16px 1px 18px; }
+    .update-state {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: #68758a;
+      font-size: 12px;
+    }
+    .update-state .live-dot { width: 5px; height: 5px; background: var(--blue); box-shadow: 0 0 0 3px var(--blue-soft); }
+    .demo-tag {
+      padding: 3px 8px;
+      border-radius: 5px;
+      background: #f3f5f8;
+      color: #98a0ad;
+      font-size: 10px;
+      letter-spacing: .04em;
+    }
+
+    .timeline { position: relative; }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      bottom: 22px;
+      left: 5px;
+      width: 2px;
+      border-radius: 2px;
+      background: linear-gradient(#9fc5ff, #e2edfc 88%, transparent);
+    }
+    .timeline-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 18px 54px minmax(0, 1fr);
+      padding-bottom: 25px;
+    }
+    .timeline-node {
+      position: relative;
+      z-index: 1;
+      width: 11px;
+      height: 11px;
+      margin-top: 7px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: #69a7ff;
+      box-shadow: 0 0 0 3px #eaf3ff;
+    }
+    .timeline-item:first-child .timeline-node { background: var(--blue); box-shadow: 0 0 0 4px #e3efff; }
+    .timeline-time {
+      padding-top: 1px;
+      color: #252b37;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 740;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -.02em;
+    }
+    .timeline-item:first-child .timeline-time { color: var(--blue); }
+    .timeline-content { min-width: 0; }
+    .timeline-title {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 0 0 8px;
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: 730;
+      letter-spacing: .01em;
+    }
+    .new-badge {
+      padding: 1px 5px;
+      border-radius: 4px;
+      background: var(--blue-soft);
+      color: var(--blue);
+      font-size: 9px;
+      line-height: 16px;
+      font-weight: 750;
+      letter-spacing: .05em;
+    }
+    .timeline-summary {
+      margin: -1px 0 10px;
+      color: #747e8e;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .media-grid.single { grid-template-columns: 1fr; }
+    .media-button {
+      position: relative;
+      display: block;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      border-radius: 10px;
+      background: #e9eef5;
+      cursor: pointer;
+      text-align: left;
+    }
+    .media-button img {
+      width: 100%;
+      aspect-ratio: 1.52 / 1;
+      object-fit: cover;
+      transition: transform .35s ease;
+    }
+    .media-button:active img { transform: scale(1.025); }
+    .media-grid.single .media-button img { aspect-ratio: 1.9 / 1; }
+    .media-corner {
+      position: absolute;
+      right: 7px;
+      bottom: 7px;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 3px 6px;
+      border-radius: 5px;
+      background: rgba(8, 16, 30, .62);
+      color: #fff;
+      font-size: 9px;
+      backdrop-filter: blur(5px);
+    }
+    .media-corner svg { width: 10px; height: 10px; }
+
+    .video-poster {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      border-radius: 12px;
+      background: #101c33;
+      cursor: pointer;
+      text-align: left;
+    }
+    .video-poster img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      transition: transform .35s ease;
+    }
+    .video-poster::after {
+      content: "";
+      position: absolute;
+      inset: 35% 0 0;
+      background: linear-gradient(transparent, rgba(3, 11, 28, .45));
+      pointer-events: none;
+    }
+    .video-poster:active img { transform: scale(1.02); }
+    .play-button {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 50%;
+      display: grid;
+      place-items: center;
+      width: 52px;
+      height: 52px;
+      border: 1px solid rgba(255, 255, 255, .55);
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .22);
+      box-shadow: 0 5px 24px rgba(0, 20, 65, .16);
+      backdrop-filter: blur(7px);
+      transform: translate(-50%, -50%);
+    }
+    .play-button svg { width: 21px; height: 21px; margin-left: 3px; fill: #fff; }
+    .duration {
+      position: absolute;
+      z-index: 2;
+      right: 9px;
+      bottom: 9px;
+      padding: 3px 7px;
+      border-radius: 5px;
+      background: rgba(5, 12, 26, .78);
+      color: #fff;
+      font-size: 11px;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: .04em;
+    }
+    .video-kind {
+      position: absolute;
+      z-index: 2;
+      left: 10px;
+      bottom: 11px;
+      color: rgba(255, 255, 255, .94);
+      font-size: 10px;
+      letter-spacing: .08em;
+    }
+
+    .section-head { align-items: flex-end; margin: 18px 1px 16px; }
+    .section-title { margin: 0; font-size: 20px; line-height: 1.35; font-weight: 750; }
+    .section-subtitle { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
+    .section-count { color: var(--blue); font-size: 12px; white-space: nowrap; }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 13px 10px;
+    }
+    .photo-card, .video-card {
+      overflow: hidden;
+      border: 1px solid #edf0f4;
+      border-radius: 13px;
+      background: #fff;
+      box-shadow: 0 4px 16px rgba(29, 48, 78, .045);
+    }
+    .photo-card { padding: 0; cursor: pointer; text-align: left; }
+    .photo-card img {
+      width: 100%;
+      aspect-ratio: 1.25 / 1;
+      object-fit: cover;
+      transition: transform .35s ease;
+    }
+    .photo-card:active img { transform: scale(1.025); }
+    .photo-card-body { display: block; padding: 10px 11px 11px; }
+    .photo-category { display: block; margin-bottom: 5px; color: var(--blue); font-size: 10px; font-weight: 650; }
+    .photo-title {
+      display: block;
+      min-height: 40px;
+      margin: 0;
+      color: #303744;
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 650;
+    }
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 8px;
+      color: #9aa2af;
+      font-size: 10px;
+      font-variant-numeric: tabular-nums;
+    }
+    .card-meta svg { width: 12px; height: 12px; }
+    .video-list { display: grid; gap: 15px; }
+    .video-card .video-poster { border-radius: 0; }
+    .video-card-body { padding: 12px 13px 13px; }
+    .video-title { margin: 0; font-size: 16px; line-height: 1.45; font-weight: 700; }
+    .video-summary { margin: 6px 0 0; color: #7b8493; font-size: 12px; line-height: 1.65; }
+    .video-card .card-meta { margin-top: 10px; }
+    .quality { color: #6f7e94; }
+
+    .demo-note {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      margin: 25px 0 3px;
+      color: #adb4bf;
+      font-size: 10px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .demo-note::before, .demo-note::after { content: ""; width: 22px; height: 1px; background: #e5e8ed; }
+
+    .media-dialog {
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      max-height: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      background: rgba(5, 9, 17, .96);
+      color: #fff;
+    }
+    .media-dialog::backdrop { background: rgba(5, 9, 17, .9); }
+    .dialog-shell {
+      position: relative;
+      display: grid;
+      grid-template-rows: calc(54px + var(--safe-top)) minmax(0, 1fr) auto;
+      width: min(100%, 680px);
+      height: 100%;
+      margin: auto;
+    }
+    .dialog-top {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: var(--safe-top) 10px 0 18px;
+    }
+    .dialog-label { align-self: center; color: rgba(255, 255, 255, .72); font-size: 13px; }
+    .dialog-close { color: #fff; }
+    .dialog-stage { display: grid; place-items: center; min-height: 0; padding: 14px 0; }
+    .dialog-stage img, .dialog-stage video {
+      display: block;
+      width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      background: #050911;
+    }
+    .dialog-stage video { aspect-ratio: 16 / 9; }
+    .dialog-info { padding: 16px 22px calc(22px + var(--safe-bottom)); }
+    .dialog-title { margin: 0; font-size: 18px; line-height: 1.5; }
+    .dialog-meta { margin: 7px 0 0; color: rgba(255, 255, 255, .56); font-size: 12px; line-height: 1.6; }
+    .dialog-demo { color: #8fbfff; }
+    .photo-nav { display: flex; gap: 10px; margin-top: 16px; }
+    .nav-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      min-width: 92px;
+      height: 38px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .08);
+      color: #fff;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .nav-button svg { width: 15px; height: 15px; }
+    .nav-button:disabled { opacity: .3; cursor: default; }
+
+    .toast {
+      position: fixed;
+      z-index: 100;
+      left: 50%;
+      bottom: calc(28px + var(--safe-bottom));
+      max-width: calc(100vw - 40px);
+      padding: 10px 17px;
+      border-radius: 999px;
+      background: rgba(22, 28, 40, .9);
+      box-shadow: 0 8px 26px rgba(0, 0, 0, .16);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: center;
+      opacity: 0;
+      pointer-events: none;
+      transform: translate(-50%, 10px);
+      transition: opacity .22s ease, transform .22s ease;
+    }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+    @media (min-width: 481px) {
+      .app { min-height: calc(100vh - 32px); margin-top: 16px; margin-bottom: 16px; border-radius: 20px; }
+      .topbar { border-radius: 20px 20px 0 0; }
+    }
+    @media (max-width: 359px) {
+      main { padding-left: 12px; padding-right: 12px; }
+      .hero { margin-left: 10px; margin-right: 10px; padding-left: 17px; }
+      .timeline-item { grid-template-columns: 17px 53px minmax(0, 1fr); }
+      .timeline-title { font-size: 16px; }
+      .tab { font-size: 15px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar">
+      <button class="icon-button" id="backButton" type="button" aria-label="返回">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 4-8 8 8 8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <h1>大会集锦</h1>
+      <button class="icon-button" id="shareButton" type="button" aria-label="分享大会集锦">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="18" cy="5" r="2.5" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="2.5" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="2.5" stroke="currentColor" stroke-width="1.8"/><path d="m8.2 10.8 7.5-4.4M8.2 13.2l7.5 4.4" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+    </header>
+
+    <section class="hero" aria-label="中国新媒体大会会议高光集锦">
+      <p class="hero-kicker" id="heroKicker"></p>
+      <h2 class="hero-title" id="heroTitle"></h2>
+      <p class="hero-subtitle" id="heroSubtitle"></p>
+      <div class="hero-live"><span class="live-dot"></span><span id="heroLiveText">LIVE · 内容持续更新</span></div>
+    </section>
+
+    <nav class="tabs" id="tabs" role="tablist" aria-label="大会内容分类">
+      <button class="tab" id="tab-latest" type="button" role="tab" aria-selected="true" aria-controls="panel-latest" data-tab="latest">最新动态</button>
+      <button class="tab" id="tab-photos" type="button" role="tab" aria-selected="false" aria-controls="panel-photos" data-tab="photos" tabindex="-1">高光图片</button>
+      <button class="tab" id="tab-videos" type="button" role="tab" aria-selected="false" aria-controls="panel-videos" data-tab="videos" tabindex="-1">高光视频</button>
+    </nav>
+
+    <main>
+      <section class="panel" id="panel-latest" role="tabpanel" aria-labelledby="tab-latest">
+        <div class="feed-head">
+          <div class="update-state"><span class="live-dot"></span><span id="updateText">内容持续更新</span></div>
+          <span class="demo-tag">DEMO · 演示数据</span>
+        </div>
+        <div class="timeline" id="timeline"></div>
+        <div class="demo-note">大会内容将持续在这里更新</div>
+      </section>
+
+      <section class="panel" id="panel-photos" role="tabpanel" aria-labelledby="tab-photos" hidden>
+        <div class="section-head">
+          <div><h2 class="section-title">高光图片</h2><p class="section-subtitle">定格大会精彩瞬间</p></div>
+          <span class="section-count" id="photoCount"></span>
+        </div>
+        <div class="photo-grid" id="photoGrid"></div>
+        <div class="demo-note">点击图片可全屏预览</div>
+      </section>
+
+      <section class="panel" id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" hidden>
+        <div class="section-head">
+          <div><h2 class="section-title">高光视频</h2><p class="section-subtitle">不容错过的现场观点与瞬间</p></div>
+          <span class="section-count" id="videoCount"></span>
+        </div>
+        <div class="video-list" id="videoList"></div>
+        <div class="demo-note">点击卡片播放高光视频</div>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="media-dialog" id="mediaDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-shell">
+      <div class="dialog-top">
+        <span class="dialog-label" id="dialogLabel"></span>
+        <button class="icon-button dialog-close" id="dialogClose" type="button" aria-label="关闭预览">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="dialog-stage" id="dialogStage"></div>
+      <div class="dialog-info">
+        <h2 class="dialog-title" id="dialogTitle"></h2>
+        <p class="dialog-meta" id="dialogMeta"></p>
+        <div class="photo-nav" id="photoNav">
+          <button class="nav-button" id="prevPhoto" type="button"><svg viewBox="0 0 24 24" fill="none"><path d="m14 6-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>上一张</button>
+          <button class="nav-button" id="nextPhoto" type="button">下一张<svg viewBox="0 0 24 24" fill="none"><path d="m10 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="mock-data.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      const data = window.CONFERENCE_DATA;
+      if (!data) {
+        document.getElementById("timeline").innerHTML = "<p>演示数据加载失败，请确认 mock-data.js 与本文件位于同一目录。</p>";
+        return;
+      }
+
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => [...document.querySelectorAll(selector)];
+      const photoMap = new Map(data.photos.map((item) => [item.id, item]));
+      const videoMap = new Map(data.videos.map((item) => [item.id, item]));
+      const icons = {
+        play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z"/></svg>',
+        image: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="9" r="1.5" fill="currentColor"/><path d="m4 17 5-4 3 2 3-4 5 5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
+        arrow: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 5 7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+      };
+
+      function esc(value) {
+        return String(value ?? "").replace(/[&<>'"]/g, (char) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+        })[char]);
+      }
+
+      function playOverlay() {
+        return `<span class="play-button">${icons.play}</span>`;
+      }
+
+      function timelineMedia(media, eager = false) {
+        if (!media || !media.length) return "";
+        const images = media.filter((item) => item.type === "photo");
+        if (images.length) {
+          return `<div class="media-grid ${images.length === 1 ? "single" : ""}">${images.map((item) => {
+            const photo = photoMap.get(item.id);
+            if (!photo) return "";
+            return `<button class="media-button" type="button" data-photo-id="${esc(photo.id)}" aria-label="预览图片：${esc(photo.title)}">
+              <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">
+              <span class="media-corner">${icons.image}高光图片</span>
+            </button>`;
+          }).join("")}</div>`;
+        }
+        return media.map((item) => {
+          const video = videoMap.get(item.id);
+          if (!video) return "";
+          return `<button class="video-poster" type="button" data-video-id="${esc(video.id)}" aria-label="播放视频：${esc(video.title)}">
+            <img src="${esc(video.poster)}" alt="${esc(video.title)}视频封面示意图" loading="${eager ? "eager" : "lazy"}" decoding="async">
+            ${playOverlay()}<span class="video-kind">高光视频</span><span class="duration">${esc(video.duration)}</span>
+          </button>`;
+        }).join("");
+      }
+
+      function renderTimeline() {
+        $("#timeline").innerHTML = data.timeline.map((item, index) => `
+          <article class="timeline-item" id="${esc(item.id)}">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <time class="timeline-time">${esc(item.time)}</time>
+            <div class="timeline-content">
+              <h3 class="timeline-title">${esc(item.title)}${index === 0 ? '<span class="new-badge">NEW</span>' : ""}</h3>
+              ${item.summary ? `<p class="timeline-summary">${esc(item.summary)}</p>` : ""}
+              ${timelineMedia(item.media, index < 2)}
+            </div>
+          </article>`).join("");
+      }
+
+      function renderPhotos() {
+        $("#photoCount").textContent = `共 ${data.photos.length} 张`;
+        $("#photoGrid").innerHTML = data.photos.map((photo) => `
+          <button class="photo-card" type="button" data-photo-id="${esc(photo.id)}" aria-label="预览图片：${esc(photo.title)}">
+            <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" loading="lazy" decoding="async">
+            <span class="photo-card-body">
+              <span class="photo-category">${esc(photo.category)}</span>
+              <span class="photo-title">${esc(photo.title)}</span>
+              <span class="card-meta"><span>今天 ${esc(photo.time)}</span>${icons.arrow}</span>
+            </span>
+          </button>`).join("");
+      }
+
+      function renderVideos() {
+        $("#videoCount").textContent = `共 ${data.videos.length} 条`;
+        $("#videoList").innerHTML = data.videos.map((video) => `
+          <article class="video-card">
+            <button class="video-poster" type="button" data-video-id="${esc(video.id)}" aria-label="播放视频：${esc(video.title)}">
+              <img src="${esc(video.poster)}" alt="${esc(video.title)}视频封面示意图" loading="lazy" decoding="async">
+              ${playOverlay()}<span class="duration">${esc(video.duration)}</span>
+            </button>
+            <div class="video-card-body">
+              <h3 class="video-title">${esc(video.title)}</h3>
+              <p class="video-summary">${esc(video.summary)}</p>
+              <div class="card-meta"><span>今天 ${esc(video.time)}</span><span class="quality">高光剪辑 · 1080P</span></div>
+            </div>
+          </article>`).join("");
+      }
+
+      const tabs = $$(".tab");
+      let activeTab = "latest";
+      function setTab(name, userInitiated = true) {
+        if (!["latest", "photos", "videos"].includes(name)) name = "latest";
+        const changed = activeTab !== name;
+        activeTab = name;
+        tabs.forEach((tab) => {
+          const selected = tab.dataset.tab === name;
+          tab.setAttribute("aria-selected", String(selected));
+          tab.tabIndex = selected ? 0 : -1;
+        });
+        ["latest", "photos", "videos"].forEach((panel) => {
+          $(`#panel-${panel}`).hidden = panel !== name;
+        });
+        try { history.replaceState(null, "", `#${name}`); } catch (_) {}
+        if (userInitiated && changed) {
+          const topbarHeight = $("#topbar").getBoundingClientRect().height;
+          const targetY = window.scrollY + $("#tabs").getBoundingClientRect().top - topbarHeight;
+          window.scrollTo({ top: Math.max(0, targetY), behavior: "smooth" });
+        }
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => setTab(tab.dataset.tab));
+        tab.addEventListener("keydown", (event) => {
+          if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+          event.preventDefault();
+          const current = tabs.indexOf(tab);
+          let next = current;
+          if (event.key === "ArrowLeft") next = (current + tabs.length - 1) % tabs.length;
+          if (event.key === "ArrowRight") next = (current + 1) % tabs.length;
+          if (event.key === "Home") next = 0;
+          if (event.key === "End") next = tabs.length - 1;
+          setTab(tabs[next].dataset.tab);
+          tabs[next].focus();
+        });
+      });
+
+      const dialog = $("#mediaDialog");
+      const dialogStage = $("#dialogStage");
+      let currentPhotoIndex = 0;
+
+      function showDialog() {
+        if (!dialog.open) dialog.showModal();
+        document.body.style.overflow = "hidden";
+      }
+
+      function openPhoto(id) {
+        const index = data.photos.findIndex((item) => item.id === id);
+        if (index < 0) return;
+        currentPhotoIndex = index;
+        const photo = data.photos[index];
+        $("#dialogLabel").textContent = `高光图片 · ${index + 1}/${data.photos.length}`;
+        $("#dialogTitle").textContent = photo.title;
+        $("#dialogMeta").textContent = `${photo.category} · 今天 ${photo.time} · 演示示意图`;
+        dialogStage.innerHTML = `<img src="${esc(photo.src)}" alt="${esc(photo.alt)}">`;
+        $("#photoNav").hidden = false;
+        $("#prevPhoto").disabled = index === 0;
+        $("#nextPhoto").disabled = index === data.photos.length - 1;
+        showDialog();
+      }
+
+      function openVideo(id) {
+        const video = videoMap.get(id);
+        if (!video) return;
+        $("#dialogLabel").textContent = "高光视频";
+        $("#dialogTitle").textContent = video.title;
+        $("#dialogMeta").innerHTML = `今天 ${esc(video.time)} · 原片 ${esc(video.duration)} <span class="dialog-demo">· 当前播放 8 秒演示片</span>`;
+        dialogStage.innerHTML = `<video id="dialogVideo" controls playsinline preload="metadata" poster="${esc(video.poster)}" aria-label="${esc(video.title)}演示视频"><source src="${esc(video.src)}" type="video/mp4">当前浏览器不支持视频播放。</video>`;
+        $("#photoNav").hidden = true;
+        showDialog();
+        const player = $("#dialogVideo");
+        player.addEventListener("error", () => showToast("视频加载失败，请确认 assets 目录完整"), { once: true });
+        player.play().catch(() => {});
+      }
+
+      document.addEventListener("click", (event) => {
+        const photoButton = event.target.closest("[data-photo-id]");
+        const videoButton = event.target.closest("[data-video-id]");
+        if (photoButton) openPhoto(photoButton.dataset.photoId);
+        if (videoButton) openVideo(videoButton.dataset.videoId);
+      });
+
+      $("#prevPhoto").addEventListener("click", () => {
+        if (currentPhotoIndex > 0) openPhoto(data.photos[currentPhotoIndex - 1].id);
+      });
+      $("#nextPhoto").addEventListener("click", () => {
+        if (currentPhotoIndex < data.photos.length - 1) openPhoto(data.photos[currentPhotoIndex + 1].id);
+      });
+      $("#dialogClose").addEventListener("click", () => dialog.close());
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog || event.target.classList.contains("dialog-stage")) dialog.close();
+      });
+      dialog.addEventListener("close", () => {
+        const player = $("#dialogVideo");
+        if (player) player.pause();
+        dialogStage.innerHTML = "";
+        document.body.style.overflow = "";
+      });
+      dialog.addEventListener("keydown", (event) => {
+        if ($("#photoNav").hidden) return;
+        if (event.key === "ArrowLeft") $("#prevPhoto").click();
+        if (event.key === "ArrowRight") $("#nextPhoto").click();
+      });
+
+      let toastTimer;
+      function showToast(message) {
+        const toast = $("#toast");
+        toast.textContent = message;
+        toast.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+      }
+
+      $("#backButton").addEventListener("click", () => {
+        if (window.history.length > 1) window.history.back();
+        else showToast("当前已是大会集锦首页");
+      });
+      $("#shareButton").addEventListener("click", async () => {
+        const shareData = { title: "中国新媒体大会 · 大会集锦", text: "查看大会最新动态与高光内容", url: location.href };
+        if (navigator.share) {
+          try { await navigator.share(shareData); return; } catch (error) { if (error.name === "AbortError") return; }
+        }
+        try {
+          await navigator.clipboard.writeText(location.href);
+          showToast("页面链接已复制");
+        } catch (_) {
+          showToast("本地 Demo 可通过浏览器地址栏分享");
+        }
+      });
+
+      $("#heroKicker").textContent = data.meta.englishTitle;
+      $("#heroTitle").textContent = data.meta.title;
+      $("#heroSubtitle").textContent = data.meta.subtitle;
+      $("#heroLiveText").textContent = data.meta.isLive ? "LIVE · 内容持续更新" : "大会高光集锦";
+      $("#updateText").textContent = `${data.meta.updateText} · 内容持续更新`;
+      document.title = `大会集锦 · ${data.meta.title}`;
+
+      renderTimeline();
+      renderPhotos();
+      renderVideos();
+      const initialTab = location.hash.slice(1);
+      setTab(["latest", "photos", "videos"].includes(initialTab) ? initialTab : "latest", false);
+    })();
+  </script>
+</body>
+</html>
