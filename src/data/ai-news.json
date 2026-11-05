@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-11-04T13:54:52.522Z",
+  "updatedAt": "2026-11-05T06:02:27.915Z",
   "items": [
+    {
+      "date": "2026-11-04",
+      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+      "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been ",
+      "url": "https://arxiv.org/abs/2611.06914v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
+      "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimato",
+      "url": "https://arxiv.org/abs/2611.06912v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act und",
+      "url": "https://arxiv.org/abs/2611.06911v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solut",
+      "url": "https://arxiv.org/abs/2611.06910v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Perceptive Humanoid Motion from Simulation",
+      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-",
+      "url": "https://arxiv.org/abs/2611.06908v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+      "summary": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-s",
+      "url": "https://arxiv.org/abs/2611.06905v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+      "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployme",
+      "url": "https://arxiv.org/abs/2611.06899v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher e",
+      "url": "https://arxiv.org/abs/2611.06888v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
+      "summary": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one b",
+      "url": "https://arxiv.org/abs/2611.06879v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
+      "summary": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing in",
+      "url": "https://arxiv.org/abs/2611.06876v1",
+      "tags": [],
+      "source": "arXiv"
+    },
     {
       "date": "2026-11-04",
       "title": "AI is forcing us to pay off 40 years of technical debt",
@@ -10,7 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 253
+      "score": 1139
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "summary": "via huggingface.co",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 450
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "summary": "via www.ricursive.com",
+      "url": "https://www.ricursive.com/ripple",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 269
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "summary": "I&#x27;m curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to ans",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
+    },
+    {
+      "date": "2026-11-04",
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 219
     },
     {
       "date": "2026-11-03",
@@ -322,133 +446,6 @@
       "title": "Hierarchical World Models with Implicit Dynamics",
       "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative err",
       "url": "https://arxiv.org/abs/2610.42146v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
-      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet to",
-      "url": "https://arxiv.org/abs/2610.42141v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
-      "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via",
-      "url": "https://arxiv.org/abs/2610.42139v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "A Better Critic Matters for Distribution Matching Distillation",
-      "summary": "Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate wh",
-      "url": "https://arxiv.org/abs/2610.42135v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Instance-dependent sequential limits as an exact information ledger",
-      "summary": "Instance-dependent limits for bandit regret, sequential tests, best-arm identification and Markov decision processes are proved by one chain. It runs from a divergence decomposition through data proce",
-      "url": "https://arxiv.org/abs/2610.42133v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
-      "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision mod",
-      "url": "https://arxiv.org/abs/2610.42128v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
-      "summary": "Objective: To distinguish the transferable predictive value of physiological trajectories from that of observation patterns in ICU mortality prediction, and to assess whether measurement timing affect",
-      "url": "https://arxiv.org/abs/2610.42126v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-01",
-      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2409.02292",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 72
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 328
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "summary": "via www.parameter.ai",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 324
-    },
-    {
-      "date": "2026-10-31",
-      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-      "summary": "via github.com",
-      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 200
-    },
-    {
-      "date": "2026-10-31",
-      "title": "ChatGPT and Codex usage limits merging",
-      "summary": "via help.openai.com",
-      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 90
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Elucidating the Design Space of LM Data Attribution",
-      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, ma",
-      "url": "https://arxiv.org/abs/2610.40655v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
-      "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single r",
-      "url": "https://arxiv.org/abs/2610.40654v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Rethinking Neural Thickets Without Weight Perturbations",
-      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce",
-      "url": "https://arxiv.org/abs/2610.40649v1",
       "tags": [],
       "source": "arXiv"
     }
