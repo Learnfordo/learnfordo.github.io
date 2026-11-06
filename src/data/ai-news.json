@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-05T13:23:23.623Z",
+  "updatedAt": "2026-11-06T08:29:41.373Z",
   "items": [
+    {
+      "date": "2026-11-05",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are in",
+      "url": "https://arxiv.org/abs/2611.08487v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process",
+      "url": "https://arxiv.org/abs/2611.08483v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Sc",
+      "url": "https://arxiv.org/abs/2611.08478v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repos",
+      "url": "https://arxiv.org/abs/2611.08472v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, n",
+      "url": "https://arxiv.org/abs/2611.08469v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus con",
+      "url": "https://arxiv.org/abs/2611.08465v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "summary": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the ",
+      "url": "https://arxiv.org/abs/2611.08457v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy com",
+      "url": "https://arxiv.org/abs/2611.08453v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success c",
+      "url": "https://arxiv.org/abs/2611.08452v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+      "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker'",
+      "url": "https://arxiv.org/abs/2611.08445v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Claude Code sends your email address to websites",
+      "summary": "via github.com",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1025
+    },
+    {
+      "date": "2026-11-05",
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "summary": "via www.cve.org",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 508
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "summary": "via finance.yahoo.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 296
+    },
+    {
+      "date": "2026-11-05",
+      "title": "MCP Explained",
+      "summary": "via mcp-explained.com",
+      "url": "https://mcp-explained.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 293
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "summary": "via www.linum.ai",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 215
+    },
     {
       "date": "2026-11-04",
       "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
@@ -311,144 +446,6 @@
       "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
       "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and li",
       "url": "https://arxiv.org/abs/2611.03634v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
-      "summary": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advan",
-      "url": "https://arxiv.org/abs/2611.03633v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reaso",
-      "url": "https://arxiv.org/abs/2611.03627v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
-      "summary": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn gen",
-      "url": "https://arxiv.org/abs/2611.03625v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
-      "summary": "Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer ",
-      "url": "https://arxiv.org/abs/2611.03623v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "D&amp;A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-      "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in f",
-      "url": "https://arxiv.org/abs/2611.03622v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Strategist: Evolving Reasoning with Agents",
-      "summary": "A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the",
-      "url": "https://arxiv.org/abs/2611.03618v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-      "summary": "via www.techpolicy.press",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 327
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Scaling Git at OpenAI",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/scaling-git-at-openai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 203
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Egoless Mathematics in the AI Era",
-      "summary": "via terrytao.wordpress.com",
-      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 156
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "summary": "via momentic.ai",
-      "url": "https://momentic.ai/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 143
-    },
-    {
-      "date": "2026-11-01",
-      "title": "The AI cost of JavaScript frameworks",
-      "summary": "via nolanlawson.com",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 358
-    },
-    {
-      "date": "2026-11-01",
-      "title": "Domain hacks with unusual Unicode characters (2018)",
-      "summary": "via shkspr.mobi",
-      "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 76
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought re",
-      "url": "https://arxiv.org/abs/2610.42149v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
-      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existin",
-      "url": "https://arxiv.org/abs/2610.42148v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
-      "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tok",
-      "url": "https://arxiv.org/abs/2610.42147v1",
       "tags": [],
       "source": "arXiv"
     }
