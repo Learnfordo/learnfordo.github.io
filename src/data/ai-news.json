@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-06T08:29:41.373Z",
+  "updatedAt": "2026-11-07T07:46:04.393Z",
   "items": [
+    {
+      "date": "2026-11-06",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 326
+    },
+    {
+      "date": "2026-11-06",
+      "title": "AI is dramatically accelerating AI research",
+      "summary": "via www.planned-obsolescence.org",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 280
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "summary": "via www.infohawk.com",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
+    },
     {
       "date": "2026-11-05",
       "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
@@ -422,30 +455,6 @@
       "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
       "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whol",
       "url": "https://arxiv.org/abs/2611.03647v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these compone",
-      "url": "https://arxiv.org/abs/2611.03648v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
-      "summary": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style questi",
-      "url": "https://arxiv.org/abs/2611.03641v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-      "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and li",
-      "url": "https://arxiv.org/abs/2611.03634v1",
       "tags": [],
       "source": "arXiv"
     }
