@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-11-07T07:46:04.393Z",
+  "updatedAt": "2026-11-08T07:57:51.793Z",
   "items": [
     {
-      "date": "2026-11-06",
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "date": "2026-11-08",
+      "title": "Goodbye Claude, Hello Pi",
+      "summary": "via caleb.software",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 326
+      "score": 197
     },
     {
-      "date": "2026-11-06",
-      "title": "AI is dramatically accelerating AI research",
-      "summary": "via www.planned-obsolescence.org",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "date": "2026-11-07",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "summary": "via hunch.net",
+      "url": "https://hunch.net/?p=13764006",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 280
+      "score": 445
     },
     {
-      "date": "2026-11-06",
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "summary": "via www.infohawk.com",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "date": "2026-11-07",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "summary": "via apiiro.com",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 116
+      "score": 345
     },
     {
       "date": "2026-11-05",
@@ -113,6 +113,50 @@
       "url": "https://arxiv.org/abs/2611.08445v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "summary": "via arstechnica.com",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 115
+    },
+    {
+      "date": "2026-11-06",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 326
+    },
+    {
+      "date": "2026-11-06",
+      "title": "AI is dramatically accelerating AI research",
+      "summary": "via www.planned-obsolescence.org",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 280
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "summary": "via www.infohawk.com",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 116
     },
     {
       "date": "2026-11-05",
@@ -416,47 +460,6 @@
       ],
       "source": "HN",
       "score": 668
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "summary": "via blog.nns.ee",
-      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 878
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "summary": "via arstechnica.com",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 497
-    },
-    {
-      "date": "2026-11-03",
-      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2605.29713",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 325
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whol",
-      "url": "https://arxiv.org/abs/2611.03647v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
