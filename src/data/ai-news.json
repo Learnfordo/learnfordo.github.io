@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T08:34:27.714Z",
+  "updatedAt": "2026-11-09T08:39:51.393Z",
   "items": [
     {
       "date": "2026-11-08",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 751
+      "score": 752
     },
     {
       "date": "2026-11-08",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 621
+      "score": 623
     },
     {
       "date": "2026-11-08",
@@ -43,18 +43,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 380
+      "score": 382
     },
     {
-      "date": "2026-11-08",
-      "title": "I'm not convinced the AI bubble exists",
-      "summary": "via matteoraso.github.io",
-      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "date": "2026-11-07",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "summary": "via apiiro.com",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 240
+      "score": 600
     },
     {
       "date": "2026-11-06",
@@ -137,6 +137,17 @@
       "source": "arXiv"
     },
     {
+      "date": "2026-11-08",
+      "title": "I'm not convinced the AI bubble exists",
+      "summary": "via matteoraso.github.io",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 240
+    },
+    {
       "date": "2026-11-07",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "summary": "via hunch.net",
@@ -146,17 +157,6 @@
       ],
       "source": "HN",
       "score": 445
-    },
-    {
-      "date": "2026-11-07",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "summary": "via apiiro.com",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 345
     },
     {
       "date": "2026-11-05",
