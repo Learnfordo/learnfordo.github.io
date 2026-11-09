@@ -1,16 +1,140 @@
 {
-  "updatedAt": "2026-11-08T07:57:51.793Z",
+  "updatedAt": "2026-11-09T08:34:27.714Z",
   "items": [
     {
       "date": "2026-11-08",
-      "title": "Goodbye Claude, Hello Pi",
+      "title": "Goodbye Claude, hello Pi",
       "summary": "via caleb.software",
       "url": "https://caleb.software/posts/claude-to-pi.html",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 197
+      "score": 754
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "summary": "via www.thestateofai.com",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 751
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "summary": "via nvidianews.nvidia.com",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 621
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Outlook.com is rejecting email from domains without DMARC",
+      "summary": "via mailroute.net",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 380
+    },
+    {
+      "date": "2026-11-08",
+      "title": "I'm not convinced the AI bubble exists",
+      "summary": "via matteoraso.github.io",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 240
+    },
+    {
+      "date": "2026-11-06",
+      "title": "On Agentic Manipulation Policies",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such a",
+      "url": "https://arxiv.org/abs/2611.09892v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task h",
+      "url": "https://arxiv.org/abs/2611.09891v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d",
+      "url": "https://arxiv.org/abs/2611.09887v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the d",
+      "url": "https://arxiv.org/abs/2611.09882v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+      "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and ",
+      "url": "https://arxiv.org/abs/2611.09878v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze ma",
+      "url": "https://arxiv.org/abs/2611.09872v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+      "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increas",
+      "url": "https://arxiv.org/abs/2611.09868v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+      "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensiv",
+      "url": "https://arxiv.org/abs/2611.09866v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service r",
+      "url": "https://arxiv.org/abs/2611.09864v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+      "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directl",
+      "url": "https://arxiv.org/abs/2611.09863v1",
+      "tags": [],
+      "source": "arXiv"
     },
     {
       "date": "2026-11-07",
@@ -336,130 +460,6 @@
       ],
       "source": "HN",
       "score": 310
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Progress on provable inference for large language models",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/provable-inference",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 231
-    },
-    {
-      "date": "2026-11-04",
-      "title": "OpenAI to acquire Pierre Computer Company",
-      "summary": "via openai.com",
-      "url": "https://openai.com/index/openai-to-acquire-pierre/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 251
-    },
-    {
-      "date": "2026-11-03",
-      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearanc",
-      "url": "https://arxiv.org/abs/2611.05377v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on ",
-      "url": "https://arxiv.org/abs/2611.05376v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-      "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates",
-      "url": "https://arxiv.org/abs/2611.05373v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
-      "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Preci",
-      "url": "https://arxiv.org/abs/2611.05372v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
-      "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuiti",
-      "url": "https://arxiv.org/abs/2611.05368v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
-      "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--languag",
-      "url": "https://arxiv.org/abs/2611.05358v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
-      "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measu",
-      "url": "https://arxiv.org/abs/2611.05355v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Agnostic Learning by Imitating",
-      "summary": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive an",
-      "url": "https://arxiv.org/abs/2611.05346v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-      "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train be",
-      "url": "https://arxiv.org/abs/2611.05345v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "A Circuit for In-Context Learning",
-      "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping i",
-      "url": "https://arxiv.org/abs/2611.05344v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "summary": "via github.com",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1383
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "summary": "via simonwillison.net",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 668
     }
   ]
 }
