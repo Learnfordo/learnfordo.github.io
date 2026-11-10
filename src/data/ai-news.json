@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-09T08:39:51.393Z",
+  "updatedAt": "2026-11-10T08:49:32.551Z",
   "items": [
+    {
+      "date": "2026-11-09",
+      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+      "summary": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced ",
+      "url": "https://arxiv.org/abs/2611.12884v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+      "summary": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration ste",
+      "url": "https://arxiv.org/abs/2611.12880v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
+      "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent in",
+      "url": "https://arxiv.org/abs/2611.12878v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typic",
+      "url": "https://arxiv.org/abs/2611.12872v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
+      "summary": "Anomaly detection (AD) is a critical for trustworthy machine learning and scientific discovery. Existing methods typically define anomalies through local density, isolation heuristics, or distance fro",
+      "url": "https://arxiv.org/abs/2611.12871v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligni",
+      "url": "https://arxiv.org/abs/2611.12869v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including rewar",
+      "url": "https://arxiv.org/abs/2611.12865v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Is Persona Generalization Predictable?",
+      "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We dis",
+      "url": "https://arxiv.org/abs/2611.12864v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "summary": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate ",
+      "url": "https://arxiv.org/abs/2611.12856v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "What kills $v$-prediction? A Patch-wise PCA Perspective on Pixel-Space Flow Matching",
+      "summary": "Latent Diffusion Models dominate generative modeling but face two-stage training complexity and the inherent reconstruction limits of pre-trained autoencoders. Pixel-space Flow Matching offers a simpl",
+      "url": "https://arxiv.org/abs/2611.12852v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "summary": "via www.foldableflight.com",
+      "url": "https://www.foldableflight.com",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 999
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "summary": "via github.com",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 581
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 535
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "summary": "via www.payments.ca",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 526
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "summary": "via www.anthropocenemagazine.org",
+      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 311
+    },
     {
       "date": "2026-11-08",
       "title": "Goodbye Claude, hello Pi",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 293
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-      "summary": "via www.linum.ai",
-      "url": "https://www.linum.ai/field-notes/pjit-21k",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 215
-    },
-    {
-      "date": "2026-11-04",
-      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been ",
-      "url": "https://arxiv.org/abs/2611.06914v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimato",
-      "url": "https://arxiv.org/abs/2611.06912v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act und",
-      "url": "https://arxiv.org/abs/2611.06911v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solut",
-      "url": "https://arxiv.org/abs/2611.06910v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-",
-      "url": "https://arxiv.org/abs/2611.06908v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
-      "summary": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-s",
-      "url": "https://arxiv.org/abs/2611.06905v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-      "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployme",
-      "url": "https://arxiv.org/abs/2611.06899v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher e",
-      "url": "https://arxiv.org/abs/2611.06888v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
-      "summary": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one b",
-      "url": "https://arxiv.org/abs/2611.06879v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "summary": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing in",
-      "url": "https://arxiv.org/abs/2611.06876v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "summary": "via spectrum.ieee.org",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1217
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Kimi K3.1 Pro model weights are out",
-      "summary": "via huggingface.co",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 566
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "summary": "I&#x27;m curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to ans",
-      "url": "https://news.ycombinator.com/item?id=50366117",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 401
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "summary": "via www.ricursive.com",
-      "url": "https://www.ricursive.com/ripple",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 310
     }
   ]
 }
