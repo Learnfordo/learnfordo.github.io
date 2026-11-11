@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-10T08:49:32.551Z",
+  "updatedAt": "2026-11-11T08:22:46.221Z",
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most co",
+      "url": "https://arxiv.org/abs/2611.14519v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated da",
+      "url": "https://arxiv.org/abs/2611.14518v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "TorchCurves: Differentiable Parametric Curves",
+      "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-",
+      "url": "https://arxiv.org/abs/2611.14516v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-",
+      "url": "https://arxiv.org/abs/2611.14515v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. ",
+      "url": "https://arxiv.org/abs/2611.14514v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains cha",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+      "summary": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wir",
+      "url": "https://arxiv.org/abs/2611.14508v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on",
+      "url": "https://arxiv.org/abs/2611.14505v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "summary": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation",
+      "url": "https://arxiv.org/abs/2611.14504v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+      "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative ",
+      "url": "https://arxiv.org/abs/2611.14493v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "AI usage generates a fragile codebase",
+      "summary": "via evanxmerz.com",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 518
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "summary": "via www.vulncheck.com",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 393
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "summary": "via lwn.net",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 382
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "summary": "via github.com",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 350
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "summary": "via claude.com",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 201
+    },
     {
       "date": "2026-11-09",
       "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
@@ -316,150 +451,6 @@
       "url": "https://arxiv.org/abs/2611.08478v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "XStack: A Benchmark for ML Repo Migration",
-      "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repos",
-      "url": "https://arxiv.org/abs/2611.08472v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, n",
-      "url": "https://arxiv.org/abs/2611.08469v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
-      "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus con",
-      "url": "https://arxiv.org/abs/2611.08465v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
-      "summary": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the ",
-      "url": "https://arxiv.org/abs/2611.08457v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy com",
-      "url": "https://arxiv.org/abs/2611.08453v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success c",
-      "url": "https://arxiv.org/abs/2611.08452v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
-      "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker'",
-      "url": "https://arxiv.org/abs/2611.08445v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Uranium cubes reveal why the German nuclear project failed",
-      "summary": "via arstechnica.com",
-      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 115
-    },
-    {
-      "date": "2026-11-06",
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 326
-    },
-    {
-      "date": "2026-11-06",
-      "title": "AI is dramatically accelerating AI research",
-      "summary": "via www.planned-obsolescence.org",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 280
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "summary": "via www.infohawk.com",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 116
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Claude Code sends your email address to websites",
-      "summary": "via github.com",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1025
-    },
-    {
-      "date": "2026-11-05",
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "summary": "via www.cve.org",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 508
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "summary": "via finance.yahoo.com",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 296
-    },
-    {
-      "date": "2026-11-05",
-      "title": "MCP Explained",
-      "summary": "via mcp-explained.com",
-      "url": "https://mcp-explained.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 293
     }
   ]
 }
