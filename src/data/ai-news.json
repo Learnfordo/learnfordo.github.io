@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-11T08:22:46.221Z",
+  "updatedAt": "2026-11-12T08:49:33.870Z",
   "items": [
+    {
+      "date": "2026-11-11",
+      "title": "My AI agents found an unmapped Maya site?",
+      "summary": "via pietromiotti.com",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 981
+    },
+    {
+      "date": "2026-11-11",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "summary": "via www.cbsnews.com",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 541
+    },
+    {
+      "date": "2026-11-11",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "summary": "via www.mcmillen.dev",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 401
+    },
     {
       "date": "2026-11-10",
       "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
@@ -80,6 +113,17 @@
       "url": "https://arxiv.org/abs/2611.14493v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "I gave an agent a lakehouse and control of my garden",
+      "summary": "via jatorre.github.io",
+      "url": "https://jatorre.github.io/garden/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 53
     },
     {
       "date": "2026-11-10",
@@ -416,41 +460,6 @@
       ],
       "source": "HN",
       "score": 240
-    },
-    {
-      "date": "2026-11-07",
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "summary": "via hunch.net",
-      "url": "https://hunch.net/?p=13764006",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 445
-    },
-    {
-      "date": "2026-11-05",
-      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are in",
-      "url": "https://arxiv.org/abs/2611.08487v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process",
-      "url": "https://arxiv.org/abs/2611.08483v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Sc",
-      "url": "https://arxiv.org/abs/2611.08478v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
