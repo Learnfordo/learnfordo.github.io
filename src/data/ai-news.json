@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-11-13T08:44:56.063Z",
+  "updatedAt": "2026-11-13T17:58:06.009Z",
   "items": [
+    {
+      "date": "2026-11-13",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "summary": "via status.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 441
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "summary": "via brave.com",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 222
+    },
     {
       "date": "2026-11-12",
       "title": "Unbundling Multimodal Vision Encoding",
@@ -83,6 +105,39 @@
     },
     {
       "date": "2026-11-12",
+      "title": "I'm making LLMs work on small and old devices",
+      "summary": "via github.com",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 456
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "summary": "via scottjg.com",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 418
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "summary": "via edge0.ai",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 321
+    },
+    {
+      "date": "2026-11-12",
       "title": "Anthropic IPO",
       "summary": "via ipo.anthropic.com",
       "url": "https://ipo.anthropic.com/us/",
@@ -94,17 +149,6 @@
     },
     {
       "date": "2026-11-12",
-      "title": "I'm making LLMs work on small and old devices",
-      "summary": "via github.com",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 354
-    },
-    {
-      "date": "2026-11-12",
       "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "summary": "via unemploymentlabs.com",
       "url": "https://unemploymentlabs.com/checkpoint-forensics",
@@ -113,17 +157,6 @@
       ],
       "source": "HN",
       "score": 282
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "summary": "via edge0.ai",
-      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 225
     },
     {
       "date": "2026-11-12",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 535
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-      "summary": "via www.payments.ca",
-      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 526
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
-      "summary": "via www.anthropocenemagazine.org",
-      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 311
-    },
-    {
-      "date": "2026-11-08",
-      "title": "Goodbye Claude, hello Pi",
-      "summary": "via caleb.software",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 754
     }
   ]
 }
