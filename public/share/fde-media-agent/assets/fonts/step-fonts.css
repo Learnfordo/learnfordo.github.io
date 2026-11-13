@@ -1,0 +1,36 @@
+/* StepFun 字体（Step Serif / Step Sans / Step Mono）
+   由官方 OTF 全字重转成单文件 woff2 ✗ 替代原来 324 个分片 @font-face
+   用法：<link rel="stylesheet" href="../_fonts/step/step-fonts.css">
+   兼容：deck 里的 --serif / --sans / --mono 直接引用这三个家族名即可 */
+
+@font-face {
+  font-family: "Step Serif";
+  src: url("StepSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Step Sans";
+  src: url("StepSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Step Sans";
+  src: url("StepSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Step Mono";
+  src: url("StepMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
