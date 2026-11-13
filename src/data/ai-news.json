@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-12T08:49:33.870Z",
+  "updatedAt": "2026-11-13T08:44:56.063Z",
   "items": [
+    {
+      "date": "2026-11-12",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language",
+      "url": "https://arxiv.org/abs/2611.17334v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSe",
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been show",
+      "url": "https://arxiv.org/abs/2611.17329v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline de",
+      "url": "https://arxiv.org/abs/2611.17323v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "summary": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain",
+      "url": "https://arxiv.org/abs/2611.17320v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing fut",
+      "url": "https://arxiv.org/abs/2611.17316v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "summary": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn ra",
+      "url": "https://arxiv.org/abs/2611.17314v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Sketching Language Models for Context Attribution",
+      "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computi",
+      "url": "https://arxiv.org/abs/2611.17313v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to trai",
+      "url": "https://arxiv.org/abs/2611.17309v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Quantifying structural stability of transparent models for general insurance pricing",
+      "summary": "The short duration of general insurance contracts leads to rapid distributional shifts in the data, warranting regular model updates. This process may yield a post-update model that differs considerab",
+      "url": "https://arxiv.org/abs/2611.17308v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Anthropic IPO",
+      "summary": "via ipo.anthropic.com",
+      "url": "https://ipo.anthropic.com/us/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 916
+    },
+    {
+      "date": "2026-11-12",
+      "title": "I'm making LLMs work on small and old devices",
+      "summary": "via github.com",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 354
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "summary": "via unemploymentlabs.com",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 282
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "summary": "via edge0.ai",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 225
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Foundation Models framework",
+      "summary": "via developer.apple.com",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 200
+    },
     {
       "date": "2026-11-11",
       "title": "My AI agents found an unmapped Maya site?",
@@ -325,141 +460,6 @@
       ],
       "source": "HN",
       "score": 754
-    },
-    {
-      "date": "2026-11-08",
-      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-      "summary": "via www.thestateofai.com",
-      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 752
-    },
-    {
-      "date": "2026-11-08",
-      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-      "summary": "via nvidianews.nvidia.com",
-      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 623
-    },
-    {
-      "date": "2026-11-08",
-      "title": "Outlook.com is rejecting email from domains without DMARC",
-      "summary": "via mailroute.net",
-      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 382
-    },
-    {
-      "date": "2026-11-07",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "summary": "via apiiro.com",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 600
-    },
-    {
-      "date": "2026-11-06",
-      "title": "On Agentic Manipulation Policies",
-      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such a",
-      "url": "https://arxiv.org/abs/2611.09892v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task h",
-      "url": "https://arxiv.org/abs/2611.09891v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "On the (non-)closedness of the set of ReLU networks",
-      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d",
-      "url": "https://arxiv.org/abs/2611.09887v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
-      "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the d",
-      "url": "https://arxiv.org/abs/2611.09882v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
-      "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and ",
-      "url": "https://arxiv.org/abs/2611.09878v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
-      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze ma",
-      "url": "https://arxiv.org/abs/2611.09872v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
-      "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increas",
-      "url": "https://arxiv.org/abs/2611.09868v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
-      "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensiv",
-      "url": "https://arxiv.org/abs/2611.09866v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
-      "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service r",
-      "url": "https://arxiv.org/abs/2611.09864v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
-      "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directl",
-      "url": "https://arxiv.org/abs/2611.09863v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-08",
-      "title": "I'm not convinced the AI bubble exists",
-      "summary": "via matteoraso.github.io",
-      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 240
     }
   ]
 }
