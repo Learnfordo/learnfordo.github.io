@@ -141,7 +141,7 @@ h2.t{font-family:var(--serif);font-size:52px;font-weight:700;letter-spacing:-.02
 .cover-body h1{font-family:var(--serif);font-size:68px;font-weight:700;letter-spacing:-.02em;line-height:1.16;max-width:820px;color:var(--ink);margin-top:20px;white-space:nowrap}
 .cover-body .rule{height:1px;background:var(--line);border:0;margin:30px 0 20px;max-width:600px}
 .cover-body .sub2{font-size:18px;color:var(--ink)}
-.cover-body .by2{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--faint);margin-top:20px}
+.cover-body .by2{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--accent-ink);margin-top:20px}
 /* P1 cover */
 .cover{padding:0}
 .cover .inner{position:relative;z-index:2;padding:var(--pad);display:flex;flex-direction:column;height:100%}
@@ -570,7 +570,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 </div></div>
     </div></div>
   </div>
-  <div class="p4-foot"><span></span><span>02 / 13</span></div>
+  <div class="p4-foot"><span></span><span>02 / 15</span></div>
 </section>
 </div>
 <style>
@@ -1092,7 +1092,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
   color:#eef3f8;font-weight:700}
 .sol-foot{margin-top:18px;display:flex;align-items:baseline;gap:14px}
 .sol-foot .q{font-family:var(--serif);font-size:21px;color:var(--ink)}
-.sol-foot .s{font-size:12.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.03em}
+.sol-foot .s{font-size:14.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.03em}
 
 /* ── P5 专家团 ── */
 .step3{display:flex;align-items:center;gap:12px;margin-top:18px;padding:14px 18px;border:1px solid #e9eef3;border-radius:12px;background:#fbfdfe}
@@ -1224,9 +1224,9 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 .ex2 .top{display:flex;align-items:center;gap:13px}
 .ex2 img{width:52px;height:52px;border-radius:50%;flex:none;background:#eef4fa}
 .ex2 h4{font-family:var(--serif);font-size:19px;font-weight:700;line-height:1.3}
-.ex2 .role{margin-top:9px;font-size:12.5px;line-height:1.65;color:var(--ink2)}
+.ex2 .role{margin-top:9px;font-size:14.5px;line-height:1.65;color:var(--ink2)}
 .ex2 .tags{margin-top:auto;display:flex;gap:6px;flex-wrap:wrap;padding-top:12px}
-.ex2 .tags span{font-size:10.5px;color:#5a6b7a;background:#f4f8fb;border:1px solid #e9f0f6;border-radius:5px;padding:3px 7px}
+.ex2 .tags span{font-size:12.5px;color:#5a6b7a;background:#f4f8fb;border:1px solid #e9f0f6;border-radius:5px;padding:3px 7px}
 .ex2.ghost{background:#fbfdff;border-style:dashed}
 .ex2.ghost .ph{width:52px;height:52px;border-radius:50%;flex:none;background:#eaf4fd;display:flex;align-items:center;justify-content:center;
   font-family:var(--serif);font-size:22px;color:#0086e0}
@@ -1445,6 +1445,8 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 .alx-ref{margin-top:auto;padding-top:calc(2*var(--unit));font-family:var(--mono);color:#5f7b8a;
   font-size:calc(11*var(--unit));line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .alx-node.decision{border:calc(1.6*var(--unit)) solid var(--accent);background:#fff}
+.alx-node.model-node{border:calc(1.5*var(--unit)) solid #8fd3f7;background:#f5fbff;
+  box-shadow:0 0 0 calc(3*var(--unit)) rgba(0,169,255,.06),0 5px 15px rgba(20,52,90,.07)}
 .alx-node.tool-node{border-color:#bfe2f4;padding:calc(13*var(--unit))}
 .alx-node.tool-node .alx-node-title{font-size:calc(18*var(--unit))}
 .alx-tool-heading{z-index:2;display:flex;align-items:center;gap:calc(10*var(--unit));white-space:nowrap}
@@ -1499,29 +1501,38 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
   background:radial-gradient(circle at 1px 1px, rgba(0,134,224,.07) 1px, transparent 0) 0 0/24px 24px,
              linear-gradient(180deg,#fbfdff,#fff)}
 .hub-blabel{position:absolute;left:610px;top:9px;transform:translateX(-50%);z-index:4;display:flex;align-items:center;gap:7px;
-  padding:0 12px;background:#fff;font-family:var(--mono);font-size:9.2px;letter-spacing:.1em;color:var(--accent-ink);white-space:nowrap}
-.hub-port{position:absolute;z-index:2;display:flex;flex-direction:column;width:300px;height:120px;padding:13px 16px;
+  padding:0 12px;background:#fff;font-family:var(--mono);font-size:11.2px;letter-spacing:.1em;color:var(--accent-ink);white-space:nowrap}
+.hub-port{position:absolute;z-index:2;display:flex;flex-direction:column;width:300px;height:124px;padding:13px 16px;
   background:#fff;border:1px solid #e2ebf2;border-radius:12px;box-shadow:0 10px 24px rgba(20,52,90,.06)}
 .hub-port .top{display:flex;align-items:center;gap:10px}
 .hub-ico{display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:30px;height:30px;border-radius:8px;
   background:var(--accent-wash);border:1px solid #d6ecfa}
-.hub-port .tag{margin-left:auto;font-family:var(--mono);font-size:8.4px;letter-spacing:.1em;color:#9fb3c4}
+.hub-port .tag{margin-left:auto;font-family:var(--mono);font-size:10.4px;letter-spacing:.1em;color:#9fb3c4}
 .hub-port h3{font-family:var(--serif);font-size:19px;font-weight:700;line-height:1.2;letter-spacing:-.01em}
-.hub-port p{font-size:11.6px;line-height:1.52;color:var(--muted);margin-top:6px}
-.hub-port .eff{margin-top:auto;font-family:var(--mono);font-size:9.4px;color:var(--accent-ink);letter-spacing:.02em}
-.hub-core{position:absolute;left:535px;top:195px;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
-  width:190px;height:105px;border:2px solid var(--accent);border-radius:16px;background:#fff;box-shadow:0 18px 40px rgba(0,169,255,.18)}
-.hub-core .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);margin-bottom:3px}
-.hub-core .name{font-family:var(--serif);font-size:27px;font-weight:700;line-height:1;letter-spacing:-.02em}
-.hub-core .sub{font-family:var(--mono);font-size:8.3px;letter-spacing:.16em;color:var(--accent-ink)}
+.hub-port p{font-size:13.6px;line-height:1.4;color:var(--muted);margin-top:6px}
+.hub-port .eff{margin-top:auto;font-family:var(--mono);font-size:11.4px;color:var(--accent-ink);letter-spacing:.02em}
+.hub-hero{position:absolute;left:430px;top:105px;z-index:3;width:380px;height:240px}
+.hub-hero .lab{font-family:var(--mono);font-size:11.4px;letter-spacing:.14em;color:var(--accent-ink);text-align:center}
+.hub-shots{position:relative;height:188px;margin-top:6px}
+.hub-desk{position:absolute;left:0;top:0;width:300px;height:188px;overflow:hidden;background:#fff;
+  border:1px solid #d8e2ea;border-radius:8px;box-shadow:0 16px 32px rgba(20,52,90,.14)}
+.hub-desk img{display:block;width:100%;height:100%;object-fit:cover;object-position:top left}
+.hub-mob{position:absolute;right:0;top:20px;z-index:2;width:70px;height:150px;padding:2px;
+  background:#e9e9e6;border:1px solid #cfcfcb;border-radius:13px;box-shadow:0 14px 28px rgba(20,52,90,.16)}
+.hub-mob .scr{position:relative;width:100%;height:100%;overflow:hidden;background:#fff;border-radius:11px}
+.hub-mob .scr::before{content:'';position:absolute;z-index:2;left:50%;top:4px;width:20px;height:4px;
+  transform:translateX(-50%);border-radius:3px;background:#1a1a1a;opacity:.85}
+.hub-mob img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
+.hub-caps{display:flex;justify-content:space-between;margin-top:5px;
+  font-family:var(--mono);font-size:11.6px;letter-spacing:.04em;color:var(--muted)}
 .hub-lines{position:absolute;inset:0;z-index:1;display:block;width:100%;height:100%;pointer-events:none}
 .hub-results{position:absolute;left:60px;right:60px;top:460px;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);
   border-top:1px solid var(--line);padding-top:10px}
 .hub-results div{padding:0 18px;border-right:1px solid var(--line)}
 .hub-results div:first-child{padding-left:0}
 .hub-results div:last-child{border-right:0}
-.hub-results b{display:block;font-family:var(--mono);font-size:8.8px;letter-spacing:.12em;color:var(--accent-ink)}
-.hub-results span{display:block;margin-top:4px;font-size:12px;color:var(--ink2)}
+.hub-results b{display:block;font-family:var(--mono);font-size:10.8px;letter-spacing:.12em;color:var(--accent-ink)}
+.hub-results span{display:block;margin-top:4px;font-size:14px;color:var(--ink2)}
 
 /* ── P7 · 工作台三件物 ── */
 .bench-stage{position:relative;width:1260px;height:565px;margin:8px auto 0;isolation:isolate}
@@ -2032,13 +2043,13 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 .paper-head{max-width:500px;margin-top:13px;font-family:var(--serif);font-size:27px;font-weight:700;line-height:1.22;letter-spacing:-.02em}
 .paper-by{margin-top:6px;font-family:var(--mono);font-size:7.8px;color:var(--faint);letter-spacing:.03em}
 .paper-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
-.paper-col{display:flex;flex-direction:column;gap:7px;padding-top:2px;opacity:.8}
-.paper-photo{position:relative;height:64px;margin-bottom:2px;overflow:hidden;border:1px solid #d8e2ea;background:#eef5fa}
+.paper-col{display:flex;flex-direction:column;gap:7px;padding-top:2px;min-width:0;opacity:.8}
+.paper-photo{position:relative;height:120px;margin-bottom:2px;overflow:hidden;border:1px solid #d8e2ea;background:#eef5fa}
 .paper-photo svg{display:block;width:100%;height:100%}
 .paper-flags{position:absolute;left:4px;bottom:4px;display:flex;flex-wrap:wrap;gap:3px}
 .paper-flags span{font-family:var(--mono);font-size:5.8px;line-height:1.2;padding:1px 3px;border-radius:2px;
   background:rgba(255,245,245,.95);border:1px solid #e3b6b6;color:#a33;white-space:nowrap}
-.paper-cap{font-family:var(--mono);font-size:6.8px;line-height:1.3;color:var(--faint);margin:3px 0 5px}
+.paper-cap{font-family:var(--mono);font-size:7.2px;line-height:1.35;color:var(--faint);margin:4px 0 7px}
 .paper-line{height:4px;border-radius:2px;background:#e6ebf0}
 .paper-line.dark{background:#cfd8e0}
 .paper-line.w80{width:80%}.paper-line.w65{width:65%}.paper-line.w90{width:90%}.paper-line.w55{width:55%}
@@ -2055,15 +2066,19 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
   border:3px solid #a33;border-radius:5px;padding:5px 10px;color:#a33;opacity:.78;
   font-family:var(--mono);font-size:18px;letter-spacing:.1em;white-space:nowrap}
 .paper-side{position:absolute;right:0;top:76px;z-index:5;width:190px;padding-left:18px;border-left:1px solid var(--line)}
-.paper-side .k{font-family:var(--mono);font-size:8.2px;letter-spacing:.11em;color:var(--accent-ink)}
+.paper-side .k{font-family:var(--mono);font-size:10.2px;letter-spacing:.11em;color:var(--accent-ink)}
 .paper-side h3{font-family:var(--serif);font-size:18px;font-weight:700;line-height:1.35;margin-top:6px;letter-spacing:-.01em}
-.paper-side p{font-size:10.2px;line-height:1.6;color:var(--muted);margin-top:6px}
-.paper-formula{margin-top:7px;font-family:var(--mono);font-size:8.2px;line-height:1.55;color:var(--ink2)}
-.paper-formula .lead{display:block;margin-bottom:3px;font-family:var(--serif);font-size:14px;font-weight:700;line-height:1.2;color:var(--ink)}
-.paper-formula b{color:var(--accent-ink);font-weight:500}
-.paper-zero{margin-top:3px;font-family:var(--serif);font-size:24px;font-weight:700;line-height:1;color:#a33}
+.paper-side p{font-size:12.2px;line-height:1.6;color:var(--muted);margin-top:6px}
+.paper-formula{display:grid;grid-template-columns:14px 1fr;gap:3px 5px;margin-top:8px;
+  font-family:var(--mono);font-size:13.4px;line-height:1.4;color:var(--ink2)}
+.paper-formula .lead{grid-column:1/3;display:block;margin:0 0 2px;font-family:var(--serif);
+  font-size:16px;font-weight:700;line-height:1.25;color:var(--ink)}
+.paper-formula .op{color:var(--accent-ink);font-weight:500;text-align:left}
+.paper-formula .fn{color:var(--ink2);letter-spacing:.01em}
+.paper-zero{margin-top:5px;padding-top:4px;border-top:1px dashed #e7d2d2;
+  margin-bottom:7px;font-family:var(--serif);font-size:26px;font-weight:700;line-height:1;color:#a33}
 .paper-basis{margin-top:8px;padding-top:7px;border-top:1px solid var(--line);font-family:var(--mono);
-  font-size:8.2px;line-height:1.45;color:var(--accent-ink)}
+  font-size:10.2px;line-height:1.45;color:var(--accent-ink)}
 .paper-bottom{display:flex;align-items:baseline;gap:16px;width:1260px;margin:10px auto 0;padding:12px 18px;
   border:1px solid #d6ecfa;border-radius:10px;background:var(--accent-wash)}
 .paper-bottom .q{font-family:var(--serif);font-size:20px;line-height:1.35;letter-spacing:-.01em}
@@ -2072,6 +2087,39 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 .paper-bottom .formula{font-family:var(--mono);font-size:12px;line-height:1.4;color:var(--ink2)}
 .paper-bottom .formula b{color:#a33;font-weight:500}
 .paper-bottom .punch{margin-left:auto;font-family:var(--serif);font-size:18px;line-height:1.35;white-space:nowrap}
+
+/* ── P13 · 产品演示 ── */
+.vid-stage{display:grid;grid-template-columns:960px 260px;gap:40px;width:1260px;margin-top:16px}
+.vid-player{position:relative;width:960px;height:540px;overflow:hidden;background:#0d1b2a;
+  border:1px solid #dcebf8;border-radius:14px;box-shadow:0 18px 40px rgba(20,52,90,.12)}
+.vid-poster{position:absolute;inset:0;z-index:0;display:block;width:100%;height:100%;object-fit:cover}
+.vid-player video{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:contain;background:#0d1b2a}
+.vid-play{display:none;position:absolute;left:50%;top:50%;z-index:3;transform:translate(-50%,-50%);
+  align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;
+  background:rgba(255,255,255,.92);color:var(--accent-ink);font-size:22px;
+  box-shadow:0 10px 24px rgba(20,52,90,.18)}
+.vid-side{display:flex;flex-direction:column;justify-content:center;gap:24px}
+.vid-k{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--accent-ink)}
+.vid-item .no{font-family:var(--mono);font-size:9px;letter-spacing:.1em;color:var(--accent-ink)}
+.vid-item h4{font-family:var(--serif);font-size:18px;font-weight:700;line-height:1.3;margin-top:4px}
+.vid-item p{font-size:12.5px;line-height:1.6;color:var(--muted);margin-top:4px}
+.vid-note{margin-top:4px;padding-top:12px;border-top:1px dashed var(--line);
+  font-family:var(--mono);font-size:9.5px;line-height:1.55;color:var(--faint)}
+
+/* ── P15 · Q&A ── */
+.qa-body{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:70px}
+.qa-k{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--accent-ink)}
+.qa-h2{font-family:var(--serif);font-size:62px;font-weight:700;line-height:1.38;letter-spacing:-.02em;
+  max-width:1000px;margin-top:18px}
+.qa-rule{width:64px;height:3px;border-radius:2px;background:var(--accent);margin-top:26px}
+.qa-flow{margin-top:24px;font-family:var(--mono);font-size:13px;line-height:1.7;color:var(--muted)}
+.qa-flow b{color:var(--accent-ink);font-weight:500}
+.qa-meta{margin-top:14px;font-family:var(--mono);font-size:11px;line-height:1.5;color:var(--faint);letter-spacing:.04em}
+@media print{
+  .vid-player video{display:none!important}
+  .vid-poster{display:block!important;z-index:2}
+  .vid-play{display:flex!important}
+}
 </style>
 
 </section>
@@ -2098,45 +2146,91 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         <div class="paper-cols">
           <div class="paper-col">
             <div class="paper-photo">
-              <svg viewBox="0 0 220 64" preserveAspectRatio="none" aria-hidden="true">
+              <svg viewBox="0 0 220 120" preserveAspectRatio="none" aria-hidden="true">
                 <defs><linearGradient id="paperSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe4f2"/><stop offset="1" stop-color="#8fb6d0"/></linearGradient></defs>
-                <rect width="220" height="64" fill="url(#paperSky)"/>
-                <path d="M0 52 L18 52 L18 38 L36 38 L36 52 L56 52 L56 26 L76 26 L76 52 L96 52 L96 40 L118 40 L118 52 L138 52 L138 30 L158 30 L158 52 L180 52 L180 42 L202 42 L202 52 L220 52 L220 64 L0 64 Z" fill="#6f95ae" opacity=".72"/>
-                <path d="M0 56 H220" stroke="#5f89a3" stroke-width="1" opacity=".45"/>
+                <rect width="220" height="120" fill="url(#paperSky)"/>
+                <circle cx="176" cy="28" r="12" fill="#f3d7a0" opacity=".75"/>
+                <path d="M0 94H12V72H28V94H44V58H62V94H78V76H96V94H114V64H132V94H150V78H168V94H186V68H204V94H220V120H0Z" fill="#6f95ae" opacity=".72"/>
+                <path d="M0 100H220" stroke="#5f89a3" stroke-width="1" opacity=".45"/>
               </svg>
             </div>
             <div class="paper-cap">图：城市更新现场 / 来源待核</div>
             <div class="paper-line dark w80"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w80"></div></div>
-          <div class="paper-col"><div class="paper-line w80"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w90"></div></div>
-          <div class="paper-col"><div class="paper-line w90"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w55"></div>
-<div class="paper-line w80"></div>
-<div class="paper-line w90"></div>
-<div class="paper-line w65"></div>
-<div class="paper-line w80"></div></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w55"></div>
+          </div>
+          <div class="paper-col">
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+          </div>
+          <div class="paper-col">
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w55"></div>
+            <div class="paper-line w80"></div>
+            <div class="paper-line w90"></div>
+            <div class="paper-line w65"></div>
+            <div class="paper-line w80"></div>
+          </div>
         </div>
 
         <div class="paper-gap top">
@@ -2156,7 +2250,12 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
 
       <div class="paper-side">
         <div class="k">THE FORMULA · 能力公式</div>
-        <div class="paper-formula"><span class="lead">AI 落地能力</span>= Agent 能力 <b>×</b> 业务理解 <b>×</b> 企业上下文</div>
+        <div class="paper-formula">
+          <span class="lead">AI 落地能力</span>
+          <span class="op">=</span><span class="fn">Agent 能力</span>
+          <span class="op">×</span><span class="fn">业务理解</span>
+          <span class="op">×</span><span class="fn">企业上下文</span>
+        </div>
         <div class="paper-zero">≈ 0</div>
         <p>最后两栏，不在模型里。在业务判断里，在企业上下文里。</p>
         <div class="paper-basis">没有企业上下文，AI 只是演示。</div>
@@ -2168,7 +2267,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       <span class="s">所以要自研一个既懂业务、又接得住企业上下文的媒体 Agent。</span>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>03 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>03 / 15</span></div>
 </section>
 
 <section class="slide">
@@ -2193,10 +2292,10 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         </defs>
         <circle cx="630" cy="247" r="180" fill="url(#hubGlow)"/>
         <g fill="none" stroke="#00a9ff" stroke-width="1.5" opacity=".55" stroke-linecap="round">
-          <path d="M400 110 C470 110 500 247 535 247" marker-end="url(#hubArrow)"/>
-          <path d="M840 110 C770 110 760 247 725 247" marker-end="url(#hubArrow)"/>
-          <path d="M400 370 C470 370 500 247 535 247" marker-end="url(#hubArrow)"/>
-          <path d="M840 370 C770 370 760 247 725 247" marker-end="url(#hubArrow)"/>
+          <path d="M400 110 C414 110 420 168 430 184" marker-end="url(#hubArrow)"/>
+          <path d="M840 110 C826 110 820 168 810 184" marker-end="url(#hubArrow)"/>
+          <path d="M400 370 C414 370 420 312 430 296" marker-end="url(#hubArrow)"/>
+          <path d="M840 370 C826 370 820 312 810 296" marker-end="url(#hubArrow)"/>
         </g>
         <g fill="#00a9ff">
           <circle cx="400" cy="110" r="3"/><circle cx="840" cy="110" r="3"/>
@@ -2240,10 +2339,13 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         <div class="eff">所以：断网也能用</div>
       </div>
 
-      <div class="hub-core">
-        <span class="dot"></span>
-        <div class="name">灵思</div>
-        <div class="sub">AGENT WORKBENCH</div>
+      <div class="hub-hero">
+        <div class="lab">灵思 · AGENT WORKBENCH</div>
+        <div class="hub-shots">
+          <div class="hub-desk"><img src="assets/img/ui-lingsi-desktop-2026.png" alt="灵思桌面端"></div>
+          <div class="hub-mob"><div class="scr"><img src="assets/img/ui-lingsi-mobile-2026.png" alt="灵思移动端"></div></div>
+        </div>
+        <div class="hub-caps"><span>桌面端</span><span>移动端</span></div>
       </div>
 
       <div class="hub-results">
@@ -2254,7 +2356,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       </div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>04 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>04 / 15</span></div>
 </section>
 
 
@@ -2285,7 +2387,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       <span class="s">— 前五位为超级采编常驻，第六位是你们的业务专家</span>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>05 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>05 / 15</span></div>
 </section>
 
 
@@ -2303,7 +2405,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
     <div class="alx-head">
       <div>
         <h2>一个 Agent 是怎么跑起来的</h2>
-        <div class="lede">11 个步骤，三条泳道：输入与上下文 → 模型推理与工具循环 → 响应与会话。</div>
+        <div class="lede" style="font-family:var(--mono);font-size:19px;letter-spacing:.02em"><b style="color:var(--ink)">Agent</b> <span style="color:var(--accent-ink)">=</span> <b style="color:var(--ink)">Model</b> <span style="color:var(--accent-ink)">+</span> <b style="color:var(--ink)">Harness</b></div>
       </div>
       <ul class="alx-legend" aria-label="箭头图例">
         <li><span class="alx-line"></span>主流程</li>
@@ -2370,26 +2472,26 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         </article>
         <article class="alx-pos alx-node" style="--x:54;--y:424;--w:208;--h:106">
           <div class="alx-node-title"><span class="alx-step">04</span>组装系统提示</div>
-          <p class="alx-desc">合并指令、记忆与工具定义。</p>
+          <p class="alx-desc">把规矩、工具和记忆拼成上下文。</p>
           <p class="alx-ref">context</p>
         </article>
       </section>
 
       <section aria-labelledby="alxModel">
         <h3 id="alxModel" class="alx-pos alx-lane-heading" style="--x:334;--y:38;--w:410;--h:22">模型推理与工具循环</h3>
-        <article class="alx-pos alx-node" style="--x:334;--y:102;--w:204;--h:106">
+        <article class="alx-pos alx-node model-node" style="--x:334;--y:102;--w:204;--h:106">
           <div class="alx-node-title"><span class="alx-step">05</span>调用 LLM API</div>
-          <p class="alx-desc">带上历史与上下文，流式请求模型。</p>
-          <p class="alx-ref">LLM SDK</p>
+          <p class="alx-desc">模型只做一件事：预测下一个 token。</p>
+          <p class="alx-ref">MODEL · LLM SDK</p>
         </article>
         <article class="alx-pos alx-node" style="--x:566;--y:102;--w:204;--h:106">
           <div class="alx-node-title"><span class="alx-step">06</span>解析流式响应</div>
-          <p class="alx-desc">按内容块解析，实时显示文本。</p>
+          <p class="alx-desc">token 一个个回来，边生成边显示。</p>
           <p class="alx-ref">QueryEngine</p>
         </article>
         <article class="alx-pos alx-node decision" style="--x:807;--y:102;--w:241;--h:106">
           <div class="alx-node-title"><span class="alx-step">07</span>有工具调用？</div>
-          <p class="alx-desc">检查响应里的 <code>tool_use</code>。</p>
+          <p class="alx-desc">模型说“要用工具”，而不是硬编答案。</p>
           <p class="alx-ref">tools</p>
         </article>
 
@@ -2399,16 +2501,16 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         </div>
         <article class="alx-pos alx-node tool-node" style="--x:823;--y:330;--w:207;--h:119">
           <div class="alx-node-title">解析调用与检查权限</div>
-          <p class="alx-desc">查工具、验参数、请求确认。</p>
+          <p class="alx-desc">查工具、验参数；越权就拦下。</p>
           <p class="alx-ref">canUseTool</p>
         </article>
         <article class="alx-pos alx-node tool-node" style="--x:589;--y:330;--w:200;--h:119">
           <div class="alx-node-title">执行工具</div>
-          <p class="alx-desc">执行内置或 MCP 工具，可并行。</p>
+          <p class="alx-desc">读文件、查库、发请求，拿到真实结果。</p>
         </article>
         <article class="alx-pos alx-node tool-node" style="--x:355;--y:330;--w:200;--h:119">
           <div class="alx-node-title">结果写回会话</div>
-          <p class="alx-desc">把输出或错误写回历史。</p>
+          <p class="alx-desc">结果变成新上下文，再交给模型。</p>
           <p class="alx-ref">tool_result</p>
         </article>
       </section>
@@ -2417,30 +2519,30 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
         <h3 id="alxOutput" class="alx-pos alx-lane-heading with-icon" style="--x:1126;--y:38;--w:220;--h:22"><img class="alx-lane-icon" src="assets/img/lingsi-owl-icon.png" alt="灵思">响应与会话</h3>
         <article class="alx-pos alx-node" style="--x:1126;--y:102;--w:220;--h:106">
           <div class="alx-node-title"><span class="alx-step">09</span>呈现最终回复</div>
-          <p class="alx-desc">在终端呈现完整回复。</p>
+          <p class="alx-desc">不再调用工具时，把 token 流收成完整回答。</p>
           <p class="alx-ref">QueryEngine</p>
         </article>
         <article class="alx-pos alx-node" style="--x:1126;--y:263;--w:220;--h:110">
           <div class="alx-node-title"><span class="alx-step">10</span>采样后处理</div>
-          <p class="alx-desc">按需压缩上下文、提取记忆。</p>
+          <p class="alx-desc">压缩上下文、提取记忆，给下一轮腾地方。</p>
           <p class="alx-ref">autoCompact</p>
         </article>
         <article class="alx-pos alx-node" style="--x:1126;--y:426;--w:220;--h:102">
           <div class="alx-node-title"><span class="alx-step">11</span>等待下一条输入</div>
-          <p class="alx-desc">回到 REPL，等待下一条消息。</p>
+          <p class="alx-desc">回到对话，等你下一句。</p>
           <p class="alx-ref">REPL</p>
         </article>
       </section>
 
-      <span class="alx-edge-label" style="--x:1087;--y:134" aria-hidden="true">无调用</span>
-      <span class="alx-edge-label tool" style="--x:927;--y:239" aria-hidden="true">有调用</span>
-      <span class="alx-edge-label tool" style="--x:691;--y:488" aria-hidden="true">拒绝或参数校验失败</span>
-      <span class="alx-edge-label tool" style="--x:406;--y:238" aria-hidden="true">带上结果再次请求</span>
-      <span class="alx-edge-label next" style="--x:656;--y:577" aria-hidden="true">用户提交新消息，开启下一轮</span>
+      <span class="alx-edge-label" style="--x:1087;--y:134" aria-hidden="true">直接回答</span>
+      <span class="alx-edge-label tool" style="--x:927;--y:239" aria-hidden="true">要用工具</span>
+      <span class="alx-edge-label tool" style="--x:691;--y:488" aria-hidden="true">没权限 / 参数不对</span>
+      <span class="alx-edge-label tool" style="--x:406;--y:238" aria-hidden="true">结果带回模型</span>
+      <span class="alx-edge-label next" style="--x:656;--y:577" aria-hidden="true">下一轮，从历史继续</span>
     </div>
 
   </div>
-  <div class="foot"><span>传播大脑</span><span>06 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>06 / 15</span></div>
 </section>
 
 <section class="slide">
@@ -2456,7 +2558,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
           <div class="bench-head">
             <div class="no">01 / SKILL</div>
             <h3>说明书</h3>
-            <div class="meta">按需取用，不占常驻上下文</div>
+            <div class="meta">按需取用的说明书</div>
           </div>
           <div class="bench-art">
             <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
@@ -2480,7 +2582,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
           <div class="bench-head">
             <div class="no">02 / 专家</div>
             <h3>技术员</h3>
-            <div class="meta">有 Soul.md，知道这活该怎么干</div>
+            <div class="meta">有灵魂的技术员</div>
           </div>
           <div class="bench-art">
             <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
@@ -2550,7 +2652,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       </div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>07 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>07 / 15</span></div>
 </section>
 
 <section class="slide">
@@ -2661,7 +2763,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       <div class="habits"><span class="lb">三个习惯</span><span class="chip">留交接条</span><span class="chip">早点看方向</span><span class="chip">控制并行</span></div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>08 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>08 / 15</span></div>
 </section>
 
 <section class="slide">
@@ -2728,14 +2830,14 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       </svg>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>09 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>09 / 15</span></div>
 </section>
 
 <section class="slide">
   <div class="nav"><span class="topic">09 需求翻译 · TASK CARD</span><img class="logo" src="assets/img/logo.png" alt="传播大脑"></div>
   <div class="body" style="padding-bottom:44px">
-    <h2 class="t" style="margin-bottom:8px;line-height:1.4">把一句「帮我写个稿」翻译成一张任务单</h2>
-    <div class="lede" style="max-width:1180px">翻译，是把「感觉」变成五个能回答的问题。</div>
+    <h2 class="t" style="margin-bottom:8px;line-height:1.4">对业务的理解转化成agent需要的上下文</h2>
+    <div class="lede" style="max-width:1180px">把一句「帮我写个稿」翻译成一张任务单</div>
 
     <div class="tr2-stage">
       <div class="tr2-proof-wrap">
@@ -2781,7 +2883,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       </div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>10 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>10 / 15</span></div>
 </section>
 
 
@@ -2845,7 +2947,7 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       <div class="s">同一个专家框架，两种 SOP</div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>11 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>11 / 15</span></div>
 </section>
 
 
@@ -2891,15 +2993,41 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
       <div class="chips"><span>Skill</span><span>专家</span><span>验收集</span></div>
     </div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>12 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>12 / 15</span></div>
+</section>
+
+<section class="slide">
+  <div class="nav"><span class="topic">12 功能概览 · PRODUCT TOUR</span><img class="logo" src="assets/img/logo.png" alt="传播大脑"></div>
+  <div class="body" style="padding-bottom:30px">
+    <h2 class="t" style="margin-bottom:8px;line-height:1.4">灵思功能概览</h2>
+    <div class="lede" style="max-width:1180px">从工作台到专家团，再到业务连接。</div>
+
+    <div class="vid-stage">
+      <div class="vid-player" onclick="event.stopPropagation()" onkeydown="event.stopPropagation()">
+        <img class="vid-poster" src="assets/video/lingsi-demo-poster.jpg" alt="">
+        <video controls preload="metadata" poster="assets/video/lingsi-demo-poster.jpg">
+          <source src="assets/video/lingsi-demo.mp4" type="video/mp4">
+        </video>
+        <span class="vid-play">▶</span>
+      </div>
+      <div class="vid-side">
+        <div class="vid-k">看什么 / WATCH FOR</div>
+        <div class="vid-item"><div class="no">01 / 工作台</div><h4>一个入口</h4><p>任务、材料和记忆，放在同一个工作台。</p></div>
+        <div class="vid-item"><div class="no">02 / 专家团</div><h4>按活调用</h4><p>常驻专家 + 自建助理，不同任务找不同的人。</p></div>
+        <div class="vid-item"><div class="no">03 / 业务连接</div><h4>接到系统里</h4><p>技能和连接器，把结果送回业务系统。</p></div>
+        <div class="vid-note">建议现场播放；PDF 中为封面帧</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>传播大脑</span><span>13 / 15</span></div>
 </section>
 
 <section class="slide close">
   <div class="deckgrid"></div>
-  <div class="nav"><span class="topic">12 最后一页 · NEXT</span><img class="logo" src="assets/img/logo.png" alt="传播大脑"></div>
+  <div class="nav"><span class="topic">13 进场 · NEXT</span><img class="logo" src="assets/img/logo.png" alt="传播大脑"></div>
   <div class="mid" style="padding-bottom:40px">
     <div class="ic-row"><span class="ic-s" style="width:30px;height:30px;border-radius:9px"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#0086e0" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 6l6 6-6 6"/></svg></span><span class="lb">NEXT · 现场搭建</span></div>
-    <h2 style="margin-top:14px;line-height:1.4">接下来，带上你的问题。</h2>
+    <h2 style="margin-top:14px;line-height:1.4">带上你的问题。</h2>
     <div class="sub" style="margin-top:22px;font-size:18.5px">今天的目标不是「听懂」，是<b style="color:var(--ink)">带走三样东西</b>：</div>
     <div class="close-cards">
       <div class="close-card">
@@ -2921,7 +3049,19 @@ body.present #hud{position:fixed;left:24px;right:24px;bottom:14px;display:flex;a
     <div class="close-ask">现在只需要想清楚一件事：<b>我最想让 AI 替我干的那件重复的活，是什么？</b></div>
     <div class="meta">高佳强　·　万媒灵思产品负责人　·　传播大脑科技</div>
   </div>
-  <div class="foot"><span>传播大脑</span><span>13 / 13</span></div>
+  <div class="foot"><span>传播大脑</span><span>14 / 15</span></div>
+</section>
+
+<section class="slide">
+  <div class="nav"><span class="topic">14 Q &amp; A · THANK YOU</span><img class="logo" src="assets/img/logo.png" alt="传播大脑"></div>
+  <div class="qa-body">
+    <div class="qa-k">THANK YOU · Q &amp; A</div>
+    <h2 class="qa-h2">专家不是一次搭成的，<br>是在真实任务里磨出来的。</h2>
+    <div class="qa-rule"></div>
+    <div class="qa-flow">选一个真实的活 <b>→</b> 写清任务单 <b>→</b> 搭一个专家 <b>→</b> 三个任务验收 <b>→</b> 回岗位继续磨</div>
+    <div class="qa-meta">传播大脑 · 万媒灵思　高佳强　2026.11</div>
+  </div>
+  <div class="foot"><span>传播大脑</span><span>15 / 15</span></div>
 </section>
 </div>
 <button id="fsbtn" title="全屏演示（F）"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><span>全屏演示</span></button>
