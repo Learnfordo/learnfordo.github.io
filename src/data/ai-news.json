@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T16:23:12.982Z",
+  "updatedAt": "2026-11-14T16:25:44.534Z",
   "items": [
     {
       "date": "2026-11-14",
@@ -10,7 +10,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 894
+      "score": 896
     },
     {
       "date": "2026-11-14",
@@ -21,7 +21,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 183
+      "score": 184
     },
     {
       "date": "2026-11-13",
@@ -32,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 414
+      "score": 415
     },
     {
       "date": "2026-11-13",
@@ -44,17 +44,6 @@
       ],
       "source": "HN",
       "score": 286
-    },
-    {
-      "date": "2026-11-13",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "summary": "via haddyalchaer.com",
-      "url": "https://haddyalchaer.com/jepa",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 279
     },
     {
       "date": "2026-11-12",
@@ -135,6 +124,28 @@
       "url": "https://arxiv.org/abs/2611.17308v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Generative AI uses more energy on non-English text",
+      "summary": "via news.umich.edu",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 76
+    },
+    {
+      "date": "2026-11-13",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "summary": "via haddyalchaer.com",
+      "url": "https://haddyalchaer.com/jepa",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 279
     },
     {
       "date": "2026-11-12",
@@ -456,14 +467,6 @@
       "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
       "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including rewar",
       "url": "https://arxiv.org/abs/2611.12865v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Is Persona Generalization Predictable?",
-      "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We dis",
-      "url": "https://arxiv.org/abs/2611.12864v1",
       "tags": [],
       "source": "arXiv"
     }
