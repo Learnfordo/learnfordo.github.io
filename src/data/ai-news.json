@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:00:02.035Z",
+  "updatedAt": "2026-11-14T15:59:31.903Z",
   "items": [
     {
       "date": "2026-11-14",
@@ -10,7 +10,18 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 429
+      "score": 875
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "summary": "via www.eff.org",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 163
     },
     {
       "date": "2026-11-13",
@@ -21,7 +32,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 259
+      "score": 403
     },
     {
       "date": "2026-11-13",
@@ -32,7 +43,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 255
+      "score": 286
     },
     {
       "date": "2026-11-13",
@@ -43,7 +54,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 249
+      "score": 278
     },
     {
       "date": "2026-11-12",
@@ -453,14 +464,6 @@
       "title": "Is Persona Generalization Predictable?",
       "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We dis",
       "url": "https://arxiv.org/abs/2611.12864v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
-      "summary": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate ",
-      "url": "https://arxiv.org/abs/2611.12856v1",
       "tags": [],
       "source": "arXiv"
     }
