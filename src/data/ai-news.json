@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-11-13T17:58:06.009Z",
+  "updatedAt": "2026-11-14T08:00:02.035Z",
   "items": [
     {
-      "date": "2026-11-13",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "summary": "via status.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "date": "2026-11-14",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "summary": "via www.techpowerup.com",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 441
+      "score": 429
     },
     {
       "date": "2026-11-13",
-      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "summary": "via brave.com",
-      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 222
+      "score": 259
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "summary": "via orcasairband.com",
+      "url": "https://orcasairband.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 255
+    },
+    {
+      "date": "2026-11-13",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "summary": "via haddyalchaer.com",
+      "url": "https://haddyalchaer.com/jepa",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 249
     },
     {
       "date": "2026-11-12",
@@ -105,6 +127,39 @@
     },
     {
       "date": "2026-11-12",
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "summary": "via scottjg.com",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 738
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "summary": "via status.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 441
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "summary": "via brave.com",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 222
+    },
+    {
+      "date": "2026-11-12",
       "title": "I'm making LLMs work on small and old devices",
       "summary": "via github.com",
       "url": "https://github.com/hyperionaidev/smolmaxxing/",
@@ -113,17 +168,6 @@
       ],
       "source": "HN",
       "score": 456
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "summary": "via scottjg.com",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 418
     },
     {
       "date": "2026-11-12",
@@ -419,47 +463,6 @@
       "url": "https://arxiv.org/abs/2611.12856v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "What kills $v$-prediction? A Patch-wise PCA Perspective on Pixel-Space Flow Matching",
-      "summary": "Latent Diffusion Models dominate generative modeling but face two-stage training complexity and the inherent reconstruction limits of pre-trained autoencoders. Pixel-space Flow Matching offers a simpl",
-      "url": "https://arxiv.org/abs/2611.12852v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Foldable Flight: The Best Paper Airplanes",
-      "summary": "via www.foldableflight.com",
-      "url": "https://www.foldableflight.com",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 999
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "summary": "via github.com",
-      "url": "https://github.com/thisisme6598/gemini_files/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 581
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 535
     }
   ]
 }
