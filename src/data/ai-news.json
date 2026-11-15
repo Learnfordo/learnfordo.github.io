@@ -1,49 +1,16 @@
 {
-  "updatedAt": "2026-11-14T16:25:44.534Z",
+  "updatedAt": "2026-11-15T08:26:49.268Z",
   "items": [
     {
       "date": "2026-11-14",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "summary": "via www.techpowerup.com",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "summary": "via www.crissyfield.de",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 896
-    },
-    {
-      "date": "2026-11-14",
-      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
-      "summary": "via www.eff.org",
-      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 184
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 415
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "summary": "via orcasairband.com",
-      "url": "https://orcasairband.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 286
+      "score": 786
     },
     {
       "date": "2026-11-12",
@@ -126,6 +93,17 @@
       "source": "arXiv"
     },
     {
+      "date": "2026-11-11",
+      "title": "Seagate's new hybrid drive raises some old questions",
+      "summary": "via arstechnica.com",
+      "url": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 94
+    },
+    {
       "date": "2026-11-10",
       "title": "Generative AI uses more energy on non-English text",
       "summary": "via news.umich.edu",
@@ -134,7 +112,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 76
+      "score": 205
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "summary": "via www.techpowerup.com",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 896
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "summary": "via www.eff.org",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 184
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 415
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "summary": "via orcasairband.com",
+      "url": "https://orcasairband.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 286
     },
     {
       "date": "2026-11-13",
@@ -451,22 +473,6 @@
       "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
       "summary": "Anomaly detection (AD) is a critical for trustworthy machine learning and scientific discovery. Existing methods typically define anomalies through local density, isolation heuristics, or distance fro",
       "url": "https://arxiv.org/abs/2611.12871v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
-      "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligni",
-      "url": "https://arxiv.org/abs/2611.12869v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including rewar",
-      "url": "https://arxiv.org/abs/2611.12865v1",
       "tags": [],
       "source": "arXiv"
     }
