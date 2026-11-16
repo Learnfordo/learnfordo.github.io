@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-11-15T08:26:49.268Z",
+  "updatedAt": "2026-11-16T07:04:00.267Z",
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "summary": "via forum.torproject.org",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 118
+    },
+    {
+      "date": "2026-11-15",
+      "title": "A short explainer on how El Niño works [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 217
+    },
+    {
+      "date": "2026-11-15",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "summary": "via baron.by.dai.studio",
+      "url": "https://baron.by.dai.studio/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 119
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+      "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The A",
+      "url": "https://arxiv.org/abs/2611.18563v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
+      "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural ac",
+      "url": "https://arxiv.org/abs/2611.18561v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 As",
+      "url": "https://arxiv.org/abs/2611.18562v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
+      "summary": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial ass",
+      "url": "https://arxiv.org/abs/2611.18559v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write",
+      "url": "https://arxiv.org/abs/2611.18553v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+      "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and o",
+      "url": "https://arxiv.org/abs/2611.18543v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+      "summary": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the ",
+      "url": "https://arxiv.org/abs/2611.18542v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Why Finite Intelligence Works in an Infinite World: A Mathematical Theory",
+      "summary": "An information system often has to learn before it knows what it will be asked. A finite representation can succeed without recording an infinite environment in full when those asks share collective s",
+      "url": "https://arxiv.org/abs/2611.18538v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+      "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approa",
+      "url": "https://arxiv.org/abs/2611.18533v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+      "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices be",
+      "url": "https://arxiv.org/abs/2611.18531v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 409
+    },
     {
       "date": "2026-11-14",
       "title": "Lovable apps expose passport details and more than 200K private messages",
@@ -343,136 +467,6 @@
       "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
       "summary": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wir",
       "url": "https://arxiv.org/abs/2611.14508v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-      "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on",
-      "url": "https://arxiv.org/abs/2611.14505v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
-      "summary": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation",
-      "url": "https://arxiv.org/abs/2611.14504v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-      "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative ",
-      "url": "https://arxiv.org/abs/2611.14493v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-08",
-      "title": "I gave an agent a lakehouse and control of my garden",
-      "summary": "via jatorre.github.io",
-      "url": "https://jatorre.github.io/garden/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 53
-    },
-    {
-      "date": "2026-11-10",
-      "title": "AI usage generates a fragile codebase",
-      "summary": "via evanxmerz.com",
-      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 518
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Tracking Anthropic-discovered vulnerabilities",
-      "summary": "via www.vulncheck.com",
-      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 393
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Synaptics patent claims stop work on DisplayLink drivers",
-      "summary": "via lwn.net",
-      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 382
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "summary": "via github.com",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 350
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
-      "summary": "via claude.com",
-      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 201
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
-      "summary": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced ",
-      "url": "https://arxiv.org/abs/2611.12884v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
-      "summary": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration ste",
-      "url": "https://arxiv.org/abs/2611.12880v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
-      "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent in",
-      "url": "https://arxiv.org/abs/2611.12878v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typic",
-      "url": "https://arxiv.org/abs/2611.12872v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
-      "summary": "Anomaly detection (AD) is a critical for trustworthy machine learning and scientific discovery. Existing methods typically define anomalies through local density, isolation heuristics, or distance fro",
-      "url": "https://arxiv.org/abs/2611.12871v1",
       "tags": [],
       "source": "arXiv"
     }
