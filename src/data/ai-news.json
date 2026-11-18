@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-17T09:43:48.515Z",
+  "updatedAt": "2026-11-18T09:06:50.822Z",
   "items": [
+    {
+      "date": "2026-11-18",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "summary": "via revscope.co",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
+    {
+      "date": "2026-11-18",
+      "title": "AI is killing All About Berlin",
+      "summary": "via nicolasbouliane.com",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 261
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets ",
+      "url": "https://arxiv.org/abs/2611.23229v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+      "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid",
+      "url": "https://arxiv.org/abs/2611.23228v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+      "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapt",
+      "url": "https://arxiv.org/abs/2611.23225v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
+      "summary": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative re",
+      "url": "https://arxiv.org/abs/2611.23221v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a b",
+      "url": "https://arxiv.org/abs/2611.23219v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
+      "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statis",
+      "url": "https://arxiv.org/abs/2611.23218v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026,",
+      "url": "https://arxiv.org/abs/2611.23216v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+      "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognit",
+      "url": "https://arxiv.org/abs/2611.23211v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
+      "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is ca",
+      "url": "https://arxiv.org/abs/2611.23208v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
+      "summary": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state ",
+      "url": "https://arxiv.org/abs/2611.23206v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "GPT‑6.2 Astra and Sol",
+      "summary": "via openai.com",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1260
+    },
+    {
+      "date": "2026-11-17",
+      "title": "What is the best harness for each model?",
+      "summary": "via runta.com",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 369
+    },
+    {
+      "date": "2026-11-17",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "summary": "via microsoft.ai",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 353
+    },
     {
       "date": "2026-11-17",
       "title": "Running coding agents without handing them my credentials",
@@ -307,159 +442,6 @@
       "url": "https://arxiv.org/abs/2611.17316v1",
       "tags": [],
       "source": "arXiv"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
-      "summary": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn ra",
-      "url": "https://arxiv.org/abs/2611.17314v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Sketching Language Models for Context Attribution",
-      "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computi",
-      "url": "https://arxiv.org/abs/2611.17313v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
-      "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to trai",
-      "url": "https://arxiv.org/abs/2611.17309v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Quantifying structural stability of transparent models for general insurance pricing",
-      "summary": "The short duration of general insurance contracts leads to rapid distributional shifts in the data, warranting regular model updates. This process may yield a post-update model that differs considerab",
-      "url": "https://arxiv.org/abs/2611.17308v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Seagate's new hybrid drive raises some old questions",
-      "summary": "via arstechnica.com",
-      "url": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 94
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Generative AI uses more energy on non-English text",
-      "summary": "via news.umich.edu",
-      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 205
-    },
-    {
-      "date": "2026-11-14",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "summary": "via www.techpowerup.com",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 896
-    },
-    {
-      "date": "2026-11-14",
-      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
-      "summary": "via www.eff.org",
-      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 184
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 415
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "summary": "via orcasairband.com",
-      "url": "https://orcasairband.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 286
-    },
-    {
-      "date": "2026-11-13",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "summary": "via haddyalchaer.com",
-      "url": "https://haddyalchaer.com/jepa",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 279
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "summary": "via scottjg.com",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 738
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "summary": "via status.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 441
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "summary": "via brave.com",
-      "url": "https://brave.com/blog/search-api-agentic-payments/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 222
-    },
-    {
-      "date": "2026-11-12",
-      "title": "I'm making LLMs work on small and old devices",
-      "summary": "via github.com",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 456
     }
   ]
 }
