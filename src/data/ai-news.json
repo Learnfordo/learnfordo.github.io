@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T09:29:26.844Z",
+  "updatedAt": "2026-11-19T11:56:22.134Z",
   "items": [
     {
       "date": "2026-11-18",
@@ -90,7 +90,51 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 537
+      "score": 551
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Genie 4 is now available",
+      "summary": "via blog.google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 265
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Anthropic prices initial public offering",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 262
+    },
+    {
+      "date": "2026-11-18",
+      "title": "LLM assisted reverse engineering",
+      "summary": "via www.slowchronicle.com",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 235
+    },
+    {
+      "date": "2026-11-18",
+      "title": "DaisyRose-27B",
+      "summary": "via www.radixark.com",
+      "url": "https://www.radixark.com/blog/daisyrose-27b",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 223
     },
     {
       "date": "2026-11-18",
@@ -102,39 +146,6 @@
       ],
       "source": "HN",
       "score": 456
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Genie 4 is now available",
-      "summary": "via blog.google",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 250
-    },
-    {
-      "date": "2026-11-18",
-      "title": "DaisyRose-27B",
-      "summary": "via www.radixark.com",
-      "url": "https://www.radixark.com/blog/daisyrose-27b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 209
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Anthropic prices initial public offering",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 205
     },
     {
       "date": "2026-11-18",
@@ -441,14 +452,6 @@
       "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
       "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural ac",
       "url": "https://arxiv.org/abs/2611.18561v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-      "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 As",
-      "url": "https://arxiv.org/abs/2611.18562v1",
       "tags": [],
       "source": "arXiv"
     }
