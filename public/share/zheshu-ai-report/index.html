@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>浙数文化“一核五线”AI办公智能体 · 建设方案汇报（万媒灵/灵思）</title>
+<style>
+/* 视觉对齐浙数文化官网 600633.cn 的版式语言（细体大数字/全大写宽字距英文/小圆角6-8px/柔和投影#103b8d），
+   品牌色：靛蓝#4251D5→蓝#428BD5，点缀浅青#A1EEFF；按用户要求采用白色底 */
+:root{color-scheme:light;--ink:#1b2465;--body-c:#374151;--muted:#6b7280;--line:#e5e7eb;--panel:#ffffff;--pri:#4251D5;--blue:#428BD5;--cyan:#A1EEFF;--pri-soft:#eef2fe;--green:#10b981;--amber:#f59e0b;--red:#ef4444;--radius:8px;--shadow:0 24px 64px rgba(16,59,141,.06);--disp:"Dosis","MiSans","Avenir Next","Futura","Century Gothic","Trebuchet MS","PingFang SC",sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:#ffffff;color:var(--body-c);font-family:"MiSans","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;font-size:14px;line-height:1.7;-webkit-font-smoothing:antialiased}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header::after{content:"";display:block;height:3px;background:linear-gradient(90deg,#4251D5 0%,#428BD5 55%,#A1EEFF 100%)}
+.hwrap{max-width:1180px;margin:0 auto;padding:18px 20px 12px}
+.kicker{font-family:var(--disp);font-size:11px;font-weight:500;letter-spacing:.38em;text-transform:uppercase;color:var(--pri);margin-bottom:6px}
+h1{font-size:24px;font-weight:300;letter-spacing:1px;color:var(--ink)}
+.sub{color:var(--muted);font-size:12px;margin-top:4px}
+.sub b{color:var(--pri);font-weight:600}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+nav a{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:5px 16px;font-size:12.5px;text-decoration:none;transition:.15s}
+nav a:hover{border-color:var(--pri);color:var(--pri)}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+section{scroll-margin-top:120px;margin-bottom:40px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow)}
+h2.sec{font-size:20px;font-weight:600;color:var(--ink);margin:0 0 6px;display:flex;align-items:center;gap:10px;letter-spacing:.5px}
+h2.sec::before{content:"";width:4px;height:19px;border-radius:2px;background:linear-gradient(180deg,var(--pri),var(--blue))}
+.hint{color:var(--muted);font-size:12px;margin:0 0 14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+@media(max-width:800px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--pri),var(--blue))}
+.stat .num{font-family:var(--disp);font-size:46px;font-weight:700;color:var(--pri);line-height:1.1}
+.stat .num small{font-size:15px;font-weight:700;margin-left:3px;color:var(--blue)}
+.stat .lab{font-weight:600;font-size:13px;color:var(--ink);margin-top:4px}
+.stat .ext{font-size:11.5px;color:var(--muted);margin-top:4px}
+.headline{background:linear-gradient(135deg,#4251D5 0%,#428BD5 100%);border:none;border-radius:var(--radius);padding:14px 18px;font-size:13.5px;color:#fff;margin-bottom:16px;box-shadow:0 12px 32px rgba(66,81,213,.22)}
+.gradeline{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.gtag{border-radius:var(--radius);border:1px solid var(--line);background:#fff;padding:8px 14px;font-size:12.5px;color:var(--body-c);display:flex;align-items:center;gap:8px;box-shadow:var(--shadow)}
+.gtag b{font-family:var(--disp);font-size:19px;font-weight:500}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;flex:none}
+.dA{background:var(--green)}.dB{background:var(--blue)}.dC{background:var(--amber)}.dD{background:var(--red)}
+.gA b{color:#047857}.gB b{color:#2b6cb0}.gC b{color:#b45309}.gD b{color:#b91c1c}
+.redlines{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+@media(max-width:800px){.redlines{grid-template-columns:1fr}}
+.rl{border-radius:var(--radius);padding:14px 18px;border:1px solid;background:#fff;box-shadow:var(--shadow)}
+.rl1{border-color:#c7d2fe;background:var(--pri-soft)}.rl2{border-color:#bcd7f0;background:#eef5fc}
+.rl b{font-size:13.5px;display:block;margin-bottom:3px;color:#3730a3}
+.rl2 b{color:#1d4ed8}
+.rl p{font-size:12.5px;color:#475569}
+.boundary{border:1px solid #fde68a;background:#fffbeb;border-radius:var(--radius);padding:14px 18px}
+.boundary .bt{font-weight:600;font-size:13px;color:#92400e;margin-bottom:8px}
+.boundary .bi{margin:7px 0;font-size:12.5px;color:#78350f}
+.boundary .bi b{color:#92400e}
+.egrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:900px){.egrid{grid-template-columns:1fr}}
+.ecard{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;display:flex;flex-direction:column;gap:9px;box-shadow:var(--shadow)}
+.ecard .eh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ecard .sid{background:linear-gradient(135deg,var(--pri),var(--blue));color:#fff;border-radius:6px;font-family:var(--disp);font-size:11.5px;font-weight:600;padding:2px 8px;flex:none}
+.ecard .en{font-weight:700;font-size:15px;color:var(--ink)}
+.ph{margin-left:auto;border-radius:999px;font-size:11px;font-weight:600;padding:2px 10px;flex:none;border:1px solid}
+.ph1{background:var(--pri-soft);color:var(--pri);border-color:#c7d2fe}
+.ph2{background:#e6f0fb;color:#2b6cb0;border-color:#bcd7f0}
+.ph3{background:#e0f7fd;color:#0e7490;border-color:#b5e3f0}
+.ecard .pos{font-size:12.5px;color:#475569}
+.blk .bl{font-size:11.5px;font-weight:600;color:var(--pri);margin-bottom:4px;letter-spacing:.5px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.rchip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:#f8fafc;border-radius:999px;padding:2px 10px;font-size:11px;color:#334155;cursor:pointer;transition:.15s;font-family:inherit}
+.rchip:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-soft)}
+.rchip .nn{font-family:var(--disp);font-weight:600;color:var(--pri)}
+.rchip .note{color:var(--muted)}
+.gcount{font-size:11px;color:var(--muted);margin-top:5px}
+.ecard ul{list-style:none}
+.ecard li{font-size:12.5px;color:#334155;padding:2px 0 2px 14px;position:relative}
+.ecard li::before{content:"";position:absolute;left:2px;top:10px;width:5px;height:5px;border-radius:50%;background:var(--blue)}
+.blk.coop{background:var(--pri-soft);border:1px solid #c7d2fe;border-radius:var(--radius);padding:9px 12px}
+.blk.coop .bl{color:var(--pri)}
+.blk.coop li{color:#3730a3}
+.blk.coop li::before{background:var(--pri)}
+.rrefs{display:inline-block;margin-left:4px}
+.rn{border:1px solid #c7d2fe;background:#fff;border-radius:6px;font-family:var(--disp);font-size:10.5px;color:var(--pri);padding:0 5px;margin:1px 2px 1px 0;cursor:pointer;font-weight:600}
+.rn:hover{border-color:var(--pri);background:var(--pri-soft)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:0 0 12px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.pgroup{margin-bottom:14px}
+.pgroup .pg{font-weight:600;font-size:13.5px;margin-bottom:8px;color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:12.5px;background:#fff}
+th{background:var(--pri-soft);text-align:left;font-weight:600;color:#3b3f8c}
+th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+td{color:var(--body-c)}
+td .pw{font-weight:600}
+.pw{color:var(--ink)}
+.pt0{color:#b91c1c}.pt1{color:#b45309}
+details.app{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:14px;overflow:hidden;box-shadow:var(--shadow)}
+details.app summary{cursor:pointer;padding:14px 20px;font-weight:600;font-size:14px;color:var(--ink);list-style:none;display:flex;align-items:center;gap:8px}
+details.app summary::-webkit-details-marker{display:none}
+details.app summary::before{content:"▸";color:var(--pri);transition:.15s}
+details.app[open] summary::before{transform:rotate(90deg)}
+details.app summary .mini{font-weight:400;color:var(--muted);font-size:12px;margin-left:auto}
+.appbody{padding:0 20px 18px;border-top:1px solid var(--line)}
+.appbody .tools{padding:12px 0}
+.appbody input[type=search]{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13px;width:260px;outline:none}
+.appbody input[type=search]::placeholder{color:var(--muted)}
+.appbody input[type=search]:focus{border-color:var(--pri)}
+tr.reqrow{cursor:pointer}
+tr.reqrow:hover td{background:var(--pri-soft)}
+.badge{display:inline-block;border-radius:6px;padding:1px 8px;font-size:11px;font-weight:600;white-space:nowrap;border:1px solid}
+.bA{background:#ecfdf5;color:#047857;border-color:#a7f3d0}
+.bB{background:#e6f0fb;color:#2b6cb0;border-color:#bcd7f0}
+.bC{background:#fffbeb;color:#b45309;border-color:#fde68a}
+.bD{background:#fef2f2;color:#b91c1c;border-color:#fecaca}
+.risk{border-left:3px solid var(--blue);padding:6px 0 6px 12px;margin:9px 0;font-size:12.5px;color:#475569}
+.risk b{color:var(--ink)}
+.check{display:flex;gap:10px;align-items:flex-start;padding:8px 4px;border-bottom:1px dashed var(--line);font-size:12.5px;color:var(--body-c)}
+.check input{margin-top:3px;flex:none;accent-color:var(--pri)}
+.check.done label{color:#94a3b8;text-decoration:line-through}
+#modal{position:fixed;inset:0;background:rgba(27,36,101,.4);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+#modal.on{display:flex}
+.mbox{background:#fff;border:1px solid var(--line);border-radius:12px;max-width:820px;width:100%;padding:26px 30px;position:relative;box-shadow:0 24px 64px rgba(16,59,141,.25)}
+.mbox .x{position:absolute;top:14px;right:18px;border:none;background:var(--pri-soft);border-radius:50%;width:30px;height:30px;font-size:15px;cursor:pointer;color:var(--muted)}
+.mbox h3{font-size:16px;color:var(--ink);margin-bottom:4px;padding-right:40px}
+.mbox .meta{color:var(--muted);font-size:12px;margin-bottom:12px}
+.dim{margin:9px 0}
+.dim .dl{font-weight:600;color:var(--pri);font-size:12.5px;margin-bottom:2px}
+.dim .dc{font-size:13px;color:#334155}
+footer{border-top:1px solid var(--line);background:#fff;color:var(--muted);font-size:11.5px;text-align:center;padding:20px 16px}
+footer .fmark{font-family:var(--disp);font-weight:300;text-transform:uppercase;letter-spacing:.42em;font-size:14px;color:rgba(66,81,213,.6);margin-bottom:8px}
+.mini{font-size:11.5px;color:var(--muted)}
+/* H5/移动端适配 */
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.tscroll table{min-width:640px}
+.appbody input[type=search]{max-width:100%}
+@media(max-width:640px){
+  body{font-size:13.5px}
+  .hwrap{padding:12px 14px 10px}
+  .kicker{font-size:10px;letter-spacing:.24em;margin-bottom:4px}
+  h1{font-size:18px;letter-spacing:.3px}
+  .sub{font-size:11px}
+  nav{gap:6px;margin-top:9px}
+  nav a{padding:4px 12px;font-size:12px}
+  main{padding:18px 14px 48px}
+  section{scroll-margin-top:150px;margin-bottom:30px}
+  h2.sec{font-size:17px}
+  .hint{font-size:11.5px}
+  .stats{gap:10px;margin-bottom:12px}
+  .stat{padding:14px}
+  .stat .num{font-size:34px}
+  .stat .num small{font-size:13px}
+  .stat .lab{font-size:12px}
+  .stat .ext{font-size:10.5px}
+  .headline{padding:12px 14px;font-size:12.5px}
+  .gradeline{gap:8px}
+  .gtag{padding:6px 11px;font-size:12px}
+  .gtag b{font-size:16px}
+  .redlines{gap:10px}
+  .rl{padding:12px 14px}
+  .boundary{padding:12px 14px}
+  .egrid{gap:12px}
+  .ecard{padding:14px}
+  .ecard .en{font-size:14px}
+  .card{padding:14px}
+  .pgroup .pg{font-size:13px}
+  th,td{padding:6px 8px;font-size:12px}
+  details.app summary{padding:12px 14px;font-size:13px}
+  .appbody{padding:0 14px 14px}
+  #modal{padding:16px 10px}
+  .mbox{padding:20px 16px;border-radius:10px}
+  .mbox h3{font-size:15px}
+  footer .fmark{font-size:12px;letter-spacing:.28em}
+}
+</style>
+</head>
+<body>
+<header><div class="hwrap">
+<div class="kicker">Zheshu Culture · AI Agent Proposal</div>
+<h1>浙数文化“一核五线”AI办公智能体 · 建设方案汇报</h1>
+<div class="sub">平台：<b>万媒灵（灵思）</b> · 交付形态：专家 / 数字员工 · 依据：需求分析说明书（修订版 2026-11-19）· 38条需求 / 12专家 / 8共享底座</div>
+<nav>
+<a href="#sec-head">结论</a>
+<a href="#sec-experts">12个专家</a>
+<a href="#sec-prep">浙数侧准备清单</a>
+<a href="#sec-appendix">附录（明细）</a>
+</nav>
+</div></header>
+<main>
+<section id="sec-head"></section>
+<section id="sec-experts"></section>
+<section id="sec-prep"></section>
+<section id="sec-appendix"></section>
+</main>
+<div id="modal"><div class="mbox"><button class="x" onclick="closeModal()">✕</button><div id="mcontent"></div></div></div>
+<footer><div class="fmark">Zheshu Culture · Wanmei Ling</div>汇报页 · 需求与策略内容内嵌自需求分析说明书（修订版），准备清单为建议口径供立项讨论 · 视觉口径对齐浙数文化官网（600633.cn）· 单文件离线可用</footer><script>
+// 数据源：浙数文化AI智能体需求分析说明书（修订版，2026-11-19）· 万媒灵（灵思）口径
+const ITEMS = [
+{n:1,name:"关联交易智能提示及预警",dept:"董事会办公室",line:"合规决策线",grade:"B",b:"B",src:["大群OA","关联方名单","预算数"],sens:"高敏感·内幕信息",
+point:"自动识别合同对手方是否为关联方，实时抓取关联交易并统计合计金额，与年初预算数对比预警。",
+input:"①关联方名单（含子公司、董监高及其近亲属、关联法人/自然人，需动态维护）；②公司及子公司合同审批流程数据（对手方、金额、日期）；③年初关联交易预算数；④上交所上市规则、公司关联交易决策管理办法（认定与披露标准）。",
+connect:"需打通大群OA合同流程：首选API/只读视图抽取对手方与金额；关联方名单结构化入库（Excel导入＋工商API辅助校验股权穿透）；预算数人工导入。难度中等。OA接口若无实时推送能力，退化为T+1批量同步，「实时」需降级预期。",
+perm:"数据高敏感：仅董办/证券事务指定合规岗可见全量；子公司仅见本公司数据；预警定向推送指定人员。关联方名单本身属内幕信息范畴，独立ACL＋访问留痕。",
+feas:"B级（需打通）。金额汇总与预算对比为确定性计算，务必用规则引擎算数、LLM只做解读，避免大模型算数错误。最大风险是关联方名单完整性——隐性关联方（代持、远亲）无法保证100%识别，必须保留人工复核兜底，定位为「辅助识别」而非「自动认定」。",
+merge:"S5",mergeNote:"与开票/付款/报销共用「合同金额比对引擎」"},
+{n:2,name:"信披文件智能校验",dept:"董事会办公室",line:"法律安全线",grade:"B",b:"B",src:["事实库","信披模板","易错案例库"],sens:"内网·未公开信息",
+point:"超越语病/标点/错别字层面，基于公司基本情况认知，检查人名、数据单位、落款时间等事实性错误。",
+input:"①公司基本情况事实库（董监高名单、子公司全称/简称、股本结构、常用数据单位口径）；②信披撰写模板；③历史信披文件与易错案例知识库；④待校验文件。",
+connect:"无需业务系统实时打通，以知识工程建设为主。明确要求本地部署、不通外网→需私有化大模型＋本地RAG；事实库随董监高换届/股本变动人工更新。",
+perm:"内网本地化；仅董办信披岗使用；知识库含未公开信息，按文档级ACL控制，校验记录留痕。",
+feas:"B级（有条件可行）。人名/落款/单位类错误可通过「事实库比对＋规则校验＋LLM」三层显著改善；但涉及未披露财务数据的勾稽校验需额外数据源。私有化模型能力弱于云端旗舰模型，错漏召回率需实测验收。建议输出「疑点清单＋定位」供人工确认，不做自动改稿。",
+merge:"S2",mergeNote:"信披校验专版技能＋独立知识库"},
+{n:3,name:"公司制度与政策知识库智能问答",dept:"综合/资安/董办/人力",line:"合规决策线",grade:"B",b:"B",src:["制度汇编","法律法规","表单模板"],sens:"文档级ACL",
+point:"制度全文电子化入库、语义检索并引用条款原文、过期版本自动下架、法规与制度打通、表单模板获取、决策事项可视化全流程。四中心已合并为统一底座。",
+input:"①全部制度汇编（条款级结构化）；②适用法律法规（公司法、证券法、上交所上市规则、治理准则、公司章程）；③各中心表单模板与办理指引；④制度版本/生效/废止状态元数据。",
+connect:"文档批量导入＋条款级切分入库，无需OA实时接口（大群OA仅作为制度发布源之一）。外部法规更新因「AI咨询不出内网」约束，走「外网采集→人工审核→内网单向导入」流程，不做在线API直连。",
+perm:"全员按权限检索：文档级ACL（公开制度全员、内部制度按岗、未决策事项仅班子/指定人）；检索时先按身份过滤权限再召回，防止越权引用；过期版本自动下架靠版本状态字段。",
+feas:"A~B级。RAG问答技术成熟，是全项目最优先落地项；难点在制度版本治理与条款引用准确性（需条款级切分＋出处标注）。「决策事项可视化全流程」属流程建模，需逐事项梳理，建议二期。四中心统一底座避免口径不一，合并正确。",
+merge:"S1",mergeNote:"核心底座，7/15/22复用"},
+{n:4,name:"党委会、总办会会议材料线上汇总、查阅",dept:"综合管理中心",line:"合规决策线",grade:"C",b:"C",src:["议题材料","参会名单"],sens:"会议授权",
+point:"议题部门线上提交定稿材料，参会领导会前在线查阅，版本自动归集最新稿、修改留痕，会后一键归档并同步督办台账。",
+input:"①议题材料（Word/PDF）；②议题元数据（提交部门、会议类型、状态）；③参会领导名单与授权关系。",
+connect:"需文件存储＋版本管理载体（OA文档中心/企业网盘/平台文档库）；与OA会议流程对接获取议题状态为可选增强。",
+perm:"参会领导按会议授权查阅；提交部门仅见本议题；版本留痕可审计；会后材料包按密级归档。",
+feas:"C级（偏应用系统）。本质是「会议材料管理系统」：上传、版本归集、授权查阅、归档门户超出对话agent能力边界。agent可承担催交提醒、格式初审、材料包汇总、归档清单生成；存储/版本/查阅需平台功能或轻量应用承载。建议万媒灵＋共享文档库组合。",
+merge:"S3",mergeNote:"材料管理子模块，与5联动"},
+{n:5,name:"会议与项目制决策事项全流程督办",dept:"综合管理中心、董事会办公室",line:"合规决策线",grade:"B",b:"B",src:["会议纪要","议案","督办台账"],sens:"内网·行级过滤",
+point:"会前议案格式指导与智能审核，会中记录转换，会后从纪要提取议定事项（责任部门/人/时限）拆解为任务清单推送督办台账，到期提醒，一键生成督办周报/月报。综合中心与董办已合并。",
+input:"①会议纪要/录音；②议案文本；③议定事项要素（事项、责任部门、责任人、时限）；④督办台账数据库；⑤议事规则与督办制度。",
+connect:"纪要来自OA或上传；任务推送需消息通道（钉钉/企微/OA消息）API；台账需结构化持久存储（平台数据库或低代码表）。本地部署不出外网。",
+perm:"决策领导全量可视化；责任部门仅见本部任务；本地内网部署；督办数据按角色行级过滤。",
+feas:"B级。「纪要→任务清单」LLM提取成熟可行，但须设人工确认环节再入台账；提醒/周报生成可行。关键缺口：纯对话agent无状态，做不了闭环——必须配一个任务数据库＋消息连接器＋定时调度，这是平台级底座而非单个专家。两中心合并复用同一督办引擎，正确。",
+merge:"S3",mergeNote:"引擎核心，10/13/17/18/19复用"},
+{n:6,name:"公文与文稿智能处理（起草、校对与格式调整）",dept:"综合管理中心、人力资源中心",line:"法律安全线",grade:"A",b:"A",src:["公文规范","模板","录音ASR"],sens:"按岗授权",
+point:"按公司公文规范生成请示/报告/纪要初稿，会议录音转写，自动校对错别字/敏感词/病句，按公司统一标准自动调整字体字号间距，版本留痕、导出Word进入审签。综合与人力已合并。",
+input:"①公司公文格式规范（数字化为样式模板）；②公文模板与范文；③议案/决策要点输入；④会议录音（ASR转写）；⑤敏感词表。",
+connect:"基本无需业务系统打通。录音转写需本地ASR能力；导出Word需docx程序化生成技能；格式调整需把规范落实为可执行的样式模板（python-docx/docx-js）。",
+perm:"全员按岗授权；模板按部门隔离；涉密文稿内容不出内网。",
+feas:"A级。起草/校对/改稿是LLM强项，最易落地；「自动调格式」可行但依赖格式规范数字化程度，需逐条落实版式规则；敏感词校验规则化。合并正确——校对与格式调整本就是同一文书能力的不同环节。",
+merge:"S2",mergeNote:"核心引擎，14/19拟稿/2复用"},
+{n:7,name:"重要事项报备制度问答",dept:"综合管理中心",line:"合规决策线",grade:"A",b:"A",src:["报备制度","路径映射表"],sens:"内部全员",
+point:"出省报备、外派董事监事报告、重大事项报告、公章证照申请等制度咨询，回答「什么事要报、找谁报、什么时候报」，指引办理路径。",
+input:"①重大事项报告制度、外派董事监事管理办法、印章证照管理办法（已在需求3语料范围内）；②「事项→是否需报备→责任部门→时限→路径」结构化决策表。",
+connect:"无新增打通，完全复用需求3知识库；补充报备路径映射表即可。",
+perm:"内部全员（制度本身为内部公开）。",
+feas:"A级。是需求3的子集＋场景化技能，建议做成S1上的「报备指引」技能而非独立专家，避免重复建设。",
+merge:"S1",mergeNote:"报备指引技能"},
+{n:8,name:"公司荣誉、专利、软著等资质成果动态管理",dept:"综合管理中心",line:"员工服务保障",grade:"B",b:"B",src:["证书扫描件OCR","台账"],sens:"内部",
+point:"各部门/子公司随时上传证书扫描件＋关键信息，自动识别归档建台账，一键生成年度/季度统计表，证书到期与专利年费缴纳自动提醒。",
+input:"①证书扫描件（OCR）；②关键信息字段（名称、编号、持有人、有效期、年费节点）；③部门归属。",
+connect:"无需系统打通：上传＋OCR识别＋台账存储；提醒走消息通道＋定时调度。",
+perm:"内部；上传部门维护本部数据，综合中心全量管理；统计表按权限导出。",
+feas:"A~B级。OCR＋信息抽取＋台账＋到期提醒技术成熟；需台账存储与提醒调度（平台定时任务）。证书版式多样，OCR字段抽取准确率需验收，保留人工修正入口。",
+merge:"S12",mergeNote:"资质台账技能"},
+{n:9,name:"档案、合同线上存档与授权查阅",dept:"综合管理中心",line:"法律安全线",grade:"B",b:"B",src:["档案扫描件","授权矩阵"],sens:"白名单·留痕",
+point:"档案/合同扫描件OCR后统一归档、全文可检索，按岗位授权开放，仅小部分授权人员可查阅，无权限者不可见。",
+input:"①档案/合同扫描件；②目录元数据（年度、类别、密级）；③岗位授权矩阵。",
+connect:"OCR＋全文索引；存储可用OA文档中心或独立文档库；无需业务API。",
+perm:"严格文档级ACL＋检索前权限过滤（无权限者在检索结果中不可见，不能靠提示词约束）＋查阅全程留痕审计。合同含商业秘密，建议独立存储域。",
+feas:"B级。OCR＋RAG检索技术成熟；核心工作是权限矩阵梳理与审计机制，属管理工程而非技术难点。授权范围「小部分人员」需甲方书面确认名单。",
+merge:"S12",mergeNote:"档案查阅技能，独立敏感库"},
+{n:10,name:"领导批示件、上级交办件跟踪",dept:"综合管理中心",line:"合规决策线",grade:"B",b:"B",src:["批示件来文","流转状态"],sens:"部分权限",
+point:"批示交办事项登记编号、转办、反馈时限提醒、办结归档闭环，进展向领导可视化展示。",
+input:"①批示件来文（可OCR登记）；②事项要素（来文单位、事项、责任部门、时限）；③流转状态。",
+connect:"登记人工/OCR；提醒推送消息通道；台账存储复用督办引擎。",
+perm:"内部部分权限：综合督查岗＋承办部门＋相关领导可视；行级过滤。",
+feas:"B级。与需求5同构（登记→转办→提醒→办结），复用同一督办引擎，仅事项来源不同，无需单独建设。",
+merge:"S3",mergeNote:"批示件督办技能"},
+{n:11,name:"值班与应急管理",dept:"综合管理中心",line:"平安建设线",grade:"B",b:"B",src:["应急预案","通讯录","节假日日历"],sens:"应急角色授权",
+point:"值班表在线排定与提醒，突发事件一键上报模板（时间/地点/影响/处置），应急通讯录自动匹配。",
+input:"①值班管理制度与应急预案；②人员通讯录（HR/OA组织架构）；③节假日日历；④排班约束规则。",
+connect:"通讯录来自HR/OA组织架构接口或导入；排班表存储；上报模板生成＋推送通道。",
+perm:"内部；应急通讯录含手机号属个人信息，按应急角色授权可见；值班表全员可查。",
+feas:"A~B级。排班生成（规则＋约束求解）、模板上报、提醒均可行；「一键上报」若上级报送渠道无API，则生成标准文书由人工报送兜底。",
+merge:"S10",mergeNote:"值班应急技能"},
+{n:12,name:"党建工作数据驾驶舱与强基指数晾晒",dept:"综合管理中心",line:"一核·党建引领",grade:"B",b:"B",src:["集团党建平台","网络学院","支部台账"],sens:"行级·身份裁剪",
+point:"汇聚14个支部、243名党员五类数据，按权重自动计算强基指数并排名晾晒，自然语言查询（标注来源与口径），未达标/逾期标红预警，按支部逐级下钻，季度留痕导出。",
+input:"①党员信息（数量、年龄结构、组织关系）；②支部信息（书记、委员、党员数、品牌）；③三会一课记录；④任务完成率；⑤学习完成率；⑥强基指数权重规则。数据源：集团党建平台数据库、集团网络学院、各支部台账。",
+connect:"关键依赖＝集团党建平台与网络学院的数据开放（API/只读视图），属跨组织数据主权问题，需集团层面协调，难度高。兜底方案：季度Excel模板导入＋自动计算晾晒，丧失实时性但保留核心价值。建议先做导入版。",
+perm:"管理员/党委：全量；支委：仅本支部；普通党员：本人＋本支部公开排名。行级数据范围过滤，驾驶舱下钻按身份裁剪，自然语言查询同样受数据范围约束。",
+feas:"B级（强依赖打通）。指数计算/排名/预警为确定性规则；自然语言查询（NL2SQL＋口径标注）技术可行。若集团平台不开放接口，实时驾驶舱不可行，导入版可行——需提前确认集团协调结果。",
+merge:"S7",mergeNote:"15组织数据/18统计复用"},
+{n:13,name:"我的工作台（个人待办与进度聚合）",dept:"综合管理中心",line:"一核·党建引领",grade:"C",b:"C",src:["任务表","通知阅读","学习进度","报名记录"],sens:"本人范围",
+point:"聚合通知、督办任务、学习任务、活动报名、材料提交到个人工作台，按待办/进行中/逾期/已完成分类，逾期置顶提醒，管理员/支委有发布快捷入口，展示近期动态时间线。",
+input:"①任务表（名称、责任对象、截止时间、进度、优先级、状态）；②通知阅读记录；③学习任务进度；④活动报名记录。全部来自16/17/18/19模块，来源为数据导入与人工填写。",
+connect:"平台内部数据聚合，无外部打通；前提是各模块任务/通知数据结构统一（统一任务模型）。",
+perm:"所有身份只看本人范围；支委可见本支部；管理员/党委全量。",
+feas:"C级（平台功能）。本质是门户/待办中心UI，不是对话agent能力。agent可做「今天我要做什么」自然语言摘要、一键催办、进度回写；工作台界面需平台开发。建议作为党建平台功能模块＋agent智能摘要层。",
+merge:"S3",mergeNote:"督办引擎「个人视图」＋S8党建运营模块"},
+{n:14,name:"AI辅助中心：党建材料智能创作与模板库",dept:"综合管理中心",line:"一核·党建引领",grade:"A",b:"A",src:["12个模板","党建知识库","上传材料"],sens:"创作记录按人隔离",
+point:"四类文种（文字材料/宣传推文/活动材料/思政课程）按主题生成初稿，上传参考材料作依据并标注引用，指令式改稿、版本留痕、导出Word，内置12个标准模板，保留最近10条创作记录。",
+input:"①12个标准模板（发展党员类/日常公文类/党员材料类）；②党建知识库（权威发布文件）；③用户上传参考材料；④公文处理条例与发展党员工作细则。",
+connect:"无外部系统打通；模板库＋知识库文件管理；创作记录/草稿箱需平台存储。",
+perm:"党委只读；支委查看本支部创作记录；管理员维护模板与规范；创作记录按人隔离。",
+feas:"A级。与需求6同一能力引擎（生成＋改稿＋留痕＋导出），仅语料与模板不同；「标注引用出处」需RAG支撑；生成后提示人工审核再发布，符合党务材料严肃性要求。",
+merge:"S2",mergeNote:"党建模板包，与6共用引擎"},
+{n:15,name:"党建知识库与智能问答",dept:"综合管理中心",line:"一核·党建引领",grade:"B",b:"B",src:["党内法规","应知应会","组织数据"],sens:"双检索域·身份过滤",
+point:"党章党规等4类文件分类管理、基于单份文件提问、应知应会条目库；问答分「党务通用知识」与「党组织问答」两范围，回答附来源标签可追溯，无匹配不编造；组织类问题按身份数据范围作答。",
+input:"①党内法规文件清单（党章、发展党员细则、支部工作条例等，表中已列）；②应知应会条目；③组织数据（支部、党员、书记、品牌，来自需求12）；④红旗云屏资源。",
+connect:"文件导入＋版本管理；组织数据依赖12的党建平台打通（或导入兜底）；红旗云屏接入视其API而定。",
+perm:"知识库全员可查；组织数据按身份范围过滤（管理员/党委全量、支委本支部、党员本人＋本支部）；党委只读。",
+feas:"A级（知识库部分）＋B级（组织数据问答部分）。与需求3同底座、不同语料域；「无匹配不编造」需检索置信度阈值＋明确拒答策略；双问答范围＝两个检索域。重要政策与组织数据以正式文件和业务系统为准。",
+merge:"S1",mergeNote:"党建知识域＋S7组织数据"},
+{n:16,name:"品牌活动运营与党建品牌矩阵管理",dept:"综合管理中心",line:"一核·党建引领",grade:"C",b:"C",src:["活动信息","品牌信息","素材库","企微"],sens:"角色分级",
+point:"活动创建（AI补全方案）、报名通道与签到二维码、报名/签到实时统计与提醒、素材归集；10个党建品牌维护、健康度诊断（参与率/认知度/传播力/协同性）与AI改进建议、季度品牌报告。",
+input:"①活动信息（名称、品牌、时间地点、人数上限、报名签到数）；②参与人员名单；③品牌信息（名称、责任组织、评分、场次）；④素材文件与浏览量；⑤企业微信触达通道。",
+connect:"企微API（通知/报名触达）；报名签到二维码＝应用功能；素材库存储。",
+perm:"管理员全部；支委本支部活动的签到/提醒/导出；普通党员报名＋本人参与记录；党委领导只读。",
+feas:"C级为主。活动创建/报名通道/签到二维码/素材库是完整应用系统，超出agent边界。agent可做：活动方案生成、活动简报、品牌健康度诊断报告、催报名话术。建议「轻量活动管理应用＋agent内容引擎」组合，报名签到先用企微表单/问卷工具兜底。",
+merge:"S8",mergeNote:"agent内容部分＋平台应用（报名签到）"},
+{n:17,name:"理论学习任务与集团网络学院",dept:"综合管理中心",line:"一核·党建引领",grade:"B",b:"B",src:["网络学院","红旗云屏","同心同游"],sens:"身份分级",
+point:"按内容/范围/对象/截止时间下发学习任务，个人进度查看，接入集团网络学院课程目录，汇聚三类资源（网络学院/红旗云屏/同心同游）并标注接入状态，按支部汇总完成率并提醒，季度输出供强基指数取数。",
+input:"①学习任务（课程、对象、截止、要求）；②课程目录（时长、分类、来源）；③个人学习进度。来源：集团网络学院、红旗云屏、同心同游研学平台。",
+connect:"三个外部平台API/进度回写＝关键依赖，需逐一确认开放能力；大概率无标准API，兜底为定期导出/支部人工填报。课程统一入口可做链接导航＋接入状态标注（表中已务实注明）。",
+perm:"管理员下发＋全量；支委本支部任务；普通党员仅本人进度；党委领导只读。",
+feas:"B~C级。任务下发/督办/完成率统计复用督办引擎可行；「实时回写学习进度」强依赖第三方接口，不可得则降级为「支部周报数＋抽查」，需提前管理预期。",
+merge:"S3",mergeNote:"学习任务技能＋S8资源导航"},
+{n:18,name:"组织生活（三会一课）管理与公司任务指令落实",dept:"综合管理中心",line:"一核·党建引领",grade:"B",b:"B",src:["三会一课记录","党委指令","佐证材料"],sens:"身份分级",
+point:"季度统计4项组织生活开展情况与完成率，上传会议记录自动识别要素并校验达标、缺项提示补正；承接集团/公司党委5类指令，跟踪落实进度与交付材料，逾期预警催办，指令与督办双向关联，销号须佐证齐备。",
+input:"①三会一课记录、签到表、照片；②支部基础信息；③党建工作指令（下发单位、对象、截止、交付材料、进度）；④督办任务与佐证材料。来源：集团党建平台各支部台账、平台督办系统。",
+connect:"记录上传（OCR/要素抽取）；指令来自集团党建平台（或人工登记兜底）；督办复用引擎。",
+perm:"管理员全部；支委本支部记录与任务；普通党员本人参会记录；党委领导全部只读。",
+feas:"B级。要素识别＋达标校验（频次/要素齐全规则）可行且价值高；照片/签到表OCR准确率需验收；指令落实跟踪＝督办引擎；销号佐证校验＝规则。季度达标台账自动生成可直接供需求12取数。",
+merge:"S3",mergeNote:"组织生活校验技能＋S7统计取数"},
+{n:19,name:"党务通知拟稿发布与督办事项闭环",dept:"综合管理中心",line:"一核·党建引领",grade:"B",b:"B",src:["8类通知模板","党员名单","阅读记录"],sens:"发布权限分级",
+point:"8类通知模板选模板填要素生成规范正文、自动校验必备要素，按接收对象精准分发并统计已读/未读、二次提醒；发布即建督办，到期预警生成催办话术，进度回写工作台与驾驶舱，台账批量导出。",
+input:"①8类通知模板（必备要素字段＋正文示例）；②支部/党员名单（接收对象）；③通知阅读记录；④任务数据（名称、责任对象、截止、优先级、进度、状态）。",
+connect:"平台内通知中心（发布/已读统计＝应用功能）；名单来自组织架构；督办复用引擎；触达可走企微API。",
+perm:"管理员可面向全公司发布；支委仅本支部发布与督办；普通党员接收通知、办理本人任务；党委只读。",
+feas:"A级（拟稿＋要素校验）＋C级（发布/已读回执/二次提醒通道）。AI生成正文与必备要素校验立即可做；精准分发与已读统计需平台消息中心或企微API，属平台建设。",
+merge:"S2",mergeNote:"通知拟稿＋S3督办＋S8发布通道"},
+{n:20,name:"出省报备流程数据自动汇总",dept:"综合管理中心",line:"合规决策线",grade:"B",b:"B",src:["大群OA"],sens:"不公开·指定岗",
+point:"自动将OA上审批通过的出省报备信息同步汇总到一张总表并及时更新，替代人工录入。",
+input:"①大群OA出省报备流程表单字段（申请人、部门、事由、目的地、起止时间、审批状态）。",
+connect:"OA API/只读视图/定时导出，过滤「审批通过」状态，增量同步到汇总表。无API时RPA定时导出兜底。",
+perm:"不公开：仅综合中心指定管理岗可见总表；可选开放员工本人查本人报备。",
+feas:"B级。典型OA数据汇总，技术简单，唯一依赖是OA开放能力；与32/36共用同一OA连接器，边际成本低。",
+merge:"S4",mergeNote:"OA数据汇总"},
+{n:21,name:"员工假期余额查询",dept:"人力资源中心",line:"员工服务保障",grade:"B",b:"B",src:["OA请假流程","假期规则","HR花名册"],sens:"本人＋本部门",
+point:"建立假期数据库，调用OA请假流程数据驱动余额变化，员工按ID自助查询假期类型、年度、总额度、已用、预占、可用、结转、到期日。",
+input:"①OA请假流程数据（类型、时长、审批状态）；②假期额度规则（工龄/职级/年度）；③结转与到期规则；④员工ID与组织架构。预占＝审批中未通过的流程。",
+connect:"OA请假流程API/视图；额度规则需人力逐条确认并配置化；与HR花名册做身份映射。",
+perm:"自己查自己；部门负责人查本部门——行级过滤，身份取自SSO工号，禁止按姓名模糊查询他人假期。",
+feas:"B级。余额计算（额度－已用－预占＋结转）确定性强，规则引擎算、agent答。难点是假期规则复杂度（法定年假/福利假/结转/到期）需人力确认；OA数据同步延迟影响「实时」体验。",
+merge:"S9",mergeNote:"员工自助"},
+{n:22,name:"公司各类公告、年报、ESG报告查询搜索",dept:"人力资源中心",line:"员工服务保障",grade:"A",b:"A",src:["年报","ESG报告","公告"],sens:"全员·公开",
+point:"问答机器人一键查询公司历史所有公开资料中的数据与信息。",
+input:"①公司历年公开年报、ESG报告、公告（均为公开资料）。",
+connect:"无系统打通，文档导入RAG；公开信息可外网采集后入库。",
+perm:"全员（资料本身公开，无敏感隔离需求）。",
+feas:"A级。最易落地项之一；长PDF财报表格抽取质量是关键，建议表格结构化预处理后再入库，数字类问答标注原文出处。",
+merge:"S1",mergeNote:"公开资料域"},
+{n:23,name:"重要事项时间节点提示",dept:"人力资源中心",line:"员工服务保障",grade:"B",b:"B",src:["HR系统","干部任命记录","人才台账"],sens:"窄白名单·干部敏感",
+point:"依据数据库对员工重要时间节点提醒：干部/员工试用期转正、干部任期转正、高层次人才认定有效期、因私出国境证件上交等。",
+input:"①花名册、HR系统；②干部任命记录；③高层次人才台账；④因私出国境申请流程；⑤各类节点规则。",
+connect:"HR系统API/导出＋OA相关流程；干部信息敏感需分域。备注「待进一步沟通讨论」——需求未定型，先确认节点规则清单与数据口径。",
+perm:"窄白名单：总经理、人力分管领导、人力资源中心对应模块人员；干部信息与普通员工信息分域；提醒内容最小化，不泄露无关个人信息。",
+feas:"B级。规则化节点计算＋定时提醒成熟；依赖HR数据质量与节点规则梳理。属管理敏感数据，权限设计先于功能开发。",
+merge:"S9",mergeNote:"HR节点预警技能，敏感域"},
+{n:24,name:"员工因私出国（境）管理等表单填写规范自动校验",dept:"人力资源中心",line:"法律安全线",grade:"B",b:"B",src:["表单规范","校验规则库"],sens:"全员·本人表单",
+point:"根据申请人材料自动填写表单，或对流程中填写内容校验（报销、出国境、培训、请假等），有问题自动返回问题与填写要求。",
+input:"①各类表单字段规范与制度要求；②申请人材料/描述；③校验规则库。",
+connect:"三档：①提交前预检（上传/粘贴内容）无需打通；②嵌入OA流程实时校验需OA表单读接口；③自动回填OA表单需写接口——多数OA不开放，难度高。",
+perm:"全员（校验本人表单）；制度规则内部公开。",
+feas:"A级（独立预检）→B级（OA流程内校验）→C级（自动回填OA）。建议先做「填单助手」独立预检工具，再争取OA集成；自动回填不作为一期承诺。",
+merge:"S4",mergeNote:"表单校验技能"},
+{n:25,name:"开票发起及审核",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["OA合同/开票","NC应收收款"],sens:"财务审核岗",
+point:"校验开票金额是否超过合同金额、上期开票是否已收款，快速生成且数据准确。",
+input:"①合同金额；②累计已开票金额；③上期开票对应收款记录（应收/银行流水）；④OA开票流程。",
+connect:"OA合同/开票流程＋NC应收/收款数据；需建立合同号↔发票↔收款三单匹配键（主数据治理）。",
+perm:"财务审核岗；子公司数据按财务条线授权。",
+feas:"B级。规则校验（开票≤合同额、上期未收款预警）确定性强；难点是三单匹配的主数据质量；开票申请单可由agent辅助填单。与1/26/27共用合同金额比对引擎。",
+merge:"S5",mergeNote:"收付款校验技能"},
+{n:26,name:"付款发起及审核",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["OA付款","NC应付/收入"],sens:"财务审核岗",
+point:"校验付款是否超过合同金额、付款是否超过收款金额（以收定支）。",
+input:"①合同金额；②累计已付款；③对应收款记录；④OA付款流程。",
+connect:"同25：OA＋NC应付/收入数据，共用三单匹配键。",
+perm:"财务审核岗。",
+feas:"B级。与25同引擎反向校验（付≤合同、付≤收），合并实现，无需单独建设。",
+merge:"S5",mergeNote:"与25合并为收付款校验技能"},
+{n:27,name:"费用报销/付款审核",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["OA报销","NC预算","费用标准制度"],sens:"财务审核岗",
+point:"校验是否超预算、费用标准是否符合公司制度。",
+input:"①预算数据（NC预算模块/部门预算台账）；②费用标准制度（差旅/招待/培训等，按职级）；③报销单。",
+connect:"OA报销流程＋NC预算执行数；费用标准入知识库（与S1共享制度底座）。",
+perm:"财务审核岗＋报销人本人进度查询。",
+feas:"B级。超预算校验＝规则；费用标准合规＝制度RAG＋规则（如住宿限额按职级）；票据OCR可选增强。制度口径与S1统一维护，避免两套标准。",
+merge:"S5",mergeNote:"报销校验技能"},
+{n:28,name:"报表审核",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["NC报表","历史同期","勾稽规则"],sens:"财务条线授权",
+point:"智能科目异常预警：自动扫描各子公司报表，对异常变化科目（费用突增、收入下滑）预警，检查基本勾稽关系，辅助人工快速定位问题。",
+input:"①各子公司NC报表（资产负债表/利润表/科目余额表）；②历史同期数据；③勾稽规则与波动阈值。",
+connect:"NC报表API/定时导出；科目体系映射（各子公司科目口径统一）。",
+perm:"财务管理中心＋子公司财务按授权；行级按公司过滤。",
+feas:"B级。勾稽校验与波动预警（阈值/同比环比）＝确定性规则引擎，LLM做异常解读与报告——严禁让LLM直接计算财务数据。「辅助人工定位」定位准确，不替代审核责任。",
+merge:"S5",mergeNote:"报表分析技能"},
+{n:29,name:"舆情信息自动监控、股权架构动态管理",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["天眼查/企查查","行情","舆情服务"],sens:"外网采集区",
+point:"①按周反馈在投主体（长投联营企业、基金及基金再投公司）舆情，自动分类积极/消极；②股权架构图与天眼查等外部数据源联动，自动更新子公司/联营/参股基金信息。",
+input:"①被投主体清单（含基金再投穿透层级）；②外部舆情源；③工商数据（天眼查/企查查API）；④上市公司行情数据（市值）。",
+connect:"必须出外网：舆情服务API（需采购商业舆情服务）或关键词采集；天眼查/企查查付费API；股权穿透计算。与内网部署需求分域：外网采集区→单向导入内网。",
+perm:"财务管理中心/投资相关岗；舆情周报按领导授权分发。",
+feas:"B级。股权架构动态更新（工商API＋穿透图）可行；舆情监控依赖外部服务采购与主体清单维护，基金再投穿透层级深时覆盖有限；情感分类LLM可行但需人工抽检。需确认外网访问政策与采购预算。",
+merge:"S6",mergeNote:"股权/工商技能＋舆情监控技能"},
+{n:30,name:"税务管理",dept:"财务管理中心",line:"财务安全线",grade:"B",b:"B",src:["NC账表","税收政策库"],sens:"财务税务岗",
+point:"①税负合理性监控：按账表自动计算各期税负率并预警异常，结合子公司收入利润规模分析税负增减匹配性；②多维税务分析：按税种/地区/时间展示分布与变化，自动生成分析报告，提示异常并关联可能业务原因。",
+input:"①NC账表（收入/利润/各税种应交实缴）；②税种规则与税率；③历史税负率基线；④税收政策知识库。",
+connect:"NC税务相关科目数据；税收政策更新走外网采集→审核→内网导入。",
+perm:"财务税务岗。",
+feas:"B级。税负率计算与波动预警＝规则引擎；多维分析＋报告生成＝LLM＋图表。「关联业务原因」只能给假设性提示（政策变化/业务调整），不能替代税务专业判断，须注明辅助性质。",
+merge:"S5",mergeNote:"税务分析技能"},
+{n:31,name:"共性问题事例库",dept:"纪检内控中心",line:"勤廉建设线",grade:"A",b:"A",src:["审计问题（脱敏）","案例标签"],sens:"独立敏感库·白名单",
+point:"将历次审计检查发现问题（脱敏后）形成共性问题清单，使用者按遇到的问题查询前期类似案例，提前预判风险。",
+input:"①历次审计检查发现问题（脱敏后）；②共性问题清单；③案例标签（业务域/问题类型/风险等级）。",
+connect:"无系统打通，人工脱敏＋结构化入库；脱敏流程与标准是关键前置条件。",
+perm:"高敏感：纪检内控中心＋授权审计/整改责任岗；独立知识库实例＋白名单＋全程访问审计；脱敏不彻底不入库；监督数据不与公共知识库混存。",
+feas:"A级（技术）但管理前置重。案例检索＋风险预判RAG可行；价值取决于案例库质量与脱敏合规。需求描述简略（无频率/痛点/使用对象细节），需补充确认使用场景与授权范围。",
+merge:"S11",mergeNote:"独立敏感套件，不与S1混库"},
+{n:32,name:"OA审批流程自定义查询",dept:"纪检内控中心",line:"勤廉建设线",grade:"B",b:"B",src:["OA审批流"],sens:"纪检授权·查询留痕",
+point:"解决OA审批流程自定义查询困难，实现对OA中已审批相关流程的自定义检索。",
+input:"①OA审批流数据（流程类型、发起人、时间、金额、审批意见、附件）。",
+connect:"OA API/只读视图；纪检查询可能跨全公司，需OA厂商支持高级检索；表单自定义字段复杂，无API则数据库视图或RPA兜底。",
+perm:"纪检内控中心授权人员；查询行为本身留痕审计（监督者也被监督）；涉密流程继承OA原有密级。",
+feas:"B级。自然语言转OA检索（NL2SQL/检索式）可行；难点是OA数据模型复杂与厂商开放度；建议先覆盖高频流程类型，逐步扩展。与20/36共用OA连接器但权限域独立。",
+merge:"S4",mergeNote:"审计查询技能，权限独立"},
+{n:33,name:"投资项目日常管理",dept:"法务与投资管理中心",line:"合规决策线",grade:"B",b:"B",src:["投资协议","工商API","行情"],sens:"协议高敏感",
+point:"存量在投企业全要素台账实时更新（基本信息/协议关键条款/出资进度/股权/董监席位/分红/融资/上市进度/增资减资/股权转让），工商变更与上市节点自动提示，出资到期/分期缴款/公告事项提醒，一键查询与简要投资分析报告。",
+input:"①在投企业台账；②投资协议文档（关键条款抽取）；③工商变更数据；④公告/新闻；⑤股价行情（上市标的市值）；⑥对外投资管理制度。",
+connect:"台账初始化＝人工梳理Excel＋协议LLM抽取；持续更新＝工商API（天眼查）＋公告监控＋分红融资人工登记；市值＝行情API。",
+perm:"法务投资中心＋分管领导；协议条款高敏感（对赌/回购）独立ACL。",
+feas:"B级。台账＋提醒＋一键查询＋报告生成可行；「实时更新」受外部数据源频率限制（工商变更T+1~周级）；协议条款抽取需人工复核（法律文本容错低）。与34共用条款台账。",
+merge:"S6",mergeNote:"核心"},
+{n:34,name:"投资协议特殊权利条款监控",dept:"法务与投资管理中心",line:"合规决策线",grade:"B（部分D）",b:"D",src:["条款台账","被投企业财务数据"],sens:"限投资岗＋领导",
+point:"跟踪优先清算权、反稀释、业绩对赌/回购、优先认购、共同出售、知情权等特殊条款执行，监测被投企业是否触发对赌/回购条件，触发时预警并提示行权时限。",
+input:"①各项目特殊权利条款清单与触发条件参数；②被投企业经营数据（财务/业绩指标）；③行权时限规则。",
+connect:"条款台账与33共用；关键缺口＝被投企业财务数据获取——非控股企业未必定期提供报表，需依靠协议知情权条款或人工收集，数据通道是本项目最大不确定性。",
+perm:"同33且更窄：对赌触发信息影响行权决策，限投资岗＋分管领导。",
+feas:"条款台账＋行权时限提醒B级可行；「自动判断对赌/回购触发」B~D级——强依赖被投企业数据可得性与及时性，数据拿不到则只能「到期提醒＋人工对照」，不能承诺自动触发判断。建议分期：先台账＋时限预警，数据通道建立后再做自动比对。",
+merge:"S6",mergeNote:"特殊条款监控技能"},
+{n:35,name:"消防系统报警/故障分析",dept:"资安中心",line:"平安建设线",grade:"C",b:"C",src:["消防主机日志","施工/屏蔽记录"],sens:"消控室/资安",
+point:"每日自动生成报警日志，按位置/传感器种类分类，高频报警区域预警，施工区域前置标识，替代消控室手工抄写。",
+input:"①消防报警主机日志（时间、位置、传感器类型、事件类型）；②施工/维修/屏蔽记录；③园区消防安全管理办法。",
+connect:"消防主机多为封闭专有系统（海湾/利达等），开放接口有限——需厂商协议对接/串口采集/日志导出，甚至人工导出兜底。全部需求中系统打通难度最高之一，需先现场勘查主机型号与接口能力。",
+perm:"消控室/资安中心；日志含园区安全信息，内部控制。",
+feas:"C级（有条件B）。若厂商提供接口或可导出结构化日志：自动日志/分类/高频预警/施工标识均可行（规则＋LLM分析）；若完全封闭：退化为「人工导出＋agent分析」，自动化价值打折。不建议在未勘查前承诺全自动。",
+merge:"S10",mergeNote:"消防技能"},
+{n:36,name:"采购类流程数据自动汇总（招标采购＋办公用品）",dept:"资安中心",line:"员工服务保障",grade:"B",b:"B",src:["大群OA","附件","汇总模板"],sens:"采购管理岗",
+point:"按表格模板自动定期获取大群OA招标采购与办公用品采购流程/表单数据并下载附件汇总。资安中心两条已合并。",
+input:"①大群OA招标采购流程＋办公用品采购流程表单数据；②附件（合同/发票等）；③汇总表格模板。",
+connect:"OA API/视图＋附件下载；按模板映射字段；定时（季度/半年/年）批量。与20/32同底座。",
+perm:"资安中心采购管理岗；汇总数据含供应商/金额，按岗授权。",
+feas:"B级。典型OA数据汇总，仅模板不同；附件下载与解析（合同/发票OCR）可选增强。合并正确。",
+merge:"S4",mergeNote:"OA数据汇总"},
+{n:37,name:"网络设备巡检告警分析及故障汇总",dept:"资安中心",line:"平安建设线",grade:"C",b:"C",src:["SNMP/syslog","网管平台","钉钉"],sens:"网络运维岗",
+point:"每日自动巡检300-400台网络设备生成日报，告警自动分析故障原因并分级，重点告警超时未处理增加提醒频次（现告警推钉钉易被忽略）。",
+input:"①设备状态（SNMP/SSH/syslog）；②告警流（现推钉钉）；③设备台账与拓扑。",
+connect:"需网管采集层（SNMP轮询/日志收集，如Zabbix/现有网管平台API）；钉钉机器人API做提醒升级。",
+perm:"资安中心网络运维岗；设备配置信息敏感。",
+feas:"C级为主。「每日自动巡检数百台设备」是网管系统职责，LLM agent无法直接轮询设备。正确架构＝网管平台采集＋agent做告警分析/分级/日报/催办。若已有网管平台（需确认）则降为B级；从零建网管属系统集成项目，超出专家/数字员工范畴。",
+merge:"S10",mergeNote:"网络技能，依赖网管底座"},
+{n:38,name:"员工本人固定资产查询",dept:"资安中心",line:"员工服务保障",grade:"B",b:"B",src:["NC资产清单","身份映射"],sens:"仅本人",
+point:"自动统计汇总NC资产清单，员工随时查询本人名下固定资产。",
+input:"①NC资产清单（资产编号、名称、原值、使用人、部门）；②员工身份映射。",
+connect:"NC资产模块API/视图；使用人字段↔工号匹配（姓名重名需工号消歧）。",
+perm:"本人查本人名下——行级过滤，SSO工号绑定；资产管理员全量。",
+feas:"B级。简单查询类，NC开放能力是唯一依赖；与21同属员工自助，共用身份与权限层。",
+merge:"S9",mergeNote:"员工自助"}
+];
+
+const SUITES = [
+{id:"S1",name:"制度政策知识问答专家",reqs:"3、7、15（知识域）、22",caps:"制度/法规/党建文件/公开资料问答，条款级引用，版本治理，报备指引",base:"知识库引擎（RAG＋版本＋文档ACL）",phase:1},
+{id:"S2",name:"智能公文文稿专家",reqs:"2、6、14、19（拟稿）",caps:"起草/校对/格式调整/录音转写/信披校验/党建与通知模板",base:"docx生成引擎＋ASR＋模板库＋敏感词规则",phase:1},
+{id:"S3",name:"会议与督办闭环专家",reqs:"4、5、10、13、17（任务督办）、18（指令落实）、19（督办）",caps:"纪要拆任务、批示件跟踪、学习/指令督办、个人待办摘要、周报月报",base:"督办任务引擎（任务库＋调度＋消息推送）",phase:2},
+{id:"S4",name:"OA数据与流程助手专家",reqs:"20、24、32、36",caps:"OA流程自定义查询、报备/采购汇总、表单填写预检",base:"OA连接器（读）＋模板映射",phase:2},
+{id:"S5",name:"财务合规审核专家",reqs:"1、25、26、27、28、30",caps:"关联交易预警、开票/付款/报销校验、报表勾稽与异常、税负分析",base:"OA＋NC连接器＋规则计算引擎",phase:2},
+{id:"S6",name:"投资管理专家",reqs:"29、33、34",caps:"在投台账、特殊条款监控、股权穿透、舆情周报、投资分析报告",base:"工商API＋行情＋舆情服务＋条款台账",phase:3},
+{id:"S7",name:"党建数据驾驶舱专家",reqs:"12、15（组织数据）、18（统计）",caps:"强基指数计算排名、自然语言查询、下钻预警、季度晾晒",base:"党建平台数据层（或导入兜底）＋规则引擎",phase:3},
+{id:"S8",name:"党建活动与学习运营专家",reqs:"16、17（资源）、19（发布）",caps:"活动方案/简报/品牌诊断、资源导航、通知分发",base:"轻量活动应用＋企微通道（平台侧建设）",phase:3},
+{id:"S9",name:"员工自助服务专家",reqs:"21、23、38",caps:"假期余额、本人资产查询、HR重要节点预警",base:"OA＋NC＋HR身份映射＋行级权限",phase:2},
+{id:"S10",name:"园区安全与应急运维专家",reqs:"11、35、37",caps:"值班应急、消防报警日志分析、网络告警分级与催办",base:"消防接口＋网管采集层＋钉钉机器人",phase:3},
+{id:"S11",name:"纪检案例库专家",reqs:"31",caps:"脱敏案例检索、共性问题清单、风险预判",base:"独立敏感知识库＋白名单＋审计",phase:1},
+{id:"S12",name:"资质档案台账专家",reqs:"8、9",caps:"证书OCR归档台账、到期提醒、档案授权查阅",base:"OCR＋文档库＋文档ACL＋调度",phase:1}
+];
+
+const SYSTEMS = [
+{name:"大群OA",reqs:[1,4,5,20,21,24,25,26,27,32,36],content:"合同/请假/报销/出省报备/采购/开票付款等审批流程与表单、附件",method:"厂商API首选→数据库只读视图→定时导出→RPA兜底",diff:"中",note:"覆盖11条需求，全项目最大公共依赖；厂商开放度是最大变量，需第一时间确认OA品牌版本与接口文档"},
+{name:"用友NC",reqs:[27,28,30,38],content:"预算执行数、子公司报表、税务科目、固定资产清单",method:"NC OpenAPI/集成平台→数据库只读视图→定时导出",diff:"中",note:"需确认NC版本（NC65/NCC）与模块授权；报表类可先走定时导出"},
+{name:"HR系统/花名册",reqs:[21,23,24,38],content:"员工/干部/人才信息、组织架构、任命记录",method:"API/定期导出；同时作为全平台统一身份源",diff:"中",note:"干部信息高敏感，需分域授权"},
+{name:"集团党建平台/网络学院等",reqs:[12,13,15,16,17,18,19],content:"党员/支部/三会一课/学习任务与进度/课程目录",method:"需集团层面协调开放API或只读视图；兜底＝Excel模板导入",diff:"高",note:"跨组织数据主权问题，非本公司单方可决定；建议先做导入版"},
+{name:"合同/档案/协议文档",reqs:[1,9,33,34],content:"合同扫描件、档案、投资协议关键条款",method:"文档批量导入＋OCR＋LLM条款抽取＋人工复核",diff:"低",note:"技术难度低、治理工作重：主要是存量数字化与人工梳理工作量"},
+{name:"外部数据（工商/行情/舆情）",reqs:[29,33,34],content:"工商变更、股权穿透、股价市值、被投主体舆情",method:"付费API＋外网采集区→单向导入内网",diff:"中",note:"需采购预算与外网访问政策；舆情需商业服务支撑"},
+{name:"消防报警系统",reqs:[35],content:"报警主机日志（时间/位置/传感器/事件）",method:"厂商协议对接/串口采集/日志导出/人工导出兜底",diff:"高",note:"封闭专有系统，需现场勘查主机型号与接口能力后再定方案"},
+{name:"网络设备/钉钉",reqs:[37],content:"300-400台设备状态、告警流",method:"SNMP/syslog/网管平台API＋钉钉机器人API",diff:"高",note:"需网管采集层（现有平台或新建），Agent只做分析层"},
+{name:"制度/法规/模板/公开资料",reqs:[3,6,7,14,15,22,31],content:"制度汇编、法律法规、公文模板、年报ESG、审计案例（脱敏）",method:"批量导入＋条款级结构化＋版本管理",diff:"低",note:"关键是版本治理、脱敏合规与文档级权限梳理"}
+];
+
+const FOUNDATIONS = [
+{name:"统一身份与权限网关",desc:"SSO＋RBAC＋行级数据范围＋文档ACL",use:"全部38条依赖"},
+{name:"知识库引擎",desc:"条款级切分、出处标注、版本治理、检索前权限过滤",use:"S1/S2/S11/S12"},
+{name:"督办任务引擎",desc:"统一任务模型、到期扫描、催办推送、销号佐证、完成率回写",use:"S3/S7/S8/S9/S12"},
+{name:"OA连接器",desc:"读侧API/视图/导出/RPA四级降级",use:"S4/S5/S9，覆盖11条需求"},
+{name:"NC连接器",desc:"报表/预算/资产/税务数据",use:"S5/S9"},
+{name:"消息推送通道",desc:"钉钉/企微/OA消息＋统一提醒台账防重复轰炸",use:"约15条需求"},
+{name:"规则计算引擎",desc:"指数/余额/金额/勾稽/税负等确定性计算",use:"S5/S7/S9"},
+{name:"定时调度器",desc:"周期汇总、到期预警、季度晾晒",use:"全部含提醒诉求的需求"}
+];
+
+const SENSITIVE = [
+["纪检审计案例","31","独立知识库实例＋白名单＋全程访问审计；脱敏不彻底不入库；不与公共制度库混存"],
+["干部与人才信息","23","HR敏感域，仅总经理/人力分管领导/人力对应模块人员；提醒内容最小化"],
+["关联交易与关联方名单","1","董办/证券事务指定合规岗；名单属内幕信息范畴，独立ACL＋留痕"],
+["投资协议与对赌条款","33、34","法务投资中心＋分管领导；触发预警信息限投资岗，独立ACL"],
+["档案与合同","9","授权白名单（“小部分人员”需甲方书面确认）；查阅全程留痕"],
+["信披与未决策事项","2、3、5","本地化部署不出内网；未决策事项仅班子/指定人可见"],
+["OA审计查询","32","纪检授权人员；查询行为本身留痕审计（监督者也被监督）；继承OA原密级"]
+];
+
+const PHASES = [
+{t:"一期 · 零打通快赢",m:"第0-3个月",scope:"S1（3、7、15知识域、22）、S2（6、14、19拟稿、2信披校验）、S11（31，脱敏合规先行）、S12上传版（8、9）",build:"统一身份与权限网关、知识库引擎、私有化模型选型与算力立项、制度/模板/案例语料治理",val:"覆盖全员高频问答与文书场景，不依赖任何厂商接口，风险最低、见效最快"},
+{t:"二期 · OA/NC打通＋督办引擎",m:"第3-6个月",scope:"S4（20、32、36、24预检→流程内校验）、S9（21、38、23）、S5（1、25、26、27，随后28、30）、S3（5、10、4材料管理）",build:"OA/NC连接器、督办任务引擎、消息推送与调度、规则计算引擎",val:"前置：完成OA厂商接口确认与NC版本摸底（一期即启动）"},
+{t:"三期 · 党建平台/外部数据/物联",m:"第6-12个月",scope:"S7（12，导入版先行）、S8（16、17、19发布，配合轻量活动应用）、S6（29、33、34，先台账后自动比对）、S10（11、35、37，先勘查后实施）、S3补齐（13、18）",build:"集团党建平台协调、外部数据服务采购、消防/网管现场勘查",val:"强依赖外部协调与勘查结果，按兜底方案分期承诺"}
+];
+
+const RISKS = [
+["34","对赌/回购触发自动判断","被投企业（尤其非控股）经营数据可得性是最大不确定性。数据通道建立前只能做“条款台账＋行权时限提醒＋人工对照”，不能承诺自动触发判断。"],
+["35","消防报警日志","消防主机多为封闭专有系统，未现场勘查接口能力前不承诺全自动；最坏情况退化为人工导出＋Agent分析。"],
+["37","网络设备自动巡检","数百台设备轮询是网管系统职责，LLM无法替代；需确认现有网管平台，否则属系统集成项目而非专家/数字员工。"],
+["16/13","报名签到与工作台","属应用系统开发，超出对话Agent边界；Agent承担方案生成、简报、诊断、待办摘要等智能层。"],
+["17","学习进度实时回写","集团网络学院/红旗云屏/同心同游大概率无标准API，需降级为支部报数＋抽查。"],
+["12","党建驾驶舱实时化","依赖集团党建平台开放，跨组织协调周期不可控；先做季度导入版保底。"],
+["29","舆情监控","需采购商业舆情服务＋外网政策许可；基金再投深层穿透覆盖有限。"],
+["2","信披校验","私有化模型能力弱于云端旗舰，事实性错误召回率需实测验收，输出疑点清单而非自动改稿。"],
+["1","关联方识别","隐性关联方无法保证100%识别，定位辅助识别＋人工复核。"],
+["全局","OA/NC开放度","覆盖15条以上需求，若厂商接口不可得，相关需求集体降级为导出/RPA方案，实时性预期需整体下调。"]
+];
+
+const QUESTIONS = [
+"大群OA的品牌、版本与开放接口能力（API/视图/导出），是否支持表单写回？——决定11条需求的实现档位。",
+"用友NC版本（NC65/NCC）与预算、报表、资产模块接口授权。",
+"集团党建平台、集团网络学院、红旗云屏、同心同游的数据开放能力与协调路径。",
+"私有化大模型的算力预算与部署环境（需求2/3/5硬性要求不出内网）。",
+"公司标准消息通道：钉钉、企业微信还是OA消息？机器人API权限。",
+"假期额度/结转/到期规则全集（需求21），HR节点规则清单（需求23）。",
+"关联方名单的维护责任部门与更新机制（需求1）。",
+"档案/合同授权查阅人员名单（需求9“小部分授权人员”）。",
+"纪检案例脱敏标准与流程、案例库授权岗位（需求31）。",
+"被投企业经营数据的获取通道（知情权条款/定期报送，需求34）。",
+"舆情服务与工商API采购预算、外网访问政策（需求29/33）。",
+"消防报警主机型号与接口能力、现有网管平台情况（需求35/37，需现场勘查）。",
+"财务条线（需求25-30）与纪检（32）的数据授权矩阵补充。",
+"党建活动报名/签到、个人工作台是否已有平台建设计划（需求13/16），避免重复建设。"
+];
+
+const LINES = ["一核·党建引领","合规决策线","法律安全线","财务安全线","平安建设线","勤廉建设线","员工服务保障"];
+const GRADE_META = {A:{label:"A级 · 直接落地",color:"#10b981"},B:{label:"B级 · 需数据打通",color:"#3b82f6"},C:{label:"C级 · 需平台建设",color:"#f59e0b"},D:{label:"部分D · 受限",color:"#ef4444"}};</script>
+<script>
+// 领导版补充内容：专家大白话能力/浙数配合事项（业务需求单口径+对应需求编号）、准备总清单、边界说明
+const SHORT = {S1:"制度问答",S2:"公文文稿",S3:"会议督办",S4:"OA助手",S5:"财务审核",S6:"投资管理",S7:"党建驾驶舱",S8:"活动学习",S9:"员工自助",S10:"安全运维",S11:"纪检案例",S12:"资质档案"};
+const PLAIN = {A:"可直接做",B:"需先打通数据",C:"需先建平台",D:"部分自动化"};
+const HEADLINE = "38条需求经同类归并后建设12个专家：一期零打通快赢，覆盖全员高频问答与文书场景；二期打通OA/NC后释放审核与督办能力；三期完成集团协调与现场勘查后释放党建驾驶舱与安全运维。共享底座统一建设，不逐专家重复投入。";
+const SUITE_META = {
+S1:{pos:"全员的“制度百科”：问制度、问报备路径、问法规，答带条款出处。",
+caps:["公司制度、报备制度、法规政策大白话问答，答案附条款出处","自动区分新旧版本，过期制度不再被引用","按岗位过滤可见文档，未公开事项无权限者检索不到"],
+coop:[
+{t:"请综合中心/各部门提供现行制度汇编与报备路径清单，逐份标注当前有效版本与失效日期（一期启动）",r:[3,7,15,22]},
+{t:"请董办/法务确认每份文档的密级与可查阅岗位，形成文档权限清单",r:[3,7,15,22]},
+{t:"请指定外部法规更新责任人：外网采集→人工审核→内网单向导入，不做在线直连",r:[3,22]}]},
+S2:{pos:"笔杆子的“写作助手”：起草、校对、排版、会议转写一站完成。",
+caps:["一句话需求生成初稿；党建材料、通知等模板化写作","按公文规范校对与格式调整，一键导出Word","会议录音转写与纪要整理（本地转写，音频不出内网）","信披文件对照披露规则校验（本地部署、不通外网）"],
+coop:[
+{t:"请综合中心提供公文格式规范与常用模板样例，供AI落实为自动排版模板",r:[6,14,19]},
+{t:"请董办提供信披规则清单与校验用基础数据（董监高、股本等），并指定换届/变动时的更新人",r:[2]},
+{t:"请确认录音转写的使用场景与保密要求（转写在内网完成，算力纳入一期立项）",r:[6]}]},
+S3:{pos:"把“会上定的事”变成“有人办、有期限、有销号”：拆任务、催办、闭环、周报。",
+caps:["纪要/批示件自动拆任务：责任部门、期限、交付物","临期/逾期自动催办；销号需佐证，不接受口头闭环","领导看全量进度、部门仅见本部任务；自动生成督办周报月报"],
+coop:[
+{t:"请综合中心/督查岗书面确认：任务怎么拆、销号要什么佐证、催办与升级频率（机制先行）",r:[5,10,13,17,18,19]},
+{t:"请确认钉钉/企微/OA消息能否开放“以系统名义发提醒”的权限",r:[5,10,13,17,18,19]},
+{t:"请确定纪要来源：OA会议流程提供或按规范模板上传，二选一",r:[4,5]}]},
+S4:{pos:"OA的“查询与汇总员”：流程大白话查询、报表自动汇总、表单提交前预检。",
+caps:["“本季度出省报备通过了哪些”等流程大白话查询","出省报备/采购流程按模板自动汇总、定时出表","表单提交前完整性与规范预检，减少退单"],
+coop:[
+{t:"请联系OA提供商，确认能否开放审批数据读取接口（表单+附件+审批状态，至少每日更新）——全项目第一前置，建议一期即启动",r:[20,24,32,36]},
+{t:"请综合中心/资安中心提供汇总模板：要哪些字段、什么周期、谁可见",r:[20,36]},
+{t:"若提供商接口不可用：请批准替代办法——只读账号或定时导出表格（涉及数据库权限授权）",r:[20,24,32,36]}]},
+S5:{pos:"财务的“规则审核员”：合同-发票-付款三单匹配、预算与标准校验；金额由规则算、AI只解释。",
+caps:["开票/付款/报销：超合同、超预算、超标准自动拦截并给出原因","关联交易识别与预警（关联方名单＋股权穿透辅助）","报表勾稽与异常提示、税负分析"],
+coop:[
+{t:"请财务管理中心逐条书面确认审核规则：费用标准、预算口径、三单匹配、勾稽与税负规则",r:[25,26,27,28,30]},
+{t:"请联系用友提供商，确认能否提供预算执行、子公司报表、固定资产、税务科目四类数据",r:[27,28,30]},
+{t:"请统一合同号↔发票↔付款的对应关系，并指定关联方名单维护责任人（名单属内幕信息、独立管控）",r:[1,25,26]}]},
+S6:{pos:"在投项目的“台账＋哨兵”：台账常新、条款时限提醒、舆情与工商变更周报。",
+caps:["在投项目台账：工商变更、股权穿透、市值自动更新","特殊条款（对赌/回购）台账化，行权时限自动提醒","舆情周报与投资分析报告初稿"],
+coop:[
+{t:"请法务投资中心人工梳理存量投资协议（AI抽取关键条款后人工复核）建立台账",r:[33,34]},
+{t:"请确认舆情/工商/行情数据服务的采购预算与外网采集政策",r:[29,33]},
+{t:"请依协议知情权条款向被投企业（尤其非控股）明确报表提供义务；通道建立前只做台账+行权时限提醒",r:[34]}]},
+S7:{pos:"党建工作的“成绩单”：强基指数自动算、自动排名、季度晾晒，大白话查询。",
+caps:["强基指数自动计算、排名与季度晾晒","“我们支部本季度组织生活怎么样”等大白话查询","身份不同范围不同：党委全量、支委本支部、党员本人＋本支部公开排名"],
+coop:[
+{t:"请党委口向集团协调党建平台/网络学院数据开放；协调期间先按季度Excel导入起步",r:[12,15,18]},
+{t:"请党委书面确认强基指数计算口径与晾晒规则（党委文件依据）",r:[12]},
+{t:"请固定季度Excel模板与各支部填报责任人、报送时限（导入版的生命线）",r:[12,15,18]}]},
+S8:{pos:"党建活动与学习的“运营助理”：方案撰写、资源导航、通知触达、进度督办。",
+caps:["活动方案/简报/品牌材料撰写与品牌诊断","学习资源统一入口导航与任务下发","通知发布、已读统计与参与督办（需轻量活动应用承载）"],
+coop:[
+{t:"请党建岗提供活动/学习资源清单与品牌素材库",r:[16,17]},
+{t:"请确认企微能否开放通知/报名触达权限；报名签到等需平台侧建轻量应用（AI不替代应用）",r:[16,19]},
+{t:"请逐一确认集团网络学院能否提供学习进度；不能则定期导出/支部人工填报兜底",r:[17]}]},
+S9:{pos:"员工的“自助窗口”：假期余额、本人资产、重要节点提醒——只查本人、不看他人。",
+caps:["假期余额、本人固定资产大白话查询","HR重要节点提醒（窄白名单、提醒内容最小化）","身份绑定工号；部门负责人仅见本部门"],
+coop:[
+{t:"请人力资源中心逐条确认假期额度规则（用于系统自动算余额）；提供节点规则清单（需求23先定型再建设）",r:[21,23]},
+{t:"请提供花名册与工号映射作统一身份源；干部信息单独分域授权",r:[21,23,38]},
+{t:"假期与资产查询复用OA/用友已确认的数据通道，不重复向厂商提需求",r:[21,38]}]},
+S10:{pos:"安全运维的“分析与催办员”：值班应急、消防报警日志分析、网络告警分级催办。",
+caps:["值班表与应急通讯录管理、上报模板生成","消防报警/故障日志分析与趋势提示（取决于日志可得性）","网络告警分级汇总与超时催办"],
+coop:[
+{t:"请安排消防主机厂商现场勘查，确认报警/故障日志能否导出或对接提供（先勘查后承诺）",r:[35]},
+{t:"请网管侧确认设备告警能否汇聚提供（现有网管平台或加装采集）；AI只做分析、不替代采集",r:[37]},
+{t:"请确认钉钉机器人能否用于告警升级；应急通讯录手机号按应急角色授权可见",r:[11,37]}]},
+S11:{pos:"纪检的“案例参考库”：脱敏案例检索、共性问题清单、风险预判。",
+caps:["脱敏案例条款级检索与引用","共性问题清单整理与风险预判提示","独立敏感库＋白名单＋全程访问审计，不与公共知识库混存"],
+coop:[
+{t:"请纪检内控中心提供脱敏案例源，书面确认脱敏标准与流程（脱敏不彻底不入库）",r:[31]},
+{t:"请确认白名单岗位与访问审计要求",r:[31]},
+{t:"独立存储域与审计机制由平台侧建设，请业务侧确认规则",r:[31]}]},
+S12:{pos:"证书与档案的“台账管理员”：OCR归档、到期提醒、授权查阅。",
+caps:["荣誉/专利/软著OCR识别自动入台账","证书到期自动提醒","档案/合同授权查阅：无权限者检索不可见、查阅全程留痕"],
+coop:[
+{t:"请综合中心整理存量证书/档案并扫描上传，明确维护责任人",r:[8,9]},
+{t:"请提供每份资料的密级与可查阅岗位清单（合同建议独立存储域）",r:[8,9]},
+{t:"请书面确认查阅审计要求（谁可查、留痕口径）",r:[9]}]}
+};
+// 准备总清单（业务需求单口径）：[事项, 找谁/问什么/拿到什么, 服务专家, 优先级与时点, 对应需求编号数组或"all"]
+const PREP = [
+{g:"一、系统接口类 · 请业务侧推动提供商开放",items:[
+["请联系OA提供商，确认能否开放AI所需的数据接口","请联系OA提供商，询问是否能提供相关接口，接口能力需要包含：①读取合同、请假、报销、出省报备、采购等审批的表单数据与附件（含审批状态、时间）；②能取到新增和变化的数据（至少每天一次）；③可选增强：把AI预检结果写回表单。请提供商书面答复支持哪几项；若都不支持，请其给出替代办法（只读账号或定时导出表格）。","OA助手·财务审核·员工自助","P0 · 一期即启动",[1,4,5,20,21,24,25,26,27,32,36]],
+["请联系用友提供商，确认能否提供财务四类数据","请联系用友（NC系统）提供商，询问是否能提供相关数据接口，数据需要包含：①预算执行数；②子公司财务报表；③固定资产清单（含使用人）；④税务相关科目数据。请书面答复各类数据的提供方式与更新频率；若接口不可用，请确认能否定时导出表格。","财务审核·员工自助","P0 · 一期即启动",[27,28,30,38]],
+["请确认钉钉/企微/OA能否开放消息推送权限","请确认公司现用消息渠道（钉钉/企微/OA消息）能否开放“以系统名义给人发提醒”的权限：①能按人/按部门定向发送；②能带链接跳回办理页面；③发送记录可查。请管理员书面确认可开放的渠道与范围；提醒将统一登记、合并发送，避免重复轰炸。","会议督办·活动学习·员工自助·资质档案·投资管理·安全运维等","P0 · 二期前",[5,8,9,10,11,12,13,16,17,18,19,23,29,34,37]],
+["请向集团协调党建平台/网络学院的数据开放","请党委口向集团层面协调：集团党建平台与网络学院能否提供党员/支部/三会一课/学习任务与进度等数据（接口或只读账号均可）。协调期间先按季度Excel模板导入起步，请同时固定模板与填报责任人。请拿到集团书面答复或会议纪要。","党建驾驶舱·活动学习·会议督办","P1 · 二期启动协调",[12,13,15,16,17,18,19]],
+["请安排消防/网管厂商现场勘查，确认日志能否提供","请安排消防主机厂商与网管平台厂商现场勘查，确认：①消防报警/故障日志能否导出或对接提供（含时间、位置、事件）；②网络设备告警能否汇聚提供（现有网管平台或加装采集）。请拿到勘查结论与厂商书面答复；结论出来前相关需求按“人工导出+AI分析”兜底承诺。","安全运维","P1 · 三期前",[35,37]],
+["请确认舆情/工商/行情数据服务的采购与外网政策","请确认能否采购商业舆情服务与工商/行情数据服务（用于被投企业舆情、股权变更、市值更新），并明确外网采集政策：采集在外网区完成、经人工审核后单向导入内网。请拿到采购预算批复与外网访问审批口径。","投资管理","P1 · 三期前",[29,33,34]]]},
+{g:"二、数据与资料类 · 请业务侧整理提供",items:[
+["请提供现行制度、报备路径与公文模板（并确认有效版本）","请综合中心/各部门提供：①现行制度汇编与重要事项报备路径清单；②公文格式规范与常用模板样例；③党建材料模板。每份资料请标注“当前有效版本”与失效日期，过期版本请明确下架清单。资料将条款级入库、答案带出处。","制度问答·公文文稿","P0 · 一期",[3,6,7,14,22]],
+["请董办提供信披规则清单与基础数据，并指定更新人","请董办提供：①信息披露规则清单；②校验用基础数据（董监高名单、股本结构等）；③指定换届/股本变动时的更新责任人与更新时限。信披校验在本地内网完成、不通外网。","公文文稿","P0 · 一期",[2]],
+["请纪检提供脱敏案例，并书面确认脱敏标准","请纪检内控中心提供共性问题事例源，并书面确认脱敏标准与流程（人名/单位/金额等如何抹去）；脱敏不彻底不入库。案例库独立存放、白名单可见、查阅全程留痕。","纪检案例","P0 · 一期",[31]],
+["请整理存量证书/档案/合同并扫描上传，明确密级与维护人","请综合中心整理存量荣誉证书、专利软著、档案与合同，扫描上传并建立台账；请同时提供：①每份资料的密级与可查阅岗位清单；②维护责任人。合同建议独立存储域；无权限者检索不可见、查阅留痕。","资质档案·财务审核","P1 · 一至二期",[1,8,9,25,26]],
+["请财务逐条确认审核规则，并指定关联方名单维护人","请财务管理中心逐条书面确认：①费用标准与预算口径；②合同-发票-付款三单匹配规则；③报表勾稽与税负分析规则；④子公司科目口径对照。请统一合同号↔发票↔付款的对应关系，并指定关联方名单维护责任人（名单属内幕信息、独立管控）。金额一律规则计算、AI只解释。","财务审核","P0 · 二期前",[1,25,26,27,28,30]],
+["请法务投资梳理存量投资协议，并明确被投企业报表提供义务","请法务投资中心人工梳理存量投资协议（AI抽取关键条款后人工复核）建立台账；并依协议知情权条款，向被投企业（尤其非控股）明确经营报表的提供义务与频率。数据通道建立前，对赌/回购只做台账+行权时限提醒，不做自动触发判断。","投资管理","P1 · 三期前",[33,34]],
+["请党委书面确认强基指数口径，固定季度导入模板与填报人","请党委/党建岗书面确认：①强基指数计算口径与季度晾晒规则（党委文件依据）；②季度Excel导入模板；③各支部填报责任人与报送时限。集团平台开放前先按导入版运行，口径不变、只是数据按季更新。","党建驾驶舱·活动学习","P1 · 三期前",[12,15,17,18]],
+["请人力确认假期额度规则与节点清单，并提供花名册映射","请人力资源中心：①逐条确认假期额度规则（用于余额计算）；②提供重要节点规则清单（转正/任期/人才认定/证件上交等，需求23先定型再建设）；③提供花名册与工号映射，干部信息单独分域授权。查询一律“本人查本人”，按工号不按姓名。","员工自助","P0 · 二期前",[21,23,38]]]},
+{g:"三、环境与权限类 · 请立项与授权",items:[
+["请立项私有化大模型与算力（内网部署、不通外网）","请立项私有化大模型与配套算力：信披校验、制度问答等需求明确要求本地部署、不通外网，模型与知识库均在内网运行；外网资料经采集区人工审核后单向导入。请在一期完成选型与预算批复。","全项目","P0 · 一期立项","all"],
+["请提供统一身份源与岗位权限/文档密级清单","请提供：①以工号为准的统一身份源（单点登录）；②岗位角色与数据范围清单（谁能看全公司/本部门/本人）；③文档密级与可见岗位清单。全部38条需求的权限隔离都按这份清单在系统层强制执行。","全项目","P0 · 一期","all"],
+["请确认敏感数据分域与审计要求","请书面确认敏感数据的独立管控范围与审计要求：关联方名单、信披未公开信息、合同商业秘密、干部信息、纪检案例、投资特殊条款——各自独立授权、检索前过滤、查阅全程留痕；监督类查询本身也留痕。","公文文稿·资质档案·财务审核·员工自助·投资管理·纪检案例","P0 · 一期定规则",[1,2,9,23,31,33,34]],
+["请批准外网采集→内网单向导入的流程与审批","请批准外网资料进入内网的唯一通道：外网采集区获取法规/舆情/税收政策→人工审核→单向导入内网知识库；请明确审核责任人与审批流程，禁止内网直连外网接口。","制度问答·投资管理·财务审核","P1 · 一至二期",[3,29,30]]]},
+{g:"四、人员与机制类 · 请指定与固化",items:[
+["请各域指定规则责任人，书面确认机制口径","请各业务域指定责任人并书面确认：①财务审核规则；②强基指数口径；③督办销号佐证标准与逾期升级路径；④催办频率与晾晒规则。机制先书面固化、系统再按此配置，避免“系统上线后规则还在吵”。","会议督办·财务审核·党建驾驶舱","P0 · 各期启动前",[5,10,12,13,17,18,19,25,26,27,28]],
+["请指定知识更新责任人与更新时限","请指定：①制度版本更新与过期下架责任人；②外网法规导入审核责任人；③信披基础数据更新责任人；并明确更新时限（如制度发布后3个工作日内入库）。知识库答案带出处与版本，过期不答。","制度问答·公文文稿","P0 · 一期",[2,3,7,15,22]],
+["请成立项目联合工作组（每专家1名业务对接人）","请成立联合工作组：每个专家1名业务对接人＋信息中心1名接口对接人＋厂商协调窗口；明确例会频率与验收方式（按需求编号逐条验收）。","全项目","P0 · 立项即成立","all"]]}
+];
+const BOUNDARY = [
+{t:"5条需先建载体、AI后接入",d:"№4会议材料汇总查阅、№13个人工作台、№16活动报名签到、№35消防日志采集、№37网络告警采集——需先建文档库/工作台/轻量应用/采集层（平台侧工作），载体就绪后AI接管分析与问答，不计入“开箱即用”承诺。"},
+{t:"1条仅承诺部分自动化",d:"№34对赌/回购自动触发判断：被投企业（尤其非控股）经营数据可得性是最大不确定性；数据通道建立前只做“条款台账＋行权时限提醒＋人工对照”，不承诺自动触发判断。"},
+{t:"“实时”预期按接口能力管理",d:"OA等若无实时推送能力，相关需求降级为T+1批量同步；方案按“接口→只读账号→定时导出→RPA”兜底档位承诺，汇报阶段不做超出接口能力的承诺。"}
+];</script>
+<script>
+// 领导版渲染逻辑：单页滚动（结论→专家卡片→准备清单→折叠附录）
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const byN = {}; ITEMS.forEach(i => byN[i.n] = i);
+// 解析专家覆盖需求（含共享需求的域标注）
+const suiteReqs = SUITES.map(s => ({ ...s, list: s.reqs.split(/[、,，]/).map(t => { t = t.trim(); const m = t.match(/(\d+)/); const note = t.match(/[（(](.+?)[）)]/); return { n: +m[1], note: note ? note[1] : "" }; }) }));
+const reqSuites = {}; suiteReqs.forEach(s => s.list.forEach(r => { (reqSuites[r.n] = reqSuites[r.n] || []).push({ id: s.id, note: r.note }); }));
+const gcount = list => { const c = {A:0,B:0,C:0,D:0}; [...new Set(list.map(r => r.n))].forEach(n => c[byN[n].b]++); return c; };
+const gtext = c => ["A","B","C","D"].filter(k => c[k]).map(k => PLAIN[k] + " " + c[k]).join(" · ");
+
+function renderHead(){
+  const c = {A:0,B:0,C:0,D:0}; ITEMS.forEach(i => c[i.b]++);
+  document.getElementById("sec-head").innerHTML = `
+  <h2 class="sec">结论：38条需求 → 12个专家 → 三期落地</h2>
+  <p class="hint">阅读路径：先看结论数字 → 再看12张专家卡片 → 带走一张浙数侧准备清单；明细在文末折叠附录。</p>
+  <div class="stats">
+    <div class="stat"><div class="num">38<small>条</small></div><div class="lab">需求点</div><div class="ext">7个部门征集、去重合并后口径</div></div>
+    <div class="stat"><div class="num">12<small>个</small></div><div class="lab">待建专家 / 数字员工</div><div class="ext">同类需求归并，一专家覆盖一域</div></div>
+    <div class="stat"><div class="num">8<small>项</small></div><div class="lab">共享底座</div><div class="ext">权限/知识库/督办/连接器等统一建设</div></div>
+    <div class="stat"><div class="num">3<small>期</small></div><div class="lab">落地节奏</div><div class="ext">0-3月快赢 / 3-6月打通 / 6-12月协调类</div></div>
+  </div>
+  <div class="headline">${esc(HEADLINE)}</div>
+  <div class="gradeline">
+    ${["A","B","C","D"].map(k => `<div class="gtag g${k}"><span class="dot d${k}"></span>${PLAIN[k]}<b>${c[k]}</b>条</div>`).join("")}
+  </div>
+  <p class="hint">可行性为大白话口径：可直接做＝不依赖厂商接口；需先打通数据＝依赖OA/NC/党建平台等数据通道；需先建平台＝需先建应用或采集载体；逐条口径见附录A。</p>
+  <div class="redlines">
+    <div class="rl rl1"><b>底线一 · 权限靠系统隔离</b><p>每个身份能看到哪些数据，在数据访问层按身份裁剪；无权限内容在检索结果中不可见、全程留痕——不靠口头约定、不靠AI自觉。</p></div>
+    <div class="rl rl2"><b>底线二 · 金额靠规则计算</b><p>强基指数、假期余额、审核金额、报表勾稽全部由规则引擎确定性计算；AI只负责解释与起草，不估算数字、不编造出处。</p></div>
+  </div>
+  <div class="boundary"><div class="bt">边界说明（汇报口径，不做超出能力的承诺）</div>
+    ${BOUNDARY.map(b => `<div class="bi"><b>${esc(b.t)}：</b>${esc(b.d)}</div>`).join("")}
+  </div>`;
+}
+
+function renderExperts(){
+  document.getElementById("sec-experts").innerHTML = `
+  <h2 class="sec">12个专家：覆盖哪些需求、核心能力、需要浙数配合什么</h2>
+  <p class="hint">点击需求编号可查看该条需求原文与实现要点；蓝底块为需要浙数文化侧配合/提前准备的事项（业务需求单口径：找谁、要什么能力/资料、拿到什么答复），每条末尾附对应需求编号，负责人可按编号对照准备。</p>
+  <div class="legend">${["A","B","C","D"].map(k => `<span><span class="dot d${k}"></span>${PLAIN[k]}</span>`).join("")}<span>· 圆点标在每条需求编号前</span></div>
+  <div class="egrid">${suiteReqs.map(s => { const m = SUITE_META[s.id]; const c = gcount(s.list); return `
+    <div class="ecard">
+      <div class="eh"><span class="sid">${s.id}</span><span class="en">${esc(s.name)}</span><span class="ph ph${s.phase}">${["","一期","二期","三期"][s.phase]}</span></div>
+      <div class="pos">${esc(m.pos)}</div>
+      <div class="blk"><div class="bl">覆盖需求（${s.list.length}条次）</div>
+        <div class="chips">${s.list.map(r => `<button class="rchip" onclick="openModal(${r.n})"><span class="dot d${byN[r.n].b}"></span><span class="nn">№${r.n}</span>${esc(byN[r.n].name)}${r.note ? `<span class="note">（${esc(r.note)}）</span>` : ""}</button>`).join("")}</div>
+        <div class="gcount">${gtext(c)}</div>
+      </div>
+      <div class="blk"><div class="bl">核心能力</div><ul>${m.caps.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div class="blk coop"><div class="bl">需浙数文化配合 / 提前准备</div><ul>${m.coop.map(x => `<li>${esc(x.t)}<span class="rrefs">${x.r.map(n => `<button class="rn" onclick="openModal(${n})" title="查看需求№${n}原文">№${n}</button>`).join("")}</span></li>`).join("")}</ul></div>
+    </div>`; }).join("")}
+  </div>`;
+}
+
+function renderPrep(){
+  document.getElementById("sec-prep").innerHTML = `
+  <h2 class="sec">浙数文化侧准备总清单（12专家配合事项汇总去重）</h2>
+  <p class="hint">会后带走的一张表：派给谁、先启动哪件；“对应需求”列标明每项准备服务的需求编号（点击可看原文），负责人按编号对照准备。<span class="pw pt0">P0</span>＝决定项目能否启动、建议立即指派；<span class="pw pt1">P1</span>＝对应期启动前完成即可。</p>
+  ${PREP.map(g => `<div class="pgroup card"><div class="pg">${esc(g.g)}（${g.items.length}项）</div>
+    <div class="tscroll"><table><thead><tr><th style="width:16%">准备事项</th><th style="width:36%">具体内容与交付物</th><th style="width:18%">对应需求</th><th style="width:16%">服务专家</th><th style="width:14%">优先级与时点</th></tr></thead>
+    <tbody>${g.items.map(it => `<tr><td class="pw">${esc(it[0])}</td><td>${esc(it[1])}</td><td>${it[4] === "all" ? `<span class="mini">全部38条</span>` : it[4].map(n => `<button class="rn" onclick="openModal(${n})" title="查看需求№${n}原文">№${n}</button>`).join("")}</td><td>${esc(it[2])}</td><td class="pw ${it[3].startsWith("P0") ? "pt0" : "pt1"}">${esc(it[3])}</td></tr>`).join("")}</tbody></table></div>
+  </div>`).join("")}`;
+}
+
+function renderAppendix(){
+  document.getElementById("sec-appendix").innerHTML = `
+  <h2 class="sec">附录（默认折叠，供业务同事对照明细）</h2>
+  <p class="hint">领导汇报无需展开；业务同事可展开查自己提的那条需求、以及风险与待确认清单。</p>
+  <details class="app" id="appA"><summary>附录A · 38条需求速查<span class="mini">点击展开 · 支持搜索 · 点行看六维分析</span></summary>
+    <div class="appbody"><div class="tools"><input type="search" id="q" placeholder="搜索需求名称 / 关键词 / 部门…" oninput="filterReqs()"></div>
+    <div class="tscroll"><table><thead><tr><th style="width:5%">№</th><th style="width:33%">需求名称</th><th style="width:17%">提出部门·条线</th><th style="width:27%">归属专家</th><th style="width:18%">可行性</th></tr></thead>
+    <tbody id="reqtbody">${ITEMS.map(i => `<tr class="reqrow" onclick="openModal(${i.n})"><td>${i.n}</td><td>${esc(i.name)}</td><td>${esc(i.dept)}·${esc(i.line)}</td><td>${(reqSuites[i.n]||[]).map(s => SHORT[s.id]).join("、")}</td><td><span class="badge b${i.b}">${PLAIN[i.b]}</span></td></tr>`).join("")}</tbody></table></div>
+    <p class="mini" id="reqcount" style="margin-top:8px"></p></div>
+  </details>
+  <details class="app" id="appB"><summary>附录B · 风险与待确认<span class="mini">${RISKS.length}项风险 · ${QUESTIONS.length}条待确认（可勾选跟进）</span></summary>
+    <div class="appbody">
+      <div class="blk" style="margin-top:12px"><div class="bl">主要风险与兜底</div>
+      ${RISKS.map(r => `<div class="risk"><b>№${esc(r[0])} ${esc(r[1])}：</b>${esc(r[2])}</div>`).join("")}</div>
+      <div class="blk" style="margin-top:14px"><div class="bl">待确认清单 <span class="mini" id="qdone">0/${QUESTIONS.length}</span></div>
+      ${QUESTIONS.map((q,i) => `<div class="check"><input type="checkbox" id="ck${i}" onchange="ckTick(this)"><label for="ck${i}">${esc(q)}</label></div>`).join("")}</div>
+    </div>
+  </details>`;
+  filterReqs();
+}
+function filterReqs(){
+  const q = (document.getElementById("q").value || "").trim();
+  let n = 0;
+  ITEMS.forEach(i => {
+    const hit = !q || (i.name + i.point + i.dept + i.line).includes(q);
+    const rows = document.querySelectorAll("#reqtbody tr");
+    rows[i.n - 1].style.display = hit ? "" : "none";
+    if (hit) n++;
+  });
+  document.getElementById("reqcount").textContent = q ? `匹配 ${n} / 38 条` : "共 38 条 · 点击行查看原文与实现要点";
+}
+function ckTick(el){
+  el.closest(".check").classList.toggle("done", el.checked);
+  const done = document.querySelectorAll("#appB .check input:checked").length;
+  document.getElementById("qdone").textContent = done + "/" + QUESTIONS.length;
+}
+function openModal(n){
+  const i = byN[n];
+  const ss = (reqSuites[n]||[]).map(s => SHORT[s.id] + (s.note ? "（" + s.note + "）" : "")).join("、");
+  document.getElementById("mcontent").innerHTML = `
+    <h3>№${i.n} ${esc(i.name)}</h3>
+    <div class="meta">${esc(i.dept)} · ${esc(i.line)} ｜ 归属专家：${esc(ss)} ｜ <span class="badge b${i.b}">${PLAIN[i.b]}</span>${i.sens ? ` <span class="badge" style="background:#b91c1c">敏感</span>` : ""}</div>
+    <div class="dim"><div class="dl">需求原文要点</div><div class="dc">${esc(i.point)}</div></div>
+    <div class="dim"><div class="dl">可行性结论</div><div class="dc">${esc(i.feas)}</div></div>
+    <div class="dim"><div class="dl">依赖输入</div><div class="dc">${esc(i.input)}</div></div>
+    <div class="dim"><div class="dl">数据打通方式</div><div class="dc">${esc(i.connect)}</div></div>
+    <div class="dim"><div class="dl">权限隔离设计</div><div class="dc">${esc(i.perm)}</div></div>`;
+  document.getElementById("modal").classList.add("on");
+}
+function closeModal(){ document.getElementById("modal").classList.remove("on"); }
+document.getElementById("modal").addEventListener("click", e => { if (e.target.id === "modal") closeModal(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+renderHead(); renderExperts(); renderPrep(); renderAppendix();</script>
+</body></html>
