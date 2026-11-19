@@ -3,9 +3,12 @@
  * fetch-aihot-daily.mjs — 从 AIHOT API 抓取每日 AI 快讯，格式化为博客文章并推送
  *
  * 兜底策略：
- * 1. 调 AIHOT daily API (主力, 10s 超时)
- * 2. 失败 → fallback 到 items API v1 (since=24h, 10s 超时)
- * 3. 都失败 → 跳过本次，退出码 0，不写空文件
+ * 1. 调 AIHOT v1 daily API (主力, 10s 超时)
+ * 2. 失败 → fallback 到 v1 items API (window=24h, 10s 超时)
+ * 3. 都失败 → 不写空文件，退出码 1（让定时任务标记失败，不再静默）
+ *
+ * 注意：AIHOT 已于 2026-10-31 停用 aihot.virxact.com 的 /api/public/* 旧接口，
+ * 域名跳转到 aihot.news，接口迁移到 /api/v1/*。旧接口只会返回 404。
  *
  * 用法: node scripts/fetch-aihot-daily.mjs
  */
@@ -19,8 +22,13 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_DIR = join(__dirname, '..', 'src', 'content', 'blog');
 const SITE_DIR = join(__dirname, '..');
 
-const AIHOT_BASE = 'https://aihot.virxact.com';
+const AIHOT_BASE = 'https://aihot.news';
 const FETCH_TIMEOUT_MS = 10000;
+
+// /api/public/* 有 UA 黑名单，且 v1 要求标识调用方；统一带上浏览器 UA + skill 标识
+const AIHOT_UA =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
+  '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 aihot-skill/0.3.0';
 
 // 北京时间日期
 const now = new Date();
@@ -58,28 +66,34 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = FETCH_TIMEOUT_MS)
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const res = await fetch(url, { ...options, signal: controller.signal });
+    const res = await fetch(url, {
+      ...options,
+      headers: { 'User-Agent': AIHOT_UA, Accept: 'application/json', ...(options.headers || {}) },
+      signal: controller.signal,
+    });
     return res;
   } finally {
     clearTimeout(timer);
   }
 }
 
-// 主力：daily API
+// 主力：v1 latest daily API
 async function fetchDaily() {
-  console.log('📡 尝试 AIHOT daily API...');
-  const res = await fetchWithTimeout(`${AIHOT_BASE}/api/public/daily`);
+  console.log('📡 尝试 AIHOT v1 daily API...');
+  const res = await fetchWithTimeout(`${AIHOT_BASE}/api/v1/dailies/latest`);
   if (!res.ok) throw new Error(`daily API HTTP ${res.status}`);
   const data = await res.json();
-  if (!data.sections || data.sections.length === 0) throw new Error('daily API 返回空 sections');
-  return { source: 'daily', data };
+  const report = data.report;
+  if (!report || !report.sections || report.sections.length === 0) {
+    throw new Error('daily API 返回空 sections');
+  }
+  return { source: 'daily', data: report };
 }
 
-// fallback：items API v1 (过去24小时精选)
+// fallback：v1 items API (过去24小时精选)
 async function fetchItems24h() {
-  console.log('📡 fallback 到 AIHOT items API v1 (24h)...');
-  const since = new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString();
-  const url = `${AIHOT_BASE}/api/v1/items?mode=selected&since=${encodeURIComponent(since)}&limit=50`;
+  console.log('📡 fallback 到 AIHOT v1 items API (24h)...');
+  const url = `${AIHOT_BASE}/api/v1/items?mode=selected&window=24h&limit=50`;
   const res = await fetchWithTimeout(url);
   if (!res.ok) throw new Error(`items API HTTP ${res.status}`);
   const data = await res.json();
@@ -96,18 +110,18 @@ function parseDaily(data) {
     sections[section.label] = (section.items || []).map(item => ({
       title: item.title || '',
       summary: item.summary || '',
-      source: item.sourceName || '',
-      url: item.sourceUrl || '',
-      permalink: item.sourceUrl || item.permalink || '', // 优先原帖链接
+      source: item.source?.name || '',
+      url: item.links?.original || '',
+      permalink: item.links?.original || item.links?.aihot || '', // 优先原帖链接
     }));
   }
   // 快讯
   const flashes = (data.flashes || []).map(f => ({
     title: f.title || '',
     summary: '',
-    source: f.sourceName || '',
-    url: f.sourceUrl || '',
-    permalink: f.sourceUrl || f.permalink || '', // 优先原帖链接
+    source: f.source?.name || '',
+    url: f.links?.original || '',
+    permalink: f.links?.original || f.links?.aihot || '', // 优先原帖链接
     isFlash: true,
   }));
   if (flashes.length > 0) {
@@ -186,7 +200,7 @@ function formatBlog(sections, sourceType) {
   }
 
   // footer
-  md += `\n*本文由 [AIHOT](https://aihot.virxact.com) 提供数据支持，每日自动生成。*\n`;
+  md += `\n*本文由 [AIHOT](https://aihot.news) 提供数据支持，每日自动生成。*\n`;
 
   console.log(`📝 格式化完成：${totalItems} 条，来源 ${sourceType}`);
   return md;
@@ -238,8 +252,8 @@ async function main() {
       result = await fetchItems24h();
     } catch (e2) {
       console.error(`⚠️ items API 也失败: ${e2.message}`);
-      console.log('🚫 AIHOT 不可达，跳过本次（退出码 0）');
-      process.exit(0); // 不报错，下次再来
+      console.log('🚫 AIHOT 不可达，跳过本次（退出码 1，让定时任务报错可见）');
+      process.exit(1);
     }
   }
 
