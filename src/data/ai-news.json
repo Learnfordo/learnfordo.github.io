@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-19T11:56:22.134Z",
+  "updatedAt": "2026-11-20T03:18:31.580Z",
   "items": [
+    {
+      "date": "2026-11-19",
+      "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
+      "summary": "Large language models (LLMs) support scientific research, but some of that assistance can also undermine research integrity. Existing safety evaluations in science often measure whether models refuse ",
+      "url": "https://arxiv.org/abs/2611.25492v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "When Should a Voice Agent Speak? End-of-Turn Detection in Turkish",
+      "summary": "A voice agent that waits for a fixed silence before replying either interrupts users who pause mid-utterance or responds late to users who have finished. This study examines the decision at the onset ",
+      "url": "https://arxiv.org/abs/2611.25489v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Planning Width Is Hard to Approximate Even Given the Unique Optimal Plan",
+      "summary": "For each fixed $k$, iterative-width search finds optimal plans in polynomial time on tasks of bounded tuple-chain width, but the approximability of planning width has remained open even when an optima",
+      "url": "https://arxiv.org/abs/2611.25484v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "AIstatLab at BraTS-GoAT 2026 Task 3: Quality-Controlled Consensus Pseudo-Labeling and Dense Expert Adaptation",
+      "summary": "BraTS-GoAT Task 3 evaluates brain-tumor segmentation across heterogeneous entities using shared ET, TC, and WT regions. We present a 3D ResidualEncoderUNet trained with quality-controlled consensus ps",
+      "url": "https://arxiv.org/abs/2611.25477v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+      "summary": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming ",
+      "url": "https://arxiv.org/abs/2611.25476v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins",
+      "summary": "Physics-based digital twins of air conditioning, a principal energy consumer in manufacturing and buildings, can be generated automatically from a declarative specification of its equipment, connectio",
+      "url": "https://arxiv.org/abs/2611.25471v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps",
+      "summary": "An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR)",
+      "url": "https://arxiv.org/abs/2611.25469v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Dimension-Free Buffer Bounds for Compressed-Momentum Error Feedback",
+      "summary": "Analyses of error feedback bound the memory buffer through a compressor contraction constant -- $r/p$ for the best rank-$r$ approximation of a $p$-dimensional spectrum -- which survives into the rate.",
+      "url": "https://arxiv.org/abs/2611.25463v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Demonstration-Free Skill Composition for Navigation and Manipulation",
+      "summary": "Hierarchical reinforcement learning enables sequential tasks to be represented as compositions of separately trained skills. This paper evaluates demonstration-free hierarchical pipelines for MiniGrid",
+      "url": "https://arxiv.org/abs/2611.25462v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+      "summary": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve pas",
+      "url": "https://arxiv.org/abs/2611.25461v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Anthropic’s Nasdaq debut",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 968
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 414
+    },
+    {
+      "date": "2026-11-19",
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "summary": "via globalcommercegraph.com",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 221
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "summary": "via git-aarvin.github.io",
+      "url": "https://git-aarvin.github.io/mei/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 194
+    },
+    {
+      "date": "2026-11-17",
+      "title": "An Oregon library ditched Dewey Decimal and got people excited about books again",
+      "summary": "via www.fastcompany.com",
+      "url": "https://www.fastcompany.com/91597520/oregon-library-ditched-dewey-decimal-wayfinding-system",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 208
+    },
     {
       "date": "2026-11-18",
       "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
@@ -314,144 +449,6 @@
       "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
       "summary": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for inte",
       "url": "https://arxiv.org/abs/2611.21602v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "How VLMs Plan What's Next",
-      "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM",
-      "url": "https://arxiv.org/abs/2611.21600v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
-      "summary": "We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural netw",
-      "url": "https://arxiv.org/abs/2611.21599v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-      "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evo",
-      "url": "https://arxiv.org/abs/2611.21598v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
-      "summary": "We study how to learn an autoregressive next-token generator $f\\colonΣ^\\star\\toΣ$ from a class $\\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a s",
-      "url": "https://arxiv.org/abs/2611.21597v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
-      "summary": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representati",
-      "url": "https://arxiv.org/abs/2611.21596v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
-      "summary": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of S",
-      "url": "https://arxiv.org/abs/2611.21594v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
-      "summary": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we desi",
-      "url": "https://arxiv.org/abs/2611.21586v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "summary": "via xusheng.dev",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 597
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-      "summary": "via www.theregister.com",
-      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 321
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Spamhaus new email sender requirements in November",
-      "summary": "via www.spamhaus.org",
-      "url": "https://www.spamhaus.org/sender-guidelines/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 109
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-      "summary": "via forum.torproject.org",
-      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 133
-    },
-    {
-      "date": "2026-11-15",
-      "title": "A short explainer on how El Niño works [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 227
-    },
-    {
-      "date": "2026-11-15",
-      "title": "WebGL Flight Simulator with seed generated terrain",
-      "summary": "via baron.by.dai.studio",
-      "url": "https://baron.by.dai.studio/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 135
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-      "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The A",
-      "url": "https://arxiv.org/abs/2611.18563v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
-      "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural ac",
-      "url": "https://arxiv.org/abs/2611.18561v1",
       "tags": [],
       "source": "arXiv"
     }
