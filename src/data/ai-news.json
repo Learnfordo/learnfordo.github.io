@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-20T04:30:40.540Z",
+  "updatedAt": "2026-11-20T09:10:26.213Z",
   "items": [
+    {
+      "date": "2026-11-19",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering reques",
+      "url": "https://arxiv.org/abs/2611.26627v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We pro",
+      "url": "https://arxiv.org/abs/2611.26624v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and ",
+      "url": "https://arxiv.org/abs/2611.26619v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics",
+      "url": "https://arxiv.org/abs/2611.26617v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, exi",
+      "url": "https://arxiv.org/abs/2611.26613v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Bio-PM-Guided Synthetic IMU Generation",
+      "summary": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individua",
+      "url": "https://arxiv.org/abs/2611.26607v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trad",
+      "url": "https://arxiv.org/abs/2611.26603v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+      "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulner",
+      "url": "https://arxiv.org/abs/2611.26601v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+      "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy ",
+      "url": "https://arxiv.org/abs/2611.26598v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+      "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and",
+      "url": "https://arxiv.org/abs/2611.26596v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Anthropic’s Nasdaq debut",
+      "summary": "via www.reuters.com",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1070
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "summary": "via www.anthropic.com",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 493
+    },
+    {
+      "date": "2026-11-19",
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "summary": "via globalcommercegraph.com",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 281
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "summary": "via thedataexchange.media",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 238
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "summary": "via www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 103
+    },
     {
       "date": "2026-11-19",
       "title": "When Do Rankings Beat Signs? Gradient Direction Recovery under Even Nuisance",
@@ -83,28 +218,6 @@
     },
     {
       "date": "2026-11-19",
-      "title": "Anthropic’s Nasdaq debut",
-      "summary": "via www.reuters.com",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 1004
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Claude solves two open problems in the physics of black holes",
-      "summary": "via www.anthropic.com",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 431
-    },
-    {
-      "date": "2026-11-19",
       "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
       "summary": "via git-aarvin.github.io",
       "url": "https://git-aarvin.github.io/mei/",
@@ -113,17 +226,6 @@
       ],
       "source": "HN",
       "score": 265
-    },
-    {
-      "date": "2026-11-19",
-      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-      "summary": "via globalcommercegraph.com",
-      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 232
     },
     {
       "date": "2026-11-17",
@@ -328,117 +430,6 @@
       ],
       "source": "HN",
       "score": 262
-    },
-    {
-      "date": "2026-11-18",
-      "title": "LLM assisted reverse engineering",
-      "summary": "via www.slowchronicle.com",
-      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 235
-    },
-    {
-      "date": "2026-11-18",
-      "title": "DaisyRose-27B",
-      "summary": "via www.radixark.com",
-      "url": "https://www.radixark.com/blog/daisyrose-27b",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 223
-    },
-    {
-      "date": "2026-11-18",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "summary": "via europeanbusinessmagazine.com",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 456
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Google's AI answers reducing search traffic by 40%",
-      "summary": "via revscope.co",
-      "url": "https://revscope.co/blog/search-seo-geo-2026/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 353
-    },
-    {
-      "date": "2026-11-18",
-      "title": "AI is killing All About Berlin",
-      "summary": "via nicolasbouliane.com",
-      "url": "https://nicolasbouliane.com/blog/death-by-ai",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 261
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets ",
-      "url": "https://arxiv.org/abs/2611.23229v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid",
-      "url": "https://arxiv.org/abs/2611.23228v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapt",
-      "url": "https://arxiv.org/abs/2611.23225v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
-      "summary": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative re",
-      "url": "https://arxiv.org/abs/2611.23221v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a b",
-      "url": "https://arxiv.org/abs/2611.23219v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-      "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statis",
-      "url": "https://arxiv.org/abs/2611.23218v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-      "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026,",
-      "url": "https://arxiv.org/abs/2611.23216v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
