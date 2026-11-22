@@ -1,49 +1,38 @@
 {
-  "updatedAt": "2026-11-21T08:45:23.469Z",
+  "updatedAt": "2026-11-22T08:49:35.425Z",
   "items": [
     {
-      "date": "2026-11-20",
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "summary": "via alpo.ge",
-      "url": "https://alpo.ge/remark.pdf",
+      "date": "2026-11-22",
+      "title": "The Mythology of Conscious AI",
+      "summary": "via www.noemamag.com",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 2578
+      "score": 56
     },
     {
-      "date": "2026-11-20",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "date": "2026-11-21",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "summary": "via www.pandex.io",
+      "url": "https://www.pandex.io",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 400
+      "score": 82
     },
     {
       "date": "2026-11-20",
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 284
-    },
-    {
-      "date": "2026-11-20",
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "summary": "via ninlive.com",
-      "url": "https://ninlive.com/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 236
+      "score": 934
     },
     {
       "date": "2026-11-19",
@@ -124,6 +113,61 @@
       "url": "https://arxiv.org/abs/2611.26596v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "LLMs can read and write executables byte by byte from a hex dump",
+      "summary": "via sgiannopoulos.github.io",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 236
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "summary": "via alpo.ge",
+      "url": "https://alpo.ge/remark.pdf",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 2578
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 400
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 284
+    },
+    {
+      "date": "2026-11-20",
+      "title": "NINLIVE: The Nine Inch Nails live archive",
+      "summary": "via ninlive.com",
+      "url": "https://ninlive.com/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 236
     },
     {
       "date": "2026-11-17",
@@ -402,38 +446,6 @@
       "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
       "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit require",
       "url": "https://arxiv.org/abs/2611.24924v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
-      "summary": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect general",
-      "url": "https://arxiv.org/abs/2611.24908v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
-      "summary": "We present a general framework for modeling and learning equivariant functions between finite dimensional semisimple real group representations, unifying constructions developed across many applicatio",
-      "url": "https://arxiv.org/abs/2611.24896v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "On Evaluating User Simulators for Interactive Agents",
-      "summary": "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation fram",
-      "url": "https://arxiv.org/abs/2611.24892v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
-      "summary": "A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. ",
-      "url": "https://arxiv.org/abs/2611.24891v1",
       "tags": [],
       "source": "arXiv"
     }
