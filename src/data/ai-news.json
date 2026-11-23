@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-11-22T08:49:35.425Z",
+  "updatedAt": "2026-11-23T01:56:29.654Z",
   "items": [
     {
       "date": "2026-11-22",
-      "title": "The Mythology of Conscious AI",
-      "summary": "via www.noemamag.com",
-      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "summary": "via github.com",
+      "url": "https://github.com/gulivan/worker755",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 56
+      "score": 272
     },
     {
-      "date": "2026-11-21",
-      "title": "Pandex – Official European Law for AI Agents, over MCP",
-      "summary": "via www.pandex.io",
-      "url": "https://www.pandex.io",
+      "date": "2026-11-22",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "summary": "via www.gpupartner.com",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 82
+      "score": 229
     },
     {
-      "date": "2026-11-20",
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "summary": "via www.theguardian.com",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "date": "2026-11-22",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "summary": "via pequalnp.com",
+      "url": "https://pequalnp.com/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 934
+      "score": 111
     },
     {
       "date": "2026-11-19",
@@ -113,6 +113,39 @@
       "url": "https://arxiv.org/abs/2611.26596v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "The Mythology of Conscious AI",
+      "summary": "via www.noemamag.com",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 56
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "summary": "via www.pandex.io",
+      "url": "https://www.pandex.io",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 82
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "summary": "via www.theguardian.com",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 934
     },
     {
       "date": "2026-11-18",
@@ -422,30 +455,6 @@
       "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
       "summary": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without ",
       "url": "https://arxiv.org/abs/2611.24936v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-      "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the align",
-      "url": "https://arxiv.org/abs/2611.24932v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-      "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationsh",
-      "url": "https://arxiv.org/abs/2611.24927v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
-      "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit require",
-      "url": "https://arxiv.org/abs/2611.24924v1",
       "tags": [],
       "source": "arXiv"
     }
