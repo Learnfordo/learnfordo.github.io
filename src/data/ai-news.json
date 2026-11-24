@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-24T11:36:06.685Z",
+  "updatedAt": "2026-11-24T16:04:26.975Z",
   "items": [
+    {
+      "date": "2026-11-24",
+      "title": "LLM agents work for their parent companies, not for you",
+      "summary": "via michaelharley.net",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 493
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Anthropic is below its IPO price",
+      "summary": "via www.msn.com",
+      "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 90
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Declare is a UI language for you and your AI",
+      "summary": "via davidtemkin.github.io",
+      "url": "https://davidtemkin.github.io/declarelang/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 86
+    },
     {
       "date": "2026-11-23",
       "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
@@ -90,7 +123,7 @@
         "Hacker News"
       ],
       "source": "HN",
-      "score": 1731
+      "score": 1898
     },
     {
       "date": "2026-11-23",
@@ -427,39 +460,6 @@
       ],
       "source": "HN",
       "score": 493
-    },
-    {
-      "date": "2026-11-19",
-      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-      "summary": "via globalcommercegraph.com",
-      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 281
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-      "summary": "via thedataexchange.media",
-      "url": "https://thedataexchange.media/pete-warden-moonshine/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 238
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
-      "summary": "via www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 103
     }
   ]
 }
