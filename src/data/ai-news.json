@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-11-23T09:46:17.615Z",
+  "updatedAt": "2026-11-24T11:36:06.685Z",
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+      "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study str",
+      "url": "https://arxiv.org/abs/2611.31240v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained v",
+      "url": "https://arxiv.org/abs/2611.31237v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+      "summary": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails wh",
+      "url": "https://arxiv.org/abs/2611.31233v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This s",
+      "url": "https://arxiv.org/abs/2611.31228v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "How Far Can Linear Go? BiPert, a Unified Framework for Single-Cell Perturbation Modelling",
+      "summary": "Understanding how genetic perturbations affect cellular behaviour is essential for studying gene function and regulatory mechanisms. Large-scale CRISPR screens measure these effects across thousands o",
+      "url": "https://arxiv.org/abs/2611.31227v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+      "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains undere",
+      "url": "https://arxiv.org/abs/2611.31225v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+      "summary": "Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches",
+      "url": "https://arxiv.org/abs/2611.31223v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
+      "summary": "Radiology reports describe findings in text only, without visually marking them on the scan, so readers cannot directly see which abnormality each reported finding refers to. We introduce CTLink, a te",
+      "url": "https://arxiv.org/abs/2611.31222v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "LeJEPA Features Are Not Isotropic, and Should Not Be",
+      "summary": "The SIGReg term in LeJEPA regularizes features to have an isotropic Gaussian distribution. Our first result is to show that this regularizer, in practice, cannot achieve its goal. We design a modified",
+      "url": "https://arxiv.org/abs/2611.31216v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
+      "summary": "Humans explore unfamiliar spaces with purpose, deciding where to look until they have gathered the evidence a spatial question requires. However, can vision-language models (VLMs), which reason increa",
+      "url": "https://arxiv.org/abs/2611.31215v1",
+      "tags": [],
+      "source": "arXiv"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1731
+    },
+    {
+      "date": "2026-11-23",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "summary": "via z.ai",
+      "url": "https://z.ai/blog/glm-5.4",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 1137
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2602.20031",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 63
+    },
     {
       "date": "2026-11-22",
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
@@ -347,116 +460,6 @@
       ],
       "source": "HN",
       "score": 103
-    },
-    {
-      "date": "2026-11-19",
-      "title": "When Do Rankings Beat Signs? Gradient Direction Recovery under Even Nuisance",
-      "summary": "Can ranking a batch of antipodal query pairs recover a gradient direction with fewer evaluations than using within-pair signs alone? We study fixed-center recovery in $d$ dimensions for a linear signa",
-      "url": "https://arxiv.org/abs/2611.26055v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning",
-      "summary": "Humanoid locomotion research has advanced rapidly on walking and running, but \\emph {object-mediated} locomotion, in which a robot must coordinate its body with a passive external object, remains diff",
-      "url": "https://arxiv.org/abs/2611.26054v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
-      "summary": "The European Union's Artificial Intelligence Act (AI Act) entered into force in August 2024, and its obligations apply in stages. Obligations for providers of general-purpose AI models have applied si",
-      "url": "https://arxiv.org/abs/2611.26050v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data",
-      "summary": "Roadside LiDAR detectors are expensive to train on real labels, and digital twins promise to replace these labels, but a detector trained on a twin meets a different sensor, different objects and diff",
-      "url": "https://arxiv.org/abs/2611.26035v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines",
-      "summary": "Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM). Device detection addresses possession; a complementary question is whether an examination documen",
-      "url": "https://arxiv.org/abs/2611.26033v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "The Delayed Societal Cost of Unfairness",
-      "summary": "Fair machine learning typically evaluates the societal costs of a decision policy -- the loss incurred by the decision-maker (DM) and the unfair distribution of costs among demographic groups of decis",
-      "url": "https://arxiv.org/abs/2611.26030v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Serialization Tax in Shared-Latent Exchangeable Decisions",
-      "summary": "Accurate item probabilities can produce inaccurate group-level decisions. A system may score each item separately, yet act on whether enough hidden items succeed: show a slate, defer a panel decision,",
-      "url": "https://arxiv.org/abs/2611.26029v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
-      "summary": "Long-form video understanding, as a fundamental yet crucial vision task, is being revolutionized by multimodal large language model (MLLM)-based video agents. However, the retrieval-driven nature inhe",
-      "url": "https://arxiv.org/abs/2611.26024v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "FrontierReplay: Split-Free Exact Prefix Caching for Hybrid Language Models",
-      "summary": "Hybrid language models combine self-attention with recurrent layers whose in-place state updates restrict prefix reuse to exact saved positions. Saving states on a coarse grid wastes reusable prefixes",
-      "url": "https://arxiv.org/abs/2611.26020v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Does the Workspace Do the Work? A Causal Protocol for Verifying Global-Workspace Computation in a Language Model",
-      "summary": "Global Workspace Theory (GWT), a leading theory of consciousness, holds that information becomes conscious when it is broadcast to specialized processes that use it. Building a workspace into a networ",
-      "url": "https://arxiv.org/abs/2611.26018v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-      "summary": "via git-aarvin.github.io",
-      "url": "https://git-aarvin.github.io/mei/",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 265
-    },
-    {
-      "date": "2026-11-17",
-      "title": "An Oregon library ditched Dewey Decimal and got people excited about books again",
-      "summary": "via www.fastcompany.com",
-      "url": "https://www.fastcompany.com/91597520/oregon-library-ditched-dewey-decimal-wayfinding-system",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 212
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
-      "summary": "Large language models (LLMs) support scientific research, but some of that assistance can also undermine research integrity. Existing safety evaluations in science often measure whether models refuse ",
-      "url": "https://arxiv.org/abs/2611.25492v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
