@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-11-26T10:01:31.627Z",
+  "updatedAt": "2026-11-27T10:07:25.226Z",
   "items": [
     {
-      "date": "2026-11-26",
-      "title": "Tell HN: Lots of Ask HNs again",
-      "summary": "There have been questions about why the &#x2F;ask page (https:&#x2F;&#x2F;news.ycombinator.c",
-      "url": "https://news.ycombinator.com/item?id=50649864",
+      "date": "2026-11-27",
+      "title": "The group chat where your AI talks behind your back",
+      "summary": "via construct22.com",
+      "url": "https://construct22.com/",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 265
+      "score": 232
     },
     {
       "date": "2026-11-26",
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "summary": "via twitter.com",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "title": "AI made self-hosting fun again",
+      "summary": "via janlukas.blog",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
       "tags": [
         "Hacker News"
       ],
       "source": "HN",
-      "score": 247
+      "score": 702
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "summary": "via techstackups.com",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 330
+    },
+    {
+      "date": "2026-11-26",
+      "title": "An algebraic quantization of gravity from the null cone",
+      "summary": "via arxiv.org",
+      "url": "https://arxiv.org/abs/2611.34924",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 241
     },
     {
       "date": "2026-11-25",
@@ -102,6 +124,39 @@
       "url": "https://arxiv.org/abs/2611.34894v1",
       "tags": [],
       "source": "arXiv"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "The USAID Files",
+      "summary": "via reclaimthenet.org",
+      "url": "https://reclaimthenet.org/usaid-files",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 256
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Tell HN: Lots of Ask HNs again",
+      "summary": "There have been questions about why the &#x2F;ask page (https:&#x2F;&#x2F;news.ycombinator.c",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 265
+    },
+    {
+      "date": "2026-11-26",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "summary": "via twitter.com",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "tags": [
+        "Hacker News"
+      ],
+      "source": "HN",
+      "score": 247
     },
     {
       "date": "2026-11-25",
@@ -405,55 +460,6 @@
       ],
       "source": "HN",
       "score": 1137
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
-      "summary": "via arxiv.org",
-      "url": "https://arxiv.org/abs/2602.20031",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 63
-    },
-    {
-      "date": "2026-11-22",
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "summary": "via www.gpupartner.com",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 498
-    },
-    {
-      "date": "2026-11-22",
-      "title": "Show HN: I built a game where you are an LLM's subagent",
-      "summary": "via github.com",
-      "url": "https://github.com/gulivan/worker755",
-      "tags": [
-        "Hacker News"
-      ],
-      "source": "HN",
-      "score": 317
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Optimal Linear Regression Without a Variance",
-      "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates ma",
-      "url": "https://arxiv.org/abs/2611.27983v1",
-      "tags": [],
-      "source": "arXiv"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&amp;P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
-      "summary": "This study examines one-day-ahead forecasting of the S&amp;P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical featur",
-      "url": "https://arxiv.org/abs/2611.27978v1",
-      "tags": [],
-      "source": "arXiv"
     }
   ]
 }
